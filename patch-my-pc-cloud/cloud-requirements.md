@@ -1,3 +1,7 @@
+---
+description: Example page description
+---
+
 # Cloud Requirements
 
 _Applies to: Patch My PC Cloud_
