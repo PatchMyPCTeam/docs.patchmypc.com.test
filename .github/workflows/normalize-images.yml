@@ -35,8 +35,7 @@ jobs:
       - name: Ensure _images exists (flat)
         run: mkdir -p _images
 
-      # FLATTEN: copy every file under .gitbook/assets into _images (no folders).
-      # If two files share the same basename, the last one wins (warns).
+      # Copy every file under .gitbook/assets into _images (flat).
       - name: Copy from .gitbook/assets → _images (flat)
         shell: bash
         run: |
@@ -61,66 +60,102 @@ jobs:
             fi
           fi
 
-      # REWRITE: turn any .../.gitbook/assets/... or relative _images links into /_images/filename
-      # and percent-encode spaces/() in the URL target.
-      - name: Rewrite links to /_images for Git it Write (Python)
+      # Rewrite any links to site-root /_images/<file>, stripping ALL prefixes.
+      - name: Rewrite links to /_images/* for Git it Write (Python)
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import re, glob, os
+          import re, glob
 
-          def enc(path: str) -> str:
-            return path.replace(' ', '%20').replace('(', '%28').replace(')', '%29')
+          def enc(u: str) -> str:
+              return u.replace(' ', '%20').replace('(', '%28').replace(')', '%29')
 
-          patterns = ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
+          md_globs = ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
           files = []
-          for p in patterns:
-            files.extend(glob.glob(p, recursive=True))
+          for g in md_globs:
+              files.extend(glob.glob(g, recursive=True))
+
+          # Helpers that normalize any prefix before /_images/
+          def strip_md_inline(s: str) -> str:
+              # ]( ANYTHING/_images/<name> [title] ) -> ](/_images/<name> [title])
+              return re.sub(r"\]\(\s*<?[^)\s\"']*?/_images/([^)\s\"'>]+)", r"](/_images/\1", s)
+
+          def strip_html_src(s: str) -> str:
+              s = re.sub(r'\bsrc\s*=\s*"[^"]*?/_images/([^"]+)"', r'src="/_images/\1"', s)
+              s = re.sub(r"\bsrc\s*=\s*'[^']*?/_images/([^']+)'", r"src='/_images/\1'", s)
+              return s
+
+          def strip_ref_links(s: str) -> str:
+              # [id]: ANYTHING/_images/<name> (keep trailing title part)
+              return re.sub(r'(?im)^(\[[^\]]+\]:\s*)[^\s]*?/_images/(\S+)$', r'\1/_images/\2', s)
 
           for path in files:
-            with open(path, "r", encoding="utf-8") as f:
-              s = f.read()
-            orig = s
+              txt = open(path, encoding="utf-8").read()
+              orig = txt
 
-            # 1) Replace any '/.gitbook/assets/<name>' (in links, src, refs, GitHub raw URLs, etc.)
-            s = s.replace("/.gitbook/assets/", "/_images/")
+              # 1) .gitbook/assets → _images
+              txt = txt.replace("/.gitbook/assets/", "/_images/")
 
-            # 2) Normalize any relative _images → /_images
-            s = re.sub(r"\]\(\s*<?(?:\.\./)+_images/", "](/_images/", s)
-            s = re.sub(r"\]\(\s*<?_images/", "](/_images/", s)
-            s = re.sub(r'\bsrc\s*=\s*"(?:\.\./)+_images/', 'src="/_images/', s)
-            s = re.sub(r'\bsrc\s*=\s*"_images/', 'src="/_images/', s)
-            s = re.sub(r"\bsrc\s*=\s*'(?:\.\./)+_images/", "src='/_images/", s)
-            s = re.sub(r"\bsrc\s*=\s*'_images/", "src='/_images/", s)
-            s = re.sub(r'(?im)^(\[[^\]]+\]:\s*)(?:\.\./)+_images/', r"\1/_images/", s)
-            s = re.sub(r'(?im)^(\[[^\]]+\]:\s*)_images/', r"\1/_images/", s)
+              # 2) Normalize relative _images to site-root /_images
+              txt = re.sub(r"\]\(\s*<?(?:\.\./|\.?/)?_images/", "](/_images/", txt)
+              txt = re.sub(r'\bsrc\s*=\s*"(?:\.\./|\.?/)?_images/', 'src="/_images/', txt)
+              txt = re.sub(r"\bsrc\s*=\s*'(?:\.\./|\.?/)?_images/", "src='/_images/", txt)
+              txt = re.sub(r'(?im)^(\[[^\]]+\]:\s*)(?:\.\./|\.?/)?_images/', r"\1/_images/", txt)
 
-            # 3) Percent-encode spaces/() in targets that point to /_images/...
-            #    a) inline MD links: ](/_images/xxx...) keep any title after a space
-            def enc_inline(m):
-              url = m.group(1)
-              return "](" + enc(url)
-            s = re.sub(r"\]\((/_images/[^\s\)]*)", enc_inline, s)
+              # 3) Strip any absolute/pathed prefixes before /_images (raw/blob/github or anything)
+              txt = strip_md_inline(txt)
+              txt = strip_html_src(txt)
+              txt = strip_ref_links(txt)
 
-            #    b) HTML src="...": double & single quotes
-            def enc_src_dq(m):
-              return 'src="' + enc(m.group(1)) + '"'
-            s = re.sub(r'src="(/_images/[^"]*)"', enc_src_dq, s)
+              # 4) Percent-encode spaces/() inside /_images/* targets
+              txt = re.sub(r"\]\((/_images/[^\s\)]*)", lambda m: "](" + enc(m.group(1)), txt)
+              txt = re.sub(r'src="(/_images/[^"]*)"', lambda m: 'src="' + enc(m.group(1)) + '"', txt)
+              txt = re.sub(r"src='(/_images/[^']*)'", lambda m: "src='" + enc(m.group(1)) + "'", txt)
+              txt = re.sub(r'(?im)^(\[[^\]]+\]:\s*)(/_images/\S+)',
+                           lambda m: m.group(1) + enc(m.group(2)), txt)
 
-            def enc_src_sq(m):
-              return "src='" + enc(m.group(1)) + "'"
-            s = re.sub(r"src='(/_images/[^']*)'", enc_src_sq, s)
+              if txt != orig:
+                  with open(path, "w", encoding="utf-8") as f:
+                      f.write(txt)
+                  print(f"Rewrote: {path}")
+          PY
 
-            #    c) reference-style: [id]: /_images/xxx (keep trailing title)
-            def enc_ref(m):
-              return m.group(1) + enc(m.group(2)) + m.group(3)
-            s = re.sub(r'(?im)^(\[[^\]]+\]:\s*)(/_images/\S+)(.*)$', enc_ref, s)
+      # (Optional) Validate everything is exactly /_images/<file> (no subfolders/prefix)
+      - name: Validate image links style (/_images/* only)
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import re, glob, sys
+          exts = r"(png|jpe?g|gif|webp|svg)"
+          md_globs = ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
+          md_img = re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
+          html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
+          is_img = re.compile(rf"\.({exts})(?:$|\?)", re.I)
 
-            if s != orig:
-              with open(path, "w", encoding="utf-8") as f:
-                f.write(s)
-              print(f"Rewrote: {path}")
+          def non_compliant(u: str) -> bool:
+            if not is_img.search(u): return False
+            if not u.startswith("/_images/"): return True
+            rest = u[len("/_images/"):]
+            return "/" in rest.strip("/")  # no subfolders allowed
+
+          bad = []
+          files = []
+          for g in md_globs: files.extend(glob.glob(g, recursive=True))
+          for path in files:
+            s = open(path, encoding="utf-8").read()
+            for url in md_img.findall(s):
+              url = url.strip()
+              if non_compliant(url): bad.append((path, url))
+            for url in html_src.findall(s):
+              url = url.strip()
+              if non_compliant(url): bad.append((path, url))
+          if bad:
+            print("❌ Non-compliant image links found:")
+            for p,u in bad: print(f"- {p}: {u}")
+            sys.exit(1)
+          print("✅ All image links compliant with /_images/<file> (flat).")
           PY
 
       - name: Commit changes (if any)
