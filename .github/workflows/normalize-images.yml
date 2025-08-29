@@ -32,65 +32,102 @@ jobs:
           git checkout main
           git rebase origin/main
 
-      - name: Ensure _images exists (flat, no subfolders)
+      - name: Ensure _images exists (flat)
         run: mkdir -p _images
 
+      # FLATTEN: copy every file under .gitbook/assets into _images (no folders).
+      # If two files share the same basename, the last one wins (warns).
       - name: Copy from .gitbook/assets → _images (flat)
-        run: |
-          if [ -d ".gitbook/assets" ]; then
-            rsync -a --delete ".gitbook/assets/" "_images/"
-          fi
-
-      - name: Rewrite links to /_images/* (MD/MDX/HTML, any prefix)
         shell: bash
         run: |
           set -euo pipefail
-          shopt -s globstar nullglob
+          if [ -d ".gitbook/assets" ]; then
+            mapfile -d '' files < <(find .gitbook/assets -type f -print0)
+            if ((${#files[@]})); then
+              declare -A seen
+              dups=0
+              for src in "${files[@]}"; do
+                base="$(basename "$src")"
+                if [[ -n "${seen[$base]:-}" ]]; then
+                  echo "::warning::Duplicate filename '$base' from '$src' and '${seen[$base]}' — keeping the last copy." >&2
+                  dups=1
+                fi
+                seen[$base]="$src"
+                cp -f "$src" "_images/$base"
+              done
+              if ((dups)); then
+                echo "::notice::Consider deduplicating basenames in .gitbook/assets to avoid overwrites."
+              fi
+            fi
+          fi
 
-          # Collect markdown-like files
-          mapfile -t files < <(printf "%s\n" **/*.md **/*.MD **/*.mdx **/*.MDX **/*.markdown **/*.MARKDOWN 2>/dev/null)
+      # REWRITE: turn any .../.gitbook/assets/... or relative _images links into /_images/filename
+      # and percent-encode spaces/() in the URL target.
+      - name: Rewrite links to /_images for Git it Write (Python)
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import re, glob, os
 
-          for f in "${files[@]}"; do
-            # 1) Anything pointing to .gitbook/assets/... → /_images/...
-            perl -0777 -i -pe '
-              # Inline MD links: ](ANY/.gitbook/assets/<name>)
-              s#\]\(\s*<?[^)\s]*?/\.gitbook/assets/([^)\s>"]+)#"](/_images/$1#g;
+          def enc(path: str) -> str:
+            return path.replace(' ', '%20').replace('(', '%28').replace(')', '%29')
 
-              # Raw/JSX HTML: src="ANY/.gitbook/assets/<name>"
-              s#\bsrc=\s*"[^"]*?/\.gitbook/assets/([^"]+)"#src="/_images/$1"#g;
-              s#\bsrc=\s*'\''[^'\'']*?/\.gitbook/assets/([^\']+)'\''#src='\''/_images/$1'\''#g;
+          patterns = ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
+          files = []
+          for p in patterns:
+            files.extend(glob.glob(p, recursive=True))
 
-              # Reference-style: [id]: ANY/.gitbook/assets/<name>
-              s#^(\[[^\]]+\]:\s*)[^\s]*?/\.gitbook/assets/([^\s]+)#$1/_images/$2#gim;
-            ' "$f"
+          for path in files:
+            with open(path, "r", encoding="utf-8") as f:
+              s = f.read()
+            orig = s
 
-            # 2) Normalize any relative _images paths (../_images/..., _images/...) → /_images/...
-            perl -0777 -i -pe '
-              s#\]\(\s*<?(?:\.\./)*_images/([^)\n>"]+)#"](/_images/$1#g;
-              s#\bsrc=\s*"(?:\.\./)*_images/([^"]+)"#src="/_images/$1"#g;
-              s#\bsrc=\s*'\''(?:\.\./)*_images/([^\']+)'\''#src='\''/_images/$1'\''#g;
+            # 1) Replace any '/.gitbook/assets/<name>' (in links, src, refs, GitHub raw URLs, etc.)
+            s = s.replace("/.gitbook/assets/", "/_images/")
 
-              # Reference-style
-              s#^(\[[^\]]+\]:\s*)(?:\.\./)*_images/([^\s]+)#$1/_images/$2#gim;
-            ' "$f"
+            # 2) Normalize any relative _images → /_images
+            s = re.sub(r"\]\(\s*<?(?:\.\./)+_images/", "](/_images/", s)
+            s = re.sub(r"\]\(\s*<?_images/", "](/_images/", s)
+            s = re.sub(r'\bsrc\s*=\s*"(?:\.\./)+_images/', 'src="/_images/', s)
+            s = re.sub(r'\bsrc\s*=\s*"_images/', 'src="/_images/', s)
+            s = re.sub(r"\bsrc\s*=\s*'(?:\.\./)+_images/", "src='/_images/", s)
+            s = re.sub(r"\bsrc\s*=\s*'_images/", "src='/_images/", s)
+            s = re.sub(r'(?im)^(\[[^\]]+\]:\s*)(?:\.\./)+_images/', r"\1/_images/", s)
+            s = re.sub(r'(?im)^(\[[^\]]+\]:\s*)_images/', r"\1/_images/", s)
 
-            # 3) Percent-encode spaces and parentheses in any /_images/... target
-            perl -0777 -i -pe '
-              s#\]\((/_images/[^)\n]*)\)# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "]($u)" #ge;
-              s#\bsrc="(/_images/[^"]*)"# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "src=\"$u\"" #ge;
-              s#\bsrc='\''(/_images/[^\']*)'\''# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "src='\''$u'\''" #ge;
-              s#^(\[[^\]]+\]:\s*)(/_images/\S+)#$1 . do { my $u=$2; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; $u }#gme;
-            ' "$f"
-          done
+            # 3) Percent-encode spaces/() in targets that point to /_images/...
+            #    a) inline MD links: ](/_images/xxx...) keep any title after a space
+            def enc_inline(m):
+              url = m.group(1)
+              return "](" + enc(url)
+            s = re.sub(r"\]\((/_images/[^\s\)]*)", enc_inline, s)
 
-          # Show leftover .gitbook/assets (informational)
-          git grep -n '\.gitbook/assets' -- '**/*.[mM][dD]' '**/*.[mM][dD][xX]' '**/*.markdown' '**/*.MARKDOWN' || true
+            #    b) HTML src="...": double & single quotes
+            def enc_src_dq(m):
+              return 'src="' + enc(m.group(1)) + '"'
+            s = re.sub(r'src="(/_images/[^"]*)"', enc_src_dq, s)
+
+            def enc_src_sq(m):
+              return "src='" + enc(m.group(1)) + "'"
+            s = re.sub(r"src='(/_images/[^']*)'", enc_src_sq, s)
+
+            #    c) reference-style: [id]: /_images/xxx (keep trailing title)
+            def enc_ref(m):
+              return m.group(1) + enc(m.group(2)) + m.group(3)
+            s = re.sub(r'(?im)^(\[[^\]]+\]:\s*)(/_images/\S+)(.*)$', enc_ref, s)
+
+            if s != orig:
+              with open(path, "w", encoding="utf-8") as f:
+                f.write(s)
+              print(f"Rewrote: {path}")
+          PY
 
       - name: Commit changes (if any)
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
-            git commit -m "Normalize images to /_images/* for Git it Write [ci skip]"
+            git commit -m "Normalize images to /_images/* and rewrite links [ci skip]"
           else
             echo "No changes to commit."
           fi
