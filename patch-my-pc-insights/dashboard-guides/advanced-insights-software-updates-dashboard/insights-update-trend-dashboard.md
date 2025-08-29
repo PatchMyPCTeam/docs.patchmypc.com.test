@@ -2,13 +2,13 @@
 
 _Applies to: Patch My PC Advanced Insights_
 
-![](../../../_images/image%20%28311%29.png%20"Update%20Installation%20Trend%20Dashboard")
+<figure><img src="../../../.gitbook/assets/image (311).png" alt=""><figcaption><p>Update Installation Trend Dashboard</p></figcaption></figure>
 
 The Update Installation Trend dashboard shows the deployment trend of installation of a update.
 
 The top row of shows how many days it took for the first device to install the update, 50%, 90% and 100% Installation targeted.
 
-![](../../../_images/image%20%28312%29.png%20"Deployment%20Update%20Installation%20Trend%20chart")
+<figure><img src="../../../.gitbook/assets/image (312).png" alt=""><figcaption><p>Deployment Update Installation Trend chart</p></figcaption></figure>
 
 You can filter the chart by collection, select which update and the number of days you want to see the trend for.
 
@@ -18,6 +18,6 @@ You can filter the chart by collection, select which update and the number of da
 Some devices may become compliant without having installed this update via this deployment and these will not show in the installation data here.
 {% endhint %}
 
-![](../../../_images/image%20%28313%29.png%20"Enforcement%20Activity%20chart")
+<figure><img src="../../../.gitbook/assets/image (313).png" alt=""><figcaption><p>Enforcement Activity chart</p></figcaption></figure>
 
 This portlet shows enforcement activity for managed client devices for this update.

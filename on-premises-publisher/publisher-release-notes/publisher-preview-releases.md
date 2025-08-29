@@ -1349,7 +1349,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * <img src="../../_images/image%20%281205%29.png" alt="" data-size="original">&#x20;
+  * <img src="../../.gitbook/assets/image (1205).png" alt="" data-size="original">&#x20;
 
 ### Improvements
 
@@ -1362,7 +1362,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * <img src="../../_images/image%20%281205%29.png" alt="" data-size="original">&#x20;
+  * <img src="../../.gitbook/assets/image (1205).png" alt="" data-size="original">&#x20;
 
 ### Improvements
 
@@ -1375,7 +1375,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * <img src="../../_images/image%20%281205%29.png" alt="" data-size="original">&#x20;
+  * <img src="../../.gitbook/assets/image (1205).png" alt="" data-size="original">&#x20;
 
 ### Improvements
 

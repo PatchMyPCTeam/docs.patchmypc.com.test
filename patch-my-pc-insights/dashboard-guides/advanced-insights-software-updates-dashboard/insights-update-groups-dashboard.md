@@ -4,22 +4,22 @@ _Applies to: Patch My PC Advanced and Patch Insights_
 
 The Software Update Groups dashboard shows high-level compliance for each SUG in the environment, with drill-through for additional compliance detail.
 
-![](../../../_images/image%20%281033%29.png%20"Software%20Updates%20Dashboard")
+<figure><img src="../../../.gitbook/assets/image (1033).png" alt=""><figcaption><p>Software Updates Dashboard</p></figcaption></figure>
 
 Clicking through to an update group shows the update group view:
 
-![](../../../_images/image%20%281034%29.png%20"Software%20Update%20Group%20view")
+<figure><img src="../../../.gitbook/assets/image (1034).png" alt=""><figcaption><p>Software Update Group view</p></figcaption></figure>
 
 This lists the basic metadata associated with the SUG and shows the compliance of all devices.
 
 The Members tab shows the individual updates included in the selected update group:
 
-![](../../../_images/image%20%281035%29.png%20"The%20Members%20tab")
+<figure><img src="../../../.gitbook/assets/image (1035).png" alt=""><figcaption><p>The Members tab</p></figcaption></figure>
 
 The Deployments tab shows deployment details with start and deadline dates:
 
-![](../../../_images/image%20%281036%29.png%20"Deployments%20tab")
+<figure><img src="../../../.gitbook/assets/image (1036).png" alt=""><figcaption><p>Deployments tab</p></figcaption></figure>
 
 You can click through each deployment to see the reported deployment statistics including the enforcement state of each individual client.
 
-![](../../../_images/image%20%281037%29.png%20"SUG%20Deployment%20detail")
+<figure><img src="../../../.gitbook/assets/image (1037).png" alt=""><figcaption><p>SUG Deployment detail</p></figcaption></figure>

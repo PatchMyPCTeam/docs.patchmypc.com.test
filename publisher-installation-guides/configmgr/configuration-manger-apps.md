@@ -13,7 +13,7 @@ _Applies to: On-premises Publisher_
 
 To activate any of the tabs in Patch My PC Publisher, the corresponding checkbox must be checked. If you do not check this option the product selection tree for the corresponding tab cannot be used.
 
-![Enable the Configuration Manager Application Feature](../../_images/image%20%281116).png>)
+![Enable the Configuration Manager Application Feature](<../../.gitbook/assets/image (1116).png>)
 
 ## Application Options
 
@@ -25,11 +25,11 @@ The application Options button has a lot of different features. This installatio
 
 Let's get started to begin, click the **Options button** next to the enablement checkbox.
 
-![](../../_images/image%20%281345%29.png%20"Click%20Options")
+<figure><img src="../../.gitbook/assets/image (1345).png" alt=""><figcaption><p>Click Options</p></figcaption></figure>
 
 This will load the options panel in the Publisher.&#x20;
 
-![](../../_images/image%20%281344%29.png%20"")
+<figure><img src="../../.gitbook/assets/image (1344).png" alt=""><figcaption></figcaption></figure>
 
 First Select the Configure[ **SMS Provider connection**](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/plan-for-the-sms-provider#BKMK_PlanSMSProv). This is how you will ensure that the system where the Publisher is installed has access to the configuration manager site.
 
@@ -41,11 +41,11 @@ Defining the SMS Provider is required, and it lets the Publisher know how to tal
 
 After clicking the **Configure** option, the below pop-up will appear.&#x20;
 
-![](../../_images/image%20%281346%29.png%20"Enter%20the%20server%20name%20where%20the%20provider%20service%20is%20installed.")
+<figure><img src="../../.gitbook/assets/image (1346).png" alt=""><figcaption><p>Enter the server name where the provider service is installed.</p></figcaption></figure>
 
 Once you enter the name of the server select **Test** to validate the configuration.
 
-![](../../_images/image%20%281348%29.png%20"Example%20of%20validating%20configuration")
+<figure><img src="../../.gitbook/assets/image (1348).png" alt=""><figcaption><p>Example of validating configuration</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Important**: The connection to the SMS Provider is performed using the **SYSTEM account** of the server where the Publisher is installed.
@@ -55,7 +55,7 @@ If the server that the Publisher is installed on is remote from the SMS Provider
 
 In the event the test result fails, you will instead see the following message.
 
-![Failure message for connection as system](../../_images/image%20%281102).png>)
+![Failure message for connection as system](<../../.gitbook/assets/image (1102).png>)
 
 If the connection fails, click **Create ConfigMgr Security Role** to automatically create a new security role with the minimum required permissions. Please see the article below for more details.
 
@@ -79,15 +79,15 @@ Next, you'll want to provide a **UNC share to store the application content**. T
 When you choose a path, we will create a sub-folder called **Applications** and then create a folder for each **vendor** and **product** in use. Keep this in mind when selecting the UNC path you will use to store source files.
 {% endhint %}
 
-![Applications sub-folder auto created](../../_images/image%20%281267).png>)
+![Applications sub-folder auto created](<../../.gitbook/assets/image (1267).png>)
 
 The above configuration would create the below **folder structure s**imilar to the structure below.
 
-![Folder structor for application content](../../_images/image%20%281260).png>)
+![Folder structor for application content](<../../.gitbook/assets/image (1260).png>)
 
 Below are the default settings which will work fine for most setups. Our product provides a lot of customization options.
 
-![Example Simple Setup](../../_images/image%20%281265).png>)
+![Example Simple Setup](<../../.gitbook/assets/image (1265).png>)
 
 To learn the details about all items on this page, check out the **article below**.
 
@@ -95,7 +95,7 @@ To learn the details about all items on this page, check out the **article below
 
 Once you have the base options selected, you are ready to check out a simple application for testing. We recommend using 7-zip. Its small size makes it ideal for testing. Use the search icon in the bottom right or the **Ctrl+F** key combination to search for **Igor**
 
-![Example selected application](../../_images/image%20%281192).png>)
+![Example selected application](<../../.gitbook/assets/image (1192).png>)
 
 Select **Apply**. We do provide a large number of **right-click options to fully customize the application installation process,** those steps as described in the article below.
 

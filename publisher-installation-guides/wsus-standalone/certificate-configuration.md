@@ -24,14 +24,14 @@ In the steps below, we'll walk through creating a self-signed certificate using 
 
 ### Create WSUS Signing Certificate Using the Patch My PC Publisher
 
-![](../../_images/image%20%281213).png>)
+![](<../../.gitbook/assets/image (1213).png>)
 
 1. &#x20;Select **Generate a Self-Signed Certificate** in the Publisher.
 2. &#x20;By default, it will be set to 5 years but you can change the number of years the certificate is valid for.&#x20;
 3. The other configuration you get from the publisher is that by default we do allow the private key to be exported. The benefit with that is that you do have the ability, if you move to a different WSUS server, to export the code-signing certificate generated through our tool and import that with the private key. This would allow you to use the same WSUS signing certificate that you were using on the previous WSUS server. That way you do not have to worry about potential clients having to get the certificate redistributed and trusted. The downside, from a security perspective, is that some people may not want that to be exportable because it could allow somebody to use that key in other places.
 4. Click **Generate Certificate**. Once that is done we should have the certificate created and we'll be ready to start publishing updates to WSUS.&#x20;
 
-![](../../_images/image%20%281086).png>)
+![](<../../.gitbook/assets/image (1086).png>)
 
 {% hint style="info" %}
 **Note**
