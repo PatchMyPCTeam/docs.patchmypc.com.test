@@ -1,0 +1,46 @@
+name: Normalize GitBook assets for Git it Write
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  fix-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ensure _images folder exists
+        run: |
+          mkdir -p _images/gitbook
+
+      - name: Copy images from .gitbook/assets to _images/gitbook
+        run: |
+          if [ -d ".gitbook/assets" ]; then
+            rsync -a --delete ".gitbook/assets/" "_images/gitbook/"
+          fi
+
+      - name: Rewrite image paths in Markdown
+        shell: bash
+        run: |
+          shopt -s globstar nullglob
+          for f in **/*.md; do
+            # Replace:
+            #   ![alt](.gitbook/assets/foo.png) -> ![alt](_images/gitbook/foo.png)
+            #   ![alt](/.gitbook/assets/foo.png) -> ![alt](/_images/gitbook/foo.png)
+            sed -i \
+              -e 's#](\.gitbook/assets/#](_images/gitbook/#g' \
+              -e 's#](/\.gitbook/assets/#](/_images/gitbook/#g' \
+              "$f"
+          done
+
+      - name: Commit changes (if any)
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions"
+            git config user.email "github-actions@users.noreply.github.com"
+            git add -A
+            git commit -m "Normalize GitBook assets for Git it Write"
+            git push
+          fi
