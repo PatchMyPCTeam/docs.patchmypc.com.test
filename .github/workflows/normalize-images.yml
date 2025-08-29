@@ -51,78 +51,103 @@ jobs:
       
 
       # Convert <figure><img ...><figcaption>...</figcaption></figure> → ![alt](/_images/file "title")
-      - name: Convert <figure><img> to Markdown images
+      - name: Convert <figure><img> to Markdown images (RELATIVE)
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import re, glob, html
+          import re, glob, html, os
+
           def enc(u): return u.replace(' ', '%20').replace('(', '%28').replace(')', '%29')
+
           FIG = re.compile(r'<figure\b[^>]*>(.*?)</figure>', re.I|re.S)
           IMG = re.compile(r'<img\b[^>]*>', re.I|re.S)
           CAP = re.compile(r'<figcaption\b[^>]*>(.*?)</figcaption>', re.I|re.S)
-          def attr(n,s): 
-              m=re.search(rf'\b{n}\s*=\s*["\']([^"\']*)["\']', s, re.I|re.S); 
-              return m.group(1).strip() if m else ''
-          def convert(block):
-              m=IMG.search(block); 
+          def attr(n,s):
+            m=re.search(rf'\b{n}\s*=\s*["\']([^"\']*)["\']', s, re.I|re.S)
+            return m.group(1).strip() if m else ''
+
+          md_files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
+                      for p in glob.glob(g, recursive=True)]
+
+          for path in md_files:
+            # compute "../" depth for relative prefix
+            depth = 0 if os.path.dirname(path)=='' else os.path.dirname(path).count('/')+1
+            prefix = "" if depth==0 else "../"*depth
+
+            def convert(block):
+              m=IMG.search(block)
               if not m: return block
               img=m.group(0)
               src=attr('src',img); alt=attr('alt',img)
-              mcap=CAP.search(block); cap=html.unescape(re.sub(r'<[^>]+>','',mcap.group(1))).strip() if mcap else ''
-              title=cap or alt
-              src=re.sub(r'^[^"\']*?/_images/','/_images/',src).replace('/_images/gitbook/','/_images/')
-              src=enc(src); alt=alt.replace(']','\\]')
-              title=title.replace('“','"').replace('”','"').replace('"','\\"')
+              mcap=CAP.search(block)
+              caption = html.unescape(re.sub(r'<[^>]+>','',mcap.group(1))).strip() if mcap else ""
+              title = caption or alt
+
+              # strip anything before /_images/, flatten gitbook/, then make RELATIVE
+              src = re.sub(r'^[^"\']*?/_images/', '_images/', src)
+              src = src.replace(' _images/','_images/')        # just in case stray spaces
+              src = src.replace('_images/gitbook/','_images/')
+              src = prefix + src
+              src = enc(src)
+
+              alt = alt.replace(']','\\]')
+              title = title.replace('“','"').replace('”','"').replace('"','\\"')
               return f'![{alt}]({src} "{title}")'
-          files=[]
-          for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]:
-              files.extend(glob.glob(g, recursive=True))
-          for p in files:
-              t=open(p,encoding="utf-8").read()
-              n=FIG.sub(lambda m: convert(m.group(0)), t)
-              if n!=t:
-                  open(p,"w",encoding="utf-8").write(n)
-                  print(f"Converted figures in: {p}")
+
+            t=open(path,encoding='utf-8').read()
+            n=FIG.sub(lambda m: convert(m.group(0)), t)
+            if n!=t:
+              open(path,'w',encoding='utf-8').write(n)
+              print(f"Converted figures in: {path}")
           PY
+    
 
       # Rewrite ALL image links to site-root /_images/<file>; strip any prefix; flatten gitbook segment; encode spaces/()
-      - name: Rewrite links to /_images/* (Python)
+      - name: Rewrite links to RELATIVE _images/* (depth-aware, strips prefixes)
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import re, glob
+          import re, glob, os
           def enc(u): return u.replace(' ', '%20').replace('(', '%28').replace(')', '%29')
-          globs = ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
-          files=[p for g in globs for p in glob.glob(g, recursive=True)]
 
-          def strip_md_inline(s):
-              return re.sub(r"\]\(\s*<?[^)\s\"']*?/_images/([^)\s\"'>]+)", r"](/_images/\1", s)
-          def strip_html_src(s):
-              s=re.sub(r'\bsrc\s*=\s*"[^"]*?/_images/([^"]+)"', r'src="/_images/\1"', s)
-              s=re.sub(r"\bsrc\s*=\s*'[^']*?/_images/([^']+)'", r"src='/_images/\1'", s)
-              return s
-          def strip_ref_links(s):
-              return re.sub(r'(?im)^(\[[^\]]+\]:\s*)[^\s]*?/_images/(\S+)$', r'\1/_images/\2', s)
+          files=[p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
+                 for p in glob.glob(g, recursive=True)]
 
-          for p in files:
-              s=open(p,encoding="utf-8").read(); o=s
-              s=s.replace("/.gitbook/assets/","/_images/")                       # dot-folder → _images
-              s=re.sub(r"\]\(\s*<?(?:(?:\.\./|\.?/)+)?_images/","](/_images/",s) # ../ or ./ → /
-              s=re.sub(r'\bsrc\s*=\s*"(?:(?:\.\./|\.?/)+)?_images/','src="/_images/',s)
-              s=re.sub(r"\bsrc\s*=\s*'(?:(?:\.\./|\.?/)+)?_images/","src='/_images/",s)
-              s=re.sub(r'(?im)^(\[[^\]]+\]:\s*)(?:(?:\.\./|\.?/)+)?_images/', r"\1/_images/", s)
-              s=strip_md_inline(s); s=strip_html_src(s); s=strip_ref_links(s)   # drop domains / raw / blob / folders before /_images
-              s=s.replace("/_images/gitbook/","/_images/")                      # flatten 'gitbook' subfolder
-              s=re.sub(r"\]\((/_images/[^\s\)]*)", lambda m: "]("+enc(m.group(1)), s) # encode
-              s=re.sub(r'src="(/_images/[^"]*)"', lambda m: 'src="'+enc(m.group(1))+'"', s)
-              s=re.sub(r"src='(/_images/[^']*)'", lambda m: "src='"+enc(m.group(1))+"'", s)
-              s=re.sub(r'(?im)^(\[[^\]]+\]:\s*)(/_images/\S+)', lambda m: m.group(1)+enc(m.group(2)), s)
-              if s!=o:
-                  open(p,"w",encoding="utf-8").write(s)
-                  print(f"Rewrote: {p}")
+          for path in files:
+            depth = 0 if os.path.dirname(path)=='' else os.path.dirname(path).count('/')+1
+            prefix = "" if depth==0 else "../"*depth
+
+            s=open(path,encoding='utf-8').read(); o=s
+
+            # .gitbook/assets → _images
+            s=s.replace("/.gitbook/assets/","/_images/").replace("_images/gitbook/","_images/")
+
+            # ANY prefix before _images → make it RELATIVE (md inline)
+            s=re.sub(r"\]\(\s*<?[^)\s\"']*?/_images/([^)\s\"'>]+)", r"]("+prefix+r"_images/\1", s)
+
+            # HTML src=... → RELATIVE
+            s=re.sub(r'\bsrc\s*=\s*"[^"]*?/_images/([^"]+)"', r'src="'+prefix+r'_images/\1"', s)
+            s=re.sub(r"\bsrc\s*=\s*'[^']*?/_images/([^']+)'", r"src='"+prefix+r"_images/\1'", s)
+
+            # Reference-style
+            s=re.sub(r'(?im)^(\[[^\]]+\]:\s*)[^\s]*?/_images/(\S+)$', r'\1'+prefix+r'_images/\2', s)
+
+            # Percent-encode in final targets
+            s=re.sub(r"\]\(([^)\n]*?_images/[^)\n]*)\)", lambda m: "]("+enc(m.group(1))+")", s)
+            s=re.sub(r'src="([^"]*?_images/[^"]*)"', lambda m: 'src="'+enc(m.group(1))+'"', s)
+            s=re.sub(r"src='([^']*?_images/[^']*)'", lambda m: "src='"+enc(m.group(1))+"'", s)
+            s=re.sub(r'(?im)^(\[[^\]]+\]:\s*)([^ \t]+_images/\S+)$',
+                     lambda m: m.group(1)+enc(m.group(2)), s)
+
+            if s!=o:
+              open(path,'w',encoding='utf-8').write(s)
+              print(f"Rewrote: {path}")
           PY
+      
+      
+      
 
       - name: Commit changes (if any)
         run: |
