@@ -2,36 +2,40 @@ name: Normalize GitBook assets for Git it Write
 
 on:
   push:
-    branches: [ main ]      # change if your default branch differs
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
-  contents: write           # allow the workflow to push
+  contents: write
 
-# Avoid two runs fighting each other on the same branch
 concurrency:
   group: normalize-assets-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  fix-assets:
-    # Don't run if this push was created by the bot itself
+  normalize:
     if: ${{ github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0     # we need full history for rebase
+          fetch-depth: 0
 
-      - name: Configure Git author
+      - name: Configure author
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Ensure _images folder exists
+      - name: Update to latest main (rebase)
+        run: |
+          git fetch origin main
+          git checkout main
+          git rebase origin/main
+
+      - name: Ensure _images exists
         run: mkdir -p _images/gitbook
 
-      - name: Copy images from .gitbook/assets to _images/gitbook
+      - name: Copy from .gitbook/assets
         run: |
           if [ -d ".gitbook/assets" ]; then
             rsync -a --delete ".gitbook/assets/" "_images/gitbook/"
@@ -46,47 +50,38 @@ jobs:
             if [[ "$dir" == "$f" ]]; then depth=0; else depth=$(awk -F'/' '{print NF}' <<< "$dir"); fi
             prefix=""
             for ((i=0; i<depth; i++)); do prefix+="../"; done
-
-            sed -i \
-              -e "s#](\\.gitbook/assets/#](${prefix}_images/gitbook/#g" \
-              -e "s#](/\\.gitbook/assets/#](${prefix}_images/gitbook/#g" \
-              "$f"
-
-            sed -i \
-              -e "s#src=\"\\./\\.gitbook/assets/#src=\"${prefix}_images/gitbook/#g" \
-              -e "s#src=\"/\\.gitbook/assets/#src=\"${prefix}_images/gitbook/#g" \
-              "$f"
+            sed -i -e "s#](\\.gitbook/assets/#](${prefix}_images/gitbook/#g" \
+                   -e "s#](/\\.gitbook/assets/#](${prefix}_images/gitbook/#g" "$f"
+            sed -i -e "s#src=\"\\./\\.gitbook/assets/#src=\"${prefix}_images/gitbook/#g" \
+                   -e "s#src=\"/\\.gitbook/assets/#src=\"${prefix}_images/gitbook/#g" "$f"
           done
 
       - name: Commit changes (if any)
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
-            git commit -m "Normalize GitBook assets for Git it Write [skip ci]"
+            git commit -m "Normalize GitBook assets for Git it Write [ci skip]"
+          else
+            echo "No changes to commit."
           fi
 
-      - name: Rebase on latest and push (with retry)
+      - name: Rebase on latest and push (retry with --force-with-lease)
         shell: bash
         run: |
-          # Only attempt push if there is a new commit
-          if [ -z "$(git log origin/${{ github.ref_name }}..HEAD)" ]; then
-            echo "No changes to push."
+          if [ -z "$(git log origin/main..HEAD)" ]; then
+            echo "No new commits to push."
             exit 0
           fi
-
           for attempt in 1 2 3; do
             echo "Push attempt $attempt..."
-            if git push; then
+            if git push --force-with-lease; then
               echo "Pushed successfully."
-              break
+              exit 0
             fi
             echo "Push rejected. Fetching and rebasing..."
-            git fetch origin ${{ github.ref_name }}
-            git rebase origin/${{ github.ref_name }} || { echo "Rebase failed"; exit 1; }
-            # If we had merge conflicts, re-run the rewrite step here if needed.
-            if [ $attempt -eq 3 ]; then
-              echo "Giving up after 3 attempts."
-              exit 1
-            fi
+            git fetch origin main
+            git rebase origin/main || exit 1
             sleep 2
           done
+          echo "Giving up after 3 attempts."
+          exit 1
