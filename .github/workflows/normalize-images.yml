@@ -2,18 +2,34 @@ name: Normalize GitBook assets for Git it Write
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main ]      # change if your default branch differs
   workflow_dispatch:
+
+permissions:
+  contents: write           # allow the workflow to push
+
+# Avoid two runs fighting each other on the same branch
+concurrency:
+  group: normalize-assets-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   fix-assets:
+    # Don't run if this push was created by the bot itself
+    if: ${{ github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0     # we need full history for rebase
+
+      - name: Configure Git author
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Ensure _images folder exists
-        run: |
-          mkdir -p _images/gitbook
+        run: mkdir -p _images/gitbook
 
       - name: Copy images from .gitbook/assets to _images/gitbook
         run: |
@@ -21,26 +37,56 @@ jobs:
             rsync -a --delete ".gitbook/assets/" "_images/gitbook/"
           fi
 
-      - name: Rewrite image paths in Markdown
+      - name: Rewrite image paths in Markdown (depth-aware)
         shell: bash
         run: |
           shopt -s globstar nullglob
           for f in **/*.md; do
-            # Replace:
-            #   ![alt](.gitbook/assets/foo.png) -> ![alt](_images/gitbook/foo.png)
-            #   ![alt](/.gitbook/assets/foo.png) -> ![alt](/_images/gitbook/foo.png)
+            dir="${f%/*}"
+            if [[ "$dir" == "$f" ]]; then depth=0; else depth=$(awk -F'/' '{print NF}' <<< "$dir"); fi
+            prefix=""
+            for ((i=0; i<depth; i++)); do prefix+="../"; done
+
             sed -i \
-              -e 's#](\.gitbook/assets/#](_images/gitbook/#g' \
-              -e 's#](/\.gitbook/assets/#](/_images/gitbook/#g' \
+              -e "s#](\\.gitbook/assets/#](${prefix}_images/gitbook/#g" \
+              -e "s#](/\\.gitbook/assets/#](${prefix}_images/gitbook/#g" \
+              "$f"
+
+            sed -i \
+              -e "s#src=\"\\./\\.gitbook/assets/#src=\"${prefix}_images/gitbook/#g" \
+              -e "s#src=\"/\\.gitbook/assets/#src=\"${prefix}_images/gitbook/#g" \
               "$f"
           done
 
       - name: Commit changes (if any)
         run: |
           if [ -n "$(git status --porcelain)" ]; then
-            git config user.name "github-actions"
-            git config user.email "github-actions@users.noreply.github.com"
             git add -A
-            git commit -m "Normalize GitBook assets for Git it Write"
-            git push
+            git commit -m "Normalize GitBook assets for Git it Write [skip ci]"
           fi
+
+      - name: Rebase on latest and push (with retry)
+        shell: bash
+        run: |
+          # Only attempt push if there is a new commit
+          if [ -z "$(git log origin/${{ github.ref_name }}..HEAD)" ]; then
+            echo "No changes to push."
+            exit 0
+          fi
+
+          for attempt in 1 2 3; do
+            echo "Push attempt $attempt..."
+            if git push; then
+              echo "Pushed successfully."
+              break
+            fi
+            echo "Push rejected. Fetching and rebasing..."
+            git fetch origin ${{ github.ref_name }}
+            git rebase origin/${{ github.ref_name }} || { echo "Rebase failed"; exit 1; }
+            # If we had merge conflicts, re-run the rewrite step here if needed.
+            if [ $attempt -eq 3 ]; then
+              echo "Giving up after 3 attempts."
+              exit 1
+            fi
+            sleep 2
+          done
