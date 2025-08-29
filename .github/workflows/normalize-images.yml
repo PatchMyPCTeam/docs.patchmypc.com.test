@@ -2,7 +2,7 @@ name: Normalize GitBook assets for Git it Write
 
 on:
   push:
-    branches: [ main ]          # change if your default branch differs
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -44,18 +44,23 @@ jobs:
       - name: Rewrite /main/.gitbook/assets → /main/_images/gitbook in Markdown
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
           shopt -s nullglob
-          # Rewrite in md / mdx / markdown (upper/lower-case variants too)
-          git grep -l '/main/.gitbook/assets/' -- \
-            '**/*.md' '**/*.MD' '**/*.mdx' '**/*.MDX' '**/*.markdown' '**/*.MARKDOWN' \
-          | xargs -r sed -i 's#/main/\.gitbook/assets/#/main/_images/gitbook/#g'
-
-          # OPTIONAL: fail if anything still points to .gitbook/assets
-          if git grep -n '\.gitbook/assets' -- '**/*.md' '**/*.MD' '**/*.mdx' '**/*.MDX' '**/*.markdown' '**/*.MARKDOWN'; then
-            echo "Found remaining .gitbook/assets references." >&2
-            # exit 1   # uncomment to force failure until all are fixed
+          # Collect files; avoid pipeline failure when there are no matches
+          mapfile -t hits < <( \
+            git grep -l '/main/.gitbook/assets/' -- \
+              '**/*.md' '**/*.MD' '**/*.mdx' '**/*.MDX' '**/*.markdown' '**/*.MARKDOWN' \
+            || true \
+          )
+          if ((${#hits[@]})); then
+            # Safe for filenames with spaces
+            sed -i 's#/main/\.gitbook/assets/#/main/_images/gitbook/#g' "${hits[@]}"
+          else
+            echo "No files contained /main/.gitbook/assets/ — nothing to rewrite."
           fi
+
+          # OPTIONAL: show any remaining references (does NOT fail the job)
+          git grep -n '\.gitbook/assets' -- '**/*.[mM][dD]' '**/*.[mM][dD][xX]' '**/*.markdown' '**/*.MARKDOWN' || true
 
       - name: Commit changes (if any)
         run: |
@@ -63,4 +68,26 @@ jobs:
             git add -A
             git commit -m "Normalize: /main/.gitbook/assets → /main/_images/gitbook [ci skip]"
           else
-            echo "No changes to co
+            echo "No changes to commit."
+          fi
+
+      - name: Rebase on latest and push (retry with --force-with-lease)
+        shell: bash
+        run: |
+          if [ -z "$(git log origin/main..HEAD)" ]; then
+            echo "No new commits to push."
+            exit 0
+          fi
+          for attempt in 1 2 3; do
+            echo "Push attempt $attempt..."
+            if git push --force-with-lease; then
+              echo "Pushed successfully."
+              exit 0
+            fi
+            echo "Push rejected. Fetching and rebasing..."
+            git fetch origin main
+            git rebase origin/main || exit 1
+            sleep 2
+          done
+          echo "Giving up after 3 attempts."
+          exit 1
