@@ -39,21 +39,16 @@ jobs:
         run: |
           set -euo pipefail
           if [ -d ".gitbook/assets" ]; then
-            mapfile -d '' files < <(find .gitbook/assets -type f -print0)
-            if ((${#files[@]})); then
-              declare -A seen; dups=0
-              for src in "${files[@]}"; do
-                base="$(basename "$src")"
-                if [[ -n "${seen[$base]:-}" ]]; then
-                  echo "::warning::Duplicate filename '$base' — keeping the last copy." >&2
-                  dups=1
-                fi
-                seen[$base]="$src"
-                cp -f "$src" "_images/$base"
-              done
-              ((dups)) && echo "::notice::Consider deduplicating basenames."
-            fi
+            # copy every file from .gitbook/assets/* → _images/<basename>
+            while IFS= read -r -d '' src; do
+              base="$(basename "$src")"
+              if [ -e "_images/$base" ] && ! cmp -s "$src" "_images/$base"; then
+                echo "::warning::Duplicate filename '$base' — overwriting with last copy."
+              fi
+              cp -f "$src" "_images/$base"
+            done < <(find .gitbook/assets -type f -print0)
           fi
+      
 
       # Convert <figure><img ...><figcaption>...</figcaption></figure> → ![alt](/_images/file "title")
       - name: Convert <figure><img> to Markdown images
