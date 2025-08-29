@@ -11,5 +11,5 @@ Welcome to the official home page for our Cloud-based solution, Patch My PC Clou
 {% hint style="info" %}
 **Note**
 
-You can access this page from within the portal by clicking the support button (!["support" button](/_images/image%20%28587).png>)) in the header area and selecting **Product Docs**.
+You can access this page from within the portal by clicking the support button (!["support" button](../_images/image%20%28587).png>)) in the header area and selecting **Product Docs**.
 {% endhint %}

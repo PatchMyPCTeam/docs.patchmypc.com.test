@@ -28,7 +28,7 @@ You also need to ensure that the **Enable Application Migration** checkbox on th
 If you do not see the **Enable Application Migration** checkbox on the **Cloud** tab, ensure you are running the required version of Publisher as detailed in [Migration Requirements](migration-requirements.md).
 {% endhint %}
 
-![“Enable Application Migration” checkbox is checked on the “Cloud” tab](/_images/image%20%282713%29.png "\"Enable Application Migration\" checkbox is checked on the \"Cloud\" tab")
+![“Enable Application Migration” checkbox is checked on the “Cloud” tab](../../_images/image%20%282713%29.png%20"\"Enable%20Application%20Migration\"%20checkbox%20is%20checked%20on%20the%20\"Cloud\"%20tab")
 
 {% hint style="danger" %}
 **Important**
@@ -38,7 +38,7 @@ If you click **Disconnect** on the **Cloud** tab of the **Publisher**, all of th
 
 Next, sign in to your PMPC Cloud company and verify that the **Migration** node is visible.
 
-![Verifying the “Migration” node is visible in the PMPC Cloud portal](/_images/image%20%282714%29.png "Verifying the \"Migration\" node is visible in the PMPC Cloud portal")
+![Verifying the “Migration” node is visible in the PMPC Cloud portal](../../_images/image%20%282714%29.png%20"Verifying%20the%20\"Migration\"%20node%20is%20visible%20in%20the%20PMPC%20Cloud%20portal")
 
 When you navigate to **Migration**, the **Migration** page is displayed, showing a list of the ConfigMgr applications that have been detected with the following information.
 

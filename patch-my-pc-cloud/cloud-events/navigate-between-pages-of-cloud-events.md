@@ -4,4 +4,4 @@ _Applies to: Patch My PC Cloud_
 
 To navigate between pages of Events in Patch My PC (PMPC) Cloud, in the footer of the **Events** page, click the relevant control to go to the first page, previous page, next page, or last page.
 
-![Controls in the footer of the “Events” page](/_images/image%20%28825%29.png "Controls in the footer of the \"Events\" page")
+![Controls in the footer of the “Events” page](../../_images/image%20%28825%29.png%20"Controls%20in%20the%20footer%20of%20the%20\"Events\"%20page")

@@ -21,7 +21,7 @@ To deploy the same app with a different configuration:
 Use the **Search** field to help you locate the app.
 {% endhint %}
 
-![“App Catalog” page](/_images/image%20%28741%29.png "\"App Catalog\" page")
+![“App Catalog” page](../../_images/image%20%28741%29.png%20"\"App%20Catalog\"%20page")
 
 {% hint style="info" %}
 **Note**
@@ -37,23 +37,23 @@ The green cloud icon beside the version number tells you this software has alrea
 See the [Deploy an App](deploying-an-app-using-cloud/) for more details. You can also apply a deployment template to this deployment by clicking **Apply Template** and following the [Use a Template in Deployments](use-a-template-in-cloud-deployments.md) process.
 {% endhint %}
 
-![Clicking &#x22;Deploy&#x22; on the App&#x27;s properties page](/_images/image%20%28487%29.png "Clicking &#x22;Deploy&#x22; on the App&#x27;s properties page")
+![Clicking &#x22;Deploy&#x22; on the App&#x27;s properties page](../../_images/image%20%28487%29.png%20"Clicking%20&#x22;Deploy&#x22;%20on%20the%20App&#x27;s%20properties%20page")
 
 4. On the G**eneral Information** tab, in the **Display Name** field, enter a unique name for this deployment, then click **Next**.
 
-![&#x22;General Information&#x22; page](/_images/image%20%282615%29.png "&#x22;General Information&#x22; page")
+![&#x22;General Information&#x22; page](../../_images/image%20%282615%29.png%20"&#x22;General%20Information&#x22;%20page")
 
 5. On the **Configurations** tab, configure the settings to add any required scripts or additional installation parameters, then click **Next**.
 
-![&#x22;Configurations&#x22; tab](/_images/image%20%282616%29.png "&#x22;Configurations&#x22; tab")
+![&#x22;Configurations&#x22; tab](../../_images/image%20%282616%29.png%20"&#x22;Configurations&#x22;%20tab")
 
 6. On the **Assignments** tab, click **Add Assignment**, then select the assignment type you want to add for this deployment.
 
-![Clicking &#x22;Add Assignment&#x22;, then selecting the assignment type you want to add for this deployment](/_images/image%20%282617%29.png "Clicking &#x22;Add Assignment&#x22;, then selecting the assignment type you want to add for this deployment")
+![Clicking &#x22;Add Assignment&#x22;, then selecting the assignment type you want to add for this deployment](../../_images/image%20%282617%29.png%20"Clicking%20&#x22;Add%20Assignment&#x22;,%20then%20selecting%20the%20assignment%20type%20you%20want%20to%20add%20for%20this%20deployment")
 
 7. On the **Add <**_**assignment\_type**_**> Assignment** page, select the relevant options, then click **Save**.
 
-![](/_images/image%20%282618%29.png "")
+![](../../_images/image%20%282618%29.png%20"")
 
 {% hint style="info" %}
 **Note**
@@ -64,11 +64,11 @@ If you add an available assignment, as shown below, we recommend selecting the s
 
 The **Assignments** page updates to show the newly created deployment.
 
-![New assignment shown on the “Assignments” page](/_images/image%20%282619%29.png "New assignment shown on the \"Assignments\" page")
+![New assignment shown on the “Assignments” page](../../_images/image%20%282619%29.png%20"New%20assignment%20shown%20on%20the%20\"Assignments\"%20page")
 
 8. Configure the settings for deployment, if required.
 
-![Configure any required settings](/_images/image%20%282620%29.png "Configure any required settings")
+![Configure any required settings](../../_images/image%20%282620%29.png%20"Configure%20any%20required%20settings")
 
 {% hint style="info" %}
 **Note**
@@ -84,19 +84,19 @@ You can click **Deploy** on this page if you don’t want to add additional assi
 
 9. Add any additional assignments for this deployment by clicking **Add Assignment** and repeating Steps 6 to 8, then click **Next**.
 
-![Adding  any additional assignments for this deployment by clicking &#x22;Add Assignment&#x22;](/_images/image%20%282621%29.png "Adding  any additional assignments for this deployment by clicking &#x22;Add Assignment&#x22;")
+![Adding  any additional assignments for this deployment by clicking &#x22;Add Assignment&#x22;](../../_images/image%20%282621%29.png%20"Adding%20%20any%20additional%20assignments%20for%20this%20deployment%20by%20clicking%20&#x22;Add%20Assignment&#x22;")
 
 10. Review the deployment summary shown on the **Summary** page.\
     \
     If you are happy, click **Deploy**.
 
-![Clicking &#x22;Deploy&#x22;](/_images/image%20%282622%29.png "Clicking &#x22;Deploy&#x22;")
+![Clicking &#x22;Deploy&#x22;](../../_images/image%20%282622%29.png%20"Clicking%20&#x22;Deploy&#x22;")
 
 If you need to change something, click **< Prev** to backtrack through the Deployment Wizard to the relevant setting. Make the change, then step back through the wizard to this page. If everything is now correct, click **Deploy**.
 
 The **Deployments** page is displayed along with the **Success - Created&#x20;**_**\<deployment\_name>**_ notification.
 
-![](/_images/image%20%282624%29.png "")
+![](../../_images/image%20%282624%29.png%20"")
 
 {% hint style="info" %}
 **Note**

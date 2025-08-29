@@ -15,14 +15,14 @@ As per the dialog box:
 
 You will be prompted to grant these during the onboarding process by clicking **Accept** on the **Permissions requested** dialog box.
 
-![“Permissions required” prompting to grant permissions to your environment.](/_images/image%20%281351%29.png "\"Permissions required\" prompting to grant permissions to your environment.")
+![“Permissions required” prompting to grant permissions to your environment.](../../../_images/image%20%281351%29.png%20"\"Permissions%20required\"%20prompting%20to%20grant%20permissions%20to%20your%20environment.")
 
 {% hint style="info" %}
 **Note**
 
 Whether or not you see the **Permissions Required** dialog box and what you see on it depends on the account you use to sign into Entra and how the **User consent for applications** settings are configured in your environment.
 
-![“User consent settings for applications” Entra settings.](/_images/image%20%28962).png>)
+![“User consent settings for applications” Entra settings.](../../../_images/image%20%28962).png>)
 
 You will only see the C**onsent on behalf of your organization** checkbox if the user account you are signed in with is a Global Admin.
 

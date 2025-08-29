@@ -9,21 +9,21 @@ To convert an existing deployment to use Update Rings:
 1.  [Edit the deployment](../manage-cloud-deployments/edit-a-cloud-deployment.md) and navigate to the **Assignments** tab.\
 
 
-    ![Navigating to the “Assignments” tab](/_images/image%20%28449%29.png "Navigating to the \"Assignments\" tab")
+    ![Navigating to the “Assignments” tab](../../../_images/image%20%28449%29.png%20"Navigating%20to%20the%20\"Assignments\"%20tab")
 
     \
     Any existing assignments for the deployment are shown.\
 
 
-    ![Existing assignments](/_images/image%20%28450%29.png "Existing assignments")
+    ![Existing assignments](../../../_images/image%20%28450%29.png%20"Existing%20assignments")
 2.  Click **Enable Update Rings**.\
 
 
-    ![Clicking “Enable Update Rings”](/_images/image%20%28451%29.png "Clicking \"Enable Update Rings\"")
+    ![Clicking “Enable Update Rings”](../../../_images/image%20%28451%29.png%20"Clicking%20\"Enable%20Update%20Rings\"")
 3.  On the **Move Assignments or Delete** dialog box, click **Move** to create the Update Rings and move any existing assignments to the first Update Ring.\
 
 
-    ![Clicking “Move” to move any existing assignments to the first Update Ring.](/_images/image%20%28452%29.png "Clicking \"Move\" to move any existing assignments to the first Update Ring.")
+    ![Clicking “Move” to move any existing assignments to the first Update Ring.](../../../_images/image%20%28452%29.png%20"Clicking%20\"Move\"%20to%20move%20any%20existing%20assignments%20to%20the%20first%20Update%20Ring.")
 
 {% hint style="info" %}
 **Note**
@@ -33,13 +33,13 @@ Clicking **Delete** will delete any existing assignments, not the deployment its
 
 Any existing assignments are moved into the first Update Ring.
 
-![Any existing assignments are moved into the first Update Ring.](/_images/image%20%282046%29.png "Any existing assignments are moved into the first Update Ring.")
+![Any existing assignments are moved into the first Update Ring.](../../../_images/image%20%282046%29.png%20"Any%20existing%20assignments%20are%20moved%20into%20the%20first%20Update%20Ring.")
 
 4. Continue from Step 3 of the [Create Update Rings](create-update-rings-in-cloud.md) process to configure your Update Rings. For example, adding additional assignments, moving assignments between rings, etc.
 5.  Once you have completed reconfiguring the deployment, click **Save**.\
     \
 
 
-    ![Clicking “Save” to save changes](/_images/image%20%28454%29.png "Clicking \"Save\" to save changes")
+    ![Clicking “Save” to save changes](../../../_images/image%20%28454%29.png%20"Clicking%20\"Save\"%20to%20save%20changes")
 
 The deployment will be updated and the Update Rings will be created depending on the type of rings you chose ([Delayed](how-cloud-update-rings-are-created.md#delayed-update-rings) or [Immediate](how-cloud-update-rings-are-created.md#immediate-update-rings)).

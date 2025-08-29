@@ -24,7 +24,7 @@ You can view the release history for Advanced Insights on our [release history p
 
 Start the installation by double-clicking the downloaded AdvancedInsights.exe
 
-![](/_images/image%20%281105%29.png "")
+![](../../_images/image%20%281105%29.png%20"")
 
 #### Prerequisites Screen
 
@@ -34,22 +34,22 @@ Once the installation starts, you will likely be greeted by the prerequisite scr
 If you have already met the prerequisite requirements, these screens will not be shown, and you can step down to the [#license-terms-and-conditions](./#license-terms-and-conditions "mention") step.
 {% endhint %}
 
-![](/_images/1%20%281%29.png "If you require prerequisites the installer will assist you")
+![](../../_images/1%20%281%29.png%20"If%20you%20require%20prerequisites%20the%20installer%20will%20assist%20you")
 
 #### Select Prerequisites
 
 Any required prerequisites are listed. These can all install without requiring a restart. Confirm the requirements and click **Next**.
 
-![](/_images/image%20%281295%29.png "Prerequisites installing")
+![](../../_images/image%20%281295%29.png%20"Prerequisites%20installing")
 
 #### License Terms and Conditions
 
 Once the required prerequisites have been installed, you must accept the Terms and Conditions of use. Tick the "I agree" box and click **Next**.
 
-![](/_images/4%20License%20Agreement%20%281%29.png "License terms and conditions")
+![](../../_images/4%20License%20Agreement%20%281%29.png%20"License%20terms%20and%20conditions")
 
 #### Installation Folder
 
 Advanced Insights requires approximately 1.5GB of storage space. Confirm the installation directory and click **Next**.
 
-![](/_images/5%20Folder.png "Installation Folder")
+![](../../_images/5%20Folder.png%20"Installation%20Folder")

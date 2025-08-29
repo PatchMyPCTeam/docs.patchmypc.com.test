@@ -10,7 +10,7 @@ Why after downgrading my MSP Patch My PC (PMPC) Cloud license, do I get the foll
 
 **“Downgrading from an MSP Plus license is currently not supported. Please contact support@patchmypc.com for further assistance."**
 
-![Error “Downgrading from an MSP Plus license is currently not supported. Please contact support@patchmypc.com for further assistance.&#x22;](/_images/image%20%282703%29.png "Error \"Downgrading from an MSP Plus license is currently not supported. Please contact support@patchmypc.com for further assistance.&#x22;")
+![Error “Downgrading from an MSP Plus license is currently not supported. Please contact support@patchmypc.com for further assistance.&#x22;](../../../_images/image%20%282703%29.png%20"Error%20\"Downgrading%20from%20an%20MSP%20Plus%20license%20is%20currently%20not%20supported.%20Please%20contact%20support@patchmypc.com%20for%20further%20assistance.&#x22;")
 
 ### CAUSE
 

@@ -19,14 +19,14 @@ To enable Preview Features:
 1. Navigate to the **Company** node.
 2. Scroll down to the **Preview Features** section.
 
-![Scrolling down to the “Preview Features” section](/_images/image%20%282249%29.png "Scrolling down to the \"Preview Features\" section")
+![Scrolling down to the “Preview Features” section](../../../_images/image%20%282249%29.png%20"Scrolling%20down%20to%20the%20\"Preview%20Features\"%20section")
 
 {% hint style="info" %}
 **Note**
 
 The _**x/y**_**&#x20;preview features enabled** indicator tells you how many of the preview features available for this company have been enabled. If you hover over the tooltip, the list of features and whether they have been enabled (indicated by a green tick) is shown.
 
-<img src="/_images/image%20%282250%29.png" alt="Indicator of the number of preview features enabled for this company" data-size="original">
+<img src="../../../_images/image%20%282250%29.png" alt="Indicator of the number of preview features enabled for this company" data-size="original">
 
 
 {% endhint %}
@@ -34,13 +34,13 @@ The _**x/y**_**&#x20;preview features enabled** indicator tells you how many of 
 3.  Click to check the **Enable Preview features** checkbox.\
 
 
-    ![Checking the “Enable Preview features” checkbox.](/_images/image%20%282251%29.png "Checking the \"Enable Preview features\" checkbox.")
+    ![Checking the “Enable Preview features” checkbox.](../../../_images/image%20%282251%29.png%20"Checking%20the%20\"Enable%20Preview%20features\"%20checkbox.")
 4.  Click **Save** to save your changes.\
 
 
-    ![Clicking &#x22;Save&#x22; to save your changes](/_images/image%20%282252%29.png "Clicking &#x22;Save&#x22; to save your changes")
+    ![Clicking &#x22;Save&#x22; to save your changes](../../../_images/image%20%282252%29.png%20"Clicking%20&#x22;Save&#x22;%20to%20save%20your%20changes")
 
     \
     The **Success - Company information updated** notification is shown.
 
-![“Success - Company information updated” notification](/_images/image%20%282253%29.png "\"Success - Company information updated\" notification")
+![“Success - Company information updated” notification](../../../_images/image%20%282253%29.png%20"\"Success%20-%20Company%20information%20updated\"%20notification")

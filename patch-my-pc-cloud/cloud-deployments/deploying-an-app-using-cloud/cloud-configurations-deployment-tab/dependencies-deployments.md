@@ -31,7 +31,7 @@ Like Intune, we do not support circular dependencies (i.e. App A has a dependenc
 As per Intune, you can create a maximum of 100 dependencies, which includes the dependencies of any included dependencies, as well as the app itself. See [Step 5: Dependencies](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-5-dependencies) of [Add, assign, and monitor a Win32 app in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add) for more information.
 {% endhint %}
 
-![“Dependencies” tool](/_images/image%20%2888%29.png "\"Dependencies\" tool")
+![“Dependencies” tool](../../../../_images/image%20%2888%29.png%20"\"Dependencies\"%20tool")
 
 {% hint style="info" %}
 **Note**
@@ -43,17 +43,17 @@ To add a dependency:
 
 1. Click the **Dependencies** tool.
 
-![Clicking the &#x22;Dependencies&#x22; tool](/_images/image%20%2889%29.png "Clicking the &#x22;Dependencies&#x22; tool")
+![Clicking the &#x22;Dependencies&#x22; tool](../../../../_images/image%20%2889%29.png%20"Clicking%20the%20&#x22;Dependencies&#x22;%20tool")
 
 2. From the **Add Dependencies** field, either:
    1. Start typing the name of the relevant app that this app depends on already being successfully installed on the target device.
    2. Click the dropdown and select the relevant app that this app depends on already being successfully installed on the target device.
 
-![Selecting the relevant app that this app depends on already being successfully installed on the target device](/_images/image%20%2890%29.png "Selecting the relevant app that this app depends on already being successfully installed on the target device")
+![Selecting the relevant app that this app depends on already being successfully installed on the target device](../../../../_images/image%20%2890%29.png%20"Selecting%20the%20relevant%20app%20that%20this%20app%20depends%20on%20already%20being%20successfully%20installed%20on%20the%20target%20device")
 
 The selected app appears under the **Parent Deployment** section.
 
-![Selected app appearing under the “Parent Deployment” section](/_images/image%20%2891%29.png "Selected app appearing under the \"Parent Deployment\" section")
+![Selected app appearing under the “Parent Deployment” section](../../../../_images/image%20%2891%29.png%20"Selected%20app%20appearing%20under%20the%20\"Parent%20Deployment\"%20section")
 
 {% hint style="info" %}
 **Note**
@@ -68,7 +68,7 @@ Click the trashcan beside the relevant app under the **Parent Deployment** secti
 
 Once a dependency has been configured, you can view it as part of the app’s properties in the Microsoft Intune admin center.
 
-![Viewing dependencies for an app in the Microsoft Intune admin center](/_images/image%20%28339).png>)
+![Viewing dependencies for an app in the Microsoft Intune admin center](../../../../_images/image%20%28339).png>)
 
 For more information, see [Step 5: Dependencies](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-5-dependencies) of [Add, assign, and monitor a Win32 app in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add).
 {% endhint %}
@@ -84,7 +84,7 @@ If a dependency is set up in the Intune admin center between an app managed by P
 
 If we encounter any problems with app dependencies, we display a yellow exclamation mark (“**!**”) warning. Hovering over this will display more information.
 
-<img src="/_images/image%20%28334%29.png" alt="" data-size="original">
+<img src="../../../../_images/image%20%28334%29.png" alt="" data-size="original">
 
 We typically generate warnings in the following scenarios:
 
@@ -102,4 +102,4 @@ If an entire deployment fails before the dependencies stage is reached, no warni
 
     Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image%20%2892%29.png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
+![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](../../../../_images/image%20%2892%29.png%20"Clicking%20&#x22;Next&#x22;%20to%20move%20to%20the%20&#x22;Assignments&#x22;%20page")

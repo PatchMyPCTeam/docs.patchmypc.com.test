@@ -6,13 +6,13 @@ Advanced Insights (this is not relevant for Patch Insights) can access device wa
 
 First you will browse to [https://techdirect.dell.com](https://techdirect.dell.com/) and register or log in, you will need to be associated with your Dell Company account. Once all that is sorted you can select to go to the APIs section.
 
-![](/_images/image%20%281293%29.png "Dell Tech API")
+![](../_images/image%20%281293%29.png%20"Dell%20Tech%20API")
 
-![](/_images/image%20%281289%29.png "Dell Tech Request API Key")
+![](../_images/image%20%281289%29.png%20"Dell%20Tech%20Request%20API%20Key")
 
-![](/_images/image%20%281562%29.png "Dell API Client ID")
+![](../_images/image%20%281562%29.png%20"Dell%20API%20Client%20ID")
 
-![](/_images/image%20%281563%29.png "Dell API Client Secret")
+![](../_images/image%20%281563%29.png%20"Dell%20API%20Client%20Secret")
 
 
 
@@ -26,4 +26,4 @@ Enter the provided Dell warranty text for Client ID, Client Secret and click sav
 
 \*Please only enter in the text in-between the brackets for the API Client Secret.
 
-![](/_images/image%20%281561%29.png "Example of Dell API Client ID and Client Secret")
+![](../_images/image%20%281561%29.png%20"Example%20of%20Dell%20API%20Client%20ID%20and%20Client%20Secret")

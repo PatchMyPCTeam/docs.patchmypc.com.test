@@ -18,11 +18,11 @@ To configure a PMPC Cloud deployment to use a Retention Policy:
 
 1. Click the **Retention Policy** tool.
 
-![Clicking the “Retention Policy” tool](/_images/image%20%2899%29.png "Clicking the \"Retention Policy\" tool")
+![Clicking the “Retention Policy” tool](../../../../_images/image%20%2899%29.png%20"Clicking%20the%20\"Retention%20Policy\"%20tool")
 
 2. Scroll down to the **Retention Policy** section.
 
-![Scrolling down to the “Retention Policy” section.](/_images/image%20%28100%29.png "Scrolling down to the \"Retention Policy\" section.")
+![Scrolling down to the “Retention Policy” section.](../../../../_images/image%20%28100%29.png%20"Scrolling%20down%20to%20the%20\"Retention%20Policy\"%20section.")
 
 3. In the **Versions to Retain** box, either type the required number or use the controls to configure the number of versions of this app you wish to retain in your environment.
 
@@ -32,7 +32,7 @@ To configure a PMPC Cloud deployment to use a Retention Policy:
 The default value of **0** means only the most recent version of the app is retained. You can retain up to ten versions of an app.
 {% endhint %}
 
-![Configuring the number of versions of this app to retain using the “Versions to Retain” box](/_images/image%20%2861%29.png "Configuring the number of versions of this app to retain using the \"Versions to Retain\" box")
+![Configuring the number of versions of this app to retain using the “Versions to Retain” box](../../../../_images/image%20%2861%29.png%20"Configuring%20the%20number%20of%20versions%20of%20this%20app%20to%20retain%20using%20the%20\"Versions%20to%20Retain\"%20box")
 
 {% hint style="success" %}
 **Tip**
@@ -42,7 +42,7 @@ See [Check App Version Retention](../../../cloud-reference/intune-reference/chec
 
 4. If you do not want to configure any of the optional tabs under the **Tools** section, click **Next** to move to the [Assignments](../cloud-assignments-deployment-tab.md) tab. Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking “Next” to move to the “Assignments” tab](/_images/image%20%28102%29.png "Clicking \"Next\" to move to the \"Assignments\" tab")
+![Clicking “Next” to move to the “Assignments” tab](../../../../_images/image%20%28102%29.png%20"Clicking%20\"Next\"%20to%20move%20to%20the%20\"Assignments\"%20tab")
 
 {% hint style="info" %}
 **Note**

@@ -8,7 +8,7 @@ I am trying to upload a Pre (or Post) script, but I get the following error:
 
 **Error - TypeError: Failed to fetch**
 
-![Error - TypeError: Failed to fetch](/_images/image%20%28232%29.png "Error - TypeError: Failed to fetch")
+![Error - TypeError: Failed to fetch](../../../_images/image%20%28232%29.png%20"Error%20-%20TypeError:%20Failed%20to%20fetch")
 
 
 

@@ -18,4 +18,4 @@ By default, we recommend the Publisher sync runs on a daily basis. The sync sche
 
 When Patch My PC releases these new updates, the **sync schedule is what automates the publication process**. You can also manually start the sync and publication process at any time by selecting the **Run Publishing Service Sync** option.
 
-![Publishing Schedule](/_images/image%20%281252).png>)
+![Publishing Schedule](../../_images/image%20%281252).png>)

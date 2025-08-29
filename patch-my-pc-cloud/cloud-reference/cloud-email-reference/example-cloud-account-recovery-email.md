@@ -10,4 +10,4 @@ Whenever a user successfully completes the [Recover Your Company](../../cloud-ad
 
 The email is sent from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox with the subject **Access Recover to “PMPC\_**_**company\_name**_**>**.
 
-![Example Account Recovery Email](/_images/image%20%281979%29.png "Example Account Recovery Email")
+![Example Account Recovery Email](../../../_images/image%20%281979%29.png%20"Example%20Account%20Recovery%20Email")

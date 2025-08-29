@@ -9,23 +9,23 @@ To recreate a deployment:
 1.  From the **Deployments** page, click the ellipsis (**⋮**) beside the relevant deployment you want to recreate and click **Recreate**.\
 
 
-    ![Clicking the ellipsis beside a deployment and selecting “Recreate”](/_images/image%20%282013%29.png "Clicking the ellipsis beside a deployment and selecting \"Recreate\"")
+    ![Clicking the ellipsis beside a deployment and selecting “Recreate”](../../../_images/image%20%282013%29.png%20"Clicking%20the%20ellipsis%20beside%20a%20deployment%20and%20selecting%20\"Recreate\"")
 2.  On the **Are you sure you want to recreate <**_**deployment\_name**_**>** dialog box, click **Yes**.\
 
 
-    ![](/_images/image%20%281681%29.png "")
+    ![](../../../_images/image%20%281681%29.png%20"")
 
     \
     The **Status** of the deployment changes to **In Progress** and the **Recreating the deployment&#x20;**_**\<deployment\_name>**_**&#x20;has started** message is displayed.\
 
 
-    ![Change to deployment status and message stating the recreation process has started](/_images/image%20%281682%29.png "Change to deployment status and message stating the recreation process has started")
+    ![Change to deployment status and message stating the recreation process has started](../../../_images/image%20%281682%29.png%20"Change%20to%20deployment%20status%20and%20message%20stating%20the%20recreation%20process%20has%20started")
 
     \
     Once the deployment has been recreated, the portal auto-refreshes and the **Status** changes to **Success**.\
 
 
-    ![Portal auto-refreshes to show the deployment has been successfully recreated](/_images/image%20%281683%29.png "Portal auto-refreshes to show the deployment has been successfully recreated")
+    ![Portal auto-refreshes to show the deployment has been successfully recreated](../../../_images/image%20%281683%29.png%20"Portal%20auto-refreshes%20to%20show%20the%20deployment%20has%20been%20successfully%20recreated")
 
 {% hint style="success" %}
 **Tip**

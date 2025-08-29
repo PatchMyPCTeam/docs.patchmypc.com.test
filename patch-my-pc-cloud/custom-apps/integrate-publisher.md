@@ -26,7 +26,7 @@ Tip
 If the **Cloud** tab is not present, check you have entered your license key and clicked **Validate**.
 {% endhint %}
 
-![&#x22;Cloud&#x22; tab of our Publisher](/_images/image%20%281725%29.png "&#x22;Cloud&#x22; tab of our Publisher")
+![&#x22;Cloud&#x22; tab of our Publisher](../../_images/image%20%281725%29.png%20"&#x22;Cloud&#x22;%20tab%20of%20our%20Publisher")
 
 3. In the **Connection Name** field, enter a unique name for the connection. For example **Patch My PC Custom Apps**, then click **Connect**.
 
@@ -36,20 +36,20 @@ If the **Cloud** tab is not present, check you have entered your license key and
 The name you enter here determines how this connection shows on the **Connections** page of the **portal**.
 {% endhint %}
 
-![Entering a “Connection Name” and clicking “Connect”](/_images/image%20%281726%29.png "Entering a \"Connection Name\" and clicking \"Connect\"")
+![Entering a “Connection Name” and clicking “Connect”](../../_images/image%20%281726%29.png%20"Entering%20a%20\"Connection%20Name\"%20and%20clicking%20\"Connect\"")
 
 4.  In your browser, enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.
 
 
 
-    ![“Microsoft Sign in” screen](/_images/image%20%281420%29.png "\"Microsoft Sign in\" screen")
+    ![“Microsoft Sign in” screen](../../_images/image%20%281420%29.png%20"\"Microsoft%20Sign%20in\"%20screen")
 
 
 5.  Enter the password and click **Sign in**.
 
 
 
-    ![“Enter password” screen](/_images/image%20%281421%29.png "\"Enter password\" screen")
+    ![“Enter password” screen](../../_images/image%20%281421%29.png%20"\"Enter%20password\"%20screen")
 
     \
     If the connection is successful, a new browser tab opens with the following message:
@@ -62,13 +62,13 @@ The name you enter here determines how this connection shows on the **Connection
 7.  If the **Edit a customer** screen is displayed, click to select the customer you want to connect to, then click **OK**.\
 
 
-    ![Selecting the relevant customer from the “Edit a customer” screen](/_images/image%20%28910%29.png "Selecting the relevant customer from the \"Edit a customer\" screen")
+    ![Selecting the relevant customer from the “Edit a customer” screen](../../_images/image%20%28910%29.png%20"Selecting%20the%20relevant%20customer%20from%20the%20\"Edit%20a%20customer\"%20screen")
 
 
 8.  In Publisher, verify the **Connection Status** shows as **Connected**, then click **Save and Close**.\
 
 
-    ![Publisher showing it’s “Connected”](/_images/image%20%281728%29.png "Publisher showing it’s \"Connected\"")
+    ![Publisher showing it’s “Connected”](../../_images/image%20%281728%29.png%20"Publisher%20showing%20it’s%20\"Connected\"")
 
 {% hint style="info" %}
 **Note**

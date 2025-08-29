@@ -21,4 +21,4 @@ From the **Add Webhook** dropdown, select the type of webhook you want to create
 * [Microsoft Teams](create-a-microsoft-teams-webhook-notification-in-cloud.md)
 * [Slack](create-a-slack-webhook-notification-in-cloud.md)
 
-![Clicking “Add Webhook”](/_images/image%20%281600%29.png "Clicking \"Add Webhook\"")
+![Clicking “Add Webhook”](../../../_images/image%20%281600%29.png%20"Clicking%20\"Add%20Webhook\"")

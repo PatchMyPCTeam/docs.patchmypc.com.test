@@ -42,14 +42,14 @@ To install the Patch My PC (PMPC) Client:
 
 1. Navigate to **Settings | Client Deployment**
 
-![Navigating to “Settings | Client Deployment”](/_images/image%20%282724%29.png "Navigating to \"Settings | Client Deployment\"")
+![Navigating to “Settings | Client Deployment”](../../_images/image%20%282724%29.png%20"Navigating%20to%20\"Settings%20|%20Client%20Deployment\"")
 
 The **Client Deployment** screen is shown, which is split into two sections:
 
 * **Preview Version Deployment –** Shows details of the preview version of our Client and which Entra ID groups it is targeted to (if relevant).
 * **Production Version Deployment -** Shows details of the production version of our Client and which Entra ID groups it is targeted to (if relevant).
 
-![“Client Deployment” screen](/_images/image%20%282725%29.png "\"Client Deployment\" screen")
+![“Client Deployment” screen](../../_images/image%20%282725%29.png%20"\"Client%20Deployment\"%20screen")
 
 2. To deploy the Client (**Preview** or **Production**), click the **Groups** dropdown and select the relevant Entra ID group(s) you want to deploy the Client to.
 
@@ -61,19 +61,19 @@ We recommend deploying the PMPC Client to a pilot group of devices first to ensu
 See [Add groups to organize users and devices](https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/groups-add) for more details on creating and working with groups in Intune.
 {% endhint %}
 
-![Selecting the Entra ID Group(s) you want to deploy the client to](/_images/image%20%282726%29.png "Selecting the Entra ID Group(s) you want to deploy the client to")
+![Selecting the Entra ID Group(s) you want to deploy the client to](../../_images/image%20%282726%29.png%20"Selecting%20the%20Entra%20ID%20Group%28s) you want to deploy the client to")
 
 3. Click **Save**
 
-![Clicking &#x22;Save&#x22;](/_images/image%20%282727%29.png "Clicking &#x22;Save&#x22;")
+![Clicking &#x22;Save&#x22;](../../_images/image%20%282727%29.png%20"Clicking%20&#x22;Save&#x22;")
 
 The **Success** notification is shown.
 
-![“Success – Created” notification](/_images/image%20%282728%29.png "\"Success – Created\" notification")
+![“Success – Created” notification](../../_images/image%20%282728%29.png%20"\"Success%20–%20Created\"%20notification")
 
 Once the Win32 app for the Client has been created in Intune, the status updates to **Success** and the Client will be deployed to the targeted devices.
 
-![Client deployed successfully](/_images/image%20%282729%29.png "Client deployed successfully")
+![Client deployed successfully](../../_images/image%20%282729%29.png%20"Client%20deployed%20successfully")
 
 As the Client is installed on the targeted devices, the number of **Devices Managed** shown in the **Dashboard** will increase.
 
@@ -111,11 +111,11 @@ In this scenario, you can also uninstall the Client by:
 
 1. Clicking the relevant **Uninstall Client** button.
 
-![Clicking the relevant “Uninstall Client” button](/_images/image.png "Clicking the relevant \"Uninstall Client\" button")
+![Clicking the relevant “Uninstall Client” button](../../_images/image.png%20"Clicking%20the%20relevant%20\"Uninstall%20Client\"%20button")
 
 2. Select the relevant group.
 
-![Clicking the relevant “Uninstall Client” button](/_images/image%20%281%29.png "Clicking the relevant \"Uninstall Client\" button")
+![Clicking the relevant “Uninstall Client” button](../../_images/image%20%281%29.png%20"Clicking%20the%20relevant%20\"Uninstall%20Client\"%20button")
 
 {% hint style="info" %}
 **Note**
@@ -126,11 +126,11 @@ If a group is greyed out, it means the current Client deployment is targeted to 
 3. Add any additional Groups as required.
 4. Click **Save**.
 
-![Clicking “Save”](/_images/image%20%282%29.png "Clicking \"Save\"")
+![Clicking “Save”](../../_images/image%20%282%29.png%20"Clicking%20\"Save\"")
 
 The **Client Deployment** page is displayed along with the **Success – Updated** notification.
 
-![“Success | Updated” notification](/_images/image%20%283%29.png "\"Success | Updated\" notification")
+![“Success | Updated” notification](../../_images/image%20%283%29.png%20"\"Success%20|%20Updated\"%20notification")
 
 The Client will then be uninstalled from all the devices within the selected Entra ID Group(s).
 
@@ -140,15 +140,15 @@ If you want to delete the entire deployment used to deploy the Client:
 
 1. Click the red trash can beside the relevant Client version whose deployment you wish to delete.
 
-![Clicking the red trash can beside the relevant Client version whose deployment you wish to delete](/_images/image%20%284%29.png "Clicking the red trash can beside the relevant Client version whose deployment you wish to delete")
+![Clicking the red trash can beside the relevant Client version whose deployment you wish to delete](../../_images/image%20%284%29.png%20"Clicking%20the%20red%20trash%20can%20beside%20the%20relevant%20Client%20version%20whose%20deployment%20you%20wish%20to%20delete")
 
 2. On the **Are you sure?** dialog box, click **Submit**
 
-![Clicking “Submit” on the “Are you sure?” dialog](/_images/image%20%285%29.png "Clicking \"Submit\" on the \"Are you sure?\" dialog")
+![Clicking “Submit” on the “Are you sure?” dialog](../../_images/image%20%285%29.png%20"Clicking%20\"Submit\"%20on%20the%20\"Are%20you%20sure?\"%20dialog")
 
 The **Client Deployment** screen is redisplayed along with the **Success – Deleted** notification.
 
-![“Client Deployment” screen is redisplayed along with the “Success – Deleted” notification](/_images/image%20%286%29.png "\"Client Deployment\" screen is redisplayed along with the \"Success – Deleted\" notification")
+![“Client Deployment” screen is redisplayed along with the “Success – Deleted” notification](../../_images/image%20%286%29.png%20"\"Client%20Deployment\"%20screen%20is%20redisplayed%20along%20with%20the%20\"Success%20–%20Deleted\"%20notification")
 
 {% hint style="danger" %}
 **Important**

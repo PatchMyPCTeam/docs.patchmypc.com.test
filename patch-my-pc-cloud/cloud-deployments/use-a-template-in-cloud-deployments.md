@@ -20,7 +20,7 @@ To configure a new deployment to use a template:
 2.  Once the Deployment Wizard has started, click **Apply Template**\
 
 
-    ![Clicking “Apply Template”](/_images/image%20%282330%29.png "Clicking \"Apply Template\"")
+    ![Clicking “Apply Template”](../../_images/image%20%282330%29.png%20"Clicking%20\"Apply%20Template\"")
 
 {% hint style="info" %}
 **Note**
@@ -31,7 +31,7 @@ You can click **Apply Template** at any time, regardless of the tab you are work
 3.  On the **Apply Template** screen, select the radio button beside the template you want to apply, then click **Apply**.\
 
 
-    ![Selecting the radio button beside the template you want to apply and clicking “Apply”](/_images/image%20%282331%29.png "Selecting the radio button beside the template you want to apply and clicking \"Apply\"")
+    ![Selecting the radio button beside the template you want to apply and clicking “Apply”](../../_images/image%20%282331%29.png%20"Selecting%20the%20radio%20button%20beside%20the%20template%20you%20want%20to%20apply%20and%20clicking%20\"Apply\"")
 
 {% hint style="info" %}
 **Note**
@@ -41,7 +41,7 @@ Only the templates created for the Operating System (OS) platform you are deploy
 
 The Deployment Wizard is redisplayed along with the **Success - Template ‘<**_**template\_name**_**>’ applied** notification.
 
-![](/_images/image%20%282332%29.png "")
+![](../../_images/image%20%282332%29.png%20"")
 
 {% hint style="info" %}
 **Note**

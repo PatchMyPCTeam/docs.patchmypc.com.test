@@ -10,18 +10,18 @@ _Applies to: Patch My PC Advanced  Insights_
 This dashboard requires deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
 {% endhint %}
 
-![](/_images/image%20%28776%29.png "Displays view")
+![](../../../_images/image%20%28776%29.png%20"Displays%20view")
 
 The Displays donut chart lists several properties, by default Manufacturer is shown, but this can be pivoted to Model, Connection Type, Year of Manufacture, Size and Resolution by clicking the property button:
 
-![](/_images/image%20%28777%29.png "Modifying donut display property")
+![](../../../_images/image%20%28777%29.png%20"Modifying%20donut%20display%20property")
 
 The Connected Displays table lists all machines and their individual display configurations.
 
-![](/_images/image%20%28778%29.png "Connected Displays table")
+![](../../../_images/image%20%28778%29.png%20"Connected%20Displays%20table")
 
 Clicking any device listed will take you to the Device View, with the Hardware - Display tab selected:
 
-![](/_images/image%20%28779%29.png "Device View of Display data")
+![](../../../_images/image%20%28779%29.png%20"Device%20View%20of%20Display%20data")
 
 This view shows you the physical horizontal layout of the monitors on the user's desk (note, vertical positioning is not shown). The primary monitor is indicated with the Windows logo. The hover over text lists additional monitor properties, also listed in the table below.

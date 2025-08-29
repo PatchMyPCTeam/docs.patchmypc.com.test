@@ -6,4 +6,4 @@ Once you upload the latest version of the installer for a new version of a Patch
 
 The email is sent from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox with the subject **Updates Report for Patch My PC**.
 
-![Example of the email notification sent after a Binary Free App has been successfully updated](/_images/image%20%28441%29.png "Example of the email notification sent after a Binary Free App has been successfully updated")
+![Example of the email notification sent after a Binary Free App has been successfully updated](../../../_images/image%20%28441%29.png%20"Example%20of%20the%20email%20notification%20sent%20after%20a%20Binary%20Free%20App%20has%20been%20successfully%20updated")

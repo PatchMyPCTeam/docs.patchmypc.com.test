@@ -84,8 +84,8 @@ Double-check everything before clicking **Create**.
 
 Once the client processes the policy, the certificate appears as follows in its **Trusted Publishers** store.
 
-![How the certificate appears in a clients “Trusted Publishers” store](/_images/image%20%28654%29.png "How the certificate appears in a clients \"Trusted Publishers\" store")
+![How the certificate appears in a clients “Trusted Publishers” store](../../../_images/image%20%28654%29.png%20"How%20the%20certificate%20appears%20in%20a%20clients%20\"Trusted%20Publishers\"%20store")
 
 Double-clicking the certificate allows you to see its properties.
 
-![Properties of the certificate](/_images/image%20%28655%29.png "Properties of the certificate")
+![Properties of the certificate](../../../_images/image%20%28655%29.png%20"Properties%20of%20the%20certificate")
