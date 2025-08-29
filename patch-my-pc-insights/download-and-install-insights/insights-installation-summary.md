@@ -6,13 +6,13 @@ Installation Summary
 
 This completes the pre-install configuration of Advanced Insights, a summary screen is shown and you can review and click **Install** to begin the installation.
 
-<figure><img src="/_images/gitbook/vmconnect_LDvkhQTKhv.png" alt=""><figcaption><p>Install Summary</p></figcaption></figure>
+![](/_images/vmconnect_LDvkhQTKhv.png "Install Summary")
 
 **Installation**
 
 The installer may take up to 30 minutes to complete.
 
-<figure><img src="/_images/gitbook/10%20Installing%20%281%29.png" alt=""><figcaption><p>Installing Advanced Installer Files</p></figcaption></figure>
+![](/_images/10%20Installing%20%281%29.png "Installing Advanced Installer Files")
 
 {% hint style="info" %}
 **Note**

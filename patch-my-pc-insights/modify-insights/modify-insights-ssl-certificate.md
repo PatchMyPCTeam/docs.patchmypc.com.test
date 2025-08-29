@@ -24,15 +24,15 @@ If you want to change the SSL certificate to a server host name only type, selec
 
 In the configuration modification page, select the checkbox for 'SSL Certificate' then click 'Change Certificate':
 
-<figure><img src="/_images/gitbook/vmconnect_KN0zxDuJp8.png" alt=""><figcaption></figcaption></figure>
+![](/_images/vmconnect_KN0zxDuJp8.png "")
 
 Use the drop down list to select the SSL certificate which represents the CNAME / Alias you wish to use.
 
-<figure><img src="/_images/gitbook/image%20%281654%29.png" alt=""><figcaption><p>Certificate selection dialog</p></figcaption></figure>
+![](/_images/image%20%281654%29.png "Certificate selection dialog")
 
 With the appropriate SSL certificate selected, click **'Set CNAME / Alias'**
 
-<figure><img src="/_images/gitbook/image%20%281655%29.png" alt=""><figcaption><p>Certificate selection dialog</p></figcaption></figure>
+![](/_images/image%20%281655%29.png "Certificate selection dialog")
 
 In the set CNAME / Alias dialog page, the dialog will be prepopulated with a value for the CNAME / Alias based upon the selected certificated.
 
@@ -40,22 +40,22 @@ Modify the prepopulated URL value if required.
 
 Click **'Set CNAME / Alias'**
 
-<figure><img src="/_images/gitbook/vmconnect_3ZByUA7acq%20%281%29.png" alt=""><figcaption><p>Set CNAME / Alias dialog</p></figcaption></figure>
+![](/_images/vmconnect_3ZByUA7acq%20%281%29.png "Set CNAME / Alias dialog")
 
 Click **'Next'**
 
-<figure><img src="/_images/gitbook/image%20%281656%29.png" alt=""><figcaption><p>Certificate selection dialog - CNAME / Alias set confirmed</p></figcaption></figure>
+![](/_images/image%20%281656%29.png "Certificate selection dialog - CNAME / Alias set confirmed")
 
 Click **'Install'**
 
-<figure><img src="/_images/gitbook/vmconnect_KN0zxDuJp8%20%282%29.png" alt=""><figcaption><p>Certificate Modification option dialog</p></figcaption></figure>
+![](/_images/vmconnect_KN0zxDuJp8%20%282%29.png "Certificate Modification option dialog")
 
 The installer will make the required configuration changes and display a summary once complete.
 
 Click **'Finish'**
 
-<figure><img src="/_images/gitbook/image%20%281658%29.png" alt=""><figcaption><p>Certificate modification completion</p></figcaption></figure>
+![](/_images/image%20%281658%29.png "Certificate modification completion")
 
 New Advanced Insights URL
 
-<figure><img src="/_images/gitbook/vmconnect_hyyumsMyOf.png" alt=""><figcaption><p>New Advanced Insights URL</p></figcaption></figure>
+![](/_images/vmconnect_hyyumsMyOf.png "New Advanced Insights URL")

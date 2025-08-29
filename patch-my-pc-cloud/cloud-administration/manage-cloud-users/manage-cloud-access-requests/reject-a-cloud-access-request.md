@@ -7,20 +7,20 @@ To reject an access request in Patch My PC (PMPC) Cloud:
 1.  Click the red **X** in the **Action** column beside the access request you want to reject.\
 
 
-    <figure><img src="/_images/gitbook/image%20%28623%29.png" alt="Selecting the Access Request to Reject"><figcaption></figcaption></figure>
+    ![Selecting the Access Request to Reject](/_images/image%20%28623%29.png "Selecting the Access Request to Reject")
 
 
 2.  On the **Reject request from "<**_**user\_name**_**>"** dialog box, enter an optional **Reason for Deny** then, click **Submit** to confirm your rejection.\
 
 
-    <figure><img src="/_images/gitbook/image%20%28624%29.png" alt=""><figcaption></figcaption></figure>
+    ![](/_images/image%20%28624%29.png "")
 
     \
     \
     The portal auto-refreshes to the **Pending Approval** tab to show the user’s request has been rejected, and the **Success - Request rejected** notification is shown.\
 
 
-    <figure><img src="/_images/gitbook/image%20%28625%29.png" alt="“Success- Request rejected” notification"><figcaption></figcaption></figure>
+    ![“Success- Request rejected” notification](/_images/image%20%28625%29.png "\"Success- Request rejected\" notification")
 
 {% hint style="info" %}
 **Note**

@@ -15,7 +15,7 @@ The default credentials for your first logon are below. You will be prompted to 
 
 On first logon, you will see the welcome page. You can access this page any time by clicking your username in the top right of the screen.&#x20;
 
-<figure><img src="/_images/gitbook/image%20%281209%29.png" alt=""><figcaption><p>Advanced Insights welcome screen</p></figcaption></figure>
+![](/_images/image%20%281209%29.png "Advanced Insights welcome screen")
 
 The welcome screen needs your Patch My PC license key and your ConfigMgr site server details.
 
@@ -23,7 +23,7 @@ The welcome screen needs your Patch My PC license key and your ConfigMgr site se
 
 If Advanced Insights is installed on the same server as the Patch My PC Publisher we will read the license key automatically. Alternatively, please add your license key and click to verify.&#x20;
 
-<figure><img src="/_images/gitbook/image%20%281109%29.png" alt=""><figcaption></figcaption></figure>
+![](/_images/image%20%281109%29.png "")
 
 ### Configuration Manager Database Details
 
@@ -33,8 +33,8 @@ As long as the IIS application pool identity running the Advanced Insights Contr
 
 If you have a problem at this stage, please see [this document ](insights-sql-permission-requirements.md)for details on granting SQL permissions.
 
-<figure><img src="/_images/gitbook/image%20%281106%29.png" alt=""><figcaption></figcaption></figure>
+![](/_images/image%20%281106%29.png "")
 
 Once the license key and SQL sections are successfully completed, click **Go to Dashboard** in the final step to complete setup.
 
-<figure><img src="/_images/gitbook/image%20%281138%29.png" alt=""><figcaption></figcaption></figure>
+![](/_images/image%20%281138%29.png "")

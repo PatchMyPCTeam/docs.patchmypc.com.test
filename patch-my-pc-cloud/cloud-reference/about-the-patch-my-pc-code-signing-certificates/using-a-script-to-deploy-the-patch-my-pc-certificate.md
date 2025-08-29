@@ -92,7 +92,7 @@ You can see the script being processed by the Intune Management Extension by loo
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs
 ```
 
-<figure><img src="/_images/gitbook/image%20%28648%29.png" alt="“IntuneManagementExtension.log” showing the script being processed by the Intune Management Extension" width="563"><figcaption></figcaption></figure>
+![“IntuneManagementExtension.log” showing the script being processed by the Intune Management Extension](/_images/image%20%28648%29.png "\"IntuneManagementExtension.log\" showing the script being processed by the Intune Management Extension")
 
 ### Using a proactive remediation
 
@@ -152,16 +152,16 @@ You can see the script being processed by the Intune Management Extension by loo
 
 Observe the **Proactive Remediation Device Status** blade.
 
-<figure><img src="/_images/gitbook/image%20%28649%29.png" alt="Observing the “Proactive Remediation Device Status” blade." width="563"><figcaption></figcaption></figure>
+![Observing the “Proactive Remediation Device Status” blade.](/_images/image%20%28649%29.png "Observing the \"Proactive Remediation Device Status\" blade.")
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script found the certificate already installed in the local computer’s Trusted Publishers store.
 
-<figure><img src="/_images/gitbook/image%20%28650%29.png" alt="“HealthScripts.log” snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine’s Trusted Publishers store." width="563"><figcaption></figcaption></figure>
+![“HealthScripts.log” snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine’s Trusted Publishers store.](/_images/image%20%28650%29.png "\"HealthScripts.log\" snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine’s Trusted Publishers store.")
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is **1**).
 
-<figure><img src="/_images/gitbook/image%20%28651%29.png" alt="“HealthScripts.log” snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is 1)." width="563"><figcaption></figcaption></figure>
+![“HealthScripts.log” snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is 1).](/_images/image%20%28651%29.png "\"HealthScripts.log\" snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is 1).")
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is **0**).
 
-<figure><img src="/_images/gitbook/image%20%28652%29.png" alt="“HealthScripts.log” snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0)." width="563"><figcaption></figcaption></figure>
+![“HealthScripts.log” snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0).](/_images/image%20%28652%29.png "\"HealthScripts.log\" snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0).")

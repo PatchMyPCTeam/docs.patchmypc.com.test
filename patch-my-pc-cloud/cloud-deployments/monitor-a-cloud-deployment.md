@@ -16,7 +16,7 @@ To see the status of a deployment:
 2.  Navigate to the **Deployments** node.\
 
 
-    <figure><img src="/_images/gitbook/image%20%281453%29.png" alt="Navigating to the “Deployments” page."><figcaption></figcaption></figure>
+    ![Navigating to the “Deployments” page.](/_images/image%20%281453%29.png "Navigating to the \"Deployments\" page.")
 
     \
     The **Deployments** page loads, showing all current deployments. \
@@ -27,4 +27,4 @@ To see the status of a deployment:
 * **In Progress –** The application is being created in Intune.
 * **Failed –** The application failed to be created in Intune.
 
-<figure><img src="/_images/gitbook/image%20%281454%29.png" alt="“Status” column showing the status of each deployment "><figcaption></figcaption></figure>
+![“Status” column showing the status of each deployment](/_images/image%20%281454%29.png "\"Status\" column showing the status of each deployment")

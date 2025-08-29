@@ -10,7 +10,7 @@ Reviewing the **Summary** tab is optional, but recommended.
 
 The **Summary** tab of the Patch My PC (PMPC) Cloud deployment wizard provides a summary of the deployment so you can confirm that it is configured correctly before you create it.
 
-<figure><img src="/_images/gitbook/image%20%282391%29.png" alt="&#x22;Summary&#x22; tab"><figcaption></figcaption></figure>
+![&#x22;Summary&#x22; tab](/_images/image%20%282391%29.png "&#x22;Summary&#x22; tab")
 
 Review the summary of the deployment shown on the **Summary** page.\
 \
@@ -18,21 +18,21 @@ If you are happy click **Deploy**.\
 \
 If you need to change something, click **< Prev** to backtrack through the Deployment Wizard to the relevant setting. Make the change, then step back through the wizard to this page. If everything is now correct, click **Deploy**.
 
-<figure><img src="/_images/gitbook/image%20%282392%29.png" alt="Clicking &#x22;Deploy&#x22;"><figcaption></figcaption></figure>
+![Clicking &#x22;Deploy&#x22;](/_images/image%20%282392%29.png "Clicking &#x22;Deploy&#x22;")
 
 {% hint style="info" %}
 Note
 
 If you have configured this deployment to use [Update Rings](../cloud-update-rings/), you will see the **Deployment Summary** screen, containing details on how you have configured the rings.
 
-!["Deployment Summary" shown if this deloyment is using Update Rings](/_images/gitbook/image%20%282291).png>)
+!["Deployment Summary" shown if this deloyment is using Update Rings](/_images/image%20%282291).png>)
 
 See [Update Rings](../cloud-update-rings/) for more information.
 {% endhint %}
 
 The App Catalog is redisplayed along with the **Success - Created&#x20;**_**\<deployment\_name>**_ notification.
 
-<figure><img src="/_images/gitbook/image%20%282393%29.png" alt="App Catalog is redisplayed along with the &#x22;Success - Created <deployment_name>&#x22; notification"><figcaption></figcaption></figure>
+![](/_images/image%20%282393%29.png "")
 
 {% hint style="warning" %}
 **Important**

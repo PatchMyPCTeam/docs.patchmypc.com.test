@@ -8,40 +8,40 @@ If a Patch My PC (PMPC) Cloud Custom App has been configured to use [Detection m
 2.  Navigate to **Apps**.\
 
 
-    <figure><img src="/_images/gitbook/image%20%282220%29.png" alt="Navigating to “Apps”"><figcaption></figcaption></figure>
+    ![Navigating to “Apps”](/_images/image%20%282220%29.png "Navigating to \"Apps\"")
 
 
 3.  Navigate to **All Apps**.\
 
 
-    <figure><img src="/_images/gitbook/image%20%282221%29.png" alt="Navigating to “All Apps”"><figcaption></figcaption></figure>
+    ![Navigating to “All Apps”](/_images/image%20%282221%29.png "Navigating to \"All Apps\"")
 
 
 4.  Click the app if it’s shown in the results or search for it.\
 
 
-    <figure><img src="/_images/gitbook/image%20%28227%29.png" alt="Clicking the app if it’s shown in the results or searching for it"><figcaption></figcaption></figure>
+    ![Clicking the app if it’s shown in the results or searching for it](/_images/image%20%28227%29.png "Clicking the app if it’s shown in the results or searching for it")
 
 
 5.  Navigate to **Manage | Properties**.\
 
 
-    <figure><img src="/_images/gitbook/image%20%28228%29.png" alt="Navigating to “Manage | Properties”"><figcaption></figcaption></figure>
+    ![Navigating to “Manage | Properties”](/_images/image%20%28228%29.png "Navigating to \"Manage | Properties\"")
 
 
 6.  Scroll down to **Detection rules** and click **Edit**.\
 
 
-    <figure><img src="/_images/gitbook/image%20%28229%29.png" alt="Scrolling down to “Detection rules” and clicking “Edit”"><figcaption></figcaption></figure>
+    ![Scrolling down to “Detection rules” and clicking “Edit”](/_images/image%20%28229%29.png "Scrolling down to \"Detection rules\" and clicking \"Edit\"")
 
     \
     Any configured detection rules are displayed.\
 
 
-    <figure><img src="/_images/gitbook/image%20%28230%29.png" alt="Any configured detection rules are displayed."><figcaption></figcaption></figure>
+    ![Any configured detection rules are displayed.](/_images/image%20%28230%29.png "Any configured detection rules are displayed.")
 
 
 7.  Click a detection rule to display more details.\
 
 
-    <figure><img src="/_images/gitbook/image%20%28231%29.png" alt="Clicking a detection rule to display more details"><figcaption></figcaption></figure>
+    ![Clicking a detection rule to display more details](/_images/image%20%28231%29.png "Clicking a detection rule to display more details")

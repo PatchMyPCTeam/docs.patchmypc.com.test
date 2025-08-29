@@ -18,18 +18,18 @@ Review the network requirements here: [insights-network-requirements.md](../adva
 
 In the configuration modification page, select the checkbox for **'Frontend SSL Port Configuration'** then click **'Change SSL Port'**:
 
-<figure><img src="/_images/gitbook/vmconnect_ZGfm8PKdEE.png" alt=""><figcaption><p>Network Port Modification option dialog</p></figcaption></figure>
+![](/_images/vmconnect_ZGfm8PKdEE.png "Network Port Modification option dialog")
 
 Click 'Edit port' in the 'Advanced Insights' section and enter a new port number, then click **'Next'**
 
-<figure><img src="/_images/gitbook/image%20%28317%29.png" alt=""><figcaption><p>Edit port</p></figcaption></figure>
+![](/_images/image%20%28317%29.png "Edit port")
 
 Click **'Install**
 
-<figure><img src="/_images/gitbook/vmconnect_B7QMICBKSx.png" alt=""><figcaption></figcaption></figure>
+![](/_images/vmconnect_B7QMICBKSx.png "")
 
 The installer will make the required configuration changes and display a summary once complete.
 
 Click **'Finish'**
 
-<figure><img src="/_images/gitbook/vmconnect_cyLJ47qjhn.png" alt=""><figcaption><p>Network port modification completion</p></figcaption></figure>
+![](/_images/vmconnect_cyLJ47qjhn.png "Network port modification completion")

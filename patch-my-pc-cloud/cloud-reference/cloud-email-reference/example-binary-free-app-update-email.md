@@ -6,7 +6,7 @@ Whenever we add a new version of a Binary Free App you have deployed to our App 
 
 The email is sent from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox with the subject **“<**_**app\_name**_**>” Update Available**.
 
-<figure><img src="/_images/gitbook/image%20%28400%29.png" alt="Example of the Email Notification when a Binary Free App needs an update"><figcaption></figcaption></figure>
+![Example of the Email Notification when a Binary Free App needs an update](/_images/image%20%28400%29.png "Example of the Email Notification when a Binary Free App needs an update")
 
 {% hint style="info" %}
 **Note**

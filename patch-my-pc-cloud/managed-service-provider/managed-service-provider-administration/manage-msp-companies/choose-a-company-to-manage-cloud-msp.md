@@ -9,7 +9,7 @@ To switch between companies:
 1.  Click your user name in the top right-hand corner.\
 
 
-    <figure><img src="/_images/gitbook/image%20%282091%29.png" alt=""><figcaption></figcaption></figure>
+    ![](/_images/image%20%282091%29.png "")
 
 
 2.  Select which company you want to manage:\
@@ -18,7 +18,7 @@ To switch between companies:
     •  To manage a child customer, select it under the **MSP Customers** section.\
 
 
-    <figure><img src="/_images/gitbook/image%20%282092%29.png" alt="Selecting the company you want to manage"><figcaption></figcaption></figure>
+    ![Selecting the company you want to manage](/_images/image%20%282092%29.png "Selecting the company you want to manage")
 
 {% hint style="info" %}
 **Note**
@@ -28,4 +28,4 @@ The company currently being managed has a tick beside it.
 
 If you switch to managing a child customer, the **Managed By <**_**company\_name**_**>** indicator is shown in the portal's header.
 
-<figure><img src="/_images/gitbook/image%20%282093%29.png" alt="The “Managed By <company_name>” indicator is shown in the portal’s header if you are managing a child customer"><figcaption></figcaption></figure>
+![](/_images/image%20%282093%29.png "")

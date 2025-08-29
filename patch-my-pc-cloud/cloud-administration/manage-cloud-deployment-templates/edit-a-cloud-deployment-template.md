@@ -6,19 +6,19 @@ To edit an existing Template:
 
 1. Navigate to **Settings | Templates**
 
-<figure><img src="/_images/gitbook/image%20%28268%29.png" alt="Navigating to “Settings | Templates”" width="563"><figcaption></figcaption></figure>
+![Navigating to “Settings | Templates”](/_images/image%20%28268%29.png "Navigating to \"Settings | Templates\"")
 
 2. On the **Templates** page, click **Edit** beside the relevant template.
 
-<figure><img src="/_images/gitbook/image%20%2853%29.png" alt="Clicking “Edit” beside the relevant Template" width="563"><figcaption></figcaption></figure>
+![Clicking “Edit” beside the relevant Template](/_images/image%20%2853%29.png "Clicking \"Edit\" beside the relevant Template")
 
 3. Make the required changes, then click **Save** to save them.
 
-<figure><img src="/_images/gitbook/image%20%2854%29.png" alt="Clicking “Save” to save changes" width="563"><figcaption></figcaption></figure>
+![Clicking “Save” to save changes](/_images/image%20%2854%29.png "Clicking \"Save\" to save changes")
 
 The **Templates** page is redisplayed along with the **Success - Template “<**_**template\_name**_**>" has been updated** notification.
 
-<figure><img src="/_images/gitbook/image%20%2855%29.png" alt="Clicking “Save” to save changes" width="563"><figcaption></figcaption></figure>
+![Clicking “Save” to save changes](/_images/image%20%2855%29.png "Clicking \"Save\" to save changes")
 
 {% hint style="info" %}
 **Note**

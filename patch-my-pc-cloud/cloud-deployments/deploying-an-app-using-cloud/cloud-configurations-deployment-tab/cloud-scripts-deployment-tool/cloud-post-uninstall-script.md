@@ -8,27 +8,27 @@ To add a Post-Uninstall script:
 
 1. Click **Add** beside the **Post-Uninstall** option.
 
-<figure><img src="/_images/gitbook/image%20%282608%29.png" alt="Clicking “Add” beside the “Post-Uninstall” option" width="419"><figcaption></figcaption></figure>
+![Clicking “Add” beside the “Post-Uninstall” option](/_images/image%20%282608%29.png "Clicking \"Add\" beside the \"Post-Uninstall\" option")
 
 2. To import an existing script, click **Import** then browse to the location containing the script and select it.
 
-<figure><img src="/_images/gitbook/image%20%282473%29.png" alt="Clicking “Import” to import an existing script" width="563"><figcaption></figcaption></figure>
+![Clicking “Import” to import an existing script](/_images/image%20%282473%29.png "Clicking \"Import\" to import an existing script")
 
 The **Add Post-Uninstall Scripts** page is populated with the imported script.
 
-<figure><img src="/_images/gitbook/image%20%282474%29.png" alt="“Add Post-Uninstall Script” page is populated with the imported script." width="563"><figcaption></figcaption></figure>
+![“Add Post-Uninstall Script” page is populated with the imported script.](/_images/image%20%282474%29.png "\"Add Post-Uninstall Script\" page is populated with the imported script.")
 
 3. To manually add a script, enter a unique name for the script in the **Script Name** field.
 
-<figure><img src="/_images/gitbook/image%20%282475%29.png" alt="Entering a unique name for the script in the “Script Name” field" width="563"><figcaption></figcaption></figure>
+![Entering a unique name for the script in the “Script Name” field](/_images/image%20%282475%29.png "Entering a unique name for the script in the \"Script Name\" field")
 
 4. Select the type of script from the **Script Format** dropdown.
 
-<figure><img src="/_images/gitbook/image%20%282476%29.png" alt="Selecting the type of script from the “Script Format” dropdown." width="563"><figcaption></figcaption></figure>
+![Selecting the type of script from the “Script Format” dropdown.](/_images/image%20%282476%29.png "Selecting the type of script from the \"Script Format\" dropdown.")
 
 5. In the script editor, type your script.
 
-<figure><img src="/_images/gitbook/image%20%282477%29.png" alt="Typing your script in the Script Editor" width="563"><figcaption></figcaption></figure>
+![Typing your script in the Script Editor](/_images/image%20%282477%29.png "Typing your script in the Script Editor")
 
 {% hint style="info" %}
 **Note**
@@ -39,7 +39,7 @@ We currently have a limit of 50,000 characters per script. Use the **Number of c
 6.  In the **Arguments** field, enter any arguments you want to provide to the script.\
 
 
-    <figure><img src="/_images/gitbook/image%20%282478%29.png" alt="Entering any arguments you want to provide to the script by specifying them in the “Arguments” field" width="563"><figcaption></figcaption></figure>
+    ![Entering any arguments you want to provide to the script by specifying them in the “Arguments” field](/_images/image%20%282478%29.png "Entering any arguments you want to provide to the script by specifying them in the \"Arguments\" field")
 
 {% hint style="success" %}
 **Tip**
@@ -58,12 +58,12 @@ Using script Arguments is currently unsupported when deploying an app to macOS.
 7.  Click **Save** to save your script.\
 
 
-    <figure><img src="/_images/gitbook/image%20%282479%29.png" alt="Clicking “Save” to save your script" width="563"><figcaption></figcaption></figure>
+    ![Clicking “Save” to save your script](/_images/image%20%282479%29.png "Clicking \"Save\" to save your script")
 
     \
     The **Configurations** tab is re-displayed with the name of the configured script beside it.
 
-<figure><img src="/_images/gitbook/image%20%2896%29.png" alt="“Configurations” tab re-displayed with the name of the configured script beside it" width="419"><figcaption></figcaption></figure>
+![“Configurations” tab re-displayed with the name of the configured script beside it](/_images/image%20%2896%29.png "\"Configurations\" tab re-displayed with the name of the configured script beside it")
 
 {% hint style="success" %}
 **Tip**

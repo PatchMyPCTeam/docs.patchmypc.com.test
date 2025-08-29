@@ -7,23 +7,23 @@ To onboard to Patch My PC (PMPC) Cloud:
 1. Navigate to [https://portal.patchmypc.com/](https://portal.patchmypc.com/)
 2. Click **Sign Up**.
 
-<figure><img src="/_images/gitbook/image%20%281363%29.png" alt="Click “Sign Up” on the Patch My PC Portal page" width="563"><figcaption></figcaption></figure>
+![Click “Sign Up” on the Patch My PC Portal page](/_images/image%20%281363%29.png "Click \"Sign Up\" on the Patch My PC Portal page")
 
 3. On the **Sign in** screen, enter the Entra ID you want to use to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.
 
-<figure><img src="/_images/gitbook/image%20%281364%29.png" alt="Microsoft “Sign in” screen" width="329"><figcaption></figcaption></figure>
+![Microsoft “Sign in” screen](/_images/image%20%281364%29.png "Microsoft \"Sign in\" screen")
 
 4. Enter the password and click **Sign in**.
 
-<figure><img src="/_images/gitbook/image%20%281365%29.png" alt="Microsoft “Enter password” screen " width="329"><figcaption></figcaption></figure>
+![Microsoft “Enter password” screen](/_images/image%20%281365%29.png "Microsoft \"Enter password\" screen")
 
 5. If the **Permission requested** screen is not displayed, go to Step 7.
 
-<figure><img src="/_images/gitbook/image%20%281506%29.png" alt="" width="323"><figcaption></figcaption></figure>
+![](/_images/image%20%281506%29.png "")
 
 6. Review the **Permission requested** screen, clicking **Accept** if you are happy to continue.
 
-<figure><img src="/_images/gitbook/image%20%281366%29.png" alt="“Permissions requested” dialog box" width="325"><figcaption></figcaption></figure>
+![“Permissions requested” dialog box](/_images/image%20%281366%29.png "\"Permissions requested\" dialog box")
 
 {% hint style="info" %}
 **Note**
@@ -49,37 +49,37 @@ You can click the down arrow beside each permission to get more information.
 
 7. If you do not see the **Select the Company You Want to Sign-In To** screen, go to Step 9.
 
-<figure><img src="/_images/gitbook/image%20%28535%29.png" alt="&#x22;Select the Company You Want to Sign-In To&#x22; screen" width="563"><figcaption></figcaption></figure>
+![&#x22;Select the Company You Want to Sign-In To&#x22; screen](/_images/image%20%28535%29.png "&#x22;Select the Company You Want to Sign-In To&#x22; screen")
 
 8.  On the **Select the Company You Want to Sign-In To** screen, select the relevant option:
 
     1.  If you are setting up a new company, click **Create Company** and continue to Step 9.\
 
 
-        <figure><img src="/_images/gitbook/image%20%28536%29.png" alt="Clicking “Create Company” to create a new company" width="563"><figcaption></figcaption></figure>
+        ![Clicking “Create Company” to create a new company](/_images/image%20%28536%29.png "Clicking \"Create Company\" to create a new company")
 
 
     2.  If your email address has already been used to create a user in a PMPC Cloud company, you will see **Select** beside the relevant companies that you can sign in to.\
 
 
-        <figure><img src="/_images/gitbook/image%20%2820%29.png" alt="Clcking &#x22;Select&#x22; beside the company you want to sign in to." width="563"><figcaption></figcaption></figure>
+        ![Clcking &#x22;Select&#x22; beside the company you want to sign in to.](/_images/image%20%2820%29.png "Clcking &#x22;Select&#x22; beside the company you want to sign in to.")
 
 
     3. If your email address is not associated with a user in a PMPC Cloud company, you can click **Request Access** beside the company you want to join.
 
-    <figure><img src="/_images/gitbook/image%20%28538%29.png" alt="" width="563"><figcaption></figcaption></figure>
+    ![](/_images/image%20%28538%29.png "")
 
     \
     The **Request Access to join&#x20;**_**\<company\_name>**_ popup appears.\
     \
-    !["Request Access to join \<company\_name>" popup](/_images/gitbook/image%20%28626).png>)\
+    !["Request Access to join \<company\_name>" popup](/_images/image%20%28626).png>)\
     \
     Enter an optional **Reason for Request** then click **Submit**.\
     \
     The **Request Access** text changes to **Renotify** and the **Success - Access request sent** notification is shown. \
 
 
-    <figure><img src="/_images/gitbook/image%20%281632%29.png" alt="The “Success – Access request sent” notification is displayed" width="563"><figcaption></figcaption></figure>
+    ![The “Success – Access request sent” notification is displayed](/_images/image%20%281632%29.png "The \"Success – Access request sent\" notification is displayed")
 
     \
     You now need to wait for a user with the **Full Admin with Access Management** role to review and approve your request.
@@ -98,11 +98,11 @@ Users will receive an email from the [noreply@patchmypc.com](mailto:noreply@patc
 
 9. On the **Company Info** screen, click **Select** for the location where your company’s data will be stored.
 
-<figure><img src="/_images/gitbook/image%20%28609%29.png" alt="Click “Select” to select the relevant location to store your company data" width="563"><figcaption></figcaption></figure>
+![Click “Select” to select the relevant location to store your company data](/_images/image%20%28609%29.png "Click \"Select\" to select the relevant location to store your company data")
 
 10. In the **Company Name** field, type your company’s name.
 
-<figure><img src="/_images/gitbook/image%20%28610%29.png" alt="Type your company’s name in the “Company Name” field" width="563"><figcaption></figcaption></figure>
+![Type your company’s name in the “Company Name” field](/_images/image%20%28610%29.png "Type your company’s name in the \"Company Name\" field")
 
 {% hint style="danger" %}
 **Important**
@@ -112,27 +112,27 @@ You cannot use the AT symbol (**@**), forward slash (**/**) or plus (**+**) symb
 
 11. Select your company’s country from the **Country** dropdown.
 
-<figure><img src="/_images/gitbook/image%20%28806%29.png" alt="Select your company’s country from the dropdown " width="563"><figcaption></figcaption></figure>
+![Select your company’s country from the dropdown](/_images/image%20%28806%29.png "Select your company’s country from the dropdown")
 
 12. Click **Continue**.
 
-<figure><img src="/_images/gitbook/image%20%28808%29.png" alt="Clicking “Continue” on the “Company Info” screen" width="563"><figcaption></figcaption></figure>
+![Clicking “Continue” on the “Company Info” screen](/_images/image%20%28808%29.png "Clicking \"Continue\" on the \"Company Info\" screen")
 
 13. On the **User Info** screen, verify your **First Name** and **Last Name** are correct, amending as required.
 
-<figure><img src="/_images/gitbook/image%20%28809%29.png" alt="Verifying your “First Name” and “Last Name” are correct" width="563"><figcaption></figcaption></figure>
+![Verifying your “First Name” and “Last Name” are correct](/_images/image%20%28809%29.png "Verifying your \"First Name\" and \"Last Name\" are correct")
 
 14. Click the **Terms and Conditions** link to see these for using PMPC software and services.
 
-<figure><img src="/_images/gitbook/image%20%28810%29.png" alt="" width="563"><figcaption></figcaption></figure>
+![](/_images/image%20%28810%29.png "")
 
 The **Terms and Conditions** page is displayed. Once you’ve reviewed them, click the **X** in the top right-hand corner to close this window.
 
-<figure><img src="/_images/gitbook/image%20%28811%29.png" alt="“Terms and Conditions” for you using PMPC software and services" width="563"><figcaption></figcaption></figure>
+![“Terms and Conditions” for you using PMPC software and services](/_images/image%20%28811%29.png "\"Terms and Conditions\" for you using PMPC software and services")
 
 15. If you agree with our terms and conditions, check the **Accept all Terms and conditions** checkbox.
 
-<figure><img src="/_images/gitbook/image%20%28812%29.png" alt="Click to check the “Accept Terms and Conditions” checkbox" width="563"><figcaption></figcaption></figure>
+![Click to check the “Accept Terms and Conditions” checkbox](/_images/image%20%28812%29.png "Click to check the \"Accept Terms and Conditions\" checkbox")
 
 {% hint style="info" %}
 **Note**
@@ -142,11 +142,11 @@ You cannot proceed with the onboarding without checking this checkbox.
 
 16. Click **Continue**.
 
-<figure><img src="/_images/gitbook/image%20%281509%29.png" alt="Clicking “Continue” on the User Info page" width="563"><figcaption></figcaption></figure>
+![Clicking “Continue” on the User Info page](/_images/image%20%281509%29.png "Clicking \"Continue\" on the User Info page")
 
 The PMPC Portal loads, showing the **App Catalog** page.
 
-<figure><img src="/_images/gitbook/image%20%282700%29.png" alt="App Catalog page of the PMPC portal" width="563"><figcaption></figcaption></figure>
+![App Catalog page of the PMPC portal](/_images/image%20%282700%29.png "App Catalog page of the PMPC portal")
 
 {% hint style="info" %}
 **Note**

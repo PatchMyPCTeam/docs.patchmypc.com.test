@@ -10,7 +10,7 @@ _Applies to: Patch My PC Advanced Insights_
 The User Installed Apps data on this page requires the deployment of the  [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
 {% endhint %}
 
-<figure><img src="/_images/gitbook/image%20%281546%29.png" alt=""><figcaption><p>Client Inventory Dashboard</p></figcaption></figure>
+![](/_images/image%20%281546%29.png "Client Inventory Dashboard")
 
 The Client Inventory dashboard provides you with high-performance access to Configuration Manager's software inventory data.&#x20;
 
@@ -18,4 +18,4 @@ The statistics across the top list the counts of applications installed in the u
 
 The table lists all apps in a quickly searchable and filterable way. Each discovered application is listed by Publisher and Display name. Where multiple versions of an application are present in the environment a count of versions is shown.
 
-<figure><img src="/_images/gitbook/image%20%281549%29.png" alt=""><figcaption><p>Applying a Filter to the Publisher column</p></figcaption></figure>
+![](/_images/image%20%281549%29.png "Applying a Filter to the Publisher column")

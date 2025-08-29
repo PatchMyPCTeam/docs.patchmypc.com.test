@@ -6,7 +6,7 @@ description: Operating Systems Dashboard
 
 _Applies to: Patch My PC Advanced Insights_
 
-<figure><img src="/_images/gitbook/image%20%282162%29.png" alt=""><figcaption><p>Operating Systems Dashboard</p></figcaption></figure>
+![](/_images/image%20%282162%29.png "Operating Systems Dashboard")
 
 On this operating system dashboard we are showing the following information:
 
@@ -19,7 +19,7 @@ On this operating system dashboard we are showing the following information:
 
 When you select Pending Restarts for one of the 4 options at the top you get a table with the device information, but also you get to see what the client has reported it is pending a restart for.
 
-<figure><img src="/_images/gitbook/image%20%282163%29.png" alt=""><figcaption><p>Pending Restart</p></figcaption></figure>
+![](/_images/image%20%282163%29.png "Pending Restart")
 
 
 
@@ -33,13 +33,13 @@ In this donut chart you can pivot the information using the properties button to
 * Edition (SKU)
 * Build Version
 
-<figure><img src="/_images/gitbook/image%20%282164%29.png" alt=""><figcaption><p>Windows OS Servicing</p></figcaption></figure>
+![](/_images/image%20%282164%29.png "Windows OS Servicing")
 
 From selecting a property you can then go and select for example build version and get a report just on one particular build version.
 
-<figure><img src="/_images/gitbook/image%20%282165%29.png" alt=""><figcaption><p>Build Version</p></figcaption></figure>
+![](/_images/image%20%282165%29.png "Build Version")
 
 Or by clicking on the cog and then selecting View all Chart data you can get a table with all the devices in that property selected.\
 
 
-<figure><img src="/_images/gitbook/image%20%282167%29.png" alt=""><figcaption><p>Windows OS Servicing Data - Build Version</p></figcaption></figure>
+![](/_images/image%20%282167%29.png "Windows OS Servicing Data - Build Version")

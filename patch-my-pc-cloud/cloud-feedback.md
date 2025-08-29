@@ -10,17 +10,17 @@ If feedback has been enabled for a workflow, the first time you complete that wo
 
 ![alt text](/_images/image%20%282721%29.png)
 
-<figure><img src="/_images/gitbook/image%20%282721%29.png" alt="“Rate Your Experience” notification" width="563"><figcaption></figcaption></figure>
+![“Rate Your Experience” notification](/_images/image%20%282721%29.png "\"Rate Your Experience\" notification")
 
 Click on the relevant smiley to indicate your feelings about the workflow. Then provide your comments/feedback, and optionally check the **You can contact me regarding my feedback** checkbox.
 
 Finally, click the green paper airplane icon to send your feedback.
 
-<figure><img src="/_images/gitbook/image%20%282722%29.png" alt="Providing comments and submitting feedback" width="563"><figcaption></figcaption></figure>
+![Providing comments and submitting feedback](/_images/image%20%282722%29.png "Providing comments and submitting feedback")
 
 You will then see the **Thank You** notification thanking you for your feedback
 
-<figure><img src="/_images/gitbook/image%20%282723%29.png" alt="“Thank You” notification" width="563"><figcaption></figcaption></figure>
+![“Thank You” notification](/_images/image%20%282723%29.png "\"Thank You\" notification")
 
 {% hint style="info" %}
 **Note**

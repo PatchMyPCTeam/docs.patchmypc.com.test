@@ -13,7 +13,7 @@ To connect our on-premises Publisher to Patch My PC (PMPC) Cloud, you need to:
 If the **Cloud** tab is not present, check you have entered your license key and clicked **Validate**.
 {% endhint %}
 
-<figure><img src="/_images/gitbook/image%20%281725%29.png" alt="&#x22;Cloud&#x22; tab of our Publisher"><figcaption></figcaption></figure>
+![&#x22;Cloud&#x22; tab of our Publisher](/_images/image%20%281725%29.png "&#x22;Cloud&#x22; tab of our Publisher")
 
 6. In the **Connection Name** field, enter a unique name for the connection. For example **Patch My PC Custom Apps**, then click **Connect**.
 
@@ -23,18 +23,18 @@ If the **Cloud** tab is not present, check you have entered your license key and
 The name you enter here determines how this connection shows on the **Connections** page of the **portal**.
 {% endhint %}
 
-<figure><img src="/_images/gitbook/image%20%281726%29.png" alt="Entering a “Connection Name” and clicking “Connect”"><figcaption></figcaption></figure>
+![Entering a “Connection Name” and clicking “Connect”](/_images/image%20%281726%29.png "Entering a \"Connection Name\" and clicking \"Connect\"")
 
 7.  In your browser, enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.\
 
 
-    <figure><img src="/_images/gitbook/image%20%281420%29.png" alt="“Microsoft Sign in” screen"><figcaption></figcaption></figure>
+    ![“Microsoft Sign in” screen](/_images/image%20%281420%29.png "\"Microsoft Sign in\" screen")
 
 
 8.  Enter the password and click **Sign in**.\
 
 
-    <figure><img src="/_images/gitbook/image%20%281421%29.png" alt="“Enter password” screen"><figcaption></figcaption></figure>
+    ![“Enter password” screen](/_images/image%20%281421%29.png "\"Enter password\" screen")
 
     \
     If the connection is successful, a new browser tab opens with the following message:
@@ -46,13 +46,13 @@ The name you enter here determines how this connection shows on the **Connection
 10. If the **Edit a customer** screen is displayed, click to select the customer you want to connect to, then click **OK**.\
 
 
-    <figure><img src="/_images/gitbook/image%20%28910%29.png" alt="Selecting the relevant customer from the “Edit a customer” screen"><figcaption></figcaption></figure>
+    ![Selecting the relevant customer from the “Edit a customer” screen](/_images/image%20%28910%29.png "Selecting the relevant customer from the \"Edit a customer\" screen")
 
 
 11. In Publisher, verify the **Connection Status** shows as **Connected**, then click **Save and Close**.\
 
 
-    <figure><img src="/_images/gitbook/image%20%281728%29.png" alt="Publisher showing it’s “Connected”"><figcaption></figcaption></figure>
+    ![Publisher showing it’s “Connected”](/_images/image%20%281728%29.png "Publisher showing it’s \"Connected\"")
 
 {% hint style="info" %}
 **Note**

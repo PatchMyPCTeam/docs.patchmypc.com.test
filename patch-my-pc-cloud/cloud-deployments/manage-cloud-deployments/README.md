@@ -10,13 +10,13 @@ To manage deployments:
 2.  Navigate to the **Deployments** node.\
 
 
-    <figure><img src="/_images/gitbook/image%20%281457%29.png" alt="Navigating to the “Deployments” page"><figcaption></figcaption></figure>
+    ![Navigating to the “Deployments” page](/_images/image%20%281457%29.png "Navigating to the \"Deployments\" page")
 
     \
     The **Deployments** page is displayed.\
 
 
-    <figure><img src="/_images/gitbook/image%20%281458%29.png" alt="The “Deployments” page"><figcaption></figcaption></figure>
+    ![The “Deployments” page](/_images/image%20%281458%29.png "The \"Deployments\" page")
 
 Clicking the ellipsis (**⋮**) beside a deployment opens the management menu, allowing you to:
 

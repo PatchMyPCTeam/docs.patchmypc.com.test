@@ -19,15 +19,15 @@ To resume updates for an app:
 {% hint style="success" %}
 **Tip**
 
-Click the filter button (![](/_images/gitbook/image%20%282513).png>)) and select the **Enabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that have updates paused.&#x20;
+Click the filter button (![](/_images/image%20%282513).png>)) and select the **Enabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that have updates paused.&#x20;
 {% endhint %}
 
-<figure><img src="/_images/gitbook/image%20%282000%29.png" alt="Clicking on the relevant successful deployment which has been paused for updates"><figcaption></figcaption></figure>
+![Clicking on the relevant successful deployment which has been paused for updates](/_images/image%20%282000%29.png "Clicking on the relevant successful deployment which has been paused for updates")
 
 2.  Click the **Pause Updates** slider to disable it.\
 
 
-    <figure><img src="/_images/gitbook/image%20%282001%29.png" alt="Clicking the “Pause Updates” slider "><figcaption></figcaption></figure>
+    ![Clicking the “Pause Updates” slider](/_images/image%20%282001%29.png "Clicking the \"Pause Updates\" slider")
 
 {% hint style="info" %}
 **Note**
@@ -38,13 +38,13 @@ Notice on the above screenshot that the **Sync Now** button is available, meanin
 3.  Click the **X** to close the deployment properties page.\
 
 
-    <figure><img src="/_images/gitbook/image%20%282002%29.png" alt="Clicking “X” to close the deployment properties page"><figcaption></figcaption></figure>
+    ![Clicking “X” to close the deployment properties page](/_images/image%20%282002%29.png "Clicking \"X\" to close the deployment properties page")
 
     \
     The list of deployments is displayed without **UPDATES PAUSED** under the deployment you just unpaused.\
 
 
-    <figure><img src="/_images/gitbook/image%20%282003%29.png" alt="&#x22;UPDATES PAUSED&#x22; no longer under the deployment name."><figcaption></figcaption></figure>
+    ![&#x22;UPDATES PAUSED&#x22; no longer under the deployment name.](/_images/image%20%282003%29.png "&#x22;UPDATES PAUSED&#x22; no longer under the deployment name.")
 
 Updates for this app are now resumed.
 

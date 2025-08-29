@@ -9,7 +9,7 @@ All user company-related tasks are performed from the **Company** node of the po
 1. Sign in in to the PMPC portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
 2. Navigate to **Settings | Company**
 
-<figure><img src="/_images/gitbook/image%20%28678%29.png" alt="Navigating to “Settings | Company”" width="563"><figcaption></figcaption></figure>
+![Navigating to “Settings | Company”](/_images/image%20%28678%29.png "Navigating to \"Settings | Company\"")
 
 The **Company** screen is then displayed.
 
@@ -19,7 +19,7 @@ The **Company** screen is then displayed.
 The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.
 {% endhint %}
 
-<figure><img src="/_images/gitbook/image%20%282688%29.png" alt="“Company” screen" width="563"><figcaption></figcaption></figure>
+![“Company” screen](/_images/image%20%282688%29.png "\"Company\" screen")
 
 {% hint style="info" %}
 **Note**
@@ -29,8 +29,8 @@ See [Company Reference](cloud-company-reference.md) for more details on each of 
 
 3. Make any required changes, then click **Save**.
 
-<figure><img src="/_images/gitbook/image%20%282687%29.png" alt="Clicking &#x22;Save&#x22; to save changes" width="563"><figcaption></figcaption></figure>
+![Clicking &#x22;Save&#x22; to save changes](/_images/image%20%282687%29.png "Clicking &#x22;Save&#x22; to save changes")
 
 The **Success - Company information updated** notification is shown.
 
-<figure><img src="/_images/gitbook/image%20%282689%29.png" alt="&#x22;Success - Company information updated&#x22; notification" width="563"><figcaption></figcaption></figure>
+![&#x22;Success - Company information updated&#x22; notification](/_images/image%20%282689%29.png "&#x22;Success - Company information updated&#x22; notification")

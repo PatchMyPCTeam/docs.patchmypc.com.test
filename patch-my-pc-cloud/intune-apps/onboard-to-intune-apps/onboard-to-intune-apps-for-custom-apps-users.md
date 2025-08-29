@@ -8,20 +8,20 @@ If you are already a Custom Apps user, to onboard to Intune Apps for Cloud (Intu
 2.  On the **App Catalog** page, navigate to **Settings | Environments**.\
 
 
-    <figure><img src="/_images/gitbook/image%20%281748%29.png" alt="Navigating to “Settings | Environments”"><figcaption></figcaption></figure>
+    ![Navigating to “Settings | Environments”](/_images/image%20%281748%29.png "Navigating to \"Settings | Environments\"")
 
 
 3.  Under the **Intune** tab, click **Connect**.\
 
 
-    <figure><img src="/_images/gitbook/image%20%281749%29.png" alt="Clicking “Connect” under the “Intune” tab"><figcaption></figcaption></figure>
+    ![Clicking “Connect” under the “Intune” tab](/_images/image%20%281749%29.png "Clicking \"Connect\" under the \"Intune\" tab")
 
 {% hint style="warning" %}
 **Important**
 
 As Intune Apps currently does not have feature parity with our on-premises Publisher, you will see the **Feature Parity Notice** popup. Please read this before clicking **Submit** to proceed.\
 \
-!["Feature Parity Notice" popup](/_images/gitbook/image%20%281750).png>)
+!["Feature Parity Notice" popup](/_images/image%20%281750).png>)
 
 
 {% endhint %}
@@ -29,14 +29,14 @@ As Intune Apps currently does not have feature parity with our on-premises Publi
 4.  Enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.\
 
 
-    <figure><img src="/_images/gitbook/image%20%281472%29.png" alt="Microsoft “Sign in” screen"><figcaption></figcaption></figure>
+    ![Microsoft “Sign in” screen](/_images/image%20%281472%29.png "Microsoft \"Sign in\" screen")
 
 
 5.  Enter the password and click **Sign in**.
 
 
 
-    <figure><img src="/_images/gitbook/image%20%281473%29.png" alt="Microsoft “Enter password” screen"><figcaption></figcaption></figure>
+    ![Microsoft “Enter password” screen](/_images/image%20%281473%29.png "Microsoft \"Enter password\" screen")
 
 
 6. On the **Permission requested** screen, click **Accept**.
@@ -49,7 +49,7 @@ We require these permissions to connect with your Intune tenant.
 See [Permissions required for the Intune Apps](../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.
 {% endhint %}
 
-<figure><img src="/_images/gitbook/image%20%281474%29.png" alt="“Permission requested” screen"><figcaption></figcaption></figure>
+![“Permission requested” screen](/_images/image%20%281474%29.png "\"Permission requested\" screen")
 
 {% hint style="success" %}
 **Tip**
@@ -60,10 +60,10 @@ You can click the down arrow beside each permission to get more information.
 7.  Verify the icon has changed in the **Intune** section and has a green tick beside it.\
 
 
-    <figure><img src="/_images/gitbook/image%20%281751%29.png" alt="Verifying there is a green tick beside “Intune”"><figcaption></figcaption></figure>
+    ![Verifying there is a green tick beside “Intune”](/_images/image%20%281751%29.png "Verifying there is a green tick beside \"Intune\"")
 
 
 8.  Click **App Catalog** which shows all of the applications that can be deployed and managed using Intune Apps for Cloud.\
 
 
-    <figure><img src="/_images/gitbook/image%20%281752%29.png" alt="“App Catalog” showing the available apps"><figcaption></figcaption></figure>
+    ![“App Catalog” showing the available apps](/_images/image%20%281752%29.png "\"App Catalog\" showing the available apps")

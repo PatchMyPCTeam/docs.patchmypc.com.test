@@ -19,7 +19,7 @@ Access to this site is required from the Advanced Insights server to accurately 
 
 
 
-<figure><img src="/_images/gitbook/image%20%282156%29.png" alt=""><figcaption><p>Microsoft 365 Apps</p></figcaption></figure>
+![](/_images/image%20%282156%29.png "Microsoft 365 Apps")
 
 On this dashboard we show you data with regards to the Microsoft 365 Apps.  The information shown  in the donut charts are:
 
@@ -33,11 +33,11 @@ The table shows the latest support data from Microsoft.
 
 When you click on the cog on any of these donuts you will be able to view the whole chart data.
 
-<figure><img src="/_images/gitbook/image%20%282158%29.png" alt=""><figcaption><p>View Chart Data</p></figcaption></figure>
+![](/_images/image%20%282158%29.png "View Chart Data")
 
 ### Chart Data
 
 In this data you filter on any of the headings and also export the data too.
 
-<figure><img src="/_images/gitbook/image%20%282159%29.png" alt=""><figcaption><p>Chart Data</p></figcaption></figure>
+![](/_images/image%20%282159%29.png "Chart Data")
 

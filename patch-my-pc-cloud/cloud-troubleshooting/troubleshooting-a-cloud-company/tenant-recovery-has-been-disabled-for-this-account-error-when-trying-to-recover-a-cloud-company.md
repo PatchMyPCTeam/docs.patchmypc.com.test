@@ -8,7 +8,7 @@ When I attempt to recover my Patch My PC (PMPC) Cloud Company by running through
 
 **Tenant recovery has been disabled for this account. Please contact support to disconnect your Intune tenant.** [**support@patchmypc.com**](mailto:support@patchmypc.com)
 
-<figure><img src="/_images/gitbook/image%20%282219%29.png" alt="Tenant recovery has been disabled for this account. Please contact support to disconnect your Intune tenant. support@patchmypc.com"><figcaption></figcaption></figure>
+![Tenant recovery has been disabled for this account. Please contact support to disconnect your Intune tenant. support@patchmypc.com](/_images/image%20%282219%29.png "Tenant recovery has been disabled for this account. Please contact support to disconnect your Intune tenant. support@patchmypc.com")
 
 ### CAUSE
 
