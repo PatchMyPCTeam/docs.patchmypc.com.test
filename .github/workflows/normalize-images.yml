@@ -41,19 +41,46 @@ jobs:
             rsync -a --delete ".gitbook/assets/" "_images/gitbook/"
           fi
 
-      - name: Rewrite image paths in Markdown (depth-aware)
+      - name: Rewrite image paths (depth-aware + absolute URLs + MD/MDX/HTML)
         shell: bash
         run: |
           shopt -s globstar nullglob
-          for f in **/*.md; do
+
+          # Collect markdown-like files
+          mapfile -t files < <(printf "%s\n" **/*.md **/*.MD **/*.mdx **/*.MDX **/*.markdown **/*.MARKDOWN 2>/dev/null)
+
+          for f in "${files[@]}"; do
+            # how deep is the file relative to repo root?
             dir="${f%/*}"
             if [[ "$dir" == "$f" ]]; then depth=0; else depth=$(awk -F'/' '{print NF}' <<< "$dir"); fi
+
             prefix=""
             for ((i=0; i<depth; i++)); do prefix+="../"; done
-            sed -i -e "s#](\\.gitbook/assets/#](${prefix}_images/gitbook/#g" \
-                   -e "s#](/\\.gitbook/assets/#](${prefix}_images/gitbook/#g" "$f"
-            sed -i -e "s#src=\"\\./\\.gitbook/assets/#src=\"${prefix}_images/gitbook/#g" \
-                   -e "s#src=\"/\\.gitbook/assets/#src=\"${prefix}_images/gitbook/#g" "$f"
+
+            # Use Perl for robust regex across lines + variables in replacement
+            PREFIX="$prefix" perl -0777 -i -pe '
+              my $p = $ENV{PREFIX};
+
+              # 1) Inline Markdown: ![alt](<ANYTHING>/.gitbook/assets/...)
+              s#\]\(\s*<?(?:(?:https?:)?//[^)\s]+/)?(?:\./)?/?\.gitbook/assets/#](${p}_images/gitbook/#gi;
+
+              # 2) Raw HTML <img src="..."> and <Image src="...">
+              s#\bsrc=\s*"(?:https?:)?//[^"]*/?\.gitbook/assets/#src="${p}_images/gitbook/#gi;
+              s#\bsrc=\s*'\''(?:https?:)?//[^'\'']*/?\.gitbook/assets/#src='\''${p}_images/gitbook/#gi;
+
+              # 3) Relative forms like ./.gitbook/assets/... or /.gitbook/assets/...
+              s#\]\(\s*<?(?:\./)?/?\.gitbook/assets/#](${p}_images/gitbook/#gi;
+
+              # 4) Reference-style links:
+              #    [id]: https://.../.gitbook/assets/foo.png
+              s#^(\[[^\]]+\]:\s*)(?:(?:https?:)?//\S+/)?(?:\./)?/?\.gitbook/assets/#${1}${p}_images/gitbook/#gim;
+            ' "$f"
+
+            # OPTIONAL: percent-encode spaces and parentheses inside markdown links to _images/gitbook/
+            # Comment out if you prefer raw spaces.
+            perl -0777 -i -pe '
+              s#\]\(([^)\n]*?_images/gitbook/[^)\n]*)\)# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "]($u)" #ge;
+            ' "$f"
           done
 
       - name: Commit changes (if any)
