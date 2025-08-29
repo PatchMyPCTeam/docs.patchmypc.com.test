@@ -124,35 +124,6 @@ jobs:
                   print(f"Rewrote: {p}")
           PY
 
-      # (Optional) Strict validator — delete this step if you don't want failures on style drift
-      - name: Validate image links style (/_images/* only)
-        shell: bash
-        run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          import re, glob, sys
-          exts=r"(png|jpe?g|gif|webp|svg)"
-          md=re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
-          html=re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
-          isimg=re.compile(rf"\.({exts})(?:$|\?)", re.I)
-          bad=[]; files=[]
-          for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]:
-              files+=glob.glob(g, recursive=True)
-          def non_ok(u):
-              if not isimg.search(u): return False
-              if not u.startswith("/_images/"): return True
-              return "/" in u[len("/_images/"):].strip("/")
-          for p in files:
-              s=open(p,encoding="utf-8").read()
-              bad += [(p,u.strip()) for u in md.findall(s) if non_ok(u.strip())]
-              bad += [(p,u.strip()) for u in html.findall(s) if non_ok(u.strip())]
-          if bad:
-              print("Non-compliant image links:")
-              for p,u in bad: print(f"- {p}: {u}")
-              sys.exit(1)
-          print("All image links are /_images/<file> (flat).")
-          PY
-
       - name: Commit changes (if any)
         run: |
           if [ -n "$(git status --porcelain)" ]; then
