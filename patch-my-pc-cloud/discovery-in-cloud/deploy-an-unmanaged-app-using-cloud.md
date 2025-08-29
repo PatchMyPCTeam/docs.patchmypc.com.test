@@ -10,15 +10,15 @@ To deploy an app listed on the **Unmanaged** tab of the **Discovery** node of Pa
 2.  Click **Deploy** beside the relevant app.\
 
 
-    <figure><img src="../../.gitbook/assets/image (417).png" alt="Clicking “Deploy” beside the relevant the app"><figcaption></figcaption></figure>
+    <figure><img src="../../_images/gitbook/image (417).png" alt="Clicking “Deploy” beside the relevant the app"><figcaption></figcaption></figure>
 
     \
     The Deployment Wizard starts.\
 
 
-    <figure><img src="../../.gitbook/assets/image (533).png" alt="“Deployment wizard” starting"><figcaption></figcaption></figure>
+    <figure><img src="../../_images/gitbook/image (533).png" alt="“Deployment wizard” starting"><figcaption></figcaption></figure>
 3. Follow the [Deploying an App](../cloud-deployments/deploying-an-app-using-cloud/) process.
 
 Once you have deployed an app, it will appear in the **Managed** tab.
 
-<figure><img src="../../.gitbook/assets/image (418).png" alt="Deployed app now appears on the “Managed” tab"><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (418).png" alt="Deployed app now appears on the “Managed” tab"><figcaption></figcaption></figure>

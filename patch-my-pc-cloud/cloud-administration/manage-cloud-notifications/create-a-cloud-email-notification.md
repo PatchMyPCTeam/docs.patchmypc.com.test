@@ -15,24 +15,24 @@ To create an email notification:
 1.  In the **User Email** field, select the relevant administrator’s email address from the dropdown or type their email address.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1917).png" alt="Select the relevant administrator’s email address from the “User Email” dropdown or type their email address"><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image (1917).png" alt="Select the relevant administrator’s email address from the “User Email” dropdown or type their email address"><figcaption></figcaption></figure>
 
 
 2.  Click **Add New Email**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1918).png" alt="Clicking “Add New Email” to add the email address to the notification list "><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image (1918).png" alt="Clicking “Add New Email” to add the email address to the notification list "><figcaption></figcaption></figure>
 
     \
     The email address is added to the list of email addresses that will be sent the notification.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1916).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image (1916).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**
 
-You can click the small envelope beside the email address (![](<../../../.gitbook/assets/image (1900).png>)) to send a test notification. See [Testing an Email Notification](cloud-notifications-reference/test-an-email-notification-in-cloud.md) for more details.
+You can click the small envelope beside the email address (![](<../../../_images/gitbook/image (1900).png>)) to send a test notification. See [Testing an Email Notification](cloud-notifications-reference/test-an-email-notification-in-cloud.md) for more details.
 {% endhint %}
 
 {% hint style="info" %}
@@ -46,17 +46,17 @@ You can also click the trashcan beside an email address to delete it from the li
 3.  Click **Save** on the **Add Notifications** screen to save the notification.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1919).png" alt="Clicking “Save” on the “Add Notifications” screen"><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image (1919).png" alt="Clicking “Save” on the “Add Notifications” screen"><figcaption></figcaption></figure>
 
     \
     The **Success - Notification created** notification is shown.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1920).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image (1920).png" alt=""><figcaption></figcaption></figure>
 
     \
     The portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification.\
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (1921).png" alt="Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification"><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image (1921).png" alt="Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification"><figcaption></figcaption></figure>

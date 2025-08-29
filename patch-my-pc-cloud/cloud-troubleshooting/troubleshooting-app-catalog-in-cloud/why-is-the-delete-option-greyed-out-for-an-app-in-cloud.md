@@ -8,7 +8,7 @@ I am trying to delete an app from the Patch My PC (PMPC) Cloud App Catalog.
 
 But when I click on the app and open its properties, the **Delete** option is greyed out.
 
-<figure><img src="../../../.gitbook/assets/image (1952).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../_images/gitbook/image (1952).png" alt=""><figcaption></figcaption></figure>
 
 ### CAUSE
 

@@ -31,18 +31,18 @@ When using a **CNAME / Alias** or **Wilcard** certificate for custom Advanced In
 
 _Example:_
 
-![](<../../.gitbook/assets/image (1024).png>)
+![](<../../_images/gitbook/image (1024).png>)
 {% endhint %}
 
 Certificate SAN values can be also verified within the certificate properties.
 
 _Examples:_
 
-<figure><img src="../../.gitbook/assets/image (1025).png" alt=""><figcaption><p>Server Host Certificate - Subject Alternative Name (SAN) properties.</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (1025).png" alt=""><figcaption><p>Server Host Certificate - Subject Alternative Name (SAN) properties.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1026).png" alt=""><figcaption><p>CNAME - Alias Certificate - Subject Alternative Name (SAN) properties.</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (1026).png" alt=""><figcaption><p>CNAME - Alias Certificate - Subject Alternative Name (SAN) properties.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1027).png" alt=""><figcaption><p>Wildcard Host Certificate - Subject Alternative Name (SAN) properties.</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (1027).png" alt=""><figcaption><p>Wildcard Host Certificate - Subject Alternative Name (SAN) properties.</p></figcaption></figure>
 
 {% hint style="info" %}
 On the Windows Server OS which will host Advanced Insights, the following PowerShell script can be executed to list supported certificates.
@@ -170,9 +170,9 @@ if ($uncapturedCerts.Count -gt 0) {
 
 Example PowerShell outputs:
 
-<figure><img src="../../.gitbook/assets/image (1312).png" alt=""><figcaption><p>Valid Certificates</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (1312).png" alt=""><figcaption><p>Valid Certificates</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1313).png" alt=""><figcaption><p>Unsupported Certificates</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (1313).png" alt=""><figcaption><p>Unsupported Certificates</p></figcaption></figure>
 
 {% hint style="info" %}
 **Self-signed certificate use.**

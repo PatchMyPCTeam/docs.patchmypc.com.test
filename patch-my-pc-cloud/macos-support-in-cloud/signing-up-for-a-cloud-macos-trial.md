@@ -27,26 +27,26 @@ To sign up for the trial, you can click **Try it now** in the following location
 * The header notification area
 * The banner shown at the top of the App Catalog
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt="Clicking “Try it now” to start the macOS free trial" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (21).png" alt="Clicking “Try it now” to start the macOS free trial" width="563"><figcaption></figcaption></figure>
 
 * Under the **macOS** option when creating a deployment.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt="Clicking “Try it now” when deploying an app supported by macOS" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (22).png" alt="Clicking “Try it now” when deploying an app supported by macOS" width="563"><figcaption></figcaption></figure>
 
 When you click **Try it now**, you then have the option of either:
 
 * Typing or using the controls to enter the total number of devices you want to license for the trial in the **Enter the total number of macOS devices to license** box.
 * Clicking **Request a Quote** to request a quote for a non-trial license to manage your macOS devices using PMPC Cloud.
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt="Trial options screen" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (23).png" alt="Trial options screen" width="563"><figcaption></figcaption></figure>
 
 Once you’ve entered the number of devices for the trial, click **Start Now**
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt="Clicking “Start Now”" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (24).png" alt="Clicking “Start Now”" width="563"><figcaption></figcaption></figure>
 
 The **Your30-day trial expires on <**_**expiry date**_**>** confirmation is shown.
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt="The trial expiry confirmation" width="502"><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (27).png" alt="The trial expiry confirmation" width="502"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -62,7 +62,7 @@ Make a note of the expiry date and our contact details in case you need to conta
 
 Once your trial has started, you see the following countdown at the top of the portal advising you of how many days you have left on your trial.
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt="Trial countdown" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (28).png" alt="Trial countdown" width="563"><figcaption></figcaption></figure>
 
 When your trial expires, you see the following notification at the top of the portal:
 

@@ -10,7 +10,7 @@ To access the Events node:
 2.  Navigate to **Events**.\
 
 
-    <figure><img src="../../.gitbook/assets/image (1760).png" alt="Navigating to “Events” to access the Events page"><figcaption></figcaption></figure>
+    <figure><img src="../../_images/gitbook/image (1760).png" alt="Navigating to “Events” to access the Events page"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Important**
@@ -30,7 +30,7 @@ The **Events** page is then displayed, allowing you to:
 * [Change the number of Events per page](change-the-number-of-cloud-events-per-page.md)
 * [Navigate between pages of Events](navigate-between-pages-of-cloud-events.md)
 
-<figure><img src="../../.gitbook/assets/image (1762).png" alt="The “Events” page"><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (1762).png" alt="The “Events” page"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Important**

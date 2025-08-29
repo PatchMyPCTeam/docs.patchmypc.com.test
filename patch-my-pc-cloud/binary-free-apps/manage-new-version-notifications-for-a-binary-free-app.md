@@ -20,13 +20,13 @@ To configure who receives new version notifications:
 1.  If you still have the **“<**_**app\_name**_**>” Upload file** screen open, click **Back**, otherwise search for the app in the App Catalog and click it to open its properties screen.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2051).png" alt="Clicking “Back” on the “<app_name> Upload file” screen"><figcaption></figcaption></figure>
+    <figure><img src="../../_images/gitbook/image (2051).png" alt="Clicking “Back” on the “<app_name> Upload file” screen"><figcaption></figcaption></figure>
 
 
 2.  On the app’s properties page, click **New Version Notifications**.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2052).png" alt="Clicking “New Version Notifications”"><figcaption></figcaption></figure>
+    <figure><img src="../../_images/gitbook/image (2052).png" alt="Clicking “New Version Notifications”"><figcaption></figcaption></figure>
 
 
 3.  On the **“**_**\<app-name>”**_**&#x20;Version Notifications** screen, decide whether you want to:\
@@ -39,34 +39,34 @@ To configure who receives new version notifications:
     \
 
 
-    <figure><img src="../../.gitbook/assets/image (2053).png" alt="“<app-name> Version Notifications” screen "><figcaption></figcaption></figure>
+    <figure><img src="../../_images/gitbook/image (2053).png" alt="“<app-name> Version Notifications” screen "><figcaption></figcaption></figure>
 
 
 4. If you want to select either **Notify All Users in Company** or **Don’t Notify** any users, select the relevant option then go to Step 8.
 5.  If you want to **Notify Specific Users**, select this option.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2054).png" alt="Selecting “Notify Specific Users”"><figcaption></figcaption></figure>
+    <figure><img src="../../_images/gitbook/image (2054).png" alt="Selecting “Notify Specific Users”"><figcaption></figcaption></figure>
 
 
 6.  Select the relevant email address of the portal users you want to notify from the **User Email** dropdown, then click **Add New Email**.\
     \
 
 
-    <figure><img src="../../.gitbook/assets/image (2055).png" alt="Selecting the relevant email address from the “User Email” dropdown, then clicking “Add New Email”"><figcaption></figcaption></figure>
+    <figure><img src="../../_images/gitbook/image (2055).png" alt="Selecting the relevant email address from the “User Email” dropdown, then clicking “Add New Email”"><figcaption></figcaption></figure>
 
 
 7.  If the user is not listed on the **User Email** dropdown, enter their email address, press `ENTER`, then click **Add New Email** to add them to the notification list.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2056).png" alt="Adding a new email address to receive the notification"><figcaption></figcaption></figure>
+    <figure><img src="../../_images/gitbook/image (2056).png" alt="Adding a new email address to receive the notification"><figcaption></figcaption></figure>
 
     \
     The user is added to the notification list.\
     \
 
 
-    <figure><img src="../../.gitbook/assets/image (2057).png" alt="User added to the notification list"><figcaption></figcaption></figure>
+    <figure><img src="../../_images/gitbook/image (2057).png" alt="User added to the notification list"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**
@@ -78,13 +78,13 @@ Click the trashcan beside a user to remove them from the notification list.
     \
 
 
-    <figure><img src="../../.gitbook/assets/image (2058).png" alt="Clicking “Save”"><figcaption></figcaption></figure>
+    <figure><img src="../../_images/gitbook/image (2058).png" alt="Clicking “Save”"><figcaption></figcaption></figure>
 
     \
     The portal refreshes back to the **App Catalog** and the **Success – Your changes have been successfully saved** notification is displayed.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2059).png" alt="“Success – Your changes have been successfully saved” notification"><figcaption></figcaption></figure>
+    <figure><img src="../../_images/gitbook/image (2059).png" alt="“Success – Your changes have been successfully saved” notification"><figcaption></figcaption></figure>
 
 
 

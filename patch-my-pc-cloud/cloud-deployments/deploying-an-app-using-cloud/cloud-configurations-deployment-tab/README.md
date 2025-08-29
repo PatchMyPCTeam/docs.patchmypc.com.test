@@ -26,7 +26,7 @@ This tab contains the following settings:
 * [Notification Policy](./#notification-policy)
 * [Conflicting Process - Conflicting Process](./#conflicting-process-conflicting-process)
 
-<figure><img src="../../../../.gitbook/assets/image (2601).png" alt="&#x22;Configurations&#x22; tab" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../_images/gitbook/image (2601).png" alt="&#x22;Configurations&#x22; tab" width="563"><figcaption></figcaption></figure>
 
 ### **Apply Template**
 
@@ -95,4 +95,4 @@ If you do not want to configure any of the optional tabs under the **Tools** sec
 
 Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-<figure><img src="../../../../.gitbook/assets/image (2602).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../_images/gitbook/image (2602).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab" width="563"><figcaption></figcaption></figure>

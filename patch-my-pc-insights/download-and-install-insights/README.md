@@ -24,7 +24,7 @@ You can view the release history for Advanced Insights on our [release history p
 
 Start the installation by double-clicking the downloaded AdvancedInsights.exe
 
-<figure><img src="../../.gitbook/assets/image (1105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (1105).png" alt=""><figcaption></figcaption></figure>
 
 #### Prerequisites Screen
 
@@ -34,22 +34,22 @@ Once the installation starts, you will likely be greeted by the prerequisite scr
 If you have already met the prerequisite requirements, these screens will not be shown, and you can step down to the [#license-terms-and-conditions](./#license-terms-and-conditions "mention") step.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/1 (1).png" alt=""><figcaption><p>If you require prerequisites the installer will assist you</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/1 (1).png" alt=""><figcaption><p>If you require prerequisites the installer will assist you</p></figcaption></figure>
 
 #### Select Prerequisites
 
 Any required prerequisites are listed. These can all install without requiring a restart. Confirm the requirements and click **Next**.
 
-<figure><img src="../../.gitbook/assets/image (1295).png" alt=""><figcaption><p>Prerequisites installing</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (1295).png" alt=""><figcaption><p>Prerequisites installing</p></figcaption></figure>
 
 #### License Terms and Conditions
 
 Once the required prerequisites have been installed, you must accept the Terms and Conditions of use. Tick the "I agree" box and click **Next**.
 
-<figure><img src="../../.gitbook/assets/4 License Agreement (1).png" alt=""><figcaption><p>License terms and conditions</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/4 License Agreement (1).png" alt=""><figcaption><p>License terms and conditions</p></figcaption></figure>
 
 #### Installation Folder
 
 Advanced Insights requires approximately 1.5GB of storage space. Confirm the installation directory and click **Next**.
 
-<figure><img src="../../.gitbook/assets/5 Folder.png" alt=""><figcaption><p>Installation Folder</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/5 Folder.png" alt=""><figcaption><p>Installation Folder</p></figcaption></figure>

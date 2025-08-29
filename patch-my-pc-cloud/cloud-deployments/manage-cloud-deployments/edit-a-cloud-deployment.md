@@ -30,19 +30,19 @@ To edit an existing deployment from the **Deployments** node:
 2.  Click the relevant deployment you want to edit.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1887).png" alt="Clicking the relevant deployment you want to edit."><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image (1887).png" alt="Clicking the relevant deployment you want to edit."><figcaption></figcaption></figure>
 
 
 3.  On the deployment's property page click **Edit**.
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (2010).png" alt="Clicking &#x22;Edit&#x22; on the deployment&#x27;s property page."><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image (2010).png" alt="Clicking &#x22;Edit&#x22; on the deployment&#x27;s property page."><figcaption></figcaption></figure>
 
     The Deployment Wizard starts.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1889).png" alt="Deployment Wizard starting."><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image (1889).png" alt="Deployment Wizard starting."><figcaption></figcaption></figure>
 4. Follow the [Deploy an App](../deploying-an-app-using-cloud/) process.
 
 {% hint style="info" %}
@@ -56,7 +56,7 @@ Be mindful of any changes you make, as you are editing the existing deployment, 
 
 You can also edit a deployment from the **Deployments** node by clicking the ellipsis (**⋮**) beside the relevant deployment you want to edit, then click **Edit**.
 
-![Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.](<../../../.gitbook/assets/image (1891).png>)
+![Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.](<../../../_images/gitbook/image (1891).png>)
 {% endhint %}
 
 ### Editing a deployment from the App Catalog
@@ -66,18 +66,18 @@ To edit a deployment from the App Catalog:
 1.  Navigate to the **App Catalog** and click on the app whose deployment you wish to edit.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1884).png" alt="Navigating to the App Catalog and locating the app whose deployment you wish to edit."><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image (1884).png" alt="Navigating to the App Catalog and locating the app whose deployment you wish to edit."><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**
 
-Any apps already deployed by Intune Apps have the green cloud icon with a tick (![](<../../../.gitbook/assets/image (1883).png>)) next to the version number.
+Any apps already deployed by Intune Apps have the green cloud icon with a tick (![](<../../../_images/gitbook/image (1883).png>)) next to the version number.
 {% endhint %}
 
 2.  Click **Edit Deployment** on the deployment's property page.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2011).png" alt="Clicking &#x22;Edit Deployment&#x22; on the deployment&#x27;s property page."><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image (2011).png" alt="Clicking &#x22;Edit Deployment&#x22; on the deployment&#x27;s property page."><figcaption></figcaption></figure>
 
 The behavior of the **Edit Deployment** button depends on whether there is at least one existing, successful deployment:
 
@@ -92,7 +92,7 @@ If there is more than one deployment for the same app but any of them are in **P
 
 The Deployment Wizard starts.
 
-<figure><img src="../../../.gitbook/assets/image (1889).png" alt="Deployment Wizard starting."><figcaption></figcaption></figure>
+<figure><img src="../../../_images/gitbook/image (1889).png" alt="Deployment Wizard starting."><figcaption></figcaption></figure>
 
 3. Follow the [Deploy an App](../deploying-an-app-using-cloud/) process.
 

@@ -10,13 +10,13 @@ To copy the invitation link:
     \
 
 
-    <figure><img src="../../../../.gitbook/assets/image (1637).png" alt="Clicking the “Copy invite link” icon"><figcaption></figcaption></figure>
+    <figure><img src="../../../../_images/gitbook/image (1637).png" alt="Clicking the “Copy invite link” icon"><figcaption></figcaption></figure>
 
     \
     The **Success - Invitation link copied** notification is displayed, confirming the link has been copied to your clipboard.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (1639).png" alt="“Success - Invitation link copied” notification"><figcaption></figcaption></figure>
+    <figure><img src="../../../../_images/gitbook/image (1639).png" alt="“Success - Invitation link copied” notification"><figcaption></figcaption></figure>
 
 
 2.  Paste the link and give it to whoever needs it. The link looks something similar to:

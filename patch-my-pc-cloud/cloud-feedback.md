@@ -14,11 +14,11 @@ Click on the relevant smiley to indicate your feelings about the workflow. Then 
 
 Finally, click the green paper airplane icon to send your feedback.
 
-<figure><img src="../.gitbook/assets/image (2722).png" alt="Providing comments and submitting feedback" width="563"><figcaption></figcaption></figure>
+<figure><img src="../_images/gitbook/image (2722).png" alt="Providing comments and submitting feedback" width="563"><figcaption></figcaption></figure>
 
 You will then see the **Thank You** notification thanking you for your feedback
 
-<figure><img src="../.gitbook/assets/image (2723).png" alt="“Thank You” notification" width="563"><figcaption></figcaption></figure>
+<figure><img src="../_images/gitbook/image (2723).png" alt="“Thank You” notification" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**

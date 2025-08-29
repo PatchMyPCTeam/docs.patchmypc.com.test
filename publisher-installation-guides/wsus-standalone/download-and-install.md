@@ -26,13 +26,13 @@ Depending on user account control settings, you may need to run an elevated comm
 
 Once the installation starts you'll be greeted by the welcome screen in our installer wizard, click **Next**.
 
-![Select next to continue past the welcome screen](<../../.gitbook/assets/image (1077).png>)
+![Select next to continue past the welcome screen](<../../_images/gitbook/image (1077).png>)
 
 ### End-User License Agreement
 
 Read the End-User License Agreement. After that, select **I accept the terms in the License Agreement** and click **Next**.
 
-![End-User License Agreement](<../../.gitbook/assets/image (1253).png>)
+![End-User License Agreement](<../../_images/gitbook/image (1253).png>)
 
 ### Disable Microsoft Intune Standalone Mode
 
@@ -42,7 +42,7 @@ This option is for customers who intend to publish only to Microsoft Intune.&#x2
 
 Click **Next**.
 
-![Option for Microsoft Intune standalone mode](<../../.gitbook/assets/image (1216).png>)
+![Option for Microsoft Intune standalone mode](<../../_images/gitbook/image (1216).png>)
 
 ### Select Installation Folder
 
@@ -50,15 +50,15 @@ By default the Publisher is installed in **C:\Program Files\Patch My PC\Patch My
 \
 This location is where we store all of the product's configuration information.&#x20;
 
-![Select the folder where the service should be installed](<../../.gitbook/assets/image (1066).png>)
+![Select the folder where the service should be installed](<../../_images/gitbook/image (1066).png>)
 
 ### Ready To Install
 
 Click **Install**.
 
-![Select install to start the installation.](<../../.gitbook/assets/image (1174).png>)
+![Select install to start the installation.](<../../_images/gitbook/image (1174).png>)
 
-![](<../../.gitbook/assets/image (1217).png>)
+![](<../../_images/gitbook/image (1217).png>)
 
 ### Completed
 
@@ -68,4 +68,4 @@ Once the Publisher has finished installing, click **Finish** to close the instal
 By default, the "**Launch Patch My PC Publishing Service**" is enabled - this will launch the Publisher when you click **Finish**.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (1198).png>)
+![](<../../_images/gitbook/image (1198).png>)

@@ -17,7 +17,7 @@ Booking a call using the links on this page for other support needs may result i
 
 If you are unsure which type of call you would like to book, please use this decision tree below.
 
-<figure><img src="../../.gitbook/assets/image (595).png" alt=""><figcaption><p>Book a call - decision tree</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image (595).png" alt=""><figcaption><p>Book a call - decision tree</p></figcaption></figure>
 
 ## Book a Live Demo
 

@@ -15,5 +15,5 @@ You can only delete a Custom App for an MSP from the company where it was create
 
 If you try to delete a Custom App for an MSP that is shared with and deployed from a child, you will see the “**Are you sure?**” popup warning you of the impact and prompting you to confirm the deletion of the deployment at the child company.
 
-![“Are you sure” popup](<../../../.gitbook/assets/image (343).png>)
+![“Are you sure” popup](<../../../_images/gitbook/image (343).png>)
 {% endhint %}
