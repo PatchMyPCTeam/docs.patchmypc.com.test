@@ -32,64 +32,65 @@ jobs:
           git checkout main
           git rebase origin/main
 
-      - name: Ensure _images exists
-        run: mkdir -p _images/gitbook
+      - name: Ensure _images exists (flat, no subfolders)
+        run: mkdir -p _images
 
-      - name: Copy from .gitbook/assets → _images/gitbook
+      - name: Copy from .gitbook/assets → _images (flat)
         run: |
           if [ -d ".gitbook/assets" ]; then
-            rsync -a --delete ".gitbook/assets/" "_images/gitbook/"
+            rsync -a --delete ".gitbook/assets/" "_images/"
           fi
 
-      - name: Rewrite links for Git it Write (depth-aware → relative)
+      - name: Rewrite links to /_images/* (MD/MDX/HTML, any prefix)
         shell: bash
         run: |
           set -euo pipefail
           shopt -s globstar nullglob
 
-          # All markdown-like files
+          # Collect markdown-like files
           mapfile -t files < <(printf "%s\n" **/*.md **/*.MD **/*.mdx **/*.MDX **/*.markdown **/*.MARKDOWN 2>/dev/null)
 
           for f in "${files[@]}"; do
-            # how deep is this file?
-            dir="${f%/*}"
-            if [[ "$dir" == "$f" ]]; then depth=0; else depth=$(awk -F'/' '{print NF}' <<< "$dir"); fi
-            prefix=""
-            for ((i=0; i<depth; i++)); do prefix+="../"; done
+            # 1) Anything pointing to .gitbook/assets/... → /_images/...
+            perl -0777 -i -pe '
+              # Inline MD links: ](ANY/.gitbook/assets/<name>)
+              s#\]\(\s*<?[^)\s]*?/\.gitbook/assets/([^)\s>"]+)#"](/_images/$1#g;
 
-            PREFIX="$prefix" perl -0777 -i -pe '
-              my $p = $ENV{PREFIX};
+              # Raw/JSX HTML: src="ANY/.gitbook/assets/<name>"
+              s#\bsrc=\s*"[^"]*?/\.gitbook/assets/([^"]+)"#src="/_images/$1"#g;
+              s#\bsrc=\s*'\''[^'\'']*?/\.gitbook/assets/([^\']+)'\''#src='\''/_images/$1'\''#g;
 
-              # ---- Inline Markdown ----
-              # ](ANYTHING/.gitbook/assets/...)  -> ](../_images/gitbook/...)
-              s#\]\(\s*<?[^)\s]*?/\.gitbook/assets/#](${p}_images/gitbook/#gi;
-
-              # ---- Raw/JSX HTML ----
-              # src="ANYTHING/.gitbook/assets/..." -> src="../_images/gitbook/..."
-              s#\bsrc=\s*"[^"]*?/\.gitbook/assets/#src="${p}_images/gitbook/#gi;
-              s#\bsrc=\s*'\''[^'\'']*?/\.gitbook/assets/#src='\''${p}_images/gitbook/#gi;
-
-              # ---- Reference-style links ----
-              # [id]: ANYTHING/.gitbook/assets/...
-              s#^(\[[^\]]+\]:\s*)[^\s]*?/\.gitbook/assets/#${1}${p}_images/gitbook/#gim;
+              # Reference-style: [id]: ANY/.gitbook/assets/<name>
+              s#^(\[[^\]]+\]:\s*)[^\s]*?/\.gitbook/assets/([^\s]+)#$1/_images/$2#gim;
             ' "$f"
 
-            # Percent-encode spaces and parentheses in targets to avoid parser issues
+            # 2) Normalize any relative _images paths (../_images/..., _images/...) → /_images/...
             perl -0777 -i -pe '
-              s#\]\(([^)\n]*?_images/gitbook/[^)\n]*)\)# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "]($u)" #ge;
-              s#\bsrc="([^"]*?_images/gitbook/[^"]*)"# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "src=\"$u\"" #ge;
-              s#\bsrc='\''([^'\'']*?_images/gitbook/[^'\'']*)'\''# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "src='\''$u'\''" #ge;
+              s#\]\(\s*<?(?:\.\./)*_images/([^)\n>"]+)#"](/_images/$1#g;
+              s#\bsrc=\s*"(?:\.\./)*_images/([^"]+)"#src="/_images/$1"#g;
+              s#\bsrc=\s*'\''(?:\.\./)*_images/([^\']+)'\''#src='\''/_images/$1'\''#g;
+
+              # Reference-style
+              s#^(\[[^\]]+\]:\s*)(?:\.\./)*_images/([^\s]+)#$1/_images/$2#gim;
+            ' "$f"
+
+            # 3) Percent-encode spaces and parentheses in any /_images/... target
+            perl -0777 -i -pe '
+              s#\]\((/_images/[^)\n]*)\)# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "]($u)" #ge;
+              s#\bsrc="(/_images/[^"]*)"# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "src=\"$u\"" #ge;
+              s#\bsrc='\''(/_images/[^\']*)'\''# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "src='\''$u'\''" #ge;
+              s#^(\[[^\]]+\]:\s*)(/_images/\S+)#$1 . do { my $u=$2; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; $u }#gme;
             ' "$f"
           done
 
-          # Show any leftover .gitbook/assets references (informational)
+          # Show leftover .gitbook/assets (informational)
           git grep -n '\.gitbook/assets' -- '**/*.[mM][dD]' '**/*.[mM][dD][xX]' '**/*.markdown' '**/*.MARKDOWN' || true
 
       - name: Commit changes (if any)
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
-            git commit -m "Normalize links to relative _images/ for Git it Write [ci skip]"
+            git commit -m "Normalize images to /_images/* for Git it Write [ci skip]"
           else
             echo "No changes to commit."
           fi
