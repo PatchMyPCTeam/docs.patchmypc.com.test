@@ -136,11 +136,29 @@ jobs:
       - name: Rebase on latest and push (retry with --force-with-lease)
         shell: bash
         run: |
-          if [ -z "$(git log origin/main..HEAD)" ]; then
+          set -euo pipefail
+          
+          # Always have the latest remote state locally
+          git fetch origin main --prune
+          
+          # Short-circuit if we have nothing new to push
+          if [ "$(git rev-list --count HEAD ^origin/main)" -eq 0 ]; then
             echo "No new commits to push."
             exit 0
           fi
-          for a in 1 2 3; do
-            echo "Push attempt $a..."
-            if git push --force-with-lease; then exit 0; fi
-            git fetc
+          
+          # Try to push up to 3 times, rebasing if needed
+          for attempt in 1 2 3; do
+            echo "Push attempt $attempt..."
+            if git push --force-with-lease; then
+              echo "Pushed successfully."
+              exit 0
+            fi
+            echo "Push rejected. Rebasing onto latest origin/main..."
+            git rebase origin/main
+            sleep 2
+          done
+          
+          echo "Giving up after 3 attempts."
+          exit 1
+     
