@@ -18,8 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        with: { fetch-depth: 0 }
 
       - name: Configure author
         run: |
@@ -35,7 +34,6 @@ jobs:
       - name: Ensure _images exists (flat)
         run: mkdir -p _images
 
-      # Copy every file under .gitbook/assets into _images (flat).
       - name: Copy from .gitbook/assets → _images (flat)
         shell: bash
         run: |
@@ -43,126 +41,128 @@ jobs:
           if [ -d ".gitbook/assets" ]; then
             mapfile -d '' files < <(find .gitbook/assets -type f -print0)
             if ((${#files[@]})); then
-              declare -A seen
-              dups=0
+              declare -A seen; dups=0
               for src in "${files[@]}"; do
                 base="$(basename "$src")"
                 if [[ -n "${seen[$base]:-}" ]]; then
-                  echo "::warning::Duplicate filename '$base' from '$src' and '${seen[$base]}' — keeping the last copy." >&2
+                  echo "::warning::Duplicate filename '$base' — keeping the last copy." >&2
                   dups=1
                 fi
                 seen[$base]="$src"
                 cp -f "$src" "_images/$base"
               done
-              if ((dups)); then
-                echo "::notice::Consider deduplicating basenames in .gitbook/assets to avoid overwrites."
-              fi
+              ((dups)) && echo "::notice::Consider deduplicating basenames."
             fi
           fi
 
-      # Rewrite any links to site-root /_images/<file>, stripping ALL prefixes.
-      - name: Rewrite links to /_images/* for Git it Write (Python)
+      # Convert <figure><img ...><figcaption>...</figcaption></figure> → ![alt](/_images/file "title")
+      - name: Convert <figure><img> to Markdown images
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import re, glob, html
+          def enc(u): return u.replace(' ', '%20').replace('(', '%28').replace(')', '%29')
+          FIG = re.compile(r'<figure\b[^>]*>(.*?)</figure>', re.I|re.S)
+          IMG = re.compile(r'<img\b[^>]*>', re.I|re.S)
+          CAP = re.compile(r'<figcaption\b[^>]*>(.*?)</figcaption>', re.I|re.S)
+          def attr(n,s): 
+              m=re.search(rf'\b{n}\s*=\s*["\']([^"\']*)["\']', s, re.I|re.S); 
+              return m.group(1).strip() if m else ''
+          def convert(block):
+              m=IMG.search(block); 
+              if not m: return block
+              img=m.group(0)
+              src=attr('src',img); alt=attr('alt',img)
+              mcap=CAP.search(block); cap=html.unescape(re.sub(r'<[^>]+>','',mcap.group(1))).strip() if mcap else ''
+              title=cap or alt
+              src=re.sub(r'^[^"\']*?/_images/','/_images/',src).replace('/_images/gitbook/','/_images/')
+              src=enc(src); alt=alt.replace(']','\\]')
+              title=title.replace('“','"').replace('”','"').replace('"','\\"')
+              return f'![{alt}]({src} "{title}")'
+          files=[]
+          for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]:
+              files.extend(glob.glob(g, recursive=True))
+          for p in files:
+              t=open(p,encoding="utf-8").read()
+              n=FIG.sub(lambda m: convert(m.group(0)), t)
+              if n!=t:
+                  open(p,"w",encoding="utf-8").write(n)
+                  print(f"Converted figures in: {p}")
+          PY
+
+      # Rewrite ALL image links to site-root /_images/<file>; strip any prefix; flatten gitbook segment; encode spaces/()
+      - name: Rewrite links to /_images/* (Python)
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
           import re, glob
+          def enc(u): return u.replace(' ', '%20').replace('(', '%28').replace(')', '%29')
+          globs = ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
+          files=[p for g in globs for p in glob.glob(g, recursive=True)]
 
-          def enc(u: str) -> str:
-              return u.replace(' ', '%20').replace('(', '%28').replace(')', '%29')
-
-          md_globs = ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
-          files = []
-          for g in md_globs:
-              files.extend(glob.glob(g, recursive=True))
-
-          # Helpers that normalize any prefix before /_images/
-          def strip_md_inline(s: str) -> str:
-              # ]( ANYTHING/_images/<name> [title] ) -> ](/_images/<name> [title])
+          def strip_md_inline(s):
               return re.sub(r"\]\(\s*<?[^)\s\"']*?/_images/([^)\s\"'>]+)", r"](/_images/\1", s)
-
-          def strip_html_src(s: str) -> str:
-              s = re.sub(r'\bsrc\s*=\s*"[^"]*?/_images/([^"]+)"', r'src="/_images/\1"', s)
-              s = re.sub(r"\bsrc\s*=\s*'[^']*?/_images/([^']+)'", r"src='/_images/\1'", s)
+          def strip_html_src(s):
+              s=re.sub(r'\bsrc\s*=\s*"[^"]*?/_images/([^"]+)"', r'src="/_images/\1"', s)
+              s=re.sub(r"\bsrc\s*=\s*'[^']*?/_images/([^']+)'", r"src='/_images/\1'", s)
               return s
-
-          def strip_ref_links(s: str) -> str:
-              # [id]: ANYTHING/_images/<name> (keep trailing title part)
+          def strip_ref_links(s):
               return re.sub(r'(?im)^(\[[^\]]+\]:\s*)[^\s]*?/_images/(\S+)$', r'\1/_images/\2', s)
 
-          for path in files:
-              txt = open(path, encoding="utf-8").read()
-              orig = txt
-
-              # 1) .gitbook/assets → _images
-              txt = txt.replace("/.gitbook/assets/", "/_images/")
-
-              # 2) Normalize relative _images to site-root /_images
-              txt = re.sub(r"\]\(\s*<?(?:\.\./|\.?/)?_images/", "](/_images/", txt)
-              txt = re.sub(r'\bsrc\s*=\s*"(?:\.\./|\.?/)?_images/', 'src="/_images/', txt)
-              txt = re.sub(r"\bsrc\s*=\s*'(?:\.\./|\.?/)?_images/", "src='/_images/", txt)
-              txt = re.sub(r'(?im)^(\[[^\]]+\]:\s*)(?:\.\./|\.?/)?_images/', r"\1/_images/", txt)
-
-              # 3) Strip any absolute/pathed prefixes before /_images (raw/blob/github or anything)
-              txt = strip_md_inline(txt)
-              txt = strip_html_src(txt)
-              txt = strip_ref_links(txt)
-
-              # 4) Percent-encode spaces/() inside /_images/* targets
-              txt = re.sub(r"\]\((/_images/[^\s\)]*)", lambda m: "](" + enc(m.group(1)), txt)
-              txt = re.sub(r'src="(/_images/[^"]*)"', lambda m: 'src="' + enc(m.group(1)) + '"', txt)
-              txt = re.sub(r"src='(/_images/[^']*)'", lambda m: "src='" + enc(m.group(1)) + "'", txt)
-              txt = re.sub(r'(?im)^(\[[^\]]+\]:\s*)(/_images/\S+)',
-                           lambda m: m.group(1) + enc(m.group(2)), txt)
-
-              if txt != orig:
-                  with open(path, "w", encoding="utf-8") as f:
-                      f.write(txt)
-                  print(f"Rewrote: {path}")
+          for p in files:
+              s=open(p,encoding="utf-8").read(); o=s
+              s=s.replace("/.gitbook/assets/","/_images/")                       # dot-folder → _images
+              s=re.sub(r"\]\(\s*<?(?:(?:\.\./|\.?/)+)?_images/","](/_images/",s) # ../ or ./ → /
+              s=re.sub(r'\bsrc\s*=\s*"(?:(?:\.\./|\.?/)+)?_images/','src="/_images/',s)
+              s=re.sub(r"\bsrc\s*=\s*'(?:(?:\.\./|\.?/)+)?_images/","src='/_images/",s)
+              s=re.sub(r'(?im)^(\[[^\]]+\]:\s*)(?:(?:\.\./|\.?/)+)?_images/', r"\1/_images/", s)
+              s=strip_md_inline(s); s=strip_html_src(s); s=strip_ref_links(s)   # drop domains / raw / blob / folders before /_images
+              s=s.replace("/_images/gitbook/","/_images/")                      # flatten 'gitbook' subfolder
+              s=re.sub(r"\]\((/_images/[^\s\)]*)", lambda m: "]("+enc(m.group(1)), s) # encode
+              s=re.sub(r'src="(/_images/[^"]*)"', lambda m: 'src="'+enc(m.group(1))+'"', s)
+              s=re.sub(r"src='(/_images/[^']*)'", lambda m: "src='"+enc(m.group(1))+"'", s)
+              s=re.sub(r'(?im)^(\[[^\]]+\]:\s*)(/_images/\S+)', lambda m: m.group(1)+enc(m.group(2)), s)
+              if s!=o:
+                  open(p,"w",encoding="utf-8").write(s)
+                  print(f"Rewrote: {p}")
           PY
 
-      # (Optional) Validate everything is exactly /_images/<file> (no subfolders/prefix)
+      # (Optional) Strict validator — delete this step if you don't want failures on style drift
       - name: Validate image links style (/_images/* only)
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
           import re, glob, sys
-          exts = r"(png|jpe?g|gif|webp|svg)"
-          md_globs = ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
-          md_img = re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
-          html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
-          is_img = re.compile(rf"\.({exts})(?:$|\?)", re.I)
-
-          def non_compliant(u: str) -> bool:
-            if not is_img.search(u): return False
-            if not u.startswith("/_images/"): return True
-            rest = u[len("/_images/"):]
-            return "/" in rest.strip("/")  # no subfolders allowed
-
-          bad = []
-          files = []
-          for g in md_globs: files.extend(glob.glob(g, recursive=True))
-          for path in files:
-            s = open(path, encoding="utf-8").read()
-            for url in md_img.findall(s):
-              url = url.strip()
-              if non_compliant(url): bad.append((path, url))
-            for url in html_src.findall(s):
-              url = url.strip()
-              if non_compliant(url): bad.append((path, url))
+          exts=r"(png|jpe?g|gif|webp|svg)"
+          md=re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
+          html=re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
+          isimg=re.compile(rf"\.({exts})(?:$|\?)", re.I)
+          bad=[]; files=[]
+          for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]:
+              files+=glob.glob(g, recursive=True)
+          def non_ok(u):
+              if not isimg.search(u): return False
+              if not u.startswith("/_images/"): return True
+              return "/" in u[len("/_images/"):].strip("/")
+          for p in files:
+              s=open(p,encoding="utf-8").read()
+              bad += [(p,u.strip()) for u in md.findall(s) if non_ok(u.strip())]
+              bad += [(p,u.strip()) for u in html.findall(s) if non_ok(u.strip())]
           if bad:
-            print("❌ Non-compliant image links found:")
-            for p,u in bad: print(f"- {p}: {u}")
-            sys.exit(1)
-          print("✅ All image links compliant with /_images/<file> (flat).")
+              print("Non-compliant image links:")
+              for p,u in bad: print(f"- {p}: {u}")
+              sys.exit(1)
+          print("All image links are /_images/<file> (flat).")
           PY
 
       - name: Commit changes (if any)
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
-            git commit -m "Normalize images to /_images/* and rewrite links [ci skip]"
+            git commit -m "Normalize images and links for Git it Write [ci skip]"
           else
             echo "No changes to commit."
           fi
@@ -174,16 +174,7 @@ jobs:
             echo "No new commits to push."
             exit 0
           fi
-          for attempt in 1 2 3; do
-            echo "Push attempt $attempt..."
-            if git push --force-with-lease; then
-              echo "Pushed successfully."
-              exit 0
-            fi
-            echo "Push rejected. Fetching and rebasing..."
-            git fetch origin main
-            git rebase origin/main || exit 1
-            sleep 2
-          done
-          echo "Giving up after 3 attempts."
-          exit 1
+          for a in 1 2 3; do
+            echo "Push attempt $a..."
+            if git push --force-with-lease; then exit 0; fi
+            git fetc
