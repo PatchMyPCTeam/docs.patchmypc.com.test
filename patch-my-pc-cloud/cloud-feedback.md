@@ -8,6 +8,8 @@ To help us gather feedback, we have implemented a feedback mechanism into some w
 
 If feedback has been enabled for a workflow, the first time you complete that workflow, the **Rate Your Experience** popup is included as part of the usual notification.
 
+![alt text](/_images/image%20%282721%29.png)
+
 <figure><img src="/_images/gitbook/image%20%282721%29.png" alt="“Rate Your Experience” notification" width="563"><figcaption></figcaption></figure>
 
 Click on the relevant smiley to indicate your feelings about the workflow. Then provide your comments/feedback, and optionally check the **You can contact me regarding my feedback** checkbox.
