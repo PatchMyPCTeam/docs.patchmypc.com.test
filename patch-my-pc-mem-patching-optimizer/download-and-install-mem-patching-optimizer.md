@@ -30,7 +30,7 @@ This location is where we store all of the product's configuration information.
 
 Read the End-User License Agreement. After that, select **I accept the terms in the License terms and conditions** and click **Next**.
 
-<figure><img src="../_images/gitbook/EULA (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../_images/gitbook/EULA%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../_images/gitbook/Install_Dir.png" alt=""><figcaption></figcaption></figure>
 

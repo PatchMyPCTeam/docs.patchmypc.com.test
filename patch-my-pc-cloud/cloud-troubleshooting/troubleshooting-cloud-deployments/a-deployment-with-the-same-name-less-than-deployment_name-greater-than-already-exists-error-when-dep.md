@@ -10,7 +10,7 @@ When I deploy software using Intune Apps for Cloud (Intune Apps), why am I seein
 
 **A deployment with the same name <**_**deployment\_name**_**> already exists.**
 
-<figure><img src="../../../_images/gitbook/image (1455).png" alt="“Error - A deployment with the same name <deployment_name> already exists."><figcaption></figcaption></figure>
+<figure><img src="../../../_images/gitbook/image%20%281455%29.png" alt="“Error - A deployment with the same name <deployment_name> already exists."><figcaption></figcaption></figure>
 
 ### CAUSE
 

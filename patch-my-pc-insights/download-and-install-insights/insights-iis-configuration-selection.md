@@ -32,7 +32,7 @@ In this example, the installer automatically determined that the best available 
 
 In this example a custom IIS application pool identity has been set:
 
-<figure><img src="../../_images/gitbook/image (315).png" alt=""><figcaption><p>Example - Custom app pool identity (AD Account) set.</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%28315%29.png" alt=""><figcaption><p>Example - Custom app pool identity (AD Account) set.</p></figcaption></figure>
 
 Confirm the required Dashboard Port and if required, IIS application pool identity and click **Next**.
 

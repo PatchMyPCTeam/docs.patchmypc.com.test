@@ -34,7 +34,7 @@ On each Advanced Insight user’s computer, copy these files and folder to a loc
 
 We also need a copy of the Advanced Insights utility AdvInsRemoteControl.exe stored in the same location. The user is prompted to download and run this from the Advanced Insights portal the first time they try to use remote control if the app has not already been executed.
 
-<figure><img src="../_images/gitbook/image (1083).png" alt=""><figcaption><p>Correct folder structure for UK language</p></figcaption></figure>
+<figure><img src="../_images/gitbook/image%20%281083%29.png" alt=""><figcaption><p>Correct folder structure for UK language</p></figcaption></figure>
 
 ### The AdvInsRemoteControl.exe file
 

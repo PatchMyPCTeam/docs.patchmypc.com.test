@@ -15,13 +15,13 @@ Ports can be added at the end of the network address e.g. http://x.x.x.x:1234"
 
 If Advanced Insights cannot automatically access our licensing service at https://api.patchmypc.com we will automatically prompt for you to supply proxy details.
 
-<figure><img src="../_images/gitbook/image (1063).png" alt=""><figcaption><p>Welcome page proxy prompt</p></figcaption></figure>
+<figure><img src="../_images/gitbook/image%20%281063%29.png" alt=""><figcaption><p>Welcome page proxy prompt</p></figcaption></figure>
 
 ### Adding a proxy server in the Settings page
 
 Proxy configuration can also be added in the Administration - Settings - External Services tab
 
-<figure><img src="../_images/gitbook/image (1064).png" alt=""><figcaption><p>Settings page proxy configuration</p></figcaption></figure>
+<figure><img src="../_images/gitbook/image%20%281064%29.png" alt=""><figcaption><p>Settings page proxy configuration</p></figcaption></figure>
 
 
 

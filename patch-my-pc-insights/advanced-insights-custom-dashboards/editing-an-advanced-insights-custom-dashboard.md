@@ -8,7 +8,7 @@ _Applies to: Patch My PC Advanced Insights_
 
 To modify an existing custom dashboard, we navigate to the 'Custom Dashboards' node in the 'Administration' section and click the 'Edit' option.
 
-<figure><img src="../../_images/gitbook/image (1587).png" alt=""><figcaption><p>Custom Dashboards Admin page</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%281587%29.png" alt=""><figcaption><p>Custom Dashboards Admin page</p></figcaption></figure>
 
 To add new items to the dashboard, select them from the list and click 'Add to Dashboard'.
 

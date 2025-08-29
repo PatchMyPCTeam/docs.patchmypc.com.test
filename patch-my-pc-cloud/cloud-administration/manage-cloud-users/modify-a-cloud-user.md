@@ -18,13 +18,13 @@ To modify the role assigned to a user:
     \
 
 
-    <figure><img src="../../../_images/gitbook/image (2118).png" alt="Selecting the required user role from the list of roles dropdown"><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image%20%282118%29.png" alt="Selecting the required user role from the list of roles dropdown"><figcaption></figcaption></figure>
 
     \
     The role for the user will be updated and the **Success - Role changed** notification is displayed.\
 
 
-    <figure><img src="../../../_images/gitbook/image (1648).png" alt="“Success - Role changed” notification"><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image%20%281648%29.png" alt="“Success - Role changed” notification"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -40,13 +40,13 @@ To manage whether a user is granted the **Access Management** privilege:
 2.  In the **Roles** column, slide the **Access Management** slider to the right for the user you want to grant this permission.\
 
 
-    <figure><img src="../../../_images/gitbook/image (1649).png" alt="Using the slider to grant “Access Management” privileges"><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image%20%281649%29.png" alt="Using the slider to grant “Access Management” privileges"><figcaption></figcaption></figure>
 
     \
     The **Success - Role changed** notification is displayed.\
 
 
-    <figure><img src="../../../_images/gitbook/image (1650).png" alt="The “Success - Role changed&#x22; notification"><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image%20%281650%29.png" alt="The “Success - Role changed&#x22; notification"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -55,7 +55,7 @@ To revoke this privilege, slide the **Access Management** slider to the left. If
 
 If you try revoking it for yourself and there is at least one other user account with this privilege, you will see the following dialog box warning you that if you revoke access management you will be unable to manage user accounts in the portal.
 
-!["Are you sure you want to revoke access management from your account" pop up](<../../../_images/gitbook/image (1759).png>)&#x20;
+!["Are you sure you want to revoke access management from your account" pop up](<../../../_images/gitbook/image%20%281759).png>)&#x20;
 {% endhint %}
 
 {% hint style="warning" %}

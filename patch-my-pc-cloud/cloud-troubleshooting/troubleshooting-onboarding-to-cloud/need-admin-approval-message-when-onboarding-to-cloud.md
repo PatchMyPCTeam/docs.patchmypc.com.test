@@ -10,7 +10,7 @@ I am trying to onboard to Patch My PC (PMPC) Cloud. I’ve signed in, expecting 
 \
 
 
-<figure><img src="../../../_images/gitbook/image (906).png" alt="“Need admin approval” dialog box"><figcaption></figcaption></figure>
+<figure><img src="../../../_images/gitbook/image%20%28906%29.png" alt="“Need admin approval” dialog box"><figcaption></figcaption></figure>
 
 ### CAUSE
 

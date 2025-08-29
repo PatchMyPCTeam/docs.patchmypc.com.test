@@ -39,20 +39,20 @@ To deploy an app using PMPC Cloud:
 Use the **Search** field to help you locate the app.
 {% endhint %}
 
-<figure><img src="../../../_images/gitbook/image (193).png" alt="“App Catalog” page" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../_images/gitbook/image%20%28193%29.png" alt="“App Catalog” page" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
 
 If an app (for example, the Windows version of Slack) has multiple versions available for different variants/installer types, the App Catalog shows the total number of available versions. If you hover your mouse over this, you can see the list of variants grouped accordingly. Only that version will be displayed if a single version is available for all variants.
 
-![Total number of available variants](<../../../_images/gitbook/image (2471).png>)
+![Total number of available variants](<../../../_images/gitbook/image%20%282471).png>)
 {% endhint %}
 
 3.  Click the app to open its properties.\
 
 
-    <figure><img src="../../../_images/gitbook/image (194).png" alt="Application’s “Properties” page " width="563"><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image%20%28194%29.png" alt="Application’s “Properties” page " width="563"><figcaption></figcaption></figure>
 
 
 4. Click **Deploy** to start the Deployment Wizard.
@@ -65,6 +65,6 @@ If the app you are deploying is also supported for macOS, you will see a separat
 Also, if the app you are deploying is already published by our on-premises Publisher, you will see the **This app is already deployed** warning dialog stating that deploying the same app through both Publisher and PMPC Cloud can cause potential issues if there are differences between the deployment configurations. We therefore strongly recommend you only deploy an app through either Publisher PMPC Cloud to avoid such issues.
 {% endhint %}
 
-<figure><img src="../../../_images/gitbook/image (195).png" alt="Click &#x22;Deploy&#x22; to start the Deployment Wizard" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../_images/gitbook/image%20%28195%29.png" alt="Click &#x22;Deploy&#x22; to start the Deployment Wizard" width="563"><figcaption></figcaption></figure>
 
 The [General Information](cloud-general-information-deployment-tab.md) tab is displayed, which needs to be completed.

@@ -24,15 +24,15 @@ If the install executable version that was originally used to deploy Advanced In
 
 Click **'Modify'**
 
-<figure><img src="../../_images/gitbook/image (716).png" alt=""><figcaption><p>Advanced Insights - Add - Remove Programs entry.</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%28716%29.png" alt=""><figcaption><p>Advanced Insights - Add - Remove Programs entry.</p></figcaption></figure>
 
 Click **'Yes'**
 
-<figure><img src="../../_images/gitbook/image (717).png" alt=""><figcaption><p>UAC Prompt</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%28717%29.png" alt=""><figcaption><p>UAC Prompt</p></figcaption></figure>
 
 Click **'Modify'**
 
-<figure><img src="../../_images/gitbook/image (718).png" alt=""><figcaption><p>Advanced Insights installer maintenance dialog</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%28718%29.png" alt=""><figcaption><p>Advanced Insights installer maintenance dialog</p></figcaption></figure>
 
 Select the required modification option checkbox to enable the related 'Change' button
 

@@ -22,7 +22,7 @@ In the configuration modification page, select the checkbox for **'Frontend SSL 
 
 Click 'Edit port' in the 'Advanced Insights' section and enter a new port number, then click **'Next'**
 
-<figure><img src="../../_images/gitbook/image (317).png" alt=""><figcaption><p>Edit port</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%28317%29.png" alt=""><figcaption><p>Edit port</p></figcaption></figure>
 
 Click **'Install**
 
