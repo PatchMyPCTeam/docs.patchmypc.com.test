@@ -16,13 +16,13 @@ To update the version of a Binary Free App from the notification email:
 1.  Within the notification email, click **Update File**.\
 
 
-    <figure><img src="../../_images/gitbook/image%20%28401%29.png" alt="Clicking “Add Version” in the notification email"><figcaption></figcaption></figure>
+    <figure><img src="/_images/gitbook/image%20%28401%29.png" alt="Clicking “Add Version” in the notification email"><figcaption></figcaption></figure>
 
 
 2.  If required, click **Sign In** on the new browser tab prompting you to sign in to your portal.\
 
 
-    <figure><img src="../../_images/gitbook/image%20%28402%29.png" alt="	Clicking “Sign In” on the new browser tab prompting you to sign in to your portal."><figcaption></figcaption></figure>
+    <figure><img src="/_images/gitbook/image%20%28402%29.png" alt="	Clicking “Sign In” on the new browser tab prompting you to sign in to your portal."><figcaption></figcaption></figure>
 
 
 3.  Select the relevant account if you are already signed in or enter your credentials.\
@@ -31,7 +31,7 @@ To update the version of a Binary Free App from the notification email:
     \
 
 
-    <figure><img src="../../_images/gitbook/image%20%28403%29.png" alt="Portal opening on the “”<app_name>” Upload file” screen."><figcaption></figcaption></figure>
+    <figure><img src="/_images/gitbook/image%20%28403%29.png" alt="Portal opening on the “”<app_name>” Upload file” screen."><figcaption></figcaption></figure>
 
 
 4.  On the **Upload File Installer** screen, either:\
@@ -45,7 +45,7 @@ To update the version of a Binary Free App from the notification email:
 We suggest you use the download link at the bottom of the page to ensure you download the latest version of the app from the vendor’s official website.
 {% endhint %}
 
-<figure><img src="../../_images/gitbook/image%20%28404%29.png" alt="Clicking “Select Application File”"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%28404%29.png" alt="Clicking “Select Application File”"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -59,30 +59,30 @@ If you really need to deploy an older version of the app, deploy it as a Custom 
 
 The hash for the file is calculated as the file is uploaded to your portal.
 
-<figure><img src="../../_images/gitbook/image%20%28405%29.png" alt="Calculating the hash for the file as its uploaded to your portal"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%28405%29.png" alt="Calculating the hash for the file as its uploaded to your portal"><figcaption></figcaption></figure>
 
 The portal also shows **File Up to Date** and the **Success – File Successfully Uploaded** notification once:
 
 * The file has been uploaded successfully.
 * The calculated hash matches that stored in our App Catalog.
 
-<figure><img src="../../_images/gitbook/image%20%28406%29.png" alt="“Success – File Successfully Uploaded” notification"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%28406%29.png" alt="“Success – File Successfully Uploaded” notification"><figcaption></figcaption></figure>
 
 You can now click **Back** or navigate to another area of the portal.
 
 ### Update a Binary Free App from the App Catalog
 
-Whenever a new version of a Binary Free App is available in the App Catalog and we don’t have the latest installer file, the upload (![](<../../_images/gitbook/image%20%28407).png>)) icon appears beside the app.
+Whenever a new version of a Binary Free App is available in the App Catalog and we don’t have the latest installer file, the upload (![](/_images/gitbook/image%20%28407).png>)) icon appears beside the app.
 
-<figure><img src="../../_images/gitbook/image%20%28408%29.png" alt="“Upload” icon showing a new version of an app needs to be uploaded"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%28408%29.png" alt="“Upload” icon showing a new version of an app needs to be uploaded"><figcaption></figcaption></figure>
 
 To update a Binary Free App from the App Catalog:
 
-1. Click the upload (![](<../../_images/gitbook/image%20%28407).png>)) icon.
+1. Click the upload (![](/_images/gitbook/image%20%28407).png>)) icon.
 2.  On the app’s properties screen, click **Manage Files**.\
 
 
-    <figure><img src="../../_images/gitbook/image%20%28409%29.png" alt="Clicking “Manage Files”"><figcaption></figcaption></figure>
+    <figure><img src="/_images/gitbook/image%20%28409%29.png" alt="Clicking “Manage Files”"><figcaption></figcaption></figure>
 
 
 3. Continue from Step 8 of the [Upload the app installer](deploy-a-binary-free-app.md#upload-the-app-installer) section of the [Create a Binary Free App](deploy-a-binary-free-app.md) process to upload the latest version.

@@ -10,10 +10,10 @@ _Applies to: Patch My PC Advanced Insights_
 This dashboard requires deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
 {% endhint %}
 
-<figure><img src="../../../_images/gitbook/image%20%281538%29.png" alt=""><figcaption><p>Wireless Adapters table</p></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%281538%29.png" alt=""><figcaption><p>Wireless Adapters table</p></figcaption></figure>
 
 This page helps to track which wireless adapters are present in the environment. The device name and driver version are shown along with MAC Address.&#x20;
 
 Click through shows connection history in the device view.
 
-<figure><img src="../../../_images/gitbook/image%20%281539%29.png" alt=""><figcaption><p>Wireless Network Connection History</p></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%281539%29.png" alt=""><figcaption><p>Wireless Network Connection History</p></figcaption></figure>

@@ -12,7 +12,7 @@ However, when I try, I get the following error:
 
 **Customer has active connections. Please disconnect them first in order to delete the company**
 
-<figure><img src="../../../_images/gitbook/image%20%28374%29.png" alt="“Customer has active connections. Please disconnect them first in order to delete the company” error" width="548"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%28374%29.png" alt="“Customer has active connections. Please disconnect them first in order to delete the company” error" width="548"><figcaption></figcaption></figure>
 
 ### CAUSE
 

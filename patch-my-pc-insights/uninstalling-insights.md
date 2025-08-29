@@ -18,7 +18,7 @@ You can manually remove the Inventory Extensions from a ConfigMgr Console under:
 
 Carefully Select and delete each PMPC\_ Inventory Class from this window individually. This will remove them from your Hardware Inventory Schema and delete their data from the database:
 
-<figure><img src="../_images/gitbook/PMPC_Classes.PNG" alt=""><figcaption><p><em>*When removing manually you should also ensure to remove any existing PMPC Inventory Deployments</em></p></figcaption></figure>
+<figure><img src="/_images/gitbook/PMPC_Classes.PNG" alt=""><figcaption><p><em>*When removing manually you should also ensure to remove any existing PMPC Inventory Deployments</em></p></figcaption></figure>
 
 ### Uninstall Advanced Insights
 

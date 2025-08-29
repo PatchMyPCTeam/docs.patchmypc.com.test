@@ -14,11 +14,11 @@ To add extra folders and/or files:
 
 1. Click the **Extra Files** tool to expose the configurable settings.
 
-<figure><img src="../../../../_images/gitbook/image%20%2882%29.png" alt="Clicking the &#x22;Extra Files&#x22; tool" width="563"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%2882%29.png" alt="Clicking the &#x22;Extra Files&#x22; tool" width="563"><figcaption></figcaption></figure>
 
 2. Scroll down to the end of the **Extra Files** section so that the buttons and their subtext are visible.
 
-<figure><img src="../../../../_images/gitbook/image%20%2883%29.png" alt="Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible" width="563"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%2883%29.png" alt="Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible" width="563"><figcaption></figcaption></figure>
 
 3. Either:
    1. Drag and drop the relevant folders or files to the relevant area.
@@ -38,12 +38,12 @@ We support uploading files with the same name, provided they are in different fo
     \
 
 
-    <figure><img src="../../../../_images/gitbook/image%20%28146%29.png" alt="Clicking &#x22;Upload&#x22; when prompted to upload the content"><figcaption></figcaption></figure>
+    <figure><img src="/_images/gitbook/image%20%28146%29.png" alt="Clicking &#x22;Upload&#x22; when prompted to upload the content"><figcaption></figcaption></figure>
 
     \
     The hash will be calculated for any folders/files you upload, which will appear at the bottom of the **Extra Files** section.
 
-<figure><img src="../../../../_images/gitbook/image%20%2884%29.png" alt="Additional folders/files to be uploaded appearing at the bottom of the “Extra Files” section" width="438"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%2884%29.png" alt="Additional folders/files to be uploaded appearing at the bottom of the “Extra Files” section" width="438"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -52,7 +52,7 @@ The total number of extra folders/files is not limited, but their total size mus
 
 Also, if the **Installer Type** on the **General Information** page is set to **`.msi`**, the **MST File** section will be shown, allowing you to upload a single MST file. This file must have the **`.mst`** extension.
 
-![“MST Files” section](<../../../../_images/gitbook/image%20%28241).png>)
+![“MST Files” section](/_images/gitbook/image%20%28241).png>)
 
 Uploading a **`.mst`** file automatically adds the following to the **Additional Argument** field of the **Install Parameters** section:
 
@@ -60,7 +60,7 @@ Uploading a **`.mst`** file automatically adds the following to the **Additional
 
 where **`<`**_**`mstfile>`**_ is the name of the uploaded MST file.
 
-![“Install Parameters” section updated](<../../../../_images/gitbook/image%20%28243).png>)
+![“Install Parameters” section updated](/_images/gitbook/image%20%28243).png>)
 {% endhint %}
 
 5. Repeat the above steps to add any additional folders/files as required.
@@ -75,7 +75,7 @@ Once a deployment has been successfully created, you can add or remove any addit
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-<figure><img src="../../../../_images/gitbook/image%20%2885%29.png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page" width="563"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%2885%29.png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**

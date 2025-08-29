@@ -84,8 +84,8 @@ Double-check everything before clicking **Create**.
 
 Once the client processes the policy, the certificate appears as follows in its **Trusted Publishers** store.
 
-<figure><img src="../../../_images/gitbook/image%20%28654%29.png" alt="How the certificate appears in a clients “Trusted Publishers” store" width="563"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%28654%29.png" alt="How the certificate appears in a clients “Trusted Publishers” store" width="563"><figcaption></figcaption></figure>
 
 Double-clicking the certificate allows you to see its properties.
 
-<figure><img src="../../../_images/gitbook/image%20%28655%29.png" alt="Properties of the certificate" width="475"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%28655%29.png" alt="Properties of the certificate" width="475"><figcaption></figcaption></figure>

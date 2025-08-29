@@ -15,7 +15,7 @@ To setup the Inventory Extensions, there are **two** actions to complete:
 3. Select whether to collect **Microsoft Update** Compliance Data [see here for more information](../advanced-insights-and-microsoft-updates-inventory.md)
 4. Click <mark style="color:green;">**Update Hardware Inventory via Advanced Insights**</mark>
 
-<figure><img src="../../_images/gitbook/Inventory_Extensions_Settings" alt=""><figcaption><p>Advanced Insights Inventory Extensions</p></figcaption></figure>
+<figure><img src="/_images/gitbook/Inventory_Extensions_Settings" alt=""><figcaption><p>Advanced Insights Inventory Extensions</p></figcaption></figure>
 
 ***
 
@@ -25,9 +25,9 @@ To setup the Inventory Extensions, there are **two** actions to complete:
 Seeing this message suggests you need to configure [Configuration Manager Permissions](../insights-configuration-manager-permission-requirements.md). We recommend configuring permissions instead of proceeding with a manual install.
 {% endhint %}
 
-<figure><img src="../../_images/gitbook/image002%20%282%29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image002%20%282%29.png" alt=""><figcaption></figcaption></figure>
 
-{% file src="../../_images/gitbook/AdvancedInsights_SMS_DEF%20%281%29.mof" %}
+{% file src="/_images/gitbook/AdvancedInsights_SMS_DEF%20%281%29.mof" %}
 For manual import of Inventory Extension Classes into Hardware Inventory
 {% endfile %}
 
@@ -36,7 +36,7 @@ For manual import of Inventory Extension Classes into Hardware Inventory
 3. From this page click **Import...** and select the **AdvancedInsights\_SMS\_DEF.mof**
 4. Tick/untick the imported Inventory Classes as required
 
-<figure><img src="../../_images/gitbook/image%20%281258%29.png" alt=""><figcaption><p>Inventory Classes displayed In Hardware Inventory Client Settings</p></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%281258%29.png" alt=""><figcaption><p>Inventory Classes displayed In Hardware Inventory Client Settings</p></figcaption></figure>
 
 ***
 
@@ -46,7 +46,7 @@ For manual import of Inventory Extension Classes into Hardware Inventory
 If you have previously deployed the "**PMPC Data Collection**" PowerShell Package, please ensure you delete its deployment before deploying the new **InventoryExtensions.msi**
 {% endhint %}
 
-<figure><img src="../../_images/gitbook/image%20%281325%29.png" alt=""><figcaption><p>ConfigMgr package "PMPC Data Collection (LEGACY)" to remove</p></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%281325%29.png" alt=""><figcaption><p>ConfigMgr package "PMPC Data Collection (LEGACY)" to remove</p></figcaption></figure>
 
 {% hint style="info" %}
 After removing the deployment for the legacy PMPC Data Collection package, the **InventoryExtensions.msi** must be installed on clients you wish to collect inventory data from.
@@ -63,19 +63,19 @@ You can deploy the **Inventory Extensions** product via <mark style="color:green
 
 1\. Open the Patch My PC Publisher, navigate to the ConfigMgr/Intune Apps tab and select **Patch My PC >** **Advanced Insights Inventory Extensions (MSI-x64)**
 
-<figure><img src="../../_images/gitbook/image%20%281321%29.png" alt=""><figcaption><p>Advanced Insights Inventory Extensions app in the PMPC Publisher</p></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%281321%29.png" alt=""><figcaption><p>Advanced Insights Inventory Extensions app in the PMPC Publisher</p></figcaption></figure>
 
 2\. To quickly sync this app to ConfigMgr/Intune without having to wait for all other selected apps and updates in the Publisher to evaluate and process, right click the **Advanced Insights Inventory Extensions (MSI-x64)** app and select **Publish this product during the next manual sync. (Selective sync).**
 
-<figure><img src="../../_images/gitbook/image%20%281326%29.png" alt="" width="375"><figcaption><p>Choose "Selective sync" to publish the MSI quickly to ConfigMgr</p></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%281326%29.png" alt="" width="375"><figcaption><p>Choose "Selective sync" to publish the MSI quickly to ConfigMgr</p></figcaption></figure>
 
 3\. On the **Sync Schedule** tab, click **Run Publishing Service Sync.**
 
-<figure><img src="../../_images/gitbook/image%20%281327%29.png" alt="" width="375"><figcaption><p>Publisher Sync</p></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%281327%29.png" alt="" width="375"><figcaption><p>Publisher Sync</p></figcaption></figure>
 
 4\. Verify the **Inventory Extensions x.x.x.x (MSI-x64)** application was created and deploy it to your desired collection(s).
 
-<figure><img src="../../_images/gitbook/image%20%281329%29.png" alt=""><figcaption><p>Inventory Extensions app created successfully</p></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%281329%29.png" alt=""><figcaption><p>Inventory Extensions app created successfully</p></figcaption></figure>
 
 {% hint style="info" %}
 **Note**

@@ -11,11 +11,11 @@ You can configure naming conventions for both:
 
 All naming convention-related tasks are performed from the **Naming** node, accessed by navigating to **Settings | Naming**.
 
-<figure><img src="../../../_images/gitbook/image%20%28657%29.png" alt="Navigating to “Settings | Naming”"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%28657%29.png" alt="Navigating to “Settings | Naming”"><figcaption></figcaption></figure>
 
 The **Naming Conventions** page is then displayed, allowing you to:
 
 * [Configure Naming Conventions](configure-cloud-naming-conventions.md)
 * [Modify Naming Conventions](modify-cloud-naming-conventions.md)
 
-<figure><img src="../../../_images/gitbook/image%20%28658%29.png" alt="“Naming Conventions” page"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%28658%29.png" alt="“Naming Conventions” page"><figcaption></figcaption></figure>

@@ -15,7 +15,7 @@ All user account-related tasks are performed from the **Users** node of the PMPC
 2.  Navigate to  **Settings | Users**.\
 
 
-    <figure><img src="../../../_images/gitbook/image%20%28286%29.png" alt="Navigating to “Settings | Users”"><figcaption></figcaption></figure>
+    <figure><img src="/_images/gitbook/image%20%28286%29.png" alt="Navigating to “Settings | Users”"><figcaption></figcaption></figure>
 
 The **Users** page is then displayed, allowing you to complete the following tasks:
 
@@ -23,7 +23,7 @@ The **Users** page is then displayed, allowing you to complete the following tas
 * [Modify a User](modify-a-cloud-user.md)
 * [Delete a User](delete-a-cloud-user.md)
 
-<figure><img src="../../../_images/gitbook/image%20%28287%29.png" alt="“Users” page"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%28287%29.png" alt="“Users” page"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**

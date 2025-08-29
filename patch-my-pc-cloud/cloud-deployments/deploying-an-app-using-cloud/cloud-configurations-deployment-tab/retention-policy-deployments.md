@@ -18,11 +18,11 @@ To configure a PMPC Cloud deployment to use a Retention Policy:
 
 1. Click the **Retention Policy** tool.
 
-<figure><img src="../../../../_images/gitbook/image%20%2899%29.png" alt="Clicking the “Retention Policy” tool" width="563"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%2899%29.png" alt="Clicking the “Retention Policy” tool" width="563"><figcaption></figcaption></figure>
 
 2. Scroll down to the **Retention Policy** section.
 
-<figure><img src="../../../../_images/gitbook/image%20%28100%29.png" alt="Scrolling down to the “Retention Policy” section." width="563"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%28100%29.png" alt="Scrolling down to the “Retention Policy” section." width="563"><figcaption></figcaption></figure>
 
 3. In the **Versions to Retain** box, either type the required number or use the controls to configure the number of versions of this app you wish to retain in your environment.
 
@@ -32,7 +32,7 @@ To configure a PMPC Cloud deployment to use a Retention Policy:
 The default value of **0** means only the most recent version of the app is retained. You can retain up to ten versions of an app.
 {% endhint %}
 
-<figure><img src="../../../../_images/gitbook/image%20%2861%29.png" alt="Configuring the number of versions of this app to retain using the “Versions to Retain” box" width="431"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%2861%29.png" alt="Configuring the number of versions of this app to retain using the “Versions to Retain” box" width="431"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**
@@ -42,7 +42,7 @@ See [Check App Version Retention](../../../cloud-reference/intune-reference/chec
 
 4. If you do not want to configure any of the optional tabs under the **Tools** section, click **Next** to move to the [Assignments](../cloud-assignments-deployment-tab.md) tab. Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-<figure><img src="../../../../_images/gitbook/image%20%28102%29.png" alt="Clicking “Next” to move to the “Assignments” tab" width="563"><figcaption></figcaption></figure>
+<figure><img src="/_images/gitbook/image%20%28102%29.png" alt="Clicking “Next” to move to the “Assignments” tab" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**

@@ -20,22 +20,22 @@ To modify Naming Conventions:
 2.  Click on the relevant tab for the type of apps whose naming convention you want to modify.\
 
 
-    <figure><img src="../../../_images/gitbook/image%20%28662%29.png" alt="Clicking the relevant tab for the type of app to configure"><figcaption></figcaption></figure>
+    <figure><img src="/_images/gitbook/image%20%28662%29.png" alt="Clicking the relevant tab for the type of app to configure"><figcaption></figcaption></figure>
 
 
 3. Configure the options as required.
 4.  Click **Save** to save your changes.\
 
 
-    <figure><img src="../../../_images/gitbook/image%20%28663%29.png" alt="Clicking “Save” to save your changes"><figcaption></figcaption></figure>
+    <figure><img src="/_images/gitbook/image%20%28663%29.png" alt="Clicking “Save” to save your changes"><figcaption></figcaption></figure>
 
 
 5.  Click **Submit** to save your changes on the **Are you sure** popup.\
 
 
-    <figure><img src="../../../_images/gitbook/image%20%28664%29.png" alt="Clicking “Submit” on the “Are you sure?” popup "><figcaption><p><br></p></figcaption></figure>
+    <figure><img src="/_images/gitbook/image%20%28664%29.png" alt="Clicking “Submit” on the “Are you sure?” popup "><figcaption><p><br></p></figcaption></figure>
 
     The **Success – Naming Conventions saved** notification is displayed.\
 
 
-    <figure><img src="../../../_images/gitbook/image%20%281777%29.png" alt="&#x22;Success – Naming Conventions saved&#x22; notification"><figcaption></figcaption></figure>
+    <figure><img src="/_images/gitbook/image%20%281777%29.png" alt="&#x22;Success – Naming Conventions saved&#x22; notification"><figcaption></figcaption></figure>
