@@ -41,26 +41,30 @@ jobs:
             rsync -a --delete ".gitbook/assets/" "_images/gitbook/"
           fi
 
-      - name: Rewrite /main/.gitbook/assets → /main/_images/gitbook in Markdown
+      - name: Rewrite .gitbook/assets → _images/gitbook (any prefix)
         shell: bash
         run: |
           set -euo pipefail
           shopt -s nullglob
-          # Collect files; avoid pipeline failure when there are no matches
+          # Find markdown-like files that contain "/.gitbook/assets/"
           mapfile -t hits < <( \
-            git grep -l '/main/.gitbook/assets/' -- \
-              '**/*.md' '**/*.MD' '**/*.mdx' '**/*.MDX' '**/*.markdown' '**/*.MARKDOWN' \
+            git grep -l '/\.gitbook/assets/' -- \
+              '**/*.[mM][dD]' '**/*.[mM][dD][xX]' '**/*.markdown' '**/*.MARKDOWN' \
             || true \
           )
+
           if ((${#hits[@]})); then
-            # Safe for filenames with spaces
-            sed -i 's#/main/\.gitbook/assets/#/main/_images/gitbook/#g' "${hits[@]}"
+            # Replace **wherever** it appears (handles /raw/main/.gitbook/assets/, https URLs, etc.)
+            sed -i 's#/\.gitbook/assets/#/_images/gitbook/#g' "${hits[@]}"
           else
-            echo "No files contained /main/.gitbook/assets/ — nothing to rewrite."
+            echo "No files contained /.gitbook/assets/ — nothing to rewrite."
           fi
 
-          # OPTIONAL: show any remaining references (does NOT fail the job)
-          git grep -n '\.gitbook/assets' -- '**/*.[mM][dD]' '**/*.[mM][dD][xX]' '**/*.markdown' '**/*.MARKDOWN' || true
+          # Optional: show remaining references for sanity (doesn't fail the job)
+          git grep -n '\.gitbook/assets' -- \
+            '**/*.[mM][dD]' '**/*.[mM][dD][xX]' '**/*.markdown' '**/*.MARKDOWN' \
+            || true
+      
 
       - name: Commit changes (if any)
         run: |
