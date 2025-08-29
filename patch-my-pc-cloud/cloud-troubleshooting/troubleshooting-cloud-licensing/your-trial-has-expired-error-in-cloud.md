@@ -8,7 +8,7 @@ When signing into the Patch My PC (PMPC) Cloud portal, I see the following notif
 
 **Your trial has expired. To continue using the application, choose one of the following options:** [**Request a Quote**](https://patchmypc.com/request-quote#overview) **or Enter License.**
 
-<figure><img src="../../../_images/gitbook/image (1515).png" alt="“Your trial has expired” notification"><figcaption></figcaption></figure>
+<figure><img src="../../../_images/gitbook/image%20%281515%29.png" alt="“Your trial has expired” notification"><figcaption></figcaption></figure>
 
 ### CAUSE
 

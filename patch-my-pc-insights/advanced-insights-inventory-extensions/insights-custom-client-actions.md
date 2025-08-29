@@ -14,11 +14,11 @@ Clients with the Inventory Extensions MSI installed will support the use of our 
 
 If you see this message when using any of the custom client actions:
 
-<figure><img src="../../_images/gitbook/image (968).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%28968%29.png" alt=""><figcaption></figcaption></figure>
 
 This means you have the "Additional Script Approver" setting enabled in ConfigMgr. To approve our script, please follow these steps:
 
-<figure><img src="../../_images/gitbook/script approval.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/script%20approval.png" alt=""><figcaption></figcaption></figure>
 
 1. Open your ConfigMgr Console
 2. Go to Software Library > Scripts
@@ -27,7 +27,7 @@ This means you have the "Additional Script Approver" setting enabled in ConfigMg
 ### Custom Action Descriptions
 
 * Notify - Sends a message box to all users logged in on the client, this message includes the \
-  ![](<../../_images/gitbook/image (2261).png>)
+  ![](<../../_images/gitbook/image%20%282261).png>)
 * Install Updates - Installs all updates which are advertised to the device which are targeted as available or required. This is the same action as pressing Install All in the Software Center.
 * Repair Client - Executes the ccmrepair.exe
 * Clear CCM Cache - Clears all ccmcache items on the client (including persistent cache)

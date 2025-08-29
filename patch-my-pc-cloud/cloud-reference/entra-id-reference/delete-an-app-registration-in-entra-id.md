@@ -14,19 +14,19 @@ To delete an App Registration:
 You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.
 {% endhint %}
 
-<figure><img src="../../../_images/gitbook/image (1970).png" alt="Navigating to the “App registrations” blade"><figcaption></figcaption></figure>
+<figure><img src="../../../_images/gitbook/image%20%281970%29.png" alt="Navigating to the “App registrations” blade"><figcaption></figcaption></figure>
 
 2.  Click **All applications**.\
 
 
-    <figure><img src="../../../_images/gitbook/image (1971).png" alt="Clicking “All Applications”"><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image%20%281971%29.png" alt="Clicking “All Applications”"><figcaption></figcaption></figure>
 
     \
 
 3.  Click the **PMPC Recovery** application.\
 
 
-    <figure><img src="../../../_images/gitbook/image (1972).png" alt="Clicking the “PMPC Recovery” application"><figcaption></figcaption></figure>
+    <figure><img src="../../../_images/gitbook/image%20%281972%29.png" alt="Clicking the “PMPC Recovery” application"><figcaption></figcaption></figure>
 
     \
 
@@ -34,7 +34,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
     4.  Click **Delete**.\
 
 
-        <figure><img src="../../../_images/gitbook/image (1973).png" alt="Clicking “Delete”"><figcaption></figcaption></figure>
+        <figure><img src="../../../_images/gitbook/image%20%281973%29.png" alt="Clicking “Delete”"><figcaption></figcaption></figure>
 
         \
 
@@ -42,14 +42,14 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        <figure><img src="../../../_images/gitbook/image (1974).png" alt="Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”."><figcaption></figcaption></figure>
+        <figure><img src="../../../_images/gitbook/image%20%281974%29.png" alt="Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”."><figcaption></figcaption></figure>
 
         \
         The **Welcome to Azure** page is shown and the **Delete application - Successfully deleted application PMPC Recovery** notification is shown.\
         \
 
 
-        <figure><img src="../../../_images/gitbook/image (1975).png" alt="“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown."><figcaption></figcaption></figure>
+        <figure><img src="../../../_images/gitbook/image%20%281975%29.png" alt="“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown."><figcaption></figcaption></figure>
 
         \
 
@@ -57,7 +57,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        <figure><img src="../../../_images/gitbook/image (1976).png" alt="Clicking the “App Registrations” blade "><figcaption></figcaption></figure>
+        <figure><img src="../../../_images/gitbook/image%20%281976%29.png" alt="Clicking the “App Registrations” blade "><figcaption></figcaption></figure>
 
         \
 
@@ -65,7 +65,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        <figure><img src="../../../_images/gitbook/image (1977).png" alt="Clicking the “All applications” blade"><figcaption></figcaption></figure>
+        <figure><img src="../../../_images/gitbook/image%20%281977%29.png" alt="Clicking the “All applications” blade"><figcaption></figcaption></figure>
 
         \
 
@@ -73,4 +73,4 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        <figure><img src="../../../_images/gitbook/image (1978).png" alt="Verifying the “PMPC Recovery” application has been deleted."><figcaption></figcaption></figure>
+        <figure><img src="../../../_images/gitbook/image%20%281978%29.png" alt="Verifying the “PMPC Recovery” application has been deleted."><figcaption></figcaption></figure>

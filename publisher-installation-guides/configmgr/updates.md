@@ -12,7 +12,7 @@ _Applies to: On-premises Publisher_
 
 To enable products to publish, check the **Enable publishing of third-party updates** checkbox.
 
-![Feature enablement for updates](<../../_images/gitbook/image (1069).png>)
+![Feature enablement for updates](<../../_images/gitbook/image%20%281069).png>)
 
 Once the option is selected, you'll be able to enable other products.&#x20;
 
@@ -22,11 +22,11 @@ Once the option is selected, you'll be able to enable other products.&#x20;
 
 To find and enable these products, you can search the list of updates using **Ctrl + F** or by clicking on the magnifying glass in the lower right corner.&#x20;
 
-![Select the search icon](<../../_images/gitbook/image (1190).png>)
+![Select the search icon](<../../_images/gitbook/image%20%281190).png>)
 
 When you select the search button a dialogue will open, type in one of our example products and hit enter, or click **OK**.
 
-![Search box options for the Updates Tab](<../../_images/gitbook/image (1165).png>)
+![Search box options for the Updates Tab](<../../_images/gitbook/image%20%281165).png>)
 
 Once you have found the product you want to patch, click the checkbox for your preferred architecture choice and click **Apply**.
 
@@ -38,7 +38,7 @@ Once you have found the product you want to patch, click the checkbox for your p
 Custom right-click options for customizting installation behaivor
 {% endembed %}
 
-![Select a product and hit apply so save the configuration.](<../../_images/gitbook/image (1271).png>)
+![Select a product and hit apply so save the configuration.](<../../_images/gitbook/image%20%281271).png>)
 
 {% hint style="info" %}
 If you happen to hit **OK**  instead of **Apply**, don't worry the publisher will close after saving the changes. You can just re-open and keep right on working.
@@ -48,7 +48,7 @@ Next, you will need to enable the product in Configuration Manager to ensure the
 
 
 
-![Configure Software Update Point Tab](<../../_images/gitbook/image (1091).png>)
+![Configure Software Update Point Tab](<../../_images/gitbook/image%20%281091).png>)
 
 {% hint style="info" %}
 Note: If your SUP is remote, you will need to Configure the SMS Provider connection before running the publisher and SUP sync. This can be done under the Sync Schedule tab, by selecting “Configure SMS Provider connection..”.
@@ -56,6 +56,6 @@ Note: If your SUP is remote, you will need to Configure the SMS Provider connect
 
 Once this loads, select products and check the entire Patch My PC category.&#x20;
 
-![Enable the patch my pc product category.](<../../_images/gitbook/image (1129).png>)
+![Enable the patch my pc product category.](<../../_images/gitbook/image%20%281129).png>)
 
 Once enabled, the next software update point sync will pull in all updates created by Patch My PC.

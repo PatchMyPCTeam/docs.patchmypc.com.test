@@ -12,7 +12,7 @@ This completes the pre-install configuration of Advanced Insights, a summary scr
 
 The installer may take up to 30 minutes to complete.
 
-<figure><img src="../../_images/gitbook/10 Installing (1).png" alt=""><figcaption><p>Installing Advanced Installer Files</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/10%20Installing%20%281%29.png" alt=""><figcaption><p>Installing Advanced Installer Files</p></figcaption></figure>
 
 {% hint style="info" %}
 **Note**

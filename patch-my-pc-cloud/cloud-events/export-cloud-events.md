@@ -10,7 +10,7 @@ Events are only held in the portal for 30 days, after which they are automatical
 
 To export today's events plus the past 29 days of events, click **Export** in the header of the **Events** page.
 
-<figure><img src="../../_images/gitbook/image (1772).png" alt="Clicking “Export” in the header of the “Events” page"><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%281772%29.png" alt="Clicking “Export” in the header of the “Events” page"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -35,7 +35,7 @@ We export the following:
 
 Here is an example:
 
-<figure><img src="../../_images/gitbook/image (97).png" alt="Example of the “events_log_entries.csv” file" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%2897%29.png" alt="Example of the “events_log_entries.csv” file" width="563"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**

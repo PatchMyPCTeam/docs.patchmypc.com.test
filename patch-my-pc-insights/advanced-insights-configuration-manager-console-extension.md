@@ -22,7 +22,7 @@ Warning: The console extension will not work if you are using a **self-signed ce
 
 To import the Extension, navigate to the Administration node of the Configuration Manager console and expand the Updates and Servicing node. Right click Console Extensions and select "Import Console Extension".
 
-<figure><img src="../_images/gitbook/image (1808).png" alt=""><figcaption><p>Import Console  Extension</p></figcaption></figure>
+<figure><img src="../_images/gitbook/image%20%281808%29.png" alt=""><figcaption><p>Import Console  Extension</p></figcaption></figure>
 
 Browse to the location of the unzipped Console Extension download.
 
@@ -32,15 +32,15 @@ Select the AdvancedInsightsConsoleExtension.cab file and click Open, then click 
 
 The newly imported Console Extension will be listed alongside any other extensions you have deployed. You must now Approve the Extension by right clicking and selecting "Approve".
 
-<figure><img src="../_images/gitbook/image (1810).png" alt=""><figcaption><p>Approving the Extension</p></figcaption></figure>
+<figure><img src="../_images/gitbook/image%20%281810%29.png" alt=""><figcaption><p>Approving the Extension</p></figcaption></figure>
 
 Once approved the Extension can be Installed:
 
-<figure><img src="../_images/gitbook/image (1812).png" alt=""><figcaption><p>Installing the Extension</p></figcaption></figure>
+<figure><img src="../_images/gitbook/image%20%281812%29.png" alt=""><figcaption><p>Installing the Extension</p></figcaption></figure>
 
 &#x20;You will be prompted to restart the ConfigMgr Console. When it reloads the Advanced Insights node will have been added tot he Assets and Compliance view:
 
-<figure><img src="../_images/gitbook/image (1813).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../_images/gitbook/image%20%281813%29.png" alt=""><figcaption></figcaption></figure>
 
 ## First Run
 
@@ -54,16 +54,16 @@ When you click the Advanced Insights node, a dialog is displayed in the detail p
 
 Provide the relevant URL, including https:// prefix and any required port, for example https://server.contoso.com:444 and click OK. If the address is correct, the Advanced Insights login page will be displayed. You can re-run the configuration step any time by right clicking the Advanced Insights node and selecting "Configuration".&#x20;
 
-<figure><img src="../_images/gitbook/image (1815).png" alt=""><figcaption><p>Reconfigure the Extension</p></figcaption></figure>
+<figure><img src="../_images/gitbook/image%20%281815%29.png" alt=""><figcaption><p>Reconfigure the Extension</p></figcaption></figure>
 
 ## Using the Extension
 
 The first obvious use of the Extension is to display the Advanced Insights portal right there in the ConfigMgr Console:
 
-<figure><img src="../_images/gitbook/image (1816).png" alt=""><figcaption><p>Advanced Insights in the Console</p></figcaption></figure>
+<figure><img src="../_images/gitbook/image%20%281816%29.png" alt=""><figcaption><p>Advanced Insights in the Console</p></figcaption></figure>
 
 The second use scenario is to access the rich display capabilities of Advanced Insights when working with Console objects. For example, right-clicking a client and selecting "View in Advanced Insights" will open a new browser window and automatically display the device view for that client.
 
-<figure><img src="../_images/gitbook/Console Extension.gif" alt=""><figcaption><p>View Device in Advanced Insights</p></figcaption></figure>
+<figure><img src="../_images/gitbook/Console%20Extension.gif" alt=""><figcaption><p>View Device in Advanced Insights</p></figcaption></figure>
 
 This functionality is available for Devices, Collections, and Updates in the ConfigMgr console.

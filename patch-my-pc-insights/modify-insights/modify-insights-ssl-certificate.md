@@ -28,11 +28,11 @@ In the configuration modification page, select the checkbox for 'SSL Certificate
 
 Use the drop down list to select the SSL certificate which represents the CNAME / Alias you wish to use.
 
-<figure><img src="../../_images/gitbook/image (1654).png" alt=""><figcaption><p>Certificate selection dialog</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%281654%29.png" alt=""><figcaption><p>Certificate selection dialog</p></figcaption></figure>
 
 With the appropriate SSL certificate selected, click **'Set CNAME / Alias'**
 
-<figure><img src="../../_images/gitbook/image (1655).png" alt=""><figcaption><p>Certificate selection dialog</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%281655%29.png" alt=""><figcaption><p>Certificate selection dialog</p></figcaption></figure>
 
 In the set CNAME / Alias dialog page, the dialog will be prepopulated with a value for the CNAME / Alias based upon the selected certificated.
 
@@ -40,21 +40,21 @@ Modify the prepopulated URL value if required.
 
 Click **'Set CNAME / Alias'**
 
-<figure><img src="../../_images/gitbook/vmconnect_3ZByUA7acq (1).png" alt=""><figcaption><p>Set CNAME / Alias dialog</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/vmconnect_3ZByUA7acq%20%281%29.png" alt=""><figcaption><p>Set CNAME / Alias dialog</p></figcaption></figure>
 
 Click **'Next'**
 
-<figure><img src="../../_images/gitbook/image (1656).png" alt=""><figcaption><p>Certificate selection dialog - CNAME / Alias set confirmed</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%281656%29.png" alt=""><figcaption><p>Certificate selection dialog - CNAME / Alias set confirmed</p></figcaption></figure>
 
 Click **'Install'**
 
-<figure><img src="../../_images/gitbook/vmconnect_KN0zxDuJp8 (2).png" alt=""><figcaption><p>Certificate Modification option dialog</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/vmconnect_KN0zxDuJp8%20%282%29.png" alt=""><figcaption><p>Certificate Modification option dialog</p></figcaption></figure>
 
 The installer will make the required configuration changes and display a summary once complete.
 
 Click **'Finish'**
 
-<figure><img src="../../_images/gitbook/image (1658).png" alt=""><figcaption><p>Certificate modification completion</p></figcaption></figure>
+<figure><img src="../../_images/gitbook/image%20%281658%29.png" alt=""><figcaption><p>Certificate modification completion</p></figcaption></figure>
 
 New Advanced Insights URL
 

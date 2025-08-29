@@ -36,7 +36,7 @@ _https://advinsightsserver01.contoso.local:444/account/login_
 
 Select _**"Single-Page Application (SPA)"**_ from the dropdown list in the **"**_**Redirect URI"**_ section, and enter the URI.
 
-<figure><img src="../_images/gitbook/app-reg (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../_images/gitbook/app-reg%20%283%29.png" alt=""><figcaption></figcaption></figure>
 
 When you have filled in the required properties click **Register**.
 
@@ -44,7 +44,7 @@ You will be shown the App Registration overview screen. We need to copy some pro
 
 Copy **Application (client) ID** and **Directory (tenant) ID** values into a Notepad document.
 
-<figure><img src="../_images/gitbook/app-reg2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../_images/gitbook/app-reg2%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 Now click the _"**Authentication"**_ link on the left in the _"**Manage**"_ section.
 
@@ -58,7 +58,7 @@ This grants the application permissions to issue the tokens used by Advanced Ins
 
 To save changes, click **'Save'**.
 
-<figure><img src="../_images/gitbook/app-reg3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../_images/gitbook/app-reg3%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 Click "**Certificates and secrets"**, then within the **"Client secrets"** section, click _**"New client secret"**_.
 
