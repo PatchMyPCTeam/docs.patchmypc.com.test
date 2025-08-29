@@ -35,42 +35,61 @@ jobs:
       - name: Ensure _images exists
         run: mkdir -p _images/gitbook
 
-      - name: Copy from .gitbook/assets
+      - name: Copy from .gitbook/assets → _images/gitbook
         run: |
           if [ -d ".gitbook/assets" ]; then
             rsync -a --delete ".gitbook/assets/" "_images/gitbook/"
           fi
 
-      - name: Rewrite .gitbook/assets → _images/gitbook (any prefix)
+      - name: Rewrite links for Git it Write (depth-aware → relative)
         shell: bash
         run: |
           set -euo pipefail
-          shopt -s nullglob
-          # Find markdown-like files that contain "/.gitbook/assets/"
-          mapfile -t hits < <( \
-            git grep -l '/\.gitbook/assets/' -- \
-              '**/*.[mM][dD]' '**/*.[mM][dD][xX]' '**/*.markdown' '**/*.MARKDOWN' \
-            || true \
-          )
+          shopt -s globstar nullglob
 
-          if ((${#hits[@]})); then
-            # Replace **wherever** it appears (handles /raw/main/.gitbook/assets/, https URLs, etc.)
-            sed -i 's#/\.gitbook/assets/#/_images/gitbook/#g' "${hits[@]}"
-          else
-            echo "No files contained /.gitbook/assets/ — nothing to rewrite."
-          fi
+          # All markdown-like files
+          mapfile -t files < <(printf "%s\n" **/*.md **/*.MD **/*.mdx **/*.MDX **/*.markdown **/*.MARKDOWN 2>/dev/null)
 
-          # Optional: show remaining references for sanity (doesn't fail the job)
-          git grep -n '\.gitbook/assets' -- \
-            '**/*.[mM][dD]' '**/*.[mM][dD][xX]' '**/*.markdown' '**/*.MARKDOWN' \
-            || true
-      
+          for f in "${files[@]}"; do
+            # how deep is this file?
+            dir="${f%/*}"
+            if [[ "$dir" == "$f" ]]; then depth=0; else depth=$(awk -F'/' '{print NF}' <<< "$dir"); fi
+            prefix=""
+            for ((i=0; i<depth; i++)); do prefix+="../"; done
+
+            PREFIX="$prefix" perl -0777 -i -pe '
+              my $p = $ENV{PREFIX};
+
+              # ---- Inline Markdown ----
+              # ](ANYTHING/.gitbook/assets/...)  -> ](../_images/gitbook/...)
+              s#\]\(\s*<?[^)\s]*?/\.gitbook/assets/#](${p}_images/gitbook/#gi;
+
+              # ---- Raw/JSX HTML ----
+              # src="ANYTHING/.gitbook/assets/..." -> src="../_images/gitbook/..."
+              s#\bsrc=\s*"[^"]*?/\.gitbook/assets/#src="${p}_images/gitbook/#gi;
+              s#\bsrc=\s*'\''[^'\'']*?/\.gitbook/assets/#src='\''${p}_images/gitbook/#gi;
+
+              # ---- Reference-style links ----
+              # [id]: ANYTHING/.gitbook/assets/...
+              s#^(\[[^\]]+\]:\s*)[^\s]*?/\.gitbook/assets/#${1}${p}_images/gitbook/#gim;
+            ' "$f"
+
+            # Percent-encode spaces and parentheses in targets to avoid parser issues
+            perl -0777 -i -pe '
+              s#\]\(([^)\n]*?_images/gitbook/[^)\n]*)\)# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "]($u)" #ge;
+              s#\bsrc="([^"]*?_images/gitbook/[^"]*)"# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "src=\"$u\"" #ge;
+              s#\bsrc='\''([^'\'']*?_images/gitbook/[^'\'']*)'\''# my $u=$1; $u=~s/ /%20/g; $u=~s/\(/%28/g; $u=~s/\)/%29/g; "src='\''$u'\''" #ge;
+            ' "$f"
+          done
+
+          # Show any leftover .gitbook/assets references (informational)
+          git grep -n '\.gitbook/assets' -- '**/*.[mM][dD]' '**/*.[mM][dD][xX]' '**/*.markdown' '**/*.MARKDOWN' || true
 
       - name: Commit changes (if any)
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
-            git commit -m "Normalize: /main/.gitbook/assets → /main/_images/gitbook [ci skip]"
+            git commit -m "Normalize links to relative _images/ for Git it Write [ci skip]"
           else
             echo "No changes to commit."
           fi
