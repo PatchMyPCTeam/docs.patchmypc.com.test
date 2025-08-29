@@ -1,0 +1,2 @@
+# Accept a Cloud Invitation
+
