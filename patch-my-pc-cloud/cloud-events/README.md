@@ -1,8 +1,0 @@
-# Cloud Events
-
-_Applies to: Patch My PC Cloud_
-
-Welcome to the Events section for Patch My PC (PMPC) Cloud.
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a href="overview-of-cloud-events.md">Events Overview</a></td><td>An overview of the Events feature</td><td></td></tr><tr><td><a href="search-for-a-cloud-event.md">Search for an Event</a></td><td>How to search for an Event</td><td></td></tr><tr><td><a href="filter-cloud-events.md">Filter Events</a></td><td>How to filter Events</td><td></td></tr><tr><td><a href="export-cloud-events.md">Export Events</a></td><td>How to export Events</td><td></td></tr><tr><td><a href="sort-cloud-events.md">Sort Events</a></td><td>How to sort Events</td><td></td></tr><tr><td><a href="find-out-more-information-about-a-cloud-event.md">Find more information about an Event</a></td><td>How to find out more information about an Event</td><td></td></tr><tr><td><a href="change-the-number-of-cloud-events-per-page.md">Change the number of Events per page</a></td><td>How to change the number of Events shown on a page</td><td></td></tr><tr><td><a href="navigate-between-pages-of-cloud-events.md">Navigate between pages of Events</a></td><td>How to navigate between pages of Events</td><td></td></tr><tr><td><a href="cloud-events-reference/">Events Reference</a></td><td>Details the various Events generated</td><td></td></tr></tbody></table>
-
