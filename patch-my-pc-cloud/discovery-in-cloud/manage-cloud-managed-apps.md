@@ -10,19 +10,19 @@ To administer a Managed app:
 2.  Click the **Managed** tab.\
 
 
-    ![Clicking the “Managed” tab.](../../_images/image%20%28397%29.png%20"Clicking%20the%20\"Managed\"%20tab.")
+    ![Clicking the “Managed” tab.](/_images/image-%28397%29.png-"Clicking-the-\"Managed\"-tab." "Clicking the “Managed” tab.")
 
     \
     The list of discovered managed apps is shown.\
 
 
-    ![“Managed” tab](../../_images/image%20%282123%29.png%20"\"Managed\"%20tab")
+    ![“Managed” tab](/_images/image-%282123%29.png-"\"Managed\"-tab" "“Managed” tab")
 
 The following columns are shown on this page:
 
 | Column          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| App Name        | <p>The name of the app, which is always taken from our App Catalog as there may be a situation where multiple products from an app have been mapped to a single discovered app from Intune. In such cases, we show you the multiple records for each app.<br><br>We also show you which product published the app:<br><br>• PMPC Cloud (<img src="../../_images/image%20%282124%29.png" alt="">)</p><p>• On-Prem Publisher (<img src="../../_images/image%20%282125%29.png" alt="">)</p> |
+| App Name        | <p>The name of the app, which is always taken from our App Catalog as there may be a situation where multiple products from an app have been mapped to a single discovered app from Intune. In such cases, we show you the multiple records for each app.<br><br>We also show you which product published the app:<br><br>• PMPC Cloud (![](/_images/image-%282124%29.png ""))</p><p>• On-Prem Publisher (![](/_images/image-%282125%29.png ""))</p> |
 | Vendor          | As shown in Intune. If no vendor name exists in Intune, we show the one from our App Catalog.                                                                                                                                                                                                                                                                                                                                                                                                |
 | # Of Installs   | The number of installations of this app in your environment.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Assigned To All | <p>Shows:</p><p>• How the app was deployed</p><p>• Whether there is at least one deployment with a Required or <strong>Update Only</strong> assignment type that is assigned to <strong>All Users</strong> or <strong>All Devices</strong></p><p>• <strong>Unknown</strong> if the app has only been deployed via Publisher.</p>                                                                                                                                                             |
@@ -41,8 +41,8 @@ Hovering over either the value in the **Assigned To All** column or **Edit** but
 
 3. Click the **Edit** button beside the app you want to edit:
 
-* If the app only has one deployment, the **Edit** button includes a pencil (<img src="../../_images/image%20%28528%29.png" alt="" data-size="line">).
-* If the app has more than one deployment, the **Edit** button includes a down arrow (<img src="../../_images/image%20%28529%29.png" alt="" data-size="original">) beside it, which, when clicked, provides a dropdown list of all of the deployments for the app, from which you can choose the deployment you want to edit.
+* If the app only has one deployment, the **Edit** button includes a pencil (![](/_images/image-%28528%29.png "")).
+* If the app has more than one deployment, the **Edit** button includes a down arrow (![](/_images/image-%28529%29.png "")) beside it, which, when clicked, provides a dropdown list of all of the deployments for the app, from which you can choose the deployment you want to edit.
 
 {% hint style="info" %}
 **Note**
@@ -56,11 +56,11 @@ If the **Edit** button is unavailable, the deployment was created in Publisher a
 We do not recommend deploying the same app through the Publisher and PMPC Cloud to avoid settings conflicts and unwanted app behavior.
 {% endhint %}
 
-![Different styles of the “Edit” button](../../_images/image%20%282126%29.png%20"Different%20styles%20of%20the%20\"Edit\"%20button")
+![Different styles of the “Edit” button](/_images/image-%282126%29.png-"Different-styles-of-the-\"Edit\"-button" "Different styles of the “Edit” button")
 
 The Deployment Wizard starts, allowing you to make any required changes.
 
-![Deployment Wizard starting](../../_images/image%20%28531%29.png%20"Deployment%20Wizard%20starting")
+![Deployment Wizard starting](/_images/image-%28531%29.png-"Deployment-Wizard-starting" "Deployment Wizard starting")
 
 4. Make any required changes, then click **Save** to save them.
 

@@ -8,7 +8,7 @@ To verify our on-premises Publisher is connected is connected to your Patch My P
 2.  Navigate to **Settings | Connections**.\
 
 
-    ![Navigating to “Settings | Connections”](../../../_images/image%20%28639%29.png%20"Navigating%20to%20\"Settings%20|%20Connections\"")
+    ![Navigating to “Settings | Connections”](/_images/image-%28639%29.png-"Navigating-to-\"Settings-|-Connections\"" "Navigating to “Settings | Connections”")
 3. Verify the name you entered when connecting the Publisher to the portal is shown. For example **Patch My PC Custom Apps**.
 
-![“Connections” screen showing the Publisher connection](../../../_images/image%20%282598%29.png%20"\"Connections\"%20screen%20showing%20the%20Publisher%20connection")
+![“Connections” screen showing the Publisher connection](/_images/image-%282598%29.png-"\"Connections\"-screen-showing-the-Publisher-connection" "“Connections” screen showing the Publisher connection")

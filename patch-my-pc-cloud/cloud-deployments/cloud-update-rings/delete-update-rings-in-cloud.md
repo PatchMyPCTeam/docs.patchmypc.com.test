@@ -23,33 +23,33 @@ To delete all Update Rings for a deployment:
     To delete all Update Rings for this deployment, click **Remove all Rings**.\
 
 
-    ![Clicking “Remove all Rings”](../../../_images/image%20%282061%29.png%20"Clicking%20\"Remove%20all%20Rings\"")
+    ![Clicking “Remove all Rings”](/_images/image-%282061%29.png-"Clicking-\"Remove-all-Rings\"" "Clicking “Remove all Rings”")
 
 
 3.  On the **Move Assignments or Delete** dialog box, click **Move** to remove the Update Rings but keep all the existing assignments.\
     \
 
 
-    ![Clicking “Move” to remove the Update Rings but keep all the existing assignments](../../../_images/image%20%282062%29.png%20"Clicking%20\"Move\"%20to%20remove%20the%20Update%20Rings%20but%20keep%20all%20the%20existing%20assignments")
+    ![Clicking “Move” to remove the Update Rings but keep all the existing assignments](/_images/image-%282062%29.png-"Clicking-\"Move\"-to-remove-the-Update-Rings-but-keep-all-the-existing-assignments" "Clicking “Move” to remove the Update Rings but keep all the existing assignments")
 
 {% hint style="info" %}
 **Note**
 
 Clicking **Delete** will delete any existing assignments but not the deployment itself.
 
-![Clicking “Delete” will delete any existing assignments, not the deployment itself.](../../../_images/image%20%282064).png>)\
+![Clicking “Delete” will delete any existing assignments, not the deployment itself.](/_images/image-%282064 "Clicking “Delete” will delete any existing assignments, not the deployment itself.").png>)\
 
 {% endhint %}
 
 The Update Rings are removed and any existing assignments are kept.
 
-![Update Rings are removed and any existing assignments are kept](../../../_images/image%20%282065%29.png%20"Update%20Rings%20are%20removed%20and%20any%20existing%20assignments%20are%20kept")
+![Update Rings are removed and any existing assignments are kept](/_images/image-%282065%29.png-"Update-Rings-are-removed-and-any-existing-assignments-are-kept" "Update Rings are removed and any existing assignments are kept")
 
 4.  Click **Save** to save your changes.\
     \
 
 
-    ![Clicking “Save” to save changes](../../../_images/image%20%282066%29.png%20"Clicking%20\"Save\"%20to%20save%20changes")
+    ![Clicking “Save” to save changes](/_images/image-%282066%29.png-"Clicking-\"Save\"-to-save-changes" "Clicking “Save” to save changes")
 
 {% hint style="warning" %}
 **Important**
@@ -58,7 +58,7 @@ As removing all Update Rings disables Update Ring functionality for this deploym
 \
 For example, this version of the app will be deployed immediately to all of the following assignments without any of the delays enforced by using Update Rings.
 
-![“Deployment Summary” showing the impact of deleting all Update Rings ](../../../_images/image%20%282067).png>)
+![“Deployment Summary” showing the impact of deleting all Update Rings ](/_images/image-%282067 "“Deployment Summary” showing the impact of deleting all Update Rings ").png>)
 {% endhint %}
 
 {% hint style="info" %}
@@ -73,7 +73,7 @@ If the existing deployment had different versions applied to different assignmen
     \
 
 
-    ![“Deployment Summary” showing the impact of delete all Update Rings](../../../_images/image%20%282068%29.png%20"\"Deployment%20Summary\"%20showing%20the%20impact%20of%20delete%20all%20Update%20Rings")
+    ![“Deployment Summary” showing the impact of delete all Update Rings](/_images/image-%282068%29.png-"\"Deployment-Summary\"-showing-the-impact-of-delete-all-Update-Rings" "“Deployment Summary” showing the impact of delete all Update Rings")
 
 {% hint style="success" %}
 **Tip**
@@ -94,17 +94,17 @@ To delete a Single Update Ring:
 Deleting an Update Ring also deletes any assignments controlled by that ring. If you want to keep the assignment, drag and drop it to another ring before you delete the ring.
 {% endhint %}
 
-![Clicking the read “X” to delete a specific Update Ring](../../../_images/image%20%282069%29.png%20"Clicking%20the%20read%20\"X\"%20to%20delete%20a%20specific%20Update%20Ring")
+![Clicking the read “X” to delete a specific Update Ring](/_images/image-%282069%29.png-"Clicking-the-read-\"X\"-to-delete-a-specific-Update-Ring" "Clicking the read “X” to delete a specific Update Ring")
 
 The ring and any assignments it contains are deleted.
 
-![Update Ring deleted](../../../_images/image%20%282070%29.png%20"Update%20Ring%20deleted")
+![Update Ring deleted](/_images/image-%282070%29.png-"Update-Ring-deleted" "Update Ring deleted")
 
 3.  Click **Save** to save your changes.\
     \
 
 
-    ![Clicking “Save” to save changes](../../../_images/image%20%282071%29.png%20"Clicking%20\"Save\"%20to%20save%20changes")
+    ![Clicking “Save” to save changes](/_images/image-%282071%29.png-"Clicking-\"Save\"-to-save-changes" "Clicking “Save” to save changes")
 
     \
     As you’ve removed an Update Ring and it’s assignments, the **"<**_**deployment\_name**_**>" Deployment Summary** is shown detailing the impact of your proposed change.\
@@ -113,13 +113,13 @@ The ring and any assignments it contains are deleted.
     \
 
 
-    ![“Deployment Summary” showing the impact of deleting this Update Rings](../../../_images/image%20%282072%29.png%20"\"Deployment%20Summary\"%20showing%20the%20impact%20of%20deleting%20this%20Update%20Rings")
+    ![“Deployment Summary” showing the impact of deleting this Update Rings](/_images/image-%282072%29.png-"\"Deployment-Summary\"-showing-the-impact-of-deleting-this-Update-Rings" "“Deployment Summary” showing the impact of deleting this Update Rings")
 4.  Click **Cancel** to return to the **Assignments** tab to make any required changes, or click **Confirm** to save your changes.\
     \
     The **Deployments** node is displayed along with the **Success – Edited <**_**deployment\_name**_**>** notification.\
 
 
-    ![“Deployment Summary” showing the impact of delete all Update Rings](../../../_images/image%20%282073%29.png%20"\"Deployment%20Summary\"%20showing%20the%20impact%20of%20delete%20all%20Update%20Rings")
+    ![“Deployment Summary” showing the impact of delete all Update Rings](/_images/image-%282073%29.png-"\"Deployment-Summary\"-showing-the-impact-of-delete-all-Update-Rings" "“Deployment Summary” showing the impact of delete all Update Rings")
 
 {% hint style="success" %}
 **Tip**

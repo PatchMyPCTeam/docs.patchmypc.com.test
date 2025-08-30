@@ -7,12 +7,12 @@ If you have onboarded successfully to Patch My PC (PMPC) Cloud and someone delet
 *   **Intune Apps –** Any apps already deployed using Intune Apps for Cloud will remain there. When you try to deploy any new apps, you will receive a **500 Internal Server Error** when trying to add an assignment.\
 
 
-    ![500 Internal Server Error](../../../_images/image%20%28794%29.png%20"500%20Internal%20Server%20Error")
+    ![500 Internal Server Error](/_images/image-%28794%29.png-"500-Internal-Server-Error" "500 Internal Server Error")
 
     \
     Even if you ignore this and continue, your deployments will stay stuck with a **Status** of **In Progress**.
 *   **Custom Apps –** If you sign out of the portal after our Enterprise App has been deleted, the next time you sign back in again, you will see the **Permissions requested** dialog box. Clicking **Accept** will recreate the **Patch My PC Cloud** Enterprise Application registration.\
 
 
-    ![Permissions requested dialog box](../../../_images/image%20%28796%29.png%20"Permissions%20requested%20dialog%20box")
+    ![Permissions requested dialog box](/_images/image-%28796%29.png-"Permissions-requested-dialog-box" "Permissions requested dialog box")
 

@@ -15,13 +15,13 @@ Ports can be added at the end of the network address e.g. http://x.x.x.x:1234"
 
 If Advanced Insights cannot automatically access our licensing service at https://api.patchmypc.com we will automatically prompt for you to supply proxy details.
 
-![](../_images/image%20%281063%29.png%20"Welcome%20page%20proxy%20prompt")
+![](/_images/image-%281063%29.png-"Welcome-page-proxy-prompt" "")
 
 ### Adding a proxy server in the Settings page
 
 Proxy configuration can also be added in the Administration - Settings - External Services tab
 
-![](../_images/image%20%281064%29.png%20"Settings%20page%20proxy%20configuration")
+![](/_images/image-%281064%29.png-"Settings-page-proxy-configuration" "")
 
 
 

@@ -12,7 +12,7 @@ However, after clicking **Connect** and authenticating, I get the following erro
 
 **Intune connection with the same Id found in another environment!**
 
-![“Intune connection with the same Id found in another environment!” error](../../../_images/image%20%282094%29.png%20"\"Intune%20connection%20with%20the%20same%20Id%20found%20in%20another%20environment!\"%20error")
+![“Intune connection with the same Id found in another environment!” error](/_images/image-%282094%29.png-"\"Intune-connection-with-the-same-Id-found-in-another-environment!\"-error" "“Intune connection with the same Id found in another environment!” error")
 
 ### CAUSE
 

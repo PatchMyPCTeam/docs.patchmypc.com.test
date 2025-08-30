@@ -17,7 +17,7 @@ To create a deployment with no assignments:
     • **Update Only App -** Allows the Intune admin to add only an **Update Only** assignment from within the Intune admin center.\
 
 
-    ![“App Without Assignment” sub-menu](../../_images/image%20%28358%29.png%20"\"App%20Without%20Assignment\"%20sub-menu")
+    ![“App Without Assignment” sub-menu](/_images/image-%28358%29.png-"\"App-Without-Assignment\"-sub-menu" "“App Without Assignment” sub-menu")
 
 {% hint style="info" %}
 **Note**
@@ -34,21 +34,21 @@ You can also [Add a Template](../cloud-administration/manage-cloud-deployment-te
 2.  Select the relevant option.\
 
 
-    ![Selecting the required option](../../_images/image%20%282483%29.png%20"Selecting%20the%20required%20option")
+    ![Selecting the required option](/_images/image-%282483%29.png-"Selecting-the-required-option" "Selecting the required option")
 3.  Uncheck the **Copy-Forward** checkbox if required.\
     \
     This checkbox is checked by default, which means whenever we see any manually created assignments on Intune, when we update the app, we’ll automatically copy forward all the assignments from the previous version to the new version.\
 
 
-    ![“Copy-Forward” checkbox](../../_images/image%20%282484%29.png%20"\"Copy-Forward\"%20checkbox")
+    ![“Copy-Forward” checkbox](/_images/image-%282484%29.png-"\"Copy-Forward\"-checkbox" "“Copy-Forward” checkbox")
 4.  Click **Deploy** and wait for the deployment to complete successfully.\
 
 
-    ![Clicking “Deploy”](../../_images/image%20%282485%29.png%20"Clicking%20\"Deploy\"")
+    ![Clicking “Deploy”](/_images/image-%282485%29.png-"Clicking-\"Deploy\"" "Clicking “Deploy”")
 
 Once the deployment has successfully completed, if you look in the Intune admin center you will see that the app has been created without any assignments.
 
-![App created with no assignments](../../_images/image%20%28362%29.png%20"App%20created%20with%20no%20assignments")
+![App created with no assignments](/_images/image-%28362%29.png-"App-created-with-no-assignments" "App created with no assignments")
 
 Your local IT teams can now follow the [Assign apps to groups with Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-deploy) process to add the relevant assignments for this app.
 

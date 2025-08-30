@@ -12,11 +12,11 @@ Once onboarded to PMPC Cloud, you can manage all of the instances of Publisher c
 
 All connection-related tasks are performed from the **Connections** node of the portal, accessed by navigating to **Settings | Connections.**
 
-![Navigating to “Settings | Connections”](../../../_images/image%20%281708%29.png%20"Navigating%20to%20\"Settings%20|%20Connections\"")
+![Navigating to “Settings | Connections”](/_images/image-%281708%29.png-"Navigating-to-\"Settings-|-Connections\"" "Navigating to “Settings | Connections”")
 
 The **Connections** page is then displayed, showing any existing connections from Publisher and allowing you to:
 
 * [Add a new Connection](add-a-connection.md)
 * [Delete a Connection](delete-a-cloud-connection.md)
 
-![“Connections” page](../../../_images/image%20%282597%29.png%20"\"Connections\"%20page")
+![“Connections” page](/_images/image-%282597%29.png-"\"Connections\"-page" "“Connections” page")

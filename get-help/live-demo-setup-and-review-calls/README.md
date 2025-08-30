@@ -17,7 +17,7 @@ Booking a call using the links on this page for other support needs may result i
 
 If you are unsure which type of call you would like to book, please use this decision tree below.
 
-![](../../_images/image%20%28595%29.png%20"Book%20a%20call%20-%20decision%20tree")
+![](/_images/image-%28595%29.png-"Book-a-call-decision-tree" "")
 
 ## Book a Live Demo
 

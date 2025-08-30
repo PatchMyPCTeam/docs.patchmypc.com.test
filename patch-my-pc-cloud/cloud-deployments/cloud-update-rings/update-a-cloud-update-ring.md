@@ -10,13 +10,13 @@ To update an individual Update Ring to a later version:
 2.  Click the relevant deployment to open its properties then click **More Info**.\
 
 
-    ![Clicking “More Info”](../../../_images/image%20%282143%29.png%20"Clicking%20\"More%20Info\"")
+    ![Clicking “More Info”](/_images/image-%282143%29.png-"Clicking-\"More-Info\"" "Clicking “More Info”")
 
 
 3.  If you can update a ring to a newer version the **Update Now** button is available.\
 
 
-    ![“Update Now” button available](../../../_images/image%20%282144%29.png%20"\"Update%20Now\"%20button%20available")
+    ![“Update Now” button available](/_images/image-%282144%29.png-"\"Update-Now\"-button-available" "“Update Now” button available")
 
 
 
@@ -34,22 +34,22 @@ Some important points to note:
 4.  Click **Update Now** and select the relevant version you want to upgrade this ring to.\
 
 
-    ![Selecting which version to update this ring to](../../../_images/image%20%282145%29.png%20"Selecting%20which%20version%20to%20update%20this%20ring%20to")
+    ![Selecting which version to update this ring to](/_images/image-%282145%29.png-"Selecting-which-version-to-update-this-ring-to" "Selecting which version to update this ring to")
 
 
 5.  On the **Update “<**_**deployment\_name**_**>” ring to version <**_**version\_number**_**>** dialog box, click **Confirm**.\
 
 
-    ![Clicking “Confirm”](../../../_images/image%20%282147%29.png%20"Clicking%20\"Confirm\"")
+    ![Clicking “Confirm”](/_images/image-%282147%29.png-"Clicking-\"Confirm\"" "Clicking “Confirm”")
 
     \
     The portal refreshes showing that the deployment is **In Progress** and the **Success – Ring <**_**ring\_name**_**>** updated notification is shown.\
 
 
-    ![](../../../_images/image%20%282148%29.png%20"")
+    ![](/_images/image-%282148%29.png-"" "")
 
     \
     Once the deployment has completed successfully, if you navigate back to the ring, you will see the version number has changed and the **Update Now** button is unavailable.\
 
 
-    ![Version number has changed and “Update Now” button is unavailable.](../../../_images/image%20%282149%29.png%20"Version%20number%20has%20changed%20and%20\"Update%20Now\"%20button%20is%20unavailable.")
+    ![Version number has changed and “Update Now” button is unavailable.](/_images/image-%282149%29.png-"Version-number-has-changed-and-\"Update-Now\"-button-is-unavailable." "Version number has changed and “Update Now” button is unavailable.")

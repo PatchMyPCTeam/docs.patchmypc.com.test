@@ -11,11 +11,11 @@ You can configure naming conventions for both:
 
 All naming convention-related tasks are performed from the **Naming** node, accessed by navigating to **Settings | Naming**.
 
-![Navigating to “Settings | Naming”](../../../_images/image%20%28657%29.png%20"Navigating%20to%20\"Settings%20|%20Naming\"")
+![Navigating to “Settings | Naming”](/_images/image-%28657%29.png-"Navigating-to-\"Settings-|-Naming\"" "Navigating to “Settings | Naming”")
 
 The **Naming Conventions** page is then displayed, allowing you to:
 
 * [Configure Naming Conventions](configure-cloud-naming-conventions.md)
 * [Modify Naming Conventions](modify-cloud-naming-conventions.md)
 
-![“Naming Conventions” page](../../../_images/image%20%28658%29.png%20"\"Naming%20Conventions\"%20page")
+![“Naming Conventions” page](/_images/image-%28658%29.png-"\"Naming-Conventions\"-page" "“Naming Conventions” page")

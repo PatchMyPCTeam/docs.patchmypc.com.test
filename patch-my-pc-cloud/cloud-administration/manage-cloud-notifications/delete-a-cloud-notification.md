@@ -7,12 +7,12 @@ To delete a notification in Patch My PC (PMPC) Cloud:
 1.  On the **Notifications** page, click the trashcan beside the notification you want to delete.\
 
 
-    ![Clicking the trashcan beside the relevant notification you want to delete](../../../_images/image%20%281609%29.png%20"Clicking%20the%20trashcan%20beside%20the%20relevant%20notification%20you%20want%20to%20delete")
+    ![Clicking the trashcan beside the relevant notification you want to delete](/_images/image-%281609%29.png-"Clicking-the-trashcan-beside-the-relevant-notification-you-want-to-delete" "Clicking the trashcan beside the relevant notification you want to delete")
 2.  Click **Yes** on the **Are you sure you want to delete <**_**notification\_name**_**>** dialog box to confirm.\
 
 
-    ![](../../../_images/image%20%281610%29.png%20"")
+    ![](/_images/image-%281610%29.png-"" "")
 3.  The notification is deleted, the **Success - Notification <**_**notification\_name>**_**&#x20;deleted** notification is shown, and the portal auto-refreshes to show the notification has been deleted.\
 
 
-    ![](../../../_images/image%20%28696%29.png%20"")
+    ![](/_images/image-%28696%29.png-"" "")

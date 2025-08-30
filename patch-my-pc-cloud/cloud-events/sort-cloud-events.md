@@ -6,11 +6,11 @@ To sort Events:
 
 On the **Events** page, click the relevant column heading to sort the entries by this column.
 
-![Clicking the relevant column heading to sort the entries by this column.](../../_images/image%20%28627%29.png%20"Clicking%20the%20relevant%20column%20heading%20to%20sort%20the%20entries%20by%20this%20column.")
+![Clicking the relevant column heading to sort the entries by this column.](/_images/image-%28627%29.png-"Clicking-the-relevant-column-heading-to-sort-the-entries-by-this-column." "Clicking the relevant column heading to sort the entries by this column.")
 
 The column heading will be highlighted and an arrow will show you whether the results are displayed in ascending or descending order.
 
-![Arrow showing the sort order](../../_images/image%20%281774%29.png%20"Arrow%20showing%20the%20sort%20order")
+![Arrow showing the sort order](/_images/image-%281774%29.png-"Arrow-showing-the-sort-order" "Arrow showing the sort order")
 
 To sort by a different column, just click the column name.
 

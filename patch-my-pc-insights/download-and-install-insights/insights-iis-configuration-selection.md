@@ -28,11 +28,11 @@ Examples:
 
 In this example, the installer automatically determined that the best available port was 444. IIS Application Pool left as default 'LocalSystem'.
 
-![](../../_images/vmconnect_Dmraspavez.png%20"Example%20-%20Server%20FQDN%20SSL%20certificate%20used%20with%20port%20444.")
+![](/_images/vmconnect_Dmraspavez.png-"Example-Server-FQDN-SSL-certificate-used-with-port-444." "")
 
 In this example a custom IIS application pool identity has been set:
 
-![](../../_images/image%20%28315%29.png%20"Example%20-%20Custom%20app%20pool%20identity%20%28AD%20Account) set.")
+![](/_images/image-%28315%29.png-"Example-Custom-app-pool-identity-%28AD-Account "") set.")
 
 Confirm the required Dashboard Port and if required, IIS application pool identity and click **Next**.
 

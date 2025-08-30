@@ -13,7 +13,7 @@ On the **Summary** tab, review you have configured the Custom App correctly.
 * If you are happy, click **Create**.
 * If you need to change something, click **< Prev** to backtrack through the Deployment Wizard to the relevant setting. Make the change, then step back through the wizard to this tab. If everything is now correct, click **Create**.
 
-![Clicking “Create” on the “Summary” page](../../../_images/image%20%28206%29.png%20"Clicking%20\"Create\"%20on%20the%20\"Summary\"%20page")
+![Clicking “Create” on the “Summary” page](/_images/image-%28206%29.png-"Clicking-\"Create\"-on-the-\"Summary\"-page" "Clicking “Create” on the “Summary” page")
 
 {% hint style="info" %}
 **Note**
@@ -28,7 +28,7 @@ The App Catalog is displayed and the following notification is displayed:\
 \
 &#xNAN;**<**_**app\_name**_**> Added – Your application has been successfully added to App Catalog**
 
-![](../../../_images/image%20%28207%29.png%20"")
+![](/_images/image-%28207%29.png-"" "")
 
 You can now [deploy](../../cloud-deployments/) and manage your Custom App in the same way as other PMPC Cloud apps.
 

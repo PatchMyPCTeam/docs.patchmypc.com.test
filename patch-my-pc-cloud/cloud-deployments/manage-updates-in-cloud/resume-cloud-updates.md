@@ -19,15 +19,15 @@ To resume updates for an app:
 {% hint style="success" %}
 **Tip**
 
-Click the filter button (![](../../../_images/image%20%282513).png>)) and select the **Enabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that have updates paused.&#x20;
+Click the filter button (![](/_images/image-%282513 "").png>)) and select the **Enabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that have updates paused.&#x20;
 {% endhint %}
 
-![Clicking on the relevant successful deployment which has been paused for updates](../../../_images/image%20%282000%29.png%20"Clicking%20on%20the%20relevant%20successful%20deployment%20which%20has%20been%20paused%20for%20updates")
+![Clicking on the relevant successful deployment which has been paused for updates](/_images/image-%282000%29.png-"Clicking-on-the-relevant-successful-deployment-which-has-been-paused-for-updates" "Clicking on the relevant successful deployment which has been paused for updates")
 
 2.  Click the **Pause Updates** slider to disable it.\
 
 
-    ![Clicking the “Pause Updates” slider](../../../_images/image%20%282001%29.png%20"Clicking%20the%20\"Pause%20Updates\"%20slider")
+    ![Clicking the “Pause Updates” slider](/_images/image-%282001%29.png-"Clicking-the-\"Pause-Updates\"-slider" "Clicking the “Pause Updates” slider")
 
 {% hint style="info" %}
 **Note**
@@ -38,13 +38,13 @@ Notice on the above screenshot that the **Sync Now** button is available, meanin
 3.  Click the **X** to close the deployment properties page.\
 
 
-    ![Clicking “X” to close the deployment properties page](../../../_images/image%20%282002%29.png%20"Clicking%20\"X\"%20to%20close%20the%20deployment%20properties%20page")
+    ![Clicking “X” to close the deployment properties page](/_images/image-%282002%29.png-"Clicking-\"X\"-to-close-the-deployment-properties-page" "Clicking “X” to close the deployment properties page")
 
     \
     The list of deployments is displayed without **UPDATES PAUSED** under the deployment you just unpaused.\
 
 
-    ![&#x22;UPDATES PAUSED&#x22; no longer under the deployment name.](../../../_images/image%20%282003%29.png%20"&#x22;UPDATES%20PAUSED&#x22;%20no%20longer%20under%20the%20deployment%20name.")
+    ![&#x22;UPDATES PAUSED&#x22; no longer under the deployment name.](/_images/image-%282003%29.png-"&#x22;UPDATES-PAUSED&#x22;-no-longer-under-the-deployment-name." "&#x22;UPDATES PAUSED&#x22; no longer under the deployment name.")
 
 Updates for this app are now resumed.
 

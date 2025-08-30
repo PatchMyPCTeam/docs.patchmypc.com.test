@@ -22,20 +22,20 @@ To create an App Registration:
 You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.
 {% endhint %}
 
-![Navigating to the “App registrations” blade](../../../_images/image%20%28542%29.png%20"Navigating%20to%20the%20\"App%20registrations\"%20blade")
+![Navigating to the “App registrations” blade](/_images/image-%28542%29.png-"Navigating-to-the-\"App-registrations\"-blade" "Navigating to the “App registrations” blade")
 
 2.  Click **New registration**.\
     \
 
 
-    ![Clicking “New registration”](../../../_images/image%20%28543%29.png%20"Clicking%20\"New%20registration\"")
+    ![Clicking “New registration”](/_images/image-%28543%29.png-"Clicking-\"New-registration\"" "Clicking “New registration”")
 
 
 
     3.  In the **Name** field, enter **PMPC Recovery**, then click **Register**.\
 
 
-        ![Entering “PMPC Recovery” then clicking “Register”](../../../_images/image%20%28544%29.png%20"Entering%20\"PMPC%20Recovery\"%20then%20clicking%20\"Register\"")
+        ![Entering “PMPC Recovery” then clicking “Register”](/_images/image-%28544%29.png-"Entering-\"PMPC-Recovery\"-then-clicking-\"Register\"" "Entering “PMPC Recovery” then clicking “Register”")
 
         \
 
@@ -46,14 +46,14 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         **• Directory (tenant) ID**\
 
 
-        ![Noting the required values](../../../_images/image%20%28545%29.png%20"Noting%20the%20required%20values")
+        ![Noting the required values](/_images/image-%28545%29.png-"Noting-the-required-values" "Noting the required values")
 
         \
 
     5.  Navigate to **Manage | API Permissions**.\
 
 
-        ![Navigating to “Manage | API Permissions”](../../../_images/image%20%28546%29.png%20"Navigating%20to%20\"Manage%20|%20API%20Permissions\"")
+        ![Navigating to “Manage | API Permissions”](/_images/image-%28546%29.png-"Navigating-to-\"Manage-|-API-Permissions\"" "Navigating to “Manage | API Permissions”")
 
         \
 
@@ -61,7 +61,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Clicking “Add a permission”](../../../_images/image%20%28547%29.png%20"Clicking%20\"Add%20a%20permission\"")
+        ![Clicking “Add a permission”](/_images/image-%28547%29.png-"Clicking-\"Add-a-permission\"" "Clicking “Add a permission”")
 
         \
 
@@ -69,7 +69,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Clicking “Microsoft Graph”](../../../_images/image%20%28548%29.png%20"Clicking%20\"Microsoft%20Graph\"")
+        ![Clicking “Microsoft Graph”](/_images/image-%28548%29.png-"Clicking-\"Microsoft-Graph\"" "Clicking “Microsoft Graph”")
 
         \
 
@@ -77,14 +77,14 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Clicking “Application permissions”](../../../_images/image%20%28549%29.png%20"Clicking%20\"Application%20permissions\"")
+        ![Clicking “Application permissions”](/_images/image-%28549%29.png-"Clicking-\"Application-permissions\"" "Clicking “Application permissions”")
 
         \
 
     9.  In the **Select permissions** field, type **AuditLog**, then expand this section and check the **AuditLog.Read.All** permission checkbox.\
 
 
-        ![Checking the “AuditLog.Read.All” permission checkbox](../../../_images/image%20%28550%29.png%20"Checking%20the%20\"AuditLog.Read.All\"%20permission%20checkbox")
+        ![Checking the “AuditLog.Read.All” permission checkbox](/_images/image-%28550%29.png-"Checking-the-\"AuditLog.Read.All\"-permission-checkbox" "Checking the “AuditLog.Read.All” permission checkbox")
 
         \
 
@@ -92,14 +92,14 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Clicking “Add permissions”](../../../_images/image%20%28551%29.png%20"Clicking%20\"Add%20permissions\"")
+        ![Clicking “Add permissions”](/_images/image-%28551%29.png-"Clicking-\"Add-permissions\"" "Clicking “Add permissions”")
 
         \
 
     11. On the **API permissions** screen, under the **Configured permissions** section, click **Grant admin consent for <**_**your\_tenant\_name**_**>**.\
 
 
-        ![](../../../_images/image%20%28552%29.png%20"")
+        ![](/_images/image-%28552%29.png-"" "")
 
         \
 
@@ -107,12 +107,12 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Clicking “Yes” on the “Grant admin consent confirmation” popup](../../../_images/image%20%28553%29.png%20"Clicking%20\"Yes\"%20on%20the%20\"Grant%20admin%20consent%20confirmation\"%20popup")
+        ![Clicking “Yes” on the “Grant admin consent confirmation” popup](/_images/image-%28553%29.png-"Clicking-\"Yes\"-on-the-\"Grant-admin-consent-confirmation\"-popup" "Clicking “Yes” on the “Grant admin consent confirmation” popup")
 
         The **Grant consent - Grant consent successful** notification is shown and the **Status** for the **AuditLog.Read.All** permission changes to a green tick.\
 
 
-        ![“Grant consent - Grant consent successful notification” shown and the “Status” for the “AuditLog.Read.All” permission changes to a green tick.](../../../_images/image%20%28554%29.png%20"\"Grant%20consent%20-%20Grant%20consent%20successful%20notification\"%20shown%20and%20the%20\"Status\"%20for%20the%20\"AuditLog.Read.All\"%20permission%20changes%20to%20a%20green%20tick.")
+        ![“Grant consent - Grant consent successful notification” shown and the “Status” for the “AuditLog.Read.All” permission changes to a green tick.](/_images/image-%28554%29.png-"\"Grant-consent-Grant-consent-successful-notification\"-shown-and-the-\"Status\"-for-the-\"AuditLog.Read.All\"-permission-changes-to-a-green-tick." "“Grant consent - Grant consent successful notification” shown and the “Status” for the “AuditLog.Read.All” permission changes to a green tick.")
 
         \
 
@@ -120,7 +120,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Navigating to “Certificates and secrets”](../../../_images/image%20%28555%29.png%20"Navigating%20to%20\"Certificates%20and%20secrets\"")
+        ![Navigating to “Certificates and secrets”](/_images/image-%28555%29.png-"Navigating-to-\"Certificates-and-secrets\"" "Navigating to “Certificates and secrets”")
 
         \
 
@@ -128,7 +128,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Clicking “New client secret” under the “Client secrets” section](../../../_images/image%20%28556%29.png%20"Clicking%20\"New%20client%20secret\"%20under%20the%20\"Client%20secrets\"%20section")
+        ![Clicking “New client secret” under the “Client secrets” section](/_images/image-%28556%29.png-"Clicking-\"New-client-secret\"-under-the-\"Client-secrets\"-section" "Clicking “New client secret” under the “Client secrets” section")
 
         \
 
@@ -136,14 +136,14 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Typing “PMPC Recovery” in the “Description” field, then clicking “Add”](../../../_images/image%20%28557%29.png%20"Typing%20\"PMPC%20Recovery\"%20in%20the%20\"Description\"%20field,%20then%20clicking%20\"Add\"")
+        ![Typing “PMPC Recovery” in the “Description” field, then clicking “Add”](/_images/image-%28557%29.png-"Typing-\"PMPC-Recovery\"-in-the-\"Description\"-field,-then-clicking-\"Add\"" "Typing “PMPC Recovery” in the “Description” field, then clicking “Add”")
 
         \
         The new Client Secret appears along with the **Update application credentials - Successfully updated application PMPC Recovery credentials** notification.\
         \
 
 
-        ![New Client Secret and the “Update application credentials - Successfully updated application PMPC Recovery credentials” notification](../../../_images/image%20%28558%29.png%20"New%20Client%20Secret%20and%20the%20\"Update%20application%20credentials%20-%20Successfully%20updated%20application%20PMPC%20Recovery%20credentials\"%20notification")
+        ![New Client Secret and the “Update application credentials - Successfully updated application PMPC Recovery credentials” notification](/_images/image-%28558%29.png-"New-Client-Secret-and-the-\"Update-application-credentials-Successfully-updated-application-PMPC-Recovery-credentials\"-notification" "New Client Secret and the “Update application credentials - Successfully updated application PMPC Recovery credentials” notification")
 
 
     16. Make a note of the **Value** of the **PMPC Recovery** client secret.

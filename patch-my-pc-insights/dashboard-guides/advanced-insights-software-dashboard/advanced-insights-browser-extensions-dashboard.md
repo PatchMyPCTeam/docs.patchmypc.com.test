@@ -10,6 +10,6 @@ _Applies to: Patch My PC Advanced Insights_
 The Web Browser Extensions data on this page requires the deployment of the  [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
 {% endhint %}
 
-![](../../../_images/image%20%282161%29.png%20"Installed%20Web%20Browsers%20Extensions")
+![](/_images/image-%282161%29.png-"Installed-Web-Browsers-Extensions" "")
 
 All the information on this page are the web browsers extensions installed in the web different browsers.

@@ -26,13 +26,13 @@ Depending on user account control settings, you may need to run an elevated comm
 
 Once the installation starts you'll be greeted by the welcome screen in our installer wizard, click **Next**.
 
-![Select next to continue past the welcome screen](../../_images/image%20%281077).png>)
+![Select next to continue past the welcome screen](/_images/image-%281077 "Select next to continue past the welcome screen").png>)
 
 ### End-User License Agreement
 
 Read the End-User License Agreement. After that, select **I accept the terms in the License Agreement** and click **Next**.
 
-![End-User License Agreement](../../_images/image%20%281253).png>)
+![End-User License Agreement](/_images/image-%281253 "End-User License Agreement").png>)
 
 ### Disable Microsoft Intune Standalone Mode
 
@@ -42,7 +42,7 @@ This option is for customers who intend to publish only to Microsoft Intune.&#x2
 
 Click **Next**.
 
-![Option for Microsoft Intune standalone mode](../../_images/image%20%281216).png>)
+![Option for Microsoft Intune standalone mode](/_images/image-%281216 "Option for Microsoft Intune standalone mode").png>)
 
 ### Select Installation Folder
 
@@ -50,15 +50,15 @@ By default the Publisher is installed in **C:\Program Files\Patch My PC\Patch My
 \
 This location is where we store all of the product's configuration information.&#x20;
 
-![Select the folder where the service should be installed](../../_images/image%20%281066).png>)
+![Select the folder where the service should be installed](/_images/image-%281066 "Select the folder where the service should be installed").png>)
 
 ### Ready To Install
 
 Click **Install**.
 
-![Select install to start the installation.](../../_images/image%20%281174).png>)
+![Select install to start the installation.](/_images/image-%281174 "Select install to start the installation.").png>)
 
-![](../../_images/image%20%281217).png>)
+![](/_images/image-%281217 "").png>)
 
 ### Completed
 
@@ -68,4 +68,4 @@ Once the Publisher has finished installing, click **Finish** to close the instal
 By default, the "**Launch Patch My PC Publishing Service**" is enabled - this will launch the Publisher when you click **Finish**.
 {% endhint %}
 
-![](../../_images/image%20%281198).png>)
+![](/_images/image-%281198 "").png>)

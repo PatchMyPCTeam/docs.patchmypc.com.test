@@ -12,7 +12,7 @@ However, when I try, I get the following error:
 
 **Customer has active connections. Please disconnect them first in order to delete the company**
 
-![“Customer has active connections. Please disconnect them first in order to delete the company” error](../../../_images/image%20%28374%29.png%20"\"Customer%20has%20active%20connections.%20Please%20disconnect%20them%20first%20in%20order%20to%20delete%20the%20company\"%20error")
+![“Customer has active connections. Please disconnect them first in order to delete the company” error](/_images/image-%28374%29.png-"\"Customer-has-active-connections.-Please-disconnect-them-first-in-order-to-delete-the-company\"-error" "“Customer has active connections. Please disconnect them first in order to delete the company” error")
 
 ### CAUSE
 
