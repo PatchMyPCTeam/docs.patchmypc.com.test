@@ -14,11 +14,11 @@ To upgrade silently please run AdvancedInsights.exe /q /l\*v %temp%\AdvInsights.
 
 When you run the installer, it will prompt for you to accept the license terms.
 
-<figure><img src="../../.gitbook/assets/image (1057).png" alt=""><figcaption><p>Upgrade license terms</p></figcaption></figure>
+![](../../_images/image%20%281057%29.png%20"Upgrade%20license%20terms")
 
 You will be presented with the upgrade summary page. There is also the option to change the certificate, network port or IIS application pool identity if required.
 
-<figure><img src="../../.gitbook/assets/vmconnect_1iGyaX71Gh.png" alt=""><figcaption><p>Upgrade Summary</p></figcaption></figure>
+![](../../_images/vmconnect_1iGyaX71Gh.png%20"Upgrade%20Summary")
 
 If upgrading from 1.0.x and 2.0.x versions of Advanced Insights, the upgrade summary page will also include summary information about the Advanced Insights SQL DB migration to SQLite.
 
@@ -26,10 +26,10 @@ See section: [upgrading-to-advanced-insights-2.1-and-later-from-1.0.x-and-2.0.x-
 
 If you wish to do so, click the **'View / Change Cert'** button will show additional information about any warnings being flagged.
 
-<figure><img src="../../.gitbook/assets/image (707).png" alt=""><figcaption><p>Existing certificate properties</p></figcaption></figure>
+![](../../_images/image%20%28707%29.png%20"Existing%20certificate%20properties")
 
 Following this, click **Install** to start the upgrade process.
 
 The upgrade success page is displayed upon completion.
 
-<figure><img src="../../.gitbook/assets/vmconnect_CClh8mYcG6.png" alt=""><figcaption><p>Upgrade Success page</p></figcaption></figure>
+![](../../_images/vmconnect_CClh8mYcG6.png%20"Upgrade%20Success%20page")

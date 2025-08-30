@@ -8,7 +8,7 @@ To view the Update Rings configured for a Patch My PC (PMPC) Cloud deployment:
 2.  Click **More Info**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (455).png" alt="Clicking “More Info”"><figcaption></figcaption></figure>
+    ![Clicking “More Info”](../../../_images/image%20%28455%29.png%20"Clicking%20\"More%20Info\"")
 
     \
     Any configured Update Rings are shown as tabs, which you can switch between to review your settings.
@@ -19,9 +19,9 @@ To view the Update Rings configured for a Patch My PC (PMPC) Cloud deployment:
 If any rings have a status of **Scheduled**, it means that specific ring has yet to be created. See [Check if an Update Ring has been created](check-if-an-update-ring-has-been-created-in-cloud.md) for more information.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (456).png" alt="Configured Update Rings showing as tabs "><figcaption></figcaption></figure>
+![Configured Update Rings showing as tabs](../../../_images/image%20%28456%29.png%20"Configured%20Update%20Rings%20showing%20as%20tabs")
 
 3.  Click the red **X** in the top right-hand corner to close the **More Info** page and return to the **Deployments** node.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (457).png" alt="	Clicking the red X  in the top right-hand corner to close the “More Info” page and return to the “Deployments” node"><figcaption></figcaption></figure>
+    ![Clicking the red X  in the top right-hand corner to close the “More Info” page and return to the “Deployments” node](../../../_images/image%20%28457%29.png%20"Clicking%20the%20red%20X%20%20in%20the%20top%20right-hand%20corner%20to%20close%20the%20\"More%20Info\"%20page%20and%20return%20to%20the%20\"Deployments\"%20node")

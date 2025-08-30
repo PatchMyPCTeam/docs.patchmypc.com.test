@@ -8,7 +8,7 @@ I am trying to upload a Pre (or Post) script, but I get the following error:
 
 **Error - TypeError: Failed to fetch**
 
-<figure><img src="../../../.gitbook/assets/image (232).png" alt="Error - TypeError: Failed to fetch" width="350"><figcaption></figcaption></figure>
+![Error - TypeError: Failed to fetch](../../../_images/image%20%28232%29.png%20"Error%20-%20TypeError:%20Failed%20to%20fetch")
 
 
 

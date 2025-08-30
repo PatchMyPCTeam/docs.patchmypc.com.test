@@ -13,12 +13,12 @@ If you have [resumed updates](resume-cloud-updates.md) for an app in Patch My PC
 1.  Click on the relevant deployment which has been resumed.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2004).png" alt="Clicking on the relevant successful deployment for which updates have been resumed"><figcaption></figcaption></figure>
+    ![Clicking on the relevant successful deployment for which updates have been resumed](../../../_images/image%20%282004%29.png%20"Clicking%20on%20the%20relevant%20successful%20deployment%20for%20which%20updates%20have%20been%20resumed")
 2.  Click **Sync Now** to install any updates for the app immediately.\
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (2005).png" alt="Clicking “Sync Now”"><figcaption></figcaption></figure>
+    ![Clicking “Sync Now”](../../../_images/image%20%282005%29.png%20"Clicking%20\"Sync%20Now\"")
 
 {% hint style="info" %}
 **Note**
@@ -29,19 +29,19 @@ If the **Sync Now** button is greyed out, no updates are available for this app.
 3.  On the **Are you sure you want to update <**_**app\_name**_**> to the latest version** popup, click **OK**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1828).png" alt="&#x22;Are you sure you want to update <app_name> to the latest version&#x22; popup"><figcaption></figcaption></figure>
+    ![](../../../_images/image%20%281828%29.png%20"")
 
     \
     The **Deployment <**_**app\_name**_**> updated** notification is displayed and the deployment **Status** changes to **In Progress**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1829).png" alt="“Deployment <app_name> updated” notification is displayed and the deployment “Status” changes to “In Progress”."><figcaption></figcaption></figure>
+    ![](../../../_images/image%20%281829%29.png%20"")
 
     \
     Once the deployment has been completed successfully, the **Status** changes to **Success**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1830).png" alt="“Status” changing to Success."><figcaption></figcaption></figure>
+    ![“Status” changing to Success.](../../../_images/image%20%281830%29.png%20"\"Status\"%20changing%20to%20Success.")
 
 {% hint style="success" %}
 **Tip**

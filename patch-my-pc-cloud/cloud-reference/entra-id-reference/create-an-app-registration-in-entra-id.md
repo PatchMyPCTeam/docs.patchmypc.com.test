@@ -22,20 +22,20 @@ To create an App Registration:
 You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (542).png" alt="Navigating to the “App registrations” blade"><figcaption></figcaption></figure>
+![Navigating to the “App registrations” blade](../../../_images/image%20%28542%29.png%20"Navigating%20to%20the%20\"App%20registrations\"%20blade")
 
 2.  Click **New registration**.\
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (543).png" alt="Clicking “New registration”"><figcaption></figcaption></figure>
+    ![Clicking “New registration”](../../../_images/image%20%28543%29.png%20"Clicking%20\"New%20registration\"")
 
 
 
     3.  In the **Name** field, enter **PMPC Recovery**, then click **Register**.\
 
 
-        <figure><img src="../../../.gitbook/assets/image (544).png" alt="Entering “PMPC Recovery” then clicking “Register”"><figcaption></figcaption></figure>
+        ![Entering “PMPC Recovery” then clicking “Register”](../../../_images/image%20%28544%29.png%20"Entering%20\"PMPC%20Recovery\"%20then%20clicking%20\"Register\"")
 
         \
 
@@ -46,14 +46,14 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         **• Directory (tenant) ID**\
 
 
-        <figure><img src="../../../.gitbook/assets/image (545).png" alt="Noting the required values"><figcaption></figcaption></figure>
+        ![Noting the required values](../../../_images/image%20%28545%29.png%20"Noting%20the%20required%20values")
 
         \
 
     5.  Navigate to **Manage | API Permissions**.\
 
 
-        <figure><img src="../../../.gitbook/assets/image (546).png" alt="Navigating to “Manage | API Permissions”"><figcaption></figcaption></figure>
+        ![Navigating to “Manage | API Permissions”](../../../_images/image%20%28546%29.png%20"Navigating%20to%20\"Manage%20|%20API%20Permissions\"")
 
         \
 
@@ -61,7 +61,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (547).png" alt="Clicking “Add a permission”"><figcaption></figcaption></figure>
+        ![Clicking “Add a permission”](../../../_images/image%20%28547%29.png%20"Clicking%20\"Add%20a%20permission\"")
 
         \
 
@@ -69,7 +69,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (548).png" alt="Clicking “Microsoft Graph”"><figcaption></figcaption></figure>
+        ![Clicking “Microsoft Graph”](../../../_images/image%20%28548%29.png%20"Clicking%20\"Microsoft%20Graph\"")
 
         \
 
@@ -77,14 +77,14 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (549).png" alt="Clicking “Application permissions”"><figcaption></figcaption></figure>
+        ![Clicking “Application permissions”](../../../_images/image%20%28549%29.png%20"Clicking%20\"Application%20permissions\"")
 
         \
 
     9.  In the **Select permissions** field, type **AuditLog**, then expand this section and check the **AuditLog.Read.All** permission checkbox.\
 
 
-        <figure><img src="../../../.gitbook/assets/image (550).png" alt="Checking the “AuditLog.Read.All” permission checkbox"><figcaption></figcaption></figure>
+        ![Checking the “AuditLog.Read.All” permission checkbox](../../../_images/image%20%28550%29.png%20"Checking%20the%20\"AuditLog.Read.All\"%20permission%20checkbox")
 
         \
 
@@ -92,14 +92,14 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (551).png" alt="Clicking “Add permissions”"><figcaption></figcaption></figure>
+        ![Clicking “Add permissions”](../../../_images/image%20%28551%29.png%20"Clicking%20\"Add%20permissions\"")
 
         \
 
     11. On the **API permissions** screen, under the **Configured permissions** section, click **Grant admin consent for <**_**your\_tenant\_name**_**>**.\
 
 
-        <figure><img src="../../../.gitbook/assets/image (552).png" alt="Clicking “Grant admin consent for <your_tenant_name>”"><figcaption></figcaption></figure>
+        ![](../../../_images/image%20%28552%29.png%20"")
 
         \
 
@@ -107,12 +107,12 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (553).png" alt="Clicking “Yes” on the “Grant admin consent confirmation” popup"><figcaption></figcaption></figure>
+        ![Clicking “Yes” on the “Grant admin consent confirmation” popup](../../../_images/image%20%28553%29.png%20"Clicking%20\"Yes\"%20on%20the%20\"Grant%20admin%20consent%20confirmation\"%20popup")
 
         The **Grant consent - Grant consent successful** notification is shown and the **Status** for the **AuditLog.Read.All** permission changes to a green tick.\
 
 
-        <figure><img src="../../../.gitbook/assets/image (554).png" alt="“Grant consent - Grant consent successful notification” shown and the “Status” for the “AuditLog.Read.All” permission changes to a green tick."><figcaption></figcaption></figure>
+        ![“Grant consent - Grant consent successful notification” shown and the “Status” for the “AuditLog.Read.All” permission changes to a green tick.](../../../_images/image%20%28554%29.png%20"\"Grant%20consent%20-%20Grant%20consent%20successful%20notification\"%20shown%20and%20the%20\"Status\"%20for%20the%20\"AuditLog.Read.All\"%20permission%20changes%20to%20a%20green%20tick.")
 
         \
 
@@ -120,7 +120,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (555).png" alt="Navigating to “Certificates and secrets”"><figcaption></figcaption></figure>
+        ![Navigating to “Certificates and secrets”](../../../_images/image%20%28555%29.png%20"Navigating%20to%20\"Certificates%20and%20secrets\"")
 
         \
 
@@ -128,7 +128,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (556).png" alt="Clicking “New client secret” under the “Client secrets” section"><figcaption></figcaption></figure>
+        ![Clicking “New client secret” under the “Client secrets” section](../../../_images/image%20%28556%29.png%20"Clicking%20\"New%20client%20secret\"%20under%20the%20\"Client%20secrets\"%20section")
 
         \
 
@@ -136,14 +136,14 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (557).png" alt="Typing “PMPC Recovery” in the “Description” field, then clicking “Add”"><figcaption></figcaption></figure>
+        ![Typing “PMPC Recovery” in the “Description” field, then clicking “Add”](../../../_images/image%20%28557%29.png%20"Typing%20\"PMPC%20Recovery\"%20in%20the%20\"Description\"%20field,%20then%20clicking%20\"Add\"")
 
         \
         The new Client Secret appears along with the **Update application credentials - Successfully updated application PMPC Recovery credentials** notification.\
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (558).png" alt="New Client Secret and the “Update application credentials - Successfully updated application PMPC Recovery credentials” notification"><figcaption></figcaption></figure>
+        ![New Client Secret and the “Update application credentials - Successfully updated application PMPC Recovery credentials” notification](../../../_images/image%20%28558%29.png%20"New%20Client%20Secret%20and%20the%20\"Update%20application%20credentials%20-%20Successfully%20updated%20application%20PMPC%20Recovery%20credentials\"%20notification")
 
 
     16. Make a note of the **Value** of the **PMPC Recovery** client secret.

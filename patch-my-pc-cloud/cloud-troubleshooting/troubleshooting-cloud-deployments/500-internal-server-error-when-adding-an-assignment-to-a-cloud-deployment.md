@@ -8,7 +8,7 @@ I am trying to create an assignment in the Patch My PC (PMPC) Cloud portal that 
 
 Now, when I try to add an assignment, I get a **500 Internal Server Error**.
 
-<figure><img src="../../../.gitbook/assets/image (764).png" alt="“500 Internal Server Error” when trying to add an assignment"><figcaption></figcaption></figure>
+![“500 Internal Server Error” when trying to add an assignment](../../../_images/image%20%28764%29.png%20"\"500%20Internal%20Server%20Error\"%20when%20trying%20to%20add%20an%20assignment")
 
 ### CAUSE
 

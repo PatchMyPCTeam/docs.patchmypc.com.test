@@ -14,7 +14,7 @@ You can always download the latest MSI installer of the publishing service using
 
 [https://patchmypc.com/publishingservice-download](https://patchmypc.com/scupcatalog/downloads/publishingservice/PatchMyPC-Publishing-Service.msi)
 
-![This is how the MSI should look once downloaded](<../../.gitbook/assets/image (1152).png>)
+![This is how the MSI should look once downloaded](../../_images/image%20%281152).png>)
 
 ## Run the Installation
 
@@ -28,19 +28,19 @@ Depending on user account control settings, you may need to run an elevated comm
 
 Once the installation starts you'll be greeted by the welcome screen in our installer wizard, click next.
 
-![Select next to continue past the welcome screen.](<../../.gitbook/assets/image (1077).png>)
+![Select next to continue past the welcome screen.](../../_images/image%20%281077).png>)
 
 ### End-User License Agreement
 
 The next step will be to accept the EULA. Make sure you select the "I accept the terms in the Agreement" and hit next.
 
-![EULA Terms](<../../.gitbook/assets/image (1253).png>)
+![EULA Terms](../../_images/image%20%281253).png>)
 
 ### Enable Intune Standalone Mode
 
 When installing the product we provide an option called Intune Standalone mode. If you do **NOT** intend to use the product with Configuration Manager, ensure the option is checked and select next.
 
-![](<../../.gitbook/assets/image (1089).png>)
+![](../../_images/image%20%281089).png>)
 
 ### Select Installation Folder
 
@@ -50,15 +50,15 @@ By default, we install the publisher service in \
 \
 This location is where we store all of the products configuration information.&#x20;
 
-![Select the folder where the service should be installed](<../../.gitbook/assets/image (1066).png>)
+![Select the folder where the service should be installed](../../_images/image%20%281066).png>)
 
 ### Ready To Install
 
 You are now ready to install the product! Click Install, and grab a drink of water.
 
-![Select install to start the installation.](<../../.gitbook/assets/image (1174).png>)
+![Select install to start the installation.](../../_images/image%20%281174).png>)
 
-![Enjoy a glass of water, while we do the work.](<../../.gitbook/assets/image (1217).png>)
+![Enjoy a glass of water, while we do the work.](../../_images/image%20%281217).png>)
 
 ### Completed
 
@@ -70,4 +70,4 @@ Once the publisher has finished installing, just hit the finish button to close 
 By default, the **Launch Patch My PC Publishing Service** checkbox is checked, meaning when you click **Finish**, Publisher will open automatically.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (1198).png>)
+![](../../_images/image%20%281198).png>)

@@ -15,7 +15,7 @@ To setup the Inventory Extensions, there are **two** actions to complete:
 3. Select whether to collect **Microsoft Update** Compliance Data [see here for more information](../advanced-insights-and-microsoft-updates-inventory.md)
 4. Click <mark style="color:green;">**Update Hardware Inventory via Advanced Insights**</mark>
 
-<figure><img src="../../.gitbook/assets/Inventory_Extensions_Settings" alt=""><figcaption><p>Advanced Insights Inventory Extensions</p></figcaption></figure>
+![](../../_images/Inventory_Extensions_Settings%20"Advanced%20Insights%20Inventory%20Extensions")
 
 ***
 
@@ -25,9 +25,9 @@ To setup the Inventory Extensions, there are **two** actions to complete:
 Seeing this message suggests you need to configure [Configuration Manager Permissions](../insights-configuration-manager-permission-requirements.md). We recommend configuring permissions instead of proceeding with a manual install.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image002 (2).png" alt=""><figcaption></figcaption></figure>
+![](../../_images/image002%20%282%29.png%20"")
 
-{% file src="../../.gitbook/assets/AdvancedInsights_SMS_DEF (1).mof" %}
+{% file src="../../_images/AdvancedInsights_SMS_DEF%20%281%29.mof" %}
 For manual import of Inventory Extension Classes into Hardware Inventory
 {% endfile %}
 
@@ -36,7 +36,7 @@ For manual import of Inventory Extension Classes into Hardware Inventory
 3. From this page click **Import...** and select the **AdvancedInsights\_SMS\_DEF.mof**
 4. Tick/untick the imported Inventory Classes as required
 
-<figure><img src="../../.gitbook/assets/image (1258).png" alt=""><figcaption><p>Inventory Classes displayed In Hardware Inventory Client Settings</p></figcaption></figure>
+![](../../_images/image%20%281258%29.png%20"Inventory%20Classes%20displayed%20In%20Hardware%20Inventory%20Client%20Settings")
 
 ***
 
@@ -46,7 +46,7 @@ For manual import of Inventory Extension Classes into Hardware Inventory
 If you have previously deployed the "**PMPC Data Collection**" PowerShell Package, please ensure you delete its deployment before deploying the new **InventoryExtensions.msi**
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1325).png" alt=""><figcaption><p>ConfigMgr package "PMPC Data Collection (LEGACY)" to remove</p></figcaption></figure>
+![](../../_images/image%20%281325%29.png%20"ConfigMgr%20package%20\"PMPC%20Data%20Collection%20%28LEGACY)\" to remove")
 
 {% hint style="info" %}
 After removing the deployment for the legacy PMPC Data Collection package, the **InventoryExtensions.msi** must be installed on clients you wish to collect inventory data from.
@@ -63,19 +63,19 @@ You can deploy the **Inventory Extensions** product via <mark style="color:green
 
 1\. Open the Patch My PC Publisher, navigate to the ConfigMgr/Intune Apps tab and select **Patch My PC >** **Advanced Insights Inventory Extensions (MSI-x64)**
 
-<figure><img src="../../.gitbook/assets/image (1321).png" alt=""><figcaption><p>Advanced Insights Inventory Extensions app in the PMPC Publisher</p></figcaption></figure>
+![](../../_images/image%20%281321%29.png%20"Advanced%20Insights%20Inventory%20Extensions%20app%20in%20the%20PMPC%20Publisher")
 
 2\. To quickly sync this app to ConfigMgr/Intune without having to wait for all other selected apps and updates in the Publisher to evaluate and process, right click the **Advanced Insights Inventory Extensions (MSI-x64)** app and select **Publish this product during the next manual sync. (Selective sync).**
 
-<figure><img src="../../.gitbook/assets/image (1326).png" alt="" width="375"><figcaption><p>Choose "Selective sync" to publish the MSI quickly to ConfigMgr</p></figcaption></figure>
+![](../../_images/image%20%281326%29.png%20"Choose%20\"Selective%20sync\"%20to%20publish%20the%20MSI%20quickly%20to%20ConfigMgr")
 
 3\. On the **Sync Schedule** tab, click **Run Publishing Service Sync.**
 
-<figure><img src="../../.gitbook/assets/image (1327).png" alt="" width="375"><figcaption><p>Publisher Sync</p></figcaption></figure>
+![](../../_images/image%20%281327%29.png%20"Publisher%20Sync")
 
 4\. Verify the **Inventory Extensions x.x.x.x (MSI-x64)** application was created and deploy it to your desired collection(s).
 
-<figure><img src="../../.gitbook/assets/image (1329).png" alt=""><figcaption><p>Inventory Extensions app created successfully</p></figcaption></figure>
+![](../../_images/image%20%281329%29.png%20"Inventory%20Extensions%20app%20created%20successfully")
 
 {% hint style="info" %}
 **Note**

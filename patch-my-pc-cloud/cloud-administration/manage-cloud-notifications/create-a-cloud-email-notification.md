@@ -15,24 +15,24 @@ To create an email notification:
 1.  In the **User Email** field, select the relevant administrator’s email address from the dropdown or type their email address.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1917).png" alt="Select the relevant administrator’s email address from the “User Email” dropdown or type their email address"><figcaption></figcaption></figure>
+    ![Select the relevant administrator’s email address from the “User Email” dropdown or type their email address](../../../_images/image%20%281917%29.png%20"Select%20the%20relevant%20administrator’s%20email%20address%20from%20the%20\"User%20Email\"%20dropdown%20or%20type%20their%20email%20address")
 
 
 2.  Click **Add New Email**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1918).png" alt="Clicking “Add New Email” to add the email address to the notification list "><figcaption></figcaption></figure>
+    ![Clicking “Add New Email” to add the email address to the notification list](../../../_images/image%20%281918%29.png%20"Clicking%20\"Add%20New%20Email\"%20to%20add%20the%20email%20address%20to%20the%20notification%20list")
 
     \
     The email address is added to the list of email addresses that will be sent the notification.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1916).png" alt=""><figcaption></figcaption></figure>
+    ![](../../../_images/image%20%281916%29.png%20"")
 
 {% hint style="success" %}
 **Tip**
 
-You can click the small envelope beside the email address (![](<../../../.gitbook/assets/image (1900).png>)) to send a test notification. See [Testing an Email Notification](cloud-notifications-reference/test-an-email-notification-in-cloud.md) for more details.
+You can click the small envelope beside the email address (![](../../../_images/image%20%281900).png>)) to send a test notification. See [Testing an Email Notification](cloud-notifications-reference/test-an-email-notification-in-cloud.md) for more details.
 {% endhint %}
 
 {% hint style="info" %}
@@ -46,17 +46,17 @@ You can also click the trashcan beside an email address to delete it from the li
 3.  Click **Save** on the **Add Notifications** screen to save the notification.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1919).png" alt="Clicking “Save” on the “Add Notifications” screen"><figcaption></figcaption></figure>
+    ![Clicking “Save” on the “Add Notifications” screen](../../../_images/image%20%281919%29.png%20"Clicking%20\"Save\"%20on%20the%20\"Add%20Notifications\"%20screen")
 
     \
     The **Success - Notification created** notification is shown.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1920).png" alt=""><figcaption></figcaption></figure>
+    ![](../../../_images/image%20%281920%29.png%20"")
 
     \
     The portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification.\
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (1921).png" alt="Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification"><figcaption></figcaption></figure>
+    ![Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification](../../../_images/image%20%281921%29.png%20"Portal%20auto-refreshes%20to%20show%20the%20new%20notification,%20including%20abbreviations%20of%20the%20users%20who%20will%20receive%20the%20email%20notification")

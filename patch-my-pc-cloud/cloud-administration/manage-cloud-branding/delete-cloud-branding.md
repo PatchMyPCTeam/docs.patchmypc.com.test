@@ -17,23 +17,23 @@ To delete a Branding App:
 
 1. Navigate to **Settings | Branding**
 
-<figure><img src="../../../.gitbook/assets/image (2506).png" alt="Navigating to &#x22;Settings | Branding&#x22;" width="563"><figcaption></figcaption></figure>
+![Navigating to &#x22;Settings | Branding&#x22;](../../../_images/image%20%282506%29.png%20"Navigating%20to%20&#x22;Settings%20|%20Branding&#x22;")
 
 2. Click the ellipsis (`⋮`) button beside the relevant Branding App and select **Delete**.
 
-<figure><img src="../../../.gitbook/assets/image (2676).png" alt="Selecting &#x22;Delete&#x22; from the ellipsis menu" width="563"><figcaption></figcaption></figure>
+![Selecting &#x22;Delete&#x22; from the ellipsis menu](../../../_images/image%20%282676%29.png%20"Selecting%20&#x22;Delete&#x22;%20from%20the%20ellipsis%20menu")
 
 3. Read the **Are you sure** dialog box, and if you want to continue, click **Yes**.
 
-<figure><img src="../../../.gitbook/assets/image (2508).png" alt="&#x22;Are you sure&#x22; dialog box" width="287"><figcaption></figcaption></figure>
+![&#x22;Are you sure&#x22; dialog box](../../../_images/image%20%282508%29.png%20"&#x22;Are%20you%20sure&#x22;%20dialog%20box")
 
 The **Success - <**_**branding\_app\_name**_**> deleted** notification is shown.
 
-<figure><img src="../../../.gitbook/assets/image (2677).png" alt="&#x22;Success - <branding_app_name> deleted notification&#x22;" width="563"><figcaption></figcaption></figure>
+![](../../../_images/image%20%282677%29.png%20"")
 
 The **Branding** screen is redisplayed showing the Branding App has been  deleted.
 
-<figure><img src="../../../.gitbook/assets/image (2678).png" alt="&#x22;Branding&#x22; screen is redisplayed showing the branding app has been  deleted." width="563"><figcaption></figcaption></figure>
+![&#x22;Branding&#x22; screen is redisplayed showing the branding app has been  deleted.](../../../_images/image%20%282678%29.png%20"&#x22;Branding&#x22;%20screen%20is%20redisplayed%20showing%20the%20branding%20app%20has%20been%20%20deleted.")
 
 {% hint style="success" %}
 **Tip**

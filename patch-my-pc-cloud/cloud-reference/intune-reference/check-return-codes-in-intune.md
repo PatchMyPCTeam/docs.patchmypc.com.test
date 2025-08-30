@@ -8,29 +8,29 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use [Return Code
 2.  Navigate to **Apps**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (281).png" alt="Navigating to “Apps”"><figcaption></figcaption></figure>
+    ![Navigating to “Apps”](../../../_images/image%20%28281%29.png%20"Navigating%20to%20\"Apps\"")
 
 
 3.  Navigate to **All Apps**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (282).png" alt="Navigating to “All Apps”"><figcaption></figcaption></figure>
+    ![Navigating to “All Apps”](../../../_images/image%20%28282%29.png%20"Navigating%20to%20\"All%20Apps\"")
 
 
 4.  Click the app if it’s shown in the results or search for it.\
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (2542).png" alt="Clicking the app if it’s shown in the results or searching for it"><figcaption></figcaption></figure>
+    ![Clicking the app if it’s shown in the results or searching for it](../../../_images/image%20%282542%29.png%20"Clicking%20the%20app%20if%20it’s%20shown%20in%20the%20results%20or%20searching%20for%20it")
 5.  Navigate to **Manage | Properties**\
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (2543).png" alt="Navigating to “Manage | Properties”"><figcaption></figcaption></figure>
+    ![Navigating to “Manage | Properties”](../../../_images/image%20%282543%29.png%20"Navigating%20to%20\"Manage%20|%20Properties\"")
 
 
 6.  Scroll down to the **Program** section, under which you will find the **Return codes**.\
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (2544).png" alt="Scrolling down to the “Program” section to locate the “Return codes” "><figcaption></figcaption></figure>
+    ![Scrolling down to the “Program” section to locate the “Return codes”](../../../_images/image%20%282544%29.png%20"Scrolling%20down%20to%20the%20\"Program\"%20section%20to%20locate%20the%20\"Return%20codes\"")

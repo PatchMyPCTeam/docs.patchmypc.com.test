@@ -295,29 +295,29 @@ This is a major release.
 
 HP Warranty support. Advanced Insights can now surface HP client device warranty data. There is some configuration required which is detailed here:[https://docs.patchmypc.com/installation-guides/advanced-insights-and-patch-insights/external-service-hp-warranty-api](https://docs.patchmypc.com/installation-guides/advanced-insights-and-patch-insights/external-service-hp-warranty-api)
 
-<figure><img src="../../.gitbook/assets/image (1928).png" alt=""><figcaption><p>HP Warranty data in Advanced Insights</p></figcaption></figure>
+![](../../_images/image%20%281928%29.png%20"HP%20Warranty%20data%20in%20Advanced%20Insights")
 
 #### Audit logs
 
 In the Administration node you will find the “Audit logs” area. This lists all activities in the Advanced Insights portal. The list is filterable by user and can be exported.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1933).png" alt=""><figcaption><p>Audit log view</p></figcaption></figure>
+![](../../_images/image%20%281933%29.png%20"Audit%20log%20view")
 
 #### Create collections
 
 You can now create new ConfigMgr collections using Advanced Insights. The Resources - Collections page has a "Create New Collection" button.
 
-<figure><img src="../../.gitbook/assets/image (1930).png" alt=""><figcaption><p>Create New Collection</p></figcaption></figure>
+![](../../_images/image%20%281930%29.png%20"Create%20New%20Collection")
 
 You can also create a collection from a device list and automatically add the selected clients to a new collection or add to an existing collection.
 
-<figure><img src="../../.gitbook/assets/image (1932).png" alt=""><figcaption></figcaption></figure>
+![](../../_images/image%20%281932%29.png%20"")
 
 #### Delete user profile task
 
 We have added a new function to allow you to delete profiles from client devices. This is useful in support scenarios for outdated or orphaned profiles.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1934).png" alt=""><figcaption><p>User profile dashboard with delete function.</p></figcaption></figure>
+![](../../_images/image%20%281934%29.png%20"User%20profile%20dashboard%20with%20delete%20function.")
 
 The delete action is also available in the device view - Users - User Profiles.
 
@@ -325,19 +325,19 @@ The delete action is also available in the device view - Users - User Profiles.
 
 For customers with BitLocker MBAM integrated with Configuration Manager we will now allow you to view the BitLocker Recovery Key in Advanced Insights. Users must have the relevant permission in their Advanced Insights role. The key is accessible via the Device View - Hardware - Disks tab.
 
-<figure><img src="../../.gitbook/assets/image (596).png" alt=""><figcaption><p>Viewing the BitLocker Recovery Key</p></figcaption></figure>
+![](../../_images/image%20%28596%29.png%20"Viewing%20the%20BitLocker%20Recovery%20Key")
 
 #### Device View export improvements
 
 We now support the export of any of the tables in the device view.
 
-<figure><img src="../../.gitbook/assets/image (1935).png" alt=""><figcaption><p>Export device view data</p></figcaption></figure>
+![](../../_images/image%20%281935%29.png%20"Export%20device%20view%20data")
 
 #### Configuration Manger Console Extension&#x20;
 
 The new Configuration Manager console extension brings Advanced Insights right into the ConfigMgr console. Full documentation and download is here [https://docs.patchmypc.com/installation-guides/advanced-insights-and-patch-insights/configuration-manager-console-extension](https://docs.patchmypc.com/installation-guides/advanced-insights-and-patch-insights/configuration-manager-console-extension)&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1936).png" alt=""><figcaption><p>Advanced Insights in the ConfigMgr Console</p></figcaption></figure>
+![](../../_images/image%20%281936%29.png%20"Advanced%20Insights%20in%20the%20ConfigMgr%20Console")
 
 #### Log builder for support cases
 
@@ -377,7 +377,7 @@ This is a minor release mainly focused on bugfixes.
 
 Modal sharing allows users to share select modals for other to see, allowing collaboration between users who are working on a task together.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1665).png" alt=""><figcaption><p>Share icon on the top right, which will copy the link directly to your clipboard to be shared.</p></figcaption></figure>
+![](../../_images/image%20%281665%29.png%20"Share%20icon%20on%20the%20top%20right,%20which%20will%20copy%20the%20link%20directly%20to%20your%20clipboard%20to%20be%20shared.")
 
 #### Fixes
 
@@ -404,7 +404,7 @@ This is a major release.
 
 Users can now create a dashboard of their own items from all viewable items for their role. For example, a user can create a dashboard with objects from Resources, Hardware, Software Updates Trend, OSD, all in one view.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1552).png" alt=""><figcaption><p>Custom Dashboard Builder</p></figcaption></figure>
+![](../../_images/image%20%281552%29.png%20"Custom%20Dashboard%20Builder")
 
 Custom dashboards can also be shared with other users or roles (permissions permitting).
 
@@ -414,7 +414,7 @@ We have made hundreds of SQL Cardinality statements to ensure SQL performance is
 
 #### Custom logos
 
-<figure><img src="../../.gitbook/assets/image (1553).png" alt=""><figcaption><p>The Settings Appearance Tab</p></figcaption></figure>
+![](../../_images/image%20%281553%29.png%20"The%20Settings%20Appearance%20Tab")
 
 New option to specify custom logos for the identity banner in the Advanced Insights portal. The logo file is what is shown when the menu is expanded, the Icon setting is shown when the menu is minimized.
 
@@ -422,27 +422,27 @@ New option to specify custom logos for the identity banner in the Advanced Insig
 
 #### Local Administrators dashboard
 
-<figure><img src="../../.gitbook/assets/image (1554).png" alt=""><figcaption><p>Local Administrators Dashboard</p></figcaption></figure>
+![](../../_images/image%20%281554%29.png%20"Local%20Administrators%20Dashboard")
 
 The new Local Administrators dashboard requires the Advanced Insights inventory extensions. The dashboard shows the groups and accounts that are members of the local admins group on all devices.
 
 #### OS Uptime dashboard
 
-<figure><img src="../../.gitbook/assets/image (1555).png" alt=""><figcaption><p>OS Uptime Dashboard</p></figcaption></figure>
+![](../../_images/image%20%281555%29.png%20"OS%20Uptime%20Dashboard")
 
 The OS Uptime dashboard lists each device and its latest uptime.
 
 #### Wireless adapters dashboard
 
-<figure><img src="../../.gitbook/assets/image (1556).png" alt=""><figcaption><p>Wireless Adapters Dashboard</p></figcaption></figure>
+![](../../_images/image%20%281556%29.png%20"Wireless%20Adapters%20Dashboard")
 
 The Wireless Adapters Dashboard requires the Advanced Insights Inventory Extensions. This dashboard helps to identify the wireless NICs and associated drivers with the versions. Clicking through will show further details about wirless connectivity on the individual device:
 
-<figure><img src="../../.gitbook/assets/image (1557).png" alt=""><figcaption><p>Wireless detail</p></figcaption></figure>
+![](../../_images/image%20%281557%29.png%20"Wireless%20detail")
 
 #### User profile dashboard
 
-<figure><img src="../../.gitbook/assets/image (1559).png" alt=""><figcaption><p>User Profile Dashboard</p></figcaption></figure>
+![](../../_images/image%20%281559%29.png%20"User%20Profile%20Dashboard")
 
 &#x20;The User Profile Dashboard requires the Advanced Insights Inventory Extensions.&#x20;
 
@@ -492,18 +492,18 @@ Major release with changes to infrastructure requirements and new functionality.
 * Major performance improvements in SQL load time for Home dashboard, Software Updates dashboard and Updates page.&#x20;
 * Update Trend dashboard
 
-<figure><img src="../../.gitbook/assets/image (964).png" alt=""><figcaption><p>Update Trend</p></figcaption></figure>
+![](../../_images/image%20%28964%29.png%20"Update%20Trend")
 
 * This new dashboard provides visibility of deployment compliance trend over time. You can plot how long it took from update release to first install, 50% compliance, 90% compliance and total installation. The chart can be expanded under the cog icon to show total deployment data. On first load the update with most deployment data over the past 30 days will be selected, you can use the filter pickers below the chart to select other updates, date ranges and filter by collection.
 * Browser Extensions Dashboard. New dashboard (requires latest inventory extension update)&#x20;
 
-<figure><img src="../../.gitbook/assets/image (965).png" alt=""><figcaption><p>Browser Extension Inventory</p></figcaption></figure>
+![](../../_images/image%20%28965%29.png%20"Browser%20Extension%20Inventory")
 
 * Warranty dashboard now respects RBAC and Collection filters
 * Custom Patch My PC actions available to install update, clear the CCM cache, Repair the ConfigMgr client a "Notify" option to send a message a to a device. These functions use the BGB Channel, so will function over CMG as well as on LAN. They are also available in the Bulk Actions lists, allowing you to bulk send a notification, or clear the ConfigMgr Cache on a list of machines.\
 
 
-<figure><img src="../../.gitbook/assets/image (1342).png" alt=""><figcaption><p>Patch My PC Actions</p></figcaption></figure>
+![](../../_images/image%20%281342%29.png%20"Patch%20My%20PC%20Actions")
 
 * Draggable modals - you can now move the popup modal views around the screen
 
@@ -534,7 +534,7 @@ On 2024-02-23, an updated installer executable was created to address a failed u
 #### New features
 
 * Tables page sizes can now be modified\
-  ![](<../../.gitbook/assets/image (1324).png>)
+  ![](../../_images/image%20%281324).png>)
 * Microsoft version data is now bundled with the application as backup in case docs.microsoft.com is inaccessible
 * Added additional info to AD settings, detailing how it works
 
@@ -575,26 +575,26 @@ Version 2.0.1 is a major release of Advanced Insights with breaking changes whic
 * CNAME support.&#x20;
 * Global collection filter, allowing full dashboard collection filter with persistence between dashboard changes. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (1317).png" alt=""><figcaption><p>Global Collections Filter</p></figcaption></figure>
+![](../../_images/image%20%281317%29.png%20"Global%20Collections%20Filter")
 
 * Windows 11 Readiness dashboard.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1316).png" alt=""><figcaption><p>Windows 11 Readiness</p></figcaption></figure>
+![](../../_images/image%20%281316%29.png%20"Windows%2011%20Readiness")
 
 * ODBC Dashboard.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1315).png" alt=""><figcaption><p>ODBC Configuration Details</p></figcaption></figure>
+![](../../_images/image%20%281315%29.png%20"ODBC%20Configuration%20Details")
 
 * Graphics card dashboard with click through details on device view.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1318).png" alt=""><figcaption><p>Graphics Card Inventory Detail</p></figcaption></figure>
+![](../../_images/image%20%281318%29.png%20"Graphics%20Card%20Inventory%20Detail")
 
 * Client actions can now be performed against a list of devices in any data table.&#x20;
 * BitLocker compliance now provides "no compliance" reason.&#x20;
 * Device power state indicator in lists where a device is shown. \
 
 
-<figure><img src="../../.gitbook/assets/image (1314).png" alt=""><figcaption><p>Screenshot of power state icons</p></figcaption></figure>
+![](../../_images/image%20%281314%29.png%20"Screenshot%20of%20power%20state%20icons")
 
 #### Minor changes&#x20;
 
@@ -618,7 +618,7 @@ Version 2.0.1 is a major release of Advanced Insights with breaking changes whic
 
 * Patch Insights - Update-focussed reporting solution for non-Premium SKU customers. The same installer is used, the version of Insights shown to the user is dependent on the Patch My PC Licence.
 
-<figure><img src="../../.gitbook/assets/image (1282).png" alt=""><figcaption><p>Patch Insights interface with top-level dashboard and Software Updates dashboards.</p></figcaption></figure>
+![](../../_images/image%20%281282%29.png%20"Patch%20Insights%20interface%20with%20top-level%20dashboard%20and%20Software%20Updates%20dashboards.")
 
 * CVE Dashboard improvement - BaseScore and TemporalScore tooltips added to describe what these mean for threat analytics.
 
@@ -648,17 +648,17 @@ Version 2.0.1 is a major release of Advanced Insights with breaking changes whic
 
     Key certificate properties are shown within the dialog and flag any warnings
 
-<figure><img src="../../.gitbook/assets/image (1038).png" alt=""><figcaption><p>Certificate Selection Dialog</p></figcaption></figure>
+![](../../_images/image%20%281038%29.png%20"Certificate%20Selection%20Dialog")
 
 *   Upgrade dialog updated.
 
     Now includes info on the current certificate and if there’s any attributes of the certificate which require attention and an  option to change the in-use certificate.
 
-<figure><img src="../../.gitbook/assets/image (1039).png" alt=""><figcaption><p>Upgrade summary screen</p></figcaption></figure>
+![](../../_images/image%20%281039%29.png%20"Upgrade%20summary%20screen")
 
 * Current certificate properties can be viewed in this screen:
 
-<figure><img src="../../.gitbook/assets/image (1040).png" alt=""><figcaption><p>Certificate properties</p></figcaption></figure>
+![](../../_images/image%20%281040%29.png%20"Certificate%20properties")
 
 #### Product Improvements
 
@@ -800,7 +800,7 @@ Version 2.0.1 is a major release of Advanced Insights with breaking changes whic
 * Added SMTP configuration settings for email notification to users on account creation and password reset
 * Fixed bug with users having rights to add devices to collections via collection dashboard when this right was not granted
 * You can now include a default ConfigMgr collection for any role or user. This setting will auto-populate all dashboards with this collection as a filter where appropriate. A user can still select other collections they have access to view if desired.\
-  &#x20; ![](<../../.gitbook/assets/image (1261).png>)
+  &#x20; ![](../../_images/image%20%281261).png>)
 
 ### 1.0.17&#x20;
 

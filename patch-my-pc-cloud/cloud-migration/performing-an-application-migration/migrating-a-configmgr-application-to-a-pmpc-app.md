@@ -34,13 +34,13 @@ If you don’t want to deploy this app now, just click **Install App** under **A
 
 Once you have added your assignments, click **Migrate** and the **Success – Deployment Created, Migration Pending** notification is shown.
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt="“Migrate, the Success – Deployment Created, Migration Pending” notification" width="563"><figcaption></figcaption></figure>
+![“Migrate, the Success – Deployment Created, Migration Pending” notification](../../../_images/image%20%2810%29.png%20"\"Migrate,%20the%20Success%20–%20Deployment%20Created,%20Migration%20Pending\"%20notification")
 
 The **Status** field also updates to show **In Progress** as the deployment is being created, with any required content (such as extra files) being zipped and sent to Azure Blob Storage.
 
 You can also monitor the progress of the deployment by clicking the **Deployments** node and watching for the **Status** of the deployment to change to **Success**.
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt="Monitoring the status of the deployment" width="563"><figcaption></figcaption></figure>
+![Monitoring the status of the deployment](../../../_images/image%20%2811%29.png%20"Monitoring%20the%20status%20of%20the%20deployment")
 
 {% hint style="success" %}
 **Tip**
@@ -49,5 +49,5 @@ To see the migrated app in Intune, within the Microsoft Intune admin center navi
 
 **Home > Apps | Windows > Windows | Windows Apps > <**_**app\_name**_**>**
 
-![Migrated app in Intune](<../../../.gitbook/assets/image (12).png>)
+![Migrated app in Intune](../../../_images/image%20%2812).png>)
 {% endhint %}

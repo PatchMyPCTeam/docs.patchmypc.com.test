@@ -2,6 +2,6 @@
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-<figure><img src="../../../.gitbook/assets/image (307).png" alt=""><figcaption><p>Windows OS Feature Upgrades</p></figcaption></figure>
+![](../../../_images/image%20%28307%29.png%20"Windows%20OS%20Feature%20Upgrades")
 
 This dashboard you can see the compliance data where a windows feature upgrade is detected as needed or installed.

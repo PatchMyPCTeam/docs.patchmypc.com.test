@@ -6,7 +6,7 @@ description: Description of the layout of the Devices page
 
 _Applies to: Patch My PC Advanced Insights_
 
-<figure><img src="../../../.gitbook/assets/image (507).png" alt=""><figcaption><p>Devices Home Page</p></figcaption></figure>
+![](../../../_images/image%20%28507%29.png%20"Devices%20Home%20Page")
 
 This dashboard shows details for device properties from within Configuration Manager.
 
@@ -14,51 +14,51 @@ The top row of statistics gives you quick access to Managed Devices (Devices wit
 
 Click through any of these dash stats to be able to load a table with all the information.
 
-<figure><img src="../../../.gitbook/assets/image (492).png" alt=""><figcaption><p>Portable Devices</p></figcaption></figure>
+![](../../../_images/image%20%28492%29.png%20"Portable%20Devices")
 
 From this table you are able to do several different functions.  You have the ability to multi select devices and perform one of the many built-in right click options available to you in the Configuration Manager Console and also some of the PatchMyPC actions too.
 
-<figure><img src="../../../.gitbook/assets/image (510).png" alt=""><figcaption><p>Bulk Actions</p></figcaption></figure>
+![](../../../_images/image%20%28510%29.png%20"Bulk%20Actions")
 
 There is an export button at the top right corner (Cog) where you can export the dataset to a CSV file.
 
-<figure><img src="../../../.gitbook/assets/image (511).png" alt=""><figcaption><p>Export Data Button</p></figcaption></figure>
+![](../../../_images/image%20%28511%29.png%20"Export%20Data%20Button")
 
 At the bottom of the table page you can also make the page size large in rows and also by selecting a device or multi devices add them into a collection.
 
-<figure><img src="../../../.gitbook/assets/image (514).png" alt=""><figcaption><p>Page Size drop-down and Add to Collection</p></figcaption></figure>
+![](../../../_images/image%20%28514%29.png%20"Page%20Size%20drop-down%20and%20Add%20to%20Collection")
 
 ### Donut Charts
 
 The next row of statistics are doughnut charts, which show you information about your Configuration Manager client count, Client Heartbeat, Client Hardware Inventory and Client Device Properties.
 
-<figure><img src="../../../.gitbook/assets/image (515).png" alt=""><figcaption><p>Client Device Properties</p></figcaption></figure>
+![](../../../_images/image%20%28515%29.png%20"Client%20Device%20Properties")
 
 ### Client Deployment
 
 In this Donut chart you can see all the different versions of Configuration Manager clients you managing in your environment.  This is a handy stat to see after a Configuration Manager upgrade to see.  When you click on the cog in the top right you will have an option to View Chart Data or refresh data.
 
-<figure><img src="../../../.gitbook/assets/image (516).png" alt=""><figcaption><p>Cog button</p></figcaption></figure>
+![](../../../_images/image%20%28516%29.png%20"Cog%20button")
 
 When you click on the View Chart Data button you will get a whole list view of all the clients and their Configuration Manager client versions.
 
-<figure><img src="../../../.gitbook/assets/image (494).png" alt=""><figcaption><p>Client Deployment Table</p></figcaption></figure>
+![](../../../_images/image%20%28494%29.png%20"Client%20Deployment%20Table")
 
 Filter the data by any of the titles to make a more customised report for yourself.
 
-<figure><img src="../../../.gitbook/assets/image (495).png" alt=""><figcaption><p>Filter table view</p></figcaption></figure>
+![](../../../_images/image%20%28495%29.png%20"Filter%20table%20view")
 
 ### Client Heartbeat&#x20;
 
 In this Donut chart you can see how long since a Configuration Manager had sent its Heartbeat Discovery to Configuration Manager.  This can be from Today, 3, 7, over 7, 14 and 30 days.
 
-<figure><img src="../../../.gitbook/assets/image (520).png" alt=""><figcaption><p>Client Heartbeat discovery</p></figcaption></figure>
+![](../../../_images/image%20%28520%29.png%20"Client%20Heartbeat%20discovery")
 
 ### Client Hardware Inventory
 
 In this Donut chart you can can see how long is been since devices have submitted their hardware inventory data to Configuration Manager.
 
-<figure><img src="../../../.gitbook/assets/image (522).png" alt=""><figcaption><p>Client Hardware Inventory</p></figcaption></figure>
+![](../../../_images/image%20%28522%29.png%20"Client%20Hardware%20Inventory")
 
 ### Client Device Properties
 
@@ -71,4 +71,4 @@ In this Donut chart we have the option to pivot the data to different options
 * Bitlocker Status (C:)
 * BIOS Version (Top 20)
 
-<figure><img src="../../../.gitbook/assets/image (523).png" alt=""><figcaption><p>Client Device Properties</p></figcaption></figure>
+![](../../../_images/image%20%28523%29.png%20"Client%20Device%20Properties")

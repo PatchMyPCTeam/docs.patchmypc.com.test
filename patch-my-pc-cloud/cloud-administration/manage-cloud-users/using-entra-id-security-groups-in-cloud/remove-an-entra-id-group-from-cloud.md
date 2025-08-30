@@ -13,13 +13,13 @@ To remove an Entra ID Security Group from PMPC Cloud:
 1.  In the PMPC Cloud portal, navigate to **Settings | Users**.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (2234).png" alt="Navigating to “Settings | Users”"><figcaption></figcaption></figure>
+    ![Navigating to “Settings | Users”](../../../../_images/image%20%282234%29.png%20"Navigating%20to%20\"Settings%20|%20Users\"")
 
 
 2.  Click the **Entra ID Groups** tab.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (2235).png" alt="Clicking the “Entra ID Groups” tab"><figcaption></figcaption></figure>
+    ![Clicking the “Entra ID Groups” tab](../../../../_images/image%20%282235%29.png%20"Clicking%20the%20\"Entra%20ID%20Groups\"%20tab")
 
 
 3. Click the trashcan beside the relevant Entra ID Security Group you want to remove.
@@ -30,15 +30,15 @@ To remove an Entra ID Security Group from PMPC Cloud:
 You need to have at least one user or Entra ID Security Group assigned the **Full Admin with Access Management** user role at all times. You will be unable to delete an Entra ID Security Group assigned this role unless you have either one other user or Entra ID Security Group assigned this role.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (2236).png" alt="Clicking the trashcan beside the relevant Entra group you want to delete"><figcaption></figcaption></figure>
+![Clicking the trashcan beside the relevant Entra group you want to delete](../../../../_images/image%20%282236%29.png%20"Clicking%20the%20trashcan%20beside%20the%20relevant%20Entra%20group%20you%20want%20to%20delete")
 
 4. On the **Are you sure you want to delete <**_**group\_name**_**>** dialog box, click **Yes** to confirm the removal.
 
-<figure><img src="../../../../.gitbook/assets/image (2237).png" alt="Clicking “Yes” to confirm the deletion on the “Are you sure you want to delete <group_name>” dialog box" width="451"><figcaption></figcaption></figure>
+![](../../../../_images/image%20%282237%29.png%20"")
 
 \
 The portal auto-refreshes to show the group has been removed and the **Success – Group deleted** notification is shown.
 
-<figure><img src="../../../../.gitbook/assets/image (2238).png" alt="Portal auto-refreshing to show the group has been removed and the “Success – Group deleted” notification is shown"><figcaption></figcaption></figure>
+![Portal auto-refreshing to show the group has been removed and the “Success – Group deleted” notification is shown](../../../../_images/image%20%282238%29.png%20"Portal%20auto-refreshing%20to%20show%20the%20group%20has%20been%20removed%20and%20the%20\"Success%20–%20Group%20deleted\"%20notification%20is%20shown")
 
 When you remove an Entra ID Security Group, the **Group Role Removed** event is written to the **Events** node.

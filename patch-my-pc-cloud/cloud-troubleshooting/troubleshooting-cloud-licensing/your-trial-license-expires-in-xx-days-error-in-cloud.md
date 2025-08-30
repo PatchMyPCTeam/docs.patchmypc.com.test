@@ -8,7 +8,7 @@ When signing into the Patch My PC (PMPC) Cloud portal, I see the following notif
 
 **Your trial license expires in xx days. To keep using the app, choose:** [**Request a Quote**](https://patchmypc.com/request-quote#overview) **or Enter License.**
 
-<figure><img src="../../../.gitbook/assets/image (1517).png" alt="“Your trial license expires in xx days” message "><figcaption></figcaption></figure>
+![“Your trial license expires in xx days” message](../../../_images/image%20%281517%29.png%20"\"Your%20trial%20license%20expires%20in%20xx%20days\"%20message")
 
 ### CAUSE
 

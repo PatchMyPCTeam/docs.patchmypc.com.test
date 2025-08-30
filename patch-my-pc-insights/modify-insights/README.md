@@ -24,16 +24,16 @@ If the install executable version that was originally used to deploy Advanced In
 
 Click **'Modify'**
 
-<figure><img src="../../.gitbook/assets/image (716).png" alt=""><figcaption><p>Advanced Insights - Add - Remove Programs entry.</p></figcaption></figure>
+![](../../_images/image%20%28716%29.png%20"Advanced%20Insights%20-%20Add%20-%20Remove%20Programs%20entry.")
 
 Click **'Yes'**
 
-<figure><img src="../../.gitbook/assets/image (717).png" alt=""><figcaption><p>UAC Prompt</p></figcaption></figure>
+![](../../_images/image%20%28717%29.png%20"UAC%20Prompt")
 
 Click **'Modify'**
 
-<figure><img src="../../.gitbook/assets/image (718).png" alt=""><figcaption><p>Advanced Insights installer maintenance dialog</p></figcaption></figure>
+![](../../_images/image%20%28718%29.png%20"Advanced%20Insights%20installer%20maintenance%20dialog")
 
 Select the required modification option checkbox to enable the related 'Change' button
 
-<figure><img src="../../.gitbook/assets/vmconnect_w0AaMZPkHy.png" alt=""><figcaption><p>Advanced Insights - Configuration Modification page.</p></figcaption></figure>
+![](../../_images/vmconnect_w0AaMZPkHy.png%20"Advanced%20Insights%20-%20Configuration%20Modification%20page.")

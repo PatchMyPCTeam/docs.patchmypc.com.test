@@ -24,15 +24,15 @@ If you want to change the SSL certificate to a server host name only type, selec
 
 In the configuration modification page, select the checkbox for 'SSL Certificate' then click 'Change Certificate':
 
-<figure><img src="../../.gitbook/assets/vmconnect_KN0zxDuJp8.png" alt=""><figcaption></figcaption></figure>
+![](../../_images/vmconnect_KN0zxDuJp8.png%20"")
 
 Use the drop down list to select the SSL certificate which represents the CNAME / Alias you wish to use.
 
-<figure><img src="../../.gitbook/assets/image (1654).png" alt=""><figcaption><p>Certificate selection dialog</p></figcaption></figure>
+![](../../_images/image%20%281654%29.png%20"Certificate%20selection%20dialog")
 
 With the appropriate SSL certificate selected, click **'Set CNAME / Alias'**
 
-<figure><img src="../../.gitbook/assets/image (1655).png" alt=""><figcaption><p>Certificate selection dialog</p></figcaption></figure>
+![](../../_images/image%20%281655%29.png%20"Certificate%20selection%20dialog")
 
 In the set CNAME / Alias dialog page, the dialog will be prepopulated with a value for the CNAME / Alias based upon the selected certificated.
 
@@ -40,22 +40,22 @@ Modify the prepopulated URL value if required.
 
 Click **'Set CNAME / Alias'**
 
-<figure><img src="../../.gitbook/assets/vmconnect_3ZByUA7acq (1).png" alt=""><figcaption><p>Set CNAME / Alias dialog</p></figcaption></figure>
+![](../../_images/vmconnect_3ZByUA7acq%20%281%29.png%20"Set%20CNAME%20/%20Alias%20dialog")
 
 Click **'Next'**
 
-<figure><img src="../../.gitbook/assets/image (1656).png" alt=""><figcaption><p>Certificate selection dialog - CNAME / Alias set confirmed</p></figcaption></figure>
+![](../../_images/image%20%281656%29.png%20"Certificate%20selection%20dialog%20-%20CNAME%20/%20Alias%20set%20confirmed")
 
 Click **'Install'**
 
-<figure><img src="../../.gitbook/assets/vmconnect_KN0zxDuJp8 (2).png" alt=""><figcaption><p>Certificate Modification option dialog</p></figcaption></figure>
+![](../../_images/vmconnect_KN0zxDuJp8%20%282%29.png%20"Certificate%20Modification%20option%20dialog")
 
 The installer will make the required configuration changes and display a summary once complete.
 
 Click **'Finish'**
 
-<figure><img src="../../.gitbook/assets/image (1658).png" alt=""><figcaption><p>Certificate modification completion</p></figcaption></figure>
+![](../../_images/image%20%281658%29.png%20"Certificate%20modification%20completion")
 
 New Advanced Insights URL
 
-<figure><img src="../../.gitbook/assets/vmconnect_hyyumsMyOf.png" alt=""><figcaption><p>New Advanced Insights URL</p></figcaption></figure>
+![](../../_images/vmconnect_hyyumsMyOf.png%20"New%20Advanced%20Insights%20URL")

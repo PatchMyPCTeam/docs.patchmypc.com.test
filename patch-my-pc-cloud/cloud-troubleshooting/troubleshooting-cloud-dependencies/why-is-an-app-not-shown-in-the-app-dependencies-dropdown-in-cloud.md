@@ -6,7 +6,7 @@ _Applies to: Patch My PC Cloud_
 
 I am trying to use the _App Dependencies_ feature of Patch My PC (PMPC) Cloud, but when I click on the **App Dependencies** dropdown, I do not see the app I need to ensure is installed on the device before the app I am trying to deploy.
 
-<figure><img src="../../../.gitbook/assets/image (2274).png" alt="Required app missing from the “App Dependencies” dropdown"><figcaption></figcaption></figure>
+![Required app missing from the “App Dependencies” dropdown](../../../_images/image%20%282274%29.png%20"Required%20app%20missing%20from%20the%20\"App%20Dependencies\"%20dropdown")
 
 ### CAUSE
 

@@ -14,7 +14,7 @@ To delete a user from the Patch My PC (PMPC) Cloud portal:
 2.  Click the trashcan beside the relevant user you want to delete.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (781).png" alt="Clicking the trashcan beside the user to be deleted"><figcaption></figcaption></figure>
+    ![Clicking the trashcan beside the user to be deleted](../../../_images/image%20%28781%29.png%20"Clicking%20the%20trashcan%20beside%20the%20user%20to%20be%20deleted")
 3. Click **Yes** on the **Are you sure you want to delete&#x20;**_**username**_ to confirm the deletion.
 
 {% hint style="info" %}
@@ -27,8 +27,8 @@ If you try deleting your own account, you will see the **Are you sure you want t
 Only click **Yes** if you are sure you want to revoke your own access.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (782).png" alt="Clicking “Yes” to confirm the deletion of the user"><figcaption></figcaption></figure>
+![Clicking “Yes” to confirm the deletion of the user](../../../_images/image%20%28782%29.png%20"Clicking%20\"Yes\"%20to%20confirm%20the%20deletion%20of%20the%20user")
 
 The user is deleted and the **Success - User deleted** notification is shown.
 
-<figure><img src="../../../.gitbook/assets/image (729).png" alt="Confirmation of the user being deleted"><figcaption></figcaption></figure>
+![Confirmation of the user being deleted](../../../_images/image%20%28729%29.png%20"Confirmation%20of%20the%20user%20being%20deleted")

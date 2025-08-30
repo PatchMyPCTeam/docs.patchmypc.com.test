@@ -20,13 +20,13 @@ To configure who receives new version notifications:
 1.  If you still have the **“<**_**app\_name**_**>” Upload file** screen open, click **Back**, otherwise search for the app in the App Catalog and click it to open its properties screen.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2051).png" alt="Clicking “Back” on the “<app_name> Upload file” screen"><figcaption></figcaption></figure>
+    ![](../../_images/image%20%282051%29.png%20"")
 
 
 2.  On the app’s properties page, click **New Version Notifications**.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2052).png" alt="Clicking “New Version Notifications”"><figcaption></figcaption></figure>
+    ![Clicking “New Version Notifications”](../../_images/image%20%282052%29.png%20"Clicking%20\"New%20Version%20Notifications\"")
 
 
 3.  On the **“**_**\<app-name>”**_**&#x20;Version Notifications** screen, decide whether you want to:\
@@ -39,34 +39,34 @@ To configure who receives new version notifications:
     \
 
 
-    <figure><img src="../../.gitbook/assets/image (2053).png" alt="“<app-name> Version Notifications” screen "><figcaption></figcaption></figure>
+    ![](../../_images/image%20%282053%29.png%20"")
 
 
 4. If you want to select either **Notify All Users in Company** or **Don’t Notify** any users, select the relevant option then go to Step 8.
 5.  If you want to **Notify Specific Users**, select this option.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2054).png" alt="Selecting “Notify Specific Users”"><figcaption></figcaption></figure>
+    ![Selecting “Notify Specific Users”](../../_images/image%20%282054%29.png%20"Selecting%20\"Notify%20Specific%20Users\"")
 
 
 6.  Select the relevant email address of the portal users you want to notify from the **User Email** dropdown, then click **Add New Email**.\
     \
 
 
-    <figure><img src="../../.gitbook/assets/image (2055).png" alt="Selecting the relevant email address from the “User Email” dropdown, then clicking “Add New Email”"><figcaption></figcaption></figure>
+    ![Selecting the relevant email address from the “User Email” dropdown, then clicking “Add New Email”](../../_images/image%20%282055%29.png%20"Selecting%20the%20relevant%20email%20address%20from%20the%20\"User%20Email\"%20dropdown,%20then%20clicking%20\"Add%20New%20Email\"")
 
 
 7.  If the user is not listed on the **User Email** dropdown, enter their email address, press `ENTER`, then click **Add New Email** to add them to the notification list.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2056).png" alt="Adding a new email address to receive the notification"><figcaption></figcaption></figure>
+    ![Adding a new email address to receive the notification](../../_images/image%20%282056%29.png%20"Adding%20a%20new%20email%20address%20to%20receive%20the%20notification")
 
     \
     The user is added to the notification list.\
     \
 
 
-    <figure><img src="../../.gitbook/assets/image (2057).png" alt="User added to the notification list"><figcaption></figcaption></figure>
+    ![User added to the notification list](../../_images/image%20%282057%29.png%20"User%20added%20to%20the%20notification%20list")
 
 {% hint style="success" %}
 **Tip**
@@ -78,13 +78,13 @@ Click the trashcan beside a user to remove them from the notification list.
     \
 
 
-    <figure><img src="../../.gitbook/assets/image (2058).png" alt="Clicking “Save”"><figcaption></figcaption></figure>
+    ![Clicking “Save”](../../_images/image%20%282058%29.png%20"Clicking%20\"Save\"")
 
     \
     The portal refreshes back to the **App Catalog** and the **Success – Your changes have been successfully saved** notification is displayed.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2059).png" alt="“Success – Your changes have been successfully saved” notification"><figcaption></figcaption></figure>
+    ![“Success – Your changes have been successfully saved” notification](../../_images/image%20%282059%29.png%20"\"Success%20–%20Your%20changes%20have%20been%20successfully%20saved\"%20notification")
 
 
 

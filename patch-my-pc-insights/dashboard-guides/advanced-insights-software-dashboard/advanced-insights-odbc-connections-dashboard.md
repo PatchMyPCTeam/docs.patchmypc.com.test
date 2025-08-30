@@ -12,6 +12,6 @@ The ODBC Connections data on this page requires the deployment of the  [Advanced
 
 
 
-<figure><img src="../../../.gitbook/assets/image (2160).png" alt=""><figcaption><p>Configured Open Database Connectivity Connections</p></figcaption></figure>
+![](../../../_images/image%20%282160%29.png%20"Configured%20Open%20Database%20Connectivity%20Connections")
 
 This dashboard will display all the Open Database Connectivity (ODBC) connections reported.  We can see the name of the Computer, DataSource name, Server name, Database and Driver version.

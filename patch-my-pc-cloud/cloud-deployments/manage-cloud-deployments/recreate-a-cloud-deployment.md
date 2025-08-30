@@ -9,23 +9,23 @@ To recreate a deployment:
 1.  From the **Deployments** page, click the ellipsis (**⋮**) beside the relevant deployment you want to recreate and click **Recreate**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2013).png" alt="Clicking the ellipsis beside a deployment and selecting “Recreate”"><figcaption></figcaption></figure>
+    ![Clicking the ellipsis beside a deployment and selecting “Recreate”](../../../_images/image%20%282013%29.png%20"Clicking%20the%20ellipsis%20beside%20a%20deployment%20and%20selecting%20\"Recreate\"")
 2.  On the **Are you sure you want to recreate <**_**deployment\_name**_**>** dialog box, click **Yes**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1681).png" alt="Click “Yes” on the “Are you sure you want to recreate <deployment_name>” dialog box"><figcaption></figcaption></figure>
+    ![](../../../_images/image%20%281681%29.png%20"")
 
     \
     The **Status** of the deployment changes to **In Progress** and the **Recreating the deployment&#x20;**_**\<deployment\_name>**_**&#x20;has started** message is displayed.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1682).png" alt="Change to deployment status and message stating the recreation process has started"><figcaption></figcaption></figure>
+    ![Change to deployment status and message stating the recreation process has started](../../../_images/image%20%281682%29.png%20"Change%20to%20deployment%20status%20and%20message%20stating%20the%20recreation%20process%20has%20started")
 
     \
     Once the deployment has been recreated, the portal auto-refreshes and the **Status** changes to **Success**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1683).png" alt="Portal auto-refreshes to show the deployment has been successfully recreated"><figcaption></figcaption></figure>
+    ![Portal auto-refreshes to show the deployment has been successfully recreated](../../../_images/image%20%281683%29.png%20"Portal%20auto-refreshes%20to%20show%20the%20deployment%20has%20been%20successfully%20recreated")
 
 {% hint style="success" %}
 **Tip**

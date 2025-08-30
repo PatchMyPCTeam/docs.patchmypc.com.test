@@ -28,11 +28,11 @@ At the time of writing, Intune supports a maximum of 51 profiles plus the defaul
 
 2. Click the **ESP Profiles** tool.
 
-<figure><img src="../../../../.gitbook/assets/image (56).png" alt="Clicking the “ESP Profiles” tool" width="563"><figcaption></figcaption></figure>
+![Clicking the “ESP Profiles” tool](../../../../_images/image%20%2856%29.png%20"Clicking%20the%20\"ESP%20Profiles\"%20tool")
 
 3. Scroll down to the **ESP Profiles** section.
 
-<figure><img src="../../../../.gitbook/assets/image (57).png" alt="Scrolling down to the “ESP Profiles” section" width="563"><figcaption></figcaption></figure>
+![Scrolling down to the “ESP Profiles” section](../../../../_images/image%20%2857%29.png%20"Scrolling%20down%20to%20the%20\"ESP%20Profiles\"%20section")
 
 4. In the **Add Profile** field, either:
    1. Start typing the name of the relevant ESP Profile, then click the checkbox beside it to select it.
@@ -43,14 +43,14 @@ At the time of writing, Intune supports a maximum of 51 profiles plus the defaul
 
 If an ESP Profile already contains the maximum of 100 apps, you will be unable to select it from the dropdown. If you hover over it, you'll see the **Total limit reached** tooltip.
 
-!["Total limit reached" tooltip](<../../../../.gitbook/assets/image (235).png>)&#x20;
+!["Total limit reached" tooltip](../../../../_images/image%20%28235).png>)&#x20;
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (58).png" alt="Selecting the ESP Profile to add this deployment to" width="427"><figcaption></figcaption></figure>
+![Selecting the ESP Profile to add this deployment to](../../../../_images/image%20%2858%29.png%20"Selecting%20the%20ESP%20Profile%20to%20add%20this%20deployment%20to")
 
 The selected ESP Profile(s) are added to the **Add Profile** field.
 
-<figure><img src="../../../../.gitbook/assets/image (59).png" alt="Selected ESP Profiles added to the “Add Profile” field" width="425"><figcaption></figcaption></figure>
+![Selected ESP Profiles added to the “Add Profile” field](../../../../_images/image%20%2859%29.png%20"Selected%20ESP%20Profiles%20added%20to%20the%20\"Add%20Profile\"%20field")
 
 {% hint style="success" %}
 **Tip**
@@ -87,4 +87,4 @@ Other important points about ESP Profiles:
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-<figure><img src="../../../../.gitbook/assets/image (60).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page" width="563"><figcaption></figcaption></figure>
+![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](../../../../_images/image%20%2860%29.png%20"Clicking%20&#x22;Next&#x22;%20to%20move%20to%20the%20&#x22;Assignments&#x22;%20page")
