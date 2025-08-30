@@ -20,17 +20,17 @@ To add a Category to a deployment:
 
 1. Click the **Categories** tool.
 
-![Clicking the “Categories” tool](../../../../_images/image%20%2872%29.png%20"Clicking%20the%20\"Categories\"%20tool")
+![Clicking the “Categories” tool](/_images/image-%2872%29.png-"Clicking-the-\"Categories\"-tool" "Clicking the “Categories” tool")
 
 2. Scroll down to the **Categories** section.
 
-![Scrolling down to the &#x22;Categories&#x22; section](../../../../_images/image%20%2873%29.png%20"Scrolling%20down%20to%20the%20&#x22;Categories&#x22;%20section")
+![Scrolling down to the &#x22;Categories&#x22; section](/_images/image-%2873%29.png-"Scrolling-down-to-the-&#x22;Categories&#x22;-section" "Scrolling down to the &#x22;Categories&#x22; section")
 
 3. Go to Step 6. to add a new category or in the **Add Category** field, either:
    1. Start typing the name of the relevant Category, then click the checkbox beside it to select it.
    2. Click the dropdown to see a list of existing Categories and click the relevant checkbox(es) to select it.
 
-![Selecting the checkbox beside the relevant categories](../../../../_images/image%20%2874%29.png%20"Selecting%20the%20checkbox%20beside%20the%20relevant%20categories")
+![Selecting the checkbox beside the relevant categories](/_images/image-%2874%29.png-"Selecting-the-checkbox-beside-the-relevant-categories" "Selecting the checkbox beside the relevant categories")
 
 {% hint style="success" %}
 **Tip**
@@ -53,11 +53,11 @@ You can create up to 200 categories per Intune tenant. Each category name must:
 * Not be the name of a script.
 {% endhint %}
 
-![](../../../../_images/image%20%2875%29.png%20"")
+![](/_images/image-%2875%29.png-"" "")
 
 7. Press `ENTER` and the **Success – The category “<**_**category\_name>**_**” has been created** notification is shown, confirming the new category has been added to both Intune and this deployment.
 
-![](../../../../_images/image%20%2876%29.png%20"")
+![](/_images/image-%2876%29.png-"" "")
 
 {% hint style="info" %}
 **Note**
@@ -75,4 +75,4 @@ Also:
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](../../../../_images/image%20%2877%29.png%20"Clicking%20&#x22;Next&#x22;%20to%20move%20to%20the%20&#x22;Assignments&#x22;%20page")
+![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-%2877%29.png-"Clicking-&#x22;Next&#x22;-to-move-to-the-&#x22;Assignments&#x22;-page" "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")

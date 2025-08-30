@@ -2,6 +2,6 @@
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-![](../../../_images/image%20%28303%29.png%20"Software%20Updates%20dashboard")
+![](/_images/image-%28303%29.png-"Software-Updates-dashboard" "")
 
 This dashboard displays all the software updates and compliance data including superseded updates.  You can also create custom reports by using the search and filter functions on this page.

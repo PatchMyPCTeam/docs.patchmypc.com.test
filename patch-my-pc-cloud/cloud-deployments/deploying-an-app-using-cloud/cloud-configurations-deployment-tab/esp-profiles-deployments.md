@@ -28,11 +28,11 @@ At the time of writing, Intune supports a maximum of 51 profiles plus the defaul
 
 2. Click the **ESP Profiles** tool.
 
-![Clicking the “ESP Profiles” tool](../../../../_images/image%20%2856%29.png%20"Clicking%20the%20\"ESP%20Profiles\"%20tool")
+![Clicking the “ESP Profiles” tool](/_images/image-%2856%29.png-"Clicking-the-\"ESP-Profiles\"-tool" "Clicking the “ESP Profiles” tool")
 
 3. Scroll down to the **ESP Profiles** section.
 
-![Scrolling down to the “ESP Profiles” section](../../../../_images/image%20%2857%29.png%20"Scrolling%20down%20to%20the%20\"ESP%20Profiles\"%20section")
+![Scrolling down to the “ESP Profiles” section](/_images/image-%2857%29.png-"Scrolling-down-to-the-\"ESP-Profiles\"-section" "Scrolling down to the “ESP Profiles” section")
 
 4. In the **Add Profile** field, either:
    1. Start typing the name of the relevant ESP Profile, then click the checkbox beside it to select it.
@@ -43,14 +43,14 @@ At the time of writing, Intune supports a maximum of 51 profiles plus the defaul
 
 If an ESP Profile already contains the maximum of 100 apps, you will be unable to select it from the dropdown. If you hover over it, you'll see the **Total limit reached** tooltip.
 
-!["Total limit reached" tooltip](../../../../_images/image%20%28235).png>)&#x20;
+!["Total limit reached" tooltip](/_images/image-%28235 "\"Total limit reached\" tooltip").png>)&#x20;
 {% endhint %}
 
-![Selecting the ESP Profile to add this deployment to](../../../../_images/image%20%2858%29.png%20"Selecting%20the%20ESP%20Profile%20to%20add%20this%20deployment%20to")
+![Selecting the ESP Profile to add this deployment to](/_images/image-%2858%29.png-"Selecting-the-ESP-Profile-to-add-this-deployment-to" "Selecting the ESP Profile to add this deployment to")
 
 The selected ESP Profile(s) are added to the **Add Profile** field.
 
-![Selected ESP Profiles added to the “Add Profile” field](../../../../_images/image%20%2859%29.png%20"Selected%20ESP%20Profiles%20added%20to%20the%20\"Add%20Profile\"%20field")
+![Selected ESP Profiles added to the “Add Profile” field](/_images/image-%2859%29.png-"Selected-ESP-Profiles-added-to-the-\"Add-Profile\"-field" "Selected ESP Profiles added to the “Add Profile” field")
 
 {% hint style="success" %}
 **Tip**
@@ -87,4 +87,4 @@ Other important points about ESP Profiles:
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](../../../../_images/image%20%2860%29.png%20"Clicking%20&#x22;Next&#x22;%20to%20move%20to%20the%20&#x22;Assignments&#x22;%20page")
+![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-%2860%29.png-"Clicking-&#x22;Next&#x22;-to-move-to-the-&#x22;Assignments&#x22;-page" "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")

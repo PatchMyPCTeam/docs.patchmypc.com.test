@@ -25,13 +25,13 @@ To determine if a specific Update Ring has been created:
     In the following example, **Ring 1** has been created as it has a status of **Success**.\
 
 
-    ![“Ring 1” has been created as it has a status of “Success”.](../../../_images/image%20%28413%29.png%20"\"Ring%201\"%20has%20been%20created%20as%20it%20has%20a%20status%20of%20\"Success\".")
+    ![“Ring 1” has been created as it has a status of “Success”.](/_images/image-%28413%29.png-"\"Ring-1\"-has-been-created-as-it-has-a-status-of-\"Success\"." "“Ring 1” has been created as it has a status of “Success”.")
 
     \
     However, as **Ring 2** has a status of **Scheduled**, it has yet to be created as the configured delay has not passed.\
 
 
-    ![“Ring 2” has a status of Scheduled meaning it has yet to be created as the configured delay has not passed.](../../../_images/image%20%28414%29.png%20"\"Ring%202\"%20has%20a%20status%20of%20Scheduled%20meaning%20it%20has%20yet%20to%20be%20created%20as%20the%20configured%20delay%20has%20not%20passed.")
+    ![“Ring 2” has a status of Scheduled meaning it has yet to be created as the configured delay has not passed.](/_images/image-%28414%29.png-"\"Ring-2\"-has-a-status-of-Scheduled-meaning-it-has-yet-to-be-created-as-the-configured-delay-has-not-passed." "“Ring 2” has a status of Scheduled meaning it has yet to be created as the configured delay has not passed.")
 
 {% hint style="success" %}
 **Tip**

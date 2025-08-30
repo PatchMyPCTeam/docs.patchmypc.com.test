@@ -30,19 +30,19 @@ To edit an existing deployment from the **Deployments** node:
 2.  Click the relevant deployment you want to edit.\
 
 
-    ![Clicking the relevant deployment you want to edit.](../../../_images/image%20%281887%29.png%20"Clicking%20the%20relevant%20deployment%20you%20want%20to%20edit.")
+    ![Clicking the relevant deployment you want to edit.](/_images/image-%281887%29.png-"Clicking-the-relevant-deployment-you-want-to-edit." "Clicking the relevant deployment you want to edit.")
 
 
 3.  On the deployment's property page click **Edit**.
 
 
 
-    ![Clicking &#x22;Edit&#x22; on the deployment&#x27;s property page.](../../../_images/image%20%282010%29.png%20"Clicking%20&#x22;Edit&#x22;%20on%20the%20deployment&#x27;s%20property%20page.")
+    ![Clicking &#x22;Edit&#x22; on the deployment&#x27;s property page.](/_images/image-%282010%29.png-"Clicking-&#x22;Edit&#x22;-on-the-deployment&#x27;s-property-page." "Clicking &#x22;Edit&#x22; on the deployment&#x27;s property page.")
 
     The Deployment Wizard starts.\
 
 
-    ![Deployment Wizard starting.](../../../_images/image%20%281889%29.png%20"Deployment%20Wizard%20starting.")
+    ![Deployment Wizard starting.](/_images/image-%281889%29.png-"Deployment-Wizard-starting." "Deployment Wizard starting.")
 4. Follow the [Deploy an App](../deploying-an-app-using-cloud/) process.
 
 {% hint style="info" %}
@@ -56,7 +56,7 @@ Be mindful of any changes you make, as you are editing the existing deployment, 
 
 You can also edit a deployment from the **Deployments** node by clicking the ellipsis (**⋮**) beside the relevant deployment you want to edit, then click **Edit**.
 
-![Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.](../../../_images/image%20%281891).png>)
+![Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.](/_images/image-%281891 "Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.").png>)
 {% endhint %}
 
 ### Editing a deployment from the App Catalog
@@ -66,18 +66,18 @@ To edit a deployment from the App Catalog:
 1.  Navigate to the **App Catalog** and click on the app whose deployment you wish to edit.\
 
 
-    ![Navigating to the App Catalog and locating the app whose deployment you wish to edit.](../../../_images/image%20%281884%29.png%20"Navigating%20to%20the%20App%20Catalog%20and%20locating%20the%20app%20whose%20deployment%20you%20wish%20to%20edit.")
+    ![Navigating to the App Catalog and locating the app whose deployment you wish to edit.](/_images/image-%281884%29.png-"Navigating-to-the-App-Catalog-and-locating-the-app-whose-deployment-you-wish-to-edit." "Navigating to the App Catalog and locating the app whose deployment you wish to edit.")
 
 {% hint style="success" %}
 **Tip**
 
-Any apps already deployed by Intune Apps have the green cloud icon with a tick (![](../../../_images/image%20%281883).png>)) next to the version number.
+Any apps already deployed by Intune Apps have the green cloud icon with a tick (![](/_images/image-%281883 "").png>)) next to the version number.
 {% endhint %}
 
 2.  Click **Edit Deployment** on the deployment's property page.\
 
 
-    ![Clicking &#x22;Edit Deployment&#x22; on the deployment&#x27;s property page.](../../../_images/image%20%282011%29.png%20"Clicking%20&#x22;Edit%20Deployment&#x22;%20on%20the%20deployment&#x27;s%20property%20page.")
+    ![Clicking &#x22;Edit Deployment&#x22; on the deployment&#x27;s property page.](/_images/image-%282011%29.png-"Clicking-&#x22;Edit-Deployment&#x22;-on-the-deployment&#x27;s-property-page." "Clicking &#x22;Edit Deployment&#x22; on the deployment&#x27;s property page.")
 
 The behavior of the **Edit Deployment** button depends on whether there is at least one existing, successful deployment:
 
@@ -92,7 +92,7 @@ If there is more than one deployment for the same app but any of them are in **P
 
 The Deployment Wizard starts.
 
-![Deployment Wizard starting.](../../../_images/image%20%281889%29.png%20"Deployment%20Wizard%20starting.")
+![Deployment Wizard starting.](/_images/image-%281889%29.png-"Deployment-Wizard-starting." "Deployment Wizard starting.")
 
 3. Follow the [Deploy an App](../deploying-an-app-using-cloud/) process.
 

@@ -15,28 +15,28 @@ To add a new PMPC Cloud company to be managed using the MSP Feature:
 1. Sign in to the parent company where the MSP license has been enabled.
 2.  Click the **MSP Customers** node.
 
-    ![Clicking the “MSP Customers” node](../../../../_images/image%20%282074%29.png%20"Clicking%20the%20\"MSP%20Customers\"%20node")
+    ![Clicking the “MSP Customers” node](/_images/image-%282074%29.png-"Clicking-the-\"MSP-Customers\"-node" "Clicking the “MSP Customers” node")
 
 
 3.  On the **MSP Customers** page, click **Add Customer**.
 
-    ![Clicking “Add Customer”](../../../../_images/image%20%282075%29.png%20"Clicking%20\"Add%20Customer\"")
+    ![Clicking “Add Customer”](/_images/image-%282075%29.png-"Clicking-\"Add-Customer\"" "Clicking “Add Customer”")
 
 
 4.  Click **Connect** under the **Intune Connection** section.
 
-    ![Clicking &#x22;Connect&#x22; under the &#x22;Intune Connection&#x22; section of the &#x22;Create New Customer&#x22; screen.](../../../../_images/image%20%282301%29.png%20"Clicking%20&#x22;Connect&#x22;%20under%20the%20&#x22;Intune%20Connection&#x22;%20section%20of%20the%20&#x22;Create%20New%20Customer&#x22;%20screen.")
+    ![Clicking &#x22;Connect&#x22; under the &#x22;Intune Connection&#x22; section of the &#x22;Create New Customer&#x22; screen.](/_images/image-%282301%29.png-"Clicking-&#x22;Connect&#x22;-under-the-&#x22;Intune-Connection&#x22;-section-of-the-&#x22;Create-New-Customer&#x22;-screen." "Clicking &#x22;Connect&#x22; under the &#x22;Intune Connection&#x22; section of the &#x22;Create New Customer&#x22; screen.")
 
 
 5.  On the **Sign in** screen, enter the Entra ID that is a Global Admin in the child company or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.\
 
 
-    ![“Sign in” screen](../../../../_images/image%20%282078%29.png%20"\"Sign%20in\"%20screen")
+    ![“Sign in” screen](/_images/image-%282078%29.png-"\"Sign-in\"-screen" "“Sign in” screen")
 
 
 6.  Enter the password and click **Sign in**.
 
-    ![Entering the password and clicking “Sign in”](../../../../_images/image%20%282079%29.png%20"Entering%20the%20password%20and%20clicking%20\"Sign%20in\"")
+    ![Entering the password and clicking “Sign in”](/_images/image-%282079%29.png-"Entering-the-password-and-clicking-\"Sign-in\"" "Entering the password and clicking “Sign in”")
 
 
 7. On the **Permissions requested** screen, click **Accept**.
@@ -51,7 +51,7 @@ We require these permissions to connect to the child company’s Intune tenant.
 See [Permissions required for the Intune Apps](../../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.
 {% endhint %}
 
-![Clicking “Accept” on the “Permissions requested” page](../../../../_images/image%20%282080%29.png%20"Clicking%20\"Accept\"%20on%20the%20\"Permissions%20requested\"%20page")
+![Clicking “Accept” on the “Permissions requested” page](/_images/image-%282080%29.png-"Clicking-\"Accept\"-on-the-\"Permissions-requested\"-page" "Clicking “Accept” on the “Permissions requested” page")
 
 {% hint style="success" %}
 **Tip**
@@ -62,7 +62,7 @@ You can click the down arrow beside each permission to get more information.
 8.  Verify Intune has **Connected** successfully.\
 
 
-    ![](../../../../_images/image%20%282304%29.png%20"")
+    ![](/_images/image-%282304%29.png-"" "")
 
 
 9. On the **Create New Customer** page, enter the name of the customer to be managed in the **Customer Name** field.
@@ -73,27 +73,27 @@ You can click the down arrow beside each permission to get more information.
 We support the characters **À-ÿ** (which includes characters from the Latin-1 Supplement Unicode block) for customer names.
 {% endhint %}
 
-![Enter the name of the customer in the &#x22;Customer Name&#x22; field](../../../../_images/image%20%282308%29.png%20"Enter%20the%20name%20of%20the%20customer%20in%20the%20&#x22;Customer%20Name&#x22;%20field")
+![Enter the name of the customer in the &#x22;Customer Name&#x22; field](/_images/image-%282308%29.png-"Enter-the-name-of-the-customer-in-the-&#x22;Customer-Name&#x22;-field" "Enter the name of the customer in the &#x22;Customer Name&#x22; field")
 
 10. Click **Terms and Conditions**.\
 
 
-    ![Clicking &#x22;Terms and Conditions&#x22;.](../../../../_images/image%20%282309%29.png%20"Clicking%20&#x22;Terms%20and%20Conditions&#x22;.")
+    ![Clicking &#x22;Terms and Conditions&#x22;.](/_images/image-%282309%29.png-"Clicking-&#x22;Terms-and-Conditions&#x22;." "Clicking &#x22;Terms and Conditions&#x22;.")
 
 
 11. Review the Terms and Conditions, and once you are happy, click the **X** in the top right-hand corner to return to the **Create New Customer** screen.\
 
 
-    ![Reviewing the Terms and Conditions](../../../../_images/image%20%282307%29.png%20"Reviewing%20the%20Terms%20and%20Conditions")
+    ![Reviewing the Terms and Conditions](/_images/image-%282307%29.png-"Reviewing-the-Terms-and-Conditions" "Reviewing the Terms and Conditions")
 
 
 12. Check the **Accept all Terms and conditions** checkbox, then click **Create**.\
 
 
-    ![Accepting the Terms and conditions then clicking &#x22;Create&#x22;.](../../../../_images/image%20%282310%29.png%20"Accepting%20the%20Terms%20and%20conditions%20then%20clicking%20&#x22;Create&#x22;.")
+    ![Accepting the Terms and conditions then clicking &#x22;Create&#x22;.](/_images/image-%282310%29.png-"Accepting-the-Terms-and-conditions-then-clicking-&#x22;Create&#x22;." "Accepting the Terms and conditions then clicking &#x22;Create&#x22;.")
 
 
 
 The portal refreshes, showing the newly added customer and the **Success - Child Customer <**_**customer\_name**_**> created** notification.
 
-![](../../../../_images/image%20%282566%29.png%20"")
+![](/_images/image-%282566%29.png-"" "")

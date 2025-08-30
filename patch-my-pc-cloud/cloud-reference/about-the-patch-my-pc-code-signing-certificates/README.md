@@ -33,7 +33,7 @@ Patch My PC **only** signs helper scripts that we author for certain application
 
 Specifically for Intune detection and requirement scripts, **AgentExecutor.exe** (the Intune client process responsible for calling Win32 app detection or requirement scripts) runs in session 0; it is not visible by the logged on user and PowerShell is awaiting input by the user to accept the code-signing certificate.&#x20;
 
-![](../../../_images/image%20%281832%29.png%20"powershell.exe%20waiting%20for%20user%20input")
+![](/_images/image-%281832%29.png-"powershell.exe-waiting-for-user-input" "")
 
 After 60 minutes, the Intune Management Extension service will timeout and terminate the **powershell.exe** process with the below log entries in the **IntuneManagementExtension.log**.&#x20;
 
@@ -43,7 +43,7 @@ After 60 minutes, the Intune Management Extension service will timeout and termi
 Microsoft do not expose this timeout to be configurable in Intune.
 {% endhint %}
 
-![](../../../_images/image%20%281833%29.png%20"powershell.exe%20being%20terminated%20after%2060%20minutes%20timeout")
+![](/_images/image-%281833%29.png-"powershell.exe-being-terminated-after-60-minutes-timeout" "")
 
 ### Use Case 2: Patch My PC Helper Scripts
 

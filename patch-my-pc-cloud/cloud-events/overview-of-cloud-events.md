@@ -10,7 +10,7 @@ To access the Events node:
 2.  Navigate to **Events**.\
 
 
-    ![Navigating to “Events” to access the Events page](../../_images/image%20%281760%29.png%20"Navigating%20to%20\"Events\"%20to%20access%20the%20Events%20page")
+    ![Navigating to “Events” to access the Events page](/_images/image-%281760%29.png-"Navigating-to-\"Events\"-to-access-the-Events-page" "Navigating to “Events” to access the Events page")
 
 {% hint style="warning" %}
 **Important**
@@ -30,7 +30,7 @@ The **Events** page is then displayed, allowing you to:
 * [Change the number of Events per page](change-the-number-of-cloud-events-per-page.md)
 * [Navigate between pages of Events](navigate-between-pages-of-cloud-events.md)
 
-![The “Events” page](../../_images/image%20%281762%29.png%20"The%20\"Events\"%20page")
+![The “Events” page](/_images/image-%281762%29.png-"The-\"Events\"-page" "The “Events” page")
 
 {% hint style="warning" %}
 **Important**

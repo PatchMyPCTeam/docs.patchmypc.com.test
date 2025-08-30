@@ -12,7 +12,7 @@ I have tried running through the [Recover Your Company](../../cloud-administrati
 
 **Claim Ownership Failed**
 
-![“Error - Claim Ownership Failed”](../../../_images/image%20%281959%29.png%20"\"Error%20-%20Claim%20Ownership%20Failed\"")
+![“Error - Claim Ownership Failed”](/_images/image-%281959%29.png-"\"Error-Claim-Ownership-Failed\"" "“Error - Claim Ownership Failed”")
 
 ### CAUSE
 

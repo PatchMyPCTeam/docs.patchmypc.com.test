@@ -10,7 +10,7 @@ I am trying to upload the application file for a Patch My PC (PMPC) Cloud Binary
 
 **Unable to verify the file you are trying to upload. Please ensure you have uploaded the correct file.**
 
-![“Unable to verify the file you are trying to upload. Please ensure you have uploaded the correct file” error when uploading a Binary Free App](../../../_images/image%20%282048%29.png%20"\"Unable%20to%20verify%20the%20file%20you%20are%20trying%20to%20upload.%20Please%20ensure%20you%20have%20uploaded%20the%20correct%20file\"%20error%20when%20uploading%20a%20Binary%20Free%20App")
+![“Unable to verify the file you are trying to upload. Please ensure you have uploaded the correct file” error when uploading a Binary Free App](/_images/image-%282048%29.png-"\"Unable-to-verify-the-file-you-are-trying-to-upload.-Please-ensure-you-have-uploaded-the-correct-file\"-error-when-uploading-a-Binary-Free-App" "“Unable to verify the file you are trying to upload. Please ensure you have uploaded the correct file” error when uploading a Binary Free App")
 
 ### CAUSE
 

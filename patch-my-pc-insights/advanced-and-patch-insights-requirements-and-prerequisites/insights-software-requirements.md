@@ -34,9 +34,9 @@ For an existing IIS Server - 'OPTIONS' HTTP Verb **must not be BLOCKED at server
 
 The following is an example of 'OPTIONS' HTTP Verb **'Not allowed'** This configuration will prevent the Advanced Insights install from completing successfully.
 
-![](../../_images/vmconnect_OBXSaNs8bz.png%20"IIS%20Admin%20Console")
+![](/_images/vmconnect_OBXSaNs8bz.png-"IIS-Admin-Console" "")
 
-![](../../_images/vmconnect_4TA8FfVlNk.png%20"'OPTIONS'%20HTTP%20Verb%20eq.%20False")
+![](/_images/vmconnect_4TA8FfVlNk.png-"'OPTIONS'-HTTP-Verb-eq.-False" "")
 
 {% hint style="info" %}
 If 'OPTIONS' HTTP verb is present at the IIS Server level and **'Allowed'** value set to **'False',** remove this item and re-run the Advanced Insights installer.

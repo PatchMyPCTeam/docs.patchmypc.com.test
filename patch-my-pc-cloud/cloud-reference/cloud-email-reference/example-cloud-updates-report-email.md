@@ -8,4 +8,4 @@ The email is sent from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com)
 
 An example is shown below.
 
-![Example “Updates Report” email](../../../_images/image%20%28363%29.png%20"Example%20\"Updates%20Report\"%20email")
+![Example “Updates Report” email](/_images/image-%28363%29.png-"Example-\"Updates-Report\"-email" "Example “Updates Report” email")

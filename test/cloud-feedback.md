@@ -8,19 +8,19 @@ To help us gather feedback, we have implemented a feedback mechanism into some w
 
 If feedback has been enabled for a workflow, the first time you complete that workflow, the **Rate Your Experience** popup is included as part of the usual notification.
 
-![“Rate Your Experience” notification](../_images/0.png)
+![“Rate Your Experience” notification](/_images/0.png "“Rate Your Experience” notification")
 
-![“Rate Your Experience” notification](../_images/image%20%282721%29.png%20"\"Rate%20Your%20Experience\"%20notification")
+![“Rate Your Experience” notification](/_images/image-%282721%29.png-"\"Rate-Your-Experience\"-notification" "“Rate Your Experience” notification")
 
 Click on the relevant smiley to indicate your feelings about the workflow. Then provide your comments/feedback, and optionally check the **You can contact me regarding my feedback** checkbox.
 
 Finally, click the green paper airplane icon to send your feedback.
 
-![Providing comments and submitting feedback](../_images/image%20%282722%29.png%20"Providing%20comments%20and%20submitting%20feedback")
+![Providing comments and submitting feedback](/_images/image-%282722%29.png-"Providing-comments-and-submitting-feedback" "Providing comments and submitting feedback")
 
 You will then see the **Thank You** notification thanking you for your feedback
 
-![“Thank You” notification](../_images/image%20%282723%29.png%20"\"Thank%20You\"%20notification")
+![“Thank You” notification](/_images/image-%282723%29.png-"\"Thank-You\"-notification" "“Thank You” notification")
 
 {% hint style="info" %}
 **Note**
@@ -40,17 +40,17 @@ To help us gather feedback, we have implemented a feedback mechanism into some w
 
 If feedback has been enabled for a workflow, the first time you complete that workflow, the **Rate Your Experience** popup is included as part of the usual notification.
 
-![“Rate Your Experience” notification](../_images/image%20%282721%29.png%20"\"Rate%20Your%20Experience\"%20notification")
+![“Rate Your Experience” notification](/_images/image-%282721%29.png-"\"Rate-Your-Experience\"-notification" "“Rate Your Experience” notification")
 
 Click on the relevant smiley to indicate your feelings about the workflow. Then provide your comments/feedback, and optionally check the **You can contact me regarding my feedback** checkbox.
 
 Finally, click the green paper airplane icon to send your feedback.
 
-![Providing comments and submitting feedback](../_images/image%20%282722%29.png%20"Providing%20comments%20and%20submitting%20feedback")
+![Providing comments and submitting feedback](/_images/image-%282722%29.png-"Providing-comments-and-submitting-feedback" "Providing comments and submitting feedback")
 
 You will then see the **Thank You** notification thanking you for your feedback
 
-![“Thank You” notification](../_images/image%20%282723%29.png%20"\"Thank%20You\"%20notification")
+![“Thank You” notification](/_images/image-%282723%29.png-"\"Thank-You\"-notification" "“Thank You” notification")
 
 {% hint style="info" %}
 **Note**

@@ -37,7 +37,7 @@ To add a script:
 
 1. Click the **Scripts** tab to expose the configurable settings.
 
-![Clicking the &#x22;Scripts&#x22; tab to expose the configurable settings](../../../../../_images/image%20%282603%29.png%20"Clicking%20the%20&#x22;Scripts&#x22;%20tab%20to%20expose%20the%20configurable%20settings")
+![Clicking the &#x22;Scripts&#x22; tab to expose the configurable settings](/_images/image-%282603%29.png-"Clicking-the-&#x22;Scripts&#x22;-tab-to-expose-the-configurable-settings" "Clicking the &#x22;Scripts&#x22; tab to expose the configurable settings")
 
 2. Click **Add** beside the relevant script option to add a script, then configure the required settings as per the relevant articles:
 

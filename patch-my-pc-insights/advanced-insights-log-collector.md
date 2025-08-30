@@ -27,7 +27,7 @@ This ZIP should be shared with Patch My PC technical support.
 _Example output:_
 {% endhint %}
 
-![](../_images/image%20%281926%29.png%20"Advanced%20Insights%20log%20collection%20output.")
+![](/_images/image-%281926%29.png-"Advanced-Insights-log-collection-output." "")
 
 **This page provides details about what information the AdvancedInsightsLogDiag.exe collects.**
 
@@ -37,7 +37,7 @@ The contents of the following directory are collected, which consist of the 'Adv
 
 C:\ProgramData\AdvancedInsights\Logs
 
-![](../_images/image%20%281924%29.png%20"Advanced%20Insights%20default%20logging%20directory")
+![](/_images/image-%281924%29.png-"Advanced-Insights-default-logging-directory" "")
 
 ### Windows Application Event Log
 

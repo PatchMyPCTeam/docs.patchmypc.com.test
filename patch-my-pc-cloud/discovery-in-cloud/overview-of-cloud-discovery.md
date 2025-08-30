@@ -46,7 +46,7 @@ Also, when our scan runs, no event is written to the Events node.
 
 Any matching apps are shown on the relevant tab of the **Discovery** node.
 
-![Populated “Discovery” node](../../_images/image%20%28415%29.png%20"Populated%20\"Discovery\"%20node")
+![Populated “Discovery” node](/_images/image-%28415%29.png-"Populated-\"Discovery\"-node" "Populated “Discovery” node")
 
 {% hint style="success" %}
 **Tip**

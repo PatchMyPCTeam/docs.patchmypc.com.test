@@ -39,20 +39,20 @@ To deploy an app using PMPC Cloud:
 Use the **Search** field to help you locate the app.
 {% endhint %}
 
-![“App Catalog” page](../../../_images/image%20%28193%29.png%20"\"App%20Catalog\"%20page")
+![“App Catalog” page](/_images/image-%28193%29.png-"\"App-Catalog\"-page" "“App Catalog” page")
 
 {% hint style="info" %}
 **Note**
 
 If an app (for example, the Windows version of Slack) has multiple versions available for different variants/installer types, the App Catalog shows the total number of available versions. If you hover your mouse over this, you can see the list of variants grouped accordingly. Only that version will be displayed if a single version is available for all variants.
 
-![Total number of available variants](../../../_images/image%20%282471).png>)
+![Total number of available variants](/_images/image-%282471 "Total number of available variants").png>)
 {% endhint %}
 
 3.  Click the app to open its properties.\
 
 
-    ![Application’s “Properties” page](../../../_images/image%20%28194%29.png%20"Application’s%20\"Properties\"%20page")
+    ![Application’s “Properties” page](/_images/image-%28194%29.png-"Application’s-\"Properties\"-page" "Application’s “Properties” page")
 
 
 4. Click **Deploy** to start the Deployment Wizard.
@@ -65,6 +65,6 @@ If the app you are deploying is also supported for macOS, you will see a separat
 Also, if the app you are deploying is already published by our on-premises Publisher, you will see the **This app is already deployed** warning dialog stating that deploying the same app through both Publisher and PMPC Cloud can cause potential issues if there are differences between the deployment configurations. We therefore strongly recommend you only deploy an app through either Publisher PMPC Cloud to avoid such issues.
 {% endhint %}
 
-![Click &#x22;Deploy&#x22; to start the Deployment Wizard](../../../_images/image%20%28195%29.png%20"Click%20&#x22;Deploy&#x22;%20to%20start%20the%20Deployment%20Wizard")
+![Click &#x22;Deploy&#x22; to start the Deployment Wizard](/_images/image-%28195%29.png-"Click-&#x22;Deploy&#x22;-to-start-the-Deployment-Wizard" "Click &#x22;Deploy&#x22; to start the Deployment Wizard")
 
 The [General Information](cloud-general-information-deployment-tab.md) tab is displayed, which needs to be completed.

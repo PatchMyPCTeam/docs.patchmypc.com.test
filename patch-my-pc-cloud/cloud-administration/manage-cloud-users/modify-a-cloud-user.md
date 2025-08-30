@@ -18,13 +18,13 @@ To modify the role assigned to a user:
     \
 
 
-    ![Selecting the required user role from the list of roles dropdown](../../../_images/image%20%282118%29.png%20"Selecting%20the%20required%20user%20role%20from%20the%20list%20of%20roles%20dropdown")
+    ![Selecting the required user role from the list of roles dropdown](/_images/image-%282118%29.png-"Selecting-the-required-user-role-from-the-list-of-roles-dropdown" "Selecting the required user role from the list of roles dropdown")
 
     \
     The role for the user will be updated and the **Success - Role changed** notification is displayed.\
 
 
-    ![“Success - Role changed” notification](../../../_images/image%20%281648%29.png%20"\"Success%20-%20Role%20changed\"%20notification")
+    ![“Success - Role changed” notification](/_images/image-%281648%29.png-"\"Success-Role-changed\"-notification" "“Success - Role changed” notification")
 
 {% hint style="info" %}
 **Note**
@@ -40,13 +40,13 @@ To manage whether a user is granted the **Access Management** privilege:
 2.  In the **Roles** column, slide the **Access Management** slider to the right for the user you want to grant this permission.\
 
 
-    ![Using the slider to grant “Access Management” privileges](../../../_images/image%20%281649%29.png%20"Using%20the%20slider%20to%20grant%20\"Access%20Management\"%20privileges")
+    ![Using the slider to grant “Access Management” privileges](/_images/image-%281649%29.png-"Using-the-slider-to-grant-\"Access-Management\"-privileges" "Using the slider to grant “Access Management” privileges")
 
     \
     The **Success - Role changed** notification is displayed.\
 
 
-    ![The “Success - Role changed&#x22; notification](../../../_images/image%20%281650%29.png%20"The%20\"Success%20-%20Role%20changed&#x22;%20notification")
+    ![The “Success - Role changed&#x22; notification](/_images/image-%281650%29.png-"The-\"Success-Role-changed&#x22;-notification" "The “Success - Role changed&#x22; notification")
 
 {% hint style="info" %}
 **Note**
@@ -55,7 +55,7 @@ To revoke this privilege, slide the **Access Management** slider to the left. If
 
 If you try revoking it for yourself and there is at least one other user account with this privilege, you will see the following dialog box warning you that if you revoke access management you will be unable to manage user accounts in the portal.
 
-!["Are you sure you want to revoke access management from your account" pop up](../../../_images/image%20%281759).png>)&#x20;
+!["Are you sure you want to revoke access management from your account" pop up](/_images/image-%281759 "\"Are you sure you want to revoke access management from your account\" pop up").png>)&#x20;
 {% endhint %}
 
 {% hint style="warning" %}
