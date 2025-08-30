@@ -7,23 +7,23 @@ To onboard to Patch My PC (PMPC) Cloud:
 1. Navigate to [https://portal.patchmypc.com/](https://portal.patchmypc.com/)
 2. Click **Sign Up**.
 
-![Click “Sign Up” on the Patch My PC Portal page](/_images/image-%281363%29.png-"Click-\"Sign-Up\"-on-the-Patch-My-PC-Portal-page" "Click “Sign Up” on the Patch My PC Portal page")
+![Click “Sign Up” on the Patch My PC Portal page](/_images/image-(1363).png "Click “Sign Up” on the Patch My PC Portal page")
 
 3. On the **Sign in** screen, enter the Entra ID you want to use to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.
 
-![Microsoft “Sign in” screen](/_images/image-%281364%29.png-"Microsoft-\"Sign-in\"-screen" "Microsoft “Sign in” screen")
+![Microsoft “Sign in” screen](/_images/image-(1364).png "Microsoft “Sign in” screen")
 
 4. Enter the password and click **Sign in**.
 
-![Microsoft “Enter password” screen](/_images/image-%281365%29.png-"Microsoft-\"Enter-password\"-screen" "Microsoft “Enter password” screen")
+![Microsoft “Enter password” screen](/_images/image-(1365).png "Microsoft “Enter password” screen")
 
 5. If the **Permission requested** screen is not displayed, go to Step 7.
 
-![](/_images/image-%281506%29.png-"" "")
+![](/_images/image-(1506).png "")
 
 6. Review the **Permission requested** screen, clicking **Accept** if you are happy to continue.
 
-![“Permissions requested” dialog box](/_images/image-%281366%29.png-"\"Permissions-requested\"-dialog-box" "“Permissions requested” dialog box")
+![“Permissions requested” dialog box](/_images/image-(1366).png "“Permissions requested” dialog box")
 
 {% hint style="info" %}
 **Note**
@@ -49,25 +49,25 @@ You can click the down arrow beside each permission to get more information.
 
 7. If you do not see the **Select the Company You Want to Sign-In To** screen, go to Step 9.
 
-![&#x22;Select the Company You Want to Sign-In To&#x22; screen](/_images/image-%28535%29.png-"&#x22;Select-the-Company-You-Want-to-Sign-In-To&#x22;-screen" "&#x22;Select the Company You Want to Sign-In To&#x22; screen")
+![&#x22;Select the Company You Want to Sign-In To&#x22; screen](/_images/image-(535).png "&#x22;Select the Company You Want to Sign-In To&#x22; screen")
 
 8.  On the **Select the Company You Want to Sign-In To** screen, select the relevant option:
 
     1.  If you are setting up a new company, click **Create Company** and continue to Step 9.\
 
 
-        ![Clicking “Create Company” to create a new company](/_images/image-%28536%29.png-"Clicking-\"Create-Company\"-to-create-a-new-company" "Clicking “Create Company” to create a new company")
+        ![Clicking “Create Company” to create a new company](/_images/image-(536).png "Clicking “Create Company” to create a new company")
 
 
     2.  If your email address has already been used to create a user in a PMPC Cloud company, you will see **Select** beside the relevant companies that you can sign in to.\
 
 
-        ![Clcking &#x22;Select&#x22; beside the company you want to sign in to.](/_images/image-%2820%29.png-"Clcking-&#x22;Select&#x22;-beside-the-company-you-want-to-sign-in-to." "Clcking &#x22;Select&#x22; beside the company you want to sign in to.")
+        ![Clcking &#x22;Select&#x22; beside the company you want to sign in to.](/_images/image-(20).png "Clcking &#x22;Select&#x22; beside the company you want to sign in to.")
 
 
     3. If your email address is not associated with a user in a PMPC Cloud company, you can click **Request Access** beside the company you want to join.
 
-    ![](/_images/image-%28538%29.png-"" "")
+    ![](/_images/image-(538).png "")
 
     \
     The **Request Access to join&#x20;**_**\<company\_name>**_ popup appears.\
@@ -79,7 +79,7 @@ You can click the down arrow beside each permission to get more information.
     The **Request Access** text changes to **Renotify** and the **Success - Access request sent** notification is shown. \
 
 
-    ![The “Success – Access request sent” notification is displayed](/_images/image-%281632%29.png-"The-\"Success-–-Access-request-sent\"-notification-is-displayed" "The “Success – Access request sent” notification is displayed")
+    ![The “Success – Access request sent” notification is displayed](/_images/image-(1632).png "The “Success – Access request sent” notification is displayed")
 
     \
     You now need to wait for a user with the **Full Admin with Access Management** role to review and approve your request.
@@ -98,11 +98,11 @@ Users will receive an email from the [noreply@patchmypc.com](mailto:noreply@patc
 
 9. On the **Company Info** screen, click **Select** for the location where your company’s data will be stored.
 
-![Click “Select” to select the relevant location to store your company data](/_images/image-%28609%29.png-"Click-\"Select\"-to-select-the-relevant-location-to-store-your-company-data" "Click “Select” to select the relevant location to store your company data")
+![Click “Select” to select the relevant location to store your company data](/_images/image-(609).png "Click “Select” to select the relevant location to store your company data")
 
 10. In the **Company Name** field, type your company’s name.
 
-![Type your company’s name in the “Company Name” field](/_images/image-%28610%29.png-"Type-your-company’s-name-in-the-\"Company-Name\"-field" "Type your company’s name in the “Company Name” field")
+![Type your company’s name in the “Company Name” field](/_images/image-(610).png "Type your company’s name in the “Company Name” field")
 
 {% hint style="danger" %}
 **Important**
@@ -112,27 +112,27 @@ You cannot use the AT symbol (**@**), forward slash (**/**) or plus (**+**) symb
 
 11. Select your company’s country from the **Country** dropdown.
 
-![Select your company’s country from the dropdown](/_images/image-%28806%29.png-"Select-your-company’s-country-from-the-dropdown" "Select your company’s country from the dropdown")
+![Select your company’s country from the dropdown](/_images/image-(806).png "Select your company’s country from the dropdown")
 
 12. Click **Continue**.
 
-![Clicking “Continue” on the “Company Info” screen](/_images/image-%28808%29.png-"Clicking-\"Continue\"-on-the-\"Company-Info\"-screen" "Clicking “Continue” on the “Company Info” screen")
+![Clicking “Continue” on the “Company Info” screen](/_images/image-(808).png "Clicking “Continue” on the “Company Info” screen")
 
 13. On the **User Info** screen, verify your **First Name** and **Last Name** are correct, amending as required.
 
-![Verifying your “First Name” and “Last Name” are correct](/_images/image-%28809%29.png-"Verifying-your-\"First-Name\"-and-\"Last-Name\"-are-correct" "Verifying your “First Name” and “Last Name” are correct")
+![Verifying your “First Name” and “Last Name” are correct](/_images/image-(809).png "Verifying your “First Name” and “Last Name” are correct")
 
 14. Click the **Terms and Conditions** link to see these for using PMPC software and services.
 
-![](/_images/image-%28810%29.png-"" "")
+![](/_images/image-(810).png "")
 
 The **Terms and Conditions** page is displayed. Once you’ve reviewed them, click the **X** in the top right-hand corner to close this window.
 
-![“Terms and Conditions” for you using PMPC software and services](/_images/image-%28811%29.png-"\"Terms-and-Conditions\"-for-you-using-PMPC-software-and-services" "“Terms and Conditions” for you using PMPC software and services")
+![“Terms and Conditions” for you using PMPC software and services](/_images/image-(811).png "“Terms and Conditions” for you using PMPC software and services")
 
 15. If you agree with our terms and conditions, check the **Accept all Terms and conditions** checkbox.
 
-![Click to check the “Accept Terms and Conditions” checkbox](/_images/image-%28812%29.png-"Click-to-check-the-\"Accept-Terms-and-Conditions\"-checkbox" "Click to check the “Accept Terms and Conditions” checkbox")
+![Click to check the “Accept Terms and Conditions” checkbox](/_images/image-(812).png "Click to check the “Accept Terms and Conditions” checkbox")
 
 {% hint style="info" %}
 **Note**
@@ -142,11 +142,11 @@ You cannot proceed with the onboarding without checking this checkbox.
 
 16. Click **Continue**.
 
-![Clicking “Continue” on the User Info page](/_images/image-%281509%29.png-"Clicking-\"Continue\"-on-the-User-Info-page" "Clicking “Continue” on the User Info page")
+![Clicking “Continue” on the User Info page](/_images/image-(1509).png "Clicking “Continue” on the User Info page")
 
 The PMPC Portal loads, showing the **App Catalog** page.
 
-![App Catalog page of the PMPC portal](/_images/image-%282700%29.png-"App-Catalog-page-of-the-PMPC-portal" "App Catalog page of the PMPC portal")
+![App Catalog page of the PMPC portal](/_images/image-(2700).png "App Catalog page of the PMPC portal")
 
 {% hint style="info" %}
 **Note**

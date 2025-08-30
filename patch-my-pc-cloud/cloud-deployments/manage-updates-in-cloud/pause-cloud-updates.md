@@ -19,27 +19,27 @@ To Pause Updates for an app:
 {% hint style="success" %}
 **Tip**
 
-Click the filter button (![](/_images/image-%282513 "").png>)) and select the **Disabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that do not have updates paused.&#x20;
+Click the filter button (![](/_images/image-(2513 "").png>)) and select the **Disabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that do not have updates paused.&#x20;
 {% endhint %}
 
-![Clicking on the relevant successful deployment you want to pause for updates](/_images/image-%281788%29.png-"Clicking-on-the-relevant-successful-deployment-you-want-to-pause-for-updates" "Clicking on the relevant successful deployment you want to pause for updates")
+![Clicking on the relevant successful deployment you want to pause for updates](/_images/image-(1788).png "Clicking on the relevant successful deployment you want to pause for updates")
 
 2.  Click the **Pause Updates** slider to enable it.\
 
 
-    ![Clicking the “Pause Updates” slider](/_images/image-%281997%29.png-"Clicking-the-\"Pause-Updates\"-slider" "Clicking the “Pause Updates” slider")
+    ![Clicking the “Pause Updates” slider](/_images/image-(1997).png "Clicking the “Pause Updates” slider")
 
 
 3.  Click the **X** to close the deployment properties page.\
 
 
-    ![Clicking &#x22;X&#x22; to close the deployment properties page.](/_images/image-%281998%29.png-"Clicking-&#x22;X&#x22;-to-close-the-deployment-properties-page." "Clicking &#x22;X&#x22; to close the deployment properties page.")
+    ![Clicking &#x22;X&#x22; to close the deployment properties page.](/_images/image-(1998).png "Clicking &#x22;X&#x22; to close the deployment properties page.")
 
     \
     The list of deployments is displayed and **UPDATES PAUSED** shows under the deployment name so you updates are paused for this specific deployment.\
 
 
-    ![](/_images/image-%281999%29.png-"" "")
+    ![](/_images/image-(1999).png "")
 
 {% hint style="info" %}
 **Note**

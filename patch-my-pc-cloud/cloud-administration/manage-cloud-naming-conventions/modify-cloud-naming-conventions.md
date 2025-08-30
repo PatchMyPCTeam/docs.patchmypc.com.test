@@ -20,22 +20,22 @@ To modify Naming Conventions:
 2.  Click on the relevant tab for the type of apps whose naming convention you want to modify.\
 
 
-    ![Clicking the relevant tab for the type of app to configure](/_images/image-%28662%29.png-"Clicking-the-relevant-tab-for-the-type-of-app-to-configure" "Clicking the relevant tab for the type of app to configure")
+    ![Clicking the relevant tab for the type of app to configure](/_images/image-(662).png "Clicking the relevant tab for the type of app to configure")
 
 
 3. Configure the options as required.
 4.  Click **Save** to save your changes.\
 
 
-    ![Clicking “Save” to save your changes](/_images/image-%28663%29.png-"Clicking-\"Save\"-to-save-your-changes" "Clicking “Save” to save your changes")
+    ![Clicking “Save” to save your changes](/_images/image-(663).png "Clicking “Save” to save your changes")
 
 
 5.  Click **Submit** to save your changes on the **Are you sure** popup.\
 
 
-    ![Clicking “Submit” on the “Are you sure?” popup](/_images/image-%28664%29.png-"Clicking-\"Submit\"-on-the-\"Are-you-sure?\"-popup" "Clicking “Submit” on the “Are you sure?” popup")
+    ![Clicking “Submit” on the “Are you sure?” popup](/_images/image-(664).png "Clicking “Submit” on the “Are you sure?” popup")
 
     The **Success – Naming Conventions saved** notification is displayed.\
 
 
-    ![&#x22;Success – Naming Conventions saved&#x22; notification](/_images/image-%281777%29.png-"&#x22;Success-–-Naming-Conventions-saved&#x22;-notification" "&#x22;Success – Naming Conventions saved&#x22; notification")
+    ![&#x22;Success – Naming Conventions saved&#x22; notification](/_images/image-(1777).png "&#x22;Success – Naming Conventions saved&#x22; notification")

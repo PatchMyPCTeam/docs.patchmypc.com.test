@@ -15,22 +15,22 @@ You cannot delete an App Set with a **Status** of **In progress** and once the d
 1.  Navigate to **App Sets**\
 
 
-    ![Navigating to “App Sets”](/_images/image-%282559%29.png-"Navigating-to-\"App-Sets\"" "Navigating to “App Sets”")
+    ![Navigating to “App Sets”](/_images/image-(2559).png "Navigating to “App Sets”")
 2.  Click the ellipsis (**⋮**) beside the App Set you want to delete and select **Delete**\
     \
 
 
-    ![Clicking the ellipsis beside the App Set you want to delete and selecting “Delete”](/_images/image-%282560%29.png-"Clicking-the-ellipsis-beside-the-App-Set-you-want-to-delete-and-selecting-\"Delete\"" "Clicking the ellipsis beside the App Set you want to delete and selecting “Delete”")
+    ![Clicking the ellipsis beside the App Set you want to delete and selecting “Delete”](/_images/image-(2560).png "Clicking the ellipsis beside the App Set you want to delete and selecting “Delete”")
 3.  On the **Are you sure you want to delete <**_**app\_set\_name>**_ dialog box, click **Yes**\
 
 
-    ![Clicking “Yes” on the “Are you sure you want to delete” dialog box](/_images/image-%282561%29.png-"Clicking-\"Yes\"-on-the-\"Are-you-sure-you-want-to-delete\"-dialog-box" "Clicking “Yes” on the “Are you sure you want to delete” dialog box")
+    ![Clicking “Yes” on the “Are you sure you want to delete” dialog box](/_images/image-(2561).png "Clicking “Yes” on the “Are you sure you want to delete” dialog box")
 
     \
     The **Success – Deletion the App Set <**_**appset\_name**_**> has started** notification is shown and the App Set has a **Status** of **Deleting** whilst the App Set and it’s associated deployments are removed from the relevant companies.\
 
 
-    ![Notification the App Set is being deleted](/_images/image-%282562%29.png-"Notification-the-App-Set-is-being-deleted" "Notification the App Set is being deleted")
+    ![Notification the App Set is being deleted](/_images/image-(2562).png "Notification the App Set is being deleted")
 
 {% hint style="info" %}
 **Note**
@@ -40,4 +40,4 @@ Deleting an App Set automatically deletes all of the deployments for all of the 
 
 Once the App Set has been successfully deleted (which can take an extended period of time depending on its contents and where it’s been deployed), the App Set will disappear from the **App Set** page.
 
-![“App Set” page showing the App Set has been deleted](/_images/image-%282563%29.png-"\"App-Set\"-page-showing-the-App-Set-has-been-deleted" "“App Set” page showing the App Set has been deleted")
+![“App Set” page showing the App Set has been deleted](/_images/image-(2563).png "“App Set” page showing the App Set has been deleted")

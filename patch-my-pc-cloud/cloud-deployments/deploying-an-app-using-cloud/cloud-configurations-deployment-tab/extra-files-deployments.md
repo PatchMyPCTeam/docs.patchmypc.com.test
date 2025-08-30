@@ -14,11 +14,11 @@ To add extra folders and/or files:
 
 1. Click the **Extra Files** tool to expose the configurable settings.
 
-![Clicking the &#x22;Extra Files&#x22; tool](/_images/image-%2882%29.png-"Clicking-the-&#x22;Extra-Files&#x22;-tool" "Clicking the &#x22;Extra Files&#x22; tool")
+![Clicking the &#x22;Extra Files&#x22; tool](/_images/image-(82).png "Clicking the &#x22;Extra Files&#x22; tool")
 
 2. Scroll down to the end of the **Extra Files** section so that the buttons and their subtext are visible.
 
-![Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible](/_images/image-%2883%29.png-"Scrolling-down-to-the-end-of-the-&#x22;Extra-Files&#x22;-section-so-that-the-buttons-and-their-subtext-are-visible" "Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible")
+![Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible](/_images/image-(83).png "Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible")
 
 3. Either:
    1. Drag and drop the relevant folders or files to the relevant area.
@@ -38,12 +38,12 @@ We support uploading files with the same name, provided they are in different fo
     \
 
 
-    ![Clicking &#x22;Upload&#x22; when prompted to upload the content](/_images/image-%28146%29.png-"Clicking-&#x22;Upload&#x22;-when-prompted-to-upload-the-content" "Clicking &#x22;Upload&#x22; when prompted to upload the content")
+    ![Clicking &#x22;Upload&#x22; when prompted to upload the content](/_images/image-(146).png "Clicking &#x22;Upload&#x22; when prompted to upload the content")
 
     \
     The hash will be calculated for any folders/files you upload, which will appear at the bottom of the **Extra Files** section.
 
-![Additional folders/files to be uploaded appearing at the bottom of the “Extra Files” section](/_images/files-to-be-uploaded-appearing-at-the-bottom-of-the-\"Extra-Files\"-section" "Additional folders/files to be uploaded appearing at the bottom of the “Extra Files” section")
+![Additional folders/files to be uploaded appearing at the bottom of the “Extra Files” section](/_images/files-to-be-uploaded-appearing-at-the-bottom-of-the-Extra-Files-section "Additional folders/files to be uploaded appearing at the bottom of the “Extra Files” section")
 
 {% hint style="info" %}
 **Note**
@@ -52,7 +52,7 @@ The total number of extra folders/files is not limited, but their total size mus
 
 Also, if the **Installer Type** on the **General Information** page is set to **`.msi`**, the **MST File** section will be shown, allowing you to upload a single MST file. This file must have the **`.mst`** extension.
 
-![“MST Files” section](/_images/image-%28241 "“MST Files” section").png>)
+![“MST Files” section](/_images/image-(241 "“MST Files” section").png>)
 
 Uploading a **`.mst`** file automatically adds the following to the **Additional Argument** field of the **Install Parameters** section:
 
@@ -60,7 +60,7 @@ Uploading a **`.mst`** file automatically adds the following to the **Additional
 
 where **`<`**_**`mstfile>`**_ is the name of the uploaded MST file.
 
-![“Install Parameters” section updated](/_images/image-%28243 "“Install Parameters” section updated").png>)
+![“Install Parameters” section updated](/_images/image-(243 "“Install Parameters” section updated").png>)
 {% endhint %}
 
 5. Repeat the above steps to add any additional folders/files as required.
@@ -75,7 +75,7 @@ Once a deployment has been successfully created, you can add or remove any addit
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-%2885%29.png-"Clicking-&#x22;Next&#x22;-to-move-to-the-&#x22;Assignments&#x22;-page" "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
+![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-(85).png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
 
 {% hint style="info" %}
 **Note**

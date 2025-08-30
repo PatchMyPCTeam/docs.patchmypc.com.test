@@ -10,7 +10,7 @@ _Applies to: Patch My PC Advanced Insights_
 This dashboard requires deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
 {% endhint %}
 
-![](/_images/image-%281531%29.png-"Storage-dashboard" "")
+![](/_images/image-(1531).png "")
 
 This dashboard hosts two primary tables.&#x20;
 
@@ -18,7 +18,7 @@ This dashboard hosts two primary tables.&#x20;
 
 The top table lists physical disk, the partitions defined on that disk and the logical drives created on that partition. For example:
 
-![](/_images/image-%281534%29.png-"" "")
+![](/_images/image-(1534).png "")
 
 Here, a a machine has five physical disks, Disk #0 has three partitions, but only one of these partitions has a logical drive with a drive letter (C:) defined (the "missing" partitions in this instance are the Windows Recovery Partition and the EFI System Partition). That partition is allocated 232.3GB of a 232.9GB disk (\~100% of the drive) and the logical disk is 232.3GB in size with 168.2GB free space, i.e. it is 27.6% used.
 
@@ -26,6 +26,6 @@ Here, a a machine has five physical disks, Disk #0 has three partitions, but onl
 
 The storage health statistics are gathered from Windows S.M.A.R.T. (Self-Monitoring, Analysis and Reporting Technology) tools.&#x20;
 
-![](/_images/image-%281535%29.png-"Device-Health-table" "")
+![](/_images/image-(1535).png "")
 
 Each disk presents the data it supports (not all disks report PowerOn statistics, or temperature,  these are listed where available). We can see the wear statistic reported by SMART. The higher the wear percentage, the more likely it is that the disk will fail.

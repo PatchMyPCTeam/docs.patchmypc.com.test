@@ -8,30 +8,30 @@ To create Update Rings for a new Deployment in Patch My PC (PMPC) Cloud:
 2.  On the **Assignments** page, click **Enable Update Rings**.\
 
 
-    ![Clicking “Enable Update Rings](/_images/image-%282110%29.png-"Clicking-\"Enable-Update-Rings" "Clicking “Enable Update Rings")
+    ![Clicking “Enable Update Rings](/_images/image-(2110).png "Clicking “Enable Update Rings")
 3. From the **Update ring start time** dropdown, choose how you want your Update Rings to handle the start times for their assignments:\
    • [Delayed](how-cloud-update-rings-are-created.md#delayed)\
    • [Immediate](how-cloud-update-rings-are-created.md#immediate)
 
-![Choosing the Update Ring start time](/_images/image-%282582%29.png-"Choosing-the-Update-Ring-start-time" "Choosing the Update Ring start time")
+![Choosing the Update Ring start time](/_images/image-(2582).png "Choosing the Update Ring start time")
 
 By default, two Update Rings are created with a two-day delay between them.
 
-![Default rings and their settings](/_images/image-%282583%29.png-"Default-rings-and-their-settings" "Default rings and their settings")
+![Default rings and their settings](/_images/image-(2583).png "Default rings and their settings")
 
 4. If you do not want to add additional Update Rings, go to step 7.\
    \
    To add an additional Update Ring, click **Add Update Ring**.
 
-![Clicking “Add Update Ring”](/_images/image-%282584%29.png-"Clicking-\"Add-Update-Ring\"" "Clicking “Add Update Ring”")
+![Clicking “Add Update Ring”](/_images/image-(2584).png "Clicking “Add Update Ring”")
 
 5. On the **Add Update Ring** dialog box, enter the name for the new ring in the **Name** field and click **Save**.
 
-![“Add Update Ring” dialog box](/_images/image-%282187%29.png-"\"Add-Update-Ring\"-dialog-box" "“Add Update Ring” dialog box")
+![“Add Update Ring” dialog box](/_images/image-(2187).png "“Add Update Ring” dialog box")
 
 A new ring is added.
 
-![New ring added](/_images/image-%282585%29.png-"New-ring-added" "New ring added")
+![New ring added](/_images/image-(2585).png "New ring added")
 
 {% hint style="warning" %}
 **Important**
@@ -55,24 +55,24 @@ You can add up to a maximum of 10 Update Rings per deployment.
 
 7. If you do not want to change the names of any of the rings, go to Step 10.\
    \
-   If you want to change the name of any of the rings, click the pencil icon (![pencil icon](/_images/image-%282039 "pencil icon").png>)) beside the relevant ring.
+   If you want to change the name of any of the rings, click the pencil icon (![pencil icon](/_images/image-(2039 "pencil icon").png>)) beside the relevant ring.
 
-![Clicking the pencil icon beside the relevant ring to rename](/_images/image-%282591%29.png-"Clicking-the-pencil-icon-beside-the-relevant-ring-to-rename" "Clicking the pencil icon beside the relevant ring to rename")
+![Clicking the pencil icon beside the relevant ring to rename](/_images/image-(2591).png "Clicking the pencil icon beside the relevant ring to rename")
 
 8. Enter the ring's name in the **Name** field of the **Edit Update Ring** dialog box, then click **Save**.
 
-![Entering the ring&#x27;s name in the “Name” field of the “Edit Update Ring” dialog box and clicking “Save”](/_images/image-%282041%29.png-"Entering-the-ring&#x27;s-name-in-the-\"Name\"-field-of-the-\"Edit-Update-Ring\"-dialog-box-and-clicking-\"Save\"" "Entering the ring&#x27;s name in the “Name” field of the “Edit Update Ring” dialog box and clicking “Save”")
+![Entering the ring&#x27;s name in the “Name” field of the “Edit Update Ring” dialog box and clicking “Save”](/_images/image-(2041).png "Entering the ring&#x27;s name in the “Name” field of the “Edit Update Ring” dialog box and clicking “Save”")
 
 The updated name appears.
 
-![Updated ring name](/_images/image-%282592%29.png-"Updated-ring-name" "Updated ring name")
+![Updated ring name](/_images/image-(2592).png "Updated ring name")
 
 9. Change the name of any other rings.
 10. If you do not want to change the delay for any of the rings, go to Step 11.\
     \
     If you want to change the delay for a ring, click the plus (**+**) or minus (**-**) sign beside the relevant rings.
 
-![Clicking plus or minus beside the relevant rings](/_images/image-%282593%29.png-"Clicking-plus-or-minus-beside-the-relevant-rings" "Clicking plus or minus beside the relevant rings")
+![Clicking plus or minus beside the relevant rings](/_images/image-(2593).png "Clicking plus or minus beside the relevant rings")
 
 11. Click **Add Assignment** and add the relevant assignments for each ring, configuring the settings for each assignment as required.
 
@@ -85,25 +85,25 @@ See the [Assignments](../deploying-an-app-using-cloud/cloud-assignments-deployme
 {% hint style="success" %}
 **Tip**
 
-You can drag assignments between Update Rings by clicking the double ellipsis (![](/_images/image-%282044%29.png "")) beside the relevant assignment and dragging and dropping it to the relevant Update Ring.
+You can drag assignments between Update Rings by clicking the double ellipsis (![](/_images/image-(2044).png "")) beside the relevant assignment and dragging and dropping it to the relevant Update Ring.
 {% endhint %}
 
-![Assignments added and configured for each Update Ring](/_images/image-%282594%29.png-"Assignments-added-and-configured-for-each-Update-Ring" "Assignments added and configured for each Update Ring")
+![Assignments added and configured for each Update Ring](/_images/image-(2594).png "Assignments added and configured for each Update Ring")
 
 12. Click **Deploy**.
 
-![Clicking “Deploy”](/_images/image-%282595%29.png-"Clicking-\"Deploy\"" "Clicking “Deploy”")
+![Clicking “Deploy”](/_images/image-(2595).png "Clicking “Deploy”")
 
 The **“<**_**deployment\_name**_**>” Deployment Summary** dialog box appears, summarizing what you are deploying, to which groups, and when.
 
-![“Deployment Summary”](/_images/image-%282135%29.png-"\"Deployment-Summary\"" "“Deployment Summary”")
+![“Deployment Summary”](/_images/image-(2135).png "“Deployment Summary”")
 
 {% hint style="info" %}
 **Note**
 
 If your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) is set to anything other than **Daily**, the UI will warn you that some rings may not be evaluated as expected.&#x20;
 
-![](/_images/image-%282138 "").png>)
+![](/_images/image-(2138 "").png>)
 
 This is why we recommend you set your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to **Daily** if you plan to use Update Rings.
 {% endhint %}
@@ -114,8 +114,8 @@ This is why we recommend you set your [Sync Schedule](../../cloud-administration
     \
     b. Click **Confirm** to continue.
 
-![Clicking &#x22;Confirm&#x22;](/_images/image-%282140%29.png-"Clicking-&#x22;Confirm&#x22;" "Clicking &#x22;Confirm&#x22;")
+![Clicking &#x22;Confirm&#x22;](/_images/image-(2140).png "Clicking &#x22;Confirm&#x22;")
 
 When you click **Confirm**, the **Deployments** node appears showing the deployment as **In Progress** and the **Success – Created <**_**deployment\_name**_**>** notification.
 
-![](/_images/image-%282142%29.png-"" "")
+![](/_images/image-(2142).png "")

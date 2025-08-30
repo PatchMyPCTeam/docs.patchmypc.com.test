@@ -16,13 +16,13 @@ To upload the app installer for the Binary Free App:
 3.  Search for the app in the **App Catalog**.\
 
 
-    ![Searching for the app in the App Catalog](/_images/image-%28443%29.png-"Searching-for-the-app-in-the-App-Catalog" "Searching for the app in the App Catalog")
+    ![Searching for the app in the App Catalog](/_images/image-(443).png "Searching for the app in the App Catalog")
 
 
 4.  Click the app to open its properties.\
 
 
-    ![Clicking the app to open its properties](/_images/image-%28444%29.png-"Clicking-the-app-to-open-its-properties" "Clicking the app to open its properties")
+    ![Clicking the app to open its properties](/_images/image-(444).png "Clicking the app to open its properties")
 
 {% hint style="info" %}
 **Note**
@@ -33,17 +33,17 @@ Notice that both the **Deploy** and **Edit Deployment** options are unavailable 
 5.  Click **Manage Files**.\
 
 
-    ![Clicking “Manage Files”](/_images/image-%28445%29.png-"Clicking-\"Manage-Files\"" "Clicking “Manage Files”")
+    ![Clicking “Manage Files”](/_images/image-(445).png "Clicking “Manage Files”")
 6.  On the **“<**_**app\_name**_**>” Upload file** screen, click **Add App File**.\
 
 
-    ![Clicking “Add App File”](/_images/image-%28446%29.png-"Clicking-\"Add-App-File\"" "Clicking “Add App File”")
+    ![Clicking “Add App File”](/_images/image-(446).png "Clicking “Add App File”")
 
 
 7.  On the **General Information** tab, configure the required options for the app, then click **Next**.\
 
 
-    ![Configuring any required options for the app, then clicking “Next”](/_images/image-%28447%29.png-"Configuring-any-required-options-for-the-app,-then-clicking-\"Next\"" "Configuring any required options for the app, then clicking “Next”")
+    ![Configuring any required options for the app, then clicking “Next”](/_images/image-(447).png "Configuring any required options for the app, then clicking “Next”")
 
 
 8.  On the **Upload File Installer** tab, either:\
@@ -58,7 +58,7 @@ Notice that both the **Deploy** and **Edit Deployment** options are unavailable 
 We suggest you use the download link at the bottom of the page to ensure you download the latest version of the app from the vendor’s official website.
 {% endhint %}
 
-![Clicking “Select Application File”](/_images/image-%28448%29.png-"Clicking-\"Select-Application-File\"" "Clicking “Select Application File”")
+![Clicking “Select Application File”](/_images/image-(448).png "Clicking “Select Application File”")
 
 {% hint style="info" %}
 **Note**
@@ -72,7 +72,7 @@ If you really need to deploy an older version of the app, deploy it as a Custom 
 
 The hash for the file is calculated as the file is uploaded to your portal.
 
-![Calculating the hash for the file as its uploaded to your portal.](/_images/image-%282049%29.png-"Calculating-the-hash-for-the-file-as-its-uploaded-to-your-portal." "Calculating the hash for the file as its uploaded to your portal.")
+![Calculating the hash for the file as its uploaded to your portal.](/_images/image-(2049).png "Calculating the hash for the file as its uploaded to your portal.")
 
 The portal also shows **File Up to Date** and the **Success – File Successfully Uploaded** notification once:
 
@@ -80,7 +80,7 @@ The portal also shows **File Up to Date** and the **Success – File Successfull
 *   The calculated hash matches that stored in our App Catalog.\
 
 
-    ![“Success – File Successfully Uploaded” notification](/_images/image-%282050%29.png-"\"Success-–-File-Successfully-Uploaded\"-notification" "“Success – File Successfully Uploaded” notification")
+    ![“Success – File Successfully Uploaded” notification](/_images/image-(2050).png "“Success – File Successfully Uploaded” notification")
 
 {% hint style="info" %}
 **Note**

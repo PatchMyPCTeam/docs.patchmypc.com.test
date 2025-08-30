@@ -18,13 +18,13 @@ To modify the role assigned to a user:
     \
 
 
-    ![Selecting the required user role from the list of roles dropdown](/_images/image-%282118%29.png-"Selecting-the-required-user-role-from-the-list-of-roles-dropdown" "Selecting the required user role from the list of roles dropdown")
+    ![Selecting the required user role from the list of roles dropdown](/_images/image-(2118).png "Selecting the required user role from the list of roles dropdown")
 
     \
     The role for the user will be updated and the **Success - Role changed** notification is displayed.\
 
 
-    ![“Success - Role changed” notification](/_images/image-%281648%29.png-"\"Success-Role-changed\"-notification" "“Success - Role changed” notification")
+    ![“Success - Role changed” notification](/_images/image-(1648).png "“Success - Role changed” notification")
 
 {% hint style="info" %}
 **Note**
@@ -40,13 +40,13 @@ To manage whether a user is granted the **Access Management** privilege:
 2.  In the **Roles** column, slide the **Access Management** slider to the right for the user you want to grant this permission.\
 
 
-    ![Using the slider to grant “Access Management” privileges](/_images/image-%281649%29.png-"Using-the-slider-to-grant-\"Access-Management\"-privileges" "Using the slider to grant “Access Management” privileges")
+    ![Using the slider to grant “Access Management” privileges](/_images/image-(1649).png "Using the slider to grant “Access Management” privileges")
 
     \
     The **Success - Role changed** notification is displayed.\
 
 
-    ![The “Success - Role changed&#x22; notification](/_images/image-%281650%29.png-"The-\"Success-Role-changed&#x22;-notification" "The “Success - Role changed&#x22; notification")
+    ![The “Success - Role changed&#x22; notification](/_images/image-(1650).png "The “Success - Role changed&#x22; notification")
 
 {% hint style="info" %}
 **Note**

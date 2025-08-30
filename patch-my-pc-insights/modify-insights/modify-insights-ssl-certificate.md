@@ -24,15 +24,15 @@ If you want to change the SSL certificate to a server host name only type, selec
 
 In the configuration modification page, select the checkbox for 'SSL Certificate' then click 'Change Certificate':
 
-![](/_images/vmconnect_KN0zxDuJp8.png-"" "")
+![](/_images/vmconnect_KN0zxDuJp8.png "")
 
 Use the drop down list to select the SSL certificate which represents the CNAME / Alias you wish to use.
 
-![](/_images/image-%281654%29.png-"Certificate-selection-dialog" "")
+![](/_images/image-(1654).png "")
 
 With the appropriate SSL certificate selected, click **'Set CNAME / Alias'**
 
-![](/_images/image-%281655%29.png-"Certificate-selection-dialog" "")
+![](/_images/image-(1655).png "")
 
 In the set CNAME / Alias dialog page, the dialog will be prepopulated with a value for the CNAME / Alias based upon the selected certificated.
 
@@ -40,22 +40,22 @@ Modify the prepopulated URL value if required.
 
 Click **'Set CNAME / Alias'**
 
-![](/_images/Alias-dialog" "")
+![](/_images/Alias-dialog "")
 
 Click **'Next'**
 
-![](/_images/Alias-set-confirmed" "")
+![](/_images/Alias-set-confirmed "")
 
 Click **'Install'**
 
-![](/_images/vmconnect_KN0zxDuJp8-%282%29.png-"Certificate-Modification-option-dialog" "")
+![](/_images/vmconnect_KN0zxDuJp8-(2).png "")
 
 The installer will make the required configuration changes and display a summary once complete.
 
 Click **'Finish'**
 
-![](/_images/image-%281658%29.png-"Certificate-modification-completion" "")
+![](/_images/image-(1658).png "")
 
 New Advanced Insights URL
 
-![](/_images/vmconnect_hyyumsMyOf.png-"New-Advanced-Insights-URL" "")
+![](/_images/vmconnect_hyyumsMyOf.png "")

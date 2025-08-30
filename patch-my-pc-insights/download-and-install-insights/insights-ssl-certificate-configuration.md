@@ -34,7 +34,7 @@ Ensure the SSL certificate requirements are reviewed here: [insights-certificate
 
 Select the certificate which represents the server host name (FQDN).
 
-![](/_images/image-%281297%29.png-"Certificate-selection" "")
+![](/_images/image-(1297).png "")
 
 Once selected, no further certificate configuration is required.
 
@@ -44,13 +44,13 @@ Click Next to proceed to the [insights-sqlite-database.md](insights-sqlite-datab
 
 Select the certificate which represents the wildcard certificate.
 
-![](/_images/image-%281298%29.png-"Wildcard-certificate-selection" "")
+![](/_images/image-(1298).png "")
 
 Click the **'Set CNAME / Alias'** button.
 
 In the CNAME / Alias configuration page, the installer will automatically pre-populate the domain wildcard property from the selected certificate.
 
-![](/_images/Alias-URL-configuration" "")
+![](/_images/Alias-URL-configuration "")
 
 The CNAME / Alias property value box will need to be updated with a chosen CNAME / Alias prefix. For example:
 
@@ -58,11 +58,11 @@ _**'AdvancedInsights.corp.contoso.local'**_
 
 Then click **'Set CNAME - Alias'**.
 
-![](/_images/Alias-property-value" "")
+![](/_images/Alias-property-value "")
 
 Click Next to proceed to the [insights-sqlite-database.md](insights-sqlite-database.md "mention") page.
 
-![](/_images/Alias-confirmation" "")
+![](/_images/Alias-confirmation "")
 
 {% hint style="warning" %}
 When using a wildcard certificate, if no CNAME / Alias is set using the CNAME / Alias configuration page, the installer will automatically default to setting the Advanced Insights URL to the server host name FQDN.\
@@ -76,7 +76,7 @@ _https://server01.corp.contoso.local_
 
 Select the certificate which represents the CNAME / Alias certificate.
 
-![](/_images/Alias-certificate-selection" "")
+![](/_images/Alias-certificate-selection "")
 
 Click the **'Set CNAME / Alias'** button.
 
@@ -84,11 +84,11 @@ In the CNAME / Alias configuration page, the installer will automatically pre-po
 
 In this example, the selected certificate has one SAN entry which has been automatically pre-populated:
 
-![](/_images/Alias-URL-configuration" "")
+![](/_images/Alias-URL-configuration "")
 
 Confirm the CNAME / Alias configuration by clicking the **'Set CNAME / Alias'** button.
 
-![](/_images/Alias-property-value" "")
+![](/_images/Alias-property-value "")
 
 Click Next to proceed to the [insights-sqlite-database.md](insights-sqlite-database.md "mention") page.
 
@@ -96,6 +96,6 @@ Click Next to proceed to the [insights-sqlite-database.md](insights-sqlite-datab
 
 To deploy Advanced Insights using a self-signed certificate, on the certificate selection page, click the **'Create Self -Signed Cert'** button:
 
-![](/_images/image-%281022%29.png-"Create-self-signed-certificate" "")
+![](/_images/image-(1022).png "")
 
 The installer will then automatically proceed to the [insights-sqlite-database.md](insights-sqlite-database.md "mention") dialog page.

@@ -20,7 +20,7 @@ When Patch My PC releases these new updates, the **sync schedule is what automat
 
 You can also manually start the sync and publication process at any time by selecting the **Run Publishing Service Sync** option.
 
-![Publishing Daily Sync Options](/_images/image-%281123 "Publishing Daily Sync Options").png>)
+![Publishing Daily Sync Options](/_images/image-(1123 "Publishing Daily Sync Options").png>)
 
 ### Intune Application Manager
 
@@ -34,8 +34,8 @@ It can help you:
 
 The utility can be found within the Publisher in either the **Intune Apps** or **Intune Updates** tab, on the right-hand side as a cloud icon with a magnifying glass:
 
-![](/_images/image-%281122 "").png>)
+![](/_images/image-(1122 "").png>)
 
 Below is an example screenshot of what the utility looks like in a tenant with some Win32 apps. This is a **live view of all Win32 apps** currently in your tenant.
 
-![](/_images/image-%281125 "").png>)
+![](/_images/image-(1125 "").png>)

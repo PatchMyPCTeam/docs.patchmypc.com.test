@@ -15,19 +15,19 @@ We recommend you create an Entra ID group for each [PMPC Cloud User Role](../clo
 2.  In the PMPC Cloud portal, navigate to **Settings | Users**.\
 
 
-    ![Navigating to “Settings | Users”](/_images/image-%282239%29.png-"Navigating-to-\"Settings-|-Users\"" "Navigating to “Settings | Users”")
+    ![Navigating to “Settings | Users”](/_images/image-(2239).png "Navigating to “Settings | Users”")
 
 
 3.  Click **Add Group**.\
 
 
-    ![Clicking “Add Group”](/_images/image-%282240%29.png-"Clicking-\"Add-Group\"" "Clicking “Add Group”")
+    ![Clicking “Add Group”](/_images/image-(2240).png "Clicking “Add Group”")
 
 
 4.  On the **Available Groups** screen, click the checkbox beside the relevant Entra ID Security Group you want to add, then select the PMPC Cloud role you want to assign to this group from the **Role** dropdown.\
 
 
-    ![Selecting the relevant Entra ID group to add and which role it will be assigned in PMPC Cloud](/_images/image-%282241%29.png-"Selecting-the-relevant-Entra-ID-group-to-add-and-which-role-it-will-be-assigned-in-PMPC-Cloud" "Selecting the relevant Entra ID group to add and which role it will be assigned in PMPC Cloud")
+    ![Selecting the relevant Entra ID group to add and which role it will be assigned in PMPC Cloud](/_images/image-(2241).png "Selecting the relevant Entra ID group to add and which role it will be assigned in PMPC Cloud")
 
 {% hint style="info" %}
 **Note**
@@ -37,7 +37,7 @@ If you assign an Entra ID Security Group the **Full Admin with Access Management
 
 The selected Entra ID Security Group and role you’ve assigned it in your portal is shown.
 
-![Selected Entra ID Security Group and role you’ve assigned it in your portal is shown](/_images/image-%282242%29.png-"Selected-Entra-ID-Security-Group-and-role-you’ve-assigned-it-in-your-portal-is-shown" "Selected Entra ID Security Group and role you’ve assigned it in your portal is shown")
+![Selected Entra ID Security Group and role you’ve assigned it in your portal is shown](/_images/image-(2242).png "Selected Entra ID Security Group and role you’ve assigned it in your portal is shown")
 
 5. Repeat Step 4 to add any additional groups/roles.
 
@@ -50,13 +50,13 @@ In the current release, you can add up to ten Entra ID Security Groups.
 6.  Click **Add Group**.\
 
 
-    ![Clicking “Add Group”](/_images/image-%282243%29.png-"Clicking-\"Add-Group\"" "Clicking “Add Group”")
+    ![Clicking “Add Group”](/_images/image-(2243).png "Clicking “Add Group”")
 
     \
     The portal auto-refreshes, showing the selected groups have been added and the **Success – Group created** notification is shown.\
 
 
-    ![Portal auto-refreshes, showing the selected groups have been added and the “Success – Group created” notification is shown](/_images/image-%282244%29.png-"Portal-auto-refreshes,-showing-the-selected-groups-have-been-added-and-the-\"Success-–-Group-created\"-notification-is-shown" "Portal auto-refreshes, showing the selected groups have been added and the “Success – Group created” notification is shown")
+    ![Portal auto-refreshes, showing the selected groups have been added and the “Success – Group created” notification is shown](/_images/image-(2244).png "Portal auto-refreshes, showing the selected groups have been added and the “Success – Group created” notification is shown")
 
 When you add an Entra ID Security Group, the **Group role with id <**_**entra\_id\_security\_group\_id**_**> was created with role <**_**user\_role**_**>** event is written to the **Events** node.
 

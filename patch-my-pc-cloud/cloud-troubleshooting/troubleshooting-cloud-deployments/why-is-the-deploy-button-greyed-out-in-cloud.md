@@ -6,7 +6,7 @@ _Applies to: Patch My PC Cloud_
 
 Why when I try to deploy an app, is the **Deploy** button greyed out?
 
-![“Deploy” button greyed out.](/_images/image-%282342%29.png-"\"Deploy\"-button-greyed-out." "“Deploy” button greyed out.")
+![“Deploy” button greyed out.](/_images/image-(2342).png "“Deploy” button greyed out.")
 
 ### CAUSE
 
@@ -19,13 +19,13 @@ To resolve this issue:
 1.  Click the **Configurations** page of the deployment.\
 
 
-    ![Clicking the “Configurations” page](/_images/image-%282375%29.png-"Clicking-the-\"Configurations\"-page" "Clicking the “Configurations” page")
+    ![Clicking the “Configurations” page](/_images/image-(2375).png "Clicking the “Configurations” page")
 
     \
     If the problem is caused by an ESP Profile being configured, the **ESP Profiles** tab will be automatically opened.\
 
 
-    ![“ESP Profile” tab automatically opened](/_images/image-%282344%29.png-"\"ESP-Profile\"-tab-automatically-opened" "“ESP Profile” tab automatically opened")
+    ![“ESP Profile” tab automatically opened](/_images/image-(2344).png "“ESP Profile” tab automatically opened")
 
 
 2.  Scroll down to the **ESP Profiles** section, under which you will see the following message:\
@@ -34,7 +34,7 @@ To resolve this issue:
     **ESP profiles should be empty when the assignments list contains only UpdateOnly assignments.**\
 
 
-    ![“ESP profiles should be empty when the assignments list contains only UpdateOnly assignments.” message](/_images/image-%282345%29.png-"\"ESP-profiles-should-be-empty-when-the-assignments-list-contains-only-UpdateOnly-assignments.\"-message" "“ESP profiles should be empty when the assignments list contains only UpdateOnly assignments.” message")
+    ![“ESP profiles should be empty when the assignments list contains only UpdateOnly assignments.” message](/_images/image-(2345).png "“ESP profiles should be empty when the assignments list contains only UpdateOnly assignments.” message")
 
 
 3.  You now need to decide whether you:

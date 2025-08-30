@@ -8,7 +8,7 @@ To configure Naming Conventions in Patch My PC (PMPC) Cloud:
 2.  Click on the relevant tab for the type of apps you want to configure naming conventions for.\
 
 
-    ![Clicking the relevant tab for the type of app to configure](/_images/image-%28659%29.png-"Clicking-the-relevant-tab-for-the-type-of-app-to-configure" "Clicking the relevant tab for the type of app to configure")
+    ![Clicking the relevant tab for the type of app to configure](/_images/image-(659).png "Clicking the relevant tab for the type of app to configure")
 
 
 3.  Configure the options as required. You can:
@@ -19,13 +19,13 @@ To configure Naming Conventions in Patch My PC (PMPC) Cloud:
 4.  Click **Save** to save your changes.\
 
 
-    ![Clicking “Save” to save your changes](/_images/image-%28660%29.png-"Clicking-\"Save\"-to-save-your-changes" "Clicking “Save” to save your changes")
+    ![Clicking “Save” to save your changes](/_images/image-(660).png "Clicking “Save” to save your changes")
 
     \
     The **Success – Naming Conventions saved** notification is displayed.\
 
 
-    ![&#x22;Success – Naming Conventions saved&#x22; notification](/_images/image-%281777%29.png-"&#x22;Success-–-Naming-Conventions-saved&#x22;-notification" "&#x22;Success – Naming Conventions saved&#x22; notification")
+    ![&#x22;Success – Naming Conventions saved&#x22; notification](/_images/image-(1777).png "&#x22;Success – Naming Conventions saved&#x22; notification")
 
 {% hint style="info" %}
 **Note**

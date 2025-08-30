@@ -16,7 +16,7 @@ All branding-related tasks are performed from the **Branding** node of the porta
 2.  Navigate to **Settings | Branding**.\
 
 
-    ![Navigating to “Settings | Branding”](/_images/image-%281477%29.png-"Navigating-to-\"Settings-|-Branding\"" "Navigating to “Settings | Branding”")
+    ![Navigating to “Settings | Branding”](/_images/image-(1477).png "Navigating to “Settings | Branding”")
 
 The **Branding** screen is then displayed, allowing you to:
 
@@ -26,12 +26,12 @@ The **Branding** screen is then displayed, allowing you to:
 * [Delete Branding](delete-cloud-branding.md)
 * [Uninstall Branding](uninstall-cloud-branding.md)
 
-![“Branding” screen](/_images/image-%281478%29.png-"\"Branding\"-screen" "“Branding” screen")
+![“Branding” screen](/_images/image-(1478).png "“Branding” screen")
 
 {% hint style="info" %}
 **Note**
 
 If you do not add branding, our default branding shown on the **Branding** page will be used for all Intune App-related notifications on your computers.
 
-![Default Intune Apps for Cloud branding](/_images/image-%281479 "Default Intune Apps for Cloud branding").png>)
+![Default Intune Apps for Cloud branding](/_images/image-(1479 "Default Intune Apps for Cloud branding").png>)
 {% endhint %}

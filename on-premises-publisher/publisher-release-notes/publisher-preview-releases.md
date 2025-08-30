@@ -360,7 +360,7 @@ If you need assistance or have any questions, please visit our Technical Support
   * If needed, the embedded web browser can still be used with a [registry flag](https://patchmypc.com/advanced-configurations-available-using-the-registry-for-patch-my-pcs-publishing-service#MsalUseEmbeddedWebView).
 * The ‘[Collect Logs](https://patchmypc.com/logging-options#collectlogs)‘ button now collects all PowerShell detection scripts modified within the last 7 days. The scripts are renamed to have a .txt extension before being added to the zip file.&#x20;
 * Icons in the product treeview now indicate if the product requires local content, or is configured to skip the install if running by default.
-  * ![image (2).png](/_images/image-\(2\ "image (2).png").png)
+  * ![image (2).png](/_images/image-(2 "image (2).png").png)
 
 ## 2.1.20.2 - 2024-02-27 <a href="#features" id="features"></a>
 
@@ -1349,7 +1349,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * ![](/_images/image-%281205%29.png "")&#x20;
+  * ![](/_images/image-(1205).png "")&#x20;
 
 ### Improvements
 
@@ -1362,7 +1362,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * ![](/_images/image-%281205%29.png "")&#x20;
+  * ![](/_images/image-(1205).png "")&#x20;
 
 ### Improvements
 
@@ -1375,7 +1375,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * ![](/_images/image-%281205%29.png "")&#x20;
+  * ![](/_images/image-(1205).png "")&#x20;
 
 ### Improvements
 

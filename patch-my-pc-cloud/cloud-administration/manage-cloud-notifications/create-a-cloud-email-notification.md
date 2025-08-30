@@ -15,24 +15,24 @@ To create an email notification:
 1.  In the **User Email** field, select the relevant administrator’s email address from the dropdown or type their email address.\
 
 
-    ![Select the relevant administrator’s email address from the “User Email” dropdown or type their email address](/_images/image-%281917%29.png-"Select-the-relevant-administrator’s-email-address-from-the-\"User-Email\"-dropdown-or-type-their-email-address" "Select the relevant administrator’s email address from the “User Email” dropdown or type their email address")
+    ![Select the relevant administrator’s email address from the “User Email” dropdown or type their email address](/_images/image-(1917).png "Select the relevant administrator’s email address from the “User Email” dropdown or type their email address")
 
 
 2.  Click **Add New Email**.\
 
 
-    ![Clicking “Add New Email” to add the email address to the notification list](/_images/image-%281918%29.png-"Clicking-\"Add-New-Email\"-to-add-the-email-address-to-the-notification-list" "Clicking “Add New Email” to add the email address to the notification list")
+    ![Clicking “Add New Email” to add the email address to the notification list](/_images/image-(1918).png "Clicking “Add New Email” to add the email address to the notification list")
 
     \
     The email address is added to the list of email addresses that will be sent the notification.\
 
 
-    ![](/_images/image-%281916%29.png-"" "")
+    ![](/_images/image-(1916).png "")
 
 {% hint style="success" %}
 **Tip**
 
-You can click the small envelope beside the email address (![](/_images/image-%281900 "").png>)) to send a test notification. See [Testing an Email Notification](cloud-notifications-reference/test-an-email-notification-in-cloud.md) for more details.
+You can click the small envelope beside the email address (![](/_images/image-(1900 "").png>)) to send a test notification. See [Testing an Email Notification](cloud-notifications-reference/test-an-email-notification-in-cloud.md) for more details.
 {% endhint %}
 
 {% hint style="info" %}
@@ -46,17 +46,17 @@ You can also click the trashcan beside an email address to delete it from the li
 3.  Click **Save** on the **Add Notifications** screen to save the notification.\
 
 
-    ![Clicking “Save” on the “Add Notifications” screen](/_images/image-%281919%29.png-"Clicking-\"Save\"-on-the-\"Add-Notifications\"-screen" "Clicking “Save” on the “Add Notifications” screen")
+    ![Clicking “Save” on the “Add Notifications” screen](/_images/image-(1919).png "Clicking “Save” on the “Add Notifications” screen")
 
     \
     The **Success - Notification created** notification is shown.\
 
 
-    ![](/_images/image-%281920%29.png-"" "")
+    ![](/_images/image-(1920).png "")
 
     \
     The portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification.\
     \
 
 
-    ![Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification](/_images/image-%281921%29.png-"Portal-auto-refreshes-to-show-the-new-notification,-including-abbreviations-of-the-users-who-will-receive-the-email-notification" "Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification")
+    ![Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification](/_images/image-(1921).png "Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification")

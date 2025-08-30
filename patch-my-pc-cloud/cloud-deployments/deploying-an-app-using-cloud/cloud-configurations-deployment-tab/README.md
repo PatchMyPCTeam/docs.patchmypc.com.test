@@ -27,7 +27,7 @@ This tab contains the following settings:
 * [Notification Policy](./#notification-policy)
 * [Conflicting Process - Conflicting Process](./#conflicting-process-conflicting-process)
 
-![&#x22;Configurations&#x22; tab](/_images/image-%282601%29.png-"&#x22;Configurations&#x22;-tab" "&#x22;Configurations&#x22; tab")
+![&#x22;Configurations&#x22; tab](/_images/image-(2601).png "&#x22;Configurations&#x22; tab")
 
 ### **Apply Template**
 
@@ -97,4 +97,4 @@ If you do not want to configure any of the optional tabs under the **Tools** sec
 
 Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab](/_images/image-%282602%29.png-"Clicking-&#x22;Next&#x22;-to-move-to-the-&#x22;Assignments&#x22;-tab" "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab")
+![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab](/_images/image-(2602).png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab")

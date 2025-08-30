@@ -9,33 +9,33 @@ Use a Filter to help you find only the relevant Events you require.
 1.  Click the funnel button in the header of the **Events** page.\
 
 
-    ![Clicking the funnel button](/_images/image-%281766%29.png-"Clicking-the-funnel-button" "Clicking the funnel button")
+    ![Clicking the funnel button](/_images/image-(1766).png "Clicking the funnel button")
 
     \
     The filter sidebar opens.\
 
 
-    ![Filter sidebar opens](/_images/image-%281767%29.png-"Filter-sidebar-opens" "Filter sidebar opens")
+    ![Filter sidebar opens](/_images/image-(1767).png "Filter sidebar opens")
 
 
 2.  Configure your required filters, then click **Apply All Filters**.\
 
 
-    ![Clicking “Apply All Filters”](/_images/image-%281768%29.png-"Clicking-\"Apply-All-Filters\"" "Clicking “Apply All Filters”")
+    ![Clicking “Apply All Filters”](/_images/image-(1768).png "Clicking “Apply All Filters”")
 
     \
     \
     Only the Events matching the filter criteria are displayed.\
 
 
-    ![Only events matching the filtered criteria are shown](/_images/image-%281769%29.png-"Only-events-matching-the-filtered-criteria-are-shown" "Only events matching the filtered criteria are shown")
+    ![Only events matching the filtered criteria are shown](/_images/image-(1769).png "Only events matching the filtered criteria are shown")
 
 {% hint style="info" %}
 **Note**
 
 You can click the filter button to close the filter sidebar to see more details about the results without affecting the filter.\
 \
-![Closing the filter sidebar](/_images/image-%281770 "Closing the filter sidebar").png>)
+![Closing the filter sidebar](/_images/image-(1770 "Closing the filter sidebar").png>)
 {% endhint %}
 
 {% hint style="success" %}
@@ -43,7 +43,7 @@ You can click the filter button to close the filter sidebar to see more details 
 
 When a filter is applied, a green dot appears beside the **Filter** button.
 
-![](/_images/image-%281498 "").png>)
+![](/_images/image-(1498 "").png>)
 {% endhint %}
 
 ### To clear a Filter:
@@ -52,8 +52,8 @@ When a filter is applied, a green dot appears beside the **Filter** button.
     \
 
 
-    ![Using “Clear All” to remove a filter](/_images/image-%281771%29.png-"Using-\"Clear-All\"-to-remove-a-filter" "Using “Clear All” to remove a filter")
+    ![Using “Clear All” to remove a filter](/_images/image-(1771).png "Using “Clear All” to remove a filter")
 2.  Verify the green dot beside the **Filter** button has gone.\
 
 
-    ![Verifying the green dot has gone](/_images/image-%281500%29.png-"Verifying-the-green-dot-has-gone" "Verifying the green dot has gone")
+    ![Verifying the green dot has gone](/_images/image-(1500).png "Verifying the green dot has gone")

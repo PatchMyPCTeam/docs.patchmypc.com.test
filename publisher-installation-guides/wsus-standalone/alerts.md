@@ -18,7 +18,7 @@ To keep you informed when new updates are ready for deployment in your environme
 
 Configurations for SMTP can vary greatly between environments, use the image below as a reference for your environment.
 
-![](/_images/image-%281257%29.png-"Basic-SMTP-Configuration" "")
+![](/_images/image-(1257).png "")
 
 1. Select a Common Provider if applicable
 2. Enable The feature to send e-mails
@@ -37,7 +37,7 @@ SMTP email troubleshooting
 
 The Microsoft Teams webhook is a simple way to get a notification for each application as it is prepared for your environment. Simply create a new connector in teams, and paste the Web URL into the field.
 
-![](/_images/image-%281248%29.png-"" "")
+![](/_images/image-(1248).png "")
 
 Need help creating the webhook in teams? No problem, check out our complete guide to creating a Teams webhook.&#x20;
 
@@ -47,7 +47,7 @@ Need help creating the webhook in teams? No problem, check out our complete guid
 
 The Slack webhook is another simple way to get a notification for each application as it is prepared for your environment. Simply create a new webhook in Slack, and paste the Web URL into the field.&#x20;
 
-![](/_images/image-%281238%29.png-"" "")
+![](/_images/image-(1238).png "")
 
 Need help creating the webhook for Slack? No problem, check out our complete guide to creating a Slack webhook.&#x20;
 

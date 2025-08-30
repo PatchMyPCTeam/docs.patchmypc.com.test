@@ -14,19 +14,19 @@ To delete an App Registration:
 You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.
 {% endhint %}
 
-![Navigating to the “App registrations” blade](/_images/image-%281970%29.png-"Navigating-to-the-\"App-registrations\"-blade" "Navigating to the “App registrations” blade")
+![Navigating to the “App registrations” blade](/_images/image-(1970).png "Navigating to the “App registrations” blade")
 
 2.  Click **All applications**.\
 
 
-    ![Clicking “All Applications”](/_images/image-%281971%29.png-"Clicking-\"All-Applications\"" "Clicking “All Applications”")
+    ![Clicking “All Applications”](/_images/image-(1971).png "Clicking “All Applications”")
 
     \
 
 3.  Click the **PMPC Recovery** application.\
 
 
-    ![Clicking the “PMPC Recovery” application](/_images/image-%281972%29.png-"Clicking-the-\"PMPC-Recovery\"-application" "Clicking the “PMPC Recovery” application")
+    ![Clicking the “PMPC Recovery” application](/_images/image-(1972).png "Clicking the “PMPC Recovery” application")
 
     \
 
@@ -34,7 +34,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
     4.  Click **Delete**.\
 
 
-        ![Clicking “Delete”](/_images/image-%281973%29.png-"Clicking-\"Delete\"" "Clicking “Delete”")
+        ![Clicking “Delete”](/_images/image-(1973).png "Clicking “Delete”")
 
         \
 
@@ -42,14 +42,14 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”.](/_images/image-%281974%29.png-"Checking-the-\"I-understand-the-implications-of-deleting-this-app-registration\"-checkbox,-then-clicking-\"Delete\"." "Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”.")
+        ![Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”.](/_images/image-(1974).png "Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”.")
 
         \
         The **Welcome to Azure** page is shown and the **Delete application - Successfully deleted application PMPC Recovery** notification is shown.\
         \
 
 
-        ![“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown.](/_images/image-%281975%29.png-"\"App-registrations\"-page-refreshes-and-the-\"Delete-application-Successfully-deleted-application-PMPC-Recovery\"-notification-is-shown." "“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown.")
+        ![“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown.](/_images/image-(1975).png "“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown.")
 
         \
 
@@ -57,7 +57,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Clicking the “App Registrations” blade](/_images/image-%281976%29.png-"Clicking-the-\"App-Registrations\"-blade" "Clicking the “App Registrations” blade")
+        ![Clicking the “App Registrations” blade](/_images/image-(1976).png "Clicking the “App Registrations” blade")
 
         \
 
@@ -65,7 +65,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Clicking the “All applications” blade](/_images/image-%281977%29.png-"Clicking-the-\"All-applications\"-blade" "Clicking the “All applications” blade")
+        ![Clicking the “All applications” blade](/_images/image-(1977).png "Clicking the “All applications” blade")
 
         \
 
@@ -73,4 +73,4 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Verifying the “PMPC Recovery” application has been deleted.](/_images/image-%281978%29.png-"Verifying-the-\"PMPC-Recovery\"-application-has-been-deleted." "Verifying the “PMPC Recovery” application has been deleted.")
+        ![Verifying the “PMPC Recovery” application has been deleted.](/_images/image-(1978).png "Verifying the “PMPC Recovery” application has been deleted.")

@@ -6,7 +6,7 @@ Version 2.1 of Advanced Insights removes SQL Server dependency. Advanced Insight
 
 Example upgrade summary page when migrating from SQL to SQLite db:
 
-![](/_images/image-%28709%29.png-"Upgrade-summary-page" "")
+![](/_images/image-(709).png "")
 
 All data will be migrated to this new database from SQL Server when the application first starts up following upgrade.
 

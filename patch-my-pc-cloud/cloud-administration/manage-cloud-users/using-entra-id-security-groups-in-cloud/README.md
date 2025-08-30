@@ -12,7 +12,7 @@ Once the Entra ID Security Groups feature has been enabled for your PMPC Cloud C
 If the Entra ID domain used to sign in on our portal differs from that used in the Intune tenant connected to our portal, we do not allow sign-in using Entra ID group role assignments as we cannot match the domains.
 {% endhint %}
 
-![“Entra ID Groups” tab on the “Users” node](/_images/image-%282255%29.png-"\"Entra-ID-Groups\"-tab-on-the-\"Users\"-node" "“Entra ID Groups” tab on the “Users” node")
+![“Entra ID Groups” tab on the “Users” node](/_images/image-(2255).png "“Entra ID Groups” tab on the “Users” node")
 
 Using Entra ID Security Groups feature of PMPC Cloud allows you to:
 

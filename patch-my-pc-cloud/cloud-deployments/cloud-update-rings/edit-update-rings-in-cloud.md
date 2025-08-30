@@ -15,7 +15,7 @@ To edit the Update Rings configuration for a deployment:
 1.  Navigate to the **Deployments** node.\
 
 
-    ![Navigating to the “Deployments” node](/_images/image-%28434%29.png-"Navigating-to-the-\"Deployments\"-node" "Navigating to the “Deployments” node")
+    ![Navigating to the “Deployments” node](/_images/image-(434).png "Navigating to the “Deployments” node")
 
 
 2. Click the relevant deployment whose Update Ring configuration you want to edit.
@@ -23,21 +23,21 @@ To edit the Update Rings configuration for a deployment:
 {% hint style="success" %}
 **Tip**
 
-Click the filter button (![](/_images/image-%282513 "").png>)) and select the **Enabled** option under the **Update Rings** section, followed by **Apply Filters** to see just those deployments that have update Rings configured.&#x20;
+Click the filter button (![](/_images/image-(2513 "").png>)) and select the **Enabled** option under the **Update Rings** section, followed by **Apply Filters** to see just those deployments that have update Rings configured.&#x20;
 {% endhint %}
 
-![Clicking the relevant deployment you want to edit](/_images/image-%282060%29.png-"Clicking-the-relevant-deployment-you-want-to-edit" "Clicking the relevant deployment you want to edit")
+![Clicking the relevant deployment you want to edit](/_images/image-(2060).png "Clicking the relevant deployment you want to edit")
 
 3.  Click **Edit**.\
 
 
-    ![Clicking “More Info”](/_images/image-%28436%29.png-"Clicking-\"More-Info\"" "Clicking “More Info”")
+    ![Clicking “More Info”](/_images/image-(436).png "Clicking “More Info”")
 
 
 4.  Click the **Assignments** tab.\
 
 
-    ![Clicking the “Assignments” tab](/_images/image-%28437%29.png-"Clicking-the-\"Assignments\"-tab" "Clicking the “Assignments” tab")
+    ![Clicking the “Assignments” tab](/_images/image-(437).png "Clicking the “Assignments” tab")
 
 
 5. Make any required changes, for example:&#x20;
@@ -49,7 +49,7 @@ Click the filter button (![](/_images/image-%282513 "").png>)) and select the **
 6.  Click **Save** to save your changes.\
 
 
-    ![Clicking “Save”](/_images/image-%28438%29.png-"Clicking-\"Save\"" "Clicking “Save”")
+    ![Clicking “Save”](/_images/image-(438).png "Clicking “Save”")
 
     \
     If you make any changes that affect how the Update Rings will work, you will see the **“<**_**app\_name**_**>” Deployment Summary** asking you to either confirm or cancel your changes.\
@@ -57,7 +57,7 @@ Click the filter button (![](/_images/image-%282513 "").png>)) and select the **
     For example, reducing the delay for **Corel All Users** ring from **3** days to **2** results in the following.\
 
 
-    ![Example “Deployment Summary” showing the effects of the edit](/_images/image-%28439%29.png-"Example-\"Deployment-Summary\"-showing-the-effects-of-the-edit" "Example “Deployment Summary” showing the effects of the edit")
+    ![Example “Deployment Summary” showing the effects of the edit](/_images/image-(439).png "Example “Deployment Summary” showing the effects of the edit")
 
 
 7.  Either click **Cancel** to return to the **Assignments** tab and make any required changes or click **Confirm** to save your changes.\
@@ -65,4 +65,4 @@ Click the filter button (![](/_images/image-%282513 "").png>)) and select the **
     The **Deployments** node is redisplayed along with the **Success – Edited <**_**deployment\_name**_**>** notification.\
 
 
-    ![](/_images/image-%28440%29.png-"" "")
+    ![](/_images/image-(440).png "")

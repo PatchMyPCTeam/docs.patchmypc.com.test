@@ -10,7 +10,7 @@ When I try entering my license key in the Patch My PC (PMPC) Cloud portal, I see
 
 **"Your license doesn't match the specified SKU (Enterprise Plus, Enterprise Premium). Please use the correct license key."**
 
-![Error - Your license doesn&#x27;t match the specified SKU (Enterprise Plus, Enterprise Premium). Please use the correct license key.](/_images/image-%281951%29.png-"Error-Your-license-doesn&#x27;t-match-the-specified-SKU-%28Enterprise-Plus,-Enterprise-Premium "Error - Your license doesn&#x27;t match the specified SKU (Enterprise Plus, Enterprise Premium). Please use the correct license key."). Please use the correct license key.")
+![Error - Your license doesn&#x27;t match the specified SKU (Enterprise Plus, Enterprise Premium). Please use the correct license key.](/_images/image-(1951).png "Error - Your license doesn&#x27;t match the specified SKU (Enterprise Plus, Enterprise Premium). Please use the correct license key."). Please use the correct license key.")
 
 ### CAUSE
 

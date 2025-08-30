@@ -10,7 +10,7 @@ Reviewing the **Summary** tab is optional, but recommended.
 
 The **Summary** tab of the Patch My PC (PMPC) Cloud deployment wizard provides a summary of the deployment so you can confirm that it is configured correctly before you create it.
 
-![&#x22;Summary&#x22; tab](/_images/image-%282391%29.png-"&#x22;Summary&#x22;-tab" "&#x22;Summary&#x22; tab")
+![&#x22;Summary&#x22; tab](/_images/image-(2391).png "&#x22;Summary&#x22; tab")
 
 Review the summary of the deployment shown on the **Summary** page.\
 \
@@ -18,7 +18,7 @@ If you are happy click **Deploy**.\
 \
 If you need to change something, click **< Prev** to backtrack through the Deployment Wizard to the relevant setting. Make the change, then step back through the wizard to this page. If everything is now correct, click **Deploy**.
 
-![Clicking &#x22;Deploy&#x22;](/_images/image-%282392%29.png-"Clicking-&#x22;Deploy&#x22;" "Clicking &#x22;Deploy&#x22;")
+![Clicking &#x22;Deploy&#x22;](/_images/image-(2392).png "Clicking &#x22;Deploy&#x22;")
 
 {% hint style="info" %}
 Note
@@ -32,7 +32,7 @@ See [Update Rings](../cloud-update-rings/) for more information.
 
 The App Catalog is redisplayed along with the **Success - Created&#x20;**_**\<deployment\_name>**_ notification.
 
-![](/_images/image-%282393%29.png-"" "")
+![](/_images/image-(2393).png "")
 
 {% hint style="warning" %}
 **Important**
