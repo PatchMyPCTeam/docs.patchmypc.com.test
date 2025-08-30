@@ -8,7 +8,7 @@ To help us gather feedback, we have implemented a feedback mechanism into some w
 
 If feedback has been enabled for a workflow, the first time you complete that workflow, the **Rate Your Experience** popup is included as part of the usual notification.
 
-![“Rate Your Experience” notification](../_images/21Success.png)
+![“Rate Your Experience” notification](../_images/0.png)
 
 <figure><img src="../.gitbook/assets/image (2721).png" alt="“Rate Your Experience” notification" width="563"><figcaption></figcaption></figure>
 
