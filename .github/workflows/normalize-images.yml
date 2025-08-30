@@ -34,126 +34,189 @@ jobs:
       - name: Ensure _images exists (flat)
         run: mkdir -p _images
 
+      # 1) Copy images from .gitbook/assets → _images (flat)
       - name: Copy from .gitbook/assets → _images (flat)
         shell: bash
         run: |
           set -euo pipefail
           if [ -d ".gitbook/assets" ]; then
-            # copy every file from .gitbook/assets/* → _images/<basename>
             while IFS= read -r -d '' src; do
               base="$(basename "$src")"
-              if [ -e "_images/$base" ] && ! cmp -s "$src" "_images/$base"; then
-                echo "::warning::Duplicate filename '$base' — overwriting with last copy."
-              fi
               cp -f "$src" "_images/$base"
             done < <(find .gitbook/assets -type f -print0)
           fi
-      
 
-      # Convert <figure><img ...><figcaption>...</figcaption></figure> → ![alt](/_images/file "title")
-      - name: Convert <figure><img> to Markdown images (RELATIVE)
+      # 2) Rename files in _images to remove spaces (spaces -> '-')
+      - name: Slugify filenames in _images (remove spaces)
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for f in _images/*; do
+            b="$(basename "$f")"
+            nb="$(printf '%s' "$b" | sed -E 's/%20/ /g; s/[[:space:]]+/-/g; s/-+/-/g')"
+            if [ "$b" != "$nb" ]; then
+              # Avoid collisions after rename
+              tgt="_images/$nb"
+              if [ -e "$tgt" ]; then
+                base="${nb%.*}"; ext="${nb##*.}"; i=1
+                while [ -e "_images/${base}-${i}.${ext}" ]; do i=$((i+1)); done
+                tgt="_images/${base}-${i}.${ext}"
+              fi
+              git mv -f "$f" "$tgt" 2>/dev/null || mv -f "$f" "$tgt"
+              echo "Renamed: $b -> $(basename "$tgt")"
+            fi
+          done
+
+      # 3) Convert <figure><img ...><figcaption>...</figcaption></figure> → ![alt](/_images/file "alt")
+      - name: Convert <figure><img> blocks to Markdown images (no spaces; root /_images)
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
           import re, glob, html, os
 
-          def enc(u): return u.replace(' ', '%20').replace('(', '%28').replace(')', '%29')
+          def slug_filename(name:str)->str:
+              # turn percent-space back into space, then spaces -> hyphen; keep parentheses
+              name = name.replace('%20',' ')
+              name = re.sub(r'\s+', '-', name)
+              name = re.sub(r'-{2,}', '-', name)
+              return name
+
+          files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
+                   for p in glob.glob(g, recursive=True)]
 
           FIG = re.compile(r'<figure\b[^>]*>(.*?)</figure>', re.I|re.S)
           IMG = re.compile(r'<img\b[^>]*>', re.I|re.S)
           CAP = re.compile(r'<figcaption\b[^>]*>(.*?)</figcaption>', re.I|re.S)
           def attr(n,s):
-            m=re.search(rf'\b{n}\s*=\s*["\']([^"\']*)["\']', s, re.I|re.S)
-            return m.group(1).strip() if m else ''
+              m = re.search(rf'\b{n}\s*=\s*["\']([^"\']*)["\']', s, re.I|re.S)
+              return m.group(1).strip() if m else ''
 
-          md_files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
-                      for p in glob.glob(g, recursive=True)]
-
-          for path in md_files:
-            # compute "../" depth for relative prefix
-            depth = 0 if os.path.dirname(path)=='' else os.path.dirname(path).count('/')+1
-            prefix = "" if depth==0 else "../"*depth
-
-            def convert(block):
-              m=IMG.search(block)
+          def convert(block:str)->str:
+              m = IMG.search(block)
               if not m: return block
-              img=m.group(0)
-              src=attr('src',img); alt=attr('alt',img)
-              mcap=CAP.search(block)
-              caption = html.unescape(re.sub(r'<[^>]+>','',mcap.group(1))).strip() if mcap else ""
-              title = caption or alt
+              img = m.group(0)
+              raw_src = attr('src', img)
+              alt = attr('alt', img)
+              # filename from src, slugified (spaces -> '-'), keep parentheses
+              fn = slug_filename(os.path.basename(raw_src))
+              url = f"/_images/{fn}"
+              # title = alt (leave curly quotes as-is; escape straight ")
+              title = alt.replace('"', r'\"')
+              alt_md = alt.replace(']', r'\]')
+              return f'![{alt_md}]({url} "{title}")'
 
-              # strip anything before /_images/, flatten gitbook/, then make RELATIVE
-              src = re.sub(r'^[^"\']*?/_images/', '_images/', src)
-              src = src.replace(' _images/','_images/')        # just in case stray spaces
-              src = src.replace('_images/gitbook/','_images/')
-              src = prefix + src
-              src = enc(src)
-
-              alt = alt.replace(']','\\]')
-              title = title.replace('“','"').replace('”','"').replace('"','\\"')
-              return f'![{alt}]({src} "{title}")'
-
-            t=open(path,encoding='utf-8').read()
-            n=FIG.sub(lambda m: convert(m.group(0)), t)
-            if n!=t:
-              open(path,'w',encoding='utf-8').write(n)
-              print(f"Converted figures in: {path}")
+          for path in files:
+              s = open(path, encoding="utf-8").read()
+              n = FIG.sub(lambda m: convert(m.group(0)), s)
+              if n != s:
+                  open(path, "w", encoding="utf-8").write(n)
+                  print(f"Converted figures in: {path}")
           PY
-    
+      
 
-      # Rewrite ALL image links to site-root /_images/<file>; strip any prefix; flatten gitbook segment; encode spaces/()
-      - name: Rewrite links to RELATIVE _images/* (depth-aware, strips prefixes)
+      # 4) Normalize any remaining image links to /_images/<no-spaces>, remove prefixes/subfolders, convert bare <img> too
+      - name: Normalize existing image links to ![alt](/_images/<slug> "alt")
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
           import re, glob, os
-          def enc(u): return u.replace(' ', '%20').replace('(', '%28').replace(')', '%29')
 
-          files=[p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
-                 for p in glob.glob(g, recursive=True)]
+          def slug_filename(name:str)->str:
+              name = name.replace('%20',' ')
+              name = re.sub(r'\s+', '-', name)
+              name = re.sub(r'-{2,}', '-', name)
+              return name
+
+          files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
+                   for p in glob.glob(g, recursive=True)]
+
+          # Markdown image: ![alt](URL "title"?) -> rebuild with slug and title=alt
+          md_img = re.compile(
+              r'!\[([^\]]*)\]\(\s*<?([^)\s]+)(?:\s+"([^"]*)")?\s*>\)?', re.I)
+
+          # HTML <img ...> -> convert to markdown
+          html_img = re.compile(
+              r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>', re.I)
+
+          def to_root_image_url(url:str)->str:
+              # strip everything before /_images/ or .gitbook/assets/
+              if '/_images/' in url:
+                  fn = os.path.basename(url)
+              elif '/.gitbook/assets/' in url:
+                  fn = os.path.basename(url)
+              else:
+                  fn = os.path.basename(url)
+              return '/_images/' + slug_filename(fn)
+
+          def rebuild_md(alt:str, url:str)->str:
+              alt_md = alt.replace(']', r'\]')
+              return f'![{alt_md}]({to_root_image_url(url)} "{alt.replace(\'"\', r"\\\"")}")'
 
           for path in files:
-            depth = 0 if os.path.dirname(path)=='' else os.path.dirname(path).count('/')+1
-            prefix = "" if depth==0 else "../"*depth
+              s = open(path, encoding="utf-8").read()
+              o = s
 
-            s=open(path,encoding='utf-8').read(); o=s
+              # 1) Markdown images
+              def md_sub(m):
+                  alt, url, _title = m.group(1), m.group(2), m.group(3)
+                  return rebuild_md(alt, url)
+              s = md_img.sub(md_sub, s)
 
-            # .gitbook/assets → _images
-            s=s.replace("/.gitbook/assets/","/_images/").replace("_images/gitbook/","_images/")
+              # 2) HTML <img> → markdown images
+              def img_sub(m):
+                  url, alt = m.group(1), (m.group(2) or "")
+                  return rebuild_md(alt, url)
+              s = html_img.sub(img_sub, s)
 
-            # ANY prefix before _images → make it RELATIVE (md inline)
-            s=re.sub(r"\]\(\s*<?[^)\s\"']*?/_images/([^)\s\"'>]+)", r"]("+prefix+r"_images/\1", s)
+              # 3) Clean any '../' or './' prefixes that slipped through
+              s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
 
-            # HTML src=... → RELATIVE
-            s=re.sub(r'\bsrc\s*=\s*"[^"]*?/_images/([^"]+)"', r'src="'+prefix+r'_images/\1"', s)
-            s=re.sub(r"\bsrc\s*=\s*'[^']*?/_images/([^']+)'", r"src='"+prefix+r"_images/\1'", s)
-
-            # Reference-style
-            s=re.sub(r'(?im)^(\[[^\]]+\]:\s*)[^\s]*?/_images/(\S+)$', r'\1'+prefix+r'_images/\2', s)
-
-            # Percent-encode in final targets
-            s=re.sub(r"\]\(([^)\n]*?_images/[^)\n]*)\)", lambda m: "]("+enc(m.group(1))+")", s)
-            s=re.sub(r'src="([^"]*?_images/[^"]*)"', lambda m: 'src="'+enc(m.group(1))+'"', s)
-            s=re.sub(r"src='([^']*?_images/[^']*)'", lambda m: "src='"+enc(m.group(1))+"'", s)
-            s=re.sub(r'(?im)^(\[[^\]]+\]:\s*)([^ \t]+_images/\S+)$',
-                     lambda m: m.group(1)+enc(m.group(2)), s)
-
-            if s!=o:
-              open(path,'w',encoding='utf-8').write(s)
-              print(f"Rewrote: {path}")
+              if s != o:
+                  open(path,"w",encoding="utf-8").write(s)
+                  print(f"Normalized links in: {path}")
           PY
-      
-      
-      
+
+      # 5) Validate: all image links are /_images/<no-spaces> and no subfolders
+      - name: Validate image links style (/_images/*, no spaces)
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import re, glob, sys
+          exts = r"(png|jpe?g|gif|webp|svg)"
+          md_img = re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
+          html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
+          is_img = re.compile(rf"\.({exts})(?:$|\?)", re.I)
+
+          def bad(u:str)->bool:
+            if not is_img.search(u): return False
+            if not u.startswith("/_images/"): return True
+            rest = u[len("/_images/"):]
+            if "/" in rest: return True  # no subfolders
+            return " " in u  # no spaces
+
+          bads=[]
+          files=[p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
+                    for p in glob.glob(g, recursive=True)]
+          for p in files:
+            s=open(p,encoding="utf-8").read()
+            bads += [(p,u.strip()) for u in md_img.findall(s) if bad(u.strip())]
+            bads += [(p,u.strip()) for u in html_src.findall(s) if bad(u.strip())]
+          if bads:
+            print("Non-compliant image links:")
+            for p,u in bads: print(f"- {p}: {u}")
+            sys.exit(1)
+          print("All image links are /_images/<file> with no spaces and no subfolders.")
+          PY
 
       - name: Commit changes (if any)
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
-            git commit -m "Normalize images and links for Git it Write [ci skip]"
+            git commit -m "Normalize: convert figures and links to ![alt](/_images/file \"alt\"), no spaces [ci skip]"
           else
             echo "No changes to commit."
           fi
@@ -162,28 +225,15 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          
-          # Always have the latest remote state locally
           git fetch origin main --prune
-          
-          # Short-circuit if we have nothing new to push
           if [ "$(git rev-list --count HEAD ^origin/main)" -eq 0 ]; then
             echo "No new commits to push."
             exit 0
           fi
-          
-          # Try to push up to 3 times, rebasing if needed
-          for attempt in 1 2 3; do
-            echo "Push attempt $attempt..."
-            if git push --force-with-lease; then
-              echo "Pushed successfully."
-              exit 0
-            fi
-            echo "Push rejected. Rebasing onto latest origin/main..."
+          for a in 1 2 3; do
+            echo "Push attempt $a..."
+            if git push --force-with-lease; then exit 0; fi
             git rebase origin/main
             sleep 2
           done
-          
-          echo "Giving up after 3 attempts."
-          exit 1
-     
+          echo "Giving up after 3 attempts."; exit 1
