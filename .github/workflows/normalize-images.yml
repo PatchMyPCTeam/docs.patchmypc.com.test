@@ -124,60 +124,55 @@ jobs:
           python3 - <<'PY'
           import re, glob, os
 
-          def slug_filename(name:str)->str:
-              name = name.replace('%20',' ')
-              name = re.sub(r'\s+', '-', name)
-              name = re.sub(r'-{2,}', '-', name)
-              return name
+          def slug_filename(name: str) -> str:
+            name = name.replace('%20', ' ').strip()
+            name = re.sub(r'\s+', '-', name)      # spaces -> hyphen
+            name = re.sub(r'-{2,}', '-', name)    # collapse --
+            return name
+
+          def to_root_image_url(url: str) -> str:
+            fn = os.path.basename(url)
+            return '/_images/' + slug_filename(fn)
 
           files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
                    for p in glob.glob(g, recursive=True)]
 
-          # Markdown image: ![alt](URL "title"?) -> rebuild with slug and title=alt
+          # Markdown images: ![alt](URL "title")
           md_img = re.compile(
-              r'!\[([^\]]*)\]\(\s*<?([^)\s]+)(?:\s+"([^"]*)")?\s*>\)?', re.I)
+            r'!\[([^\]]*)\]\(\s*<?([^)\s]+)>?(?:\s+"[^"]*")?\s*\)', re.I
+          )
 
-          # HTML <img ...> -> convert to markdown
+          # HTML <img src="..."> (alt may be missing)
           html_img = re.compile(
-              r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>', re.I)
+            r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
+            re.I
+          )
 
-          def to_root_image_url(url:str)->str:
-              # strip everything before /_images/ or .gitbook/assets/
-              if '/_images/' in url:
-                  fn = os.path.basename(url)
-              elif '/.gitbook/assets/' in url:
-                  fn = os.path.basename(url)
-              else:
-                  fn = os.path.basename(url)
-              return '/_images/' + slug_filename(fn)
-
-          def rebuild_md(alt:str, url:str)->str:
-              alt_md = alt.replace(']', r'\]')
-              return f'![{alt_md}]({to_root_image_url(url)} "{alt.replace(\'"\', r"\\\"")}")'
+          def rebuild(alt: str, url: str) -> str:
+            alt_md = alt.replace(']', r'\]')
+            title  = alt.replace('"', r'\"')
+            return '![{alt}]({url} "{title}")'.format(
+              alt=alt_md, url=to_root_image_url(url), title=title
+            )
 
           for path in files:
-              s = open(path, encoding="utf-8").read()
-              o = s
+            s = open(path, encoding='utf-8').read()
+            o = s
 
-              # 1) Markdown images
-              def md_sub(m):
-                  alt, url, _title = m.group(1), m.group(2), m.group(3)
-                  return rebuild_md(alt, url)
-              s = md_img.sub(md_sub, s)
+            # 1) Rewrite Markdown images
+            s = md_img.sub(lambda m: rebuild(m.group(1), m.group(2)), s)
 
-              # 2) HTML <img> → markdown images
-              def img_sub(m):
-                  url, alt = m.group(1), (m.group(2) or "")
-                  return rebuild_md(alt, url)
-              s = html_img.sub(img_sub, s)
+            # 2) Convert HTML <img> to Markdown images
+            s = html_img.sub(lambda m: rebuild(m.group(2) or "", m.group(1)), s)
 
-              # 3) Clean any '../' or './' prefixes that slipped through
-              s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
+            # 3) Strip any ../ or ./ prefixes that slipped through
+            s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
 
-              if s != o:
-                  open(path,"w",encoding="utf-8").write(s)
-                  print(f"Normalized links in: {path}")
+            if s != o:
+              open(path, 'w', encoding='utf-8').write(s)
+              print(f"Normalized links in: {path}")
           PY
+      
 
       # 5) Validate: all image links are /_images/<no-spaces> and no subfolders
       - name: Validate image links style (/_images/*, no spaces)
