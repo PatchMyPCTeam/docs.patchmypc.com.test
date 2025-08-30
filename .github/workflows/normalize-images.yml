@@ -69,7 +69,7 @@ jobs:
           done
 
       # 3) Convert <figure><img ...><figcaption>...</figcaption></figure> → ![alt](/_images/file "alt")
-      - name: Convert <figure><img> blocks to Markdown images (no spaces; root /_images)
+      - name: Convert <figure><img> blocks to Markdown images (/_images, no spaces)
         shell: bash
         run: |
           set -euo pipefail
@@ -77,10 +77,9 @@ jobs:
           import re, glob, html, os
 
           def slug_filename(name:str)->str:
-              # turn percent-space back into space, then spaces -> hyphen; keep parentheses
               name = name.replace('%20',' ')
-              name = re.sub(r'\s+', '-', name)
-              name = re.sub(r'-{2,}', '-', name)
+              name = re.sub(r'\s+', '-', name)   # spaces -> dash
+              name = re.sub(r'-{2,}', '-', name) # collapse --
               return name
 
           files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
@@ -99,13 +98,16 @@ jobs:
               img = m.group(0)
               raw_src = attr('src', img)
               alt = attr('alt', img)
-              # filename from src, slugified (spaces -> '-'), keep parentheses
+              # title = figcaption (preferred), else ALT
+              mcap = CAP.search(block)
+              cap = html.unescape(re.sub(r'<[^>]+>','',mcap.group(1))).strip() if mcap else ""
+              title = cap or alt
+
               fn = slug_filename(os.path.basename(raw_src))
               url = f"/_images/{fn}"
-              # title = alt (leave curly quotes as-is; escape straight ")
-              title = alt.replace('"', r'\"')
               alt_md = alt.replace(']', r'\]')
-              return f'![{alt_md}]({url} "{title}")'
+              title_md = title.replace('"', r'\"')  # keep curly quotes, escape only "
+              return f'![{alt_md}]({url} "{title_md}")'
 
           for path in files:
               s = open(path, encoding="utf-8").read()
@@ -115,9 +117,10 @@ jobs:
                   print(f"Converted figures in: {path}")
           PY
       
+      
 
       # 4) Normalize any remaining image links to /_images/<no-spaces>, remove prefixes/subfolders, convert bare <img> too
-      - name: Normalize existing image links to ![alt](/_images/<slug> "alt")
+      - name: Normalize existing image links to ![alt](/_images/<slug> "title")
         shell: bash
         run: |
           set -euo pipefail
@@ -126,7 +129,7 @@ jobs:
 
           def slug_filename(name: str) -> str:
             name = name.replace('%20', ' ').strip()
-            name = re.sub(r'\s+', '-', name)      # spaces -> hyphen
+            name = re.sub(r'\s+', '-', name)      # spaces -> dash
             name = re.sub(r'-{2,}', '-', name)    # collapse --
             return name
 
@@ -137,41 +140,37 @@ jobs:
           files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
                    for p in glob.glob(g, recursive=True)]
 
-          # Markdown images: ![alt](URL "title")
-          md_img = re.compile(
-            r'!\[([^\]]*)\]\(\s*<?([^)\s]+)>?(?:\s+"[^"]*")?\s*\)', re.I
-          )
+          # Markdown: ![alt](URL "title"?)  — keep existing title if present
+          md_img = re.compile(r'!\[([^\]]*)\]\(\s*<?([^)\s]+)>?(?:\s+"([^"]*)")?\s*\)', re.I)
 
-          # HTML <img src="..."> (alt may be missing)
-          html_img = re.compile(
-            r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
-            re.I
-          )
+          # HTML <img src="..."> (alt optional) -> Markdown
+          html_img = re.compile(r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>', re.I)
 
-          def rebuild(alt: str, url: str) -> str:
+          def rebuild_md(alt: str, url: str, title: str|None) -> str:
             alt_md = alt.replace(']', r'\]')
-            title  = alt.replace('"', r'\"')
+            title_txt = (title if title is not None and title != "" else alt).replace('"', r'\"')
             return '![{alt}]({url} "{title}")'.format(
-              alt=alt_md, url=to_root_image_url(url), title=title
+              alt=alt_md, url=to_root_image_url(url), title=title_txt
             )
 
           for path in files:
             s = open(path, encoding='utf-8').read()
             o = s
 
-            # 1) Rewrite Markdown images
-            s = md_img.sub(lambda m: rebuild(m.group(1), m.group(2)), s)
+            # 1) Markdown images
+            s = md_img.sub(lambda m: rebuild_md(m.group(1), m.group(2), m.group(3)), s)
 
-            # 2) Convert HTML <img> to Markdown images
-            s = html_img.sub(lambda m: rebuild(m.group(2) or "", m.group(1)), s)
+            # 2) HTML <img> -> Markdown (title from ALT)
+            s = html_img.sub(lambda m: rebuild_md(m.group(2) or "", m.group(1), None), s)
 
-            # 3) Strip any ../ or ./ prefixes that slipped through
+            # 3) Remove any ../ or ./ prefixes that could slip in
             s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
 
             if s != o:
               open(path, 'w', encoding='utf-8').write(s)
               print(f"Normalized links in: {path}")
           PY
+      
       
 
       # 5) Validate: all image links are /_images/<no-spaces> and no subfolders
