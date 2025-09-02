@@ -159,45 +159,56 @@ jobs:
               python3 normalize_images.py
 
       # 4) Validate: links are ![alt](/_images/<file> "title") — no spaces/% and no subfolders
+      - name: Write image links validator
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > validate_images.py <<'PY'
+          #!/usr/bin/env python3
+          import re, glob, sys
+
+          exts     = r"(png|jpe?g|gif|webp|svg)"
+          md_img   = re.compile(r"!\[[^\]]*\]\(\s*<?([^)\s]+)>?")
+          html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
+          is_img   = re.compile(rf"\.({exts})(?:$|\?)", re.I)
+
+          def bad(u:
+            str) -> bool:
+              if not is_img.search(u):
+                return False
+              if not u.startswith("/_images/"):
+                return True
+              rest = u[len("/_images/"):]
+              if "/" in rest:
+                return True            # no subfolders
+              if any(p in u for p in (" ", "%20", "%28", "%29")):
+                return True            # no spaces or %
+              return False
+    
+          bads = []
+          files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
+          for p in glob.glob(g, recursive=True)]
+          for p in files:
+            with open(p, encoding="utf-8") as f:
+              s = f.read()
+            bads += [(p, u.strip()) for u in md_img.findall(s)   if bad(u.strip())]
+            bads += [(p, u.strip()) for u in html_src.findall(s) if bad(u.strip())]
+    
+          if bads:
+            print("Non-compliant image links:")
+            for p, u in bads:
+              print(f"- {p}: { u }")
+              sys.exit(1)
+    
+          print('All image links are ![alt](/_images/<file> "title") with no spaces/% and no subfolders.')
+          PY
+
       - name: Validate image links style (/_images/*, no spaces or %)
         shell: bash
         run: |
           set -euo pipefail
-          python3 - <<'PY'
-            import re, glob, sys
-            exts     = r"(png|jpe?g|gif|webp|svg)"
-            md_img   = re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
-            html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
-            is_img   = re.compile(rf"\.({exts})(?:$|\?)", re.I)
-          
-          def bad(u: str) -> bool:
-                       if not is_img.search(u):
-                         return False
-                       if not u.startswith("/_images/"):
-                         return True
-                       rest = u[len("/_images/"):]
-                       if "/" in rest:
-                         return True            # no subfolders
-                       if any(p in u for p in (" ", "%20", "%28", "%29")):
-                         return True            # no spaces or %
-                       return False
-        
-            bads = []
-            files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
-            for p in glob.glob(g, recursive=True)]
-          for p in files:
-            s = open(p, encoding="utf-8").read()
-            bads += [(p, u.strip()) for u in md_img.findall(s)   if bad(u.strip())]
-            bads += [(p, u.strip()) for u in html_src.findall(s) if bad(u.strip())]
-          
-          if bads:
-            print("Non-compliant image links:")
-            for p, u in bads:
-              print(f"- {p}: {u}")
-              sys.exit(1)
-      
-          print('All image links are ![alt](/_images/<file> "title") with no spaces/% and no subfolders.')
-          PY
+          python3 validate_images.py
+
 
       - name: Commit changes (if any)
         run: |
