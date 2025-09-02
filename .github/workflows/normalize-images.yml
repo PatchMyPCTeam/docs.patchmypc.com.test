@@ -138,7 +138,7 @@ jobs:
                   base, ext = bn.rsplit(".", 1)
               else:
                   base, ext = bn, ""
-              base = re.sub(r"\s+", "-", base)                 # spaces -> dash
+              base = re.sub(r"\s+", "-", base)                  # spaces -> dash
               base = re.sub(r"[^A-Za-z0-9\-\_\(\)]", "-", base) # keep A-Z a-z 0-9 - _ ( )
               base = re.sub(r"-{2,}", "-", base).strip("-")
               return f"{base}.{ext.lower()}" if ext else base
@@ -161,30 +161,27 @@ jobs:
               re.I
           )
 
-          # Inline Markdown images (robust: spaces, quotes, <...>, optional "title")
+          # Inline Markdown images (spaces, quotes, <...>, optional "title")
           md_img_inline = re.compile(
-              r'!\[([^\]]*)\]'           # group 1: alt
+              r'!\[([^\]]*)\]'
               r'\('
-              r'\s*<?'                   # optional <
-              r'("?)([^)\r\n]+?)\1'      # group 2: quote char (or empty), group 3: URL
-              r'>?'                      # optional >
-              r'(?:\s+"[^"]*")?'         # optional "title"
+              r'\s*<?'
+              r'("?)([^)\r\n]+?)\1'   # group 3: URL
+              r'>?'
+              r'(?:\s+"[^"]*")?'
               r'\s*\)',
               re.I
           )
 
-          # Reference-style:  ![alt][id]
+          # Reference-style usage: ![alt][id]
           md_img_ref = re.compile(r'!\[([^\]]*)\]\s*\[([^\]]+)\]', re.I)
 
-          # Reference definitions:
-          # [id]: url               OR
-          # [id]: "url with spaces" OR
-          # [id]: <url> "title"
+          # Reference definition lines (capture optional title separately)
           ref_def = re.compile(
-              r'^\s*\[([^\]]+)\]\s*:\s*<?'   # group 1: id
-              r'("?)([^>\r\n]+?)\2'          # group 2: optional quote, group 3: URL
-              r'>?'                          # optional >
-              r'(?:\s+"[^"]*")?\s*$',
+              r'^\s*\[([^\]]+)\]\s*:\s*<?'  # group 1: id
+              r'("?)([^>\r\n]+?)\2'         # group 3: URL
+              r'>?'
+              r'(\s+"[^"]*")?\s*$',
               re.I | re.M
           )
 
@@ -200,15 +197,27 @@ jobs:
               # 2) Inline Markdown → strict Markdown
               s = md_img_inline.sub(lambda m: build_md(m.group(1), m.group(3)), s)
 
-              # 3) Reference-style: build a map id -> url, then replace ![alt][id]
+              # 3) Build map of reference defs
               defs = {m.group(1).strip(): m.group(3).strip() for m in ref_def.finditer(s)}
-              def repl_ref(m):
+
+              # 4) Reference-style usages → strict Markdown
+              def repl_ref_use(m):
                   alt, rid = m.group(1), m.group(2).strip()
                   url = defs.get(rid)
                   return build_md(alt, url) if url else m.group(0)
-              s = md_img_ref.sub(repl_ref, s)
+              s = md_img_ref.sub(repl_ref_use, s)
 
-              # 4) Clean any lingering ../ or ./ before _images
+              # 5) Normalize the reference definition lines themselves to /_images/<slug>
+              def repl_ref_def(m):
+                  rid   = m.group(1).strip()
+                  url   = m.group(3).strip()
+                  title = m.group(4) or ""          # keep existing title if present
+                  new   = to_root_image_url(url)
+                  # write normalized def without quotes/brackets around URL (no spaces in new)
+                  return f'[{rid}]: {new}{title}'
+              s = ref_def.sub(repl_ref_def, s)
+
+              # 6) Remove ../ or ./ before _images just in case
               s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
 
               if s != o:
