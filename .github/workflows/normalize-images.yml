@@ -35,7 +35,7 @@ jobs:
       - name: Ensure _images exists (flat)
         run: mkdir -p _images
 
-      # 1) Copy .gitbook/assets → _images (flat)
+      # 1) Copy images from .gitbook/assets → _images (flat)
       - name: Copy from .gitbook/assets → _images (flat)
         shell: bash
         run: |
@@ -46,7 +46,7 @@ jobs:
             done < <(find .gitbook/assets -type f -print0)
           fi
 
-      # 2) Slugify filenames in _images: spaces → '-', keep () and _
+      # 2) Rename files in _images to remove spaces (spaces -> '-')
       - name: Slugify filenames in _images (remove spaces)
         shell: bash
         run: |
@@ -67,75 +67,32 @@ jobs:
             fi
           done
 
-      # 3) Convert <figure><img ...></figure> → ![alt](/_images/file "alt")
-      - name: Convert <figure><img> blocks to Markdown images (/_images, no spaces)
+      # 3) Normalize EVERYTHING to ![alt](/_images/<slug> "alt")
+      - name: Normalize ALL image links to ![alt](/_images/<slug> "alt")
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
           import re, glob, os
+          from urllib.parse import unquote
+  
+          IMG_EXT = r"(?:png|jpe?g|gif|webp|svg)"
+          # grab the last thing that looks like a real file with an image extension
+          FILENAME_RE = re.compile(rf'([A-Za-z0-9._()\- ]+\.{IMG_EXT})', re.I)
 
-          def slug_filename(name: str) -> str:
-                                    name = name.replace('%20', ' ')
-                                    name = re.sub(r'\s+', '-', name)
-                                    name = re.sub(r'-{2,}', '-', name)
-                                    return name
-          
-            FILES = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
-            for p in glob.glob(g, recursive=True)]
-          
-            FIG = re.compile(r'<figure\b[^>]*>(.*?)</figure>', re.I|re.S)
-            IMG = re.compile(r'<img\b[^>]*>', re.I|re.S)
-          
-          def attr(n: str, s: str) -> str:
-                                m = re.search(rf'\b{n}\s*=\s*["\']([^"\']*)["\']', s, re.I|re.S)
-                                return m.group(1).strip() if m else ""
-          
-          def convert(block: str) -> str:
-                               m = IMG.search(block)
-                               if not m: return block
-                               img = m.group(0)
-                               src = attr('src', img)
-                               alt = attr('alt', img)
-                               fn  = slug_filename(os.path.basename(src))
-                               url = f"/_images/{fn}"
-                               alt_md   = alt.replace(']', r'\]')
-                               title_md = alt.replace('"', r'\"')  # title = alt
-                               return f'![{alt_md}]({url} "{title_md}")'
-          
-          for path in FILES:
-            s = open(path, encoding="utf-8").read()
-            n = FIG.sub(lambda m: convert(m.group(0)), s)
-            if n != s:
-              open(path, "w", encoding="utf-8").write(n)
-              print(f"Converted figures in: {path}")
-          PY
-          
-                # 4) Normalize ALL remaining image links to ![alt](/_images/<slug> "alt")
-              - name: Normalize ALL image links to ![alt](/_images/<slug> "alt")
-              shell: bash
-              run: |
-                set -euo pipefail
-                python3 - <<'PY'
-            import re, glob, os
-            from urllib.parse import unquote
-          
-            IMG_EXT = r"(?:png|jpe?g|gif|webp|svg)"
-            FILENAME_RE = re.compile(rf'([A-Za-z0-9._()\- ]+\.{IMG_EXT})', re.I)
-          
           def extract_filename(url: str) -> str:
                                       u = unquote(url)                    # %28→(, %29→), %20→space
                                       u = u.split('?',1)[0].split('#',1)[0]
                                       m = FILENAME_RE.findall(u)
                                       return (m[-1] if m else os.path.basename(u)).strip()
-          
+
           def slug_filename(fn: str) -> str:
                                   base, ext = os.path.splitext(fn)
-                                  base = re.sub(r'\s+', '-', base)
-                                  base = re.sub(r'[^A-Za-z0-9_()\-]+', '-', base)
-                                  base = re.sub(r'-{2,}', '-', base).strip('-')
+                                  base = re.sub(r'\s+', '-', base)                    # spaces -> dash
+                                  base = re.sub(r'[^A-Za-z0-9_()\-]+', '-', base)     # keep letters,digits,_,-,()
+                                  base = re.sub(r'-{2,}', '-', base).strip('-')       # collapse --
                                   return f"{base}{ext.lower()}"
-          
+
           def to_root_url(url: str) -> str:
                                  return "/_images/" + slug_filename(extract_filename(url))
           
@@ -143,30 +100,48 @@ jobs:
                                         alt_md = alt.replace(']', r'\]')
                                         title  = alt.replace('"', r'\"')  # title = alt
                                         return f'![{alt_md}]({to_root_url(url)} "{title}")'
-          
+  
             FILES = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
             for p in glob.glob(g, recursive=True)]
-          
-            MD_IMG   = re.compile(r'!\[([^\]]*)\]\(\s*<?([^\s)]+)>?(?:\s+"[^"]*")?\s*\)', re.I)
-            HTML_IMG = re.compile(r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>', re.I)
+            
+            # Remove <figure> wrappers entirely (we'll build clean markdown next)
+            FIG_WRAP   = re.compile(r'<figure\b[^>]*>(.*?)</figure>', re.I|re.S)
+            FIGCAPTION = re.compile(r'<figcaption\b[^>]*>.*?</figcaption>', re.I|re.S)
+            
+            # <img src="..." alt="..."> (alt optional)
+            HTML_IMG = re.compile(
+            r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
+            re.I
+            )
+            
+            # Markdown images (any existing ones), title may be present or junk after URL
+            MD_IMG = re.compile(
+            r'!\[([^\]]*)\]\(\s*<?([^\s)]+)>?(?:\s+"[^"]*")?\s*\)', re.I
+            )
           
           for path in FILES:
             txt = open(path, encoding="utf-8").read()
             orig = txt
-          
-            # <img> → markdown
+            
+            # 1) Drop figcaptions (we don't use them) and unwrap <figure> blocks
+            txt = FIGCAPTION.sub('', txt)
+            txt = FIG_WRAP.sub(lambda m: m.group(1), txt)
+            
+            # 2) Convert all <img> to strict markdown (title = alt)
             txt = HTML_IMG.sub(lambda m: build_md(m.group(2) or "", m.group(1)), txt)
-            # normalize existing markdown
+            
+            # 3) Normalize any existing markdown images to the same strict format
             txt = MD_IMG.sub(lambda m: build_md(m.group(1), m.group(2)), txt)
-            # strip any ../ or ./ before _images
+            
+            # 4) Remove any ../ or ./ prefixes that could linger before _images
             txt = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', txt)
-          
+            
             if txt != orig:
               open(path, "w", encoding="utf-8").write(txt)
               print(f"Fixed: {path}")
           PY
 
-      # 5) Validate: links are ![alt](/_images/<file> "title") — no spaces/% and no subfolders
+      # 4) Validate: links are ![alt](/_images/<file> "title") — no spaces/% and no subfolders
       - name: Validate image links style (/_images/*, no spaces or %)
         shell: bash
         run: |
@@ -177,19 +152,18 @@ jobs:
           md_img   = re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
           html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
           is_img   = re.compile(rf"\.({exts})(?:$|\?)", re.I)
-        
-          def bad(u:
-            str) -> bool:
-              if not is_img.search(u): return False
-              if not u.startswith("/_images/"): return True
-              rest = u[len("/_images/"):]
-              if "/" in rest: return True            # no subfolders
-              if any(p in u for p in (" ", "%20", "%28", "%29")): return True  # no spaces or %
-              return False
-              
-              bads = []
-              files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
-              for p in glob.glob(g, recursive=True)]
+
+          def bad(u: str) -> bool:
+                       if not is_img.search(u): return False
+                       if not u.startswith("/_images/"): return True
+                       rest = u[len("/_images/"):]
+                       if "/" in rest: return True            # no subfolders
+                       if any(p in u for p in (" ", "%20", "%28", "%29")): return True  # no spaces or %
+                       return False
+  
+            bads = []
+            files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
+            for p in glob.glob(g, recursive=True)]
           for p in files:
             s = open(p, encoding="utf-8").read()
             bads += [(p, u.strip()) for u in md_img.findall(s)   if bad(u.strip())]
@@ -197,11 +171,10 @@ jobs:
           
           if bads:
             print("Non-compliant image links:")
-            for p,u in bads:
-              print(f"- {p}: { u }")
+            for p,u in bads: print(f"- {p}: {u}")
               sys.exit(1)
           print("All image links are ![alt](/_images/<file> \"title\") with no spaces/% and no subfolders.")
-          PY
+            PY
 
       - name: Commit changes (if any)
         run: |
