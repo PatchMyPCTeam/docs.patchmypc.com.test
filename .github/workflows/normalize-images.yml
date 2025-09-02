@@ -121,8 +121,8 @@ jobs:
             )
             
             # Markdown images — rebuild them too
-            MD_IMG = re.compile(r'!\[([^\]]*)\]\(\s*<?([^\s)]+)>?(?:\s+"[^"]*")?\s*\)', re.I)
-            
+            MD_IMG = re.compile(r'!\[([^\]]*)\]\(\s*<?([^)\r\n]+?)>?(?:\s+"[^"]*")?\s*\)', re.I)          
+          
             changed = 0
           for path in FILES:
             with open(path, encoding="utf-8") as f:
@@ -168,7 +168,7 @@ jobs:
           import re, glob, sys
 
           exts     = r"(png|jpe?g|gif|webp|svg)"
-          md_img   = re.compile(r"!\[[^\]]*\]\(\s*<?([^)\s]+)>?")
+          md_img = re.compile(r'!\[[^\]]*\]\(\s*<?([^)\r\n]+)')
           html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
           is_img   = re.compile(rf"\.({exts})(?:$|\?)", re.I)
 
