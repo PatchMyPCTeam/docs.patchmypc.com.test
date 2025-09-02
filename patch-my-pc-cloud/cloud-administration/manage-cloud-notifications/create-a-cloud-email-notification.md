@@ -27,12 +27,12 @@ To create an email notification:
     The email address is added to the list of email addresses that will be sent the notification.\
 
 
-    ![](/_images/image-(1916 "").png "")
+    ![](/_images/image-(1916).png "")
 
 {% hint style="success" %}
 **Tip**
 
-You can click the small envelope beside the email address (![](/_images/image-(1900 "").png>)) to send a test notification. See [Testing an Email Notification](cloud-notifications-reference/test-an-email-notification-in-cloud.md) for more details.
+You can click the small envelope beside the email address (![](/_images/image-(1900).png>)) to send a test notification. See [Testing an Email Notification](cloud-notifications-reference/test-an-email-notification-in-cloud.md) for more details.
 {% endhint %}
 
 {% hint style="info" %}
@@ -52,7 +52,7 @@ You can also click the trashcan beside an email address to delete it from the li
     The **Success - Notification created** notification is shown.\
 
 
-    ![](/_images/image-(1920 "").png "")
+    ![](/_images/image-(1920).png "")
 
     \
     The portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification.\

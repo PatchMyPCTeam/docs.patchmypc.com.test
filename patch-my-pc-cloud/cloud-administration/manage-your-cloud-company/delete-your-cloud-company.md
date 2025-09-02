@@ -30,7 +30,7 @@ To delete your company from Patch My PC (PMPC) Cloud:
 3.  On the **Are you sure you want to delete the company <**_**company\_name**_**>?** dialog box, click **Yes** to confirm the deletion.\
 
 
-    ![](/_images/image-(799 "").png "")
+    ![](/_images/image-(799).png "")
 
     \
     The Patch My PC Signup screen is displayed.\

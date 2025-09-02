@@ -14,4 +14,4 @@ The **Environments** page is then displayed, allowing you to see and manage whic
 * [Subscription level you currently have and when it expires](manage-your-cloud-license.md)
 * [Environments your portal is connected to and rename them](rename-your-cloud-environment.md)
 
-![](/_images/image-(2567 "").png "")
+![](/_images/image-(2567).png "")

@@ -41,7 +41,7 @@ Only the templates created for the Operating System (OS) platform you are deploy
 
 The Deployment Wizard is redisplayed along with the **Success - Template ‘<**_**template\_name**_**>’ applied** notification.
 
-![](/_images/image-(2332 "").png "")
+![](/_images/image-(2332).png "")
 
 {% hint style="info" %}
 **Note**

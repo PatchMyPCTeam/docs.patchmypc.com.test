@@ -21,7 +21,7 @@ To delete a Custom App using Patch My PC (PMPC) Cloud:
 5.  On the **Are you sure you want to delete <**_**app\_name>**_ dialog box, click **Yes**.\
 
 
-    ![](/_images/image-(470 "").png "")
+    ![](/_images/image-(470).png "")
 
     \
     The App Catalog refreshes and the **Success – Application deleted successfully** notification is shown.\

@@ -7,7 +7,7 @@ _Applies to: Patch My PC Cloud_
 ### Testing an email notification at the time of creation
 
 1. Follow the [Create an Email Notification](../create-a-cloud-email-notification.md) process.
-2.  Once you have entered and saved the relevant email addresses, click the small envelope beside any of the email addresses (![](/_images/image-(1900 "").png>)) to send a test message to that email address.\
+2.  Once you have entered and saved the relevant email addresses, click the small envelope beside any of the email addresses (![](/_images/image-(1900).png>)) to send a test message to that email address.\
 
 
     ![Clicking the small envelope beside any of the email addresses to send them a test message](/_images/image-(1922).png "Clicking the small envelope beside any of the email addresses to send them a test message")
@@ -33,7 +33,7 @@ If the user does not receive the email, check the email is not in their junk ema
 ### Testing an email notification after it has been created
 
 1. Follow the [Modify a Notification](../modify-a-cloud-notification.md) process and select the relevant Slack notification you want to test.
-2.  Click the small envelope beside any of the email addresses (![](/_images/image-(1900 "").png>)) to send a test message to that email address.\
+2.  Click the small envelope beside any of the email addresses (![](/_images/image-(1900).png>)) to send a test message to that email address.\
 
 
     ![Clicking the small envelope beside any of the email addresses to send them a test message](/_images/image-(1922).png "Clicking the small envelope beside any of the email addresses to send them a test message")

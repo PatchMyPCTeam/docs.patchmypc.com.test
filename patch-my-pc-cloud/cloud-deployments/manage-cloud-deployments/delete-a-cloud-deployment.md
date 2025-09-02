@@ -13,7 +13,7 @@ To delete a deployment in Patch My PC (PMPC) Cloud:
 2.  On the **Are you sure you want to delete <**_**deployment\_name**_**>** dialog box, click **Yes**.\
 
 
-    ![](/_images/image-(869 "").png "")
+    ![](/_images/image-(869).png "")
 
 
 
@@ -36,7 +36,7 @@ Deleting a deployment will also delete the:
 * packaged win32 app from Intune.
 {% endhint %}
 
-![](/_images/image-(1685 "").png "")
+![](/_images/image-(1685).png "")
 
 {% hint style="success" %}
 **Tip**

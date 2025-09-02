@@ -29,7 +29,7 @@ To delete a Branding App:
 
 The **Success - <**_**branding\_app\_name**_**> deleted** notification is shown.
 
-![](/_images/image-(2677 "").png "")
+![](/_images/image-(2677).png "")
 
 The **Branding** screen is redisplayed showing the Branding App has been  deleted.
 

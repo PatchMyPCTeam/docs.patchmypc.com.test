@@ -21,5 +21,5 @@ The **Environments** node is shown, displaying the updated name and the **Succes
 
 If you look in the **Events** node, you will see an event related to the rename:
 
-![](/_images/image-(1574 "").png "")
+![](/_images/image-(1574).png "")
 {% endhint %}

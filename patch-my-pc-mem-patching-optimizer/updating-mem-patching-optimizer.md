@@ -8,7 +8,7 @@ _Applies to: Patch My PC MEM Patching Optimizer_
 
 Clicking **About** gives you a new window showing information about the MEM Patching Optimizer
 
-![](/_images/Run_Tests_5.png "")
+![](/_images/Run_Tests_5.png)
 
 ### Updates
 
@@ -16,6 +16,6 @@ If a newer release of the MEM Patching Optimizer is found, you will see the Late
 
 Additionally, you will see Close & Update become clickable, this will close the MEM Patching Optimizer and kick off the updater.&#x20;
 
-![](/_images/Update_1.png "")
+![](/_images/Update_1.png)
 
 There are also links to the latest version release notes and this documentation linked in the About window.

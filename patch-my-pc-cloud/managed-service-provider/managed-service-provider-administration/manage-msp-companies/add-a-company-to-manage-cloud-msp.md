@@ -62,7 +62,7 @@ You can click the down arrow beside each permission to get more information.
 8.  Verify Intune has **Connected** successfully.\
 
 
-    ![](/_images/image-(2304 "").png "")
+    ![](/_images/image-(2304).png "")
 
 
 9. On the **Create New Customer** page, enter the name of the customer to be managed in the **Customer Name** field.
@@ -96,4 +96,4 @@ We support the characters **À-ÿ** (which includes characters from the Latin-1 
 
 The portal refreshes, showing the newly added customer and the **Success - Child Customer <**_**customer\_name**_**> created** notification.
 
-![](/_images/image-(2566 "").png "")
+![](/_images/image-(2566).png "")

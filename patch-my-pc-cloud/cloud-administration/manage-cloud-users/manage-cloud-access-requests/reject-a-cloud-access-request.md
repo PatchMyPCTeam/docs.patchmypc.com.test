@@ -13,7 +13,7 @@ To reject an access request in Patch My PC (PMPC) Cloud:
 2.  On the **Reject request from "<**_**user\_name**_**>"** dialog box, enter an optional **Reason for Deny** then, click **Submit** to confirm your rejection.\
 
 
-    ![](/_images/image-(624 "").png "")
+    ![](/_images/image-(624).png "")
 
     \
     \

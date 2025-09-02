@@ -20,7 +20,7 @@ To configure who receives new version notifications:
 1.  If you still have the **“<**_**app\_name**_**>” Upload file** screen open, click **Back**, otherwise search for the app in the App Catalog and click it to open its properties screen.\
 
 
-    ![](/_images/image-(2051 "").png "")
+    ![](/_images/image-(2051).png "")
 
 
 2.  On the app’s properties page, click **New Version Notifications**.\
@@ -39,7 +39,7 @@ To configure who receives new version notifications:
     \
 
 
-    ![](/_images/image-(2053 "").png "")
+    ![](/_images/image-(2053).png "")
 
 
 4. If you want to select either **Notify All Users in Company** or **Don’t Notify** any users, select the relevant option then go to Step 8.

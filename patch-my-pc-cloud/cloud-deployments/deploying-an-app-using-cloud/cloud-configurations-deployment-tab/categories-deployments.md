@@ -53,11 +53,11 @@ You can create up to 200 categories per Intune tenant. Each category name must:
 * Not be the name of a script.
 {% endhint %}
 
-![](/_images/image-(75 "").png "")
+![](/_images/image-(75).png "")
 
 7. Press `ENTER` and the **Success – The category “<**_**category\_name>**_**” has been created** notification is shown, confirming the new category has been added to both Intune and this deployment.
 
-![](/_images/image-(76 "").png "")
+![](/_images/image-(76).png "")
 
 {% hint style="info" %}
 **Note**

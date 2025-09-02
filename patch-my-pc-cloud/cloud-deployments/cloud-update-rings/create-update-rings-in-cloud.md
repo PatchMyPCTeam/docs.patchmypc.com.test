@@ -85,7 +85,7 @@ See the [Assignments](../deploying-an-app-using-cloud/cloud-assignments-deployme
 {% hint style="success" %}
 **Tip**
 
-You can drag assignments between Update Rings by clicking the double ellipsis (![](/_images/image-(2044 "").png "")) beside the relevant assignment and dragging and dropping it to the relevant Update Ring.
+You can drag assignments between Update Rings by clicking the double ellipsis (![](/_images/image-(2044).png "")) beside the relevant assignment and dragging and dropping it to the relevant Update Ring.
 {% endhint %}
 
 ![Assignments added and configured for each Update Ring](/_images/image-(2594).png "Assignments added and configured for each Update Ring")
@@ -103,7 +103,7 @@ The **“<**_**deployment\_name**_**>” Deployment Summary** dialog box appears
 
 If your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) is set to anything other than **Daily**, the UI will warn you that some rings may not be evaluated as expected.&#x20;
 
-![](/_images/image-(2138 "").png>)
+![](/_images/image-(2138).png>)
 
 This is why we recommend you set your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to **Daily** if you plan to use Update Rings.
 {% endhint %}
@@ -118,4 +118,4 @@ This is why we recommend you set your [Sync Schedule](../../cloud-administration
 
 When you click **Confirm**, the **Deployments** node appears showing the deployment as **In Progress** and the **Success – Created <**_**deployment\_name**_**>** notification.
 
-![](/_images/image-(2142 "").png "")
+![](/_images/image-(2142).png "")

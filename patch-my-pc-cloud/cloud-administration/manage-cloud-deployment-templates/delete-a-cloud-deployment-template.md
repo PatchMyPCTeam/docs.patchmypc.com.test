@@ -14,7 +14,7 @@ To delete a Template:
 
 3. On the **Are you sure you want to delete the '<**_**template\_name**_**>’ template** popup, click **Yes**.
 
-![](/_images/image-(259 "").png "")
+![](/_images/image-(259).png "")
 
 The **Templates** page is redisplayed, showing that the selected template has been deleted along with the **Success - Template ‘<**_**template\_name**_**>’ deleted** notification.
 

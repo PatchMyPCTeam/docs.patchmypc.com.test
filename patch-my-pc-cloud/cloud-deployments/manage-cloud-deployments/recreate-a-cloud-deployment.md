@@ -13,7 +13,7 @@ To recreate a deployment:
 2.  On the **Are you sure you want to recreate <**_**deployment\_name**_**>** dialog box, click **Yes**.\
 
 
-    ![](/_images/image-(1681 "").png "")
+    ![](/_images/image-(1681).png "")
 
     \
     The **Status** of the deployment changes to **In Progress** and the **Recreating the deployment&#x20;**_**\<deployment\_name>**_**&#x20;has started** message is displayed.\

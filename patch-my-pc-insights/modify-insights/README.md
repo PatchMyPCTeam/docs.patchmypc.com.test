@@ -24,16 +24,16 @@ If the install executable version that was originally used to deploy Advanced In
 
 Click **'Modify'**
 
-![](/_images/image-(716 "").png "Advanced Insights - Add - Remove Programs entry.")
+![](/_images/image-(716).png "Advanced Insights - Add - Remove Programs entry.")
 
 Click **'Yes'**
 
-![](/_images/image-(717 "").png "UAC Prompt")
+![](/_images/image-(717).png "UAC Prompt")
 
 Click **'Modify'**
 
-![](/_images/image-(718 "").png "Advanced Insights installer maintenance dialog")
+![](/_images/image-(718).png "Advanced Insights installer maintenance dialog")
 
 Select the required modification option checkbox to enable the related 'Change' button
 
-![](/_images/vmconnect_w0AaMZPkHy.png "")
+![](/_images/vmconnect_w0AaMZPkHy.png)

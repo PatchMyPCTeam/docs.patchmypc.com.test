@@ -23,7 +23,7 @@ To invite a new user to the PMPC Cloud portal:
 2.  Click **Invite User** in the header.\
 
 
-    ![](/_images/image-(722 "").png "")
+    ![](/_images/image-(722).png "")
 3.  On the **Invite User** screen, enter the user’s details.\
 
 
@@ -93,7 +93,7 @@ To join your company, they should click **Request Access** beside your company.
 
 The **Request Access to join&#x20;**_**\<company\_name>**_ popup appears.
 
-![](/_images/image-(616 "").png "")
+![](/_images/image-(616).png "")
 
 The user should enter an optional **Reason for Request** then click **Submit**.&#x20;
 

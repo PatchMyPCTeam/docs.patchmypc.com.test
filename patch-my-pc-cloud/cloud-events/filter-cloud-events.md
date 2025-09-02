@@ -43,7 +43,7 @@ You can click the filter button to close the filter sidebar to see more details 
 
 When a filter is applied, a green dot appears beside the **Filter** button.
 
-![](/_images/image-(1498 "").png>)
+![](/_images/image-(1498).png>)
 {% endhint %}
 
 ### To clear a Filter:

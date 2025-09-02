@@ -28,7 +28,7 @@ The **Add Pre-Uninstall Script** page is populated with the imported script.
 
 5. In the script editor, type your script.
 
-![](/_images/image-(2443 "").png "")
+![](/_images/image-(2443).png "")
 
 {% hint style="info" %}
 **Note**
@@ -72,7 +72,7 @@ Using script Arguments is currently unsupported when deploying an app to macOS.
     \
     The **Configurations** tab is re-displayed with the name of the configured script beside it.
 
-![](/_images/image-(95 "").png "")
+![](/_images/image-(95).png "")
 
 {% hint style="success" %}
 **Tip**

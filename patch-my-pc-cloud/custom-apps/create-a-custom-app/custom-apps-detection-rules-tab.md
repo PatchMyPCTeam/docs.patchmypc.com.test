@@ -72,7 +72,7 @@ See the following Microsoft resources for more information:
     The rule is added to the list of detection rules.\
 
 
-    ![](/_images/image-(202 "").png "")
+    ![](/_images/image-(202).png "")
 
 {% hint style="info" %}
 **Note**

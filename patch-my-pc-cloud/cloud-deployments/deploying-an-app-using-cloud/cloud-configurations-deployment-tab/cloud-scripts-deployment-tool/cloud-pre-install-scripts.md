@@ -71,7 +71,7 @@ Using script Arguments is currently unsupported when deploying an app to macOS.
 9.  Click **Save** to save your script.\
 
 
-    ![](/_images/image-(2468 "").png "")
+    ![](/_images/image-(2468).png "")
 
     \
     The **Configurations** tab is re-displayed with the name of the configured script beside it.

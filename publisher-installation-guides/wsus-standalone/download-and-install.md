@@ -58,7 +58,7 @@ Click **Install**.
 
 ![Select install to start the installation.](/_images/image (1174).png>)
 
-![](/_images/image-(1217 "").png>)
+![](/_images/image-(1217).png>)
 
 ### Completed
 
@@ -68,4 +68,4 @@ Once the Publisher has finished installing, click **Finish** to close the instal
 By default, the "**Launch Patch My PC Publishing Service**" is enabled - this will launch the Publisher when you click **Finish**.
 {% endhint %}
 
-![](/_images/image-(1198 "").png>)
+![](/_images/image-(1198).png>)

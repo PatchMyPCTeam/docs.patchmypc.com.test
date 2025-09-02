@@ -34,7 +34,7 @@ The link to generate api credentials is: [https://developers.hp.com/group/1275/m
 
 Please visit the link above to open the credentials generation page. You will be show the following options below. Click Get Credentials in the HP Proactive Insights Analytics section.&#x20;
 
-![](/_images/image-(1937 "").png "Link location to create api credentials")
+![](/_images/image-(1937).png "Link location to create api credentials")
 
 {% hint style="warning" %}
 If the page has an error screen like shown below, HP have not enrolled your developer account in the HP Proactive Insights APIs tech group. Please contact HP again to have your account enrolled in the HP Proactive Insights API tech group.&#x20;
@@ -44,7 +44,7 @@ If the page has an error screen like shown below, HP have not enrolled your deve
 
 #### Credentials creation flow
 
-![](/_images/image-(1938 "").png "Credentials creation form")
+![](/_images/image-(1938).png "Credentials creation form")
 
 You will need to provide the following information:
 
@@ -54,21 +54,21 @@ You will need to provide the following information:
 4. Client ID: Leave blank
 5. Tick Read Checkbox
 
-![](/_images/image-(1940 "").png "Complete example of credentials creation")
+![](/_images/image-(1940).png "Complete example of credentials creation")
 
 Click create and you will be redirected back to the previous page.
 
 #### Viewing app
 
-![](/_images/image-(1941 "").png "Green banner showing creation was successful")
+![](/_images/image-(1941).png "Green banner showing creation was successful")
 
 Once you have been redirected, there will be a green success banner on top of the page. Please now click the "My API Credentials" link in the banner.&#x20;
 
-![](/_images/image-(1942 "").png "App listing with newly created app")
+![](/_images/image-(1942).png "App listing with newly created app")
 
 Now click on the newly created app by click the app name, this will load the app details page.
 
-![](/_images/image-(1944 "").png "App details page")
+![](/_images/image-(1944).png "App details page")
 
 Here you will see information about the newly created app.&#x20;
 
@@ -91,7 +91,7 @@ We now need to copy API ClientId and API Secret to Advanced Insights.&#x20;
 4. Copy and paste the API Client Secret into the Client Secret input
 5. Save settings.
 
-![](/_images/image-(1866 "").png "Settings page in Advanced Insights")
+![](/_images/image-(1866).png "Settings page in Advanced Insights")
 
 
 
@@ -117,42 +117,42 @@ US portal: [https://admin.hp.com/](https://admin.hp.com/)
 EU portal: [https://eu.admin.hp.com/](https://eu.admin.hp.com/)
 {% endhint %}
 
-![](/_images/image-(1876 "").png "HP Workforce Experience welcome page")
+![](/_images/image-(1876).png "HP Workforce Experience welcome page")
 
-![](/_images/image-(1877 "").png "Sign up or login using either a Microsoft Account to or HPID account")
+![](/_images/image-(1877).png "Sign up or login using either a Microsoft Account to or HPID account")
 
-![](/_images/image-(1879 "").png "Create HP Workforce Experience Account")
+![](/_images/image-(1879).png "Create HP Workforce Experience Account")
 
-![](/_images/image-(1880 "").png "Account creation dialog")
+![](/_images/image-(1880).png "Account creation dialog")
 
-![](/_images/image-(1882 "").png "Accepting the ToS")
+![](/_images/image-(1882).png "Accepting the ToS")
 
 ## Using HP Workforce Experience
 
 When you have registered and logged in, you will be greeted by the home experience of HP Workforce Experience. \
 On the left hand side, you will need to click "Assets" to begin importing your HP devices into HP Workforce Experience.
 
-![](/_images/image-(1838 "").png "HP Workforce Experience homepage with assets link highlighted")
+![](/_images/image-(1838).png "HP Workforce Experience homepage with assets link highlighted")
 
 ### Importing devices
 
 HP Workforce Experience allows you to import your device using four different mechanisms. Currently **only Intune Import and Asset enrolment allow for warranty data collection**, manual and csv upload do not trigger warranty collection by design. To begin importing devices, please click the "Add" button in the top left of the page.
 
-![](/_images/image-(1840 "").png "Assets page with assets imported")
+![](/_images/image-(1840).png "Assets page with assets imported")
 
-![](/_images/image-(1841 "").png "Add button for device import")
+![](/_images/image-(1841).png "Add button for device import")
 
 ### Intune import
 
 To begin importing from Intune, please click the Intune Import button then click next.
 
-![](/_images/image-(1843 "").png "The import modal, please click Intune Import then next")
+![](/_images/image-(1843).png "The import modal, please click Intune Import then next")
 
 You will be now asked to provide your Intune Domain Name, this can be found by going to the Intune portal, clicking Tenant Administration on the left hand menu and copying the Tenant name from the Tenant Status page.&#x20;
 
-![](/_images/image-(1844 "").png "Location of tenant domain name, via Intune portal.")
+![](/_images/image-(1844).png "Location of tenant domain name, via Intune portal.")
 
-![](/_images/image-(1845 "").png "Adding our tenant domain name to HP.")
+![](/_images/image-(1845).png "Adding our tenant domain name to HP.")
 
 You will now be greeted by the Microsoft Login flow, please log in using your microsoft credenitals as normal. You will be then presented the list of permission HP requests to perform the Intune import.
 
@@ -160,7 +160,7 @@ You will now be greeted by the Microsoft Login flow, please log in using your mi
 All of the permissions requested by HP is for the HP Workforce Experience platform. They are not defined/requested by Patch My PC. Advanced Insights does not use or read any of your Intune data.
 {% endhint %}
 
-![](/_images/fixed.png "")
+![](/_images/fixed.png)
 
 Once you have accepted the permission, the connection to Intune will be completed by HP.&#x20;
 
@@ -174,11 +174,11 @@ We shall continue using Group import only.&#x20;
 
 When you click on Import assets only from Intune groups, you will be presented with a full list of all your groups in Intune. You can filter out the groups you want to import and you can import multiple groups. Select the groups you want to import and click Import.&#x20;
 
-![](/_images/image-(1847 "").png "Filtered group for HP devices only")
+![](/_images/image-(1847).png "Filtered group for HP devices only")
 
 Intune will now begin importing your selected devices. You will receive a notification on begin and completion of the import.&#x20;
 
-![](/_images/image-(1850 "").png "")
+![](/_images/image-(1850).png "")
 
 You can also check progress by navigating to the logs link on the left hand side.&#x20;
 
@@ -202,11 +202,11 @@ Navigate to the warranty dashboard.&#x20;
 
 To begin, click the "Bulk Processing" statistic to begin re-caching warranty.
 
-![](/_images/image-(1868 "").png "Warranty dashboard")
+![](/_images/image-(1868).png "Warranty dashboard")
 
 You will be asked to log in to HP, click yes and Advanced Insights will go to HP to log in.&#x20;
 
-![](/_images/image-(1869 "").png "HP login warning")
+![](/_images/image-(1869).png "HP login warning")
 
 {% hint style="danger" %}
 If you receive a redirect url is incorrect error. Please go back to your developer app and check the redirect url provided.&#x20;
@@ -216,4 +216,4 @@ If you receive a redirect url is incorrect error. Please go back to your develop
 Once you have logged in, HP will redirect you back to Advanced Insights and warranty will begin caching warranty data.
 {% endhint %}
 
-![](/_images/image-(1836 "").png "HP Warranty data listed in Advanced Insights")
+![](/_images/image-(1836).png "HP Warranty data listed in Advanced Insights")

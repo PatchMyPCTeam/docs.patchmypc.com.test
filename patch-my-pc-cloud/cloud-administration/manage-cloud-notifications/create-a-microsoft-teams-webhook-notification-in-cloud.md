@@ -21,7 +21,7 @@ To create a Microsoft Teams (Teams) webhook notification in Patch My PC (PMPC) C
 {% hint style="success" %}
 **Tip**
 
-You can click the small envelope beside the webhook URL (![](/_images/image-(1900 "").png>)) to send a test notification. See [Testing a Microsoft Teams Webhook Notification](cloud-notifications-reference/test-a-microsoft-teams-webhook-notification-in-cloud.md) for more details.
+You can click the small envelope beside the webhook URL (![](/_images/image-(1900).png>)) to send a test notification. See [Testing a Microsoft Teams Webhook Notification](cloud-notifications-reference/test-a-microsoft-teams-webhook-notification-in-cloud.md) for more details.
 {% endhint %}
 
 4.  Click **Save** to save the newly added notification.\

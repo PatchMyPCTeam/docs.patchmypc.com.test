@@ -20,7 +20,7 @@ If you try to upload more than 1000 files at once, the upload will fail with the
 
 > You have selected too many files (available: 1000)
 
-![](/_images/image-(2600 "").png "")
+![](/_images/image-(2600).png "")
 
 ### RESOLUTION
 

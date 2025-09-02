@@ -71,7 +71,7 @@ To edit a deployment from the App Catalog:
 {% hint style="success" %}
 **Tip**
 
-Any apps already deployed by Intune Apps have the green cloud icon with a tick (![](/_images/image-(1883 "").png>)) next to the version number.
+Any apps already deployed by Intune Apps have the green cloud icon with a tick (![](/_images/image-(1883).png>)) next to the version number.
 {% endhint %}
 
 2.  Click **Edit Deployment** on the deployment's property page.\

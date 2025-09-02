@@ -73,7 +73,7 @@ To modify a Localization for an existing Branding app:
 
 1. Follow the [Edit Branding](modify-recreate-cloud-branding.md#edit-branding) process.
 2. Click **Add Language** if you want to add a new language and follow the [Add a Localization](manage-localizations-in-cloud.md#add-a-localization) process.
-3. To modify an existing localization, click the pencil icon (![](/_images/image-(2396 "").png>)) beside the relevant language.
+3. To modify an existing localization, click the pencil icon (![](/_images/image-(2396).png>)) beside the relevant language.
 
 ![Clicking the pencil icon beside the relevant language](/_images/image-(2397).png "Clicking the pencil icon beside the relevant language")
 

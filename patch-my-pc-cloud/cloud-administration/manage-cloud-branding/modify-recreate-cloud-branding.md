@@ -83,7 +83,7 @@ To recreate branding:
 
 The **Success - Recreating the branding <**_**branding\_app\_name**_**>** notification is shown.
 
-![](/_images/image-(2683 "").png "")
+![](/_images/image-(2683).png "")
 
 Once the branding app has been recreated, the **Status** and **Last update** fields update to show when this branding app was last modified.
 

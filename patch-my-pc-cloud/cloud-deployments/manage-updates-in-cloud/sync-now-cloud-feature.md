@@ -29,13 +29,13 @@ If the **Sync Now** button is greyed out, no updates are available for this app.
 3.  On the **Are you sure you want to update <**_**app\_name**_**> to the latest version** popup, click **OK**.\
 
 
-    ![](/_images/image-(1828 "").png "")
+    ![](/_images/image-(1828).png "")
 
     \
     The **Deployment <**_**app\_name**_**> updated** notification is displayed and the deployment **Status** changes to **In Progress**.\
 
 
-    ![](/_images/image-(1829 "").png "")
+    ![](/_images/image-(1829).png "")
 
     \
     Once the deployment has been completed successfully, the **Status** changes to **Success**.\

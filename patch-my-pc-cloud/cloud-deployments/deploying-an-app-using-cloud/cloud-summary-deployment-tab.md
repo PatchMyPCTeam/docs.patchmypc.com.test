@@ -32,7 +32,7 @@ See [Update Rings](../cloud-update-rings/) for more information.
 
 The App Catalog is redisplayed along with the **Success - Created&#x20;**_**\<deployment\_name>**_ notification.
 
-![](/_images/image-(2393 "").png "")
+![](/_images/image-(2393).png "")
 
 {% hint style="warning" %}
 **Important**

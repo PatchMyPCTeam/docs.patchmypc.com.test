@@ -31,7 +31,7 @@ To update the version of a Binary Free App from the notification email:
     \
 
 
-    ![](/_images/image-(403 "").png "")
+    ![](/_images/image-(403).png "")
 
 
 4.  On the **Upload File Installer** screen, either:\
@@ -72,13 +72,13 @@ You can now click **Back** or navigate to another area of the portal.
 
 ### Update a Binary Free App from the App Catalog
 
-Whenever a new version of a Binary Free App is available in the App Catalog and we don’t have the latest installer file, the upload (![](/_images/image-(407 "").png>)) icon appears beside the app.
+Whenever a new version of a Binary Free App is available in the App Catalog and we don’t have the latest installer file, the upload (![](/_images/image-(407).png>)) icon appears beside the app.
 
 ![“Upload” icon showing a new version of an app needs to be uploaded](/_images/image-(408).png "“Upload” icon showing a new version of an app needs to be uploaded")
 
 To update a Binary Free App from the App Catalog:
 
-1. Click the upload (![](/_images/image-(407 "").png>)) icon.
+1. Click the upload (![](/_images/image-(407).png>)) icon.
 2.  On the app’s properties screen, click **Manage Files**.\
 
 

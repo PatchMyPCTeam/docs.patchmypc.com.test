@@ -23,7 +23,7 @@ To edit the Update Rings configuration for a deployment:
 {% hint style="success" %}
 **Tip**
 
-Click the filter button (![](/_images/image-(2513 "").png>)) and select the **Enabled** option under the **Update Rings** section, followed by **Apply Filters** to see just those deployments that have update Rings configured.&#x20;
+Click the filter button (![](/_images/image-(2513).png>)) and select the **Enabled** option under the **Update Rings** section, followed by **Apply Filters** to see just those deployments that have update Rings configured.&#x20;
 {% endhint %}
 
 ![Clicking the relevant deployment you want to edit](/_images/image-(2060).png "Clicking the relevant deployment you want to edit")
@@ -65,4 +65,4 @@ Click the filter button (![](/_images/image-(2513 "").png>)) and select the **En
     The **Deployments** node is redisplayed along with the **Success – Edited <**_**deployment\_name**_**>** notification.\
 
 
-    ![](/_images/image-(440 "").png "")
+    ![](/_images/image-(440).png "")

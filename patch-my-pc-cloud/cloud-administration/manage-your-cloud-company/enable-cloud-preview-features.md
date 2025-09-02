@@ -26,7 +26,7 @@ To enable Preview Features:
 
 The _**x/y**_**&#x20;preview features enabled** indicator tells you how many of the preview features available for this company have been enabled. If you hover over the tooltip, the list of features and whether they have been enabled (indicated by a green tick) is shown.
 
-![](/_images/image-(2250 "").png "")
+![](/_images/image-(2250).png "")
 
 
 {% endhint %}

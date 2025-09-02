@@ -19,7 +19,7 @@ To Pause Updates for an app:
 {% hint style="success" %}
 **Tip**
 
-Click the filter button (![](/_images/image-(2513 "").png>)) and select the **Disabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that do not have updates paused.&#x20;
+Click the filter button (![](/_images/image-(2513).png>)) and select the **Disabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that do not have updates paused.&#x20;
 {% endhint %}
 
 ![Clicking on the relevant successful deployment you want to pause for updates](/_images/image-(1788).png "Clicking on the relevant successful deployment you want to pause for updates")
@@ -39,7 +39,7 @@ Click the filter button (![](/_images/image-(2513 "").png>)) and select the **Di
     The list of deployments is displayed and **UPDATES PAUSED** shows under the deployment name so you updates are paused for this specific deployment.\
 
 
-    ![](/_images/image-(1999 "").png "")
+    ![](/_images/image-(1999).png "")
 
 {% hint style="info" %}
 **Note**

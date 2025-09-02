@@ -84,7 +84,7 @@ If a dependency is set up in the Intune admin center between an app managed by P
 
 If we encounter any problems with app dependencies, we display a yellow exclamation mark (“**!**”) warning. Hovering over this will display more information.
 
-![](/_images/image-(334 "").png "")
+![](/_images/image-(334).png "")
 
 We typically generate warnings in the following scenarios:
 

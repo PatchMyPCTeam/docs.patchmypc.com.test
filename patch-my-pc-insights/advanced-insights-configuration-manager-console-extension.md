@@ -22,25 +22,25 @@ Warning: The console extension will not work if you are using a **self-signed ce
 
 To import the Extension, navigate to the Administration node of the Configuration Manager console and expand the Updates and Servicing node. Right click Console Extensions and select "Import Console Extension".
 
-![](/_images/image-(1808 "").png "Import Console  Extension")
+![](/_images/image-(1808).png "Import Console  Extension")
 
 Browse to the location of the unzipped Console Extension download.
 
-![](/_images/2024-07-29_10-52-41.png "")
+![](/_images/2024-07-29_10-52-41.png)
 
 Select the AdvancedInsightsConsoleExtension.cab file and click Open, then click Next, next and Close.
 
 The newly imported Console Extension will be listed alongside any other extensions you have deployed. You must now Approve the Extension by right clicking and selecting "Approve".
 
-![](/_images/image-(1810 "").png "Approving the Extension")
+![](/_images/image-(1810).png "Approving the Extension")
 
 Once approved the Extension can be Installed:
 
-![](/_images/image-(1812 "").png "Installing the Extension")
+![](/_images/image-(1812).png "Installing the Extension")
 
 &#x20;You will be prompted to restart the ConfigMgr Console. When it reloads the Advanced Insights node will have been added tot he Assets and Compliance view:
 
-![](/_images/image-(1813 "").png "")
+![](/_images/image-(1813).png "")
 
 ## First Run
 
@@ -50,20 +50,20 @@ If Advanced Insights is installed on the same server as Configuration Manager, w
 
 When you click the Advanced Insights node, a dialog is displayed in the detail pane asking for the details of your Advanced Insights portal.
 
-![](/_images/2024-07-25_16-46-39.png "")
+![](/_images/2024-07-25_16-46-39.png)
 
 Provide the relevant URL, including https:// prefix and any required port, for example https://server.contoso.com:444 and click OK. If the address is correct, the Advanced Insights login page will be displayed. You can re-run the configuration step any time by right clicking the Advanced Insights node and selecting "Configuration".&#x20;
 
-![](/_images/image-(1815 "").png "Reconfigure the Extension")
+![](/_images/image-(1815).png "Reconfigure the Extension")
 
 ## Using the Extension
 
 The first obvious use of the Extension is to display the Advanced Insights portal right there in the ConfigMgr Console:
 
-![](/_images/image-(1816 "").png "Advanced Insights in the Console")
+![](/_images/image-(1816).png "Advanced Insights in the Console")
 
 The second use scenario is to access the rich display capabilities of Advanced Insights when working with Console objects. For example, right-clicking a client and selecting "View in Advanced Insights" will open a new browser window and automatically display the device view for that client.
 
-![](/_images/Console-Extension.gif "")
+![](/_images/Console-Extension.gif)
 
 This functionality is available for Devices, Collections, and Updates in the ConfigMgr console.

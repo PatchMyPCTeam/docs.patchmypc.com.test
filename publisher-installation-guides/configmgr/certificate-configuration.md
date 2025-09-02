@@ -31,7 +31,7 @@ Begin by opening the configuration manager console and then
 4. Select **Configure Site Components**
 5. Select **Software Update Point** from the fly-out.
 
-![](/_images/image-(1194 "").png>)
+![](/_images/image-(1194).png>)
 
 This will open up the software update point management component tab. From this window complete the following steps if not already done.
 
@@ -59,7 +59,7 @@ Once enabled, SCCM will automatically generate the signing certificate **during 
 
 If you want to watch, and confirm the certificate is properly created, you can open the **wsyncmgr.log** this log is located in **%ConfigMgr Install Directory%\Logs\wysnmgr.log.** Alternatively, you can click the button displayed below in the Publisher General Tab.&#x20;
 
-![](/_images/image-(1172 "").png>)
+![](/_images/image-(1172).png>)
 
 {% hint style="info" %}
 The **Open wsyncmgr.log** will only show up if the Publisher is installed on the site server. This may not be the case if your top-level software update point is not the site server.
@@ -67,7 +67,7 @@ The **Open wsyncmgr.log** will only show up if the Publisher is installed on the
 
 With the log file open you'll want to watch for the entry stating the certificate was inserted. This indicates the certificate has been generated and is ready to be used.&#x20;
 
-![](/_images/image-(1222 "").png>)
+![](/_images/image-(1222).png>)
 
 You can ascertain if the certificate exists and is ready for use by clicking the **Show Certificate** button in the publisher.
 

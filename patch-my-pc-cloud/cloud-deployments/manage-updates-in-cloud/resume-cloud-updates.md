@@ -19,7 +19,7 @@ To resume updates for an app:
 {% hint style="success" %}
 **Tip**
 
-Click the filter button (![](/_images/image-(2513 "").png>)) and select the **Enabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that have updates paused.&#x20;
+Click the filter button (![](/_images/image-(2513).png>)) and select the **Enabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that have updates paused.&#x20;
 {% endhint %}
 
 ![Clicking on the relevant successful deployment which has been paused for updates](/_images/image-(2000).png "Clicking on the relevant successful deployment which has been paused for updates")

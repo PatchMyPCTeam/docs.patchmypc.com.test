@@ -28,6 +28,6 @@ The App Catalog is displayed and the following notification is displayed:\
 \
 &#xNAN;**<**_**app\_name**_**> Added – Your application has been successfully added to App Catalog**
 
-![](/_images/image-(207 "").png "")
+![](/_images/image-(207).png "")
 
 You can now [deploy](../../cloud-deployments/) and manage your Custom App in the same way as other PMPC Cloud apps.

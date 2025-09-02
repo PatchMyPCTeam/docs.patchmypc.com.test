@@ -31,18 +31,18 @@ When using a **CNAME / Alias** or **Wilcard** certificate for custom Advanced In
 
 _Example:_
 
-![](/_images/image-(1024 "").png>)
+![](/_images/image-(1024).png>)
 {% endhint %}
 
 Certificate SAN values can be also verified within the certificate properties.
 
 _Examples:_
 
-![](/_images/image-(1025 "").png "Server Host Certificate - Subject Alternative Name (SAN) properties.")
+![](/_images/image-(1025).png "Server Host Certificate - Subject Alternative Name (SAN) properties.")
 
-![](/_images/image-(1026 "").png "CNAME - Alias Certificate - Subject Alternative Name (SAN) properties.")
+![](/_images/image-(1026).png "CNAME - Alias Certificate - Subject Alternative Name (SAN) properties.")
 
-![](/_images/image-(1027 "").png "Wildcard Host Certificate - Subject Alternative Name (SAN) properties.")
+![](/_images/image-(1027).png "Wildcard Host Certificate - Subject Alternative Name (SAN) properties.")
 
 {% hint style="info" %}
 On the Windows Server OS which will host Advanced Insights, the following PowerShell script can be executed to list supported certificates.
@@ -170,9 +170,9 @@ if ($uncapturedCerts.Count -gt 0) {
 
 Example PowerShell outputs:
 
-![](/_images/image-(1312 "").png "Valid Certificates")
+![](/_images/image-(1312).png "Valid Certificates")
 
-![](/_images/image-(1313 "").png "Unsupported Certificates")
+![](/_images/image-(1313).png "Unsupported Certificates")
 
 {% hint style="info" %}
 **Self-signed certificate use.**
