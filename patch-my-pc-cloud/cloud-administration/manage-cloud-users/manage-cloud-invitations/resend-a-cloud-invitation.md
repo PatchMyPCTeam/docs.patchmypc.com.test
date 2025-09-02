@@ -9,11 +9,11 @@ To resend an invitation:
 1.  Click the **Resend** icon beside the relevant invitation.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (720).png" alt="Clicking the &#x22;Resend&#x22; link"><figcaption></figcaption></figure>
+    ![](/_images/image-(720 "").png "")
 
     \
     The **Success - Invitation resent** notification is displayed, confirming the invitation was resent to the user.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (721).png" alt="“Success - Invitation resent” notification"><figcaption><p><br></p></figcaption></figure>
+    ![](/_images/image-(721 "").png "")
 2. Ask the user to check their inbox/junk folder for the invitation.

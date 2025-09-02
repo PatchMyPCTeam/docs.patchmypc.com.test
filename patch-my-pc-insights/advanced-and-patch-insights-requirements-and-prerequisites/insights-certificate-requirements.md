@@ -38,11 +38,11 @@ Certificate SAN values can be also verified within the certificate properties.
 
 _Examples:_
 
-<figure><img src="../../.gitbook/assets/image (1025).png" alt=""><figcaption><p>Server Host Certificate - Subject Alternative Name (SAN) properties.</p></figcaption></figure>
+![](/_images/image-(1025 "").png "")
 
-<figure><img src="../../.gitbook/assets/image (1026).png" alt=""><figcaption><p>CNAME - Alias Certificate - Subject Alternative Name (SAN) properties.</p></figcaption></figure>
+![](/_images/image-(1026 "").png "")
 
-<figure><img src="../../.gitbook/assets/image (1027).png" alt=""><figcaption><p>Wildcard Host Certificate - Subject Alternative Name (SAN) properties.</p></figcaption></figure>
+![](/_images/image-(1027 "").png "")
 
 {% hint style="info" %}
 On the Windows Server OS which will host Advanced Insights, the following PowerShell script can be executed to list supported certificates.
@@ -170,9 +170,9 @@ if ($uncapturedCerts.Count -gt 0) {
 
 Example PowerShell outputs:
 
-<figure><img src="../../.gitbook/assets/image (1312).png" alt=""><figcaption><p>Valid Certificates</p></figcaption></figure>
+![](/_images/image-(1312 "").png "")
 
-<figure><img src="../../.gitbook/assets/image (1313).png" alt=""><figcaption><p>Unsupported Certificates</p></figcaption></figure>
+![](/_images/image-(1313 "").png "")
 
 {% hint style="info" %}
 **Self-signed certificate use.**

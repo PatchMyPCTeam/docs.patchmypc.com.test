@@ -17,7 +17,8 @@ Any settings you configure for a deployment will be used for the current deploym
 This tab contains the following settings:
 
 * [Apply Template](./#apply-template)
-*  [Built-in Auto Updates](./#built-in-auto-updates)
+*
+  [Built-in Auto Updates](./#built-in-auto-updates)
 * [Desktop Shortcut](./#desktop-shortcut)
 * [Available Uninstall](./#available-uninstall)
 * [Conflicting Process](./#conflicting-process)
@@ -26,7 +27,7 @@ This tab contains the following settings:
 * [Notification Policy](./#notification-policy)
 * [Conflicting Process - Conflicting Process](./#conflicting-process-conflicting-process)
 
-<figure><img src="../../../../.gitbook/assets/image (2601).png" alt="&#x22;Configurations&#x22; tab" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2601 "").png "")
 
 ### **Apply Template**
 
@@ -36,7 +37,8 @@ Allows you to apply a [Template](../../use-a-template-in-cloud-deployments.md) o
 
 | Option               | Description                                                                                                                                                                                                                                                                                                                                        |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Disable Self-Updates | <p>If an app supports built-in auto-updates, this option will be shown and enabled by default, disabling any auto-updates.</p><p></p><p>There might be apps that have built-in auto-updates, but do not support controlling this setting by setting an install parameter or a registry value. In such cases, this option will be unavailable.</p> |
+| Disable Self-Updates | <p>If an app supports built-in auto-updates, this option will be shown and enabled by default, disabling any auto-updates.</p><p></p><p>There might be apps that have built-in auto-updates, but do not support controlling this setting by setting an install parameter or a registry value. In such cases, 
+this option will be unavailable.</p> |
 
 ### **Desktop Shortcut**
 
@@ -95,4 +97,4 @@ If you do not want to configure any of the optional tabs under the **Tools** sec
 
 Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-<figure><img src="../../../../.gitbook/assets/image (2602).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2602 "").png "")

@@ -6,7 +6,7 @@ _Applies to: Patch My PC Cloud_
 
 I am trying to edit a Patch My PC (PMPC) Cloud deployment, but when I view its properties, the **Edit** button is unavailable.
 
-<figure><img src="../../../.gitbook/assets/image (2047).png" alt="“Edit” button unavailable on the properties of a deployment"><figcaption></figcaption></figure>
+![](/_images/image-(2047 "").png "")
 
 ### CAUSE
 

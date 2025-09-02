@@ -15,7 +15,7 @@ To edit the Update Rings configuration for a deployment:
 1.  Navigate to the **Deployments** node.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (434).png" alt="Navigating to the “Deployments” node"><figcaption></figcaption></figure>
+    ![](/_images/image-(434 "").png "")
 
 
 2. Click the relevant deployment whose Update Ring configuration you want to edit.
@@ -26,18 +26,18 @@ To edit the Update Rings configuration for a deployment:
 Click the filter button (![](<../../../.gitbook/assets/image (2513).png>)) and select the **Enabled** option under the **Update Rings** section, followed by **Apply Filters** to see just those deployments that have update Rings configured.&#x20;
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (2060).png" alt="Clicking the relevant deployment you want to edit "><figcaption></figcaption></figure>
+![](/_images/image-(2060 "").png "")
 
 3.  Click **Edit**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (436).png" alt="Clicking “More Info”"><figcaption></figcaption></figure>
+    ![](/_images/image-(436 "").png "")
 
 
 4.  Click the **Assignments** tab.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (437).png" alt="Clicking the “Assignments” tab "><figcaption></figcaption></figure>
+    ![](/_images/image-(437 "").png "")
 
 
 5. Make any required changes, for example:&#x20;
@@ -49,7 +49,7 @@ Click the filter button (![](<../../../.gitbook/assets/image (2513).png>)) and s
 6.  Click **Save** to save your changes.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (438).png" alt="Clicking “Save”"><figcaption></figcaption></figure>
+    ![](/_images/image-(438 "").png "")
 
     \
     If you make any changes that affect how the Update Rings will work, you will see the **“<**_**app\_name**_**>” Deployment Summary** asking you to either confirm or cancel your changes.\
@@ -57,7 +57,7 @@ Click the filter button (![](<../../../.gitbook/assets/image (2513).png>)) and s
     For example, reducing the delay for **Corel All Users** ring from **3** days to **2** results in the following.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (439).png" alt="Example “Deployment Summary” showing the effects of the edit"><figcaption></figcaption></figure>
+    ![](/_images/image-(439 "").png "")
 
 
 7.  Either click **Cancel** to return to the **Assignments** tab and make any required changes or click **Confirm** to save your changes.\
@@ -65,4 +65,4 @@ Click the filter button (![](<../../../.gitbook/assets/image (2513).png>)) and s
     The **Deployments** node is redisplayed along with the **Success – Edited <**_**deployment\_name**_**>** notification.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (440).png" alt="“Deployments” node is redisplayed along with the “Success – Edited <deployment_name>”"><figcaption></figcaption></figure>
+    ![](/_images/image-(440 "").png "")”">

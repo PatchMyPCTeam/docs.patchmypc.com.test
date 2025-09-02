@@ -18,13 +18,13 @@ To modify the role assigned to a user:
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (2118).png" alt="Selecting the required user role from the list of roles dropdown"><figcaption></figcaption></figure>
+    ![](/_images/image-(2118 "").png "")
 
     \
     The role for the user will be updated and the **Success - Role changed** notification is displayed.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1648).png" alt="“Success - Role changed” notification"><figcaption></figcaption></figure>
+    ![](/_images/image-(1648 "").png "")
 
 {% hint style="info" %}
 **Note**
@@ -40,13 +40,13 @@ To manage whether a user is granted the **Access Management** privilege:
 2.  In the **Roles** column, slide the **Access Management** slider to the right for the user you want to grant this permission.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1649).png" alt="Using the slider to grant “Access Management” privileges"><figcaption></figcaption></figure>
+    ![](/_images/image-(1649 "").png "")
 
     \
     The **Success - Role changed** notification is displayed.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1650).png" alt="The “Success - Role changed&#x22; notification"><figcaption></figcaption></figure>
+    ![](/_images/image-(1650 "").png "")
 
 {% hint style="info" %}
 **Note**

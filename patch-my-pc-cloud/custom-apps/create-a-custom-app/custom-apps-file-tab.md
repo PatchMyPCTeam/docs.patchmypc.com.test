@@ -19,10 +19,10 @@ If the installer requires additional folders or files, either:
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (213).png" alt="Clicking &#x22;Add Folder&#x22; or &#x22;Add Files&#x22; to additional items"><figcaption></figcaption></figure>
+    ![](/_images/image-(213 "").png "")
 
 
 2.  Click **Next** to move to the [General Information](custom-apps-general-information-tab.md) tab.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (214).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;General Information&#x22; tab"><figcaption></figcaption></figure>
+    ![](/_images/image-(214 "").png "")

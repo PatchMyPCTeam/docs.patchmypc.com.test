@@ -28,7 +28,7 @@ To configure a company to use an MSP Plus license:
     Once you have clicked **Confirm**, the portal refreshes and the **MSP Customers** node appears at the top of the portal.\
 
 
-    <figure><img src="../../.gitbook/assets/image (378).png" alt="Portal refreshes and the “MSP Customers” node appears at the top of the portal"><figcaption></figcaption></figure>
+    ![](/_images/image-(378 "").png "")
 
 {% hint style="info" %}
 **Note**

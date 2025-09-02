@@ -6,7 +6,7 @@ Once you have created a branding app in Patch My PC (PMPC) Cloud, you can modify
 
 1. Navigate to **Settings | Branding**
 
-<figure><img src="../../../.gitbook/assets/image (2411).png" alt="Navigating  to TSettings | Branding&#x22;" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2411 "").png "")
 
 2. Click the ellipsis (`⋮`) button beside the relevant branding app and select the action you want to perform:
    1. [Edit](modify-recreate-cloud-branding.md#edit-branding)
@@ -30,28 +30,28 @@ If you want to reset the logo used by a branding app:
 
 1. Click **Edit** on the ellipsis (`⋮`) menu.
 
-<figure><img src="../../../.gitbook/assets/image (2659).png" alt="Clicking the ellipsis (⋮) button beside the relevant branding app and selecting the action you want to perform:" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2659 "").png "")
 
 2. In the **Company Logo** area, click **Use Default**.
 
-<figure><img src="../../../.gitbook/assets/image (2413).png" alt="Clicking &#x22;Use Default&#x22; in the &#x22;Company Logo&#x22; area" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2413 "").png "")
 
 The **Branding** page resets just the logo to the default for this branding app.
 
-<figure><img src="../../../.gitbook/assets/image (2414).png" alt="Branding logo reset" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2414 "").png "")
 
 3. Make any other required changes.
 4. Click **Save** to save your changes to Intune, which will deploy the modified version to all of the resources this branding app is assigned to.
 
-<figure><img src="../../../.gitbook/assets/image (2415).png" alt="Clicking &#x22;Save&#x22; to save your changes" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2415 "").png "")
 
 The **Success - Branding updated** notification is shown.
 
-<figure><img src="../../../.gitbook/assets/image (2680).png" alt="&#x22;Success - Branding updated&#x22; notification" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2680 "").png "")
 
 Once your branding app has been updated with the default PMPC logo, the **Status** and **Last Update** fields will be updated to show when this branding app was last updated.
 
-<figure><img src="../../../.gitbook/assets/image (2681).png" alt="&#x22;Status&#x22; and &#x22;Last Update&#x22; fields updated to show when this branding app was last updated" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2681 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -75,19 +75,19 @@ To recreate branding:
 
 1. Click **Recreate** on the ellipsis (`⋮`) menu.
 
-<figure><img src="../../../.gitbook/assets/image (2682).png" alt="Clicking &#x22;Recreate&#x22; on the ellipsis (⋮) menu" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2682 "").png "")
 
 2. On the **Are you sure you want to recreate <**_**branding\_app\_name**_**>** dialog box click **Yes**.
 
-<figure><img src="../../../.gitbook/assets/image (2503).png" alt="Clicking &#x22;Yes&#x22;" width="287"><figcaption></figcaption></figure>
+![](/_images/image-(2503 "").png "")
 
 The **Success - Recreating the branding <**_**branding\_app\_name**_**>** notification is shown.
 
-<figure><img src="../../../.gitbook/assets/image (2683).png" alt="&#x22;Success - Recreating the branding <branding_app_name>&#x22; notification" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2683 "").png "")&#x22; notification" width="563">
 
 Once the branding app has been recreated, the **Status** and **Last update** fields update to show when this branding app was last modified.
 
-<figure><img src="../../../.gitbook/assets/image (2684).png" alt="&#x22;Status&#x22; and &#x22;Last update&#x22; fields updated to show when this branding app was last modified" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2684 "").png "")
 
 {% hint style="success" %}
 **Tip**

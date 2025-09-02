@@ -10,7 +10,7 @@ _Applies to: Patch My PC Advanced and Patch Insights_
 
 For various Configuration Manager **console actions** and **features** to work, the accounts running the IIS App Pools need to have permissions to connect to your SMS Provider Server.&#x20;
 
-<figure><img src="../.gitbook/assets/Permissions Example.png" alt=""><figcaption><p>Highlighted actions all require permission on your SMS Provider Server</p></figcaption></figure>
+![](/_images/Permissions-Example.png "")
 
 {% hint style="info" %}
 Note: If you installed Advanced Insights on an SMS Provider Server then you may not have to configure any permissions for this to work.
@@ -18,7 +18,7 @@ Note: If you installed Advanced Insights on an SMS Provider Server then you may 
 
 By default, the **IIS App Pools** run under the local computer account of your Advanced Insights Server.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1320).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1320 "").png "")
 
 ***
 
@@ -28,7 +28,7 @@ By default, the **IIS App Pools** run under the local computer account of your A
 2. Choose the User/Computer account running your IIS App Pools. In our example we are adding the local computer account of our server named "SCCM"
 3. Assign them the **Operations Administrator** role[ (or optionally a custom role)](insights-configuration-manager-permission-requirements.md#use-a-custom-security-role-optional)
 
-<figure><img src="../.gitbook/assets/image (1095).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1095 "").png "")
 
 ***
 
@@ -40,7 +40,7 @@ If you wish to adhere to the "Principle of Least Privilege" then you can downloa
 
 To import the security role XML file, open the ConfigMgr console and navigate to **Administration** > **Security** > **Security Roles** > click **Import Security Role**.
 
-<figure><img src="../.gitbook/assets/image (1163).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1163 "").png "")
 
 ***
 

@@ -6,7 +6,7 @@ _Applies to: Patch My PC Cloud_
 
 I am trying to edit my environment in Patch My PC (PMPC) Cloud, but I don’t see the ellipsis (**⋮**) on the **Environments** page that allows me to choose the **Edit Environment** or **Edit License** option.
 
-<figure><img src="../../../.gitbook/assets/image (1754).png" alt="Missing ellipsis on the “Environments” page"><figcaption></figcaption></figure>
+![](/_images/image-(1754 "").png "")
 
 ### CAUSE
 
@@ -16,10 +16,10 @@ This problem is caused by the browser window being too narrow to display the ell
 
 To resolve this issue, widen the browser window, and the ellipsis will appear.
 
-<figure><img src="../../../.gitbook/assets/image (1756).png" alt="Ellipsis now visible"><figcaption></figcaption></figure>
+![](/_images/image-(1756 "").png "")
 
 The scrollbar under the table gives you a visual clue that the browser window is not wide enough to display everything.
 
-<figure><img src="../../../.gitbook/assets/image (1757).png" alt="Scrollbar is a visual clue"><figcaption></figcaption></figure>
+![](/_images/image-(1757 "").png "")
 
 If you compare this image to the one where the ellipsis is visible, you don’t see the scrollbar.

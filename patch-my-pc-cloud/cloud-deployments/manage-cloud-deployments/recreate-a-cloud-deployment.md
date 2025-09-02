@@ -9,23 +9,23 @@ To recreate a deployment:
 1.  From the **Deployments** page, click the ellipsis (**⋮**) beside the relevant deployment you want to recreate and click **Recreate**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2013).png" alt="Clicking the ellipsis beside a deployment and selecting “Recreate”"><figcaption></figcaption></figure>
+    ![](/_images/image-(2013 "").png "")
 2.  On the **Are you sure you want to recreate <**_**deployment\_name**_**>** dialog box, click **Yes**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1681).png" alt="Click “Yes” on the “Are you sure you want to recreate <deployment_name>” dialog box"><figcaption></figcaption></figure>
+    ![](/_images/image-(1681 "").png "")” dialog box">
 
     \
     The **Status** of the deployment changes to **In Progress** and the **Recreating the deployment&#x20;**_**\<deployment\_name>**_**&#x20;has started** message is displayed.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1682).png" alt="Change to deployment status and message stating the recreation process has started"><figcaption></figcaption></figure>
+    ![](/_images/image-(1682 "").png "")
 
     \
     Once the deployment has been recreated, the portal auto-refreshes and the **Status** changes to **Success**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1683).png" alt="Portal auto-refreshes to show the deployment has been successfully recreated"><figcaption></figcaption></figure>
+    ![](/_images/image-(1683 "").png "")
 
 {% hint style="success" %}
 **Tip**

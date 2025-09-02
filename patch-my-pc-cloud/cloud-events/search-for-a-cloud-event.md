@@ -12,14 +12,14 @@ Type what you are looking for in the **Search** box on the **Events** page.
 If the portal finds any matching entries as you type, they are displayed. However, if no results are shown when you’ve finished typing your search phrase, either press Enter or click the magnifying glass.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1763).png" alt="The “Search” box"><figcaption></figcaption></figure>
+![](/_images/image-(1763 "").png "")
 
 The search results of the matching entries is displayed.
 
-<figure><img src="../../.gitbook/assets/image (1764).png" alt="Search results"><figcaption></figcaption></figure>
+![](/_images/image-(1764 "").png "")
 
 ### To clear the search:
 
 Either click the red **X** or manually clear the **Search** box.
 
-<figure><img src="../../.gitbook/assets/image (1765).png" alt="Clearing the “Search” box"><figcaption></figcaption></figure>
+![](/_images/image-(1765 "").png "")
