@@ -26,5 +26,3 @@ A Managed Service Provider (MSP) can create a maximum of 1,000 deployments for t
 They can also create a maximum of 25 deployments with additional files for themselves and an additional 25 deployments with additional files for each child company they manage.
 {% endhint %}
 
-
-
