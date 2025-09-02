@@ -78,7 +78,7 @@ jobs:
           from urllib.parse import unquote
 
           IMG_EXT = r"(?:png|jpe?g|gif|webp|svg)"
-          # last token that actually looks like a filename with a valid image extension
+          # Last token that looks like a filename with an image extension
           FILENAME_RE = re.compile(rf'([A-Za-z0-9._()\-\ ]+\.{IMG_EXT})', re.I)
 
           def extract_filename(url: str) -> str:
@@ -89,9 +89,9 @@ jobs:
 
           def slug_filename(fn: str) -> str:
               base, ext = os.path.splitext(fn)
-              base = re.sub(r'\s+', '-', base)                  # spaces -> dash
-              base = re.sub(r'[^A-Za-z0-9_()\-\]+', '-', base)  # keep letters,digits,_,-,()
-              base = re.sub(r'-{2,}', '-', base).strip('-')     # collapse --
+              base = re.sub(r'\s+', '-', base)                    # spaces -> dash
+              base = re.sub(r'[^A-Za-z0-9_()\-.]+', '-', base)    # keep letters,digits,_,-,(),.
+              base = re.sub(r'-{2,}', '-', base).strip('-')       # collapse --
               return f"{base}{ext.lower()}"
 
           def to_root_url(url: str) -> str:
@@ -116,7 +116,7 @@ jobs:
               re.I
           )
 
-          # Markdown images — we’ll rebuild them too
+          # Markdown images — rebuild them too
           MD_IMG = re.compile(r'!\[([^\]]*)\]\(\s*<?([^\s)]+)>?(?:\s+"[^"]*")?\s*\)', re.I)
 
           changed = 0
