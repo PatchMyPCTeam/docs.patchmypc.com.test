@@ -163,8 +163,18 @@ jobs:
 
           # Markdown image: ![alt](URL "optional")
           md_img = re.compile(
-              r'!\[([^\]]*)\]\(\s*<?([^\s)]+)>?(?:\s+"[^"]*")?\s*\)', re.I
+            r'!\[([^\]]*)\]'           # group 1: alt
+            r'\('
+            r'\s*<?'                   # optional <
+            r'("?)([^)\r\n]+?)\1'      # group 2: optional quote char, group 3: URL
+            r'>?'                      # optional >
+            r'(?:\s+"[^"]*")?'         # optional "title"
+            r'\s*\)',
+            re.I
           )
+          
+          # Use group(3) = URL only (ignore any title in source)
+          s = md_img.sub(lambda m: build_md(m.group(1), m.group(3)), s)
 
           # <img src="..."> (alt optional)
           html_img = re.compile(
@@ -221,7 +231,16 @@ jobs:
           python3 - <<'PY'
           import re, glob, sys
           exts = r"(png|jpe?g|gif|webp|svg)"
-          md_img = re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
+          md_img = re.compile(
+            r'!\[[^\]]*\]\('
+            r'\s*<?'
+            r'("?)([^)\r\n]+?)\1'   # group 2 = URL
+            r'>?'
+            r'(?:\s+"[^"]*")?'
+            r'\s*\)',
+            re.I
+          )
+
           html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
           is_img = re.compile(rf"\.({exts})(?:$|\?)", re.I)
 
@@ -236,9 +255,9 @@ jobs:
           files=[p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
                     for p in glob.glob(g, recursive=True)]
           for p in files:
-            s=open(p,encoding="utf-8").read()
-            bads += [(p,u.strip()) for u in md_img.findall(s) if bad(u.strip())]
-            bads += [(p,u.strip()) for u in html_src.findall(s) if bad(u.strip())]
+            s = open(p, encoding="utf-8").read()
+            bads += [(p, u.strip()) for u in (m.group(2) for m in md_img.finditer(s)) if bad(u.strip())]
+            bads += [(p, u.strip()) for u in html_src.findall(s) if bad(u.strip())]
           if bads:
             print("Non-compliant image links:")
             for p,u in bads: print(f"- {p}: {u}")
