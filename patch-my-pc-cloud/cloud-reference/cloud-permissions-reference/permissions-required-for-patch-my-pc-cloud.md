@@ -15,7 +15,7 @@ As per the dialog box:
 
 You will be prompted to grant these during the onboarding process by clicking **Accept** on the **Permissions requested** dialog box.
 
-<figure><img src="../../../.gitbook/assets/image (1351).png" alt="“Permissions required” prompting to grant permissions to your environment."><figcaption></figcaption></figure>
+![](/_images/image-(1351 "").png "")
 
 {% hint style="info" %}
 **Note**

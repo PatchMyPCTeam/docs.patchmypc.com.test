@@ -6,19 +6,19 @@ To add a new Template:
 
 1. Navigate to **Settings | Templates**
 
-<figure><img src="../../../.gitbook/assets/image (2321).png" alt="Navigating to “Settings | Templates”" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2321 "").png "")
 
 2. Click **Add Template** in the header.
 
-<figure><img src="../../../.gitbook/assets/image (2322).png" alt="Clicking “Add Template”" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2322 "").png "")
 
 3. Select the relevant OS for which this template will apply.
 
-<figure><img src="../../../.gitbook/assets/image (2611).png" alt="Selecting the relevant OS this Template will apply to" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2611 "").png "")
 
 4. On the **Add Template** screen, enter a unique name for the template in the **Template Name** field.
 
-<figure><img src="../../../.gitbook/assets/image (2609).png" alt="Entering a unique name for the Template in the “Template Name” field" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2609 "").png "")
 
 5. On the **Configurations** page, configure the various Tools and configuration settings for how you want apps that use this template to be deployed.
 
@@ -32,11 +32,11 @@ If any configuration options mentioned on the [Configurations](../../cloud-deplo
 
 6. Click **Next** to move to the **Assignments** tab.
 
-<figure><img src="../../../.gitbook/assets/image (2610).png" alt="Clicking “Next” to move to the “Assignments” tab" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2610 "").png "")
 
 7. On the **Assignments** tab, click **Add Assignment** and select the relevant assignment type from the dropdown.
 
-<figure><img src="../../../.gitbook/assets/image (2612).png" alt="Clicking “Add Assignment” and select the relevant assignment type" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2612 "").png "")
 
 8. Configure the assignments to be used when deploying an app using this template.
 
@@ -48,11 +48,11 @@ See [Assignments](../../cloud-deployments/deploying-an-app-using-cloud/cloud-ass
 
 9. Click **Save** to save the Template.
 
-<figure><img src="../../../.gitbook/assets/image (2613).png" alt="Clicking “Save” to save the Template" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2613 "").png "")
 
 The **Templates** page is redisplayed along with the **Success - Template “<**_**template\_name**_**>" has been created** notification.
 
-<figure><img src="../../../.gitbook/assets/image (2614).png" alt="“Templates” redisplayed along with “Success” notification" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2614 "").png "")
 
 {% hint style="info" %}
 **Note**

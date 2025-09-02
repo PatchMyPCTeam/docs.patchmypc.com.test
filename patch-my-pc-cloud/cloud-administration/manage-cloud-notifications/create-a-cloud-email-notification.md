@@ -15,19 +15,19 @@ To create an email notification:
 1.  In the **User Email** field, select the relevant administrator’s email address from the dropdown or type their email address.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1917).png" alt="Select the relevant administrator’s email address from the “User Email” dropdown or type their email address"><figcaption></figcaption></figure>
+    ![](/_images/image-(1917 "").png "")
 
 
 2.  Click **Add New Email**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1918).png" alt="Clicking “Add New Email” to add the email address to the notification list "><figcaption></figcaption></figure>
+    ![](/_images/image-(1918 "").png "")
 
     \
     The email address is added to the list of email addresses that will be sent the notification.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1916).png" alt=""><figcaption></figcaption></figure>
+    ![](/_images/image-(1916 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -46,17 +46,17 @@ You can also click the trashcan beside an email address to delete it from the li
 3.  Click **Save** on the **Add Notifications** screen to save the notification.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1919).png" alt="Clicking “Save” on the “Add Notifications” screen"><figcaption></figcaption></figure>
+    ![](/_images/image-(1919 "").png "")
 
     \
     The **Success - Notification created** notification is shown.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1920).png" alt=""><figcaption></figcaption></figure>
+    ![](/_images/image-(1920 "").png "")
 
     \
     The portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification.\
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (1921).png" alt="Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification"><figcaption></figcaption></figure>
+    ![](/_images/image-(1921 "").png "")

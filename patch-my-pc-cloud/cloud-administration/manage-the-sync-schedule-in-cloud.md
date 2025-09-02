@@ -11,19 +11,19 @@ To set a different time or frequency for the sync job:
 1.  Navigate to **Settings | Sync Schedule**.\
 
 
-    <figure><img src="../../.gitbook/assets/image (1717).png" alt="Navigating to “Settings | Sync Schedule”"><figcaption></figcaption></figure>
+    ![](/_images/image-(1717 "").png "")
 
 
 2.  On the **Sync Schedule** page, make the required changes, then click **Save**.\
 
 
-    <figure><img src="../../.gitbook/assets/image (464).png" alt="Clicking “Save” to save your changes"><figcaption></figcaption></figure>
+    ![](/_images/image-(464 "").png "")
 
     \
     The **Success – Sync Scheduler updated** notification is displayed.\
 
 
-    <figure><img src="../../.gitbook/assets/image (465).png" alt="“Success – Sync Scheduler saved” notification"><figcaption></figcaption></figure>
+    ![](/_images/image-(465 "").png "")
 
 ### Other Frequencies
 
@@ -39,8 +39,8 @@ This is why the warning message about this is displayed whenever you select eith
 
 If you choose the **Weekly** option, as well as the time the sync runs, you can also choose which days it runs on.
 
-<figure><img src="../../.gitbook/assets/image (2116).png" alt="Choosing the “Weekly” option"><figcaption></figcaption></figure>
+![](/_images/image-(2116 "").png "")
 
 If you choose the **Monthly** option, as well as the time the sync runs, you can also choose to run it on a specific day of the month or a recurring pattern.
 
-<figure><img src="../../.gitbook/assets/image (2117).png" alt="Choosing the “Monthly” option"><figcaption></figcaption></figure>
+![](/_images/image-(2117 "").png "")

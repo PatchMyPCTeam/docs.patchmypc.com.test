@@ -7,16 +7,16 @@ To view the properties of a Patch My PC (PMPC) Cloud deployment:
 1.  On the **Deployments** page, click the relevant deployment to open its properties screen.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2007).png" alt="A deployment&#x27;s property page"><figcaption></figcaption></figure>
+    ![](/_images/image-(2007 "").png "")
 2.  To find out more details, click **More Info** to open the more info page.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2008).png" alt="Click “More Info” to see more information about the deployment"><figcaption></figcaption></figure>
+    ![](/_images/image-(2008 "").png "")
 
     More information about the deployment is shown.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2009).png" alt="More information about the deployment is shown"><figcaption></figcaption></figure>
+    ![](/_images/image-(2009 "").png "")
 
 {% hint style="info" %}
 **Note**

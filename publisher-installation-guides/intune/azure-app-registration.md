@@ -115,7 +115,7 @@ Follow the steps below to create a self-signed certificate using the _**New-Self
 
 Open a PowerShell window on the same computer where the Patch My PC Publisher is installed. Be sure to elevate the prompt by choosing _**Run as Administrator.**_
 
-<figure><img src="../../.gitbook/assets/image (1044).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1044 "").png "")
 
 Copy the following code snippet to and paste into the elevated PowerShell window.
 
@@ -139,11 +139,11 @@ $newCert = @{
 $cert = New-SelfSignedCertificate @newCert
 ```
 
-<figure><img src="../../.gitbook/assets/image (1277).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1277 "").png "")
 
 Verify the certificate was created successfully in the Local Machine _**Personal**_ Certificate Store by running _**certlm.msc.**_
 
-<figure><img src="../../.gitbook/assets/image (1042).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1042 "").png "")
 
 #### Export the Public Key
 
@@ -151,7 +151,7 @@ We need to export the Public Key and upload it to the new app registration for t
 
 Open  PowerShell window on the same computer where the Patch My PC Publisher is installed. Be sure to elevate the prompt by choosing _**Run as Administrator.**_
 
-<figure><img src="../../.gitbook/assets/image (1044).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1044 "").png "")
 
 Copy the following code snippet to and paste into the elevated PowerShell window.
 
@@ -166,29 +166,29 @@ FilePath = "$($certFolder)\$($subjectName).cer"
 Export-Certificate @certExport
 ```
 
-<figure><img src="../../.gitbook/assets/image (1049).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1049 "").png "")
 
 Verify the certificate was exported successfully in the _**C:\temp\certs**_ folder.
 
-<figure><img src="../../.gitbook/assets/image (1050).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1050 "").png "")
 
 {% hint style="warning" %}
 If you receive the message "The system cannot find the path specified" (as shown below), please ensure the credentials used to launch the PowerShell session have permission to create a folder at C:\temp or specify a new path for the $certFolder variable where you do have permission to create the folder.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1048).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1048 "").png "")
 
 In the browser, navigate to the App registration created in [Step 1](azure-app-registration.md#step-1-registering-the-patch-my-pc-application-in-azure-a-d) and select the **Certificates & secrets node** in the left column. Select the _**Certificates**_ and click _**Upload certificate**_.
 
-<figure><img src="../../.gitbook/assets/image (1052).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1052 "").png "")
 
 Browse to the _**C:\temp\certs**_ folder, select the certificate that was exported earlier, click _**Open**_ and then click _**Add.**_
 
-<figure><img src="../../.gitbook/assets/image (1053).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1053 "").png "")
 
 Verify the public key is listed correctly in the app registration.
 
-<figure><img src="../../.gitbook/assets/image (1054).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1054 "").png "")
 
 ### Option 2: Creating a Client Secret
 
@@ -216,11 +216,11 @@ You may receive an error similar to **‘An error occurred while connecting to I
 
 Navigate to the **Overview** node of the app registration, and copy the **Application (client) ID**.  Save this value to a secure location along with your secret key value.
 
-![](../../.gitbook/assets/application-client-id.png)
+![](/_images/application-client-id.png "")
 
 If you do not know your Intune tenant domain, navigate to the [tenant status page](https://devicemanagement.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/TenantAdminMenu/tenantStatus) in your Intune tenant, and look at the property for **Tenant name**.
 
-![](../../.gitbook/assets/tenant-status.png)
+![](/_images/tenant-status.png "")
 
 Now, it is time to go to the **Intune Options** window of the Publisher **Patch My PC Publisher** to configure the following:-
 
@@ -228,7 +228,7 @@ Now, it is time to go to the **Intune Options** window of the Publisher **Patch 
 [**Application ID**](azure-app-registration.md#application-id)\
 [**Certificate or Application Secret** ](azure-app-registration.md#certificate-application-secret)(depending on whether you followed Step 3 option 1 or option 2)
 
-<figure><img src="../../.gitbook/assets/Intune Options.png" alt=""><figcaption></figcaption></figure>
+![](/_images/Intune-Options.png "")
 
 ### **Authority**
 
@@ -254,11 +254,11 @@ Paste the **Application ID** that you recorded earlier.&#x20;
 
 If you chose to use a Certificate for authentication, click the certificate option and browse the Local Machine store for the correct certificate and click **Ok.**
 
-<figure><img src="../../.gitbook/assets/image (1055).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1055 "").png "")
 
 If you chose to use a Client Secret for authentication, click the Application Secret option and enter the Client Secret _**value**_ you recorded earlier.
 
-<figure><img src="../../.gitbook/assets/image (1056).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1056 "").png "")
 
 ### Test Authentication, Connectivity and API Permissions
 

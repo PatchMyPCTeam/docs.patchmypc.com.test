@@ -7,20 +7,20 @@ To locate any Custom Apps for Managed Service Providers (MSPs) you’ve created 
 1.  In the toolbar, click the filter button.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2263).png" alt="Clicking the filter button"><figcaption></figcaption></figure>
+    ![](/_images/image-(2263 "").png "")
 
 
 2.  Under the **Source** section, select the checkbox for the relevant company that created the Custom App and click **Apply All Filters**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2264).png" alt="Selecting the checkbox for the relevant company that created the Custom App and clicking “Apply All Filters"><figcaption></figcaption></figure>
+    ![](/_images/image-(2264 "").png "")
 
     \
     \
     The list of apps in the App Catalog is filtered to show only the relevant Custom Apps for MSPs created on the selected company.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2265).png" alt="Filtered App Catalog list"><figcaption></figcaption></figure>
+    ![](/_images/image-(2265 "").png "")
 
 {% hint style="success" %}
 **Tip**

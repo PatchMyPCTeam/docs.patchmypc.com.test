@@ -8,27 +8,27 @@ To add a **Post-Install** script:
 
 1. Click **Add** beside the **Post-Install** option.
 
-<figure><img src="../../../../../.gitbook/assets/image (2606).png" alt="Clicking “Add” beside the “Post-Install” option" width="419"><figcaption></figcaption></figure>
+![](/_images/image-(2606 "").png "")
 
 2. To import an existing script, click **Import**, browse to the location containing the script, and select it.
 
-<figure><img src="../../../../../.gitbook/assets/image (2450).png" alt="Clicking “Import” to import an existing script" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2450 "").png "")
 
 The **Add Post-Install Script** page is populated with the imported script.
 
-<figure><img src="../../../../../.gitbook/assets/image (2451).png" alt="“Add Post-Install Script” page is populated with the imported script." width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2451 "").png "")
 
 3. To manually add a script, enter a unique name for the script in the **Script Name** field.
 
-<figure><img src="../../../../../.gitbook/assets/image (2452).png" alt="Entering a unique name for the script in the “Script Name” field" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2452 "").png "")
 
 4. Select the type of script from the **Script Format** dropdown.
 
-<figure><img src="../../../../../.gitbook/assets/image (2453).png" alt="Selecting the type of script from the “Script Format” dropdown." width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2453 "").png "")
 
 5. In the script editor, type your script.
 
-<figure><img src="../../../../../.gitbook/assets/image (2455).png" alt="Typing your script in the Script Editor" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2455 "").png "")
 
 {% hint style="info" %}
 **Note**
@@ -39,7 +39,7 @@ We currently have a limit of 50,000 characters per script. Use the **Number of c
 6.  In the **Arguments** field, enter any arguments you want to provide to the script.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2456).png" alt="Entering any arguments you want to provide to the script by specifying them in the “Arguments” field" width="563"><figcaption></figcaption></figure>
+    ![](/_images/image-(2456 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -58,12 +58,12 @@ Using script Arguments is currently unsupported when deploying an app to macOS.
 7.  Click **Save** to save your script.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2457).png" alt="Clicking “Save” to save your script" width="563"><figcaption></figcaption></figure>
+    ![](/_images/image-(2457 "").png "")
 
     \
     The **Configurations** tab is re-displayed with the name of the configured script beside it.
 
-<figure><img src="../../../../../.gitbook/assets/image (94).png" alt="“Configurations” tab re-displayed with the name of the configured script beside it" width="418"><figcaption></figcaption></figure>
+![](/_images/image-(94 "").png "")
 
 {% hint style="success" %}
 **Tip**

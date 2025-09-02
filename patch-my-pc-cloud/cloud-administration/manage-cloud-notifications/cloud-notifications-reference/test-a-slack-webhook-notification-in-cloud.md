@@ -10,13 +10,13 @@ You can test a Slack webhook notification from Patch My PC (PMPC) Cloud both at 
 2.  Once you have entered and saved the webhook URL, click the small envelope beside the webhook URL (![](<../../../../.gitbook/assets/image (1900).png>)) to send a test message.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (1894).png" alt="Clicking the small envelope beside the Webhook URL to send a test message."><figcaption></figcaption></figure>
+    ![](/_images/image-(1894 "").png "")
 
     \
     The portal will send a test Slack notification and display the **Success - Test webhook has been sent** notification.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (1895).png" alt="&#x22;Success - Test webhook has been sent&#x22; notification"><figcaption></figcaption></figure>
+    ![](/_images/image-(1895 "").png "")
 
     \
     If your Slack webhook is valid, the test message appear as a notification and in the configured Slack channel:\
@@ -24,7 +24,7 @@ You can test a Slack webhook notification from Patch My PC (PMPC) Cloud both at 
     ![Slack notification](<../../../../.gitbook/assets/image (1896).png>)\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (1897).png" alt="Slack channel notification"><figcaption></figcaption></figure>
+    ![](/_images/image-(1897 "").png "")
 
 ### Testing a Slack webhook notification after it has been created
 
@@ -32,13 +32,13 @@ You can test a Slack webhook notification from Patch My PC (PMPC) Cloud both at 
 2.  Click the small envelope beside the webhook URL (![](<../../../../.gitbook/assets/image (1900).png>)) to send a test message.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (1894).png" alt="Clicking the small envelope beside the Webhook URL to send a test message."><figcaption></figcaption></figure>
+    ![](/_images/image-(1894 "").png "")
 
     \
     The portal will send a test Slack notification and display the **Success - Test webhook has been sent** notification.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (1895).png" alt="&#x22;Success - Test webhook has been sent&#x22; notification"><figcaption></figcaption></figure>
+    ![](/_images/image-(1895 "").png "")
 
     \
     If your Slack webhook is valid, the test message appears as a notification and in the configured Slack channel:
@@ -47,4 +47,4 @@ You can test a Slack webhook notification from Patch My PC (PMPC) Cloud both at 
     ![Slack notification](<../../../../.gitbook/assets/image (1896).png>)\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (1897).png" alt="Slack channel notification"><figcaption></figcaption></figure>
+    ![](/_images/image-(1897 "").png "")
