@@ -39,7 +39,7 @@ To deploy an app using PMPC Cloud:
 Use the **Search** field to help you locate the app.
 {% endhint %}
 
-![“App Catalog” page](/_images/image-(193).png "“App Catalog” page")
+![“App Catalog” page](/_images/image-(193 "“App Catalog” page").png "“App Catalog” page")
 
 {% hint style="info" %}
 **Note**
@@ -52,7 +52,7 @@ If an app (for example, the Windows version of Slack) has multiple versions avai
 3.  Click the app to open its properties.\
 
 
-    ![Application’s “Properties” page](/_images/image-(194).png "Application’s “Properties” page")
+    ![Application’s “Properties” page](/_images/image-(194 "Application’s “Properties” page").png "Application’s “Properties” page")
 
 
 4. Click **Deploy** to start the Deployment Wizard.
@@ -65,6 +65,6 @@ If the app you are deploying is also supported for macOS, you will see a separat
 Also, if the app you are deploying is already published by our on-premises Publisher, you will see the **This app is already deployed** warning dialog stating that deploying the same app through both Publisher and PMPC Cloud can cause potential issues if there are differences between the deployment configurations. We therefore strongly recommend you only deploy an app through either Publisher PMPC Cloud to avoid such issues.
 {% endhint %}
 
-![Click &#x22;Deploy&#x22; to start the Deployment Wizard](/_images/image-(195).png "Click &#x22;Deploy&#x22; to start the Deployment Wizard")
+![Click &#x22;Deploy&#x22; to start the Deployment Wizard](/_images/image-(195 "Click &#x22;Deploy&#x22; to start the Deployment Wizard").png "Click &#x22;Deploy&#x22; to start the Deployment Wizard")
 
 The [General Information](cloud-general-information-deployment-tab.md) tab is displayed, which needs to be completed.

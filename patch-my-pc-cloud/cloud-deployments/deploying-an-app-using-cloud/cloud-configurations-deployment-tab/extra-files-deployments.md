@@ -14,11 +14,11 @@ To add extra folders and/or files:
 
 1. Click the **Extra Files** tool to expose the configurable settings.
 
-![Clicking the &#x22;Extra Files&#x22; tool](/_images/image-(82).png "Clicking the &#x22;Extra Files&#x22; tool")
+![Clicking the &#x22;Extra Files&#x22; tool](/_images/image-(82 "Clicking the &#x22;Extra Files&#x22; tool").png "Clicking the &#x22;Extra Files&#x22; tool")
 
 2. Scroll down to the end of the **Extra Files** section so that the buttons and their subtext are visible.
 
-![Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible](/_images/image-(83).png "Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible")
+![Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible](/_images/image-(83 "Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible").png "Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible")
 
 3. Either:
    1. Drag and drop the relevant folders or files to the relevant area.
@@ -38,7 +38,7 @@ We support uploading files with the same name, provided they are in different fo
     \
 
 
-    ![Clicking &#x22;Upload&#x22; when prompted to upload the content](/_images/image-(146).png "Clicking &#x22;Upload&#x22; when prompted to upload the content")
+    ![Clicking &#x22;Upload&#x22; when prompted to upload the content](/_images/image-(146 "Clicking &#x22;Upload&#x22; when prompted to upload the content").png "Clicking &#x22;Upload&#x22; when prompted to upload the content")
 
     \
     The hash will be calculated for any folders/files you upload, which will appear at the bottom of the **Extra Files** section.
@@ -75,7 +75,7 @@ Once a deployment has been successfully created, you can add or remove any addit
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-(85).png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
+![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-(85 "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page").png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
 
 {% hint style="info" %}
 **Note**

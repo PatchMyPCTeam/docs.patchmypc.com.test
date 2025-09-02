@@ -8,7 +8,7 @@ This dashboard requires deployment of the [Advanced Insights Inventory Extension
 Dashboard will only return data on devices managed by Windows Update for Business (WuFB)
 {% endhint %}
 
-![](/_images/image-(310).png "")
+![](/_images/image-(310 "").png "")
 
 At the top of this dashboard you can see how many devices have reported Microsoft Update Inventory Data, count of Critical and Security updates required by one or more devices, Drivers required by one of more devices and Classifications and/or Products for required updates that you are not currently synchronising into Configuration Manager.
 

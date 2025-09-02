@@ -33,7 +33,7 @@ To configure Notifications:
 2.  Navigate to **Settings | Notifications**.\
 
 
-    ![Navigating to “Settings | Notifications”](/_images/image-(760).png "Navigating to “Settings | Notifications”")
+    ![Navigating to “Settings | Notifications”](/_images/image-(760 "Navigating to “Settings | Notifications”").png "Navigating to “Settings | Notifications”")
 
 The **Notifications** page is then displayed, showing any existing Notifications and allowing you to:
 
@@ -41,4 +41,4 @@ The **Notifications** page is then displayed, showing any existing Notifications
 * [Modify a Notification](modify-a-cloud-notification.md)
 * [Delete a Notification](delete-a-cloud-notification.md)
 
-![“Notifications” page](/_images/image-(761).png "“Notifications” page")
+![“Notifications” page](/_images/image-(761 "“Notifications” page").png "“Notifications” page")

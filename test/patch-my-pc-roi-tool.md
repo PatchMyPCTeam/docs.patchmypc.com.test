@@ -16,7 +16,7 @@ The Patch My PC Return on Investment (ROI) tool helps identify the products supp
 At this time, the ROI Tool does not support Intune scanning for GCC High and DoD tenants
 {% endhint %}
 
-![](/_images/image-(1278).png "")
+![](/_images/image-(1278 "").png "")
 
 ## Download
 
@@ -91,7 +91,7 @@ This section will detail what permissions are required to run the ROI tool in yo
 
 To scan Intune you must accept the application's request to read your Intune data. The account approving the request must have at least the "**Application Administrator"** role in azure. The Tool's access to this data will only persist for as long as you keep your session open (1 hour max).
 
-![](/_images/image-(1281).png "")
+![](/_images/image-(1281 "").png "")
 
 {% hint style="info" %}
 **Note**
@@ -111,7 +111,7 @@ You can click the down arrow beside each permission to get more information.
 
 Once the app registration is approved, subsequent executions will ask for a run-as account only. This account requires, as a minimum, Intune **DeviceManagementManagedDevices.Read.All** rights.
 
-![](/_images/image-(1279).png "")
+![](/_images/image-(1279 "").png "")
 
 ### Configuration Manager
 

@@ -14,15 +14,15 @@ The ability to reset the default admin password using the modify feature is supp
 
 In the configuration modification page, select the checkbox for **'Default Admin Password Reset'** then click **'Reset Password'**:
 
-![](/_images/image-(1661).png "")
+![](/_images/image-(1661 "").png "")
 
 The password reset confirmation is then displayed. Click **'Close'**
 
-![](/_images/image-(1662).png "")
+![](/_images/image-(1662 "").png "")
 
 Click **'Finish'**
 
-![](/_images/image-(1663).png "")
+![](/_images/image-(1663 "").png "")
 
 {% hint style="warning" %}
 On next login using the default 'admin' account, <mark style="color:orange;">you will be prompted to change the password.</mark>

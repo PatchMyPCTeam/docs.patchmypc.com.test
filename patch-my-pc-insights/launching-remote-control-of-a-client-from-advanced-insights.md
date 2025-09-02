@@ -10,11 +10,11 @@ _Applies to: Patch My PC Advanced Insights_
 
 Anywhere in the Advanced Insights portal when you click a computer name you will be shown the Device View. If the device is online the Remote Control button in the top right hand corner will be available.
 
-![](/_images/image-(1075).png "")
+![](/_images/image-(1075 "").png "")
 
 A confirmation message is shown
 
-![](/_images/image-(1275).png "")
+![](/_images/image-(1275 "").png "")
 
 Following which the Remote Control tool will launch.&#x20;
 

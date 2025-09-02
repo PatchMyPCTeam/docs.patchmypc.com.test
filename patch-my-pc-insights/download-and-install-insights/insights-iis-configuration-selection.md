@@ -32,7 +32,7 @@ In this example, the installer automatically determined that the best available 
 
 In this example a custom IIS application pool identity has been set:
 
-![](/_images/image-(315).png "") set.")
+![](/_images/image-(315 "").png "") set.")
 
 Confirm the required Dashboard Port and if required, IIS application pool identity and click **Next**.
 

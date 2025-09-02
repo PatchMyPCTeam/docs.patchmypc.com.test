@@ -14,7 +14,7 @@ Before we can run any tests, you will need to enter your **ConfigMgr SQL Server 
 
 You will be presented with a list of **Failed Tests** and **Passed Tests**&#x20;
 
-![](/_images/Run_Tests_3-(1).png "")
+![](/_images/Run_Tests_3-(1 "").png "")
 
 From here, you will be able to select each individual **Failed Test** or **Passed Test** to view more information on the test results, the test itself and information on how to remediate it if necessary.
 

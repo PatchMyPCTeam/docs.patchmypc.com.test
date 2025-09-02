@@ -45,7 +45,7 @@ To recover a PMPC Company:
 2.  Navigate to [https://portal.patchmypc.com/](https://portal.patchmypc.com/)\
 
 
-    ![](/_images/image-(488).png "")
+    ![](/_images/image-(488 "").png "")
 3. Click **Sign In** if the user attempting the recovery can sign in to multiple companies in PMPC Cloud.
 4.  Click **Sign Up** if any of the following applies to the user attempting recovery:\
 
@@ -56,25 +56,25 @@ To recover a PMPC Company:
 5.  On the **Select the Company You Want to Sign In To** screen, click **Recover Company**.\
 
 
-    ![Clicking “Recover Company”](/_images/image-(1955).png "Clicking “Recover Company”")
+    ![Clicking “Recover Company”](/_images/image-(1955 "Clicking “Recover Company”").png "Clicking “Recover Company”")
 
     \
     The **Claim Ownership** wizard starts.\
 
 
-    ![“Claim Ownership” wizard](/_images/image-(2190).png "“Claim Ownership” wizard")
+    ![“Claim Ownership” wizard](/_images/image-(2190 "“Claim Ownership” wizard").png "“Claim Ownership” wizard")
 
 
 6.  From the **Company to Claim** dropdown, select the company you want to recover.\
 
 
-    ![“Company to Claim” dropdown](/_images/image-(2191).png "“Company to Claim” dropdown")
+    ![“Company to Claim” dropdown](/_images/image-(2191 "“Company to Claim” dropdown").png "“Company to Claim” dropdown")
 
     \
     The last five characters of the **Directory (tenant) ID** of the Entra ID to which your PMPC Company belongs are shown.\
 
 
-    ![Last five characters of the Directory (tenant) ID of the Entra ID to which your PMPC Company belongs are shown.](/_images/image-(2192).png "Last five characters of the Directory (tenant) ID of the Entra ID to which your PMPC Company belongs are shown.") ID of the Entra ID to which your PMPC Company belongs are shown.")
+    ![Last five characters of the Directory (tenant) ID of the Entra ID to which your PMPC Company belongs are shown.](/_images/image-(2192 "Last five characters of the Directory (tenant) ID of the Entra ID to which your PMPC Company belongs are shown.").png "Last five characters of the Directory (tenant) ID of the Entra ID to which your PMPC Company belongs are shown.") ID of the Entra ID to which your PMPC Company belongs are shown.")
 
 
 7. Using the [Creating an App Registration in Entra ID](../../cloud-reference/entra-id-reference/create-an-app-registration-in-entra-id.md) process, verify that the last five characters of the Entra ID match the last five characters of the **Directory (tenant) ID**.\
@@ -104,24 +104,24 @@ You cannot use an App Registration older than 72 hours to perform the recovery o
 | Application (client) ID for the PMPC Recovery App Registration | Client ID             |
 | PMPC Recovery client secret.                                   | Secret                |
 
-![Completed “Claim Ownership” wizard](/_images/image-(2195).png "Completed “Claim Ownership” wizard")
+![Completed “Claim Ownership” wizard](/_images/image-(2195 "Completed “Claim Ownership” wizard").png "Completed “Claim Ownership” wizard")
 
 10. Click **Continue**.\
 
 
-    ![Clicking &#x22;Continue&#x22;](/_images/image-(2194).png "Clicking &#x22;Continue&#x22;")
+    ![Clicking &#x22;Continue&#x22;](/_images/image-(2194 "Clicking &#x22;Continue&#x22;").png "Clicking &#x22;Continue&#x22;")
 11. If the user performing the recovery is an existing user within the PMPC Company, go to Step 15.
 12. If the user performing the recovery is not an existing user within the PMPC Company, they will see the **User Info** page.\
 
 
-    ![“User Info” page](/_images/image-(1962).png "“User Info” page")
+    ![“User Info” page](/_images/image-(1962 "“User Info” page").png "“User Info” page")
 
 
 13. Complete the **First Name** and **Last Name** fields, which will be used to create the new account and assign them the **Full Admin with Access Management** role if the recovery is successful.
 14. Review the **Terms and conditions** and if you are happy, click to check the **Accept all Terms and conditions** checkbox, then click **Continue**.\
 
 
-    ![Checking the “Accept all Terms and conditions” checkbox, then clicking “Continue”.](/_images/image-(1963).png "Checking the “Accept all Terms and conditions” checkbox, then clicking “Continue”.")
+    ![Checking the “Accept all Terms and conditions” checkbox, then clicking “Continue”.](/_images/image-(1963 "Checking the “Accept all Terms and conditions” checkbox, then clicking “Continue”.").png "Checking the “Accept all Terms and conditions” checkbox, then clicking “Continue”.")
 
 
 15. The supplied information is checked.\
@@ -131,7 +131,7 @@ You cannot use an App Registration older than 72 hours to perform the recovery o
     If the recovery process is successful, the **Ownership Granted** popup is displayed.\
 
 
-    ![“Ownership Granted” popup](/_images/image-(1965).png "“Ownership Granted” popup")
+    ![“Ownership Granted” popup](/_images/image-(1965 "“Ownership Granted” popup").png "“Ownership Granted” popup")
 
 
 
@@ -144,19 +144,19 @@ You have three attempts to recover a company. If recovery fails after the third 
 16. Click **Close** to complete the recovery process and display the **App Catalog** page of the recovered company.\
 
 
-    ![“App Catalog” page of the recovered company](/_images/image-(1966).png "“App Catalog” page of the recovered company")
+    ![“App Catalog” page of the recovered company](/_images/image-(1966 "“App Catalog” page of the recovered company").png "“App Catalog” page of the recovered company")
 
     \
     If you navigate to the **Users** node, you will see that the account used to perform the recovery process has been created (if applicable) and assigned the **Full Admin with Access Management** role.\
 
 
-    ![“Users” node showing the user account used to perform the recovery process has been created (if applicable) and assigned the “Full Admin with Access Management role”.](/_images/image-(1967).png "“Users” node showing the user account used to perform the recovery process has been created (if applicable) and assigned the “Full Admin with Access Management role”.") and assigned the \"Full Admin with Access Management role\".")
+    ![“Users” node showing the user account used to perform the recovery process has been created (if applicable) and assigned the “Full Admin with Access Management role”.](/_images/image-(1967 "“Users” node showing the user account used to perform the recovery process has been created (if applicable) and assigned the “Full Admin with Access Management role”.").png "“Users” node showing the user account used to perform the recovery process has been created (if applicable) and assigned the “Full Admin with Access Management role”.") and assigned the \"Full Admin with Access Management role\".")
 
     \
     If you navigate to the **Events** node, you will see that the **Company Ownership Approved for <**_**user\_name**_**>** event confirming the name of the user who performed the recovery process.\
 
 
-    ![](/_images/image-(1968).png "")
+    ![](/_images/image-(1968 "").png "")
 
     \
     The previous owner will also receive an email with the subject **Access Recovered to “PMPC\_<**_**company\_name**_**>”**, containing details of who performed the recovery and when.

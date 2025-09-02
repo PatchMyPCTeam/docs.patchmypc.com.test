@@ -9,31 +9,31 @@ If a Patch My PC (PMPC) Cloud deployment has been [configured to use Scope Tags]
     \
 
 
-    ![Navigating to “Apps”](/_images/image-(2220).png "Navigating to “Apps”")
+    ![Navigating to “Apps”](/_images/image-(2220 "Navigating to “Apps”").png "Navigating to “Apps”")
 
 
 3.  Navigate to **All Apps**.\
     \
 
 
-    ![Navigating to “All Apps”](/_images/image-(2221).png "Navigating to “All Apps”")
+    ![Navigating to “All Apps”](/_images/image-(2221 "Navigating to “All Apps”").png "Navigating to “All Apps”")
 
 
 4.  Click the app if it’s shown in the results or search for it.\
 
 
-    ![Clicking the app](/_images/image-(2222).png "Clicking the app")
+    ![Clicking the app](/_images/image-(2222 "Clicking the app").png "Clicking the app")
 
 
 5.  Navigate to **Manage | Properties**.\
     \
 
 
-    ![Navigating to “Manage | Properties”](/_images/image-(2223).png "Navigating to “Manage | Properties”")
+    ![Navigating to “Manage | Properties”](/_images/image-(2223 "Navigating to “Manage | Properties”").png "Navigating to “Manage | Properties”")
 
 
 6.  Scroll down to the **Scope tags** section, which will show the tags defined in the PMPC Cloud deployment.\
 
 
-    ![Scrolling down to the “Scope tags” section which shows the tags defined in the PMPC Cloud deployment](/_images/image-(2224).png "Scrolling down to the “Scope tags” section which shows the tags defined in the PMPC Cloud deployment")
+    ![Scrolling down to the “Scope tags” section which shows the tags defined in the PMPC Cloud deployment](/_images/image-(2224 "Scrolling down to the “Scope tags” section which shows the tags defined in the PMPC Cloud deployment").png "Scrolling down to the “Scope tags” section which shows the tags defined in the PMPC Cloud deployment")
 

@@ -16,7 +16,7 @@ To create a Microsoft Teams (Teams) webhook notification in Patch My PC (PMPC) C
     The new webhook notification is shown under the **Webhook Notifications** section.\
 
 
-    ![New webhook under the “Webhook Notifications section.”](/_images/image-(1908).png "New webhook under the “Webhook Notifications section.”")
+    ![New webhook under the “Webhook Notifications section.”](/_images/image-(1908 "New webhook under the “Webhook Notifications section.”").png "New webhook under the “Webhook Notifications section.”")
 
 {% hint style="success" %}
 **Tip**
@@ -27,16 +27,16 @@ You can click the small envelope beside the webhook URL (![](/_images/image-(190
 4.  Click **Save** to save the newly added notification.\
 
 
-    ![Clicking “Save” to save the new webhook notification](/_images/image-(1910).png "Clicking “Save” to save the new webhook notification")
+    ![Clicking “Save” to save the new webhook notification](/_images/image-(1910 "Clicking “Save” to save the new webhook notification").png "Clicking “Save” to save the new webhook notification")
 
     \
     The **Success – Notification created** notification is shown.\
 
 
-    ![&#x22;Success – Notification created&#x22; notification](/_images/image-(1911).png "&#x22;Success – Notification created&#x22; notification")
+    ![&#x22;Success – Notification created&#x22; notification](/_images/image-(1911 "&#x22;Success – Notification created&#x22; notification").png "&#x22;Success – Notification created&#x22; notification")
 
     \
     The portal auto-refreshes to show the new notification.\
 
 
-    ![The portal auto-refreshes to show the new notification.](/_images/image-(1912).png "The portal auto-refreshes to show the new notification.")
+    ![The portal auto-refreshes to show the new notification.](/_images/image-(1912 "The portal auto-refreshes to show the new notification.").png "The portal auto-refreshes to show the new notification.")

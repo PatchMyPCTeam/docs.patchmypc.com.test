@@ -28,11 +28,11 @@ In the configuration modification page, select the checkbox for 'SSL Certificate
 
 Use the drop down list to select the SSL certificate which represents the CNAME / Alias you wish to use.
 
-![](/_images/image-(1654).png "")
+![](/_images/image-(1654 "").png "")
 
 With the appropriate SSL certificate selected, click **'Set CNAME / Alias'**
 
-![](/_images/image-(1655).png "")
+![](/_images/image-(1655 "").png "")
 
 In the set CNAME / Alias dialog page, the dialog will be prepopulated with a value for the CNAME / Alias based upon the selected certificated.
 
@@ -48,13 +48,13 @@ Click **'Next'**
 
 Click **'Install'**
 
-![](/_images/vmconnect_KN0zxDuJp8-(2).png "")
+![](/_images/vmconnect_KN0zxDuJp8-(2 "").png "")
 
 The installer will make the required configuration changes and display a summary once complete.
 
 Click **'Finish'**
 
-![](/_images/image-(1658).png "")
+![](/_images/image-(1658 "").png "")
 
 New Advanced Insights URL
 

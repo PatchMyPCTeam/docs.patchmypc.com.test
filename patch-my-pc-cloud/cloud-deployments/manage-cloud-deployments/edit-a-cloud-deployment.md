@@ -30,19 +30,19 @@ To edit an existing deployment from the **Deployments** node:
 2.  Click the relevant deployment you want to edit.\
 
 
-    ![Clicking the relevant deployment you want to edit.](/_images/image-(1887).png "Clicking the relevant deployment you want to edit.")
+    ![Clicking the relevant deployment you want to edit.](/_images/image-(1887 "Clicking the relevant deployment you want to edit.").png "Clicking the relevant deployment you want to edit.")
 
 
 3.  On the deployment's property page click **Edit**.
 
 
 
-    ![Clicking &#x22;Edit&#x22; on the deployment&#x27;s property page.](/_images/image-(2010).png "Clicking &#x22;Edit&#x22; on the deployment&#x27;s property page.")
+    ![Clicking &#x22;Edit&#x22; on the deployment&#x27;s property page.](/_images/image-(2010 "Clicking &#x22;Edit&#x22; on the deployment&#x27;s property page.").png "Clicking &#x22;Edit&#x22; on the deployment&#x27;s property page.")
 
     The Deployment Wizard starts.\
 
 
-    ![Deployment Wizard starting.](/_images/image-(1889).png "Deployment Wizard starting.")
+    ![Deployment Wizard starting.](/_images/image-(1889 "Deployment Wizard starting.").png "Deployment Wizard starting.")
 4. Follow the [Deploy an App](../deploying-an-app-using-cloud/) process.
 
 {% hint style="info" %}
@@ -66,7 +66,7 @@ To edit a deployment from the App Catalog:
 1.  Navigate to the **App Catalog** and click on the app whose deployment you wish to edit.\
 
 
-    ![Navigating to the App Catalog and locating the app whose deployment you wish to edit.](/_images/image-(1884).png "Navigating to the App Catalog and locating the app whose deployment you wish to edit.")
+    ![Navigating to the App Catalog and locating the app whose deployment you wish to edit.](/_images/image-(1884 "Navigating to the App Catalog and locating the app whose deployment you wish to edit.").png "Navigating to the App Catalog and locating the app whose deployment you wish to edit.")
 
 {% hint style="success" %}
 **Tip**
@@ -77,7 +77,7 @@ Any apps already deployed by Intune Apps have the green cloud icon with a tick (
 2.  Click **Edit Deployment** on the deployment's property page.\
 
 
-    ![Clicking &#x22;Edit Deployment&#x22; on the deployment&#x27;s property page.](/_images/image-(2011).png "Clicking &#x22;Edit Deployment&#x22; on the deployment&#x27;s property page.")
+    ![Clicking &#x22;Edit Deployment&#x22; on the deployment&#x27;s property page.](/_images/image-(2011 "Clicking &#x22;Edit Deployment&#x22; on the deployment&#x27;s property page.").png "Clicking &#x22;Edit Deployment&#x22; on the deployment&#x27;s property page.")
 
 The behavior of the **Edit Deployment** button depends on whether there is at least one existing, successful deployment:
 
@@ -92,7 +92,7 @@ If there is more than one deployment for the same app but any of them are in **P
 
 The Deployment Wizard starts.
 
-![Deployment Wizard starting.](/_images/image-(1889).png "Deployment Wizard starting.")
+![Deployment Wizard starting.](/_images/image-(1889 "Deployment Wizard starting.").png "Deployment Wizard starting.")
 
 3. Follow the [Deploy an App](../deploying-an-app-using-cloud/) process.
 

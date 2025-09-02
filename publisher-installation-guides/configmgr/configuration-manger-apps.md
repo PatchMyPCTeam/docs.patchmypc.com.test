@@ -25,11 +25,11 @@ The application Options button has a lot of different features. This installatio
 
 Let's get started to begin, click the **Options button** next to the enablement checkbox.
 
-![](/_images/image-(1345).png "")
+![](/_images/image-(1345 "").png "")
 
 This will load the options panel in the Publisher.&#x20;
 
-![](/_images/image-(1344).png "")
+![](/_images/image-(1344 "").png "")
 
 First Select the Configure[ **SMS Provider connection**](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/plan-for-the-sms-provider#BKMK_PlanSMSProv). This is how you will ensure that the system where the Publisher is installed has access to the configuration manager site.
 
@@ -41,11 +41,11 @@ Defining the SMS Provider is required, and it lets the Publisher know how to tal
 
 After clicking the **Configure** option, the below pop-up will appear.&#x20;
 
-![](/_images/image-(1346).png "")
+![](/_images/image-(1346 "").png "")
 
 Once you enter the name of the server select **Test** to validate the configuration.
 
-![](/_images/image-(1348).png "")
+![](/_images/image-(1348 "").png "")
 
 {% hint style="warning" %}
 **Important**: The connection to the SMS Provider is performed using the **SYSTEM account** of the server where the Publisher is installed.

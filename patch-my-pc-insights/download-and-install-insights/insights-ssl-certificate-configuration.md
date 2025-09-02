@@ -34,7 +34,7 @@ Ensure the SSL certificate requirements are reviewed here: [insights-certificate
 
 Select the certificate which represents the server host name (FQDN).
 
-![](/_images/image-(1297).png "")
+![](/_images/image-(1297 "").png "")
 
 Once selected, no further certificate configuration is required.
 
@@ -44,7 +44,7 @@ Click Next to proceed to the [insights-sqlite-database.md](insights-sqlite-datab
 
 Select the certificate which represents the wildcard certificate.
 
-![](/_images/image-(1298).png "")
+![](/_images/image-(1298 "").png "")
 
 Click the **'Set CNAME / Alias'** button.
 
@@ -96,6 +96,6 @@ Click Next to proceed to the [insights-sqlite-database.md](insights-sqlite-datab
 
 To deploy Advanced Insights using a self-signed certificate, on the certificate selection page, click the **'Create Self -Signed Cert'** button:
 
-![](/_images/image-(1022).png "")
+![](/_images/image-(1022 "").png "")
 
 The installer will then automatically proceed to the [insights-sqlite-database.md](insights-sqlite-database.md "mention") dialog page.

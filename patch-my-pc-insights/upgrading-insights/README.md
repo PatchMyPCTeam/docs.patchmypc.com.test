@@ -14,7 +14,7 @@ To upgrade silently please run AdvancedInsights.exe /q /l\*v %temp%\AdvInsights.
 
 When you run the installer, it will prompt for you to accept the license terms.
 
-![](/_images/image-(1057).png "")
+![](/_images/image-(1057 "").png "")
 
 You will be presented with the upgrade summary page. There is also the option to change the certificate, network port or IIS application pool identity if required.
 
@@ -26,7 +26,7 @@ See section: [upgrading-to-advanced-insights-2.1-and-later-from-1.0.x-and-2.0.x-
 
 If you wish to do so, click the **'View / Change Cert'** button will show additional information about any warnings being flagged.
 
-![](/_images/image-(707).png "")
+![](/_images/image-(707 "").png "")
 
 Following this, click **Install** to start the upgrade process.
 

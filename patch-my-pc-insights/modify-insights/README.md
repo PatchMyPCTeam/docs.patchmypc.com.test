@@ -24,15 +24,15 @@ If the install executable version that was originally used to deploy Advanced In
 
 Click **'Modify'**
 
-![](/_images/image-(716).png "")
+![](/_images/image-(716 "").png "")
 
 Click **'Yes'**
 
-![](/_images/image-(717).png "")
+![](/_images/image-(717 "").png "")
 
 Click **'Modify'**
 
-![](/_images/image-(718).png "")
+![](/_images/image-(718 "").png "")
 
 Select the required modification option checkbox to enable the related 'Change' button
 

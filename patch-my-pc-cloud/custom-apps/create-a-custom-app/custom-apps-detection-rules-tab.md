@@ -28,19 +28,19 @@ If you configure Detection Rules in the PMPC Cloud portal you:
 * Cannot mix our default detection method with custom detection methods for the same Custom App.
 {% endhint %}
 
-![Clicking “Use Custom” to use a custom detection rule and choosing the relevant type of rule from the “Rule Type” dropdown](/_images/image-(196).png "Clicking “Use Custom” to use a custom detection rule and choosing the relevant type of rule from the “Rule Type” dropdown")
+![Clicking “Use Custom” to use a custom detection rule and choosing the relevant type of rule from the “Rule Type” dropdown](/_images/image-(196 "Clicking “Use Custom” to use a custom detection rule and choosing the relevant type of rule from the “Rule Type” dropdown").png "Clicking “Use Custom” to use a custom detection rule and choosing the relevant type of rule from the “Rule Type” dropdown")
 
 2. Go to Step 8 if you chose the **Use Custom Script** option.
 3.  If you choose the **Configure Manually** option, click **Add Rule**.\
 
 
-    ![Clicking “Add Rule”](/_images/image-(197).png "Clicking “Add Rule”")
+    ![Clicking “Add Rule”](/_images/image-(197 "Clicking “Add Rule”").png "Clicking “Add Rule”")
 
 
 4.  On the **Add Detection Rule** screen, select the relevant type of rule from the **Rule Type** dropdown, then configure the required options as required.\
 
 
-    ![Selecting the relevant type of rule to configure from the “Rule Type” dropdown.](/_images/image-(199).png "Selecting the relevant type of rule to configure from the “Rule Type” dropdown.")
+    ![Selecting the relevant type of rule to configure from the “Rule Type” dropdown.](/_images/image-(199 "Selecting the relevant type of rule to configure from the “Rule Type” dropdown.").png "Selecting the relevant type of rule to configure from the “Rule Type” dropdown.")
 
 <table><thead><tr><th width="99.111083984375">Rule Type</th><th>Available Options</th></tr></thead><tbody><tr><td>File</td><td><p><strong>Path –</strong> The path to the folder you are checking for</p><p><strong>File or Folder –</strong> The folder containing the file you are checking for</p><p><strong>Detection Method –</strong> Choose from the list of available checks.</p></td></tr><tr><td>MSI</td><td><p><strong>MSI Product Code –</strong> This is the MSI product code extracted from the file you imported.</p><p><strong>MSI Product Version Check (optional)</strong> – Click this slider to enable this check for a specific version number that matches the options you configure in the <strong>Operator</strong> and <strong>Value</strong> fields.</p></td></tr><tr><td>Registry</td><td><p><strong>Key Path –</strong> The path to the Registry key</p><p><strong>Value name (optional) –</strong> The name of a value contained within the specified <strong>Key Path</strong> that you want to check for</p><p><strong>Detection Method –</strong> Choose from the list of available checks.</p></td></tr></tbody></table>
 
@@ -60,19 +60,19 @@ See the following Microsoft resources for more information:
 5.  If you have created either a **File** or **Registry** detection rule, click the **Associated with a 32-bit app on 64-bit clients** slider to enable it to expand any path environment variables in the 32-bit context on 64-bit endpoints.\
 
 
-    ![Enabling the “Associated with a 32-bit app on 64-bit clients slider”](/_images/image-(200).png "Enabling the “Associated with a 32-bit app on 64-bit clients slider”")
+    ![Enabling the “Associated with a 32-bit app on 64-bit clients slider”](/_images/image-(200 "Enabling the “Associated with a 32-bit app on 64-bit clients slider”").png "Enabling the “Associated with a 32-bit app on 64-bit clients slider”")
 
 
 6.  Click **Add Rule** to add the rule.\
 
 
-    ![Clicking “Add Rule” to add a rule](/_images/image-(201).png "Clicking “Add Rule” to add a rule")
+    ![Clicking “Add Rule” to add a rule](/_images/image-(201 "Clicking “Add Rule” to add a rule").png "Clicking “Add Rule” to add a rule")
 
     \
     The rule is added to the list of detection rules.\
 
 
-    ![](/_images/image-(202).png "")
+    ![](/_images/image-(202 "").png "")
 
 {% hint style="info" %}
 **Note**
@@ -96,7 +96,7 @@ In the current version:
 * We do not sign your scripts if we use them in one of our deployments. If this is a requirement, you will need to sign the scripts yourself.
 {% endhint %}
 
-![Clicking “Import Script”](/_images/image-(203).png "Clicking “Import Script”")
+![Clicking “Import Script”](/_images/image-(203 "Clicking “Import Script”").png "Clicking “Import Script”")
 
 A preview of the script is shown in the **Script Preview** window.
 
@@ -106,12 +106,12 @@ A preview of the script is shown in the **Script Preview** window.
 You cannot edit the script in the **Script Preview** window.
 {% endhint %}
 
-![Preview of the script shown in the &#x22;Script Preview&#x22; window.](/_images/image-(204).png "Preview of the script shown in the &#x22;Script Preview&#x22; window.")
+![Preview of the script shown in the &#x22;Script Preview&#x22; window.](/_images/image-(204 "Preview of the script shown in the &#x22;Script Preview&#x22; window.").png "Preview of the script shown in the &#x22;Script Preview&#x22; window.")
 
 9.  Click the **Associated with a 32-bit app on 64-bit clients** slider to enable it to expand any path environment variables in the 32-bit context on 64-bit endpoints.\
 
 
-    ![Enabling the “Associated with a 32-bit app on 64-bit clients slider”](/_images/image-(205).png "Enabling the “Associated with a 32-bit app on 64-bit clients slider”")
+    ![Enabling the “Associated with a 32-bit app on 64-bit clients slider”](/_images/image-(205 "Enabling the “Associated with a 32-bit app on 64-bit clients slider”").png "Enabling the “Associated with a 32-bit app on 64-bit clients slider”")
 
 
 10. Repeat the steps in this section to add any additional detection rules.

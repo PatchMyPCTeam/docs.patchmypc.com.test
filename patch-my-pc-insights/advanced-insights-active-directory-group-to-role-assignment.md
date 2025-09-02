@@ -26,7 +26,7 @@ Navigate to **Administration** > **Roles**.
 
 Now click the Permissions tab and select the pages and permissions you want to grant to this role.
 
-![](/_images/image-(1226).png "")
+![](/_images/image-(1226 "").png "")
 
 Logging on with an account in the helpdesk role, the user is granted only the access stated in the role configuration:
 

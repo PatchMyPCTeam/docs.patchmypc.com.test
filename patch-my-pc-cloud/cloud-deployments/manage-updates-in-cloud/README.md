@@ -26,7 +26,7 @@ All update-related tasks for an app are performed at the deployment level from t
 
 Navigating to the **Deployments** node.
 
-![Navigating to the “Deployments” node](/_images/image-(608).png "Navigating to the “Deployments” node")
+![Navigating to the “Deployments” node](/_images/image-(608 "Navigating to the “Deployments” node").png "Navigating to the “Deployments” node")
 
 The **Deployments** page is then displayed, showing any existing deployments and allowing you to:
 
@@ -34,4 +34,4 @@ The **Deployments** page is then displayed, showing any existing deployments and
 * [Resume Updates](resume-cloud-updates.md)
 * [Sync Now](sync-now-cloud-feature.md)
 
-![“Deployments” page](/_images/image-(1787).png "“Deployments” page")
+![“Deployments” page](/_images/image-(1787 "“Deployments” page").png "“Deployments” page")

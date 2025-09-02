@@ -12,4 +12,4 @@ This page shows a filterable list of each device and the video adapters inventor
 
 Click-through shows the device view with all inventoried adapters and their driver versions.
 
-![](/_images/image-(1537).png "")
+![](/_images/image-(1537 "").png "")

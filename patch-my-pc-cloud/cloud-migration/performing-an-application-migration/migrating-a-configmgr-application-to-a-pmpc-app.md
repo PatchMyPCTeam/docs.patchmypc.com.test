@@ -34,13 +34,13 @@ If you don’t want to deploy this app now, just click **Install App** under **A
 
 Once you have added your assignments, click **Migrate** and the **Success – Deployment Created, Migration Pending** notification is shown.
 
-![“Migrate, the Success – Deployment Created, Migration Pending” notification](/_images/image-(10).png "“Migrate, the Success – Deployment Created, Migration Pending” notification")
+![“Migrate, the Success – Deployment Created, Migration Pending” notification](/_images/image-(10 "“Migrate, the Success – Deployment Created, Migration Pending” notification").png "“Migrate, the Success – Deployment Created, Migration Pending” notification")
 
 The **Status** field also updates to show **In Progress** as the deployment is being created, with any required content (such as extra files) being zipped and sent to Azure Blob Storage.
 
 You can also monitor the progress of the deployment by clicking the **Deployments** node and watching for the **Status** of the deployment to change to **Success**.
 
-![Monitoring the status of the deployment](/_images/image-(11).png "Monitoring the status of the deployment")
+![Monitoring the status of the deployment](/_images/image-(11 "Monitoring the status of the deployment").png "Monitoring the status of the deployment")
 
 {% hint style="success" %}
 **Tip**
