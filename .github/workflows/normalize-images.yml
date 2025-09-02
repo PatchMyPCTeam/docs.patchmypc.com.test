@@ -138,6 +138,11 @@ jobs:
           IMG_EXT = r"(?:png|jpe?g|gif|webp|svg|gifv)"
 
           def clean_filename_from_url(url: str) -> str:
+              # 💡 Defensive: strip accidental empty-title tokens that leaked into URL
+              # e.g. "/_images/image-(810 "").png" -> "/_images/image-(810).png"
+              url = re.sub(r'\s*""', '', url)
+
+              # pick the last filename-looking token with an image extension
               m = re.findall(rf'([^/?#]+?\.{IMG_EXT})', url, flags=re.I)
               bn = m[-1] if m else os.path.basename(url)
               bn = unquote(bn)
@@ -145,8 +150,9 @@ jobs:
                   base, ext = bn.rsplit(".", 1)
               else:
                   base, ext = bn, ""
-              base = re.sub(r"\s+", "-", base)                  # spaces -> dash
-              base = re.sub(r"[^A-Za-z0-9\-\_\(\)]", "-", base) # keep A-Z a-z 0-9 - _ ( )
+              # spaces -> dash; keep (), -, _
+              base = re.sub(r"\s+", "-", base)
+              base = re.sub(r"[^A-Za-z0-9\-\_\(\)]", "-", base)
               base = re.sub(r"-{2,}", "-", base).strip("-")
               return f"{base}.{ext.lower()}" if ext else base
 
@@ -154,33 +160,39 @@ jobs:
               return "/_images/" + clean_filename_from_url(url)
 
           def build_md(alt: str, url: str) -> str:
-              alt = alt or ""
+              """Return strict Markdown. If alt is empty -> omit title entirely."""
+              alt = (alt or "")
               alt_md = alt.replace("]", r"\]")
-              title  = alt.replace('"', r'\"')  # title = alt
-              return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
+              if alt.strip():
+                  title = alt.replace('"', r'\"')  # title = alt
+                  return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
+              else:
+                  # no title when alt is empty
+                  return f'![{alt_md}]({to_root_image_url(url)})'
 
           md_files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
                       for p in glob.glob(g, recursive=True)]
 
-          # HTML <img>
+          # HTML <img> (alt optional)
           html_img = re.compile(
               r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
               re.I
           )
-          # Inline MD image
+
+          # Inline Markdown images (URL may be quoted, spaces allowed, optional title)
           md_img_inline = re.compile(
               r'!\[([^\]]*)\]'
               r'\('
               r'\s*<?'
               r'("?)([^)\r\n]+?)\1'   # group 3: URL
               r'>?'
-              r'(?:\s+"[^"]*")?'
+              r'(?:\s+"[^"]*")?'      # optional "title"
               r'\s*\)',
               re.I
           )
-          # Reference usage: ![alt][id]
+
+          # Reference usage and definition (loose) unchanged...
           md_img_ref_use = re.compile(r'!\[([^\]]*)\]\s*\[([^\]]+)\]', re.I)
-          # Reference def (tolerant, line-by-line)
           ref_def_loose = re.compile(
               r'(\[([^\]]+)\]\s*:\s*)' r'<?("?)([^>\r\n]+?)\3>?' r'(\s+"[^"]*")?\s*$',
               re.I
@@ -195,7 +207,7 @@ jobs:
               # 1) HTML <img> → strict MD
               s = html_img.sub(lambda m: build_md(m.group(2) or "", m.group(1)), s)
 
-              # 2) Inline MD → strict MD
+              # 2) Inline MD → strict MD (title = alt when alt non-empty)
               s = md_img_inline.sub(lambda m: build_md(m.group(1), m.group(3)), s)
 
               # 3) Gather reference defs
@@ -215,7 +227,7 @@ jobs:
                   return build_md(alt, url) if url else m.group(0)
               s = md_img_ref_use.sub(repl_ref_use, s)
 
-              # 5) Rewrite reference defs themselves to /_images/<slug>
+              # 5) Rewrite reference defs to /_images/<slug> (preserve title if present)
               def rewrite_def_line(ln: str) -> str:
                   m = ref_def_loose.search(ln)
                   if not m:
@@ -223,28 +235,22 @@ jobs:
                   head, url, title = m.group(1), m.group(4).strip(), m.group(5) or ""
                   new_url = to_root_image_url(url)
                   return f"{head}{new_url}{title}"
-              lines = [rewrite_def_line(ln) for ln in s.splitlines()]
-              s = "\n".join(lines)
+              s = "\n".join(rewrite_def_line(ln) for ln in s.splitlines())
 
-              # 6) FINAL CATCH-ALL: rewrite any bare .gitbook/assets/<file> to /_images/<slug>
-              #    Skip lines inside fenced code blocks ```…```
-              out_lines = []
-              fenced = False
+              # 6) Catch-all: fix bare .gitbook/assets occurrences (outside code fences)
+              out_lines, fenced = [], False
               fence_re = re.compile(r'^\s*```')
               asset_re = re.compile(r'(\.gitbook/assets/[^)\s"\'<>]+)', re.I)
               for ln in s.splitlines():
                   if fence_re.match(ln):
                       fenced = not fenced
-                      out_lines.append(ln)
-                      continue
+                      out_lines.append(ln); continue
                   if not fenced and '.gitbook/assets/' in ln:
-                      def repl_asset(m):
-                          return to_root_image_url(m.group(1))
-                      ln = asset_re.sub(repl_asset, ln)
+                      ln = asset_re.sub(lambda m: to_root_image_url(m.group(1)), ln)
                   out_lines.append(ln)
               s = "\n".join(out_lines)
 
-              # 7) Clean lingering ../ or ./ before _images
+              # 7) Remove lingering ../ or ./ before _images
               s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
 
               if s != o:
