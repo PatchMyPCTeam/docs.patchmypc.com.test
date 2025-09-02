@@ -16,7 +16,7 @@ To create a Microsoft Teams (Teams) webhook notification in Patch My PC (PMPC) C
     The new webhook notification is shown under the **Webhook Notifications** section.\
 
 
-    ![](/_images/image-(1908 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (1908).png" alt="New webhook under the “Webhook Notifications section.”"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**
@@ -27,16 +27,16 @@ You can click the small envelope beside the webhook URL (![](<../../../.gitbook/
 4.  Click **Save** to save the newly added notification.\
 
 
-    ![](/_images/image-(1910 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (1910).png" alt="Clicking “Save” to save the new webhook notification "><figcaption></figcaption></figure>
 
     \
     The **Success – Notification created** notification is shown.\
 
 
-    ![](/_images/image-(1911 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (1911).png" alt="&#x22;Success – Notification created&#x22; notification"><figcaption></figcaption></figure>
 
     \
     The portal auto-refreshes to show the new notification.\
 
 
-    ![](/_images/image-(1912 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (1912).png" alt="The portal auto-refreshes to show the new notification."><figcaption></figcaption></figure>

@@ -11,39 +11,39 @@ To delete the **Patch My PC Cloud** Enterprise Application from the Azure Portal
 3.  Click on the **Patch My PC Cloud** Enterprise Application.\
 
 
-    ![](/_images/image-(1352 "").png "")
+    <figure><img src="../../.gitbook/assets/image (1352).png" alt="Azure Portal showing the Patch My PC Cloud is present"><figcaption></figcaption></figure>
 
 
 4.  On the **Overview** page, click **Properties**.\
 
 
-    ![](/_images/image-(1353 "").png "")
+    <figure><img src="../../.gitbook/assets/image (1353).png" alt="Overview page of the Patch My PC Cloud app in the Azure Portal"><figcaption></figcaption></figure>
 
 
 5.  Click **Delete** from the command bar.\
 
 
-    ![](/_images/image-(1354 "").png "")
+    <figure><img src="../../.gitbook/assets/image (1354).png" alt="Clicking “Delete” on the “Properties” page of the Patch My PC Cloud app in the Azure Portal"><figcaption></figcaption></figure>
 
 
 6.  Click **Yes** when prompted **Delete Patch My PC Cloud?**\
 
 
-    ![](/_images/image-(1356 "").png "")
+    <figure><img src="../../.gitbook/assets/image (1356).png" alt="Clicking “Yes” when prompted to “Delete Patch My PC Cloud” app from the Azure Portal"><figcaption></figcaption></figure>
 
     \
     The **Deleting application** message will be displayed whilst the Enterprise Application is deleted.\
 
 
-    ![](/_images/image-(1359 "").png "")
+    <figure><img src="../../.gitbook/assets/image (1359).png" alt="“Deleting application” message being displayed whilst the app is deleted."><figcaption></figcaption></figure>
 
 
 7.  Refresh the Azure portal (as it doesn’t auto-refresh), which will show that the PMPC Cloud Enterprise Application has been deleted successfully.
 
-    ![](/_images/image-(1361 "").png "")
+    <figure><img src="../../.gitbook/assets/image (1361).png" alt="Refreshed Azure Portal showing the Patch My PC Cloud app has been deleted."><figcaption></figcaption></figure>
 
 
 
 If you sign out and back into the same Intune tenant, you will see the **Permissions requested** prompt.
 
-![](/_images/image-(1362 "").png "")
+<figure><img src="../../.gitbook/assets/image (1362).png" alt="“Permissions requested” dialog box"><figcaption></figcaption></figure>

@@ -8,29 +8,29 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use [Return Code
 2.  Navigate to **Apps**.\
 
 
-    ![](/_images/image-(281 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (281).png" alt="Navigating to “Apps”"><figcaption></figcaption></figure>
 
 
 3.  Navigate to **All Apps**.\
 
 
-    ![](/_images/image-(282 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (282).png" alt="Navigating to “All Apps”"><figcaption></figcaption></figure>
 
 
 4.  Click the app if it’s shown in the results or search for it.\
     \
 
 
-    ![](/_images/image-(2542 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (2542).png" alt="Clicking the app if it’s shown in the results or searching for it"><figcaption></figcaption></figure>
 5.  Navigate to **Manage | Properties**\
     \
 
 
-    ![](/_images/image-(2543 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (2543).png" alt="Navigating to “Manage | Properties”"><figcaption></figcaption></figure>
 
 
 6.  Scroll down to the **Program** section, under which you will find the **Return codes**.\
     \
 
 
-    ![](/_images/image-(2544 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (2544).png" alt="Scrolling down to the “Program” section to locate the “Return codes” "><figcaption></figcaption></figure>

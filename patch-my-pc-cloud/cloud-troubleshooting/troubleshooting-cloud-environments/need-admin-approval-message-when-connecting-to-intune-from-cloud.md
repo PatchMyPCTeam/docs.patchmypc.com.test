@@ -10,7 +10,7 @@ I am trying to onboard to Intune Apps for Cloud (Intune Apps). I’ve signed in 
 \
 
 
-![](/_images/image-(906 "").png "")
+<figure><img src="../../../.gitbook/assets/image (906).png" alt="“Need admin approval” dialog box"><figcaption></figcaption></figure>
 
 ### CAUSE
 

@@ -8,17 +8,17 @@ Advanced Insights must be granted the correct permissions to your SMS Provider f
 
 Clients with the Inventory Extensions MSI installed will support the use of our custom client actions:
 
-![](/_images/ClientActions.png "")
+<figure><img src="../../.gitbook/assets/ClientActions.png" alt=""><figcaption></figcaption></figure>
 
 ### ⚙ Script Approval
 
 If you see this message when using any of the custom client actions:
 
-![](/_images/image-(968 "").png "")
+<figure><img src="../../.gitbook/assets/image (968).png" alt=""><figcaption></figcaption></figure>
 
 This means you have the "Additional Script Approver" setting enabled in ConfigMgr. To approve our script, please follow these steps:
 
-![](/_images/script-approval.png "")
+<figure><img src="../../.gitbook/assets/script approval.png" alt=""><figcaption></figcaption></figure>
 
 1. Open your ConfigMgr Console
 2. Go to Software Library > Scripts

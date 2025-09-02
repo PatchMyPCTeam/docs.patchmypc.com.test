@@ -16,7 +16,7 @@ The Patch My PC Return on Investment (ROI) tool helps identify the products supp
 At this time, the ROI Tool does not support Intune scanning for GCC High and DoD tenants
 {% endhint %}
 
-![](/_images/image-(1278 "").png "")
+<figure><img src=".gitbook/assets/image (1278).png" alt=""><figcaption></figcaption></figure>
 
 ## Download
 
@@ -68,7 +68,7 @@ When you choose **Scan ConfigMgr**, the tool queries the below local WMI classes
 
 Assuming the permissions required below are satisfied, running the tool will allow the user to click on the Scan Intune or Scan ConfigMgr buttons:
 
-![](/_images/ROITool.gif "")
+<figure><img src=".gitbook/assets/ROITool.gif" alt=""><figcaption><p>The ROI Tool Scanning Configuration Manager</p></figcaption></figure>
 
 The interface will update dynamically as the tool runs, showing progress as it scans all inventory. In testing the tool requires around 1 minute for every 5,000 clients.
 
@@ -91,7 +91,7 @@ This section will detail what permissions are required to run the ROI tool in yo
 
 To scan Intune you must accept the application's request to read your Intune data. The account approving the request must have at least the "**Application Administrator"** role in azure. The Tool's access to this data will only persist for as long as you keep your session open (1 hour max).
 
-![](/_images/image-(1281 "").png "")
+<figure><img src=".gitbook/assets/image (1281).png" alt=""><figcaption><p>App registration approval request</p></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -111,7 +111,7 @@ You can click the down arrow beside each permission to get more information.
 
 Once the app registration is approved, subsequent executions will ask for a run-as account only. This account requires, as a minimum, Intune **DeviceManagementManagedDevices.Read.All** rights.
 
-![](/_images/image-(1279 "").png "")
+<figure><img src=".gitbook/assets/image (1279).png" alt=""><figcaption><p>Executing the ROI tool once the app registration is complete</p></figcaption></figure>
 
 ### Configuration Manager
 

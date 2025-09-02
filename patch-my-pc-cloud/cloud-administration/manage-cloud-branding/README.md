@@ -16,7 +16,7 @@ All branding-related tasks are performed from the **Branding** node of the porta
 2.  Navigate to **Settings | Branding**.\
 
 
-    ![](/_images/image-(1477 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (1477).png" alt="Navigating to “Settings | Branding”"><figcaption></figcaption></figure>
 
 The **Branding** screen is then displayed, allowing you to:
 
@@ -26,7 +26,7 @@ The **Branding** screen is then displayed, allowing you to:
 * [Delete Branding](delete-cloud-branding.md)
 * [Uninstall Branding](uninstall-cloud-branding.md)
 
-![](/_images/image-(1478 "").png "")
+<figure><img src="../../../.gitbook/assets/image (1478).png" alt="“Branding” screen"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
