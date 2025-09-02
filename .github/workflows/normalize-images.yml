@@ -131,21 +131,15 @@ jobs:
           IMG_EXT = r"(?:png|jpe?g|gif|webp|svg)"
 
           def clean_filename_from_url(url: str) -> str:
-              # Take the last proper filename ending with an image extension
               matches = re.findall(rf'([^/?#]+?\.{IMG_EXT})', url, flags=re.I)
               bn = matches[-1] if matches else os.path.basename(url)
-              # Decode %XX (so %28 → (, %29 → ), %20 → space)
               bn = unquote(bn)
-              # Split base/ext
               if "." in bn:
                   base, ext = bn.rsplit(".", 1)
               else:
                   base, ext = bn, ""
-              # Spaces → dash; keep () and _
               base = re.sub(r"\s+", "-", base)
-              # Remove weird chars (leave A-Z a-z 0-9 - _ ( ) )
               base = re.sub(r"[^A-Za-z0-9\-\_\(\)]", "-", base)
-              # Collapse multiple dashes and trim
               base = re.sub(r"-{2,}", "-", base).strip("-")
               return f"{base}.{ext.lower()}" if ext else base
 
@@ -153,75 +147,55 @@ jobs:
               return "/_images/" + clean_filename_from_url(url)
 
           def build_md(alt: str, url: str) -> str:
-              alt_md = alt.replace("]", r"\]")
-              title  = alt.replace('"', r'\"')          # title = alt
+              alt_md = (alt or "").replace("]", r"\]")
+              title  = (alt or "").replace('"', r'\"')    # title = alt
               return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
 
-          # Patterns
           md_files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
                       for p in glob.glob(g, recursive=True)]
 
-          # Markdown image: ![alt](URL "optional")
-          md_img = re.compile(
-            r'!\[([^\]]*)\]'           # group 1: alt
-            r'\('
-            r'\s*<?'                   # optional <
-            r'("?)([^)\r\n]+?)\1'      # group 2: optional quote char, group 3: URL
-            r'>?'                      # optional >
-            r'(?:\s+"[^"]*")?'         # optional "title"
-            r'\s*\)',
-            re.I
-          )
-          
-          # Use group(3) = URL only (ignore any title in source)
-          s = md_img.sub(lambda m: build_md(m.group(1), m.group(3)), s)
-
-          # <img src="..."> (alt optional)
+          # HTML <img> (alt optional)
           html_img = re.compile(
               r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
               re.I
           )
 
-          # <figure>…</figure> with inner <img> and optional <figcaption>
-          FIG = re.compile(r'<figure\b[^>]*>(.*?)</figure>', re.I|re.S)
-          IMG = re.compile(r'<img\b[^>]*>', re.I|re.S)
-          CAP = re.compile(r'<figcaption\b[^>]*>(.*?)</figcaption>', re.I|re.S)
-          def attr(n,s):
-              m = re.search(rf'\b{n}\s*=\s*["\']([^"\']*)["\']', s, re.I|re.S)
-              return m.group(1).strip() if m else ""
+          # Markdown images — robust: allows spaces, optional quotes and <...>, optional "title"
+          md_img = re.compile(
+              r'!\[([^\]]*)\]'           # group 1: alt
+              r'\('
+              r'\s*<?'                   # optional <
+              r'("?)([^)\r\n]+?)\1'      # group 2: quote char (or empty), group 3: URL
+              r'>?'                      # optional >
+              r'(?:\s+"[^"]*")?'         # optional "title"
+              r'\s*\)',
+              re.I
+          )
 
-          def convert_figure(block: str) -> str:
-              m = IMG.search(block)
-              if not m: return block
-              img = m.group(0)
-              src = attr("src", img)
-              alt = attr("alt", img)
-              # title must equal ALT (figcaption ignored for strictness)
-              return build_md(alt, src)
-
+          any_changed = False
           for path in md_files:
-              s = open(path, encoding="utf-8").read()
+              with open(path, encoding="utf-8") as f:
+                  s = f.read()
               o = s
 
-              # 1) Convert <figure> blocks first
-              s = FIG.sub(lambda m: convert_figure(m.group(0)), s)
-
-              # 2) Convert standalone <img> to strict markdown
+              # 1) <img> → strict Markdown
               s = html_img.sub(lambda m: build_md(m.group(2) or "", m.group(1)), s)
 
-              # 3) Normalize existing markdown images to strict format (title = alt)
-              s = md_img.sub(lambda m: build_md(m.group(1), m.group(2)), s)
+              # 2) Existing Markdown → strict Markdown (title = alt)
+              s = md_img.sub(lambda m: build_md(m.group(1), m.group(3)), s)
 
-              # 4) Remove any lingering ../ or ./ before _images
+              # 3) Strip ../ or ./ before _images just in case
               s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
 
               if s != o:
-                  open(path, "w", encoding="utf-8").write(s)
+                  with open(path, "w", encoding="utf-8") as f:
+                      f.write(s)
                   print(f"Fixed: {path}")
+                  any_changed = True
+
+          if not any_changed:
+              print("No image links needed normalization.")
           PY
-      
-      
-      
 
       # 5) Validate: all image links are /_images/<no-spaces> and no subfolders
       - name: Validate image links style (/_images/*, no spaces)
