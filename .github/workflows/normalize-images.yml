@@ -138,8 +138,8 @@ jobs:
                   base, ext = bn.rsplit(".", 1)
               else:
                   base, ext = bn, ""
-              base = re.sub(r"\s+", "-", base)
-              base = re.sub(r"[^A-Za-z0-9\-\_\(\)]", "-", base)
+              base = re.sub(r"\s+", "-", base)                 # spaces -> dash
+              base = re.sub(r"[^A-Za-z0-9\-\_\(\)]", "-", base) # keep A-Z a-z 0-9 - _ ( )
               base = re.sub(r"-{2,}", "-", base).strip("-")
               return f"{base}.{ext.lower()}" if ext else base
 
@@ -147,21 +147,22 @@ jobs:
               return "/_images/" + clean_filename_from_url(url)
 
           def build_md(alt: str, url: str) -> str:
-              alt_md = (alt or "").replace("]", r"\]")
-              title  = (alt or "").replace('"', r'\"')    # title = alt
+              alt = alt or ""
+              alt_md = alt.replace("]", r"\]")
+              title  = alt.replace('"', r'\"')  # title = alt
               return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
 
           md_files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
                       for p in glob.glob(g, recursive=True)]
 
-          # HTML <img> (alt optional)
+          # HTML <img>
           html_img = re.compile(
               r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
               re.I
           )
 
-          # Markdown images — robust: allows spaces, optional quotes and <...>, optional "title"
-          md_img = re.compile(
+          # Inline Markdown images (robust: spaces, quotes, <...>, optional "title")
+          md_img_inline = re.compile(
               r'!\[([^\]]*)\]'           # group 1: alt
               r'\('
               r'\s*<?'                   # optional <
@@ -172,19 +173,42 @@ jobs:
               re.I
           )
 
+          # Reference-style:  ![alt][id]
+          md_img_ref = re.compile(r'!\[([^\]]*)\]\s*\[([^\]]+)\]', re.I)
+
+          # Reference definitions:
+          # [id]: url               OR
+          # [id]: "url with spaces" OR
+          # [id]: <url> "title"
+          ref_def = re.compile(
+              r'^\s*\[([^\]]+)\]\s*:\s*<?'   # group 1: id
+              r'("?)([^>\r\n]+?)\2'          # group 2: optional quote, group 3: URL
+              r'>?'                          # optional >
+              r'(?:\s+"[^"]*")?\s*$',
+              re.I | re.M
+          )
+
           any_changed = False
           for path in md_files:
               with open(path, encoding="utf-8") as f:
                   s = f.read()
               o = s
 
-              # 1) <img> → strict Markdown
+              # 1) HTML <img> → strict Markdown
               s = html_img.sub(lambda m: build_md(m.group(2) or "", m.group(1)), s)
 
-              # 2) Existing Markdown → strict Markdown (title = alt)
-              s = md_img.sub(lambda m: build_md(m.group(1), m.group(3)), s)
+              # 2) Inline Markdown → strict Markdown
+              s = md_img_inline.sub(lambda m: build_md(m.group(1), m.group(3)), s)
 
-              # 3) Strip ../ or ./ before _images just in case
+              # 3) Reference-style: build a map id -> url, then replace ![alt][id]
+              defs = {m.group(1).strip(): m.group(3).strip() for m in ref_def.finditer(s)}
+              def repl_ref(m):
+                  alt, rid = m.group(1), m.group(2).strip()
+                  url = defs.get(rid)
+                  return build_md(alt, url) if url else m.group(0)
+              s = md_img_ref.sub(repl_ref, s)
+
+              # 4) Clean any lingering ../ or ./ before _images
               s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
 
               if s != o:
@@ -197,6 +221,7 @@ jobs:
               print("No image links needed normalization.")
           PY
 
+
       # 5) Validate: all image links are /_images/<no-spaces> and no subfolders
       - name: Validate image links style (/_images/*, no spaces)
         shell: bash
@@ -204,40 +229,68 @@ jobs:
           set -euo pipefail
           python3 - <<'PY'
           import re, glob, sys
-          exts = r"(png|jpe?g|gif|webp|svg)"
-          md_img = re.compile(
-            r'!\[[^\]]*\]\('
-            r'\s*<?'
-            r'("?)([^)\r\n]+?)\1'   # group 2 = URL
-            r'>?'
-            r'(?:\s+"[^"]*")?'
-            r'\s*\)',
-            re.I
+
+          exts     = r"(png|jpe?g|gif|webp|svg)"
+          is_img   = re.compile(rf"\.({exts})(?:$|\?)", re.I)
+
+          # Inline images
+          md_img_inline = re.compile(
+              r'!\[[^\]]*\]\('
+              r'\s*<?'
+              r'("?)([^)\r\n]+?)\1'   # group 2 = URL
+              r'>?'
+              r'(?:\s+"[^"]*")?'
+              r'\s*\)',
+              re.I
           )
 
-          html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
-          is_img = re.compile(rf"\.({exts})(?:$|\?)", re.I)
+          # Reference-style: ![alt][id]
+          md_img_ref = re.compile(r'!\[[^\]]*\]\s*\[([^\]]+)\]', re.I)
 
-          def bad(u:str)->bool:
-            if not is_img.search(u): return False
-            if not u.startswith("/_images/"): return True
-            rest = u[len("/_images/"):]
-            if "/" in rest: return True  # no subfolders
-            return " " in u  # no spaces
+          # Reference definitions
+          ref_def = re.compile(
+              r'^\s*\[([^\]]+)\]\s*:\s*<?'  # group 1: id
+              r'("?)([^>\r\n]+?)\2'         # group 3: URL
+              r'>?(?:\s+"[^"]*")?\s*$',
+              re.I | re.M
+          )
 
-          bads=[]
-          files=[p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
-                    for p in glob.glob(g, recursive=True)]
+          def bad(u: str) -> bool:
+              if not is_img.search(u): return False
+              if not u.startswith("/_images/"): return True
+              rest = u[len("/_images/"):]
+              if "/" in rest: return True        # no subfolders
+              if " " in u: return True           # no spaces
+              return False
+
+          bads = []
+          files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
+                   for p in glob.glob(g, recursive=True)]
           for p in files:
-            s = open(p, encoding="utf-8").read()
-            bads += [(p, u.strip()) for u in (m.group(2) for m in md_img.finditer(s)) if bad(u.strip())]
-            bads += [(p, u.strip()) for u in html_src.findall(s) if bad(u.strip())]
+              with open(p, encoding="utf-8") as f:
+                  s = f.read()
+
+              # Inline URLs
+              for m in md_img_inline.finditer(s):
+                  u = m.group(2).strip()
+                  if bad(u): bads.append((p, u))
+
+              # Reference URLs (collect defs)
+              defs = {m.group(1).strip(): m.group(3).strip() for m in ref_def.finditer(s)}
+              for m in md_img_ref.finditer(s):
+                  rid = m.group(1).strip()
+                  u = defs.get(rid)
+                  if u and bad(u): bads.append((p, u))
+
           if bads:
-            print("Non-compliant image links:")
-            for p,u in bads: print(f"- {p}: {u}")
-            sys.exit(1)
+              print("Non-compliant image links:")
+              for p, u in bads:
+                  print(f"- {p}: {u}")
+              sys.exit(1)
+
           print("All image links are /_images/<file> with no spaces and no subfolders.")
           PY
+
 
       - name: Commit changes (if any)
         run: |
