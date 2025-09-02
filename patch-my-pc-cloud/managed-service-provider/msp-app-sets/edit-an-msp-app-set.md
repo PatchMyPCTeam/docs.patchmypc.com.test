@@ -19,11 +19,11 @@ You can only edit App Sets that have been created successfully. You will be unab
 1.  Navigate to **App Sets**\
 
 
-    ![Navigating to “App Sets”](/_images/image-(111 "Navigating to “App Sets”").png "Navigating to “App Sets”")
+    <figure><img src="../../../.gitbook/assets/image (111).png" alt="Navigating to “App Sets”" width="563"><figcaption></figcaption></figure>
 2.  Click the ellipsis (**⋮**) beside the App Set you want to edit and select **Edit**\
 
 
-    ![Clicking the ellipsis beside the App Set you want to edit](/_images/image-(112 "Clicking the ellipsis beside the App Set you want to edit").png "Clicking the ellipsis beside the App Set you want to edit")
+    <figure><img src="../../../.gitbook/assets/image (112).png" alt="Clicking the ellipsis beside the App Set you want to edit" width="563"><figcaption></figcaption></figure>
 3. Make any required changes such as:
    1. Editing the name of the App Set
    2. Editing or deleting apps and assignments
@@ -39,4 +39,4 @@ Adding either a new customer or a new app to an App Set triggers a new deploymen
 Also, deleting a company from an App Set removes all of the deployments for the apps within that App Set from the relevant company.
 {% endhint %}
 
-![Clicking “Deploy”](/_images/image-(113 "Clicking “Deploy”").png "Clicking “Deploy”")
+<figure><img src="../../../.gitbook/assets/image (113).png" alt="Clicking “Deploy”" width="563"><figcaption></figcaption></figure>

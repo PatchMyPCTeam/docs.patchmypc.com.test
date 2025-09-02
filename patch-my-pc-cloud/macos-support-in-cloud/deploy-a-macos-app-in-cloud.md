@@ -17,7 +17,7 @@ To deploy a macOS app using Patch My PC (PMPC) Cloud:
 1.  Locate the required app on the App Catalog page.\
 
 
-    ![Locating the app to be deployed](/_images/image-(2285 "Locating the app to be deployed").png "Locating the app to be deployed")
+    <figure><img src="../../.gitbook/assets/image (2285).png" alt="Locating the app to be deployed"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**
@@ -28,13 +28,13 @@ Use the Search field and filters to help you locate the app.
 2.  Click the relevant app.\
 
 
-    ![Clicking the relevant app](/_images/image-(2286 "Clicking the relevant app").png "Clicking the relevant app")
+    <figure><img src="../../.gitbook/assets/image (2286).png" alt="Clicking the relevant app"><figcaption></figcaption></figure>
 
 
 3.  On the app’s properties page, click **Deploy** under the **macOS** section to start the Deployment Wizard.\
 
 
-    ![Clicking “Deploy” under the “macOS” section](/_images/image-(291 "Clicking “Deploy” under the “macOS” section").png "Clicking “Deploy” under the “macOS” section")
+    <figure><img src="../../.gitbook/assets/image (291).png" alt="Clicking “Deploy” under the “macOS” section"><figcaption></figcaption></figure>
 4. Continue from [General Information](../cloud-deployments/deploying-an-app-using-cloud/cloud-general-information-deployment-tab.md) to configure the deployment as required.
 
 {% hint style="info" %}
@@ -52,10 +52,8 @@ For now, the following key differences exist:
   Once you've added an Assignment, the following options are unavailable:
   * Filter
   * Availability / Deadline
-  *
-    Notifications
-  *
-    Content Download
+  *    Notifications
+  *    Content Download
 {% endhint %}
 
 {% hint style="success" %}
@@ -63,7 +61,7 @@ For now, the following key differences exist:
 
 Once a macOS deployment has been completed successfully, you’ll can see it under **Apps | Monitor | macOS | macOS apps** in the Microsoft Intune admin center.
 
-![Successful deployment visible in the Microsoft Intune admin center](/_images/image-(2289 "Successful deployment visible in the Microsoft Intune admin center").png>)
+![Successful deployment visible in the Microsoft Intune admin center](<../../.gitbook/assets/image (2289).png>)
 {% endhint %}
 
 ### Deploying LOB app specifics
@@ -82,7 +80,7 @@ Adding either a pre or post-install script results in the **Add Uninstall** assi
 
 Likewise, if you add an **Add Uninstall** assignment and then click the **Configurations** page, the option to add either a pre or post-install script is greyed out (hovering your mouse over the **Add** button tells you **Uninstall Assignments disabled as you have added a pre/post-install script.**
 
-!["Uninstall Assignments disabled as you have added a pre/post-install script."](/_images/image-%282395 "\"Uninstall Assignments disabled as you have added a pre/post-install script.\"").png>)
+!["Uninstall Assignments disabled as you have added a pre/post-install script."](<../../.gitbook/assets/image (2395).png>)
 
 See [Supported Assignment Types & Settings for macOS Deployments](supported-assignment-types-and-settings-for-cloud-macos-deployments.md) for more details.
 {% endhint %}

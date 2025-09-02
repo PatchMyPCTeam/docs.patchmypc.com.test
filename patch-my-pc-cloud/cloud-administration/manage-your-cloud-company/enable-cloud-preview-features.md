@@ -19,14 +19,14 @@ To enable Preview Features:
 1. Navigate to the **Company** node.
 2. Scroll down to the **Preview Features** section.
 
-![Scrolling down to the “Preview Features” section](/_images/image-(2249 "Scrolling down to the “Preview Features” section").png "Scrolling down to the “Preview Features” section")
+<figure><img src="../../../.gitbook/assets/image (2249).png" alt="Scrolling down to the “Preview Features” section" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
 
 The _**x/y**_**&#x20;preview features enabled** indicator tells you how many of the preview features available for this company have been enabled. If you hover over the tooltip, the list of features and whether they have been enabled (indicated by a green tick) is shown.
 
-![](/_images/image-(2250 "").png "")
+<img src="../../../.gitbook/assets/image (2250).png" alt="Indicator of the number of preview features enabled for this company" data-size="original">
 
 
 {% endhint %}
@@ -34,13 +34,13 @@ The _**x/y**_**&#x20;preview features enabled** indicator tells you how many of 
 3.  Click to check the **Enable Preview features** checkbox.\
 
 
-    ![Checking the “Enable Preview features” checkbox.](/_images/image-(2251 "Checking the “Enable Preview features” checkbox.").png "Checking the “Enable Preview features” checkbox.")
+    <figure><img src="../../../.gitbook/assets/image (2251).png" alt="Checking the “Enable Preview features” checkbox." width="563"><figcaption></figcaption></figure>
 4.  Click **Save** to save your changes.\
 
 
-    ![Clicking &#x22;Save&#x22; to save your changes](/_images/image-(2252 "Clicking &#x22;Save&#x22; to save your changes").png "Clicking &#x22;Save&#x22; to save your changes")
+    <figure><img src="../../../.gitbook/assets/image (2252).png" alt="Clicking &#x22;Save&#x22; to save your changes" width="563"><figcaption></figcaption></figure>
 
     \
     The **Success - Company information updated** notification is shown.
 
-![“Success - Company information updated” notification](/_images/image-(2253 "“Success - Company information updated” notification").png "“Success - Company information updated” notification")
+<figure><img src="../../../.gitbook/assets/image (2253).png" alt="“Success - Company information updated” notification" width="563"><figcaption></figcaption></figure>

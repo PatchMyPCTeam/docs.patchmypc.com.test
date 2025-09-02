@@ -12,7 +12,7 @@ See [Using Templates in Deployments](../../cloud-deployments/use-a-template-in-c
 
 All deployment template-related tasks are performed from the **Templates** node of the portal, accessed by navigating to **Settings | Templates**.
 
-![Navigating to “Settings | Templates”](/_images/image-(273 "Navigating to “Settings | Templates”").png "Navigating to “Settings | Templates”")
+<figure><img src="../../../.gitbook/assets/image (273).png" alt="Navigating to “Settings | Templates”" width="563"><figcaption></figcaption></figure>
 
 The Templates page is then displayed, showing any existing templates and allowing you to:
 
@@ -21,4 +21,4 @@ The Templates page is then displayed, showing any existing templates and allowin
 * [Configure a Default Template](configure-a-default-cloud-deployment-template.md)
 * [Delete a Template](delete-a-cloud-deployment-template.md)
 
-![“Templates” page](/_images/image-(274 "“Templates” page").png "“Templates” page")
+<figure><img src="../../../.gitbook/assets/image (274).png" alt="“Templates” page" width="563"><figcaption></figcaption></figure>

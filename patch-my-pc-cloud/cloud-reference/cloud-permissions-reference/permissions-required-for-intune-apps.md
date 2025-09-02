@@ -42,5 +42,5 @@ _Does this app look suspicious?_ [_Report it here_](https://login.microsoftonlin
 
 You will be prompted to grant these during whenever you connect an Intune Tenant to your PMPC Cloud Portal by clicking **Accept** on the **Permissions requested** dialog box.
 
-![&#x22;Permissions requested&#x22; dialog box showing which permissions we require to connect to your Intune Tenant to connect](/_images/image-(342 "&#x22;Permissions requested&#x22; dialog box showing which permissions we require to connect to your Intune Tenant to connect").png "&#x22;Permissions requested&#x22; dialog box showing which permissions we require to connect to your Intune Tenant to connect")
+<figure><img src="../../../.gitbook/assets/image (342).png" alt="&#x22;Permissions requested&#x22; dialog box showing which permissions we require to connect to your Intune Tenant to connect "><figcaption></figcaption></figure>
 

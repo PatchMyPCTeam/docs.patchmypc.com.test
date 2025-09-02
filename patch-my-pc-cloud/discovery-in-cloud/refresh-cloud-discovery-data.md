@@ -10,7 +10,7 @@ To manually refresh the data in the **Discovery** node:
 2.  If the **Refresh Data** button is available, click it and go to Step 4.\
 
 
-    ![“Refresh Data” button available](/_images/image-(394 "“Refresh Data” button available").png "“Refresh Data” button available")
+    <figure><img src="../../.gitbook/assets/image (394).png" alt="“Refresh Data” button available"><figcaption></figcaption></figure>
 
 
 3. If the **Refresh Data** button is unavailable, note the value of the **Last Sync** time.\
@@ -26,12 +26,12 @@ The **Last Sync** time is the time when the last sync completed successfully, wh
 4.  The **Refresh Data** button changes to **Collecting Data** whilst discovery runs.\
 
 
-    ![“Refresh Data” button changed to “Collecting Data” whilst discovery runs](/_images/image-(395 "“Refresh Data” button changed to “Collecting Data” whilst discovery runs").png "“Refresh Data” button changed to “Collecting Data” whilst discovery runs")
+    <figure><img src="../../.gitbook/assets/image (395).png" alt="“Refresh Data” button changed to “Collecting Data” whilst discovery runs"><figcaption></figcaption></figure>
 5. Currently, when the discovery process completes the portal does not auto-refresh. So periodically press **F5** to refresh the portal.
 6.  Once discovery finishes running, the **Last Sync** time gets updated and the **Refresh Data** button becomes unavailable.\
 
 
-    ![“Last Sync” time updated and “Refresh data” unavailable](/_images/image-(396 "“Last Sync” time updated and “Refresh data” unavailable").png "“Last Sync” time updated and “Refresh data” unavailable")
+    <figure><img src="../../.gitbook/assets/image (396).png" alt="“Last Sync” time updated and “Refresh data” unavailable"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**

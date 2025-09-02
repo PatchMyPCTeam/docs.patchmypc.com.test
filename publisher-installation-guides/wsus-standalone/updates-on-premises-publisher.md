@@ -12,7 +12,7 @@ _Applies to: On-premises Publisher_
 
 To enable products to publish, check the **Enable publishing of third-party updates** checkbox.
 
-![](/_images/image-(1214 "").png>)
+![](<../../.gitbook/assets/image (1214).png>)
 
 Once the option is selected, you'll be able to enable other products.&#x20;
 
@@ -22,11 +22,11 @@ Once the option is selected, you'll be able to enable other products.&#x20;
 
 To find and enable these products, you can search the list of updates using **Ctrl + F** or by clicking on the magnifying glass in the lower right corner.&#x20;
 
-![](/_images/image-(1099 "").png>)
+![](<../../.gitbook/assets/image (1099).png>)
 
 When you select the search button a dialogue will open, type in one of our example products and hit enter, or click **OK**.
 
-![](/_images/image-(1126 "").png>)
+![](<../../.gitbook/assets/image (1126).png>)
 
 Once you have found the product you want to patch, click the checkbox for your preferred architecture choice and click **Apply**.
 
@@ -38,7 +38,7 @@ Once you have found the product you want to patch, click the checkbox for your p
 Custom right-click options for customizing installation behavior
 {% endembed %}
 
-![](/_images/image-(1154 "").png>)
+![](<../../.gitbook/assets/image (1154).png>)
 
 {% hint style="info" %}
 If you happen to hit **OK**  instead of **Apply**, don't worry the publisher will close after saving the changes. You can just re-open and keep right on working.

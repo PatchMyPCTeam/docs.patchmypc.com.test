@@ -9,23 +9,23 @@ To recreate a deployment:
 1.  From the **Deployments** page, click the ellipsis (**⋮**) beside the relevant deployment you want to recreate and click **Recreate**.\
 
 
-    ![Clicking the ellipsis beside a deployment and selecting “Recreate”](/_images/image-(2013 "Clicking the ellipsis beside a deployment and selecting “Recreate”").png "Clicking the ellipsis beside a deployment and selecting “Recreate”")
+    <figure><img src="../../../.gitbook/assets/image (2013).png" alt="Clicking the ellipsis beside a deployment and selecting “Recreate”"><figcaption></figcaption></figure>
 2.  On the **Are you sure you want to recreate <**_**deployment\_name**_**>** dialog box, click **Yes**.\
 
 
-    ![](/_images/image-(1681 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (1681).png" alt="Click “Yes” on the “Are you sure you want to recreate <deployment_name>” dialog box"><figcaption></figcaption></figure>
 
     \
     The **Status** of the deployment changes to **In Progress** and the **Recreating the deployment&#x20;**_**\<deployment\_name>**_**&#x20;has started** message is displayed.\
 
 
-    ![Change to deployment status and message stating the recreation process has started](/_images/image-(1682 "Change to deployment status and message stating the recreation process has started").png "Change to deployment status and message stating the recreation process has started")
+    <figure><img src="../../../.gitbook/assets/image (1682).png" alt="Change to deployment status and message stating the recreation process has started"><figcaption></figcaption></figure>
 
     \
     Once the deployment has been recreated, the portal auto-refreshes and the **Status** changes to **Success**.\
 
 
-    ![Portal auto-refreshes to show the deployment has been successfully recreated](/_images/image-(1683 "Portal auto-refreshes to show the deployment has been successfully recreated").png "Portal auto-refreshes to show the deployment has been successfully recreated")
+    <figure><img src="../../../.gitbook/assets/image (1683).png" alt="Portal auto-refreshes to show the deployment has been successfully recreated"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**

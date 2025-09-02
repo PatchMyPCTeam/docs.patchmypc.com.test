@@ -33,7 +33,7 @@ To configure Notifications:
 2.  Navigate to **Settings | Notifications**.\
 
 
-    ![Navigating to “Settings | Notifications”](/_images/image-(760 "Navigating to “Settings | Notifications”").png "Navigating to “Settings | Notifications”")
+    <figure><img src="../../../.gitbook/assets/image (760).png" alt="Navigating to “Settings | Notifications”"><figcaption></figcaption></figure>
 
 The **Notifications** page is then displayed, showing any existing Notifications and allowing you to:
 
@@ -41,4 +41,4 @@ The **Notifications** page is then displayed, showing any existing Notifications
 * [Modify a Notification](modify-a-cloud-notification.md)
 * [Delete a Notification](delete-a-cloud-notification.md)
 
-![“Notifications” page](/_images/image-(761 "“Notifications” page").png "“Notifications” page")
+<figure><img src="../../../.gitbook/assets/image (761).png" alt="“Notifications” page"><figcaption></figcaption></figure>

@@ -17,23 +17,23 @@ To delete a Branding App:
 
 1. Navigate to **Settings | Branding**
 
-![Navigating to &#x22;Settings | Branding&#x22;](/_images/image-(2506 "Navigating to &#x22;Settings | Branding&#x22;").png "Navigating to &#x22;Settings | Branding&#x22;")
+<figure><img src="../../../.gitbook/assets/image (2506).png" alt="Navigating to &#x22;Settings | Branding&#x22;" width="563"><figcaption></figcaption></figure>
 
 2. Click the ellipsis (`⋮`) button beside the relevant Branding App and select **Delete**.
 
-![Selecting &#x22;Delete&#x22; from the ellipsis menu](/_images/image-(2676 "Selecting &#x22;Delete&#x22; from the ellipsis menu").png "Selecting &#x22;Delete&#x22; from the ellipsis menu")
+<figure><img src="../../../.gitbook/assets/image (2676).png" alt="Selecting &#x22;Delete&#x22; from the ellipsis menu" width="563"><figcaption></figcaption></figure>
 
 3. Read the **Are you sure** dialog box, and if you want to continue, click **Yes**.
 
-![&#x22;Are you sure&#x22; dialog box](/_images/image-(2508 "&#x22;Are you sure&#x22; dialog box").png "&#x22;Are you sure&#x22; dialog box")
+<figure><img src="../../../.gitbook/assets/image (2508).png" alt="&#x22;Are you sure&#x22; dialog box" width="287"><figcaption></figcaption></figure>
 
 The **Success - <**_**branding\_app\_name**_**> deleted** notification is shown.
 
-![](/_images/image-(2677 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2677).png" alt="&#x22;Success - <branding_app_name> deleted notification&#x22;" width="563"><figcaption></figcaption></figure>
 
 The **Branding** screen is redisplayed showing the Branding App has been  deleted.
 
-![&#x22;Branding&#x22; screen is redisplayed showing the branding app has been  deleted.](/_images/image-(2678 "&#x22;Branding&#x22; screen is redisplayed showing the branding app has been  deleted.").png "&#x22;Branding&#x22; screen is redisplayed showing the branding app has been  deleted.")
+<figure><img src="../../../.gitbook/assets/image (2678).png" alt="&#x22;Branding&#x22; screen is redisplayed showing the branding app has been  deleted." width="563"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**

@@ -24,15 +24,15 @@ If you want to change the SSL certificate to a server host name only type, selec
 
 In the configuration modification page, select the checkbox for 'SSL Certificate' then click 'Change Certificate':
 
-![](/_images/vmconnect_KN0zxDuJp8.png "")
+<figure><img src="../../.gitbook/assets/vmconnect_KN0zxDuJp8.png" alt=""><figcaption></figcaption></figure>
 
 Use the drop down list to select the SSL certificate which represents the CNAME / Alias you wish to use.
 
-![](/_images/image-(1654 "").png "")
+<figure><img src="../../.gitbook/assets/image (1654).png" alt=""><figcaption><p>Certificate selection dialog</p></figcaption></figure>
 
 With the appropriate SSL certificate selected, click **'Set CNAME / Alias'**
 
-![](/_images/image-(1655 "").png "")
+<figure><img src="../../.gitbook/assets/image (1655).png" alt=""><figcaption><p>Certificate selection dialog</p></figcaption></figure>
 
 In the set CNAME / Alias dialog page, the dialog will be prepopulated with a value for the CNAME / Alias based upon the selected certificated.
 
@@ -40,22 +40,22 @@ Modify the prepopulated URL value if required.
 
 Click **'Set CNAME / Alias'**
 
-![](/_images/Alias-dialog "")
+<figure><img src="../../.gitbook/assets/vmconnect_3ZByUA7acq (1).png" alt=""><figcaption><p>Set CNAME / Alias dialog</p></figcaption></figure>
 
 Click **'Next'**
 
-![](/_images/Alias-set-confirmed "")
+<figure><img src="../../.gitbook/assets/image (1656).png" alt=""><figcaption><p>Certificate selection dialog - CNAME / Alias set confirmed</p></figcaption></figure>
 
 Click **'Install'**
 
-![](/_images/vmconnect_KN0zxDuJp8-(2 "").png "")
+<figure><img src="../../.gitbook/assets/vmconnect_KN0zxDuJp8 (2).png" alt=""><figcaption><p>Certificate Modification option dialog</p></figcaption></figure>
 
 The installer will make the required configuration changes and display a summary once complete.
 
 Click **'Finish'**
 
-![](/_images/image-(1658 "").png "")
+<figure><img src="../../.gitbook/assets/image (1658).png" alt=""><figcaption><p>Certificate modification completion</p></figcaption></figure>
 
 New Advanced Insights URL
 
-![](/_images/vmconnect_hyyumsMyOf.png "")
+<figure><img src="../../.gitbook/assets/vmconnect_hyyumsMyOf.png" alt=""><figcaption><p>New Advanced Insights URL</p></figcaption></figure>

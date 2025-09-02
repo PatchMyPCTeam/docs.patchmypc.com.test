@@ -6,7 +6,7 @@ _Applies to: Patch My PC Cloud_
 
 Why when I try to deploy an app, is the **Deploy** button greyed out?
 
-![“Deploy” button greyed out.](/_images/image-(2342 "“Deploy” button greyed out.").png "“Deploy” button greyed out.")
+<figure><img src="../../../.gitbook/assets/image (2342).png" alt="“Deploy” button greyed out."><figcaption></figcaption></figure>
 
 ### CAUSE
 
@@ -19,13 +19,13 @@ To resolve this issue:
 1.  Click the **Configurations** page of the deployment.\
 
 
-    ![Clicking the “Configurations” page](/_images/image-(2375 "Clicking the “Configurations” page").png "Clicking the “Configurations” page")
+    <figure><img src="../../../.gitbook/assets/image (2375).png" alt="Clicking the “Configurations” page"><figcaption></figcaption></figure>
 
     \
     If the problem is caused by an ESP Profile being configured, the **ESP Profiles** tab will be automatically opened.\
 
 
-    ![“ESP Profile” tab automatically opened](/_images/image-(2344 "“ESP Profile” tab automatically opened").png "“ESP Profile” tab automatically opened")
+    <figure><img src="../../../.gitbook/assets/image (2344).png" alt="“ESP Profile” tab automatically opened"><figcaption></figcaption></figure>
 
 
 2.  Scroll down to the **ESP Profiles** section, under which you will see the following message:\
@@ -34,7 +34,7 @@ To resolve this issue:
     **ESP profiles should be empty when the assignments list contains only UpdateOnly assignments.**\
 
 
-    ![“ESP profiles should be empty when the assignments list contains only UpdateOnly assignments.” message](/_images/image-(2345 "“ESP profiles should be empty when the assignments list contains only UpdateOnly assignments.” message").png "“ESP profiles should be empty when the assignments list contains only UpdateOnly assignments.” message")
+    <figure><img src="../../../.gitbook/assets/image (2345).png" alt="“ESP profiles should be empty when the assignments list contains only UpdateOnly assignments.” message"><figcaption></figcaption></figure>
 
 
 3.  You now need to decide whether you:

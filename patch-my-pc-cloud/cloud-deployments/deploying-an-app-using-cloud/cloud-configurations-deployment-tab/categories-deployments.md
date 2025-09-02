@@ -20,17 +20,17 @@ To add a Category to a deployment:
 
 1. Click the **Categories** tool.
 
-![Clicking the “Categories” tool](/_images/image-(72 "Clicking the “Categories” tool").png "Clicking the “Categories” tool")
+<figure><img src="../../../../.gitbook/assets/image (72).png" alt="Clicking the “Categories” tool" width="563"><figcaption></figcaption></figure>
 
 2. Scroll down to the **Categories** section.
 
-![Scrolling down to the &#x22;Categories&#x22; section](/_images/image-(73 "Scrolling down to the &#x22;Categories&#x22; section").png "Scrolling down to the &#x22;Categories&#x22; section")
+<figure><img src="../../../../.gitbook/assets/image (73).png" alt="Scrolling down to the &#x22;Categories&#x22; section" width="563"><figcaption></figcaption></figure>
 
 3. Go to Step 6. to add a new category or in the **Add Category** field, either:
    1. Start typing the name of the relevant Category, then click the checkbox beside it to select it.
    2. Click the dropdown to see a list of existing Categories and click the relevant checkbox(es) to select it.
 
-![Selecting the checkbox beside the relevant categories](/_images/image-(74 "Selecting the checkbox beside the relevant categories").png "Selecting the checkbox beside the relevant categories")
+<figure><img src="../../../../.gitbook/assets/image (74).png" alt="Selecting the checkbox beside the relevant categories" width="421"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**
@@ -53,11 +53,11 @@ You can create up to 200 categories per Intune tenant. Each category name must:
 * Not be the name of a script.
 {% endhint %}
 
-![](/_images/image-(75 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
 7. Press `ENTER` and the **Success – The category “<**_**category\_name>**_**” has been created** notification is shown, confirming the new category has been added to both Intune and this deployment.
 
-![](/_images/image-(76 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (76).png" alt="“Success – The category “<category_name>” has been created” notification" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -75,4 +75,4 @@ Also:
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-(77 "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page").png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
+<figure><img src="../../../../.gitbook/assets/image (77).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page" width="563"><figcaption></figcaption></figure>

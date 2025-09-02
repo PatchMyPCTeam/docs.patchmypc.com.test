@@ -13,12 +13,12 @@ If you have [resumed updates](resume-cloud-updates.md) for an app in Patch My PC
 1.  Click on the relevant deployment which has been resumed.\
 
 
-    ![Clicking on the relevant successful deployment for which updates have been resumed](/_images/image-(2004 "Clicking on the relevant successful deployment for which updates have been resumed").png "Clicking on the relevant successful deployment for which updates have been resumed")
+    <figure><img src="../../../.gitbook/assets/image (2004).png" alt="Clicking on the relevant successful deployment for which updates have been resumed"><figcaption></figcaption></figure>
 2.  Click **Sync Now** to install any updates for the app immediately.\
     \
 
 
-    ![Clicking “Sync Now”](/_images/image-(2005 "Clicking “Sync Now”").png "Clicking “Sync Now”")
+    <figure><img src="../../../.gitbook/assets/image (2005).png" alt="Clicking “Sync Now”"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -29,19 +29,19 @@ If the **Sync Now** button is greyed out, no updates are available for this app.
 3.  On the **Are you sure you want to update <**_**app\_name**_**> to the latest version** popup, click **OK**.\
 
 
-    ![](/_images/image-(1828 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (1828).png" alt="&#x22;Are you sure you want to update <app_name> to the latest version&#x22; popup"><figcaption></figcaption></figure>
 
     \
     The **Deployment <**_**app\_name**_**> updated** notification is displayed and the deployment **Status** changes to **In Progress**.\
 
 
-    ![](/_images/image-(1829 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (1829).png" alt="“Deployment <app_name> updated” notification is displayed and the deployment “Status” changes to “In Progress”."><figcaption></figcaption></figure>
 
     \
     Once the deployment has been completed successfully, the **Status** changes to **Success**.\
 
 
-    ![“Status” changing to Success.](/_images/image-(1830 "“Status” changing to Success.").png "“Status” changing to Success.")
+    <figure><img src="../../../.gitbook/assets/image (1830).png" alt="“Status” changing to Success."><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**

@@ -16,23 +16,23 @@ To modify a Custom App:
 2.  On the **App Catalog** page, search for the relevant app.\
 
 
-    ![Searching for your Custom App](/_images/image-(2015 "Searching for your Custom App").png "Searching for your Custom App")
+    <figure><img src="../../.gitbook/assets/image (2015).png" alt="Searching for your Custom App" width="563"><figcaption></figcaption></figure>
 3. Click the app to open it.
 4.  On the app’s properties page, click **Edit Info**.\
 
 
-    ![Clicking “Edit Info”](/_images/image-(2016 "Clicking “Edit Info”").png "Clicking “Edit Info”")
+    <figure><img src="../../.gitbook/assets/image (2016).png" alt="Clicking “Edit Info”" width="563"><figcaption></figcaption></figure>
 
 The Custom Apps **Edit Application** Wizard starts.
 
-![Custom Apps “Edit Application” Wizard](/_images/image-(2633 "Custom Apps “Edit Application” Wizard").png "Custom Apps “Edit Application” Wizard")
+<figure><img src="../../.gitbook/assets/image (2633).png" alt="Custom Apps “Edit Application” Wizard" width="563"><figcaption></figcaption></figure>
 
 5. Make the required changes on the relevant tabs, then click **Save**.
 
-![Clicking “Save”](/_images/image-(2634 "Clicking “Save”").png "Clicking “Save”")
+<figure><img src="../../.gitbook/assets/image (2634).png" alt="Clicking “Save”" width="563"><figcaption></figcaption></figure>
 
 The App Catalog is displayed along with the following notification:\
 \
 **Success – Your application has been successfully edited**
 
-![“Success – Your application has been successfully edited” notification](/_images/image-(2019 "“Success – Your application has been successfully edited” notification").png "“Success – Your application has been successfully edited” notification")
+<figure><img src="../../.gitbook/assets/image (2019).png" alt="“Success – Your application has been successfully edited” notification" width="563"><figcaption></figcaption></figure>

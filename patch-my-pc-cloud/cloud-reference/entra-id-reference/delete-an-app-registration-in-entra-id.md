@@ -14,19 +14,19 @@ To delete an App Registration:
 You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.
 {% endhint %}
 
-![Navigating to the “App registrations” blade](/_images/image-(1970 "Navigating to the “App registrations” blade").png "Navigating to the “App registrations” blade")
+<figure><img src="../../../.gitbook/assets/image (1970).png" alt="Navigating to the “App registrations” blade"><figcaption></figcaption></figure>
 
 2.  Click **All applications**.\
 
 
-    ![Clicking “All Applications”](/_images/image-(1971 "Clicking “All Applications”").png "Clicking “All Applications”")
+    <figure><img src="../../../.gitbook/assets/image (1971).png" alt="Clicking “All Applications”"><figcaption></figcaption></figure>
 
     \
 
 3.  Click the **PMPC Recovery** application.\
 
 
-    ![Clicking the “PMPC Recovery” application](/_images/image-(1972 "Clicking the “PMPC Recovery” application").png "Clicking the “PMPC Recovery” application")
+    <figure><img src="../../../.gitbook/assets/image (1972).png" alt="Clicking the “PMPC Recovery” application"><figcaption></figcaption></figure>
 
     \
 
@@ -34,7 +34,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
     4.  Click **Delete**.\
 
 
-        ![Clicking “Delete”](/_images/image-(1973 "Clicking “Delete”").png "Clicking “Delete”")
+        <figure><img src="../../../.gitbook/assets/image (1973).png" alt="Clicking “Delete”"><figcaption></figcaption></figure>
 
         \
 
@@ -42,14 +42,14 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”.](/_images/image-(1974 "Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”.").png "Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”.")
+        <figure><img src="../../../.gitbook/assets/image (1974).png" alt="Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”."><figcaption></figcaption></figure>
 
         \
         The **Welcome to Azure** page is shown and the **Delete application - Successfully deleted application PMPC Recovery** notification is shown.\
         \
 
 
-        ![“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown.](/_images/image-(1975 "“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown.").png "“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown.")
+        <figure><img src="../../../.gitbook/assets/image (1975).png" alt="“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown."><figcaption></figcaption></figure>
 
         \
 
@@ -57,7 +57,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Clicking the “App Registrations” blade](/_images/image-(1976 "Clicking the “App Registrations” blade").png "Clicking the “App Registrations” blade")
+        <figure><img src="../../../.gitbook/assets/image (1976).png" alt="Clicking the “App Registrations” blade "><figcaption></figcaption></figure>
 
         \
 
@@ -65,7 +65,7 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Clicking the “All applications” blade](/_images/image-(1977 "Clicking the “All applications” blade").png "Clicking the “All applications” blade")
+        <figure><img src="../../../.gitbook/assets/image (1977).png" alt="Clicking the “All applications” blade"><figcaption></figcaption></figure>
 
         \
 
@@ -73,4 +73,4 @@ You must use an account in the same Microsoft 365 subscription (tenant) as your 
         \
 
 
-        ![Verifying the “PMPC Recovery” application has been deleted.](/_images/image-(1978 "Verifying the “PMPC Recovery” application has been deleted.").png "Verifying the “PMPC Recovery” application has been deleted.")
+        <figure><img src="../../../.gitbook/assets/image (1978).png" alt="Verifying the “PMPC Recovery” application has been deleted."><figcaption></figcaption></figure>
