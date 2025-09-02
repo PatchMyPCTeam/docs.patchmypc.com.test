@@ -56,9 +56,15 @@ jobs:
             b="$(basename "$f")"
             nb="$(printf '%s' "$b" | sed -E 's/%20/ /g; s/[[:space:]]+/-/g; s/-+/-/g')"
             if [ "$b" != "$nb" ]; then
-              # Avoid collisions after rename
               tgt="_images/$nb"
               if [ -e "$tgt" ]; then
+                # If target exists and content is IDENTICAL → drop the duplicate
+                if cmp -s "$f" "$tgt"; then
+                  git rm -f "$f" 2>/dev/null || rm -f "$f"
+                  echo "Removed duplicate identical file: $b (kept $(basename "$tgt"))"
+                  continue
+                fi
+                # Else different content → create a unique name (rare)
                 base="${nb%.*}"; ext="${nb##*.}"; i=1
                 while [ -e "_images/${base}-${i}.${ext}" ]; do i=$((i+1)); done
                 tgt="_images/${base}-${i}.${ext}"
@@ -67,6 +73,7 @@ jobs:
               echo "Renamed: $b -> $(basename "$tgt")"
             fi
           done
+      
 
       # 3) Convert <figure><img ...><figcaption>...</figcaption></figure> → ![alt](/_images/file "alt")
       - name: Convert <figure><img> blocks to Markdown images (/_images, no spaces)
