@@ -15,22 +15,22 @@ You cannot delete an App Set with a **Status** of **In progress** and once the d
 1.  Navigate to **App Sets**\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2559).png" alt="Navigating to “App Sets”" width="563"><figcaption></figcaption></figure>
+    ![Navigating to “App Sets”](/_images/image-(2559).png "Navigating to “App Sets”")
 2.  Click the ellipsis (**⋮**) beside the App Set you want to delete and select **Delete**\
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (2560).png" alt="Clicking the ellipsis beside the App Set you want to delete and selecting “Delete”" width="563"><figcaption></figcaption></figure>
+    ![Clicking the ellipsis beside the App Set you want to delete and selecting “Delete”](/_images/image-(2560).png "Clicking the ellipsis beside the App Set you want to delete and selecting “Delete”")
 3.  On the **Are you sure you want to delete <**_**app\_set\_name>**_ dialog box, click **Yes**\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2561).png" alt="Clicking “Yes” on the “Are you sure you want to delete” dialog box" width="281"><figcaption></figcaption></figure>
+    ![Clicking “Yes” on the “Are you sure you want to delete” dialog box](/_images/image-(2561).png "Clicking “Yes” on the “Are you sure you want to delete” dialog box")
 
     \
     The **Success – Deletion the App Set <**_**appset\_name**_**> has started** notification is shown and the App Set has a **Status** of **Deleting** whilst the App Set and it’s associated deployments are removed from the relevant companies.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2562).png" alt="Notification the App Set is being deleted" width="563"><figcaption></figcaption></figure>
+    ![Notification the App Set is being deleted](/_images/image-(2562).png "Notification the App Set is being deleted")
 
 {% hint style="info" %}
 **Note**
@@ -40,4 +40,4 @@ Deleting an App Set automatically deletes all of the deployments for all of the 
 
 Once the App Set has been successfully deleted (which can take an extended period of time depending on its contents and where it’s been deployed), the App Set will disappear from the **App Set** page.
 
-<figure><img src="../../../.gitbook/assets/image (2563).png" alt="“App Set” page showing the App Set has been deleted" width="563"><figcaption></figcaption></figure>
+![“App Set” page showing the App Set has been deleted](/_images/image-(2563).png "“App Set” page showing the App Set has been deleted")

@@ -12,11 +12,11 @@ This portlet displays statistics for **enabled** metering rules. To accurately p
 
 
 
-<figure><img src="../../../.gitbook/assets/image (2153).png" alt=""><figcaption><p>Metered Software Usage</p></figcaption></figure>
+![](/_images/image-(2153 "").png "Metered Software Usage")
 
 This dashboard shows software usage which you have **enabled** from Configuration Manager Console. Ensure that the metering rules you have created are the correct executable name, version and language.
 
-<figure><img src="../../../.gitbook/assets/image (2178).png" alt=""><figcaption><p>Software Metering Rules in the ConfigMgr console</p></figcaption></figure>
+![](/_images/image-(2178 "").png "Software Metering Rules in the ConfigMgr console")
 
 You can drill further down to the individual application to see which devices and users run the app.
 
@@ -24,10 +24,10 @@ You can drill further down to the individual application to see which devices an
 
 On this tab you can see the application you have selected and list which users have run this exe.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (2154).png" alt=""><figcaption><p>Software Metering General Tab</p></figcaption></figure>
+![](/_images/image-(2154 "").png "Software Metering General Tab")
 
 ### Software Usage, Usage Tab
 
 This tab displays the details of the software usage.
 
-<figure><img src="../../../.gitbook/assets/image (2155).png" alt=""><figcaption><p>Software Metering Usage Tab</p></figcaption></figure>
+![](/_images/image-(2155 "").png "Software Metering Usage Tab")

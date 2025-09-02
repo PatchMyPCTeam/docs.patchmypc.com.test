@@ -16,4 +16,3 @@ As we are currently migrating all of the product documentation from the existing
 
 We appreciate this is not ideal and will remove the message once the transition is complete.
 {% endhint %}
-

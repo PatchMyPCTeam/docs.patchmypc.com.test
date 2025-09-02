@@ -10,7 +10,7 @@ _Applies to: On-premises Publisher_
 
 Any updates published after the WSUS Standalone option was enabled should appear directly in the WSUS console.
 
-![](<../../.gitbook/assets/image (1133).png>)
+![](/_images/image-(1133 "").png>)
 
 {% hint style="info" %}
 **Note:** If updates were published **before this setting was enabled**, they would **not appear in the WSUS console automatically**.

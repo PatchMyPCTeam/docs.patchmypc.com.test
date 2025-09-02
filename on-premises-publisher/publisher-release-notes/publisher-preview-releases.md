@@ -271,7 +271,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
 * Added support for Microsoft Teams Workflows as a new webhook provider option. With the announced [retirement of Office 365 connectors within Microsoft Teams](https://devblogs.microsoft.com/microsoft365dev/retirement-of-office-365-connectors-within-microsoft-teams/), we now support the new Workflow options. Our Teams notifications have been updated with new ⁠[Adaptive Card](https://learn.microsoft.com/en-us/adaptive-cards/) templates.
 
-![](https://patchmypc.com/wp-content/uploads/2024/08/Workflow-Summary.png) ![](https://patchmypc.com/wp-content/uploads/2024/08/Workflow-DeploymentUpdates.png)
+![](/_images/Workflow-Summary.png "") ![](/_images/Workflow-DeploymentUpdates.png "")
 
 ### Improvements <a href="#improvements" id="improvements"></a>
 
@@ -1349,7 +1349,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * <img src="../../.gitbook/assets/image (1205).png" alt="" data-size="original">&#x20;
+  * ![](/_images/image-(1205 "").png "")&#x20;
 
 ### Improvements
 
@@ -1362,7 +1362,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * <img src="../../.gitbook/assets/image (1205).png" alt="" data-size="original">&#x20;
+  * ![](/_images/image-(1205 "").png "")&#x20;
 
 ### Improvements
 
@@ -1375,7 +1375,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * <img src="../../.gitbook/assets/image (1205).png" alt="" data-size="original">&#x20;
+  * ![](/_images/image-(1205 "").png "")&#x20;
 
 ### Improvements
 

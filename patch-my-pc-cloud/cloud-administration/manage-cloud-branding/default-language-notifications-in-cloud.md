@@ -15,7 +15,9 @@ The following is a list of the default localization settings for a Patch My PC (
 | Header             | %OrganizationName%&#xD; requires the install of %ProductName%&#xD;.                                                                                                        |
 | Main Text          | To ensure files aren't in use during the install,&#xD; %ProductName%&#xD; needs to be closed. Please save your work and close the application to proceed with the install. |
 | Defer Policy Count | You can postpone the install for up to&#xD; %DeferralCount% time(s).                                                                                                       |
-| Defer Policy Date  | <p>You can postpone the install until<br>%DeferralDate%.</p>                                                                                                             |
+| Defer Policy Date  | <p>You can postpone the install until
+<br>%DeferralDate%
+.</p>                                                                                                             |
 | Default to Defer   | If no action is taken before the timer expires the install for %ProductName% will be deferred.                                                                             |
 | Default to Proceed | %ProductName%&#xD; will automatically close when the timer expires to complete the install.                                                                                |
 
@@ -40,4 +42,3 @@ The following is a list of the default localization settings for a Patch My PC (
 | Defer Policy Date  | You can postpone the update until&#xD; %DeferralDate%.                                                                                                         |
 | Default to Defer   | If no action is taken before the timer expires the update for %ProductName% will be deferred.                                                                  |
 | Default to Proceed | %ProductName%&#xD; will automatically close when the timer expires to complete the update.                                                                     |
-

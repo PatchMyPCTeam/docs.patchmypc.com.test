@@ -20,7 +20,7 @@ To configure a new deployment to use a template:
 2.  Once the Deployment Wizard has started, click **Apply Template**\
 
 
-    <figure><img src="../../.gitbook/assets/image (2330).png" alt="Clicking “Apply Template”"><figcaption></figcaption></figure>
+    ![Clicking “Apply Template”](/_images/image-(2330).png "Clicking “Apply Template”")
 
 {% hint style="info" %}
 **Note**
@@ -31,7 +31,7 @@ You can click **Apply Template** at any time, regardless of the tab you are work
 3.  On the **Apply Template** screen, select the radio button beside the template you want to apply, then click **Apply**.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2331).png" alt="Selecting the radio button beside the template you want to apply and clicking “Apply”"><figcaption></figcaption></figure>
+    ![Selecting the radio button beside the template you want to apply and clicking “Apply”](/_images/image-(2331).png "Selecting the radio button beside the template you want to apply and clicking “Apply”")
 
 {% hint style="info" %}
 **Note**
@@ -41,7 +41,7 @@ Only the templates created for the Operating System (OS) platform you are deploy
 
 The Deployment Wizard is redisplayed along with the **Success - Template ‘<**_**template\_name**_**>’ applied** notification.
 
-<figure><img src="../../.gitbook/assets/image (2332).png" alt="Deployment Wizard redisplayed along with the “Success - Template ‘<template_name>’ applied” notification"><figcaption></figcaption></figure>
+![](/_images/image-(2332 "").png "")
 
 {% hint style="info" %}
 **Note**

@@ -6,7 +6,7 @@ description: Windows 11 Upgrade Readiness for Windows 10 Client Devices
 
 _Applies to: Patch My PC Advanced Insights_
 
-<figure><img src="../../../.gitbook/assets/image (2170).png" alt=""><figcaption><p><br>Windows 11 Upgrade Readiness Dashboard for Windows 10 Client Devices</p></figcaption></figure>
+![](/_images/image-(2170 "").png "Windows 11 Upgrade Readiness Dashboard for Windows 10 Client Devices")
 
 On the top bar of this page we are showing:
 
@@ -17,13 +17,13 @@ On the top bar of this page we are showing:
 
 The donut chart for OS Upgrade Readiness and Cannot Upgrade Reason you have a properties which you can toggle between the different versions of Windows 11.  On these two donut charts you also have the ability to view the chart data and export from the cog icon.
 
-<figure><img src="../../../.gitbook/assets/image (2150).png" alt=""><figcaption><p>OS Update Readiness</p></figcaption></figure>
+![](/_images/image-(2150 "").png "OS Update Readiness")
 
-<figure><img src="../../../.gitbook/assets/image (2151).png" alt=""><figcaption><p>Cannot Upgrade Reason</p></figcaption></figure>
+![](/_images/image-(2151 "").png "Cannot Upgrade Reason")
 
 The last chart on the left is the Windows 11 Upgrade Readiness Issues chart where you can see the reasons for why the devices are unable to upgrade to Windows 11.
 
-<figure><img src="../../../.gitbook/assets/image (2152).png" alt=""><figcaption><p>Windows 11 Upgrade Readiness Issues</p></figcaption></figure>
+![](/_images/image-(2152 "").png "Windows 11 Upgrade Readiness Issues")
 
 The Reasons column have the following conditions which are flagged if a device is marked as unable to upgrade (Red) to Windows 11:
 
@@ -39,4 +39,3 @@ The Reasons column have the following conditions which are flagged if a device i
 {% hint style="info" %}
 This information is listed on [https://learn.microsoft.com/en-us/mem/configmgr/osd/deploy-use/manage-windows-11-readiness-dashboard](https://learn.microsoft.com/en-us/mem/configmgr/osd/deploy-use/manage-windows-11-readiness-dashboard)
 {% endhint %}
-

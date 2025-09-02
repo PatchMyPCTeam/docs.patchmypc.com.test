@@ -10,13 +10,13 @@ To update an individual Update Ring to a later version:
 2.  Click the relevant deployment to open its properties then click **More Info**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2143).png" alt="Clicking “More Info”"><figcaption></figcaption></figure>
+    ![Clicking “More Info”](/_images/image-(2143).png "Clicking “More Info”")
 
 
 3.  If you can update a ring to a newer version the **Update Now** button is available.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2144).png" alt="“Update Now” button available"><figcaption></figcaption></figure>
+    ![“Update Now” button available](/_images/image-(2144).png "“Update Now” button available")
 
 
 
@@ -34,22 +34,22 @@ Some important points to note:
 4.  Click **Update Now** and select the relevant version you want to upgrade this ring to.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2145).png" alt="Selecting which version to update this ring to"><figcaption></figcaption></figure>
+    ![Selecting which version to update this ring to](/_images/image-(2145).png "Selecting which version to update this ring to")
 
 
 5.  On the **Update “<**_**deployment\_name**_**>” ring to version <**_**version\_number**_**>** dialog box, click **Confirm**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2147).png" alt="Clicking “Confirm”" width="455"><figcaption></figcaption></figure>
+    ![Clicking “Confirm”](/_images/image-(2147).png "Clicking “Confirm”")
 
     \
     The portal refreshes showing that the deployment is **In Progress** and the **Success – Ring <**_**ring\_name**_**>** updated notification is shown.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2148).png" alt="Deployment shows as “In Progress” and the “Success – Ring <ring_name> updated” notification is shown."><figcaption></figcaption></figure>
+    ![](/_images/image-(2148 "").png "")
 
     \
     Once the deployment has completed successfully, if you navigate back to the ring, you will see the version number has changed and the **Update Now** button is unavailable.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2149).png" alt="Version number has changed and “Update Now” button is unavailable."><figcaption></figcaption></figure>
+    ![Version number has changed and “Update Now” button is unavailable.](/_images/image-(2149).png "Version number has changed and “Update Now” button is unavailable.")

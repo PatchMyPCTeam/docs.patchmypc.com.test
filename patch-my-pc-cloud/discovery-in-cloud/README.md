@@ -16,5 +16,3 @@ You need to [Onboard to Intune Apps](../intune-apps/onboard-to-intune-apps/) bef
 
 
 
-
-

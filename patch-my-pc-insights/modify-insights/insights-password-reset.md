@@ -14,15 +14,15 @@ The ability to reset the default admin password using the modify feature is supp
 
 In the configuration modification page, select the checkbox for **'Default Admin Password Reset'** then click **'Reset Password'**:
 
-<figure><img src="../../.gitbook/assets/image (1661).png" alt=""><figcaption><p>Reset Admin Password option dialog</p></figcaption></figure>
+![](/_images/image-(1661 "").png "Reset Admin Password option dialog")
 
 The password reset confirmation is then displayed. Click **'Close'**
 
-<figure><img src="../../.gitbook/assets/image (1662).png" alt=""><figcaption><p>Password reset confirmed dialog</p></figcaption></figure>
+![](/_images/image-(1662 "").png "Password reset confirmed dialog")
 
 Click **'Finish'**
 
-<figure><img src="../../.gitbook/assets/image (1663).png" alt=""><figcaption><p>Password reset completion</p></figcaption></figure>
+![](/_images/image-(1663 "").png "Password reset completion")
 
 {% hint style="warning" %}
 On next login using the default 'admin' account, <mark style="color:orange;">you will be prompted to change the password.</mark>

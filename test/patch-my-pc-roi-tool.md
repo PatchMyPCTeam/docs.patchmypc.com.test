@@ -118,4 +118,3 @@ Once the app registration is approved, subsequent executions will ask for a run-
 * **Read-only Analyst**
 
 To scan Configuration Manager the tool **must be run on your SMS Provider Server.** By default, this will be your primary site or CAS. The account running the tool must have at least the **"Read-only Analyst"** role in Configuration Manager.
-

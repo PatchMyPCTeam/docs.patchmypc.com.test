@@ -37,7 +37,7 @@ To add a script:
 
 1. Click the **Scripts** tab to expose the configurable settings.
 
-<figure><img src="../../../../../.gitbook/assets/image (2603).png" alt="Clicking the &#x22;Scripts&#x22; tab to expose the configurable settings" width="563"><figcaption></figcaption></figure>
+![Clicking the &#x22;Scripts&#x22; tab to expose the configurable settings](/_images/image-(2603).png "Clicking the &#x22;Scripts&#x22; tab to expose the configurable settings")
 
 2. Click **Add** beside the relevant script option to add a script, then configure the required settings as per the relevant articles:
 

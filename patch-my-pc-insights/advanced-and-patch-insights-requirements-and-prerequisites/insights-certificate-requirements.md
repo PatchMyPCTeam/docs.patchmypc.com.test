@@ -31,18 +31,18 @@ When using a **CNAME / Alias** or **Wilcard** certificate for custom Advanced In
 
 _Example:_
 
-![](<../../.gitbook/assets/image (1024).png>)
+![](/_images/image-(1024 "").png>)
 {% endhint %}
 
 Certificate SAN values can be also verified within the certificate properties.
 
 _Examples:_
 
-<figure><img src="../../.gitbook/assets/image (1025).png" alt=""><figcaption><p>Server Host Certificate - Subject Alternative Name (SAN) properties.</p></figcaption></figure>
+![](/_images/image-(1025 "").png "Server Host Certificate - Subject Alternative Name (SAN) properties.")
 
-<figure><img src="../../.gitbook/assets/image (1026).png" alt=""><figcaption><p>CNAME - Alias Certificate - Subject Alternative Name (SAN) properties.</p></figcaption></figure>
+![](/_images/image-(1026 "").png "CNAME - Alias Certificate - Subject Alternative Name (SAN) properties.")
 
-<figure><img src="../../.gitbook/assets/image (1027).png" alt=""><figcaption><p>Wildcard Host Certificate - Subject Alternative Name (SAN) properties.</p></figcaption></figure>
+![](/_images/image-(1027 "").png "Wildcard Host Certificate - Subject Alternative Name (SAN) properties.")
 
 {% hint style="info" %}
 On the Windows Server OS which will host Advanced Insights, the following PowerShell script can be executed to list supported certificates.
@@ -56,7 +56,7 @@ Param()
 $CertsToExclude = @("ConfigMgr SQL Server Identification Certificate","WMSVC-SHA2")
 
 # Get the FQDN of the machine
-$machineFQDN = [System.Net.Dns]::GetHostEntry($env:COMPUTERNAME).HostName
+[System.Net.Dns]:/_images/GetHostEntry(-env-COMPUTERNAME).hostname
 
 # Certificate filtering
 
@@ -148,7 +148,7 @@ if ($uncapturedCerts.Count -gt 0) {
         
         {
             $sanNames = $sanExtension.Format(0) -split ', ' | ForEach-Object { $_.Split('=')[1].Trim() }
-            if ([string]::IsNullOrEmpty($sanNames)) {
+[string]:/_images/IsNullOrEmpty(-sanNames))
                 Write-Host "5 Subject Alternative Name (SAN) requires at least one entry matches the server FQDN or is a wildcard which matches the server domain name e.g. '*.internaldomain.local. SAN value(s): $($sanNames -join ', ')"
                 }
         }
@@ -170,9 +170,9 @@ if ($uncapturedCerts.Count -gt 0) {
 
 Example PowerShell outputs:
 
-<figure><img src="../../.gitbook/assets/image (1312).png" alt=""><figcaption><p>Valid Certificates</p></figcaption></figure>
+![](/_images/image-(1312 "").png "Valid Certificates")
 
-<figure><img src="../../.gitbook/assets/image (1313).png" alt=""><figcaption><p>Unsupported Certificates</p></figcaption></figure>
+![](/_images/image-(1313 "").png "Unsupported Certificates")
 
 {% hint style="info" %}
 **Self-signed certificate use.**

@@ -22,7 +22,7 @@ _Production Release_ means we have released that item to our Production environm
 
 Please see the relevant docs for a feature for more information which will indicate the state of the feature.
 
-You can also access this page from within the Cloud Portal by clicking the support button (!["support" button](<../.gitbook/assets/image (587).png>)) in the header area and selecting **Release Notes**.
+You can also access this page from within the Cloud Portal by clicking the support button (!["support" button](/_images/image (587).png>)) in the header area and selecting **Release Notes**.
 {% endhint %}
 
 ### Week of August 6<sup>th</sup>, 2025

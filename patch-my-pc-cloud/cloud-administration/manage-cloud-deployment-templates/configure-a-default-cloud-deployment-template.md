@@ -20,19 +20,19 @@ To configure the default template for all deployments to a specific OS platform:
 
 1. Navigate to **Settings | Templates**
 
-<figure><img src="../../../.gitbook/assets/image (261).png" alt="Navigating to “Settings | Templates”" width="563"><figcaption></figcaption></figure>
+![Navigating to “Settings | Templates”](/_images/image-(261).png "Navigating to “Settings | Templates”")
 
 2. On the **Templates** page, click the relevant slider under the **Default** column beside the template you want to configure as the default for all deployments created for that OS platform going forward.
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt="Clicking the “default” slider beside the relevant template" width="563"><figcaption></figcaption></figure>
+![Clicking the “default” slider beside the relevant template](/_images/image-(47).png "Clicking the “default” slider beside the relevant template")
 
 3. On the **Are you sure you want to set ‘<**_**template\_name**_**>’ template as the default** popup, click **Yes**.
 
-<figure><img src="../../../.gitbook/assets/image (263).png" alt="Clicking “Yes” on the “Are you sure you want to set ‘<template_name>’ template as the default” popup" width="444"><figcaption></figcaption></figure>
+![](/_images/image-(263 "").png "")
 
 The **Templates** page is redisplayed, showing that the selected template is now the default template for all new deployments created for the relevant OS platform, along with the **Success - Template “<**_**template\_name**_**>" successfully set as the default for <**_**platform**_**>** notification.
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt="&#x22;Success - Template “<template_name>&#x22; successfully set as the default for <platform>&#x22; notification" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(49 "").png "")
 
 {% hint style="info" %}
 **Note**
@@ -46,12 +46,12 @@ If you have previously configured a default template but now do not want a defau
 
 1. Click the slider under the **Default** column beside the template you currently have configured as the default.
 
-<figure><img src="../../../.gitbook/assets/image (51).png" alt="Clicking the slider under the “Default” column beside the template currently configured as the default." width="563"><figcaption></figcaption></figure>
+![Clicking the slider under the “Default” column beside the template currently configured as the default.](/_images/image-(51).png "Clicking the slider under the “Default” column beside the template currently configured as the default.")
 
 2. On the A**re you sure you want to unset ‘<**_**template\_name**_**>’ template as the default** popup, click **Yes**.
 
-<figure><img src="../../../.gitbook/assets/image (266).png" alt="Clicking “Yes” on the “Are you sure you want to unset ‘<template_name>’ template as the default” popup" width="288"><figcaption></figcaption></figure>
+![](/_images/image-(266 "").png "")
 
 The **Templates** page is redisplayed, showing that the selected template is no longer the default template for all new deployments created for the relevant OS platform, along with the **Success - Template “<**_**template\_name**_**>" successfully unset as the default for <**_**platform**_**>** notification.
 
-<figure><img src="../../../.gitbook/assets/image (52).png" alt="&#x22;Success - Template “<template_name>&#x22; successfully unset as the default for <platform>&#x22; notification" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(52 "").png "")

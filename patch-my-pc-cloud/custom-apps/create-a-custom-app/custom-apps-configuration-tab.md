@@ -14,7 +14,7 @@ Providing `msiexec.exe /i` for MSI installations is not required. Using `/qn` wi
 Also, see [Supported Variables in Publisher and PMPC Cloud](../../../patch-my-pc-product-reference/supported-variables-in-patch-my-pc-on-premises-publisher-and-cloud.md) for a list of the variables we support in this field.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt="Configuring the &#x22;Silent Install Parameters&#x22; for this app" width="563"><figcaption></figcaption></figure>
+![Configuring the &#x22;Silent Install Parameters&#x22; for this app](/_images/image-(43).png "Configuring the &#x22;Silent Install Parameters&#x22; for this app")
 
 2. In the **Version** field, enter the version number for this app.
 
@@ -28,11 +28,11 @@ Detection uses this field to determine if the app is installed by looking for a 
 `HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall`
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (42).png" alt="Entering the version number for this app." width="563"><figcaption></figcaption></figure>
+![Entering the version number for this app.](/_images/image-(42).png "Entering the version number for this app.")
 
 3. In the **Language** field, either type the language for this app or select it from the dropdown list.
 
-<figure><img src="../../../.gitbook/assets/image (41).png" alt="Configuring the language for the app" width="563"><figcaption></figcaption></figure>
+![Configuring the language for the app](/_images/image-(41).png "Configuring the language for the app")
 
 4. In the **Apps & Feature Name** field, type the name of the app as it appears in **Add or remove programs**.
 
@@ -54,7 +54,7 @@ This will allow App Detection and Update Requirement rules to detect older versi
 As the **Apps & Features Name** is used to determine applicability and detection, using an overly generic name may cause Intune Updates to be detected as required on devices without the software installed.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (44).png" alt="Entering the &#x22;Apps &#x26; Feature Name&#x22;" width="563"><figcaption></figcaption></figure>
+![Entering the &#x22;Apps &#x26; Feature Name&#x22;](/_images/image-(44).png "Entering the &#x22;Apps &#x26; Feature Name&#x22;")
 
 5. Configure any additional required options from those listed below.
 
@@ -79,37 +79,37 @@ Also, if a Return Code defined in a Custom App has the same value but a differen
 A Return code must be a unique integer up to 10 digits long. You can add as many Return codes as your app supports. In the current release, you cannot edit or specify your own Code type as these are managed in Intune.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (2625).png" alt="Adding a new Return Code" width="563"><figcaption></figcaption></figure>
+![Adding a new Return Code](/_images/image-(2625).png "Adding a new Return Code")
 
 The new Return Code is added to the list.
 
-<figure><img src="../../../.gitbook/assets/image (2626).png" alt="New Return Code added to the list." width="563"><figcaption></figcaption></figure>
+![New Return Code added to the list.](/_images/image-(2626).png "New Return Code added to the list.")
 
 9. If you do not want to edit a Return Code, go to Step 13.
 10. To edit a Return Code, click the pencil icon beside it.
 
-<figure><img src="../../../.gitbook/assets/image (2627).png" alt="Clicking the pencil icon beside a Return Code to edit it." width="563"><figcaption></figcaption></figure>
+![Clicking the pencil icon beside a Return Code to edit it.](/_images/image-(2627).png "Clicking the pencil icon beside a Return Code to edit it.")
 
 11. Choose the correct **Code type** for this Return Code from the dropdown list.
 
-<figure><img src="../../../.gitbook/assets/image (2628).png" alt="Choosing the correct “Code type” from the dropdown list" width="563"><figcaption></figcaption></figure>
+![Choosing the correct “Code type” from the dropdown list](/_images/image-(2628).png "Choosing the correct “Code type” from the dropdown list")
 
 12. Click the green tick to save your changes.
 
-<figure><img src="../../../.gitbook/assets/image (2629).png" alt="Clicking the green tick." width="563"><figcaption></figcaption></figure>
+![Clicking the green tick.](/_images/image-(2629).png "Clicking the green tick.")
 
 The **Code type** field is updated.
 
-<figure><img src="../../../.gitbook/assets/image (2630).png" alt="“Code type” field updated." width="563"><figcaption></figcaption></figure>
+![“Code type” field updated.](/_images/image-(2630).png "“Code type” field updated.")
 
 13. If you do not want to delete a Return Code, go to Step 15.
 14. To delete a Return Code, click the red trash can beside the relevant code.
 
-<figure><img src="../../../.gitbook/assets/image (2631).png" alt="Deleting a Return Code" width="563"><figcaption></figcaption></figure>
+![Deleting a Return Code](/_images/image-(2631).png "Deleting a Return Code")
 
 The code is deleted from the list.
 
-<figure><img src="../../../.gitbook/assets/image (2632).png" alt="Code deleted from the list" width="563"><figcaption></figcaption></figure>
+![Code deleted from the list](/_images/image-(2632).png "Code deleted from the list")
 
 15. If you want to configure Native Detection Rules for this app, click **Next** to go to the [Detection Rules](custom-apps-detection-rules-tab.md) tab.\
     \

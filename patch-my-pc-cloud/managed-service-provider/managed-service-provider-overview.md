@@ -18,4 +18,3 @@ Once an MSP has created a child company in PMPC Cloud, they can create and manag
 * [Events](managed-service-provider-administration/manage-msp-events.md)
 * [Notifications](managed-service-provider-administration/manage-msp-notifications.md)
 * [Custom Apps](msp-custom-apps/)
-

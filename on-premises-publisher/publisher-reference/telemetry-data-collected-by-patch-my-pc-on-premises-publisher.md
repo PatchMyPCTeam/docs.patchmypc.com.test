@@ -26,4 +26,3 @@ Other notes:
 #### Disclaimer and More Information
 
 The list above is current through August 20, 2024. We try to keep this list updated, but it may not contain every instance of data collection. Please contact [technical support](https://patchmypc.com/technical-support) with any questions or you can review our [Terms of Service](https://patchmypc.com/terms-of-service).
-

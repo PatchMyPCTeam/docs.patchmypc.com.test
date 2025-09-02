@@ -271,7 +271,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Support detecting software that translates DisplayName
   * Idea: [PATCHMYPC-I-1335](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1335)
 * Add support for configuring Win32 application max runtime in minutes
-  * ![](https://patchmypc.com/wp-content/uploads/2023/11/max-runtime.png)
+  * ![](/_images/max-runtime.png "")
 
 ### Improvements <a href="#improvements" id="improvements"></a>
 
