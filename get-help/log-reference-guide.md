@@ -176,7 +176,7 @@ When troubleshooting **automatic deployment rules failing for third-party update
   * %WinDir%\CCM\Logs (Possible location)
   * If **unable to locate** a current [**PatchDownloader.log**](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/log-files#BKMK_SU_NAPLog), check HKLM\SOFTWARE\Microsoft\CCM\Logging\\@Global:**LogDirectory** on the [**site server**](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/plan-for-site-system-servers-and-site-system-roles#configuration-manager-site-server)
 
-![how to locate the patchdownloader.log file](/_images/locate-the-patchdownloader.log-file.png "how to locate the patchdownloader.log file")
+![how to locate the patchdownloader.log file](/_images/locate-the-patchdownloader-log-file.png "how to locate the patchdownloader.log file")
 
 ### **Updates Failing to Download to Deployment Package using SCCM Console**
 
