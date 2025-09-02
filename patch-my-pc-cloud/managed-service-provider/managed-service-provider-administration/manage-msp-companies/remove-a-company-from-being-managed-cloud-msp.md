@@ -48,19 +48,19 @@ To remove the Intune connection for a Child Company:
 3.  Click your user name in the top right-hand corner.\
 
 
-    ![](/_images/image-(367 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (367).png" alt="Clicking  your user name in the top right-hand corner"><figcaption></figcaption></figure>
 
 
 4.  Select the child company to switch to.\
 
 
-    ![](/_images/image-(368 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (368).png" alt="Selecting the child company"><figcaption></figcaption></figure>
 
     \
     The portal refreshes to show the child company has been selected as the **Managed By <**_**msp\_name**_**>** indicator is shown in the header.\
 
 
-    ![](/_images/image-(369 "").png "")” indicator is shown in the header.">
+    <figure><img src="../../../../.gitbook/assets/image (369).png" alt="Portal refreshing to show the child company has been selected as the “Managed By <msp_name>” indicator is shown in the header."><figcaption></figcaption></figure>
 5.  If the child company is no longer required and is going to be deleted, proceed to Step 6.\
     \
     If the child company is not going to be deleted, you should navigate to the **Users** node and follow the [Invitation from an Administrator](../../../cloud-administration/manage-cloud-users/add-a-cloud-user.md#invitation-from-an-administrator) process to add at least one user who is a member of the child company.\
@@ -70,25 +70,25 @@ To remove the Intune connection for a Child Company:
 6.  Navigate to **Settings | Environments**.\
 
 
-    ![](/_images/image-(370 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (370).png" alt="Navigating to the “Environments” node"><figcaption></figcaption></figure>
 
 
 7.  Click **Delete** beside Intune.\
 
 
-    ![](/_images/image-(371 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (371).png" alt="Clicking “Delete” beside “Intune.”"><figcaption></figcaption></figure>
 
 
 8.  On the **Are you sure you want to disconnect Intune** popup, click **OK**.\
 
 
-    ![](/_images/image-(372 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (372).png" alt="Clicking “OK” on the “Are you sure you want to disconnect Intune” popup" width="456"><figcaption></figcaption></figure>
 
 
 
 The portal refreshes to show that the Intune connection has been deleted and the **Success – Intune disconnected** notification is displayed.
 
-![](/_images/image-(373 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (373).png" alt="Portal refreshing to show that the Intune connection has been deleted and the “Success – Intune disconnected” notification is displayed."><figcaption></figcaption></figure>
 
 You can now follow the [Delete a Child Company](remove-a-company-from-being-managed-cloud-msp.md#delete-a-child-company) process if you want to delete the child company.
 
@@ -101,21 +101,21 @@ Once the Intune connection for a Child Company has been removed, to delete a chi
 3.  Click the trashcan (![](<../../../../.gitbook/assets/image (2098).png>)) beside the child company you want to remove.\
 
 
-    ![](/_images/image-(2099 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (2099).png" alt="Clicking the trashcan beside the child company you want to remove"><figcaption></figcaption></figure>
 
 
 4.  On the **Are you sure you want to delete <**_**child\_company\_name**_**> customer** dialog  box, click **Yes**.\
     \
 
 
-    ![](/_images/image-(2100 "").png "") customer?” dialog  box" width="452">
+    <figure><img src="../../../../.gitbook/assets/image (2100).png" alt="Clicking “Yes” on the “Are you sure you want to delete <child_company_name> customer?” dialog  box" width="452"><figcaption></figcaption></figure>
 
     \
     The portal refreshes to show the child company has been deleted and the **Success – Customer <**_**child\_company\_name**_**> deleted** notification is shown.\
     \
 
 
-    ![](/_images/image-(2101 "").png "") deleted” notification">
+    <figure><img src="../../../../.gitbook/assets/image (2101).png" alt="Portal refreshing to show the child company has been deleted and the “Success – Customer <child_company_name> deleted” notification"><figcaption></figcaption></figure>
 
 ### Unlink a Child Company
 
@@ -136,35 +136,35 @@ To unlink a child company from a parent MSP company:
 3.  Navigate to **Settings | Company**.\
 
 
-    ![](/_images/image-(2102 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (2102).png" alt="Navigating to “Settings | Company”"><figcaption></figcaption></figure>
 
 
 4.  Scroll down to the **Your company is managed by an MSP (Managed Service Provider)** section, then click **Unlink MSP**.\
     \
 
 
-    ![](/_images/image-(2103 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (2103).png" alt="Clicking “Unlink MSP”"><figcaption></figcaption></figure>
 
 
 5.  On the **Are you sure you want to Disconnect MSP** dialog box, click **Yes**.\
     \
 
 
-    ![](/_images/image-(2104 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (2104).png" alt="Clicking “Yes” on the “Are you sure you want to Disconnect MSP” dialog box " width="454"><figcaption></figcaption></figure>
 
 
 6.  The **Customer <**_**parent\_company\_name**_**>** notification is displayed and you will prompted to enter a non-MSP+ license for the child company as it has been disconnected from the parent MSP company.\
     \
 
 
-    ![](/_images/image-(2105 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (2105).png" alt="Prompt to enter a non-MSP+ license key on the child company"><figcaption></figcaption></figure>
 
 
 7.  Enter the license key and click **Activate Now**.\
     \
 
 
-    ![](/_images/image-(103 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (103).png" alt="Entering the license key and clicking “Activate Now”" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -176,14 +176,14 @@ You cannot use a trial license for a company that an MSP has previously managed.
     \
 
 
-    ![](/_images/image-(2107 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (2107).png" alt="Clicking “Close” on the “You have successfully activated your license” popup" width="450"><figcaption></figcaption></figure>
 
 The following event is created on the parent MSP company so they know a user at the child site has unlinked the child company from the parent company:
 
 **Managed Company Relationship for <**_**child\_company\_name**_**> Removed by <**_**user\_name**_**>**
 
-![](/_images/image-(2108 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (2108).png" alt="Event on the parent company that a user at the child company has unlinked it from the parent company."><figcaption></figcaption></figure>
 
 Also, the child company is automatically deleted from the parent company.
 
-![](/_images/image-(2109 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (2109).png" alt="Child company automatically deleted from the parent company"><figcaption></figcaption></figure>

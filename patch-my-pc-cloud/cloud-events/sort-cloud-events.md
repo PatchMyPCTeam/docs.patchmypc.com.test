@@ -6,11 +6,11 @@ To sort Events:
 
 On the **Events** page, click the relevant column heading to sort the entries by this column.
 
-![](/_images/image-(627 "").png "")
+<figure><img src="../../.gitbook/assets/image (627).png" alt="Clicking the relevant column heading to sort the entries by this column."><figcaption></figcaption></figure>
 
 The column heading will be highlighted and an arrow will show you whether the results are displayed in ascending or descending order.
 
-![](/_images/image-(1774 "").png "")
+<figure><img src="../../.gitbook/assets/image (1774).png" alt="Arrow showing the sort order"><figcaption></figcaption></figure>
 
 To sort by a different column, just click the column name.
 

@@ -10,19 +10,19 @@ You can test a Microsoft Teams (Teams) webhook notification from Patch My PC (PM
 2.  Once you have entered and saved the webhook URL, click the small envelope beside the webhook URL (![](<../../../../.gitbook/assets/image (1900).png>)) to send a test message.\
 
 
-    ![](/_images/image-(1913 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (1913).png" alt="Clicking the small envelope beside the Webhook URL to send a test message."><figcaption></figcaption></figure>
 
     \
     The portal will send a test Teams notification and display the **Success - Test webhook has been sent** notification.\
 
 
-    ![](/_images/image-(1914 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (1914).png" alt="&#x22;Success - Test webhook has been sent&#x22; notification"><figcaption></figcaption></figure>
 
     \
     If your Teams webhook is valid, the test notification appears in the configured channel:\
 
 
-    ![](/_images/image-(1915 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (1915).png" alt="Test notification"><figcaption></figcaption></figure>
 
 ### Testing a Teams webhook notification after it has been created
 
@@ -30,16 +30,16 @@ You can test a Microsoft Teams (Teams) webhook notification from Patch My PC (PM
 2.  Click the small envelope beside the webhook URL (![](<../../../../.gitbook/assets/image (1900).png>)) to send a test message.\
 
 
-    ![](/_images/image-(1913 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (1913).png" alt="Clicking the small envelope beside the Webhook URL to send a test message."><figcaption></figcaption></figure>
 
     \
     The portal will send a test Teams notification and display the **Success - Test webhook has been sent** notification.\
 
 
-    ![](/_images/image-(1914 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (1914).png" alt="&#x22;Success - Test webhook has been sent&#x22; notification"><figcaption></figcaption></figure>
 
     \
     If your Teams webhook is valid, the test notification appears in the configured channel:\
 
 
-    ![](/_images/image-(1915 "").png "")
+    <figure><img src="../../../../.gitbook/assets/image (1915).png" alt="Test notification"><figcaption></figcaption></figure>

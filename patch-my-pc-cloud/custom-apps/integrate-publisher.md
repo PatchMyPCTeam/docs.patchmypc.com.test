@@ -26,7 +26,7 @@ Tip
 If the **Cloud** tab is not present, check you have entered your license key and clicked **Validate**.
 {% endhint %}
 
-![](/_images/image-(1725 "").png "")
+<figure><img src="../../.gitbook/assets/image (1725).png" alt="&#x22;Cloud&#x22; tab of our Publisher"><figcaption></figcaption></figure>
 
 3. In the **Connection Name** field, enter a unique name for the connection. For example **Patch My PC Custom Apps**, then click **Connect**.
 
@@ -36,20 +36,20 @@ If the **Cloud** tab is not present, check you have entered your license key and
 The name you enter here determines how this connection shows on the **Connections** page of the **portal**.
 {% endhint %}
 
-![](/_images/image-(1726 "").png "")
+<figure><img src="../../.gitbook/assets/image (1726).png" alt="Entering a “Connection Name” and clicking “Connect”"><figcaption></figcaption></figure>
 
 4.  In your browser, enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.
 
 
 
-    ![](/_images/image-(1420 "").png "")
+    <figure><img src="../../.gitbook/assets/image (1420).png" alt="“Microsoft Sign in” screen"><figcaption></figcaption></figure>
 
 
 5.  Enter the password and click **Sign in**.
 
 
 
-    ![](/_images/image-(1421 "").png "")
+    <figure><img src="../../.gitbook/assets/image (1421).png" alt="“Enter password” screen"><figcaption></figcaption></figure>
 
     \
     If the connection is successful, a new browser tab opens with the following message:
@@ -62,13 +62,13 @@ The name you enter here determines how this connection shows on the **Connection
 7.  If the **Edit a customer** screen is displayed, click to select the customer you want to connect to, then click **OK**.\
 
 
-    ![](/_images/image-(910 "").png "")
+    <figure><img src="../../.gitbook/assets/image (910).png" alt="Selecting the relevant customer from the “Edit a customer” screen"><figcaption></figcaption></figure>
 
 
 8.  In Publisher, verify the **Connection Status** shows as **Connected**, then click **Save and Close**.\
 
 
-    ![](/_images/image-(1728 "").png "")
+    <figure><img src="../../.gitbook/assets/image (1728).png" alt="Publisher showing it’s “Connected”"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**

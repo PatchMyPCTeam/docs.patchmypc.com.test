@@ -8,7 +8,7 @@ _Applies to: Patch My PC Advanced Insights_
 
 ## Inventory Extensions Process Visualized
 
-![](/_images/WMI-(1 "").png "")
+<figure><img src="../../.gitbook/assets/WMI (1).png" alt=""><figcaption></figcaption></figure>
 
 ## What is the Inventory Extensions MSI?
 
