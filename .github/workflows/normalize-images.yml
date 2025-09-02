@@ -128,11 +128,11 @@ jobs:
           import re, glob, os
           from urllib.parse import unquote
 
-          IMG_EXT = r"(?:png|jpe?g|gif|webp|svg)"
+          IMG_EXT = r"(?:png|jpe?g|gif|webp|svg|gifv)"
 
           def clean_filename_from_url(url: str) -> str:
-              matches = re.findall(rf'([^/?#]+?\.{IMG_EXT})', url, flags=re.I)
-              bn = matches[-1] if matches else os.path.basename(url)
+              m = re.findall(rf'([^/?#]+?\.{IMG_EXT})', url, flags=re.I)
+              bn = m[-1] if m else os.path.basename(url)
               bn = unquote(bn)
               if "." in bn:
                   base, ext = bn.rsplit(".", 1)
@@ -152,7 +152,7 @@ jobs:
               title  = alt.replace('"', r'\"')  # title = alt
               return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
 
-          md_files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
+          md_files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
                       for p in glob.glob(g, recursive=True)]
 
           # HTML <img>
@@ -160,8 +160,7 @@ jobs:
               r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
               re.I
           )
-
-          # Inline Markdown images (spaces, quotes, <...>, optional "title")
+          # Inline MD image
           md_img_inline = re.compile(
               r'!\[([^\]]*)\]'
               r'\('
@@ -172,17 +171,12 @@ jobs:
               r'\s*\)',
               re.I
           )
-
-          # Reference-style usage: ![alt][id]
-          md_img_ref = re.compile(r'!\[([^\]]*)\]\s*\[([^\]]+)\]', re.I)
-
-          # Reference definition lines (capture optional title separately)
-          ref_def = re.compile(
-              r'^\s*\[([^\]]+)\]\s*:\s*<?'  # group 1: id
-              r'("?)([^>\r\n]+?)\2'         # group 3: URL
-              r'>?'
-              r'(\s+"[^"]*")?\s*$',
-              re.I | re.M
+          # Reference usage: ![alt][id]
+          md_img_ref_use = re.compile(r'!\[([^\]]*)\]\s*\[([^\]]+)\]', re.I)
+          # Reference def (tolerant, line-by-line)
+          ref_def_loose = re.compile(
+              r'(\[([^\]]+)\]\s*:\s*)' r'<?("?)([^>\r\n]+?)\3>?' r'(\s+"[^"]*")?\s*$',
+              re.I
           )
 
           any_changed = False
@@ -191,33 +185,59 @@ jobs:
                   s = f.read()
               o = s
 
-              # 1) HTML <img> → strict Markdown
+              # 1) HTML <img> → strict MD
               s = html_img.sub(lambda m: build_md(m.group(2) or "", m.group(1)), s)
 
-              # 2) Inline Markdown → strict Markdown
+              # 2) Inline MD → strict MD
               s = md_img_inline.sub(lambda m: build_md(m.group(1), m.group(3)), s)
 
-              # 3) Build map of reference defs
-              defs = {m.group(1).strip(): m.group(3).strip() for m in ref_def.finditer(s)}
+              # 3) Gather reference defs
+              defs = {}
+              lines = s.splitlines()
+              for ln in lines:
+                  m = ref_def_loose.search(ln)
+                  if m:
+                      rid = m.group(2).strip()
+                      url = m.group(4).strip()
+                      defs[rid] = url
 
-              # 4) Reference-style usages → strict Markdown
+              # 4) Reference usages → strict MD
               def repl_ref_use(m):
                   alt, rid = m.group(1), m.group(2).strip()
                   url = defs.get(rid)
                   return build_md(alt, url) if url else m.group(0)
-              s = md_img_ref.sub(repl_ref_use, s)
+              s = md_img_ref_use.sub(repl_ref_use, s)
 
-              # 5) Normalize the reference definition lines themselves to /_images/<slug>
-              def repl_ref_def(m):
-                  rid   = m.group(1).strip()
-                  url   = m.group(3).strip()
-                  title = m.group(4) or ""          # keep existing title if present
-                  new   = to_root_image_url(url)
-                  # write normalized def without quotes/brackets around URL (no spaces in new)
-                  return f'[{rid}]: {new}{title}'
-              s = ref_def.sub(repl_ref_def, s)
+              # 5) Rewrite reference defs themselves to /_images/<slug>
+              def rewrite_def_line(ln: str) -> str:
+                  m = ref_def_loose.search(ln)
+                  if not m:
+                      return ln
+                  head, url, title = m.group(1), m.group(4).strip(), m.group(5) or ""
+                  new_url = to_root_image_url(url)
+                  return f"{head}{new_url}{title}"
+              lines = [rewrite_def_line(ln) for ln in s.splitlines()]
+              s = "\n".join(lines)
 
-              # 6) Remove ../ or ./ before _images just in case
+              # 6) FINAL CATCH-ALL: rewrite any bare .gitbook/assets/<file> to /_images/<slug>
+              #    Skip lines inside fenced code blocks ```…```
+              out_lines = []
+              fenced = False
+              fence_re = re.compile(r'^\s*```')
+              asset_re = re.compile(r'(\.gitbook/assets/[^)\s"\'<>]+)', re.I)
+              for ln in s.splitlines():
+                  if fence_re.match(ln):
+                      fenced = not fenced
+                      out_lines.append(ln)
+                      continue
+                  if not fenced and '.gitbook/assets/' in ln:
+                      def repl_asset(m):
+                          return to_root_image_url(m.group(1))
+                      ln = asset_re.sub(repl_asset, ln)
+                  out_lines.append(ln)
+              s = "\n".join(out_lines)
+
+              # 7) Clean lingering ../ or ./ before _images
               s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
 
               if s != o:
@@ -229,7 +249,7 @@ jobs:
           if not any_changed:
               print("No image links needed normalization.")
           PY
-
+      
 
       # 5) Validate: all image links are /_images/<no-spaces> and no subfolders
       - name: Validate image links style (/_images/*, no spaces)
@@ -239,37 +259,34 @@ jobs:
           python3 - <<'PY'
           import re, glob, sys
 
-          exts     = r"(png|jpe?g|gif|webp|svg)"
-          is_img   = re.compile(rf"\.({exts})(?:$|\?)", re.I)
+          exts   = r"(png|jpe?g|gif|webp|svg|gifv)"
+          is_img = re.compile(rf"\.({exts})(?:$|\?)", re.I)
 
-          # Inline images
+          # Inline MD
           md_img_inline = re.compile(
-              r'!\[[^\]]*\]\('
-              r'\s*<?'
-              r'("?)([^)\r\n]+?)\1'   # group 2 = URL
-              r'>?'
-              r'(?:\s+"[^"]*")?'
-              r'\s*\)',
+              r'!\[[^\]]*\]\(' r'\s*<?' r'("?)([^)\r\n]+?)\1' r'>?' r'(?:\s+"[^"]*")?' r'\s*\)', re.I
+          )
+          # HTML
+          html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
+          # Loose ref def (line-by-line)
+          ref_def_loose = re.compile(
+              r'(\[([^\]]+)\]\s*:\s*)' r'<?("?)([^>\r\n]+?)\3>?' r'(\s+"[^"]*")?\s*$',
               re.I
           )
 
-          # Reference-style: ![alt][id]
-          md_img_ref = re.compile(r'!\[[^\]]*\]\s*\[([^\]]+)\]', re.I)
-
-          # Reference definitions
-          ref_def = re.compile(
-              r'^\s*\[([^\]]+)\]\s*:\s*<?'  # group 1: id
-              r'("?)([^>\r\n]+?)\2'         # group 3: URL
-              r'>?(?:\s+"[^"]*")?\s*$',
-              re.I | re.M
-          )
-
           def bad(u: str) -> bool:
-              if not is_img.search(u): return False
-              if not u.startswith("/_images/"): return True
+              u = u.strip()
+              if u.startswith("http://") or u.startswith("https://"):
+                  return False  # ignore external images
+              if not is_img.search(u):
+                  return False
+              if not u.startswith("/_images/"):
+                  return True
               rest = u[len("/_images/"):]
-              if "/" in rest: return True        # no subfolders
-              if " " in u: return True           # no spaces
+              if "/" in rest:
+                  return True
+              if " " in u:
+                  return True
               return False
 
           bads = []
@@ -279,17 +296,21 @@ jobs:
               with open(p, encoding="utf-8") as f:
                   s = f.read()
 
-              # Inline URLs
+              # Inline MD
               for m in md_img_inline.finditer(s):
                   u = m.group(2).strip()
                   if bad(u): bads.append((p, u))
 
-              # Reference URLs (collect defs)
-              defs = {m.group(1).strip(): m.group(3).strip() for m in ref_def.finditer(s)}
-              for m in md_img_ref.finditer(s):
-                  rid = m.group(1).strip()
-                  u = defs.get(rid)
-                  if u and bad(u): bads.append((p, u))
+              # HTML
+              for u in html_src.findall(s):
+                  if bad(u): bads.append((p, u))
+
+              # Ref defs
+              for ln in s.splitlines():
+                  m = ref_def_loose.search(ln)
+                  if m:
+                      u = m.group(4).strip()
+                      if bad(u): bads.append((p, u))
 
           if bads:
               print("Non-compliant image links:")
@@ -297,9 +318,9 @@ jobs:
                   print(f"- {p}: {u}")
               sys.exit(1)
 
-          print("All image links are /_images/<file> with no spaces and no subfolders.")
+          print("All local image links are /_images/<file> with no spaces and no subfolders. External URLs are ignored.")
           PY
-
+      
 
       - name: Commit changes (if any)
         run: |
