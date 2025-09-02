@@ -120,7 +120,7 @@ jobs:
       
 
       # 4) Normalize any remaining image links to /_images/<no-spaces>, remove prefixes/subfolders, convert bare <img> too
-      - name: Normalize ALL image links to ![alt](/_images/<slug> "alt") exactly
+      - name: Normalize ALL image links to ![alt](/_images/<slug> "alt")
         shell: bash
         run: |
           set -euo pipefail
@@ -129,87 +129,75 @@ jobs:
           from urllib.parse import unquote
 
           IMG_EXT = r"(?:png|jpe?g|gif|webp|svg)"
+          # Last token that actually looks like a filename with a valid image extension
+          FILENAME_RE = re.compile(rf'([A-Za-z0-9._()\- ]+\.{IMG_EXT})', re.I)
 
-          def clean_filename_from_url(url: str) -> str:
-              # Take the last proper filename ending with an image extension
-              matches = re.findall(rf'([^/?#]+?\.{IMG_EXT})', url, flags=re.I)
-              bn = matches[-1] if matches else os.path.basename(url)
-              # Decode %XX (so %28 → (, %29 → ), %20 → space)
-              bn = unquote(bn)
-              # Split base/ext
-              if "." in bn:
-                  base, ext = bn.rsplit(".", 1)
-              else:
-                  base, ext = bn, ""
-              # Spaces → dash; keep () and _
-              base = re.sub(r"\s+", "-", base)
-              # Remove weird chars (leave A-Z a-z 0-9 - _ ( ) )
-              base = re.sub(r"[^A-Za-z0-9\-\_\(\)]", "-", base)
-              # Collapse multiple dashes and trim
-              base = re.sub(r"-{2,}", "-", base).strip("-")
-              return f"{base}.{ext.lower()}" if ext else base
+          def extract_filename(url: str) -> str:
+            u = unquote(url)                          # %28 -> (, %29 -> ), %20 -> space
+            u = u.split('?',1)[0].split('#',1)[0]     # drop query/hash
+            m = FILENAME_RE.findall(u)
+            return (m[-1] if m else os.path.basename(u)).strip()
 
-          def to_root_image_url(url: str) -> str:
-              return "/_images/" + clean_filename_from_url(url)
+          def slug_filename(fn: str) -> str:
+            base, ext = os.path.splitext(fn)
+            base = re.sub(r'\s+', '-', base)          # spaces -> dash
+            base = re.sub(r'[^A-Za-z0-9_()\-]+', '-', base)  # keep letters, digits, _, (), -
+            base = re.sub(r'-{2,}', '-', base).strip('-')
+            return f"{base}{ext.lower()}"
+
+          def to_root_url(url: str) -> str:
+            return "/_images/" + slug_filename(extract_filename(url))
 
           def build_md(alt: str, url: str) -> str:
-              alt_md = alt.replace("]", r"\]")
-              title  = alt.replace('"', r'\"')          # title = alt
-              return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
+            alt_md = alt.replace(']', r'\]')
+            title  = alt.replace('"', r'\"')          # title = alt
+            return f'![{alt_md}]({to_root_url(url)} "{title}")'
 
-          # Patterns
-          md_files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
-                      for p in glob.glob(g, recursive=True)]
+          files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
+                   for p in glob.glob(g, recursive=True)]
 
-          # Markdown image: ![alt](URL "optional")
-          md_img = re.compile(
-              r'!\[([^\]]*)\]\(\s*<?([^\s)]+)>?(?:\s+"[^"]*")?\s*\)', re.I
-          )
-
-          # <img src="..."> (alt optional)
-          html_img = re.compile(
-              r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
-              re.I
-          )
-
-          # <figure>…</figure> with inner <img> and optional <figcaption>
+          # Markdown image: ![alt](URL "optional title")
+          md_img = re.compile(r'!\[([^\]]*)\]\(\s*<?([^)\s,]+)[^)]*\)', re.I)
+          # HTML <img src="..."> (alt optional)
+          html_img = re.compile(r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>', re.I)
+          # <figure>…</figure> (convert first so later regexes don't re-break it)
           FIG = re.compile(r'<figure\b[^>]*>(.*?)</figure>', re.I|re.S)
           IMG = re.compile(r'<img\b[^>]*>', re.I|re.S)
           CAP = re.compile(r'<figcaption\b[^>]*>(.*?)</figcaption>', re.I|re.S)
+
           def attr(n,s):
-              m = re.search(rf'\b{n}\s*=\s*["\']([^"\']*)["\']', s, re.I|re.S)
-              return m.group(1).strip() if m else ""
+            m = re.search(rf'\b{n}\s*=\s*["\']([^"\']*)["\']', s, re.I|re.S)
+            return m.group(1).strip() if m else ""
 
           def convert_figure(block: str) -> str:
-              m = IMG.search(block)
-              if not m: return block
-              img = m.group(0)
-              src = attr("src", img)
-              alt = attr("alt", img)
-              # title must equal ALT (figcaption ignored for strictness)
-              return build_md(alt, src)
+            m = IMG.search(block)
+            if not m: return block
+            img = m.group(0)
+            src = attr("src", img)
+            alt = attr("alt", img)
+            # strict: title = alt
+            return build_md(alt, src)
 
-          for path in md_files:
-              s = open(path, encoding="utf-8").read()
-              o = s
+          for path in files:
+            txt = open(path, encoding="utf-8").read()
+            orig = txt
 
-              # 1) Convert <figure> blocks first
-              s = FIG.sub(lambda m: convert_figure(m.group(0)), s)
+            # 1) figures → markdown
+            txt = FIG.sub(lambda m: convert_figure(m.group(0)), txt)
 
-              # 2) Convert standalone <img> to strict markdown
-              s = html_img.sub(lambda m: build_md(m.group(2) or "", m.group(1)), s)
+            # 2) <img> → markdown
+            txt = html_img.sub(lambda m: build_md(m.group(2) or "", m.group(1)), txt)
 
-              # 3) Normalize existing markdown images to strict format (title = alt)
-              s = md_img.sub(lambda m: build_md(m.group(1), m.group(2)), s)
+            # 3) normalize existing markdown (handles bad commas or extra junk after URL)
+            txt = md_img.sub(lambda m: build_md(m.group(1), m.group(2)), txt)
 
-              # 4) Remove any lingering ../ or ./ before _images
-              s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
+            # 4) remove any '../' or './' before _images (just in case)
+            txt = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', txt)
 
-              if s != o:
-                  open(path, "w", encoding="utf-8").write(s)
-                  print(f"Fixed: {path}")
-          PY
-      
+            if txt != orig:
+              open(path, "w", encoding="utf-8").write(txt)
+              print(f"Fixed: {path}")
+          PY  
       
       
 
