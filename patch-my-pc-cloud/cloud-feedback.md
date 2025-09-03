@@ -2,7 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-At Patch My PC (PMPC), we value customer feedback to help us understand if what we create meets your needs, both in terms of usability and functionality.
+At Patch My PC (PMPC), we value customer feedback to help us understand if what we create meets your needs, both in terms of usability and functionality test.
 
 To help us gather feedback, we have implemented a feedback mechanism into some workflows in PMPC Cloud.
 
