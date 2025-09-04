@@ -173,6 +173,29 @@ jobs:
           md_files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
                       for p in glob.glob(g, recursive=True)]
 
+          # --- Hint → blockquote converter ---
+          HINT_BLOCK = re.compile(r'{%\s*hint\b[^%]*%}(.*?){%\s*endhint\s*%}', re.I | re.S)
+          MD_LINK    = re.compile(r'\[([^\]]+)\]\((https?://[^)]+)\)')
+          BARE_URL   = re.compile(r'^(https?://\S+)$')
+          def convert_hint_blocks(s: str) -> str:
+            def _repl(m):
+              inner = m.group(1).strip()
+              paras = []
+              for line in inner.splitlines():
+                line = line.strip()
+                if not line:
+                  continue
+                line = MD_LINK.sub(r'<a href="\2">\1</a>', line)  # [text](url) → <a>
+                bu = BARE_URL.match(line)
+                if bu:  # whole line is just a URL → autolink
+                  u = bu.group(1)
+                  line = f'<a href="{u}">{u}</a>'
+                paras.append(f"<p>{line}</p>")
+              content = "\n".join(paras) if paras else "<p></p>"
+              return f'<blockquote class="wp-block-quote">\n{content}\n</blockquote>'
+            return HINT_BLOCK.sub(_repl, s)
+            
+
           # HTML <img> (alt optional)
           html_img = re.compile(
               r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
@@ -209,6 +232,9 @@ jobs:
 
               # 2) Inline MD → strict MD (title = alt when alt non-empty)
               s = md_img_inline.sub(lambda m: build_md(m.group(1), m.group(3)), s)
+          
+              # 2.5) GitBook hint blocks → Gutenberg blockquote
+              s = convert_hint_blocks(s)
 
               # 3) Gather reference defs
               defs = {}
