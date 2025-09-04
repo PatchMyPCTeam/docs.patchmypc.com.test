@@ -16,9 +16,9 @@ To enable products to publish, check the **Enable publishing of third-party upda
 
 Once the option is selected, you'll be able to enable other products.&#x20;
 
-{% hint style="success" %}
-**Tip**: When first getting started with the product, it is recommended that you only **choose one or two products** to reduce the time of the first sync and to validate your implementation quickly. We have found that **Notepad++** and **7-Zip** tend to be great initial use case tests.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**: When first getting started with the product, it is recommended that you only **choose one or two products** to reduce the time of the first sync and to validate your implementation quickly. We have found that **Notepad++** and **7-Zip** tend to be great initial use case tests.</p>
+</blockquote>
 
 To find and enable these products, you can search the list of updates using **Ctrl + F** or by clicking on the magnifying glass in the lower right corner.&#x20;
 
@@ -30,9 +30,9 @@ When you select the search button a dialogue will open, type in one of our examp
 
 Once you have found the product you want to patch, click the checkbox for your preferred architecture choice and click **Apply**.
 
-{% hint style="success" %}
-**Tip**: You can right-click All Products, Vendors, or individual Products to **apply custom installation options** as described in the article below.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**: You can right-click All Products, Vendors, or individual Products to **apply custom installation options** as described in the article below.</p>
+</blockquote>
 
 {% embed url="https://patchmypc.com/custom-options-available-for-third-party-updates-and-applications" %}
 Custom right-click options for customizing installation behavior
@@ -40,6 +40,6 @@ Custom right-click options for customizing installation behavior
 
 ![](/_images/image-(1154).png>)
 
-{% hint style="info" %}
-If you happen to hit **OK**  instead of **Apply**, don't worry the publisher will close after saving the changes. You can just re-open and keep right on working.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>If you happen to hit **OK**  instead of **Apply**, don't worry the publisher will close after saving the changes. You can just re-open and keep right on working.</p>
+</blockquote>

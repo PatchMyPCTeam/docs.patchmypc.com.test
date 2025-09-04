@@ -14,9 +14,9 @@ To enable products to publish, check the "**Enable creation of Win32 updates in 
 
 Once the option is selected, you'll be able to enable other products. When first getting started with the product, it is recommended that you only **choose one or two products** to reduce the impact on the first sync and to validate your implementation quickly. We have found that **Notepad++** and **7-Zip** tend to be great initial use case tests.
 
-{% hint style="success" %}
-**Tip**: We recommend enabling **Manage Conflicting Processes** for **Notepad++**
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**: We recommend enabling **Manage Conflicting Processes** for **Notepad++**</p>
+</blockquote>
 
 {% embed url="https://patchmypc.com/manage-conflicting-processes-when-updating-third-party-applications" %}
 
@@ -32,8 +32,8 @@ Once you have found product you want to patch, click the checkbox for your archi
 
 ![Select the products and hit apply](/_images/SelectAppAndApply_IntuneUpdates.png)
 
-{% hint style="info" %}
-If you happen to hit **OK**  instead of **Apply**, don't worry the publisher will close after saving the changes. You can just re-open and keep right on working.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>If you happen to hit **OK**  instead of **Apply**, don't worry the publisher will close after saving the changes. You can just re-open and keep right on working.</p>
+</blockquote>
 
 At this time you have completed the basic setup steps and are ready to continue to your first sync!

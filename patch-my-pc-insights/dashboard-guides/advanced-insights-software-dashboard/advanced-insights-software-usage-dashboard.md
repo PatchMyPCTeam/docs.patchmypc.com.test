@@ -6,9 +6,9 @@ description: Metered Software Usage
 
 _Applies to: Patch My PC Advanced Insights_
 
-{% hint style="info" %}
-This portlet displays statistics for **enabled** metering rules. To accurately present the metering data, you must also [enable inventory](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/asset-intelligence/configuring-asset-intelligence#to-enable-asset-intelligence-hardware-inventory-reporting-classes-from-the-asset-intelligence-home-page) of the **Installed Executable** Class from Asset Intelligence.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>This portlet displays statistics for **enabled** metering rules. To accurately present the metering data, you must also <a href="https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/asset-intelligence/configuring-asset-intelligence#to-enable-asset-intelligence-hardware-inventory-reporting-classes-from-the-asset-intelligence-home-page">enable inventory</a> of the **Installed Executable** Class from Asset Intelligence.</p>
+</blockquote>
 
 
 

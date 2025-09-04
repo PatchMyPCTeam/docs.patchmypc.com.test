@@ -2,13 +2,11 @@
 
 _Applies to: Patch My PC Cloud_
 
-{% hint style="warning" %}
-**Important**
-
-If a Patch My PC (PMPC) Cloud deployment is created with [Delayed Update Rings](how-cloud-update-rings-are-created.md#delayed-update-rings), you cannot edit it until all of the rings have been created. If you attempt to edit a deployment with incomplete  Update Rings you will see the [Error - Editing is not allowed until all rings are created after the configured delay](../../cloud-troubleshooting/troubleshooting-cloud-update-rings/error-editing-is-not-allowed-until-all-rings-are-created-after-the-configured-delay-cloud-error.md) message.
-
-Also, if you make any changes to Return Codes for a deployment where Update Rings are enabled, these changes are only applied to the latest ring (newest version).
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>If a Patch My PC (PMPC) Cloud deployment is created with [Delayed Update Rings](how-cloud-update-rings-are-created.md#delayed-update-rings), you cannot edit it until all of the rings have been created. If you attempt to edit a deployment with incomplete  Update Rings you will see the [Error - Editing is not allowed until all rings are created after the configured delay](../../cloud-troubleshooting/troubleshooting-cloud-update-rings/error-editing-is-not-allowed-until-all-rings-are-created-after-the-configured-delay-cloud-error.md) message.</p>
+<p>Also, if you make any changes to Return Codes for a deployment where Update Rings are enabled, these changes are only applied to the latest ring (newest version).</p>
+</blockquote>
 
 To edit the Update Rings configuration for a deployment:
 
@@ -20,11 +18,10 @@ To edit the Update Rings configuration for a deployment:
 
 2. Click the relevant deployment whose Update Ring configuration you want to edit.
 
-{% hint style="success" %}
-**Tip**
-
-Click the filter button (![](/_images/image-(2513).png>)) and select the **Enabled** option under the **Update Rings** section, followed by **Apply Filters** to see just those deployments that have update Rings configured.&#x20;
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>Click the filter button (![](/_images/image-(2513).png>)) and select the **Enabled** option under the **Update Rings** section, followed by **Apply Filters** to see just those deployments that have update Rings configured.&#x20;</p>
+</blockquote>
 
 ![Clicking the relevant deployment you want to edit](/_images/image-(2060).png "Clicking the relevant deployment you want to edit")
 

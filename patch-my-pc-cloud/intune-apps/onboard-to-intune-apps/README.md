@@ -2,13 +2,11 @@
 
 _Applies to: Intune Apps for Cloud_
 
-{% hint style="warning" %}
-**Important**
-
-You should have already onboarded your company to Patch My PC (PMPC) Cloud as detailed in [Onboarding to Cloud](../../onboard-to-cloud.md) before continuing.
-
-If you are an existing Custom Apps user, please follow the [Onboarding to Intune Apps for Custom Apps users](onboard-to-intune-apps-for-custom-apps-users.md) process.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>You should have already onboarded your company to Patch My PC (PMPC) Cloud as detailed in [Onboarding to Cloud](../../onboard-to-cloud.md) before continuing.</p>
+<p>If you are an existing Custom Apps user, please follow the [Onboarding to Intune Apps for Custom Apps users](onboard-to-intune-apps-for-custom-apps-users.md) process.</p>
+</blockquote>
 
 To onboard to the Intune Apps for Cloud (Intune Apps):
 
@@ -35,19 +33,16 @@ To onboard to the Intune Apps for Cloud (Intune Apps):
 
     ![“Permissions requested” screen](/_images/image-(929).png "“Permissions requested” screen")
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>We require these permissions to connect with your Intune tenant.</p>
+<p>See [Permissions required for Intune Apps](../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.</p>
+</blockquote>
 
-We require these permissions to connect with your Intune tenant.
-
-See [Permissions required for Intune Apps](../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.
-{% endhint %}
-
-{% hint style="success" %}
-**Tip**
-
-You can click the down arrow beside each permission to get more information.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can click the down arrow beside each permission to get more information.</p>
+</blockquote>
 
 6.  If you see the **Intune connected successfully** screen, continue.\
     \
@@ -69,11 +64,10 @@ You can click the down arrow beside each permission to get more information.
 
     ![“Intune connected successfully” screen](/_images/image-(931).png "“Intune connected successfully” screen")
 
-{% hint style="info" %}
-**Note**
-
-If you have already connected our Publisher to our cloud platform, you won’t see this screen as you will have already entered your license key.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If you have already connected our Publisher to our cloud platform, you won’t see this screen as you will have already entered your license key.</p>
+</blockquote>
 
 8.  Once connected successfully, the **App Catalog** shows applications that can be deployed and managed using Intune Apps.\
 

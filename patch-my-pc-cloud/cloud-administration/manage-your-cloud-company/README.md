@@ -13,19 +13,17 @@ All user company-related tasks are performed from the **Company** node of the po
 
 The **Company** screen is then displayed.
 
-{% hint style="info" %}
-**Note**
-
-The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.</p>
+</blockquote>
 
 ![“Company” screen](/_images/image-(2688).png "“Company” screen")
 
-{% hint style="info" %}
-**Note**
-
-See [Company Reference](cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>See [Company Reference](cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.</p>
+</blockquote>
 
 3. Make any required changes, then click **Save**.
 

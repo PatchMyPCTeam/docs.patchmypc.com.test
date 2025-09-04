@@ -30,30 +30,26 @@ The **Add Post-Uninstall Scripts** page is populated with the imported script.
 
 ![Typing your script in the Script Editor](/_images/image-(2477).png "Typing your script in the Script Editor")
 
-{% hint style="info" %}
-**Note**
-
-We currently have a limit of 50,000 characters per script. Use the **Number of characters used** counter to keep track of the number of characters you’ve entered in the script editor.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>We currently have a limit of 50,000 characters per script. Use the **Number of characters used** counter to keep track of the number of characters you’ve entered in the script editor.</p>
+</blockquote>
 
 6.  In the **Arguments** field, enter any arguments you want to provide to the script.\
 
 
     ![Entering any arguments you want to provide to the script by specifying them in the “Arguments” field](/_images/image-(2478).png "Entering any arguments you want to provide to the script by specifying them in the “Arguments” field")
 
-{% hint style="success" %}
-**Tip**
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can use variable names as arguments, provided they are enclosed by percentage signs (`%`). We provide common variables under this field, which you can add by clicking the plus (`+`) symbol or relevant variable name.</p>
+<p>`%ReturnCode%` is currently only supported on post-scripts.</p>
+</blockquote>
 
-You can use variable names as arguments, provided they are enclosed by percentage signs (`%`). We provide common variables under this field, which you can add by clicking the plus (`+`) symbol or relevant variable name.
-
-`%ReturnCode%` is currently only supported on post-scripts.
-{% endhint %}
-
-{% hint style="danger" %}
-**Important**
-
-Using script Arguments is currently unsupported when deploying an app to macOS.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>Using script Arguments is currently unsupported when deploying an app to macOS.</p>
+</blockquote>
 
 7.  Click **Save** to save your script.\
 
@@ -65,11 +61,10 @@ Using script Arguments is currently unsupported when deploying an app to macOS.
 
 ![“Configurations” tab re-displayed with the name of the configured script beside it](/_images/image-(96).png "“Configurations” tab re-displayed with the name of the configured script beside it")
 
-{% hint style="success" %}
-**Tip**
-
-You can click **Edit** to edit a script or its settings. You can also click the red “`x`” beside a script to delete it.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can click **Edit** to edit a script or its settings. You can also click the red “`x`” beside a script to delete it.</p>
+</blockquote>
 
 ***
 

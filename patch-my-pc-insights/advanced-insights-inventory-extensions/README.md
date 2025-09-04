@@ -21,9 +21,9 @@ To setup the Inventory Extensions, there are **two** actions to complete:
 
 ### ⚙ <mark style="color:yellow;">Manual</mark> Steps to Extend Hardware Inventory Schema
 
-{% hint style="warning" %}
-Seeing this message suggests you need to configure [Configuration Manager Permissions](../insights-configuration-manager-permission-requirements.md). We recommend configuring permissions instead of proceeding with a manual install.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Seeing this message suggests you need to configure [Configuration Manager Permissions](../insights-configuration-manager-permission-requirements.md). We recommend configuring permissions instead of proceeding with a manual install.</p>
+</blockquote>
 
 ![](/_images/image002-(2).png "")
 
@@ -42,15 +42,15 @@ For manual import of Inventory Extension Classes into Hardware Inventory
 
 ## 💿 Deploy the Inventory Extensions MSI to clients
 
-{% hint style="warning" %}
-If you have previously deployed the "**PMPC Data Collection**" PowerShell Package, please ensure you delete its deployment before deploying the new **InventoryExtensions.msi**
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>If you have previously deployed the "**PMPC Data Collection**" PowerShell Package, please ensure you delete its deployment before deploying the new **InventoryExtensions.msi**</p>
+</blockquote>
 
 ![](/_images/image-(1325).png "ConfigMgr package \"PMPC Data Collection (LEGACY)\" to remove")
 
-{% hint style="info" %}
-After removing the deployment for the legacy PMPC Data Collection package, the **InventoryExtensions.msi** must be installed on clients you wish to collect inventory data from.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>After removing the deployment for the legacy PMPC Data Collection package, the **InventoryExtensions.msi** must be installed on clients you wish to collect inventory data from.</p>
+</blockquote>
 
 ### Client-Side Requirements for the Inventory Extensions MSI
 
@@ -77,22 +77,18 @@ You can deploy the **Inventory Extensions** product via <mark style="color:green
 
 ![](/_images/image-(1329).png "Inventory Extensions app created successfully")
 
-{% hint style="info" %}
-**Note**
-
-We also recommend that you enable the Advanced Insights Inventory Extensions (MSI-x64) WSUS/Intune **UPDATE** to ensure your clients receive newer versions of the Inventory Extensions as they are released.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>We also recommend that you enable the Advanced Insights Inventory Extensions (MSI-x64) WSUS/Intune **UPDATE** to ensure your clients receive newer versions of the Inventory Extensions as they are released.</p>
+</blockquote>
 
 ***
 
-{% hint style="info" %}
-**Note**
-
-The Advanced Insights Inventory Extensions will add approximately 0.5 MB per-client to the Configuration Manager database. We recommend increasing the acceptable inventory file size from the default of 5MB to a minimum of 10MB.&#x20;
-
-To do so, edit the below registry value on the ConfigMgr site server:
-
-* **Registry key:** HKLM\Software\Microsoft\SMS\Components\SMS\_INVENTORY\_DATA\_LOADER
-* **Registry value:** Max MIF Size&#x20;
-* **Data:** 10485760 (decimal) / a00000 (hexadecimal)&#x20;
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>The Advanced Insights Inventory Extensions will add approximately 0.5 MB per-client to the Configuration Manager database. We recommend increasing the acceptable inventory file size from the default of 5MB to a minimum of 10MB.&#x20;</p>
+<p>To do so, edit the below registry value on the ConfigMgr site server:</p>
+<p>* **Registry key:** HKLM\Software\Microsoft\SMS\Components\SMS\_INVENTORY\_DATA\_LOADER</p>
+<p>* **Registry value:** Max MIF Size&#x20;</p>
+<p>* **Data:** 10485760 (decimal) / a00000 (hexadecimal)&#x20;</p>
+</blockquote>

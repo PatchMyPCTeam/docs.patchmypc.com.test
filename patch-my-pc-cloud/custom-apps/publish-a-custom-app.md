@@ -4,11 +4,10 @@ _Applies to: Custom Apps_
 
 Once our on-premises Publisher has been connected and a Custom App has been created, the Publisher can now Publish the Custom App.
 
-{% hint style="info" %}
-**Note**
-
-If you are using Intune Apps for Cloud, you should follow the [Create a Custom App](create-a-custom-app/) process instead.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If you are using Intune Apps for Cloud, you should follow the [Create a Custom App](create-a-custom-app/) process instead.</p>
+</blockquote>
 
 ## Publish a Custom App to ConfigMgr
 

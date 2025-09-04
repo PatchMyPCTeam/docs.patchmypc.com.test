@@ -33,15 +33,13 @@ In the steps below, we'll walk through creating a self-signed certificate using 
 
 ![](/_images/image-(1086).png>)
 
-{% hint style="info" %}
-**Note**
-
-After the signing certificate is created, you will need to take two actions on the clients for the updates to install successfully:
-
-1. The generated code-signing certificate needs to be distributed to the **Trusted Root** and **Trusted Publisher** local machine certificate stores. You can distribute it using a GPO by following [this guide](https://patchmypc.com/how-to-deploy-the-wsus-signing-certificate-for-third-party-software-updates#topic2).\
-   If the code-signing certificate was issued from an internal Certification Authority, the certificate needs to be installed in the **Trusted Publishers** store only.
-2. Allow signed updates for an intranet Microsoft update service location.
-   1. Open regedit.exe, and navigate to: **HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate**
-   2. Create a new REG\_DWORD value and name it **AcceptTrustedPublisherCerts**
-   3. Set the value to **1**.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>After the signing certificate is created, you will need to take two actions on the clients for the updates to install successfully:</p>
+<p>1. The generated code-signing certificate needs to be distributed to the **Trusted Root** and **Trusted Publisher** local machine certificate stores. You can distribute it using a GPO by following <a href="https://patchmypc.com/how-to-deploy-the-wsus-signing-certificate-for-third-party-software-updates#topic2">this guide</a>.\</p>
+<p>If the code-signing certificate was issued from an internal Certification Authority, the certificate needs to be installed in the **Trusted Publishers** store only.</p>
+<p>2. Allow signed updates for an intranet Microsoft update service location.</p>
+<p>1. Open regedit.exe, and navigate to: **HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate**</p>
+<p>2. Create a new REG\_DWORD value and name it **AcceptTrustedPublisherCerts**</p>
+<p>3. Set the value to **1**.</p>
+</blockquote>

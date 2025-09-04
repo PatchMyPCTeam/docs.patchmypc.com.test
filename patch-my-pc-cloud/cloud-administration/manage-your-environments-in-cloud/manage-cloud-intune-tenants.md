@@ -35,23 +35,19 @@ To connect your portal to a new Intune tenant:
 
 5. On the **Permissions requested** screen, click **Accept**.
 
-{% hint style="info" %}
-**Note**
-
-You must have the **Global Administrator** role in Entra ID to approve our enterprise app.
-
-We require these permissions to connect with your Intune tenant.
-
-See [Permissions required for the Intune Apps](../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>You must have the **Global Administrator** role in Entra ID to approve our enterprise app.</p>
+<p>We require these permissions to connect with your Intune tenant.</p>
+<p>See [Permissions required for the Intune Apps](../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.</p>
+</blockquote>
 
 ![“Permission requested” screen](/_images/image-(341).png "“Permission requested” screen")
 
-{% hint style="success" %}
-**Tip**
-
-You can click the down arrow beside each permission to get more information.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can click the down arrow beside each permission to get more information.</p>
+</blockquote>
 
 6. On the next screen, verify that there is a green tick above the **Intune Tenant Connected Successfully** section.
 
@@ -87,13 +83,11 @@ The **You have successfully activated your license** dialog box is displayed on 
 
 If your portal loses its connection to your Intune tenant (for example, if a Global Admin revokes the [Permissions required for Intune Apps](../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) from within Intune), you can use the **Reconnect** button to re-establish the connection to your previously connected Intune tenant, which will re-grant the required permissions.
 
-{% hint style="info" %}
-**Note**
-
-The **Reconnect** button is only available once an Intune connection has been established.
-
-You will only be able to reconnect to an Intune tenant you’ve previously connected to, based on the tenant ID we have stored in the portal’s database.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>The **Reconnect** button is only available once an Intune connection has been established.</p>
+<p>You will only be able to reconnect to an Intune tenant you’ve previously connected to, based on the tenant ID we have stored in the portal’s database.</p>
+</blockquote>
 
 To reconnect your portal to an Intune tenant you’ve previously connected to:
 
@@ -129,11 +123,10 @@ To reconnect your portal to an Intune tenant you’ve previously connected to:
 
 ### Deleting an Intune tenant connection
 
-{% hint style="warning" %}
-**Important**
-
-If you disconnect Intune from your PMPC Cloud Company, any added Entra ID Security Groups will be removed and lose access to your PMPC Cloud Company, and the **Add Group** button will no longer appear.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>If you disconnect Intune from your PMPC Cloud Company, any added Entra ID Security Groups will be removed and lose access to your PMPC Cloud Company, and the **Add Group** button will no longer appear.</p>
+</blockquote>
 
 To delete a connection to an Intune tenant from your portal:
 
@@ -149,17 +142,14 @@ To delete a connection to an Intune tenant from your portal:
 
 3. On the **Are you sure you want to disconnect Intune** dialog box, read the message to understand the implications, then click **OK** to continue.
 
-{% hint style="danger" %}
-**Warning**
-
-Disconnecting an Intune tenant will delete all:
-
-* Deployments which, for those with a [Retention Policy](../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/retention-policy-deployments.md) defined,  will include the latest and all old unassigned versions of all deployments.
-* Banners
-* Notifications
-
-There is no undo for this action.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Warning**</p>
+<p>Disconnecting an Intune tenant will delete all:</p>
+<p>* Deployments which, for those with a [Retention Policy](../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/retention-policy-deployments.md) defined,  will include the latest and all old unassigned versions of all deployments.</p>
+<p>* Banners</p>
+<p>* Notifications</p>
+<p>There is no undo for this action.</p>
+</blockquote>
 
 ![“Are you sure you want to disconnect Intune?” dialog box](/_images/image-(1688).png "“Are you sure you want to disconnect Intune?” dialog box")
 

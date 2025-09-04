@@ -2,11 +2,10 @@
 
 _Applies to: Patch My PC Cloud Custom Apps_
 
-{% hint style="info" %}
-**Note**
-
-Configuring Extra Folders and Files is optional.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>Configuring Extra Folders and Files is optional.</p>
+</blockquote>
 
 If the installer requires additional folders or files, either:
 

@@ -12,11 +12,10 @@ Any updates published after the WSUS Standalone option was enabled should appear
 
 ![](/_images/image-(1133).png>)
 
-{% hint style="info" %}
-**Note:** If updates were published **before this setting was enabled**, they would **not appear in the WSUS console automatically**.
-
-For updates published before WSUS Standalone mode was enabled, use the [**Modify Published Updates Wizard**](https://patchmypc.com/modify-published-third-party-updates-wizard) to make those updates appear in the WSUS console.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note:** If updates were published **before this setting was enabled**, they would **not appear in the WSUS console automatically**.</p>
+<p>For updates published before WSUS Standalone mode was enabled, use the <a href="https://patchmypc.com/modify-published-third-party-updates-wizard">**Modify Published Updates Wizard**</a> to make those updates appear in the WSUS console.</p>
+</blockquote>
 
 ### Adding an Update View for Patch My PC Updates
 

@@ -8,13 +8,11 @@ Once a default template has been configured, when you create a new deployment fo
 
 You also apply a template to deployment as detailed in [Using Templates in Deployments](../../cloud-deployments/use-a-template-in-cloud-deployments.md).
 
-{% hint style="info" %}
-**Note**
-
-If you previously set a default template but do not want to use it, see the [Unconfigure a Default Template](configure-a-default-cloud-deployment-template.md#unconfigure-a-default-template) section.
-
-Also, configuring a default template for an OS platform does not affect any existing deployments to that platform. The default template will only apply to new deployments created after the default has been configured.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If you previously set a default template but do not want to use it, see the [Unconfigure a Default Template](configure-a-default-cloud-deployment-template.md#unconfigure-a-default-template) section.</p>
+<p>Also, configuring a default template for an OS platform does not affect any existing deployments to that platform. The default template will only apply to new deployments created after the default has been configured.</p>
+</blockquote>
 
 To configure the default template for all deployments to a specific OS platform:
 
@@ -34,11 +32,10 @@ The **Templates** page is redisplayed, showing that the selected template is now
 
 ![](/_images/image-(49).png "")
 
-{% hint style="info" %}
-**Note**
-
-You can only configure one template as the default per OS platform. If you want to choose a different template as the default, click the **Default** slider beside the relevant template and confirm you want to set that one as the default instead.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>You can only configure one template as the default per OS platform. If you want to choose a different template as the default, click the **Default** slider beside the relevant template and confirm you want to set that one as the default instead.</p>
+</blockquote>
 
 ### Unconfigure a Default Template
 

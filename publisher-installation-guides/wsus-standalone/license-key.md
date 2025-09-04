@@ -18,14 +18,14 @@ The first option is to enable the [**Limited Trial Mode**.](https://patchmypc.co
 
 ![Enter your license information](/_images/image (1254).png>)
 
-{% hint style="success" %}
-The [**full-access 30-day trial**](https://patchmypc.com/free-trial) contains all features and access to all products.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The <a href="https://patchmypc.com/free-trial">**full-access 30-day trial**</a> contains all features and access to all products.</p>
+</blockquote>
 
 If the license validation is successful, it should look like the below image.
 
 ![Licensed product information validation.](/_images/image (1118).png>)
 
-{% hint style="warning" %}
-If you receive an error when clicking Validate URL, please review our knowledge base article [Troubleshooting License Activation Issues](https://patchmypc.com/troubleshooting-license-activation-issues). License activation errors are often related to firewall or proxy configurations.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>If you receive an error when clicking Validate URL, please review our knowledge base article <a href="https://patchmypc.com/troubleshooting-license-activation-issues">Troubleshooting License Activation Issues</a>. License activation errors are often related to firewall or proxy configurations.</p>
+</blockquote>

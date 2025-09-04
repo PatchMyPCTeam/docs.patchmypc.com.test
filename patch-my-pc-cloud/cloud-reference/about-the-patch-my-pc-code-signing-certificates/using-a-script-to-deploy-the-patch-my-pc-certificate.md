@@ -13,11 +13,10 @@ To deploy our code signing certificate using a script, first download our script
 
 [https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing](https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing)
 
-{% hint style="info" %}
-**Note**
-
-You can find out more details about these scripts and what they do by reviewing the [ReadMe.md](https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing#readme) file included with the scripts.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>You can find out more details about these scripts and what they do by reviewing the <a href="https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing#readme">ReadMe.md</a> file included with the scripts.</p>
+</blockquote>
 
 ### Certificates to Deploy
 

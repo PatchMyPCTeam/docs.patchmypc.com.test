@@ -20,8 +20,7 @@ The **Templates** page is redisplayed along with the **Success - Template “<**
 
 ![Clicking “Save” to save changes](/_images/image-(55).png "Clicking “Save” to save changes")
 
-{% hint style="info" %}
-**Note**
-
-Editing and saving an existing template does not affect any current or previous deployments created based on that template. Only new deployments created after the template is edited will use the new settings if configured to use them.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>Editing and saving an existing template does not affect any current or previous deployments created based on that template. Only new deployments created after the template is edited will use the new settings if configured to use them.</p>
+</blockquote>

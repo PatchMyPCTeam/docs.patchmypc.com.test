@@ -15,11 +15,10 @@ To accept a user’s access request in Patch My PC (PMPC) Cloud:
 
     ![“Which role would you like to assign to” dialog box](/_images/image-(620).png "“Which role would you like to assign to” dialog box")
 
-{% hint style="success" %}
-**Tip**
-
-Hover over the “**i**” beside each role to see more information, or see [User Roles](../cloud-user-roles-reference.md) for more information.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>Hover over the “**i**” beside each role to see more information, or see [User Roles](../cloud-user-roles-reference.md) for more information.</p>
+</blockquote>
 
 The portal auto-refreshes and switches to the **Active** tab to show the user has been added. At the same time, the **User approved** notification is shown.
 
@@ -27,8 +26,7 @@ The portal auto-refreshes and switches to the **Active** tab to show the user ha
 
 The user will receive an email from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox with the subject **Access Granted “<**_**company\_name**_**>”**.
 
-{% hint style="info" %}
-**Note**
-
-See [Example Access Approved Email](../../../cloud-reference/cloud-email-reference/example-cloud-access-approved-email.md) for an example of the email.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>See [Example Access Approved Email](../../../cloud-reference/cloud-email-reference/example-cloud-access-approved-email.md) for an example of the email.</p>
+</blockquote>

@@ -9,11 +9,10 @@ However, we do not automatically:
 * Notify you a newer version is enabled.
 * Deploy the updated version of the Binary Free App, as you need to download the latest version of the installer and manually upload it to our portal.
 
-{% hint style="info" %}
-**Note**
-
-See [Update a Binary Free App](update-a-binary-free-app.md) for more information on updating an existing binary Free App to the latest version.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>See [Update a Binary Free App](update-a-binary-free-app.md) for more information on updating an existing binary Free App to the latest version.</p>
+</blockquote>
 
 To configure who receives new version notifications:
 
@@ -68,11 +67,10 @@ To configure who receives new version notifications:
 
     ![User added to the notification list](/_images/image-(2057).png "User added to the notification list")
 
-{% hint style="success" %}
-**Tip**
-
-Click the trashcan beside a user to remove them from the notification list.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>Click the trashcan beside a user to remove them from the notification list.</p>
+</blockquote>
 
 8.  Click **Save**.\
     \
@@ -88,8 +86,7 @@ Click the trashcan beside a user to remove them from the notification list.
 
 
 
-{% hint style="info" %}
-**Note**
-
-If users do not wish to receive the update notification emails, as per the notification email, they will need to contact you to request this. You will then need to reconfigure update notifications for the app to use the **Notify Specific Users** option and then create a custom notification list that excludes those users who do not wish to be notified.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If users do not wish to receive the update notification emails, as per the notification email, they will need to contact you to request this. You will then need to reconfigure update notifications for the app to use the **Notify Specific Users** option and then create a custom notification list that excludes those users who do not wish to be notified.</p>
+</blockquote>

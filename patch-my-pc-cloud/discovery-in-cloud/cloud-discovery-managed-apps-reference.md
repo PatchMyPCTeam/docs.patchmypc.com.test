@@ -6,11 +6,10 @@ As detailed in [Managing Managed Apps](manage-cloud-managed-apps.md), an app wil
 
 This article includes examples of each of the supported scenarios.
 
-{% hint style="success" %}
-**Tip**
-
-Hovering over either the value in the **Assigned To All** column or **Edit** button for a deployment will show a tooltip providing more information.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>Hovering over either the value in the **Assigned To All** column or **Edit** button for a deployment will show a tooltip providing more information.</p>
+</blockquote>
 
 ### PMPC Cloud-Only Deployment
 
@@ -54,11 +53,10 @@ This can be confirmed by searching for the app in the App Catalog.
 
 ### PMPC Cloud and Publisher Deployment
 
-{% hint style="warning" %}
-**Important**
-
-We do not recommend deploying the same app through the Publisher and PMPC Cloud to avoid settings conflicts and unwanted app behavior.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>We do not recommend deploying the same app through the Publisher and PMPC Cloud to avoid settings conflicts and unwanted app behavior.</p>
+</blockquote>
 
 If the app has been deployed using PMPC Cloud and Publisher, the app:
 

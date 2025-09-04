@@ -4,11 +4,10 @@ _Applies to: Patch My PC Cloud_
 
 There may be some scenarios (such as [Recover Your Company](../../cloud-administration/manage-your-cloud-company/recover-your-cloud-company.md) ) where you need to create an App Registration in Entra ID for use with Patch My PC (PMPC) Cloud.
 
-{% hint style="warning" %}
-**Important**
-
-Once you create an App Registration, it must be used within 72 hours; otherwise, it will be considered expired, and you will need to create a new one.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>Once you create an App Registration, it must be used within 72 hours; otherwise, it will be considered expired, and you will need to create a new one.</p>
+</blockquote>
 
 We use this process to verify you are an Application Administrator or a higher privilege user (such as a Global Admin), in the same Entra ID tenant as the PMPC Company being managed.
 
@@ -16,11 +15,10 @@ To create an App Registration:
 
 1. Sign in to the Microsoft Azure portal using an account with the Global Admin role and navigate to the [App Registrations](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) blade.
 
-{% hint style="warning" %}
-**Important**
-
-You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.</p>
+</blockquote>
 
 ![Navigating to the “App registrations” blade](/_images/image-(542).png "Navigating to the “App registrations” blade")
 

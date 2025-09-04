@@ -10,9 +10,9 @@ _Applies to: Patch My PC Advanced and Patch Insights_
 
 Run the installation
 
-{% hint style="warning" %}
-Ensure the Software requirements have been reviewed here: [insights-software-requirements.md](../advanced-and-patch-insights-requirements-and-prerequisites/insights-software-requirements.md "mention")
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Ensure the Software requirements have been reviewed here: [insights-software-requirements.md](../advanced-and-patch-insights-requirements-and-prerequisites/insights-software-requirements.md "mention")</p>
+</blockquote>
 
 Download the latest installer for Advanced Insights by clicking the [link below](https://api.patchmypc.com/downloads/exe/AdvancedInsights.exe).&#x20;
 
@@ -30,9 +30,9 @@ Start the installation by double-clicking the downloaded AdvancedInsights.exe
 
 Once the installation starts, you will likely be greeted by the prerequisite screen in our installer wizard, click **Next.**
 
-{% hint style="info" %}
-If you have already met the prerequisite requirements, these screens will not be shown, and you can step down to the [#license-terms-and-conditions](./#license-terms-and-conditions "mention") step.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>If you have already met the prerequisite requirements, these screens will not be shown, and you can step down to the [#license-terms-and-conditions](./#license-terms-and-conditions "mention") step.</p>
+</blockquote>
 
 ![](/_images/1-(1).png "If you require prerequisites the installer will assist you")
 

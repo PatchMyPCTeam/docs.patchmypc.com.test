@@ -25,27 +25,20 @@ To onboard to Patch My PC (PMPC) Cloud:
 
 ![“Permissions requested” dialog box](/_images/image-(1366).png "“Permissions requested” dialog box")
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>This dialog box is for the Enterprise Application Registration process. We require these permissions to authenticate you.</p>
+<p>See [Permissions required for Patch My PC Cloud](cloud-reference/cloud-permissions-reference/permissions-required-for-patch-my-pc-cloud.md) for more details.</p>
+<p>You do not need to check the optional **Consent on behalf of your organization** checkbox, which is only visible to Global or Application administrators.</p>
+<p>However, if you are a Global or Application administrator and want to accept the request to read the profile for all users in your tenant and prevent this message from being displayed for them, you should check it.</p>
+<p>Either way, checking or unchecking this checkbox does not affect PMPC Cloud functionality.</p>
+<p>Once you accept the permissions, you will not see this dialog box again on subsequent sign-ins.</p>
+</blockquote>
 
-This dialog box is for the Enterprise Application Registration process. We require these permissions to authenticate you.
-
-See [Permissions required for Patch My PC Cloud](cloud-reference/cloud-permissions-reference/permissions-required-for-patch-my-pc-cloud.md) for more details.
-
-You do not need to check the optional **Consent on behalf of your organization** checkbox, which is only visible to Global or Application administrators.
-
-However, if you are a Global or Application administrator and want to accept the request to read the profile for all users in your tenant and prevent this message from being displayed for them, you should check it.
-
-Either way, checking or unchecking this checkbox does not affect PMPC Cloud functionality.
-
-Once you accept the permissions, you will not see this dialog box again on subsequent sign-ins.
-{% endhint %}
-
-{% hint style="success" %}
-**Tip**
-
-You can click the down arrow beside each permission to get more information.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can click the down arrow beside each permission to get more information.</p>
+</blockquote>
 
 7. If you do not see the **Select the Company You Want to Sign-In To** screen, go to Step 9.
 
@@ -84,17 +77,15 @@ You can click the down arrow beside each permission to get more information.
     \
     You now need to wait for a user with the **Full Admin with Access Management** role to review and approve your request.
 
-{% hint style="success" %}
-**Tip**
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can click the **Remember my Selection** checkbox to on the **Select the Company You Want to Sign-In To** screen to save your choice to save you having to chose the company you want to sign into each time.</p>
+</blockquote>
 
-You can click the **Remember my Selection** checkbox to on the **Select the Company You Want to Sign-In To** screen to save your choice to save you having to chose the company you want to sign into each time.
-{% endhint %}
-
-{% hint style="info" %}
-**Note**
-
-Users will receive an email from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox advising whether their request to join a company was accepted or rejected.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>Users will receive an email from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox advising whether their request to join a company was accepted or rejected.</p>
+</blockquote>
 
 9. On the **Company Info** screen, click **Select** for the location where your company’s data will be stored.
 
@@ -104,11 +95,10 @@ Users will receive an email from the [noreply@patchmypc.com](mailto:noreply@patc
 
 ![Type your company’s name in the “Company Name” field](/_images/image-(610).png "Type your company’s name in the “Company Name” field")
 
-{% hint style="danger" %}
-**Important**
-
-You cannot use the AT symbol (**@**), forward slash (**/**) or plus (**+**) symbols in your Company Name.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>You cannot use the AT symbol (**@**), forward slash (**/**) or plus (**+**) symbols in your Company Name.</p>
+</blockquote>
 
 11. Select your company’s country from the **Country** dropdown.
 
@@ -134,11 +124,10 @@ The **Terms and Conditions** page is displayed. Once you’ve reviewed them, cli
 
 ![Click to check the “Accept Terms and Conditions” checkbox](/_images/image-(812).png "Click to check the “Accept Terms and Conditions” checkbox")
 
-{% hint style="info" %}
-**Note**
-
-You cannot proceed with the onboarding without checking this checkbox.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>You cannot proceed with the onboarding without checking this checkbox.</p>
+</blockquote>
 
 16. Click **Continue**.
 
@@ -148,24 +137,20 @@ The PMPC Portal loads, showing the **App Catalog** page.
 
 ![App Catalog page of the PMPC portal](/_images/image-(2700).png "App Catalog page of the PMPC portal")
 
-{% hint style="info" %}
-**Note**
-
-The first time you sign into a new PMPC Cloud Company, you will see the following message at the top of your screen:
-
-**You currently have only one user with Access Management privileges. To prevent access issues in the future, please add a second user with Access Management privileges.**
-
-This is warning you that you only have one user who can control access to this company and that we recommend you create at least another user in this company with the [Full Admin with Access Management user](cloud-administration/manage-cloud-users/cloud-user-roles-reference.md) role. See [Add a Cloud User](cloud-administration/manage-cloud-users/add-a-cloud-user.md) for more information.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>The first time you sign into a new PMPC Cloud Company, you will see the following message at the top of your screen:</p>
+<p>**You currently have only one user with Access Management privileges. To prevent access issues in the future, please add a second user with Access Management privileges.**</p>
+<p>This is warning you that you only have one user who can control access to this company and that we recommend you create at least another user in this company with the [Full Admin with Access Management user](cloud-administration/manage-cloud-users/cloud-user-roles-reference.md) role. See [Add a Cloud User](cloud-administration/manage-cloud-users/add-a-cloud-user.md) for more information.</p>
+</blockquote>
 
 Now you've finished onboarding to PMPC Cloud, you should consider:
 
 * Connecting Publisher by following the [Add a Connection](cloud-administration/manage-cloud-connections/add-a-connection.md) process.
 
-{% hint style="info" %}
-**Note**
-
-You only need to connect Publisher if you are using the Custom Apps or other features that require our On-Premises Publisher. If you are just using PMPC Cloud, you do not need to connect to Publisher.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>You only need to connect Publisher if you are using the Custom Apps or other features that require our On-Premises Publisher. If you are just using PMPC Cloud, you do not need to connect to Publisher.</p>
+</blockquote>
 
 * Connecting your Intune tenant by following the [Connecting to an Intune tenant](cloud-administration/manage-your-environments-in-cloud/manage-cloud-intune-tenants.md#connecting-to-an-intune-tenant) process.

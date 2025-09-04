@@ -6,9 +6,9 @@ description: Modify configuration.
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-{% hint style="warning" %}
-The ability to use the modify feature is supported in version 2.1.0 and later.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The ability to use the modify feature is supported in version 2.1.0 and later.</p>
+</blockquote>
 
 The following configurations can be modified for an existing Advanced Insights deployment.\
 \

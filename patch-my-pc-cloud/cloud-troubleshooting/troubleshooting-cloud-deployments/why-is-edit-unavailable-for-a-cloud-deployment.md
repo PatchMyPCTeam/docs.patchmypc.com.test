@@ -16,8 +16,7 @@ This is because Update Rings have been configured for this deployment, and when 
 
 As the [Delayed](../../cloud-deployments/cloud-update-rings/how-cloud-update-rings-are-created.md#delayed-update-rings) option was selected for Update Rings when this deployment was created, you cannot edit it until all of the configured Update Rings have finished being created.
 
-{% hint style="info" %}
-**Note**
-
-See [Check if an Update Ring has been created](../../cloud-deployments/cloud-update-rings/check-if-an-update-ring-has-been-created-in-cloud.md) for more details.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>See [Check if an Update Ring has been created](../../cloud-deployments/cloud-update-rings/check-if-an-update-ring-has-been-created-in-cloud.md) for more details.</p>
+</blockquote>

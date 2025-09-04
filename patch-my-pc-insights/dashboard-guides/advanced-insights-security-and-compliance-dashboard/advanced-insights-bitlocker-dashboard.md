@@ -8,14 +8,13 @@ description: >-
 
 _Applies to: Patch My PC Advanced Insights_
 
-{% hint style="info" %}
-The BitLocker dashboard requires the following hardware inventory classes to be enabled:
-
-* BitLocker (Win32\_EncryptableVolume)
-* BitLocker Encryption Details (Win32\_BitLockerEncryptionDetails)
-* BitLocker Policy (Win32Reg\_MBAMPolicy)
-* TPM (Win32\_TPM)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The BitLocker dashboard requires the following hardware inventory classes to be enabled:</p>
+<p>* BitLocker (Win32\_EncryptableVolume)</p>
+<p>* BitLocker Encryption Details (Win32\_BitLockerEncryptionDetails)</p>
+<p>* BitLocker Policy (Win32Reg\_MBAMPolicy)</p>
+<p>* TPM (Win32\_TPM)</p>
+</blockquote>
 
 For full functionality of this dashboard, MBAM should be integrated with ConfigMgr as outlined in this document:[https://learn.microsoft.com/en-us/mem/configmgr/protect/deploy-use/bitlocker/deploy-management-agent](https://learn.microsoft.com/en-us/mem/configmgr/protect/deploy-use/bitlocker/deploy-management-agent)
 

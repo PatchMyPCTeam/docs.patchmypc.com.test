@@ -39,23 +39,19 @@ To update the version of a Binary Free App from the notification email:
 
     b. Drag and drop the installer file onto this page.
 
-{% hint style="success" %}
-**Tip**
-
-We suggest you use the download link at the bottom of the page to ensure you download the latest version of the app from the vendor’s official website.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>We suggest you use the download link at the bottom of the page to ensure you download the latest version of the app from the vendor’s official website.</p>
+</blockquote>
 
 ![Clicking “Select Application File”](/_images/image-(404).png "Clicking “Select Application File”")
 
-{% hint style="info" %}
-**Note**
-
-If you select either the wrong file or the wrong version of the file, the [Unable to verify the file you are trying to upload. Please ensure you have uploaded the correct file](../cloud-troubleshooting/troubleshooting-binary-free-apps/unable-to-verify-the-file-you-are-trying-to-upload-error-in-binary-free-apps.md) error will be displayed.
-
-This is because we validate the hash of the installer to ensure you are uploading the correct file compared to the version information we have stored in our App Catalog.
-
-If you really need to deploy an older version of the app, deploy it as a Custom App by using the [Create a Custom App](../custom-apps/create-a-custom-app/) process.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If you select either the wrong file or the wrong version of the file, the [Unable to verify the file you are trying to upload. Please ensure you have uploaded the correct file](../cloud-troubleshooting/troubleshooting-binary-free-apps/unable-to-verify-the-file-you-are-trying-to-upload-error-in-binary-free-apps.md) error will be displayed.</p>
+<p>This is because we validate the hash of the installer to ensure you are uploading the correct file compared to the version information we have stored in our App Catalog.</p>
+<p>If you really need to deploy an older version of the app, deploy it as a Custom App by using the [Create a Custom App](../custom-apps/create-a-custom-app/) process.</p>
+</blockquote>
 
 The hash for the file is calculated as the file is uploaded to your portal.
 

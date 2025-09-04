@@ -8,17 +8,13 @@ Simply [deleting a Branding App](delete-cloud-branding.md) only removes that Bra
 
 Creating an **Uninstall Branding App** creates a Win32 app in Intune with a **Required** assignment with an uninstall intent, that will remove any PMPC Cloud custom branding files from the assigned devices.
 
-{% hint style="danger" %}
-**Important**
-
-Each device can only have one Branding App installed. Even if you have multiple branding apps assigned to the same device, only the one that was installed last will be installed on the device.
-
-The script that the Uninstall Branding App runs removes the branding currently installed on the device. It does not check which specific branding was originally deployed.
-
-For example, if you assign the uninstall for Branding A, but the device now has Branding B, Branding B will be removed.
-
-This is why when you create an Uninstall Branding App, a new Win32 app is created that will uninstall any Branding App the targeted device may have installed.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>Each device can only have one Branding App installed. Even if you have multiple branding apps assigned to the same device, only the one that was installed last will be installed on the device.</p>
+<p>The script that the Uninstall Branding App runs removes the branding currently installed on the device. It does not check which specific branding was originally deployed.</p>
+<p>For example, if you assign the uninstall for Branding A, but the device now has Branding B, Branding B will be removed.</p>
+<p>This is why when you create an Uninstall Branding App, a new Win32 app is created that will uninstall any Branding App the targeted device may have installed.</p>
+</blockquote>
 
 To uninstall a Branding app:
 
@@ -55,21 +51,19 @@ To uninstall a Branding app:
 
 The list of assignments is updated to show that the **Uninstall** assignment has been added for the selected resources.
 
-{% hint style="danger" %}
-**Important**
-
-Assigning the Uninstall Branding App to a resource will remove all PMPC Cloud-related brandings and associated files and localizations.&#x20;
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>Assigning the Uninstall Branding App to a resource will remove all PMPC Cloud-related brandings and associated files and localizations.&#x20;</p>
+</blockquote>
 
 ![List of assignments updated to show the “Uninstall” assignment has been added for the selected resources.](/_images/image-(17).png "List of assignments updated to show the “Uninstall” assignment has been added for the selected resources.")
 
 8. If the list of assignments is correct, proceed to step 9; otherwise, repeat steps 6 and 7 to add any additional assignments.
 
-{% hint style="success" %}
-**Tip**
-
-You can delete an assignment by clicking the trash can beside it.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can delete an assignment by clicking the trash can beside it.</p>
+</blockquote>
 
 9. Click **Save** to continue.
 
@@ -77,23 +71,19 @@ You can delete an assignment by clicking the trash can beside it.
 
 The **Branding** page is redisplayed, showing the new **Uninstall App** at the top, along with the **Success – Uninstall Branding app created** notification.
 
-{% hint style="success" %}
-**Tip**
-
-You can tell which Branding App is the uninstall as it has **UNINSTALL BRANDING** for it's company logo.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can tell which Branding App is the uninstall as it has **UNINSTALL BRANDING** for it's company logo.</p>
+</blockquote>
 
 ![“Branding” page redisplayed showing the new uninstall app along with the “Success – Branding created” notification.](/_images/image-(18).png "“Branding” page redisplayed showing the new uninstall app along with the “Success – Branding created” notification.")
 
-{% hint style="info" %}
-**Note**
-
-You can only create one Branding Uninstall App, which, like other apps, can be edited, recreated, and deleted. If you need to uninstall branding from different resources, you will need to:
-
-1. Edit the existing Branding Uninstall App by clicking on the ellipsis (**⋮**) beside it and selecting **Edit**.
-2. Changing the name of the Uninstall Branding app as required.
-3. Amend the assignments to the corresponding resources you wish to remove branding from.
-4. Save your changes.
-
-Also, when deploying a new Branding App, if you already have an Uninstall App, check to ensure the Uninstall App is not assigned to the same resources as the Branding App, otherwise, you could encounter an unwanted loop with the Branding App being installed, but then uninstalled by the Uninstall Branding App.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>You can only create one Branding Uninstall App, which, like other apps, can be edited, recreated, and deleted. If you need to uninstall branding from different resources, you will need to:</p>
+<p>1. Edit the existing Branding Uninstall App by clicking on the ellipsis (**⋮**) beside it and selecting **Edit**.</p>
+<p>2. Changing the name of the Uninstall Branding app as required.</p>
+<p>3. Amend the assignments to the corresponding resources you wish to remove branding from.</p>
+<p>4. Save your changes.</p>
+<p>Also, when deploying a new Branding App, if you already have an Uninstall App, check to ensure the Uninstall App is not assigned to the same resources as the Branding App, otherwise, you could encounter an unwanted loop with the Branding App being installed, but then uninstalled by the Uninstall Branding App.</p>
+</blockquote>

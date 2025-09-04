@@ -6,9 +6,9 @@ description: Storage device data collected by Advanced Insights in your environm
 
 _Applies to: Patch My PC Advanced Insights_
 
-{% hint style="info" %}
-This dashboard requires deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>This dashboard requires deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)</p>
+</blockquote>
 
 ![](/_images/image-(1531).png "Storage dashboard")
 

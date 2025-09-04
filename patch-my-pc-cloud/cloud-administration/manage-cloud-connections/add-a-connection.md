@@ -7,21 +7,19 @@ To connect our on-premises Publisher to Patch My PC (PMPC) Cloud, you need to:
 1. Load the **Patch My PC Publishing Service** (Publisher) and verify you are running at least version 2.1.20.0. If you are not, upgrade to the latest version.
 2. Click the **Cloud** tab.
 
-{% hint style="success" %}
-**Tip**
-
-If the **Cloud** tab is not present, check you have entered your license key and clicked **Validate**.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>If the **Cloud** tab is not present, check you have entered your license key and clicked **Validate**.</p>
+</blockquote>
 
 ![&#x22;Cloud&#x22; tab of our Publisher](/_images/image-(1725).png "&#x22;Cloud&#x22; tab of our Publisher")
 
 6. In the **Connection Name** field, enter a unique name for the connection. For example **Patch My PC Custom Apps**, then click **Connect**.
 
-{% hint style="info" %}
-**Note**
-
-The name you enter here determines how this connection shows on the **Connections** page of the **portal**.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>The name you enter here determines how this connection shows on the **Connections** page of the **portal**.</p>
+</blockquote>
 
 ![Entering a “Connection Name” and clicking “Connect”](/_images/image-(1726).png "Entering a “Connection Name” and clicking “Connect”")
 
@@ -54,8 +52,7 @@ The name you enter here determines how this connection shows on the **Connection
 
     ![Publisher showing it’s “Connected”](/_images/image-(1728).png "Publisher showing it’s “Connected”")
 
-{% hint style="info" %}
-**Note**
-
-You can also use the [Verify the Publisher connection](verify-a-publisher-connection-from-cloud.md) process to verify that your Publisher is connected to the portal.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>You can also use the [Verify the Publisher connection](verify-a-publisher-connection-from-cloud.md) process to verify that your Publisher is connected to the portal.</p>
+</blockquote>

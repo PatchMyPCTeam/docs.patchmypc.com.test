@@ -6,11 +6,10 @@ description: User profiles inventoried on client devices
 
 _Applies to: Patch My PC Advanced Insights_
 
-{% hint style="info" %}
-The User Profiles data on this page requires the deployment of the  [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
-
-The Delete user profile button on this page requires the Approval of the run Script [Advanced Insights Client Actions](../../advanced-insights-inventory-extensions/insights-custom-client-actions.md#script-approval)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The User Profiles data on this page requires the deployment of the  [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)</p>
+<p>The Delete user profile button on this page requires the Approval of the run Script [Advanced Insights Client Actions](../../advanced-insights-inventory-extensions/insights-custom-client-actions.md#script-approval)</p>
+</blockquote>
 
 ![](/_images/image-(2171).png "User profiles inventoried on client devices")
 
@@ -31,10 +30,9 @@ The donut chart breaks down profiles based on size on disk.
 
 The User Profiles chart gives you a full list of inventoried user profiles on client devices but also you have the ability to delete a users profile from a device too.
 
-{% hint style="info" %}
-Each profile entry includes a **Delete** button, allowing administrators to remove a user profile from the device entirely.&#x20;
-
-**Warning**: This action permanently deletes the local user profile, including all associated files and settings, from the device.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Each profile entry includes a **Delete** button, allowing administrators to remove a user profile from the device entirely.&#x20;</p>
+<p>**Warning**: This action permanently deletes the local user profile, including all associated files and settings, from the device.</p>
+</blockquote>
 
 ![](/_images/image-(2176).png "User Profiles")

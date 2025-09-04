@@ -14,9 +14,9 @@ Details the production release history for Patch My PC's Advanced Insights, the 
 
 ### 2.4.8 - 2025-06-03
 
-{% hint style="warning" %}
-This release was re-uploaded on 2025-06-05.&#x20;
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>This release was re-uploaded on 2025-06-05.&#x20;</p>
+</blockquote>
 
 **Features / Misc**
 
@@ -522,9 +522,9 @@ Major release with changes to infrastructure requirements and new functionality.
 
 Minor release primarily for security and browser engine changes
 
-{% hint style="info" %}
-On 2024-02-23, an updated installer executable was created to address a failed upgrade issue faced by customers when upgrading from versions older than 1.0.27. If you have upgraded using the previous installer and Advanced Insights no longer loads, please perform a repair on the installation via Add/Remove programs or uninstall and reinstall using this new executable. The new installer is downloadable from [https://patchmypc.com/ai-download](https://patchmypc.com/ai-download)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>On 2024-02-23, an updated installer executable was created to address a failed upgrade issue faced by customers when upgrading from versions older than 1.0.27. If you have upgraded using the previous installer and Advanced Insights no longer loads, please perform a repair on the installation via Add/Remove programs or uninstall and reinstall using this new executable. The new installer is downloadable from <a href="https://patchmypc.com/ai-download">https://patchmypc.com/ai-download</a></p>
+</blockquote>
 
 #### Updated dependencies
 

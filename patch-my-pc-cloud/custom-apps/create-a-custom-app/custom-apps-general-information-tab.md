@@ -19,22 +19,20 @@ The **General Information** tab is where you configure the basic information for
 
     ![Entering a unique name in the “App Name” field](/_images/image-(216).png "Entering a unique name in the “App Name” field")
 
-{% hint style="success" %}
-**Tip**
-
-Avoid specifying the version number in this field, as this field does not get updated whenever you add a new version
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>Avoid specifying the version number in this field, as this field does not get updated whenever you add a new version</p>
+</blockquote>
 
 3.  In the **Vendor** field, either select an existing entry from the dropdown or enter the required name.\
 
 
     ![Entering a vendor name](/_images/image-(217).png "Entering a vendor name")
 
-{% hint style="info" %}
-**Note**
-
-If the vendor is new to your portal, you will see the **Success – The vendor <**_**vendor\_name**_**> has been created** notification. The next time you add an app, this vendor will appear in the **Vendor** dropdown.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If the vendor is new to your portal, you will see the **Success – The vendor <**_**vendor\_name**_**> has been created** notification. The next time you add an app, this vendor will appear in the **Vendor** dropdown.</p>
+</blockquote>
 
 4.  In the **Description** field, enter a description of the app.\
 

@@ -8,11 +8,10 @@ To delete an App Registration:
 
 1. Sign in to the Microsoft Azure portal using an account with the **GlobalAdmin** role and navigate to the [App Registrations](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) blade.
 
-{% hint style="warning" %}
-**Important**
-
-You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.</p>
+</blockquote>
 
 ![Navigating to the “App registrations” blade](/_images/image-(1970).png "Navigating to the “App registrations” blade")
 

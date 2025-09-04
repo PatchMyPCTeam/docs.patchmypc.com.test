@@ -4,11 +4,10 @@ _Applies to: Patch My PC Cloud_
 
 You can create an email notification in Patch My PC (PMPC) Cloud to automatically receive a daily email report with details of all deployments that have been created and updated after the daily sync with our publishing service has been completed.
 
-{% hint style="info" %}
-**Note**
-
-We strongly recommend you create at least one email notification so you can easily track what is happening in your environment. See [Example Updates Report Email](../../cloud-reference/cloud-email-reference/example-cloud-updates-report-email.md) for an example of the Updates Report email you will receive six hours after the daily sync job has run.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>We strongly recommend you create at least one email notification so you can easily track what is happening in your environment. See [Example Updates Report Email](../../cloud-reference/cloud-email-reference/example-cloud-updates-report-email.md) for an example of the Updates Report email you will receive six hours after the daily sync job has run.</p>
+</blockquote>
 
 To create an email notification:
 
@@ -29,19 +28,16 @@ To create an email notification:
 
     ![](/_images/image-(1916).png "")
 
-{% hint style="success" %}
-**Tip**
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can click the small envelope beside the email address (![](/_images/image-(1900).png>)) to send a test notification. See [Testing an Email Notification](cloud-notifications-reference/test-an-email-notification-in-cloud.md) for more details.</p>
+</blockquote>
 
-You can click the small envelope beside the email address (![](/_images/image-(1900).png>)) to send a test notification. See [Testing an Email Notification](cloud-notifications-reference/test-an-email-notification-in-cloud.md) for more details.
-{% endhint %}
-
-{% hint style="info" %}
-**Note**
-
-You can add more than one email address. The email address must be in a valid format and can be for an address outside your Intune tenant.
-
-You can also click the trashcan beside an email address to delete it from the list of email addresses to be notified (you may need to scroll down to see the full list).
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>You can add more than one email address. The email address must be in a valid format and can be for an address outside your Intune tenant.</p>
+<p>You can also click the trashcan beside an email address to delete it from the list of email addresses to be notified (you may need to scroll down to see the full list).</p>
+</blockquote>
 
 3.  Click **Save** on the **Add Notifications** screen to save the notification.\
 

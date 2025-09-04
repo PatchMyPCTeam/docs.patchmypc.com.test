@@ -4,14 +4,12 @@ _Applies to: Patch My PC Cloud_
 
 Using the Branding feature of Patch My PC (PMPC) Cloud, you can customize which localizations are used to display the Manage Conflicting Processes notification on your devices.
 
-{% hint style="info" %}
-**Note**
-
-The language displayed when the conflicting processes notification appears on devices is determined by the end user's operating system locale:
-
-* If the system locale matches a configured Branding language, the message will be shown in that language.
-* If the system locale does not match any configured languages, the message will fall back to the default language set by the Cloud Portal Admin.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>The language displayed when the conflicting processes notification appears on devices is determined by the end user's operating system locale:</p>
+<p>* If the system locale matches a configured Branding language, the message will be shown in that language.</p>
+<p>* If the system locale does not match any configured languages, the message will fall back to the default language set by the Cloud Portal Admin.</p>
+</blockquote>
 
 We recommend you create one branding app per language and then assign this app to the relevant Entra ID Security Groups running the configured language.
 
@@ -39,29 +37,25 @@ To add a Localization:
 
 ![Completing all of the fields on all of the tabs](/_images/image-(2408).png "Completing all of the fields on all of the tabs")
 
-{% hint style="danger" %}
-**Important**
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>When you add a new localization, you must complete all of the fields on all of the tabs before you’ll be able to save it.</p>
+</blockquote>
 
-When you add a new localization, you must complete all of the fields on all of the tabs before you’ll be able to save it.
-{% endhint %}
-
-{% hint style="info" %}
-**Tip**
-
-We include common variable names under each field, which you can add by clicking the relevant variable(s).
-
-Also, see [Default Language Notifications](default-language-notifications-in-cloud.md) for a list of the default language notifications for English, which you can use to help you configure other languages.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>We include common variable names under each field, which you can add by clicking the relevant variable(s).</p>
+<p>Also, see [Default Language Notifications](default-language-notifications-in-cloud.md) for a list of the default language notifications for English, which you can use to help you configure other languages.</p>
+</blockquote>
 
 6. Click **Save** to save your settings.
 
 ![Clicking &#x22;Save&#x22; to save your settings](/_images/image-(2409).png "Clicking &#x22;Save&#x22; to save your settings")
 
-{% hint style="success" %}
-**Tip**
-
-If you make a mistake or want to start again, click **Reset** to reset this screen and start again from the beginning of this process.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>If you make a mistake or want to start again, click **Reset** to reset this screen and start again from the beginning of this process.</p>
+</blockquote>
 
 The **Branding** screen is redisplayed with the newly added localization shown at the top of the list allowing you to select it if required.
 

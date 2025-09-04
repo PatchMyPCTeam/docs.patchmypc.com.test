@@ -2,11 +2,10 @@
 
 _Applies to: Patch My PC Cloud and Publisher_
 
-{% hint style="info" %}
-**Note**
-
-Only follow this process if you plan to connect our on-premises Publisher to your Patch My PC (PMPC) Cloud portal.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>Only follow this process if you plan to connect our on-premises Publisher to your Patch My PC (PMPC) Cloud portal.</p>
+</blockquote>
 
 Once onboarded to PMPC Cloud, you can manage all of the instances of Publisher connected to your portal. This allows you to package [Custom Apps](../../custom-apps/) into your OnPrem Publisher.
 

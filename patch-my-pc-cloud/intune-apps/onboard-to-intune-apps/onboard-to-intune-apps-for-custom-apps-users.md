@@ -16,15 +16,12 @@ If you are already a Custom Apps user, to onboard to Intune Apps for Cloud (Intu
 
     ![Clicking “Connect” under the “Intune” tab](/_images/image-(1749).png "Clicking “Connect” under the “Intune” tab")
 
-{% hint style="warning" %}
-**Important**
-
-As Intune Apps currently does not have feature parity with our on-premises Publisher, you will see the **Feature Parity Notice** popup. Please read this before clicking **Submit** to proceed.\
-\
-!["Feature Parity Notice" popup](/_images/image (1750).png>)
-
-
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>As Intune Apps currently does not have feature parity with our on-premises Publisher, you will see the **Feature Parity Notice** popup. Please read this before clicking **Submit** to proceed.\</p>
+<p>\</p>
+<p>!["Feature Parity Notice" popup](/_images/image (1750).png>)</p>
+</blockquote>
 
 4.  Enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.\
 
@@ -41,21 +38,18 @@ As Intune Apps currently does not have feature parity with our on-premises Publi
 
 6. On the **Permission requested** screen, click **Accept**.
 
-{% hint style="info" %}
-**Note**
-
-We require these permissions to connect with your Intune tenant.
-
-See [Permissions required for the Intune Apps](../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>We require these permissions to connect with your Intune tenant.</p>
+<p>See [Permissions required for the Intune Apps](../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.</p>
+</blockquote>
 
 ![“Permission requested” screen](/_images/image-(1474).png "“Permission requested” screen")
 
-{% hint style="success" %}
-**Tip**
-
-You can click the down arrow beside each permission to get more information.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can click the down arrow beside each permission to get more information.</p>
+</blockquote>
 
 7.  Verify the icon has changed in the **Intune** section and has a green tick beside it.\
 

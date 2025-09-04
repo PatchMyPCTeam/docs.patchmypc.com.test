@@ -10,9 +10,9 @@ _Applies to: Patch My PC MEM Patching Optimizer_
 
 ## Download the EXE Installer
 
-{% hint style="info" %}
-[https://github.com/PatchMyPCTeam/MEM-Patching-Optimizer/releases/latest](https://github.com/PatchMyPCTeam/MEM-Patching-Optimizer/releases/latest)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><a href="https://github.com/PatchMyPCTeam/MEM-Patching-Optimizer/releases/latest">https://github.com/PatchMyPCTeam/MEM-Patching-Optimizer/releases/latest</a></p>
+</blockquote>
 
 ## Run the Installation
 

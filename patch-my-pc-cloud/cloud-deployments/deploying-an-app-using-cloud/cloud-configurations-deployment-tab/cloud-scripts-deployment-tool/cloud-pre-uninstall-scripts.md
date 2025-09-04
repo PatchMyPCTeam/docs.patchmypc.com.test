@@ -30,28 +30,25 @@ The **Add Pre-Uninstall Script** page is populated with the imported script.
 
 ![](/_images/image-(2443).png "")
 
-{% hint style="info" %}
-**Note**
-
-We currently have a limit of 50,000 characters per script. Use the **Number of characters used** counter to keep track of the number of characters you’ve entered in the script editor.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>We currently have a limit of 50,000 characters per script. Use the **Number of characters used** counter to keep track of the number of characters you’ve entered in the script editor.</p>
+</blockquote>
 
 6.  In the **Arguments** field, enter any arguments you want to provide to the script.\
 
 
     ![Entering any arguments you want to provide to the script by specifying them in the “Arguments” field](/_images/image-(2444).png "Entering any arguments you want to provide to the script by specifying them in the “Arguments” field")
 
-{% hint style="success" %}
-**Tip**
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can use variable names as arguments, provided they are enclosed by percentage signs (`%`). We provide common variables under this field, which you can add by clicking the plus (`+`) symbol or relevant variable name.</p>
+</blockquote>
 
-You can use variable names as arguments, provided they are enclosed by percentage signs (`%`). We provide common variables under this field, which you can add by clicking the plus (`+`) symbol or relevant variable name.
-{% endhint %}
-
-{% hint style="danger" %}
-**Important**
-
-Using script Arguments is currently unsupported when deploying an app to macOS.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>Using script Arguments is currently unsupported when deploying an app to macOS.</p>
+</blockquote>
 
 7.  Check the **Don’t attempt software uninstall if the pre script returns an exit code other than 0 or 3010** checkbox if you don’t want the app to be uninstalled if the pre-script returns an exit code other than **0** or **3010**.\
     \
@@ -74,11 +71,10 @@ Using script Arguments is currently unsupported when deploying an app to macOS.
 
 ![](/_images/image-(95).png "")
 
-{% hint style="success" %}
-**Tip**
-
-You can click **Edit** to edit a script or its settings. You can also click the red “`x`” beside a script to delete it.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can click **Edit** to edit a script or its settings. You can also click the red “`x`” beside a script to delete it.</p>
+</blockquote>
 
 ***
 

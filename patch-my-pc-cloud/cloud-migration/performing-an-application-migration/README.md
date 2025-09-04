@@ -2,15 +2,12 @@
 
 _Applies to: Patch My PC Cloud_
 
-{% hint style="danger" %}
-**Important**
-
-This feature is currently only available through an invitation-only Private Preview, as both it and the documentation are under development, incomplete, and subject to change.
-
-Please do not share links to these docs with others outside of the Private Preview.
-
-Once this feature is released, it will be announced and this banner removed.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>This feature is currently only available through an invitation-only Private Preview, as both it and the documentation are under development, incomplete, and subject to change.</p>
+<p>Please do not share links to these docs with others outside of the Private Preview.</p>
+<p>Once this feature is released, it will be announced and this banner removed.</p>
+</blockquote>
 
 There are two different types of application migrations we currently support in Patch My PC (PMPC) Cloud, depending on the results of the Migration scan:&#x20;
 
@@ -30,13 +27,11 @@ To perform a migration:&#x20;
 
 ![Finding the application to migrate.](/_images/image-(15).png "Finding the application to migrate.")
 
-{% hint style="success" %}
-**Tip**
-
-You can use the **Search** box and start typing the name of the application to help you find it.
-
-Alternatively, you can click the filter button and select the checkbox beside the **Match Type** of the application you wish to migrate (**PMPC App** or **Custom App**). Then, click **Apply All Filters** to view only the matching applications.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can use the **Search** box and start typing the name of the application to help you find it.</p>
+<p>Alternatively, you can click the filter button and select the checkbox beside the **Match Type** of the application you wish to migrate (**PMPC App** or **Custom App**). Then, click **Apply All Filters** to view only the matching applications.</p>
+</blockquote>
 
 4. If a warning triangle is not shown in the Info column, go to step 11.
 

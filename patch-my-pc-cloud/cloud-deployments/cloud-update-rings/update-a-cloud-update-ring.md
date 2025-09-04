@@ -20,16 +20,14 @@ To update an individual Update Ring to a later version:
 
 
 
-{% hint style="warning" %}
-**Important**
-
-Some important points to note:
-
-* The **Update Now** option is only available if the deployment has been deployed successfully. It will not be shown if the deployment is in any other state or if **Pause Updates** has been enabled for this deployment.
-* An individual update ring can only be updated to a later version than the one it is currently running.
-* An individual update ring can only be updated to a later version that has already been applied to the ring with the lowest delay.
-* You are only updating a specific ring to a later version, not the whole deployment or any other rings.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>Some important points to note:</p>
+<p>* The **Update Now** option is only available if the deployment has been deployed successfully. It will not be shown if the deployment is in any other state or if **Pause Updates** has been enabled for this deployment.</p>
+<p>* An individual update ring can only be updated to a later version than the one it is currently running.</p>
+<p>* An individual update ring can only be updated to a later version that has already been applied to the ring with the lowest delay.</p>
+<p>* You are only updating a specific ring to a later version, not the whole deployment or any other rings.</p>
+</blockquote>
 
 4.  Click **Update Now** and select the relevant version you want to upgrade this ring to.\
 

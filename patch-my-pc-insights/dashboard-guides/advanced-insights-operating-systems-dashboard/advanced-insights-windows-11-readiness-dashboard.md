@@ -36,6 +36,6 @@ The Reasons column have the following conditions which are flagged if a device i
 * If the system is in SMode and not a home (core) sku (RedReason=SModeState)
 * If the system drive size is < 64 Gb (RedReason=SystemDriveSize)
 
-{% hint style="info" %}
-This information is listed on [https://learn.microsoft.com/en-us/mem/configmgr/osd/deploy-use/manage-windows-11-readiness-dashboard](https://learn.microsoft.com/en-us/mem/configmgr/osd/deploy-use/manage-windows-11-readiness-dashboard)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>This information is listed on <a href="https://learn.microsoft.com/en-us/mem/configmgr/osd/deploy-use/manage-windows-11-readiness-dashboard">https://learn.microsoft.com/en-us/mem/configmgr/osd/deploy-use/manage-windows-11-readiness-dashboard</a></p>
+</blockquote>

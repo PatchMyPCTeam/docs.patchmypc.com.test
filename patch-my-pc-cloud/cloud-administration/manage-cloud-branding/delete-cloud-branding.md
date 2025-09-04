@@ -2,16 +2,13 @@
 
 _Applies to: Patch My PC Cloud_
 
-{% hint style="danger" %}
-**Important**
-
-You cannot delete a Branding App unless it has been deployed successfully or failed to deploy.
-
-Also:
-
-* Each Branding App must contain at least one localization. You cannot delete all localizations for a branding app.
-* Deleting a Branding App only removes it from Intune and does not remove any custom logos, files or localizations from your end-user devices. To do this, you need to create an [Uninstall Branding App](uninstall-cloud-branding.md).
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>You cannot delete a Branding App unless it has been deployed successfully or failed to deploy.</p>
+<p>Also:</p>
+<p>* Each Branding App must contain at least one localization. You cannot delete all localizations for a branding app.</p>
+<p>* Deleting a Branding App only removes it from Intune and does not remove any custom logos, files or localizations from your end-user devices. To do this, you need to create an [Uninstall Branding App](uninstall-cloud-branding.md).</p>
+</blockquote>
 
 To delete a Branding App:
 
@@ -35,8 +32,7 @@ The **Branding** screen is redisplayed showing the Branding App has been  delete
 
 ![&#x22;Branding&#x22; screen is redisplayed showing the branding app has been  deleted.](/_images/image-(2678).png "&#x22;Branding&#x22; screen is redisplayed showing the branding app has been  deleted.")
 
-{% hint style="success" %}
-**Tip**
-
-If you look in the **Events** node, you will see a message stating the Branding App has been deleted.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>If you look in the **Events** node, you will see a message stating the Branding App has been deleted.</p>
+</blockquote>

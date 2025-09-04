@@ -2,11 +2,10 @@
 
 _Applies to: Patch My PC Cloud_
 
-{% hint style="info" %}
-**Note**
-
-Using the **Install Parameters** tool is optional.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>Using the **Install Parameters** tool is optional.</p>
+</blockquote>
 
 The **Install Parameters** tool of the Patch My PC (PMPC) Cloud deployment wizard allows you to configure various installation parameters and arguments.
 

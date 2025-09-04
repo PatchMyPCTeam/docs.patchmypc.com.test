@@ -30,21 +30,18 @@ Use a Filter to help you find only the relevant Events you require.
 
     ![Only events matching the filtered criteria are shown](/_images/image-(1769).png "Only events matching the filtered criteria are shown")
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>You can click the filter button to close the filter sidebar to see more details about the results without affecting the filter.\</p>
+<p>\</p>
+<p>![Closing the filter sidebar](/_images/image (1770).png>)</p>
+</blockquote>
 
-You can click the filter button to close the filter sidebar to see more details about the results without affecting the filter.\
-\
-![Closing the filter sidebar](/_images/image (1770).png>)
-{% endhint %}
-
-{% hint style="success" %}
-**Tip**
-
-When a filter is applied, a green dot appears beside the **Filter** button.
-
-![](/_images/image-(1498).png>)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>When a filter is applied, a green dot appears beside the **Filter** button.</p>
+<p>![](/_images/image-(1498).png>)</p>
+</blockquote>
 
 ### To clear a Filter:
 

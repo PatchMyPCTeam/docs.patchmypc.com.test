@@ -24,11 +24,10 @@ _Applies to: Patch My PC Cloud_
     **Sender:** Patch My PC\<noreply@patchmypc.com>\
     **Subject:** Test notification from Patch My PC Cloud
 
-{% hint style="success" %}
-**Tip**
-
-If the user does not receive the email, check the email is not in their junk email folder.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>If the user does not receive the email, check the email is not in their junk email folder.</p>
+</blockquote>
 
 ### Testing an email notification after it has been created
 
@@ -55,8 +54,7 @@ If the user does not receive the email, check the email is not in their junk ema
 
     ![Test email showing email notifications are working](/_images/image-(1893).png "Test email showing email notifications are working")
 
-{% hint style="success" %}
-**Tip**
-
-If the user does not receive the email, check the email is not in their junk email folder.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>If the user does not receive the email, check the email is not in their junk email folder.</p>
+</blockquote>

@@ -12,9 +12,9 @@ For various Configuration Manager **console actions** and **features** to work, 
 
 ![](/_images/Permissions-Example.png)
 
-{% hint style="info" %}
-Note: If you installed Advanced Insights on an SMS Provider Server then you may not have to configure any permissions for this to work.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Note: If you installed Advanced Insights on an SMS Provider Server then you may not have to configure any permissions for this to work.</p>
+</blockquote>
 
 By default, the **IIS App Pools** run under the local computer account of your Advanced Insights Server.&#x20;
 

@@ -8,13 +8,13 @@ _Applies to: Patch My PC Advanced and Patch Insights_
 
 This section describes the steps required to change the frontend network port used for an existing Advanced Insights deployment.
 
-{% hint style="warning" %}
-The ability to change the network port using the modify feature is supported in version 2.2.1 and later.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The ability to change the network port using the modify feature is supported in version 2.2.1 and later.</p>
+</blockquote>
 
-{% hint style="warning" %}
-Review the network requirements here: [insights-network-requirements.md](../advanced-and-patch-insights-requirements-and-prerequisites/insights-network-requirements.md "mention")
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Review the network requirements here: [insights-network-requirements.md](../advanced-and-patch-insights-requirements-and-prerequisites/insights-network-requirements.md "mention")</p>
+</blockquote>
 
 In the configuration modification page, select the checkbox for **'Frontend SSL Port Configuration'** then click **'Change SSL Port'**:
 

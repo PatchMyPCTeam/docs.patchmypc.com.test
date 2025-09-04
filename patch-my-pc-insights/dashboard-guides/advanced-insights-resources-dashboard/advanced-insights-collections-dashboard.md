@@ -6,9 +6,9 @@ description: Collections in your environment
 
 _Applies to: Patch My PC Advanced Insights_
 
-{% hint style="info" %}
-Advanced Insights must be granted the correct permissions to your SMS Provider for these actions to work. See [Configuration Manager Permissions](../../insights-configuration-manager-permission-requirements.md).
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Advanced Insights must be granted the correct permissions to your SMS Provider for these actions to work. See [Configuration Manager Permissions](../../insights-configuration-manager-permission-requirements.md).</p>
+</blockquote>
 
 The Collections dashboard has significant functionality below the surface.
 

@@ -8,13 +8,13 @@ _Applies to: Patch My PC Advanced Insights_
 
 This section describes the steps required to change the IIS Application pool identity used for an existing Advanced Insights deployment.
 
-{% hint style="warning" %}
-The ability to change the IIS application pool identity using the modify feature is supported in version 2.4.1 and later.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The ability to change the IIS application pool identity using the modify feature is supported in version 2.4.1 and later.</p>
+</blockquote>
 
-{% hint style="warning" %}
-Review the IIS Application pool identity details here: [advanced-insights-iis-application-pool-identity.md](../advanced-insights-iis-application-pool-identity.md "mention")
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Review the IIS Application pool identity details here: [advanced-insights-iis-application-pool-identity.md](../advanced-insights-iis-application-pool-identity.md "mention")</p>
+</blockquote>
 
 In the configuration modification page, select the checkbox for **'IIS Application Pool Identity'** then click **'Change Identity'**:
 

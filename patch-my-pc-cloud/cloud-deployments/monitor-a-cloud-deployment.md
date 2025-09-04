@@ -4,11 +4,10 @@ _Applies to: Patch My PC Cloud_
 
 All Patch My PC (PMPC) Cloud deployments include a status.
 
-{% hint style="warning" %}
-**Important**
-
-As PMPC Cloud is performing the deployment and not Microsoft Intune, you can only view the status of these deployments from within the PMPC portal. The status of PMPC Cloud deployments is not visible from within the Intune admin center.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>As PMPC Cloud is performing the deployment and not Microsoft Intune, you can only view the status of these deployments from within the PMPC portal. The status of PMPC Cloud deployments is not visible from within the Intune admin center.</p>
+</blockquote>
 
 To see the status of a deployment:
 

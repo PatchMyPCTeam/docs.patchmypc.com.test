@@ -79,13 +79,11 @@ In this scenario, you can:
 * Wait until the overnight sync runs to pick up the new version.
 * Run the [Sync Now](../manage-updates-in-cloud/sync-now-cloud-feature.md) process to update just this deployment immediately.
 
-{% hint style="info" %}
-**Note**
-
-This is one of the many reasons why we recommend configuring your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to **Daily** if you are using Update Rings.
-
-We also use the release date of the new version to validate if it is the right time to update the assignments to upgrade rings to later versions.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>This is one of the many reasons why we recommend configuring your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to **Daily** if you are using Update Rings.</p>
+<p>We also use the release date of the new version to validate if it is the right time to update the assignments to upgrade rings to later versions.</p>
+</blockquote>
 
 Once the deployment has been updated, you can now edit it as all of the rings have now been created. If you look at the deployment’s properties, you will see that for the **Ring 1**, version **2019.2** has now been assigned to the **dBase Pilot Users** group.
 
@@ -163,13 +161,11 @@ In this scenario, you can:
 * Wait until the overnight sync runs to pick up the new version.
 * Run the [Sync Now](../manage-updates-in-cloud/sync-now-cloud-feature.md) process to update just this deployment immediately.
 
-{% hint style="info" %}
-**Note**
-
-This is one of the many reasons why we recommend configuring your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to **Daily** if you are using Update Rings.
-
-We also use the release date of the new version to validate if it is the right time to update the assignments to upgrade rings to later versions.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>This is one of the many reasons why we recommend configuring your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to **Daily** if you are using Update Rings.</p>
+<p>We also use the release date of the new version to validate if it is the right time to update the assignments to upgrade rings to later versions.</p>
+</blockquote>
 
 Once the deployment has been updated, if you look at its properties, you will see that for the **Ring 1**, version **2024.2** has now been assigned to the **Corel Pilot Users** group.
 

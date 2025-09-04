@@ -6,9 +6,9 @@ description: Software Registered in Add/Remove Programs
 
 _Applies to: Patch My PC Advanced Insights_
 
-{% hint style="info" %}
-The User Installed Apps data on this page requires the deployment of the  [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The User Installed Apps data on this page requires the deployment of the  [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)</p>
+</blockquote>
 
 ![](/_images/image-(1546).png "Client Inventory Dashboard")
 

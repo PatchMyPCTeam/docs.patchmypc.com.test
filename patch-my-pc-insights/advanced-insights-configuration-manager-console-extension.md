@@ -14,9 +14,9 @@ Download and unzip the Console Extension using the link below.
 
 {% file src="..//_images/AdvancedInsightsConsoleExtension.zip" %}
 
-{% hint style="warning" %}
-Warning: The console extension will not work if you are using a **self-signed certificate.**&#x20;
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Warning: The console extension will not work if you are using a **self-signed certificate.**&#x20;</p>
+</blockquote>
 
 ## Installing the Console Extension
 
@@ -44,9 +44,9 @@ Once approved the Extension can be Installed:
 
 ## First Run
 
-{% hint style="info" %}
-If Advanced Insights is installed on the same server as Configuration Manager, we will try to auto-configure the Extension, so this step may be unnecessary.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>If Advanced Insights is installed on the same server as Configuration Manager, we will try to auto-configure the Extension, so this step may be unnecessary.</p>
+</blockquote>
 
 When you click the Advanced Insights node, a dialog is displayed in the detail pane asking for the details of your Advanced Insights portal.
 

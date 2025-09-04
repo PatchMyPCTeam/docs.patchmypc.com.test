@@ -14,9 +14,9 @@ You can filter the chart by collection, select which update and the number of da
 
 
 
-{% hint style="info" %}
-Some devices may become compliant without having installed this update via this deployment and these will not show in the installation data here.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Some devices may become compliant without having installed this update via this deployment and these will not show in the installation data here.</p>
+</blockquote>
 
 ![](/_images/image-(313).png "Enforcement Activity chart")
 

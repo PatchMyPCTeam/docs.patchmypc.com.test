@@ -16,9 +16,9 @@ First you will browse to [https://techdirect.dell.com](https://techdirect.dell.c
 
 
 
-{% hint style="info" %}
-Advanced Insights makes a single API call for every 100 Dell clients when importing warranty information. To estimate the number of API calls you will require, we recommend specify 1% of the total Dell client device count.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Advanced Insights makes a single API call for every 100 Dell clients when importing warranty information. To estimate the number of API calls you will require, we recommend specify 1% of the total Dell client device count.</p>
+</blockquote>
 
 Once you have successfully obtained your API key log into Advanced Insights and navigate to the Administration area. Go to Settings - External Services and check the "Is Enabled" and "Enable Warranty Caching" option.&#x20;
 

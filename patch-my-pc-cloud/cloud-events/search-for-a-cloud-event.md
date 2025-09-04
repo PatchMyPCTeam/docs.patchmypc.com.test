@@ -6,11 +6,10 @@ _Applies to: Patch My PC Cloud_
 
 Type what you are looking for in the **Search** box on the **Events** page.
 
-{% hint style="info" %}
-**Note**
-
-If the portal finds any matching entries as you type, they are displayed. However, if no results are shown when you’ve finished typing your search phrase, either press Enter or click the magnifying glass.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If the portal finds any matching entries as you type, they are displayed. However, if no results are shown when you’ve finished typing your search phrase, either press Enter or click the magnifying glass.</p>
+</blockquote>
 
 ![The “Search” box](/_images/image-(1763).png "The “Search” box")
 

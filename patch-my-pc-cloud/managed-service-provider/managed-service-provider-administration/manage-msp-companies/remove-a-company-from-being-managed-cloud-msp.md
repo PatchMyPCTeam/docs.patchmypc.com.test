@@ -6,40 +6,34 @@ If a parent Patch My PC (PMPC) Cloud Managed Service Provider (MSP) company no l
 
 Likewise, if a child company no longer wishes to be managed by an MSP, they can unlink themselves from the MSP using the [Unlink a Child Company](remove-a-company-from-being-managed-cloud-msp.md#unlink-a-child-company) process below.
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>To perform this process, you must be signed in as a user who is either a **Full Admin** or **Full Admin with Access Management**.</p>
+</blockquote>
 
-To perform this process, you must be signed in as a user who is either a **Full Admin** or **Full Admin with Access Management**.
-{% endhint %}
-
-{% hint style="danger" %}
-**Important**
-
-Please note the following:
-
-* You cannot delete a child company:
-  * If at least one user/group in that company is not assigned the **Full Admin with Access Management** user role.
-  * Without first removing the Intune connection. If you attempt to do this, you will see the [Intune connection with the same Id found in another environment!](../../../cloud-troubleshooting/troubleshooting-cloud-environments/intune-connection-with-the-same-id-found-in-another-environment-error-in-cloud.md) error.
-* An MSP admin cannot delete a child company from the Company node using the [Delete your Company](../../../cloud-administration/manage-your-cloud-company/delete-your-cloud-company.md) process, as the option is unavailable.\
-  \
-  ![Delete options unavailable on a child company](/_images/image (2096).png>)\
-
-* Any Custom Apps for MSPs have been shared with and deployed from a child company, either unlinking or deleting a child company (either from the parent or child company), will:
-  * Delete the Custom App from the App Catalog of the child company.
-  * Delete any active deployments of the relevant Custom Apps.
-* If you delete a child company that has App Sets deployed to it from the Parent Company, any deployments for apps that belong to those App Sets will be automatically deleted as part of the unlinking process.
-* If an App Set is deployed to multiple companies, when the last company the App Set is deployed to is removed, the App Set itself will be automatically deleted.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>Please note the following:</p>
+<p>* You cannot delete a child company:</p>
+<p>* If at least one user/group in that company is not assigned the **Full Admin with Access Management** user role.</p>
+<p>* Without first removing the Intune connection. If you attempt to do this, you will see the [Intune connection with the same Id found in another environment!](../../../cloud-troubleshooting/troubleshooting-cloud-environments/intune-connection-with-the-same-id-found-in-another-environment-error-in-cloud.md) error.</p>
+<p>* An MSP admin cannot delete a child company from the Company node using the [Delete your Company](../../../cloud-administration/manage-your-cloud-company/delete-your-cloud-company.md) process, as the option is unavailable.\</p>
+<p>\</p>
+<p>![Delete options unavailable on a child company](/_images/image (2096).png>)\</p>
+<p>* Any Custom Apps for MSPs have been shared with and deployed from a child company, either unlinking or deleting a child company (either from the parent or child company), will:</p>
+<p>* Delete the Custom App from the App Catalog of the child company.</p>
+<p>* Delete any active deployments of the relevant Custom Apps.</p>
+<p>* If you delete a child company that has App Sets deployed to it from the Parent Company, any deployments for apps that belong to those App Sets will be automatically deleted as part of the unlinking process.</p>
+<p>* If an App Set is deployed to multiple companies, when the last company the App Set is deployed to is removed, the App Set itself will be automatically deleted.</p>
+</blockquote>
 
 ### Remove the Intune connection for a Child Company
 
-{% hint style="danger" %}
-**Important**
-
-If you remove the Intune connection for a Child Company that has App Sets deployed to it from the Parent Company, any deployments for apps that belong to those  App Sets will be automatically deleted as part of the connection removal.
-
-If an App Set is deployed to multiple companies, when the last Intune connection is deleted from the last company an App Set is deployed to, the App Set itself will be automatically deleted.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>If you remove the Intune connection for a Child Company that has App Sets deployed to it from the Parent Company, any deployments for apps that belong to those  App Sets will be automatically deleted as part of the connection removal.</p>
+<p>If an App Set is deployed to multiple companies, when the last Intune connection is deleted from the last company an App Set is deployed to, the App Set itself will be automatically deleted.</p>
+</blockquote>
 
 To remove the Intune connection for a Child Company:
 
@@ -121,11 +115,10 @@ Once the Intune connection for a Child Company has been removed, to delete a chi
 
 If a child company no longer wishes to be managed by a parent MSP company, it can be unlinked from the parent MSP company.
 
-{% hint style="info" %}
-**Note**
-
-To perform this process requires you sign in as a user that is either a **Full Admin** or **Full Admin with Access Management**.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>To perform this process requires you sign in as a user that is either a **Full Admin** or **Full Admin with Access Management**.</p>
+</blockquote>
 
 To unlink a child company from a parent MSP company:
 
@@ -166,11 +159,10 @@ To unlink a child company from a parent MSP company:
 
     ![Entering the license key and clicking “Activate Now”](/_images/image-(103).png "Entering the license key and clicking “Activate Now”")
 
-{% hint style="info" %}
-**Note**
-
-You cannot use a trial license for a company that an MSP has previously managed.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>You cannot use a trial license for a company that an MSP has previously managed.</p>
+</blockquote>
 
 8.  On the **You have successfully activated your license** popup, click **Close**.\
     \

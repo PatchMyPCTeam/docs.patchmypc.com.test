@@ -6,12 +6,11 @@ description: Advanced Insights welcome page
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-{% hint style="info" %}
-The default credentials for your first logon are below. You will be prompted to change these:
-
-* Username: admin
-* Password: 123qwe
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The default credentials for your first logon are below. You will be prompted to change these:</p>
+<p>* Username: admin</p>
+<p>* Password: 123qwe</p>
+</blockquote>
 
 On first logon, you will see the welcome page. You can access this page any time by clicking your username in the top right of the screen.&#x20;
 

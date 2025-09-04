@@ -22,8 +22,7 @@ To reject an access request in Patch My PC (PMPC) Cloud:
 
     ![“Success- Request rejected” notification](/_images/image-(625).png "“Success- Request rejected” notification")
 
-{% hint style="info" %}
-**Note**
-
-See [Example Access Rejected Email](../../../cloud-reference/cloud-email-reference/example-cloud-access-rejected-email.md) for an example of the email.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>See [Example Access Rejected Email](../../../cloud-reference/cloud-email-reference/example-cloud-access-rejected-email.md) for an example of the email.</p>
+</blockquote>

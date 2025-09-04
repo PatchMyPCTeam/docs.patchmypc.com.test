@@ -29,13 +29,11 @@ To set a different time or frequency for the sync job:
 
 You can also choose to run the Sync Schedule on a Weekly or Monthly basis.
 
-{% hint style="warning" %}
-**Important**
-
-If you are using [Update Rings](../cloud-deployments/cloud-update-rings/), we recommend running the Sync Schedule daily to avoid potential issues with the timing of updates and the overall performance of this feature.
-
-This is why the warning message about this is displayed whenever you select either the **Weekly** or **Monthly** options.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>If you are using [Update Rings](../cloud-deployments/cloud-update-rings/), we recommend running the Sync Schedule daily to avoid potential issues with the timing of updates and the overall performance of this feature.</p>
+<p>This is why the warning message about this is displayed whenever you select either the **Weekly** or **Monthly** options.</p>
+</blockquote>
 
 If you choose the **Weekly** option, as well as the time the sync runs, you can also choose which days it runs on.
 

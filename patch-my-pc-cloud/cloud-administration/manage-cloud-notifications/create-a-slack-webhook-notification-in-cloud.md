@@ -22,11 +22,10 @@ To create a Slack webhook notification in Patch My PC (PMPC) Cloud:
 
     ![New webhook notification is shown under the “Webhook Notifications” section](/_images/image-(1899).png "New webhook notification is shown under the “Webhook Notifications” section")
 
-{% hint style="success" %}
-**Tip**
-
-You can click the small envelope beside the webhook URL (![](/_images/image-(1900).png>)) to send a test notification. See [Testing a Slack Webhook Notification](cloud-notifications-reference/test-a-slack-webhook-notification-in-cloud.md) for more details.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can click the small envelope beside the webhook URL (![](/_images/image-(1900).png>)) to send a test notification. See [Testing a Slack Webhook Notification](cloud-notifications-reference/test-a-slack-webhook-notification-in-cloud.md) for more details.</p>
+</blockquote>
 
 4.  Click **Save** to save the newly added notification.\
 

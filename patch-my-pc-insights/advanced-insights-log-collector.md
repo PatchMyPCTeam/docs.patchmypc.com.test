@@ -4,28 +4,20 @@ _Applies to: Patch My PC Advanced Insights_
 
 Sometimes we need you to provide log files, including information about your Advanced Insights instance. Your Advanced Insights deployment includes the Log Collector executable that can be used to collect all required logs.
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>The Advanced Insights Log Collector is located at:</p>
+<p>_`%Advanced Insights Install Directory%`_`\Api\LogCollector\AdvancedInsightsLogDiag.exe`\</p>
+<p>For example:</p>
+<p>`C:\Program Files (x86)\Advanced Insights\Api\LogCollector\AdvancedInsightsLogDiag.exe`</p>
+</blockquote>
 
-The Advanced Insights Log Collector is located at:
-
-_`%Advanced Insights Install Directory%`_`\Api\LogCollector\AdvancedInsightsLogDiag.exe`\
-
-
-For example:
-
-`C:\Program Files (x86)\Advanced Insights\Api\LogCollector\AdvancedInsightsLogDiag.exe`
-{% endhint %}
-
-{% hint style="info" %}
-The Log Collector can be executed manually and is also used within the Advanced Insights installer. Once the log collection process is completed, a zip file is created on the desktop called:
-
-**AdvancedInsights\_Diag\_xxxxxxxx\_xxxxxx.zip**
-
-This ZIP should be shared with Patch My PC technical support.
-
-_Example output:_
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The Log Collector can be executed manually and is also used within the Advanced Insights installer. Once the log collection process is completed, a zip file is created on the desktop called:</p>
+<p>**AdvancedInsights\_Diag\_xxxxxxxx\_xxxxxx.zip**</p>
+<p>This ZIP should be shared with Patch My PC technical support.</p>
+<p>_Example output:_</p>
+</blockquote>
 
 ![](/_images/image-(1926).png "Advanced Insights log collection output.")
 

@@ -8,9 +8,9 @@ _Applies to: Patch My PC Advanced and Patch Insights_
 
 To upgrade Advanced Insights, we need to re-run the installer using the latest version downloaded from [here](../download-and-install-insights/).&#x20;
 
-{% hint style="info" %}
-To upgrade silently please run AdvancedInsights.exe /q /l\*v %temp%\AdvInsights.log
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>To upgrade silently please run AdvancedInsights.exe /q /l\*v %temp%\AdvInsights.log</p>
+</blockquote>
 
 When you run the installer, it will prompt for you to accept the license terms.
 

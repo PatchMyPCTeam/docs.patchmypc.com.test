@@ -6,9 +6,9 @@ description: Members of the local administrators group
 
 _Applies to: Patch My PC Advanced Insights_
 
-{% hint style="info" %}
-The Local Administrators data on this page requires the deployment of the  [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The Local Administrators data on this page requires the deployment of the  [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)</p>
+</blockquote>
 
 ![](/_images/image-(2168).png "Local Administrators Groups Members")
 

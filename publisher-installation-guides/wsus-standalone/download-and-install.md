@@ -18,9 +18,9 @@ Download Patch My PC Publisher
 
 Start the installation by double-clicking the downloaded MSI.&#x20;
 
-{% hint style="info" %}
-Depending on user account control settings, you may need to run an elevated command prompt and launch the MSI from the command prompt.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Depending on user account control settings, you may need to run an elevated command prompt and launch the MSI from the command prompt.</p>
+</blockquote>
 
 ### Welcome Screen
 
@@ -64,8 +64,8 @@ Click **Install**.
 
 Once the Publisher has finished installing, click **Finish** to close the installation wizard.&#x20;
 
-{% hint style="info" %}
-By default, the "**Launch Patch My PC Publishing Service**" is enabled - this will launch the Publisher when you click **Finish**.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>By default, the "**Launch Patch My PC Publishing Service**" is enabled - this will launch the Publisher when you click **Finish**.</p>
+</blockquote>
 
 ![](/_images/image-(1198).png>)

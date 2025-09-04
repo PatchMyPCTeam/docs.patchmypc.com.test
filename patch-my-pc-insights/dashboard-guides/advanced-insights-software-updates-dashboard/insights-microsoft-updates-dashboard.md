@@ -2,11 +2,10 @@
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-{% hint style="info" %}
-This dashboard requires deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
-
-Dashboard will only return data on devices managed by Windows Update for Business (WuFB)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>This dashboard requires deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)</p>
+<p>Dashboard will only return data on devices managed by Windows Update for Business (WuFB)</p>
+</blockquote>
 
 ![](/_images/image-(310).png "Microsoft Updates Scanning")
 

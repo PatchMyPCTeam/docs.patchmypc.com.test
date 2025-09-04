@@ -2,9 +2,9 @@
 
 _Applies to: Patch My PC Advanced Insights_
 
-{% hint style="warning" %}
-Advanced Insights must be granted the correct permissions to your SMS Provider for these actions to work. See [Configuration Manager Permissions](../insights-configuration-manager-permission-requirements.md).
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Advanced Insights must be granted the correct permissions to your SMS Provider for these actions to work. See [Configuration Manager Permissions](../insights-configuration-manager-permission-requirements.md).</p>
+</blockquote>
 
 Clients with the Inventory Extensions MSI installed will support the use of our custom client actions:
 

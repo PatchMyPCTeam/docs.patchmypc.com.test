@@ -20,10 +20,8 @@ You will then see the **Thank You** notification thanking you for your feedback
 
 ![“Thank You” notification](/_images/image-(2723).png "“Thank You” notification")
 
-{% hint style="info" %}
-**Note**
-
-Once you have submitted your feedback for a workflow, you will not be re-prompted for it again for the same workflow for a period of three months.
-
-However, you will still be prompted for feedback the first time you complete any other workflows for which we have enabled feedback and for which you haven’t submitted feedback.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>Once you have submitted your feedback for a workflow, you will not be re-prompted for it again for the same workflow for a period of three months.</p>
+<p>However, you will still be prompted for feedback the first time you complete any other workflows for which we have enabled feedback and for which you haven’t submitted feedback.</p>
+</blockquote>

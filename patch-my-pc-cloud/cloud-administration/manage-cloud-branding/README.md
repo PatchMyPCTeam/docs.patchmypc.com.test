@@ -28,10 +28,8 @@ The **Branding** screen is then displayed, allowing you to:
 
 ![“Branding” screen](/_images/image-(1478).png "“Branding” screen")
 
-{% hint style="info" %}
-**Note**
-
-If you do not add branding, our default branding shown on the **Branding** page will be used for all Intune App-related notifications on your computers.
-
-![Default Intune Apps for Cloud branding](/_images/image (1479).png>)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If you do not add branding, our default branding shown on the **Branding** page will be used for all Intune App-related notifications on your computers.</p>
+<p>![Default Intune Apps for Cloud branding](/_images/image (1479).png>)</p>
+</blockquote>

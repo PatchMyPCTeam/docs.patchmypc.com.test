@@ -24,11 +24,10 @@ This message is telling you that when the Sync Schedule ran, a new version of an
 
 However, we could not add this new version to the Enrollment Status Page (ESP) Profile to which this app is deployed, as the profile has reached the limit of 100 apps.
 
-{% hint style="info" %}
-**Note**
-
-See [ESP Profiles](../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/esp-profiles-deployments.md) for more information.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>See [ESP Profiles](../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/esp-profiles-deployments.md) for more information.</p>
+</blockquote>
 
 To resolve this issue, you need to use the Intune admin center and from the ESP Profile remove either:
 

@@ -12,11 +12,10 @@ I have signed into the Patch My PC (PMPC) Cloud portal, but I don’t see the **
 
 This is because your portal is not connected to an Intune tenant.
 
-{% hint style="info" %}
-**Note**
-
-Not having an Intune tenant connected will also prevent the **Notifications** node from appearing.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>Not having an Intune tenant connected will also prevent the **Notifications** node from appearing.</p>
+</blockquote>
 
 ### RESOLUTION
 

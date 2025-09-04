@@ -13,9 +13,9 @@ Advanced Insights requires a valid SSL certificate to bind to the application we
 * Custom CNAME / Alias certificate.
 * Self-signed certificate.
 
-{% hint style="warning" %}
-Ensure the SSL certificate requirements are reviewed here: [insights-certificate-requirements.md](../advanced-and-patch-insights-requirements-and-prerequisites/insights-certificate-requirements.md "mention")
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Ensure the SSL certificate requirements are reviewed here: [insights-certificate-requirements.md](../advanced-and-patch-insights-requirements-and-prerequisites/insights-certificate-requirements.md "mention")</p>
+</blockquote>
 
 ### Certificate configuration scenarios
 
@@ -64,13 +64,12 @@ Click Next to proceed to the [insights-sqlite-database.md](insights-sqlite-datab
 
 ![](/_images/image-(1303).png "Set CNAME / Alias confirmation")
 
-{% hint style="warning" %}
-When using a wildcard certificate, if no CNAME / Alias is set using the CNAME / Alias configuration page, the installer will automatically default to setting the Advanced Insights URL to the server host name FQDN.\
-\
-Example:&#x20;
-
-_https://server01.corp.contoso.local_
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>When using a wildcard certificate, if no CNAME / Alias is set using the CNAME / Alias configuration page, the installer will automatically default to setting the Advanced Insights URL to the server host name FQDN.\</p>
+<p>\</p>
+<p>Example:&#x20;</p>
+<p>_https://server01.corp.contoso.local_</p>
+</blockquote>
 
 ## CNAME / Alias certificate
 

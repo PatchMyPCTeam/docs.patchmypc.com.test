@@ -21,14 +21,12 @@ In Supported Accounts select _**"Accounts in this organizational directory only"
 
 **Redirect URI**
 
-{% hint style="info" %}
-**Redirect URI** is used for Microsoft to return the login token to Advanced Insights.
-
-\
-This URI must be configured with the value of the internal FQDN of the server hosting Advanced Insights, including the configured port.
-
-_(https://**{AdvancedInsightsInternalServerFQDN}:{port}**/account/login)_
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Redirect URI** is used for Microsoft to return the login token to Advanced Insights.</p>
+<p>\</p>
+<p>This URI must be configured with the value of the internal FQDN of the server hosting Advanced Insights, including the configured port.</p>
+<p>_(https://**{AdvancedInsightsInternalServerFQDN}:{port}**/account/login)_</p>
+</blockquote>
 
 Example redirect URI:
 
@@ -64,9 +62,9 @@ Click "**Certificates and secrets"**, then within the **"Client secrets"** secti
 
 Name the secret and set an expiry duration that is suitable for your environment.&#x20;
 
-{% hint style="info" %}
-On expiry, logins to Advanced Insights using Entra ID credentials will stop working if you don’t update the client secret.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>On expiry, logins to Advanced Insights using Entra ID credentials will stop working if you don’t update the client secret.</p>
+</blockquote>
 
 ![](/_images/app-reg5.png)
 
@@ -91,11 +89,10 @@ This completes the configuration work in the Azure Portal.
 
 ## **New users**
 
-{% hint style="info" %}
-By default, new users configured in Advanced Insights **(including new Entra ID logins)** will not be active (and can not login) until an administrator manually activates the account.
-
-![](/_images/activation.png)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>By default, new users configured in Advanced Insights **(including new Entra ID logins)** will not be active (and can not login) until an administrator manually activates the account.</p>
+<p>![](/_images/activation.png)</p>
+</blockquote>
 
 1. Log into Advanced Insights with an **administrator** role account and navigate to the _**'Administration' > 'Settings'**_ menu. Select the _**"User Management"**_ tab.
 2. Enable _**"New registered users are active by default."**_ checkbox.
@@ -115,11 +112,10 @@ At first logon, an Azure administrator will have to consent to the application r
 
 ![](/_images/advinslogin2.png)
 
-{% hint style="info" %}
-By default, new users will only be granted access to the Advanced Insights overview home page.
-
-Advanced Insights administrator can then enable access to additional dashboard views.&#x20;
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>By default, new users will only be granted access to the Advanced Insights overview home page.</p>
+<p>Advanced Insights administrator can then enable access to additional dashboard views.&#x20;</p>
+</blockquote>
 
 ![](/_images/home.png)
 

@@ -528,9 +528,9 @@ This release contains a variety of features, improvements, and fixes, as noted b
 
 This will be made available via the self-update channel over the next 2 weeks. You can upgrade in place now by downloading the latest [**MSI installer**](https://patchmypc.com/publishing-service-setup-documentation).
 
-{% hint style="info" %}
-**Note:** Starting with this production build, Patch My PC Publisher now requires a minimum of Microsoft .NET Framework 4.6.2.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note:** Starting with this production build, Patch My PC Publisher now requires a minimum of Microsoft .NET Framework 4.6.2.</p>
+</blockquote>
 
 ### Features -
 

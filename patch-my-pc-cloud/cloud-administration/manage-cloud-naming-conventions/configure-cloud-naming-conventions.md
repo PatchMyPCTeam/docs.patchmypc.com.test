@@ -27,8 +27,7 @@ To configure Naming Conventions in Patch My PC (PMPC) Cloud:
 
     ![&#x22;Success – Naming Conventions saved&#x22; notification](/_images/image-(1777).png "&#x22;Success – Naming Conventions saved&#x22; notification")
 
-{% hint style="info" %}
-**Note**
-
-Any new deployments you create will be based on whatever you have defined. At the next sync, we will also update any existing deployments you have created to follow the new naming convention.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>Any new deployments you create will be based on whatever you have defined. At the next sync, we will also update any existing deployments you have created to follow the new naming convention.</p>
+</blockquote>
