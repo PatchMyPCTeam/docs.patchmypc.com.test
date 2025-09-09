@@ -194,12 +194,6 @@ jobs:
               content = "\n".join(paras) if paras else "<p></p>"
               return f'<blockquote class="wp-block-quote">\n{content}\n</blockquote>'
             return HINT_BLOCK.sub(_repl, s)
-          
-          # --- Replace ALL Markdown bold (**...**) with <strong>...</strong> ---
-          BOLD_MD = re.compile(r'\*\*(.+?)\*\*', re.S)
-        
-          def replace_all_bold(s: str) -> str:
-              return BOLD_MD.sub(r'<strong>\1</strong>', s)
             
 
           # HTML <img> (alt optional)
@@ -242,7 +236,7 @@ jobs:
               # 2.5) GitBook hint blocks → Gutenberg blockquote
               s = convert_hint_blocks(s)
           
-              s = replace_all_bold(s)
+              # s = replace_all_bold(s)
 
               # 3) Gather reference defs
               defs = {}
