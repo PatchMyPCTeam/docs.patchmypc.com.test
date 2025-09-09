@@ -2,7 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-To onboard to Patch My PC (PMPC) Cloud:
+To onboard to Patch My PC (PMPC) Cloud 2:
 
 1. Navigate to [https://portal.patchmypc.com/](https://portal.patchmypc.com/)
 2. Click <strong>Sign Up</strong>.
