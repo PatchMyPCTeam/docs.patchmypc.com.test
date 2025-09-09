@@ -199,7 +199,7 @@ jobs:
           BOLD_MD = re.compile(r'\*\*(.+?)\*\*', re.S)
         
           def replace_all_bold(s: str) -> str:
-          return BOLD_MD.sub(r'<strong>\1</strong>', s)
+              return BOLD_MD.sub(r'<strong>\1</strong>', s)
             
 
           # HTML <img> (alt optional)
