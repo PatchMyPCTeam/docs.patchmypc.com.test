@@ -10,7 +10,7 @@ To locate any Custom Apps for Managed Service Providers (MSPs) you’ve created 
     ![Clicking the filter button](/_images/image-(2263).png "Clicking the filter button")
 
 
-2.  Under the **Source** section, select the checkbox for the relevant company that created the Custom App and click **Apply All Filters**.\
+2.  Under the <strong>Source</strong> section, select the checkbox for the relevant company that created the Custom App and click <strong>Apply All Filters</strong>.\
 
 
     ![Selecting the checkbox for the relevant company that created the Custom App and clicking “Apply All Filters](/_images/image-(2264).png "Selecting the checkbox for the relevant company that created the Custom App and clicking “Apply All Filters")
@@ -23,6 +23,6 @@ To locate any Custom Apps for Managed Service Providers (MSPs) you’ve created 
     ![Filtered App Catalog list](/_images/image-(2265).png "Filtered App Catalog list")
 
 <blockquote class="wp-block-quote">
-<p>**Tip**</p>
-<p>Don’t forget to click **Clear All** when you’ve finished working with the filters.</p>
+<p><strong>Tip</strong></p>
+<p>Don’t forget to click <strong>Clear All</strong> when you’ve finished working with the filters.</p>
 </blockquote>

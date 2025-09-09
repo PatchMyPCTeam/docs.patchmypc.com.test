@@ -2,7 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-This article lists the various that are generated with the **Security** severity by Patch My PC (PMPC) Cloud.
+This article lists the various that are generated with the <strong>Security</strong> severity by Patch My PC (PMPC) Cloud.
 
 | Title                                                                                                                  | Category   | Operation Type | Generated when                                                           |
 | ---------------------------------------------------------------------------------------------------------------------- | ---------- | -------------- | ------------------------------------------------------------------------ |
@@ -15,7 +15,7 @@ This article lists the various that are generated with the **Security** severity
 | Intune Connection Added                                                                                                | Intune     | Connected      | An Intune tenant is connected to the portal.                             |
 | Intune Connection Removed                                                                                              | Intune     | Disconnected   | An Intune tenant is disconnected from the portal.                        |
 | Invitation Sent to <_user\_name_>                                                                                      | Invitation | Created        | A user invitation is sent.                                               |
-| Preview Features Setting Updated by \<user\_name>                                                                      | Company    | Updated        | A user changes the **Preview Features** setting for a company            |
+| Preview Features Setting Updated by \<user\_name>                                                                      | Company    | Updated        | A user changes the <strong>Preview Features</strong> setting for a company            |
 | User Account Created for <_user\_name_>                                                                                | User       | Created        | A user is created.                                                       |
 | <_user\_name_> Removed by <_admin\_name_>                                                                              | User       | Removed        | A user is deleted.                                                       |
 | <_user\_name_> Role Changed by <_admin\_name_>\`                                                                       | User       | Role changed   | A user's role is changed.                                                |

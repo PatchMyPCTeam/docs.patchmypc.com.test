@@ -31,8 +31,8 @@ The donut chart breaks down profiles based on size on disk.
 The User Profiles chart gives you a full list of inventoried user profiles on client devices but also you have the ability to delete a users profile from a device too.
 
 <blockquote class="wp-block-quote">
-<p>Each profile entry includes a **Delete** button, allowing administrators to remove a user profile from the device entirely.&#x20;</p>
-<p>**Warning**: This action permanently deletes the local user profile, including all associated files and settings, from the device.</p>
+<p>Each profile entry includes a <strong>Delete</strong> button, allowing administrators to remove a user profile from the device entirely.&#x20;</p>
+<p><strong>Warning</strong>: This action permanently deletes the local user profile, including all associated files and settings, from the device.</p>
 </blockquote>
 
 ![](/_images/image-(2176).png "User Profiles")

@@ -6,11 +6,11 @@ _Applies to: Patch My PC Cloud_
 
 I am trying to create a child Patch My PC (PMPC) Cloud company using the Managed Service Provider (MSP) feature.
 
-However, after clicking **Connect** and authenticating, I get the following error:
+However, after clicking <strong>Connect</strong> and authenticating, I get the following error:
 
-**Error**
+<strong>Error</strong>
 
-**Intune connection with the same Id found in another environment!**
+<strong>Intune connection with the same Id found in another environment!</strong>
 
 ![“Intune connection with the same Id found in another environment!” error](/_images/image-(2094).png "“Intune connection with the same Id found in another environment!” error")
 
@@ -22,9 +22,9 @@ We do not support sharing an Intune tenant between multiple PMPC Cloud companies
 
 ### RESOLUTION
 
-Sign in to the child company and navigate to  **Settings | Environments** and if Intune is already connected, delete the connection.
+Sign in to the child company and navigate to  <strong>Settings | Environments</strong> and if Intune is already connected, delete the connection.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>See [Deleting an Intune tenant connection](../../cloud-administration/manage-your-environments-in-cloud/manage-cloud-intune-tenants.md#deleting-an-intune-tenant-connection) for more information.</p>
 </blockquote>

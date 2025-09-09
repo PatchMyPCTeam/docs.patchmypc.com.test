@@ -2,7 +2,7 @@
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-Advanced Insights needs a valid SSL certificate to install and function. **(the installer will verify the certificate is valid).**
+Advanced Insights needs a valid SSL certificate to install and function. <strong>(the installer will verify the certificate is valid).</strong>
 
 Supported Certificate types:
 
@@ -19,15 +19,15 @@ The certificate must meet the following minimum requirements:
 * Enhanced key usage includes "Server Authentication".
 * Only modern signature types are supported (e.g. SHA256). Legacy / weak signature algorithms, for example; 'SHA1', 'MD2', 'MD4', 'MD5 are not supported.
 * Subject Alternative Name (SAN). The certificate SAN requirements depend on the chosen deployment configuration for the Advanced Insights URL.
-  * **Scenario 1 - Server Host name certificate.**
-    * For Advanced Insights URL deployment using **server host name** (e.g. _https://server01.contoso.local_) the certificate SAN must contain an entry which matches the FQDN of the host server where Advanced Insights is installed.
-  * **Scenario 2 - Wildcard certificate.**
-    * For Advanced Insights URL deployment using a **wildcard certificate**, an entry must be included in the certificate SAN that represents the wildcard certificate. e.g. ' _\*contoso.local_'.
-  * **Scenario 3 - CNAME / Alias certificate.**
-    * For Advanced Insights URL deployment using a **CNAME / Alias,** (e.g. _https://AdvancedInsights.contoso.local_) the certificate SAN must contain an entry which represents the CNAME / Alias. e.g. '_AdvancedInsights.contoso.local'._
+  * <strong>Scenario 1 - Server Host name certificate.</strong>
+    * For Advanced Insights URL deployment using <strong>server host name</strong> (e.g. _https://server01.contoso.local_) the certificate SAN must contain an entry which matches the FQDN of the host server where Advanced Insights is installed.
+  * <strong>Scenario 2 - Wildcard certificate.</strong>
+    * For Advanced Insights URL deployment using a <strong>wildcard certificate</strong>, an entry must be included in the certificate SAN that represents the wildcard certificate. e.g. ' _\*contoso.local_'.
+  * <strong>Scenario 3 - CNAME / Alias certificate.</strong>
+    * For Advanced Insights URL deployment using a <strong>CNAME / Alias,</strong> (e.g. _https://AdvancedInsights.contoso.local_) the certificate SAN must contain an entry which represents the CNAME / Alias. e.g. '_AdvancedInsights.contoso.local'._
 
 <blockquote class="wp-block-quote">
-<p>When using a **CNAME / Alias** or **Wilcard** certificate for custom Advanced Insights deployment URL, ensure that DNS has been updated to include an entry which represents the chosen CNAME / Alias.</p>
+<p>When using a <strong>CNAME / Alias</strong> or <strong>Wilcard</strong> certificate for custom Advanced Insights deployment URL, ensure that DNS has been updated to include an entry which represents the chosen CNAME / Alias.</p>
 <p>_Example:_</p>
 <p>![](/_images/image-(1024).png>)</p>
 </blockquote>
@@ -173,7 +173,7 @@ Example PowerShell outputs:
 ![](/_images/image-(1313).png "Unsupported Certificates")
 
 <blockquote class="wp-block-quote">
-<p>**Self-signed certificate use.**</p>
+<p><strong>Self-signed certificate use.</strong></p>
 <p>When deploying Advanced Insights using a self-signed certificate, the installer will automatically create the certificate using the server host name value to create the Advanced Insights URL.</p>
 <p>Example:</p>
 <p>_https://server01.contoso.local_</p>

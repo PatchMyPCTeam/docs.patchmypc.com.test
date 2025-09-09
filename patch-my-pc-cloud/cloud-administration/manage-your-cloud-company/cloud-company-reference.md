@@ -2,7 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-The **Company** node of the Patch My PC (PMPC) Cloud portal contains the following fields.
+The <strong>Company</strong> node of the Patch My PC (PMPC) Cloud portal contains the following fields.
 
 ### Company Name
 
@@ -29,19 +29,19 @@ The geographical region where your company stores its data, as specified during 
 Unchecked by default and controls if your company gets automatic access to _Preview Features._
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>See [Enable Preview Features](enable-cloud-preview-features.md) for more information.</p>
 </blockquote>
 
 ### Company Recovery
 
-Disabled by default, enabling the **Enable Company Recovery** option allows you to control whether your company can be recovered in the event that your users assigned the **Full Admin with Access Management** role leave and no one knows their credentials.
+Disabled by default, enabling the <strong>Enable Company Recovery</strong> option allows you to control whether your company can be recovered in the event that your users assigned the <strong>Full Admin with Access Management</strong> role leave and no one knows their credentials.
 
 ### Customer Support
 
 Allows you to grant PMPC support access to your portal to help troubleshoot issues.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>See [Granting Patch My PC Support access to your portal](grant-patch-my-pc-support-access-to-your-cloud-portal.md) for more details.</p>
 </blockquote>

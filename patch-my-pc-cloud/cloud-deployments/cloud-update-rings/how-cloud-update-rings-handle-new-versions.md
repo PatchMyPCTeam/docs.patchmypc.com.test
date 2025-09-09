@@ -31,42 +31,42 @@ How Update Rings behave depends on which Update ring Start Time you chose at the
 
 For this example, we will assume you want to deploy version 2019.1 of dBase:
 
-* &#x20;Initially to the **dBase Pilot Users** group.
-* Two days later, you want to deploy the software to the **dBase All Users** group.
+* &#x20;Initially to the <strong>dBase Pilot Users</strong> group.
+* Two days later, you want to deploy the software to the <strong>dBase All Users</strong> group.
 
-This is how you would configure this deployment in the PMPC Cloud portal to use **Delayed** update Rings.
+This is how you would configure this deployment in the PMPC Cloud portal to use <strong>Delayed</strong> update Rings.
 
 ![Configuring a phased deployment using Delayed Update Rings in PMPC Cloud](/_images/image-(2199).png "Configuring a phased deployment using Delayed Update Rings in PMPC Cloud")
 
-In this scenario, when you deploy the app the **Deployments** node is displayed along with the **Success – Created <**_**app\_name**_**>** notification.
+In this scenario, when you deploy the app the <strong>Deployments</strong> node is displayed along with the <strong>Success – Created <</strong>_<strong>app\_name</strong>_<strong>></strong> notification.
 
 ![](/_images/image-(2200).png "")
 
-Once the deployment has been completed successfully, if you look in the Microsoft Intune admin center under **All apps** and search for the app, you will see that version **2019.1** has been successfully deployed.
+Once the deployment has been completed successfully, if you look in the Microsoft Intune admin center under <strong>All apps</strong> and search for the app, you will see that version <strong>2019.1</strong> has been successfully deployed.
 
 ![Version 2019.1 successfully deployed](/_images/image-(2201).png "Version 2019.1 successfully deployed")
 
-If you click the app and navigate to **Manage | Properties**, then scroll down to the **Assignments** section, as you are using delayed update rings you will only see the assignments for the first Update Ring has been created and applied to this version.
+If you click the app and navigate to <strong>Manage | Properties</strong>, then scroll down to the <strong>Assignments</strong> section, as you are using delayed update rings you will only see the assignments for the first Update Ring has been created and applied to this version.
 
 ![Only the assignment for the first update rings has been created and applied to this version.](/_images/image-(2202).png "Only the assignment for the first update rings has been created and applied to this version.")
 
-If you click on the deployment in the portal, then click **More Info**, then click **Ring 2**, you will see that this ring is scheduled to be created two days after the deployment was created.
+If you click on the deployment in the portal, then click <strong>More Info</strong>, then click <strong>Ring 2</strong>, you will see that this ring is scheduled to be created two days after the deployment was created.
 
 ![Ring 2 scheduled to be created two days after the deployment was created](/_images/image-(2203).png "Ring 2 scheduled to be created two days after the deployment was created")
 
-Two days after the deployment was created and after the next Sync Schedule runs, the second update ring will be created and the assignment added for the **dBase All Users** group to install the software to all of the members of this group.
+Two days after the deployment was created and after the next Sync Schedule runs, the second update ring will be created and the assignment added for the <strong>dBase All Users</strong> group to install the software to all of the members of this group.
 
 ![Second Update Ring has been created, which has added the assignment to the “dBase All Users” group.](/_images/image-(2204).png "Second Update Ring has been created, which has added the assignment to the “dBase All Users” group.")
 
 You can now edit the deployment if required, as all of the rings have been created.
 
-If you also look at the deployment's properties, you will see that the second ring has been created successfully and assigned to the **dBase All Users** group.
+If you also look at the deployment's properties, you will see that the second ring has been created successfully and assigned to the <strong>dBase All Users</strong> group.
 
 ![Properties of the deployment showing the second Update Ring has been created and assigned to the “dBase All Users” group.](/_images/image-(2205).png "Properties of the deployment showing the second Update Ring has been created and assigned to the “dBase All Users” group.")
 
-As the following table shows, the software is installed immediately for any users in the **dBase Pilot Users** group.
+As the following table shows, the software is installed immediately for any users in the <strong>dBase Pilot Users</strong> group.
 
-Any users in the **dBase All Users** group will not have the software installed until two days later.
+Any users in the <strong>dBase All Users</strong> group will not have the software installed until two days later.
 
 <table><thead><tr><th width="92">Day</th><th width="197">Group</th><th>Software installed?</th></tr></thead><tbody><tr><td>0</td><td>dBase Pilot Users<br>dBase All Users</td><td>Yes<br>No</td></tr><tr><td>1</td><td>dBase Pilot Users<br>dBase All Users</td><td>Yes<br>No</td></tr><tr><td>2</td><td>dBase Pilot Users<br>dBase All Users</td><td>Yes<br>Yes</td></tr></tbody></table>
 
@@ -80,16 +80,16 @@ In this scenario, you can:
 * Run the [Sync Now](../manage-updates-in-cloud/sync-now-cloud-feature.md) process to update just this deployment immediately.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>This is one of the many reasons why we recommend configuring your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to **Daily** if you are using Update Rings.</p>
+<p><strong>Note</strong></p>
+<p>This is one of the many reasons why we recommend configuring your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to <strong>Daily</strong> if you are using Update Rings.</p>
 <p>We also use the release date of the new version to validate if it is the right time to update the assignments to upgrade rings to later versions.</p>
 </blockquote>
 
-Once the deployment has been updated, you can now edit it as all of the rings have now been created. If you look at the deployment’s properties, you will see that for the **Ring 1**, version **2019.2** has now been assigned to the **dBase Pilot Users** group.
+Once the deployment has been updated, you can now edit it as all of the rings have now been created. If you look at the deployment’s properties, you will see that for the <strong>Ring 1</strong>, version <strong>2019.2</strong> has now been assigned to the <strong>dBase Pilot Users</strong> group.
 
 ![Version 2019.2 targeted to the “dBase Pilot Users” Update Ring.](/_images/image-(2206).png "Version 2019.2 targeted to the “dBase Pilot Users” Update Ring.")
 
-But if you click on **Ring 2**, you will see that version **2019.1** is still assigned to the **dBase All Users** group.
+But if you click on <strong>Ring 2</strong>, you will see that version <strong>2019.1</strong> is still assigned to the <strong>dBase All Users</strong> group.
 
 ![“Ring 2” is still assigned version 2019.1 and assigned to the “dBase All Users” group](/_images/image-(2207).png "“Ring 2” is still assigned version 2019.1 and assigned to the “dBase All Users” group")
 
@@ -97,23 +97,23 @@ If you check in the Intune admin center, you will now see both the existing app 
 
 ![Intune admin center shows both the existing app (version 2019.1) and the new version we have just deployed (version 2019.2).](/_images/image-(2208).png "Intune admin center shows both the existing app (version 2019.1) and the new version we have just deployed (version 2019.2).")
 
-If you check the assignments for the original deployment (version 2019.1), you will see it is now only assigned to the **dBase All Users** group.
+If you check the assignments for the original deployment (version 2019.1), you will see it is now only assigned to the <strong>dBase All Users</strong> group.
 
 ![Updated assignment for the original version (2019.1)](/_images/image-(2209).png "Updated assignment for the original version (2019.1)")
 
-Whereas, if you check the assignments for the new deployment (version 2019.2), you will see it is only assigned for now to the **dBase Pilot Users** group.
+Whereas, if you check the assignments for the new deployment (version 2019.2), you will see it is only assigned for now to the <strong>dBase Pilot Users</strong> group.
 
 ![Assignments for the new deployment (version 2019.2) is only assigned for now to the dBase Pilot Users group.](/_images/image-(2210).png "Assignments for the new deployment (version 2019.2) is only assigned for now to the dBase Pilot Users group.")
 
-Two days after the new version of the app is released and after the next Sync Schedule runs, the assignment for the **dBase All Users** group will be automatically moved from the version 2019.1 deployment to the 2019.2 deployment, automatically upgrading the members of the **dBase All Users** group to version 2019.2.
+Two days after the new version of the app is released and after the next Sync Schedule runs, the assignment for the <strong>dBase All Users</strong> group will be automatically moved from the version 2019.1 deployment to the 2019.2 deployment, automatically upgrading the members of the <strong>dBase All Users</strong> group to version 2019.2.
 
-The old version of the app (2019.1), will remain, but will no longer show as **Yes** under the **Assigned** column in the Intune admin center. At the next sync, the old version of the app will be deleted.
+The old version of the app (2019.1), will remain, but will no longer show as <strong>Yes</strong> under the <strong>Assigned</strong> column in the Intune admin center. At the next sync, the old version of the app will be deleted.
 
 ![Assignments for the old version (2019.1) no longer has any assignments](/_images/image-(2211).png "Assignments for the old version (2019.1) no longer has any assignments")
 
 This update process is summarized in the following table:
 
-<table><thead><tr><th width="88">Day*</th><th>Group</th><th>Current version</th><th>Upgraded?</th><th>Installed version</th></tr></thead><tbody><tr><td>0</td><td>dBase Pilot Users<br>dBase All Users</td><td>2019.1<br>2019.1</td><td>Yes<br>No</td><td>2019.2<br>2019.1</td></tr><tr><td>1</td><td>dBase Pilot Users<br>dBase All Users</td><td>2019.2<br>2019.1</td><td>No**<br>No</td><td>2019.2<br>2019.1</td></tr><tr><td>2</td><td>dBase Pilot Users<br>dBase All Users</td><td>2019.2<br>2019.1</td><td>No**<br>Yes</td><td>2019.2<br>2019.1</td></tr></tbody></table>
+<table><thead><tr><th width="88">Day*</th><th>Group</th><th>Current version</th><th>Upgraded?</th><th>Installed version</th></tr></thead><tbody><tr><td>0</td><td>dBase Pilot Users<br>dBase All Users</td><td>2019.1<br>2019.1</td><td>Yes<br>No</td><td>2019.2<br>2019.1</td></tr><tr><td>1</td><td>dBase Pilot Users<br>dBase All Users</td><td>2019.2<br>2019.1</td><td>No<strong><br>No</td><td>2019.2<br>2019.1</td></tr><tr><td>2</td><td>dBase Pilot Users<br>dBase All Users</td><td>2019.2<br>2019.1</td><td>No</strong><br>Yes</td><td>2019.2<br>2019.1</td></tr></tbody></table>
 
 \* Number of days after the new version of the app is released
 
@@ -123,22 +123,22 @@ This update process is summarized in the following table:
 
 For this example, we will assume you want to deploy version 2024.1 of PaintShop Pro:
 
-* Initially to the **Corel Pilot Users** group.
-* Two days later, you want to deploy the software to the **Corel All Users** group.
+* Initially to the <strong>Corel Pilot Users</strong> group.
+* Two days later, you want to deploy the software to the <strong>Corel All Users</strong> group.
 
-This is how you would configure this deployment in the PMPC Cloud portal to use **Immediate** Update Rings.
+This is how you would configure this deployment in the PMPC Cloud portal to use <strong>Immediate</strong> Update Rings.
 
 ![Configuring a phased deployment using Immediate Update Rings in PMPC Cloud](/_images/image-(2212).png "Configuring a phased deployment using Immediate Update Rings in PMPC Cloud")
 
-When you deploy the software, you see the **Deployment Summary** of how the deployment will be handled.
+When you deploy the software, you see the <strong>Deployment Summary</strong> of how the deployment will be handled.
 
 ![Deployment summary summarizing how the deployment will be handled](/_images/image-(2213).png "Deployment summary summarizing how the deployment will be handled")
 
-Once the deployment has completed successfully, if you look in the Microsoft Intune admin center under **All apps** and search for the app, you will see that version **2024.1** has been successfully deployed.
+Once the deployment has completed successfully, if you look in the Microsoft Intune admin center under <strong>All apps</strong> and search for the app, you will see that version <strong>2024.1</strong> has been successfully deployed.
 
 ![Version 2024.1 successfully deployed](/_images/image-(2214).png "Version 2024.1 successfully deployed")
 
-If you then click the app and navigate to **Manage | Properties**, then scroll down to the **Assignments** section, you will see all of the assignments for each of the Update Rings have been created and applied to this version.
+If you then click the app and navigate to <strong>Manage | Properties</strong>, then scroll down to the <strong>Assignments</strong> section, you will see all of the assignments for each of the Update Rings have been created and applied to this version.
 
 ![All assignments for each of the Update Rings created and applied to this version.](/_images/image-(2215).png "All assignments for each of the Update Rings created and applied to this version.")
 
@@ -162,16 +162,16 @@ In this scenario, you can:
 * Run the [Sync Now](../manage-updates-in-cloud/sync-now-cloud-feature.md) process to update just this deployment immediately.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>This is one of the many reasons why we recommend configuring your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to **Daily** if you are using Update Rings.</p>
+<p><strong>Note</strong></p>
+<p>This is one of the many reasons why we recommend configuring your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to <strong>Daily</strong> if you are using Update Rings.</p>
 <p>We also use the release date of the new version to validate if it is the right time to update the assignments to upgrade rings to later versions.</p>
 </blockquote>
 
-Once the deployment has been updated, if you look at its properties, you will see that for the **Ring 1**, version **2024.2** has now been assigned to the **Corel Pilot Users** group.
+Once the deployment has been updated, if you look at its properties, you will see that for the <strong>Ring 1</strong>, version <strong>2024.2</strong> has now been assigned to the <strong>Corel Pilot Users</strong> group.
 
 ![Version 2024.2 targeted to the “Corel Pilot Users” Update Ring.](/_images/image-(2216).png "Version 2024.2 targeted to the “Corel Pilot Users” Update Ring.")
 
-But if you click on **Ring 2**, you will see that version **2024.1** is still assigned to the **Corel All Users** group.
+But if you click on <strong>Ring 2</strong>, you will see that version <strong>2024.1</strong> is still assigned to the <strong>Corel All Users</strong> group.
 
 ![“Ring 2” is still assigned version 2024.1 and assigned to the “Corel All Users” group](/_images/image-(2217).png "“Ring 2” is still assigned version 2024.1 and assigned to the “Corel All Users” group")
 
@@ -179,23 +179,23 @@ If you check in the Intune admin center, you will now see both the existing app 
 
 ![Intune admin center shows both the existing app (version 2024.1) and the new version we have just deployed (version 2024.2).](/_images/image-(2218).png "Intune admin center shows both the existing app (version 2024.1) and the new version we have just deployed (version 2024.2).")
 
-If you check the assignments for the original deployment (version 2024.1), you will see it is now only assigned to the **Corel All Users** group.
+If you check the assignments for the original deployment (version 2024.1), you will see it is now only assigned to the <strong>Corel All Users</strong> group.
 
 ![Updated assignment for the original version (2024.1)](/_images/image-(2196).png "Updated assignment for the original version (2024.1)")
 
-Whereas, if you check the assignments for the new deployment (version 2024.2), you will see it is only assigned for now to the **Corel Pilot Users** group.
+Whereas, if you check the assignments for the new deployment (version 2024.2), you will see it is only assigned for now to the <strong>Corel Pilot Users</strong> group.
 
 ![Assignments for the new deployment (version 2024.2) is only assigned for now to the Corel Pilot Users group](/_images/image-(2197).png "Assignments for the new deployment (version 2024.2) is only assigned for now to the Corel Pilot Users group")
 
-Two days after the new version of the app is released, the assignment for the **Corel All Users** group will be automatically moved from the version 2024.1 deployment to the 2024.2 deployment, automatically upgrading the members of the **Corel All Users** group to version 2024.2.
+Two days after the new version of the app is released, the assignment for the <strong>Corel All Users</strong> group will be automatically moved from the version 2024.1 deployment to the 2024.2 deployment, automatically upgrading the members of the <strong>Corel All Users</strong> group to version 2024.2.
 
-The old version of the app (2024.1), will remain, but will no longer show as **Yes** under the **Assigned** column in the Intune admin center. At the next sync, the old version of the app will be deleted.
+The old version of the app (2024.1), will remain, but will no longer show as <strong>Yes</strong> under the <strong>Assigned</strong> column in the Intune admin center. At the next sync, the old version of the app will be deleted.
 
 ![Assignments for the old version (2024.1) no longer has any assignments](/_images/image-(2198).png "Assignments for the old version (2024.1) no longer has any assignments")
 
 This update process is summarized in the following table:
 
-<table><thead><tr><th width="89">Day*</th><th>Group</th><th>Current version</th><th>Upgraded?</th><th>Installed version</th></tr></thead><tbody><tr><td>0</td><td>Corel Pilot Users<br>Corel All Users</td><td>2024.1<br>2024.1</td><td>Yes<br>No</td><td>2024.2<br>2024.1</td></tr><tr><td>1</td><td>Corel Pilot Users<br>Corel All Users</td><td>2024.2<br>2024.1</td><td>No**<br>No</td><td>2024.2<br>2024.1</td></tr><tr><td>2</td><td>Corel Pilot Users<br>Corel All Users</td><td>2024.2<br>2024.1</td><td>No**<br>Yes</td><td>2024.2<br>2024.2</td></tr></tbody></table>
+<table><thead><tr><th width="89">Day*</th><th>Group</th><th>Current version</th><th>Upgraded?</th><th>Installed version</th></tr></thead><tbody><tr><td>0</td><td>Corel Pilot Users<br>Corel All Users</td><td>2024.1<br>2024.1</td><td>Yes<br>No</td><td>2024.2<br>2024.1</td></tr><tr><td>1</td><td>Corel Pilot Users<br>Corel All Users</td><td>2024.2<br>2024.1</td><td>No<strong><br>No</td><td>2024.2<br>2024.1</td></tr><tr><td>2</td><td>Corel Pilot Users<br>Corel All Users</td><td>2024.2<br>2024.1</td><td>No</strong><br>Yes</td><td>2024.2<br>2024.2</td></tr></tbody></table>
 
 \* Number of days after the new version of the app is released
 

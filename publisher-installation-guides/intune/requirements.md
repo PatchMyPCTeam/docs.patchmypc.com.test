@@ -23,7 +23,7 @@ When installing the Publisher for an Intune-only configuration, ensure you meet 
     * When using Windows 10/11, the [RSAT: Windows Server Updates Services](https://docs.microsoft.com/en-us/windows-server/remote/remote-server-administration-tools#BKMK_Thresh) needs to be installed.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>See the <a href="https://patchmypc.com/windows-server-update-services-not-installed#howtofixit">How to fix</a> section of the <a href="https://patchmypc.com/windows-server-update-services-not-installed">Windows Server Update Services is not installed</a> Knowledge Base article for details on how to install RSAT.</p>
 </blockquote>
 
@@ -31,9 +31,9 @@ When installing the Publisher for an Intune-only configuration, ensure you meet 
   * When using Windows Server, only the WSUS API component needs to be installed, not full WSUS.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>The Publisher displays the following dialog if the WSUS prerequisites are not installed:\</p>
-<p>&#x20;         **Windows Server Update Services is not installed.**</p>
+<p>&#x20;         <strong>Windows Server Update Services is not installed.</strong></p>
 <p>See the <a href="https://patchmypc.com/windows-server-update-services-not-installed">Windows Server Update Services is not installed</a> Knowledge Base article for details on how to resolve this.</p>
 </blockquote>
 

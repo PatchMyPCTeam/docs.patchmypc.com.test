@@ -22,7 +22,7 @@ Here are a few important resources below to get you started.
 ### Free Setup Call with an Engineer
 
 <blockquote class="wp-block-quote">
-<p>**Tip**: Did you know you can schedule a free setup call with an engineer if you prefer to have an engineer from Patch My PC perform a guided install with you in your environment?</p>
+<p><strong>Tip</strong>: Did you know you can schedule a free setup call with an engineer if you prefer to have an engineer from Patch My PC perform a guided install with you in your environment?</p>
 </blockquote>
 
 {% embed url="https://calendly.com/patch-my-pc-live-demos/patch-my-pc-setup-call" %}

@@ -13,7 +13,7 @@ _Applies to: Patch My PC Cloud_
     ![Clicking the small envelope beside any of the email addresses to send them a test message](/_images/image-(1922).png "Clicking the small envelope beside any of the email addresses to send them a test message")
 
     \
-    The portal will send a test email and display the **Success - Test email has been sent** notification.\
+    The portal will send a test email and display the <strong>Success - Test email has been sent</strong> notification.\
 
 
     ![&#x22;Success - Test email has been sent&#x22; notification](/_images/image-(1923).png "&#x22;Success - Test email has been sent&#x22; notification")
@@ -21,11 +21,11 @@ _Applies to: Patch My PC Cloud_
     \
     If the email address is valid, the user will receive an email address with the following details:\
     \
-    **Sender:** Patch My PC\<noreply@patchmypc.com>\
-    **Subject:** Test notification from Patch My PC Cloud
+    <strong>Sender:</strong> Patch My PC\<noreply@patchmypc.com>\
+    <strong>Subject:</strong> Test notification from Patch My PC Cloud
 
 <blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<p><strong>Tip</strong></p>
 <p>If the user does not receive the email, check the email is not in their junk email folder.</p>
 </blockquote>
 
@@ -38,7 +38,7 @@ _Applies to: Patch My PC Cloud_
     ![Clicking the small envelope beside any of the email addresses to send them a test message](/_images/image-(1922).png "Clicking the small envelope beside any of the email addresses to send them a test message")
 
     \
-    The portal will send a test email and display the **Success - Test email has been sent** notification.\
+    The portal will send a test email and display the <strong>Success - Test email has been sent</strong> notification.\
 
 
     ![&#x22;Success - Test email has been sent&#x22; notification](/_images/image-(1923).png "&#x22;Success - Test email has been sent&#x22; notification")
@@ -47,14 +47,14 @@ _Applies to: Patch My PC Cloud_
 
     If the email address is valid, the user will receive an email address with the following details:\
     \
-    **Sender:** Patch My PC\<noreply@patchmypc.com>\
-    **Subject:** Test notification from Patch My PC Cloud\
+    <strong>Sender:</strong> Patch My PC\<noreply@patchmypc.com>\
+    <strong>Subject:</strong> Test notification from Patch My PC Cloud\
     \
 
 
     ![Test email showing email notifications are working](/_images/image-(1893).png "Test email showing email notifications are working")
 
 <blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<p><strong>Tip</strong></p>
 <p>If the user does not receive the email, check the email is not in their junk email folder.</p>
 </blockquote>

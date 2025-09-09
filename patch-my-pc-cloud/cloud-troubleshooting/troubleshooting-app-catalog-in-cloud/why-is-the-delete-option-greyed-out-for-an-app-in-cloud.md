@@ -6,7 +6,7 @@ _Applies to: Patch My PC Cloud_
 
 I am trying to delete an app from the Patch My PC (PMPC) Cloud App Catalog.
 
-But when I click on the app and open its properties, the **Delete** option is greyed out.
+But when I click on the app and open its properties, the <strong>Delete</strong> option is greyed out.
 
 ![](/_images/image-(1952).png "")
 
@@ -15,9 +15,9 @@ But when I click on the app and open its properties, the **Delete** option is gr
 This is because the app has one or more active deployments. You cannot delete an app that has active deployments.
 
 <blockquote class="wp-block-quote">
-<p>**Tip**</p>
-<p>If you put your mouse over the **Delete** button, the mouseover text actually tells you:</p>
-<p>**This app has deployments. Please delete those first.**</p>
+<p><strong>Tip</strong></p>
+<p>If you put your mouse over the <strong>Delete</strong> button, the mouseover text actually tells you:</p>
+<p><strong>This app has deployments. Please delete those first.</strong></p>
 </blockquote>
 
 ### RESOLUTION

@@ -13,17 +13,17 @@ As per the dialog box:
 
 “_Accepting these permissions means that you allow this app to use your data as specified in their_ [_terms of service_](https://patchmypc.com/terms-of-service) _and_ [_privacy statement_](https://patchmypc.com/privacy-policy)_. You can change these permissions at_ [_https://myapps.microsoft.com_](https://myapps.microsoft.com)_._ [_Show details_](https://login.microsoftonline.com/common/login)_._”
 
-You will be prompted to grant these during the onboarding process by clicking **Accept** on the **Permissions requested** dialog box.
+You will be prompted to grant these during the onboarding process by clicking <strong>Accept</strong> on the <strong>Permissions requested</strong> dialog box.
 
 ![“Permissions required” prompting to grant permissions to your environment.](/_images/image-(1351).png "“Permissions required” prompting to grant permissions to your environment.")
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>Whether or not you see the **Permissions Required** dialog box and what you see on it depends on the account you use to sign into Entra and how the **User consent for applications** settings are configured in your environment.</p>
+<p><strong>Note</strong></p>
+<p>Whether or not you see the <strong>Permissions Required</strong> dialog box and what you see on it depends on the account you use to sign into Entra and how the <strong>User consent for applications</strong> settings are configured in your environment.</p>
 <p>![“User consent settings for applications” Entra settings.](/_images/image (962).png>)</p>
-<p>You will only see the C**onsent on behalf of your organization** checkbox if the user account you are signed in with is a Global Admin.</p>
-<p>How the **User consent for applications** settings are configured determines whether you can sign up for the PMPC Cloud or not.</p>
-<p>If **Do not allow user consent** is configured, you will not see the **Permissions Requested** dialog box, but an error prompting you to contact an administrator.</p>
-<p>If either **Allow user consent for apps from verified publishers, for selected permissions (Recommended)** or **Allow user consent for apps** is configured, any user can register for the PMPC Cloud and complete the app registration.</p>
+<p>You will only see the C<strong>onsent on behalf of your organization</strong> checkbox if the user account you are signed in with is a Global Admin.</p>
+<p>How the <strong>User consent for applications</strong> settings are configured determines whether you can sign up for the PMPC Cloud or not.</p>
+<p>If <strong>Do not allow user consent</strong> is configured, you will not see the <strong>Permissions Requested</strong> dialog box, but an error prompting you to contact an administrator.</p>
+<p>If either <strong>Allow user consent for apps from verified publishers, for selected permissions (Recommended)</strong> or <strong>Allow user consent for apps</strong> is configured, any user can register for the PMPC Cloud and complete the app registration.</p>
 <p>Also, if you will use the Intune Apps Feature, the onboarding process requires additional permissions as detailed in [Permissions required for Intune Apps](permissions-required-for-intune-apps.md).</p>
 </blockquote>

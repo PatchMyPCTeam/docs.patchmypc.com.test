@@ -5,11 +5,11 @@ _Applies to: Patch My PC Cloud_
 The _Deployment Templates_ (_Templates_) feature of Patch My PC (PMPC) Cloud allows you to configure a template containing various standard settings for PMPC Cloud deployments. Once created, these templates can be used whenever you deploy an app using PMPC Cloud to ensure consistency across your deployments.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>See [Using Templates in Deployments](../../cloud-deployments/use-a-template-in-cloud-deployments.md) for details on using templates in new deployments.</p>
 </blockquote>
 
-All deployment template-related tasks are performed from the **Templates** node of the portal, accessed by navigating to **Settings | Templates**.
+All deployment template-related tasks are performed from the <strong>Templates</strong> node of the portal, accessed by navigating to <strong>Settings | Templates</strong>.
 
 ![Navigating to “Settings | Templates”](/_images/image-(273).png "Navigating to “Settings | Templates”")
 

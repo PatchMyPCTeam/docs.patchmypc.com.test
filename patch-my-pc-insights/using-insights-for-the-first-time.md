@@ -34,6 +34,6 @@ If you have a problem at this stage, please see [this document ](insights-sql-pe
 
 ![](/_images/image-(1106).png "")
 
-Once the license key and SQL sections are successfully completed, click **Go to Dashboard** in the final step to complete setup.
+Once the license key and SQL sections are successfully completed, click <strong>Go to Dashboard</strong> in the final step to complete setup.
 
 ![](/_images/image-(1138).png "")

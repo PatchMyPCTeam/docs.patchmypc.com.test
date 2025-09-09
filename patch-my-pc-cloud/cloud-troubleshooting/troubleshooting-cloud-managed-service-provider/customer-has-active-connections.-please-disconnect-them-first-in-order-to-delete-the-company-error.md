@@ -8,9 +8,9 @@ I am trying to delete a child Patch My PC (PMPC) Cloud company of a Managed Serv
 
 However, when I try, I get the following error:
 
-**Error**
+<strong>Error</strong>
 
-**Customer has active connections. Please disconnect them first in order to delete the company**
+<strong>Customer has active connections. Please disconnect them first in order to delete the company</strong>
 
 ![“Customer has active connections. Please disconnect them first in order to delete the company” error](/_images/image-(374).png "“Customer has active connections. Please disconnect them first in order to delete the company” error")
 

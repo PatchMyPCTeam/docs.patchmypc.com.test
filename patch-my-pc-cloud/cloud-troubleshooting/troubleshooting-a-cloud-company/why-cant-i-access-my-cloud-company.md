@@ -4,7 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 ### SYMPTOMS
 
-I am trying to onboard to the Patch My PC Cloud (PMPC) portal. My company is listed on the **Select the Company You Want to Sign-In To** screen and I’ve clicked **Request Access**.
+I am trying to onboard to the Patch My PC Cloud (PMPC) portal. My company is listed on the <strong>Select the Company You Want to Sign-In To</strong> screen and I’ve clicked <strong>Request Access</strong>.
 
 However, no one remembers who registered the company, so I cannot gain access.
 
@@ -19,6 +19,6 @@ This problem occurs if you only have one user with Access Management privileges 
 To resolve this issue, follow the [Recover Your Company](../../cloud-administration/manage-your-cloud-company/recover-your-cloud-company.md) process to regain access.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>Once you regain access, ensure you set up at least two users with the **Full Admin with Access Management** user role as detailed in <a href="https://docs.patchmypc.com/patch-my-pc-cloud/administration/managing-users/modify-a-user#managing-access-management-privileges-for-a-user">Managing Access Management privileges for a User</a>. This will help you avoid this problem in the future.</p>
+<p><strong>Note</strong></p>
+<p>Once you regain access, ensure you set up at least two users with the <strong>Full Admin with Access Management</strong> user role as detailed in <a href="https://docs.patchmypc.com/patch-my-pc-cloud/administration/managing-users/modify-a-user#managing-access-management-privileges-for-a-user">Managing Access Management privileges for a User</a>. This will help you avoid this problem in the future.</p>
 </blockquote>
