@@ -28,7 +28,7 @@ Start the installation by double-clicking the downloaded AdvancedInsights.exe
 
 #### Prerequisites Screen
 
-Once the installation starts, you will likely be greeted by the prerequisite screen in our installer wizard, click **Next.**
+Once the installation starts, you will likely be greeted by the prerequisite screen in our installer wizard, click <strong>Next.</strong>
 
 <blockquote class="wp-block-quote">
 <p>If you have already met the prerequisite requirements, these screens will not be shown, and you can step down to the [#license-terms-and-conditions](./#license-terms-and-conditions "mention") step.</p>
@@ -38,18 +38,18 @@ Once the installation starts, you will likely be greeted by the prerequisite scr
 
 #### Select Prerequisites
 
-Any required prerequisites are listed. These can all install without requiring a restart. Confirm the requirements and click **Next**.
+Any required prerequisites are listed. These can all install without requiring a restart. Confirm the requirements and click <strong>Next</strong>.
 
 ![](/_images/image-(1295).png "Prerequisites installing")
 
 #### License Terms and Conditions
 
-Once the required prerequisites have been installed, you must accept the Terms and Conditions of use. Tick the "I agree" box and click **Next**.
+Once the required prerequisites have been installed, you must accept the Terms and Conditions of use. Tick the "I agree" box and click <strong>Next</strong>.
 
 ![](/_images/4-License-Agreement-(1).png "License terms and conditions")
 
 #### Installation Folder
 
-Advanced Insights requires approximately 1.5GB of storage space. Confirm the installation directory and click **Next**.
+Advanced Insights requires approximately 1.5GB of storage space. Confirm the installation directory and click <strong>Next</strong>.
 
 ![](/_images/5-Folder.png)

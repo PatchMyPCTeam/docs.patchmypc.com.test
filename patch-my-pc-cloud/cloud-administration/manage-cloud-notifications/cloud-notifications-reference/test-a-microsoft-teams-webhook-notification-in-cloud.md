@@ -13,7 +13,7 @@ You can test a Microsoft Teams (Teams) webhook notification from Patch My PC (PM
     ![Clicking the small envelope beside the Webhook URL to send a test message.](/_images/image-(1913).png "Clicking the small envelope beside the Webhook URL to send a test message.")
 
     \
-    The portal will send a test Teams notification and display the **Success - Test webhook has been sent** notification.\
+    The portal will send a test Teams notification and display the <strong>Success - Test webhook has been sent</strong> notification.\
 
 
     ![&#x22;Success - Test webhook has been sent&#x22; notification](/_images/image-(1914).png "&#x22;Success - Test webhook has been sent&#x22; notification")
@@ -33,7 +33,7 @@ You can test a Microsoft Teams (Teams) webhook notification from Patch My PC (PM
     ![Clicking the small envelope beside the Webhook URL to send a test message.](/_images/image-(1913).png "Clicking the small envelope beside the Webhook URL to send a test message.")
 
     \
-    The portal will send a test Teams notification and display the **Success - Test webhook has been sent** notification.\
+    The portal will send a test Teams notification and display the <strong>Success - Test webhook has been sent</strong> notification.\
 
 
     ![&#x22;Success - Test webhook has been sent&#x22; notification](/_images/image-(1914).png "&#x22;Success - Test webhook has been sent&#x22; notification")

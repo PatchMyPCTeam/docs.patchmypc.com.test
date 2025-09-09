@@ -14,8 +14,8 @@ If this arises, we will not deploy a version of an app to any rings that has not
 
 Also:
 
-* If you create your Update Rings with an **Immediate** start time, the Sync Schedule configuration only impacts the daily update of the rings and their assignments (promotion to the new version).
-* If you create your Update Rings with the **Delayed** start time, the Sync Schedule configuration impacts both the initial creation of the rings and the daily update of their assignments (promotion to the new version). For example, you create a deployment with two Update Rings with the default two-day delay between them. The first ring will be created when you deploy the software. The second ring won’t be created until two days have passed since the time the deployment was created and the next Sync Schedule run.
+* If you create your Update Rings with an <strong>Immediate</strong> start time, the Sync Schedule configuration only impacts the daily update of the rings and their assignments (promotion to the new version).
+* If you create your Update Rings with the <strong>Delayed</strong> start time, the Sync Schedule configuration impacts both the initial creation of the rings and the daily update of their assignments (promotion to the new version). For example, you create a deployment with two Update Rings with the default two-day delay between them. The first ring will be created when you deploy the software. The second ring won’t be created until two days have passed since the time the deployment was created and the next Sync Schedule run.
 
 The following table summarizes how your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) configuration determines how you can configure the delay between Update Rings.
 

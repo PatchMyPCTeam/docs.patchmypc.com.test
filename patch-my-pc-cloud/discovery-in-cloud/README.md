@@ -5,7 +5,7 @@ _Applies to: Patch My PC Cloud_
 Welcome to the Discovery section for Patch My PC (PMPC) Cloud.
 
 <blockquote class="wp-block-quote">
-<p>**Important**</p>
+<p><strong>Important</strong></p>
 <p>You need to [Onboard to Intune Apps](../intune-apps/onboard-to-intune-apps/) before you can use the Discovery feature.</p>
 </blockquote>
 

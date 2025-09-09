@@ -13,7 +13,7 @@ You can test a Slack webhook notification from Patch My PC (PMPC) Cloud both at 
     ![Clicking the small envelope beside the Webhook URL to send a test message.](/_images/image-(1894).png "Clicking the small envelope beside the Webhook URL to send a test message.")
 
     \
-    The portal will send a test Slack notification and display the **Success - Test webhook has been sent** notification.\
+    The portal will send a test Slack notification and display the <strong>Success - Test webhook has been sent</strong> notification.\
 
 
     ![&#x22;Success - Test webhook has been sent&#x22; notification](/_images/image-(1895).png "&#x22;Success - Test webhook has been sent&#x22; notification")
@@ -35,7 +35,7 @@ You can test a Slack webhook notification from Patch My PC (PMPC) Cloud both at 
     ![Clicking the small envelope beside the Webhook URL to send a test message.](/_images/image-(1894).png "Clicking the small envelope beside the Webhook URL to send a test message.")
 
     \
-    The portal will send a test Slack notification and display the **Success - Test webhook has been sent** notification.\
+    The portal will send a test Slack notification and display the <strong>Success - Test webhook has been sent</strong> notification.\
 
 
     ![&#x22;Success - Test webhook has been sent&#x22; notification](/_images/image-(1895).png "&#x22;Success - Test webhook has been sent&#x22; notification")

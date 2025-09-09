@@ -4,10 +4,10 @@ _Applies to: Patch My PC Cloud_
 
 ### To search for an Event:
 
-Type what you are looking for in the **Search** box on the **Events** page.
+Type what you are looking for in the <strong>Search</strong> box on the <strong>Events</strong> page.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>If the portal finds any matching entries as you type, they are displayed. However, if no results are shown when you’ve finished typing your search phrase, either press Enter or click the magnifying glass.</p>
 </blockquote>
 
@@ -19,6 +19,6 @@ The search results of the matching entries is displayed.
 
 ### To clear the search:
 
-Either click the red **X** or manually clear the **Search** box.
+Either click the red <strong>X</strong> or manually clear the <strong>Search</strong> box.
 
 ![Clearing the “Search” box](/_images/image-(1765).png "Clearing the “Search” box")

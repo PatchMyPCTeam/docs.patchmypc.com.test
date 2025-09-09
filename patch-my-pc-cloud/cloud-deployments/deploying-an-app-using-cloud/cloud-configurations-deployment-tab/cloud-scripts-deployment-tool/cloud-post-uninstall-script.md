@@ -6,23 +6,23 @@ A _Post-Uninstall Script_ is a script that can be run after the uninstaller runs
 
 To add a Post-Uninstall script:
 
-1. Click **Add** beside the **Post-Uninstall** option.
+1. Click <strong>Add</strong> beside the <strong>Post-Uninstall</strong> option.
 
 ![Clicking “Add” beside the “Post-Uninstall” option](/_images/image-(2608).png "Clicking “Add” beside the “Post-Uninstall” option")
 
-2. To import an existing script, click **Import** then browse to the location containing the script and select it.
+2. To import an existing script, click <strong>Import</strong> then browse to the location containing the script and select it.
 
 ![Clicking “Import” to import an existing script](/_images/image-(2473).png "Clicking “Import” to import an existing script")
 
-The **Add Post-Uninstall Scripts** page is populated with the imported script.
+The <strong>Add Post-Uninstall Scripts</strong> page is populated with the imported script.
 
 ![“Add Post-Uninstall Script” page is populated with the imported script.](/_images/image-(2474).png "“Add Post-Uninstall Script” page is populated with the imported script.")
 
-3. To manually add a script, enter a unique name for the script in the **Script Name** field.
+3. To manually add a script, enter a unique name for the script in the <strong>Script Name</strong> field.
 
 ![Entering a unique name for the script in the “Script Name” field](/_images/image-(2475).png "Entering a unique name for the script in the “Script Name” field")
 
-4. Select the type of script from the **Script Format** dropdown.
+4. Select the type of script from the <strong>Script Format</strong> dropdown.
 
 ![Selecting the type of script from the “Script Format” dropdown.](/_images/image-(2476).png "Selecting the type of script from the “Script Format” dropdown.")
 
@@ -31,43 +31,43 @@ The **Add Post-Uninstall Scripts** page is populated with the imported script.
 ![Typing your script in the Script Editor](/_images/image-(2477).png "Typing your script in the Script Editor")
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>We currently have a limit of 50,000 characters per script. Use the **Number of characters used** counter to keep track of the number of characters you’ve entered in the script editor.</p>
+<p><strong>Note</strong></p>
+<p>We currently have a limit of 50,000 characters per script. Use the <strong>Number of characters used</strong> counter to keep track of the number of characters you’ve entered in the script editor.</p>
 </blockquote>
 
-6.  In the **Arguments** field, enter any arguments you want to provide to the script.\
+6.  In the <strong>Arguments</strong> field, enter any arguments you want to provide to the script.\
 
 
     ![Entering any arguments you want to provide to the script by specifying them in the “Arguments” field](/_images/image-(2478).png "Entering any arguments you want to provide to the script by specifying them in the “Arguments” field")
 
 <blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<p><strong>Tip</strong></p>
 <p>You can use variable names as arguments, provided they are enclosed by percentage signs (`%`). We provide common variables under this field, which you can add by clicking the plus (`+`) symbol or relevant variable name.</p>
 <p>`%ReturnCode%` is currently only supported on post-scripts.</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">
-<p>**Important**</p>
+<p><strong>Important</strong></p>
 <p>Using script Arguments is currently unsupported when deploying an app to macOS.</p>
 </blockquote>
 
-7.  Click **Save** to save your script.\
+7.  Click <strong>Save</strong> to save your script.\
 
 
     ![Clicking “Save” to save your script](/_images/image-(2479).png "Clicking “Save” to save your script")
 
     \
-    The **Configurations** tab is re-displayed with the name of the configured script beside it.
+    The <strong>Configurations</strong> tab is re-displayed with the name of the configured script beside it.
 
 ![“Configurations” tab re-displayed with the name of the configured script beside it](/_images/image-(96).png "“Configurations” tab re-displayed with the name of the configured script beside it")
 
 <blockquote class="wp-block-quote">
-<p>**Tip**</p>
-<p>You can click **Edit** to edit a script or its settings. You can also click the red “`x`” beside a script to delete it.</p>
+<p><strong>Tip</strong></p>
+<p>You can click <strong>Edit</strong> to edit a script or its settings. You can also click the red “`x`” beside a script to delete it.</p>
 </blockquote>
 
-***
+<strong>*
 
-If you do not want to configure any of the optional tabs under the **Tools** section, click **Next** to move to the [Assignments](../../cloud-assignments-deployment-tab.md) tab.
+If you do not want to configure any of the optional tabs under the </strong>Tools<strong> section, click </strong>Next<strong> to move to the [Assignments](../../cloud-assignments-deployment-tab.md) tab.
 
-Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant article.
+Otherwise, click on the relevant tab under </strong>Tools** to configure the required settings, which are explained in the relevant article.

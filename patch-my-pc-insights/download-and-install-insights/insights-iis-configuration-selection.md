@@ -34,9 +34,9 @@ In this example a custom IIS application pool identity has been set:
 
 ![](/_images/image-(315).png "Example - Custom app pool identity (AD Account) set.")
 
-Confirm the required Dashboard Port and if required, IIS application pool identity and click **Next**.
+Confirm the required Dashboard Port and if required, IIS application pool identity and click <strong>Next</strong>.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>If you have any feedback or comments on our docs, please email [docs@patchmypc.com](mailto:docs@patchmypc.com).</p>
 </blockquote>

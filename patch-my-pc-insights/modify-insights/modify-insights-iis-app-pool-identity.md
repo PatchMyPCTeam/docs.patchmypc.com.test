@@ -16,7 +16,7 @@ This section describes the steps required to change the IIS Application pool ide
 <p>Review the IIS Application pool identity details here: [advanced-insights-iis-application-pool-identity.md](../advanced-insights-iis-application-pool-identity.md "mention")</p>
 </blockquote>
 
-In the configuration modification page, select the checkbox for **'IIS Application Pool Identity'** then click **'Change Identity'**:
+In the configuration modification page, select the checkbox for <strong>'IIS Application Pool Identity'</strong> then click <strong>'Change Identity'</strong>:
 
 ![](/_images/vmconnect_TLKvfLRWgU.png)
 

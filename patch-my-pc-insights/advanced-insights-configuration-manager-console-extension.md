@@ -15,7 +15,7 @@ Download and unzip the Console Extension using the link below.
 {% file src="..//_images/AdvancedInsightsConsoleExtension.zip" %}
 
 <blockquote class="wp-block-quote">
-<p>Warning: The console extension will not work if you are using a **self-signed certificate.**&#x20;</p>
+<p>Warning: The console extension will not work if you are using a <strong>self-signed certificate.</strong>&#x20;</p>
 </blockquote>
 
 ## Installing the Console Extension

@@ -7,14 +7,14 @@ description: Metered Software Usage
 _Applies to: Patch My PC Advanced Insights_
 
 <blockquote class="wp-block-quote">
-<p>This portlet displays statistics for **enabled** metering rules. To accurately present the metering data, you must also <a href="https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/asset-intelligence/configuring-asset-intelligence#to-enable-asset-intelligence-hardware-inventory-reporting-classes-from-the-asset-intelligence-home-page">enable inventory</a> of the **Installed Executable** Class from Asset Intelligence.</p>
+<p>This portlet displays statistics for <strong>enabled</strong> metering rules. To accurately present the metering data, you must also <a href="https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/asset-intelligence/configuring-asset-intelligence#to-enable-asset-intelligence-hardware-inventory-reporting-classes-from-the-asset-intelligence-home-page">enable inventory</a> of the <strong>Installed Executable</strong> Class from Asset Intelligence.</p>
 </blockquote>
 
 
 
 ![](/_images/image-(2153).png "Metered Software Usage")
 
-This dashboard shows software usage which you have **enabled** from Configuration Manager Console. Ensure that the metering rules you have created are the correct executable name, version and language.
+This dashboard shows software usage which you have <strong>enabled</strong> from Configuration Manager Console. Ensure that the metering rules you have created are the correct executable name, version and language.
 
 ![](/_images/image-(2178).png "Software Metering Rules in the ConfigMgr console")
 

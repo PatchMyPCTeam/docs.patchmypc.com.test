@@ -28,18 +28,18 @@ _Applies to: Patch My PC Advanced and Patch Insights_
 </blockquote>
 
 <blockquote class="wp-block-quote">
-<p>For an existing IIS Server - 'OPTIONS' HTTP Verb **must not be BLOCKED at server level.**</p>
+<p>For an existing IIS Server - 'OPTIONS' HTTP Verb <strong>must not be BLOCKED at server level.</strong></p>
 </blockquote>
 
-The following is an example of 'OPTIONS' HTTP Verb **'Not allowed'** This configuration will prevent the Advanced Insights install from completing successfully.
+The following is an example of 'OPTIONS' HTTP Verb <strong>'Not allowed'</strong> This configuration will prevent the Advanced Insights install from completing successfully.
 
 ![](/_images/vmconnect_OBXSaNs8bz.png)
 
 ![](/_images/vmconnect_4TA8FfVlNk.png)
 
 <blockquote class="wp-block-quote">
-<p>If 'OPTIONS' HTTP verb is present at the IIS Server level and **'Allowed'** value set to **'False',** remove this item and re-run the Advanced Insights installer.</p>
-<p>The installer will configure 'OPTIONS' HTTP verb at the <mark style="color:yellow;">**site level**</mark> for 'Advanced Insights Api' IIS site object.</p>
+<p>If 'OPTIONS' HTTP verb is present at the IIS Server level and <strong>'Allowed'</strong> value set to <strong>'False',</strong> remove this item and re-run the Advanced Insights installer.</p>
+<p>The installer will configure 'OPTIONS' HTTP verb at the <mark style="color:yellow;"><strong>site level</strong></mark> for 'Advanced Insights Api' IIS site object.</p>
 </blockquote>
 
 ### Additional Software Components <a href="#additional-software-components-all-will-be-added-automatically-by-the-installer-if-missing" id="additional-software-components-all-will-be-added-automatically-by-the-installer-if-missing"></a>
@@ -59,7 +59,7 @@ The following is an example of 'OPTIONS' HTTP Verb **'Not allowed'** This config
 * Database Compatibility Mode must be at least 130 for the Threat Analytics dashboard to load. You will see a warning if this is not met.
 
 <blockquote class="wp-block-quote">
-<p>If you experience performance degradation in the ConfigMgr Console or Advanced Insights when running the default recommended Compatibility Mode level for your version of SQL Server, reassess whether you may have to change the level to **110**.\</p>
+<p>If you experience performance degradation in the ConfigMgr Console or Advanced Insights when running the default recommended Compatibility Mode level for your version of SQL Server, reassess whether you may have to change the level to <strong>110</strong>.\</p>
 <p>\</p>
 <p>Microsoft have further reading on this here <a href="https://learn.microsoft.com/en-us/troubleshoot/mem/configmgr/alerts-reports-queries/sql-query-times-out-or-console-slow-performance">https://learn.microsoft.com/en-us/troubleshoot/mem/configmgr/alerts-reports-queries/sql-query-times-out-or-console-slow-performance</a></p>
 </blockquote>

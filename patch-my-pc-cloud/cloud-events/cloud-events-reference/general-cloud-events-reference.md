@@ -2,7 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-This article lists the various that are generated with the **General** severity by Patch My PC (PMPC) Cloud for the following categories:
+This article lists the various that are generated with the <strong>General</strong> severity by Patch My PC (PMPC) Cloud for the following categories:
 
 |                                                              |                                                                      |                                                                          |
 | ------------------------------------------------------------ | -------------------------------------------------------------------- | ------------------------------------------------------------------------ |
@@ -26,7 +26,7 @@ This article lists the various that are generated with the **General** severity 
 | Title                                                      | Operation Type | Generated when...                                                                                             |
 | ---------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------- |
 | Client Deployment Created for _\<preview\_or\_production>_ | Created        | PMPC Client has been deployed                                                                                 |
-| Client Deployment Updated for _\<preview\_or\_production>_ | Updated        | List of Entra ID Groups PMPC Client deployed to has been updated or the **Uninstall Client** feature is used. |
+| Client Deployment Updated for _\<preview\_or\_production>_ | Updated        | List of Entra ID Groups PMPC Client deployed to has been updated or the <strong>Uninstall Client</strong> feature is used. |
 | Client Deployment Deleted for _\<preview\_or\_production>_ | Removed        | PMPC Client deployment is deleted                                                                             |
 
 ### Company

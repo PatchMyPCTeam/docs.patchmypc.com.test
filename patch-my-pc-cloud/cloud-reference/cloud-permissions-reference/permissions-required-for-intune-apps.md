@@ -5,8 +5,8 @@ _Applies to: Patch My PC Cloud_
 In addition to the [Permissions required for Patch My PC Cloud](permissions-required-for-patch-my-pc-cloud.md), to onboard to Intune Apps for Cloud (Intune Apps), we require the following permissions:
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>Your account must have the **Global Administrator** role in Entra ID to approve our enterprise application. Using an account with the **Application Administrator** role will not work as our app requires Microsoft Graph permissions.</p>
+<p><strong>Note</strong></p>
+<p>Your account must have the <strong>Global Administrator</strong> role in Entra ID to approve our enterprise application. Using an account with the <strong>Application Administrator</strong> role will not work as our app requires Microsoft Graph permissions.</p>
 <p>See the <a href="https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#application-administrator">Application Administrator</a> section of <a href="https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference">Microsoft Entra built-in roles</a> for more information.</p>
 </blockquote>
 
@@ -18,17 +18,17 @@ In addition to the [Permissions required for Patch My PC Cloud](permissions-requ
 | Read Microsoft Intune device configuration and policies  | DeviceManagementConfiguration.Read.All      | <p>Allows the app to read properties of Microsoft Intune- managed device configuration and device compliance policies and their assignment to groups, without a signed-in user.</p><p>This is a permission requested to access your data in your company.</p>                    | Application     |
 | Read Microsoft Intune devices                            | DeviceManagementManagedDevices.Read.All     | <p>Allows the app to read the properties of devices managed by Microsoft Intune, without a signed-in user.</p><p>This is a permission requested to access your data in your company.</p>                                                                                         | Application     |
 | Read Microsoft Intune RBAC settings                      | DeviceManagementRBAC.Read.All               | <p>Allows the app to read the properties relating to the Microsoft Intune Role-Based Access Control (RBAC) settings, without a signed-in user.</p><p>This is a permission requested to access your data in your company.</p>                                                     | Application     |
-| Read and write Microsoft Intune configuratio&#x6E;**\*** | DeviceManagementServiceConfig.ReadWrite.All | <p>Allows the app to read and write Microsoft Intune service properties including device enrollment and third party service connection configuration, without a signed-in user.</p><p>This is a permission requested to access your data in your company.</p>                    | Application     |
+| Read and write Microsoft Intune configuratio&#x6E;<strong>\</strong>* | DeviceManagementServiceConfig.ReadWrite.All | <p>Allows the app to read and write Microsoft Intune service properties including device enrollment and third party service connection configuration, without a signed-in user.</p><p>This is a permission requested to access your data in your company.</p>                    | Application     |
 | Read domains                                             | Domain.Read.All                             | <p>Allows the app to read all domain properties without a signed-in user.</p><p>This is a permission requested to access your data in your company.</p>                                                                                                                          | Delegated       |
 | Read all group memberships                               | GroupMember.Read.All                        | <p>Allows the app to read memberships and basic group properties for all groups without a signed-in user.</p><p>This is a permission requested to access your data in your company.</p>                                                                                          | Application     |
 
 <blockquote class="wp-block-quote">
-<p>**\*** The **Read and write Microsoft Intune configuration** permission is required to manage blocking apps in the Enrollment Status Page (ESP) profile directly from the PMPC Cloud portal. This is the only feature in our solution that relies on this permission.</p>
-<p>We understand this permission may seem broad, but Microsoft does not offer a more granular alternative for updating the blocking apps feature in ESP profiles. If you have concerns and choose to revoke this permission from the **Patch My PC Cloud** Enterprise App in your Entra ID tenant, please be aware that this will impair our ability to manage ESP profiles and keep blocking apps up-to-date for you.</p>
+<p><strong>\</strong>* The <strong>Read and write Microsoft Intune configuration</strong> permission is required to manage blocking apps in the Enrollment Status Page (ESP) profile directly from the PMPC Cloud portal. This is the only feature in our solution that relies on this permission.</p>
+<p>We understand this permission may seem broad, but Microsoft does not offer a more granular alternative for updating the blocking apps feature in ESP profiles. If you have concerns and choose to revoke this permission from the <strong>Patch My PC Cloud</strong> Enterprise App in your Entra ID tenant, please be aware that this will impair our ability to manage ESP profiles and keep blocking apps up-to-date for you.</p>
 <p>For more details on the Graph endpoints covered by this API permission, please visit <a href="https://graphpermissions.merill.net/permission/DeviceManagementServiceConfig.ReadWrite.All?tabs=apiv1%2CdeviceManagement1">DeviceManagementServiceConfig.ReadWrite.All | Graph Permissions</a></p>
 </blockquote>
 
-As per the **Permissions requested** dialog box displayed when you connect your Intune tenant:
+As per the <strong>Permissions requested</strong> dialog box displayed when you connect your Intune tenant:
 
 “_If you accept, this app will get access to the specified resources for all users in your organization. No one else will be prompted to review these permissions._
 
@@ -36,6 +36,6 @@ _Accepting these permissions means that you allow this app to use your data as s
 
 _Does this app look suspicious?_ [_Report it here_](https://login.microsoftonline.com/common/reprocess?ctx=rQQIARAA42JQYLRSSTE3N7BITU7WNUo0SNM1MTc31k00tkjUTUsztDQ3NDNOM01LLRLiEri8dA_nLP5fHi0Oe3K7bpx8tYrRKKOkpKDYSl-_IL-oJDFHryCxJDkjt7IgWS85P1e_OLWkJDMvvVg_Na8ssyg_Lzc1r6T4AiPjC0bGW0w8jim5mXnO-XnFQNFXTLyJIG58MoQ_i9miWglJl2eKkpVSslGyWZqlcZKuoWGyua5JqpGBblKaYYquqYVpqqWBBRCYJirVbmJmA9qdm593gUX4FQuPAbMVBweXAIMEgwLDDxbGRaxAf5Sp6_QtkzrrNj_5Re4KZ1aGU6z6hf6FRuWGxRU-eRkGiaHeQS5m5p7-lRaF2hm5Zcbexpm-qckBQf5Z_n5R-baGVoYT2BROsTF8YGPsYGeYxc6wi5OMgDjAy_CDr_Hs17M9S2a983jFrxPmVmZZ7u_ikhxqku4Vme6ZmuwcYuDv4mxZZGRqVBmQbBKRWZ4TYWDgkmdiu0GAAQA1\&sessionid=766d5a9d-ac0f-4a78-884c-f30290b1c9a8)_.”_
 
-You will be prompted to grant these during whenever you connect an Intune Tenant to your PMPC Cloud Portal by clicking **Accept** on the **Permissions requested** dialog box.
+You will be prompted to grant these during whenever you connect an Intune Tenant to your PMPC Cloud Portal by clicking <strong>Accept</strong> on the <strong>Permissions requested</strong> dialog box.
 
 ![&#x22;Permissions requested&#x22; dialog box showing which permissions we require to connect to your Intune Tenant to connect](/_images/image-(342).png "&#x22;Permissions requested&#x22; dialog box showing which permissions we require to connect to your Intune Tenant to connect")

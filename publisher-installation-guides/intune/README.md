@@ -21,7 +21,7 @@ Here are a few important resources below to get you started.
 ### Free Setup Call with an Engineer
 
 <blockquote class="wp-block-quote">
-<p>**Tip**: Did you know you can schedule a free setup call with an engineer if you prefer to have an engineer from Patch My PC perform a guided install with you in your environment?\</p>
+<p><strong>Tip</strong>: Did you know you can schedule a free setup call with an engineer if you prefer to have an engineer from Patch My PC perform a guided install with you in your environment?\</p>
 <p>\</p>
 <p><a href="https://patchmypc.com/setup-call">https://patchmypc.com/setup-call</a></p>
 </blockquote>
@@ -36,7 +36,7 @@ If you prefer using a video guide, you can watch the video version below.
 
 ### Continue Guide
 
-Next up, start with the **requirements**
+Next up, start with the <strong>requirements</strong>
 
 {% content-ref url="requirements.md" %}
 [requirements.md](requirements.md)

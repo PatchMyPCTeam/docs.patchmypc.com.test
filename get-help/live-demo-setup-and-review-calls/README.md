@@ -20,7 +20,7 @@ If you are unsure which type of call you would like to book, please use this dec
 
 During a live demo, an [engineer](https://patchmypc.com/about-us#meet-the-team) will show you how Patch My PC integrates into either Microsoft Intune, Microsoft Configuration Manager or Microsoft WSUS to create, and report on, third-party applications and updates. We will show [customization options](https://patchmypc.com/custom-options-available-for-third-party-updates-and-applications) and have plenty of time for Q\&A throughout the demo, and we can review our [up-front pricing](https://patchmypc.com/request-quote#pricing-chart) and what pricing would look like for your company.
 
-**In the live demo, we can review:**
+<strong>In the live demo, we can review:</strong>
 
 * Product installation and setup
 * Publishing third-party updates
@@ -42,7 +42,7 @@ During a live demo, an [engineer](https://patchmypc.com/about-us#meet-the-team) 
 
 During a setup call, an [engineer](https://patchmypc.com/about-us#meet-the-team) will help you with the initial setup of Patch My PC solutions and their integration with Microsoft Intune, Microsoft Configuration or Microsoft WSUS. We will show you the [customization options](https://patchmypc.com/custom-options-available-for-third-party-updates-and-applications) and will have plenty of time for Q\&A throughout the call.
 
-**We will help you:**
+<strong>We will help you:</strong>
 
 * Setup/Install/Configure our products
 * Publish third-party updates to Intune and WSUS
@@ -52,7 +52,7 @@ During a setup call, an [engineer](https://patchmypc.com/about-us#meet-the-team)
 * Report Update Compliance
 * With any questions
 
-**We are unable to help you:**
+<strong>We are unable to help you:</strong>
 
 * With technical support enquiries that are not related to the initial setting up & integration of our products in your environment
 * Build & troubleshoot Custom Apps
@@ -69,7 +69,7 @@ During a setup call, an [engineer](https://patchmypc.com/about-us#meet-the-team)
 
 During an environment review call, an [engineer](https://patchmypc.com/about-us#meet-the-team) will provide a proactive review of your current configuration of Patch My PC's products, how they integrate with Microsoft Intune, Microsoft Configuration or Microsoft WSUS and will have plenty of time for Q\&A throughout the call.
 
-**We will help you:**
+<strong>We will help you:</strong>
 
 * Review an existing Patch My PC solution
 * Review customization options
@@ -77,7 +77,7 @@ During an environment review call, an [engineer](https://patchmypc.com/about-us#
 * Understand new features released since you last engaged with an engineer
 * Answer questions you have about our solutions in your environment
 
-**We are unable to help you:**
+<strong>We are unable to help you:</strong>
 
 * With technical support enquiries
 * Build & troubleshoot Custom Apps

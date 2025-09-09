@@ -2,7 +2,7 @@
 
 _Applies to: Patch My PC Advanced Insights Inventory Extension_
 
-Details the production release history for Patch My PC's Advanced Insights **InventoryExtensions.msi**, the most recent release being shown first.
+Details the production release history for Patch My PC's Advanced Insights <strong>InventoryExtensions.msi</strong>, the most recent release being shown first.
 
 ### 1.7.0- 2025-07-30
 
