@@ -20,7 +20,7 @@ When Patch My PC releases these new updates, the **sync schedule is what automat
 
 You can also manually start the sync and publication process at any time by selecting the **Run Publishing Service Sync** option.
 
-![Publishing Daily Sync Options](/_images/image (1123).png>)
+![Publishing Daily Sync Options](/_images/image-(1123 "Publishing Daily Sync Options").png>)
 
 ### Intune Application Manager
 

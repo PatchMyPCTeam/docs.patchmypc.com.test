@@ -22,6 +22,6 @@ There is no action on your part. Once we resolve the issue, this notification wi
 <p>**Note**</p>
 <p>If you are currently signed into a company in one region and you have a company in a different region that is currently inaccessible (as that region is currently down), you will see the following banner notification in the portal:</p>
 <p>**The service is currently unavailable in the <**_**region\_code**_**> region. We are actively working to resolve this issue.**</p>
-<p>![“The service is currently unavailable in the \<region\_code> region. We are actively working to resolve this issue” banner notification](/_images/image (2294).png>)</p>
+<p>![“The service is currently unavailable in the \<region\_code> region. We are actively working to resolve this issue” banner notification](/_images/image-(2294 "“The service is currently unavailable in the \<region\_code> region. We are actively working to resolve this issue” banner notification").png>)</p>
 <p>Again, there is no action on your part. Once we resolve the issue, this banner notification will automatically disappear.</p>
 </blockquote>

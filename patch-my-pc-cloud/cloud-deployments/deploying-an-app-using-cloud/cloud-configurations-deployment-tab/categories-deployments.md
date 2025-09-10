@@ -18,17 +18,17 @@ To add a Category to a deployment:
 
 1. Click the **Categories** tool.
 
-![Clicking the “Categories” tool](/_images/image-(72).png "Clicking the “Categories” tool")
+![Clicking the “Categories” tool](/_images/image-(72 "Clicking the “Categories” tool").png "Clicking the “Categories” tool")
 
 2. Scroll down to the **Categories** section.
 
-![Scrolling down to the &#x22;Categories&#x22; section](/_images/image-(73).png "Scrolling down to the &#x22;Categories&#x22; section")
+![Scrolling down to the &#x22;Categories&#x22; section](/_images/image-(73 "Scrolling down to the &#x22;Categories&#x22; section").png "Scrolling down to the &#x22;Categories&#x22; section")
 
 3. Go to Step 6. to add a new category or in the **Add Category** field, either:
    1. Start typing the name of the relevant Category, then click the checkbox beside it to select it.
    2. Click the dropdown to see a list of existing Categories and click the relevant checkbox(es) to select it.
 
-![Selecting the checkbox beside the relevant categories](/_images/image-(74).png "Selecting the checkbox beside the relevant categories")
+![Selecting the checkbox beside the relevant categories](/_images/image-(74 "Selecting the checkbox beside the relevant categories").png "Selecting the checkbox beside the relevant categories")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
@@ -67,4 +67,4 @@ To add a Category to a deployment:
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-(77).png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
+![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-(77 "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page").png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")

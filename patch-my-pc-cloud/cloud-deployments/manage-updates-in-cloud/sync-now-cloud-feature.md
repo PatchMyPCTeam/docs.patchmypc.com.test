@@ -12,12 +12,12 @@ If you have [resumed updates](resume-cloud-updates.md) for an app in Patch My PC
 1.  Click on the relevant deployment which has been resumed.\
 
 
-    ![Clicking on the relevant successful deployment for which updates have been resumed](/_images/image-(2004).png "Clicking on the relevant successful deployment for which updates have been resumed")
+    ![Clicking on the relevant successful deployment for which updates have been resumed](/_images/image-(2004 "Clicking on the relevant successful deployment for which updates have been resumed").png "Clicking on the relevant successful deployment for which updates have been resumed")
 2.  Click **Sync Now** to install any updates for the app immediately.\
     \
 
 
-    ![Clicking “Sync Now”](/_images/image-(2005).png "Clicking “Sync Now”")
+    ![Clicking “Sync Now”](/_images/image-(2005 "Clicking “Sync Now”").png "Clicking “Sync Now”")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -39,7 +39,7 @@ If you have [resumed updates](resume-cloud-updates.md) for an app in Patch My PC
     Once the deployment has been completed successfully, the **Status** changes to **Success**.\
 
 
-    ![“Status” changing to Success.](/_images/image-(1830).png "“Status” changing to Success.")
+    ![“Status” changing to Success.](/_images/image-(1830 "“Status” changing to Success.").png "“Status” changing to Success.")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
