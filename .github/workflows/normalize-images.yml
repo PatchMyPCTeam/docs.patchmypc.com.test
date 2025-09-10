@@ -136,11 +136,14 @@ jobs:
           from urllib.parse import unquote
 
           IMG_EXT = r"(?:png|jpe?g|gif|webp|svg|gifv)"
-
+          
           def clean_filename_from_url(url: str) -> str:
               # Trim and remove any trailing '>' that can leak from <...> wrappers
               url = url.strip().rstrip('>')
               # strip accidental empty-title tokens that leaked into URL
+              url = re.sub(r'\s*""', '', url)
+              # Defensive: strip accidental empty-title tokens that leaked into URL
+              # e.g. "/_images/image-(810 "").png" -> "/_images/image-(810).png"
               url = re.sub(r'\s*""', '', url)
 
               # pick the last filename-looking token with an image extension
@@ -179,22 +182,23 @@ jobs:
           MD_LINK    = re.compile(r'\[([^\]]+)\]\((https?://[^)]+)\)')
           BARE_URL   = re.compile(r'^(https?://\S+)$')
           def convert_hint_blocks(s: str) -> str:
-              def _repl(m):
-                  inner = m.group(1).strip()
-                  paras = []
-                  for line in inner.splitlines():
-                      line = line.strip()
-                      if not line:
-                          continue
-                      line = MD_LINK.sub(r'<a href="\2">\1</a>', line)  # [text](url) → <a>
-                      bu = BARE_URL.match(line)
-                      if bu:  # whole line is just a URL → autolink
-                          u = bu.group(1)
-                          line = f'<a href="{u}">{u}</a>'
-                      paras.append(f"<p>{line}</p>")
-                  content = "\n".join(paras) if paras else "<p></p>"
-                  return f'<blockquote class="wp-block-quote">\n{content}\n</blockquote>'
-              return HINT_BLOCK.sub(_repl, s)
+            def _repl(m):
+              inner = m.group(1).strip()
+              paras = []
+              for line in inner.splitlines():
+                line = line.strip()
+                if not line:
+                  continue
+                line = MD_LINK.sub(r'<a href="\2">\1</a>', line)  # [text](url) → <a>
+                bu = BARE_URL.match(line)
+                if bu:  # whole line is just a URL → autolink
+                  u = bu.group(1)
+                  line = f'<a href="{u}">{u}</a>'
+                paras.append(f"<p>{line}</p>")
+              content = "\n".join(paras) if paras else "<p></p>"
+              return f'<blockquote class="wp-block-quote">\n{content}\n</blockquote>'
+            return HINT_BLOCK.sub(_repl, s)
+            
 
           # HTML <img> (alt optional)
           html_img = re.compile(
@@ -214,19 +218,7 @@ jobs:
               re.I
           )
 
-          # Sanitize ANY Markdown image (even ones already pointing to /_images)
-          md_img_any = re.compile(
-              r'!\[([^\]]*)\]'
-              r'\('
-              r'\s*<?'
-              r'([^)\r\n]+?)'         # group 2: raw URL (we will clean it)
-              r'>?'                   # allow a dangling '>' but don't capture it
-              r'(?:\s+"[^"]*")?'
-              r'\s*\)',
-              re.I
-          )
-
-          # Reference usage and definition (loose)
+          # Reference usage and definition (loose) unchanged...
           md_img_ref_use = re.compile(r'!\[([^\]]*)\]\s*\[([^\]]+)\]', re.I)
           ref_def_loose = re.compile(
               r'(\[([^\]]+)\]\s*:\s*)' r'<?("?)([^>\r\n]+?)\3>?' r'(\s+"[^"]*")?\s*$',
@@ -244,12 +236,12 @@ jobs:
 
               # 2) Inline MD → strict MD (title = alt when alt non-empty)
               s = md_img_inline.sub(lambda m: build_md(m.group(1), m.group(3)), s)
-
+          
               # 2.5) GitBook hint blocks → Gutenberg blockquote
               s = convert_hint_blocks(s)
-
-              # 2.6) Sanitize ANY Markdown image URL (fix spaces, stray '>', etc.)
-              s = md_img_any.sub(lambda m: build_md(m.group(1), m.group(2)), s)
+          
+              # s = replace_all_bold(s)
+        
 
               # 3) Gather reference defs
               defs = {}
@@ -281,7 +273,7 @@ jobs:
               # 6) Catch-all: fix bare .gitbook/assets occurrences (outside code fences)
               out_lines, fenced = [], False
               fence_re = re.compile(r'^\s*```')
-              asset_re = re.compile(r'(\.gitbook/assets/[^"\'<>]+)', re.I)  # allow spaces
+              asset_re = re.compile(r'(\.gitbook/assets/[^"\'<>]+)', re.I)
               for ln in s.splitlines():
                   if fence_re.match(ln):
                       fenced = not fenced
@@ -303,7 +295,6 @@ jobs:
           if not any_changed:
               print("No image links needed normalization.")
           PY
-      
       
 
       # 5) Validate: all image links are /_images/<no-spaces> and no subfolders
