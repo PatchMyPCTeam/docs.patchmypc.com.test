@@ -305,7 +305,14 @@ jobs:
 
           # Inline MD
           md_img_inline = re.compile(
-              r'!\[[^\]]*\]\(' r'\s*<?' r'("?)([^)\r\n]+?)\1' r'>?' r'(?:\s+"[^"]*")?' r'\s*\)', re.I
+            r'!\[([^\]]*)\]'           # alt text
+            r'\('
+            r'\s*<?'
+            r'("?)([^)\r\n]+?)\1'      # group 3 = URL only
+            r'>?'                      # optional >, not captured
+            r'(?:\s+"[^"]*")?'
+            r'\s*\)',
+            re.I
           )
           # HTML
           html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
