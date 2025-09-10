@@ -240,20 +240,21 @@ jobs:
               # 2.5) GitBook hint blocks → Gutenberg blockquote
               s = convert_hint_blocks(s)
           
-              # s = replace_all_bold(s)
-          
-              # 2.6) Sanitize ANY Markdown image URL (fix spaces, stray '>', etc.)
+                # 2.6) Sanitize ANY Markdown image URL (fix spaces, stray '>', etc.)
                 md_img_any = re.compile(
-                r'!\[([^\]]*)\]'          # group 1: alt
-                r'\('
-                r'\s*<?'
-                r'([^)\r\n]+?)'           # group 2: raw URL (no backref, we’ll clean it)
-                r'>?'                     # allow a dangling '>' but don't capture it
-                r'(?:\s+"[^"]*")?'        # optional "title" (ignored; build_md sets title=alt if non-empty)
-                r'\s*\)',
-                re.I
+                  r'!\[([^\]]*)\]'          # group 1: alt
+                  r'\('
+                  r'\s*<?'
+                  r'([^)\r\n]+?)'           # group 2: raw URL (no backref, we’ll clean it)
+                  r'>?'                     # allow a dangling '>' but don't capture it
+                  r'(?:\s+"[^"]*")?'        # optional "title" (ignored; build_md sets title=alt if non-empty)
+                  r'\s*\)',
+                  re.I
                 )
               s = md_img_any.sub(lambda m: build_md(m.group(1), m.group(2)), s)
+          
+              # s = replace_all_bold(s)
+        
 
               # 3) Gather reference defs
               defs = {}
