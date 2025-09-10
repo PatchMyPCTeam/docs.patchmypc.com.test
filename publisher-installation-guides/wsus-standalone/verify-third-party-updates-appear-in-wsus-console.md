@@ -32,6 +32,6 @@ We'll walk through that process in the steps below:
 * If needed, change **Approval** to **Any Except Declined** and **Status** to **Any**
 * Hit **Refresh** and now you will see all of the Patch My PC Updates in that list&#x20;
 
-![Creating an Update view for Patch My PC Updates](/_images/wsus standalone 4.gif>)
+![Creating an Update view for Patch My PC Updates](/_images/wsus-standalone-4.gif "Creating an Update view for Patch My PC Updates")
 
 You can now deploy the third-party updates just like a Microsoft update **directly from the WSUS console**.

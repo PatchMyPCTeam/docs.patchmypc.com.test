@@ -10,19 +10,19 @@ You can test a Microsoft Teams (Teams) webhook notification from Patch My PC (PM
 2.  Once you have entered and saved the webhook URL, click the small envelope beside the webhook URL (![](/_images/image-(1900).png>)) to send a test message.\
 
 
-    ![Clicking the small envelope beside the Webhook URL to send a test message.](/_images/image-(1913).png "Clicking the small envelope beside the Webhook URL to send a test message.")
+    ![Clicking the small envelope beside the Webhook URL to send a test message.](/_images/image-(1913 "Clicking the small envelope beside the Webhook URL to send a test message.").png "Clicking the small envelope beside the Webhook URL to send a test message.")
 
     \
     The portal will send a test Teams notification and display the **Success - Test webhook has been sent** notification.\
 
 
-    ![&#x22;Success - Test webhook has been sent&#x22; notification](/_images/image-(1914).png "&#x22;Success - Test webhook has been sent&#x22; notification")
+    ![&#x22;Success - Test webhook has been sent&#x22; notification](/_images/image-(1914 "&#x22;Success - Test webhook has been sent&#x22; notification").png "&#x22;Success - Test webhook has been sent&#x22; notification")
 
     \
     If your Teams webhook is valid, the test notification appears in the configured channel:\
 
 
-    ![Test notification](/_images/image-(1915).png "Test notification")
+    ![Test notification](/_images/image-(1915 "Test notification").png "Test notification")
 
 ### Testing a Teams webhook notification after it has been created
 
@@ -30,16 +30,16 @@ You can test a Microsoft Teams (Teams) webhook notification from Patch My PC (PM
 2.  Click the small envelope beside the webhook URL (![](/_images/image-(1900).png>)) to send a test message.\
 
 
-    ![Clicking the small envelope beside the Webhook URL to send a test message.](/_images/image-(1913).png "Clicking the small envelope beside the Webhook URL to send a test message.")
+    ![Clicking the small envelope beside the Webhook URL to send a test message.](/_images/image-(1913 "Clicking the small envelope beside the Webhook URL to send a test message.").png "Clicking the small envelope beside the Webhook URL to send a test message.")
 
     \
     The portal will send a test Teams notification and display the **Success - Test webhook has been sent** notification.\
 
 
-    ![&#x22;Success - Test webhook has been sent&#x22; notification](/_images/image-(1914).png "&#x22;Success - Test webhook has been sent&#x22; notification")
+    ![&#x22;Success - Test webhook has been sent&#x22; notification](/_images/image-(1914 "&#x22;Success - Test webhook has been sent&#x22; notification").png "&#x22;Success - Test webhook has been sent&#x22; notification")
 
     \
     If your Teams webhook is valid, the test notification appears in the configured channel:\
 
 
-    ![Test notification](/_images/image-(1915).png "Test notification")
+    ![Test notification](/_images/image-(1915 "Test notification").png "Test notification")

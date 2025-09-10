@@ -25,7 +25,7 @@ If the required app(s) (known as the _parent_) has not already been installed on
 <p>As per Intune, you can create a maximum of 100 dependencies, which includes the dependencies of any included dependencies, as well as the app itself. See <a href="https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-5-dependencies">Step 5: Dependencies</a> of <a href="https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add">Add, assign, and monitor a Win32 app in Microsoft Intune</a> for more information.</p>
 </blockquote>
 
-![“Dependencies” tool](/_images/image-(88).png "“Dependencies” tool")
+![“Dependencies” tool](/_images/image-(88 "“Dependencies” tool").png "“Dependencies” tool")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -36,17 +36,17 @@ To add a dependency:
 
 1. Click the **Dependencies** tool.
 
-![Clicking the &#x22;Dependencies&#x22; tool](/_images/image-(89).png "Clicking the &#x22;Dependencies&#x22; tool")
+![Clicking the &#x22;Dependencies&#x22; tool](/_images/image-(89 "Clicking the &#x22;Dependencies&#x22; tool").png "Clicking the &#x22;Dependencies&#x22; tool")
 
 2. From the **Add Dependencies** field, either:
    1. Start typing the name of the relevant app that this app depends on already being successfully installed on the target device.
    2. Click the dropdown and select the relevant app that this app depends on already being successfully installed on the target device.
 
-![Selecting the relevant app that this app depends on already being successfully installed on the target device](/_images/image-(90).png "Selecting the relevant app that this app depends on already being successfully installed on the target device")
+![Selecting the relevant app that this app depends on already being successfully installed on the target device](/_images/image-(90 "Selecting the relevant app that this app depends on already being successfully installed on the target device").png "Selecting the relevant app that this app depends on already being successfully installed on the target device")
 
 The selected app appears under the **Parent Deployment** section.
 
-![Selected app appearing under the “Parent Deployment” section](/_images/image-(91).png "Selected app appearing under the “Parent Deployment” section")
+![Selected app appearing under the “Parent Deployment” section](/_images/image-(91 "Selected app appearing under the “Parent Deployment” section").png "Selected app appearing under the “Parent Deployment” section")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -58,7 +58,7 @@ The selected app appears under the **Parent Deployment** section.
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
 <p>Once a dependency has been configured, you can view it as part of the app’s properties in the Microsoft Intune admin center.</p>
-<p>![Viewing dependencies for an app in the Microsoft Intune admin center](/_images/image (339).png>)</p>
+<p>![Viewing dependencies for an app in the Microsoft Intune admin center](/_images/image-(339 "Viewing dependencies for an app in the Microsoft Intune admin center").png>)</p>
 <p>For more information, see <a href="https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-5-dependencies">Step 5: Dependencies</a> of <a href="https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add">Add, assign, and monitor a Win32 app in Microsoft Intune</a>.</p>
 </blockquote>
 
@@ -83,4 +83,4 @@ The selected app appears under the **Parent Deployment** section.
 
     Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-(92).png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
+![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-(92 "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page").png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")

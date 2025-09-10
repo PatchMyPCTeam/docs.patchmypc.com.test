@@ -25,7 +25,7 @@ To invite a new user to the PMPC Cloud portal:
 3.  On the **Invite User** screen, enter the user’s details.\
 
 
-    ![Complete the details of the user you are inviting](/_images/image-(2119).png "Complete the details of the user you are inviting")
+    ![Complete the details of the user you are inviting](/_images/image-(2119 "Complete the details of the user you are inviting").png "Complete the details of the user you are inviting")
 
 <blockquote class="wp-block-quote">
 <p>**Important**</p>
@@ -39,7 +39,7 @@ To invite a new user to the PMPC Cloud portal:
 <p>See [User Roles](cloud-user-roles-reference.md) for details of the available roles and which actions they can perform.</p>
 </blockquote>
 
-![Choosing which role to assign this user](/_images/image-(2120).png "Choosing which role to assign this user")
+![Choosing which role to assign this user](/_images/image-(2120 "Choosing which role to assign this user").png "Choosing which role to assign this user")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
@@ -50,11 +50,11 @@ To invite a new user to the PMPC Cloud portal:
     \
 
 
-    ![Clicking &#x22;Invite&#x22; to send the invitation](/_images/image-(2122).png "Clicking &#x22;Invite&#x22; to send the invitation")
+    ![Clicking &#x22;Invite&#x22; to send the invitation](/_images/image-(2122 "Clicking &#x22;Invite&#x22; to send the invitation").png "Clicking &#x22;Invite&#x22; to send the invitation")
 
 The **Success - Invitation sent** notification is displayed.
 
-![&#x22;Success - Invitation sent&#x22; notification](/_images/image-(725).png "&#x22;Success - Invitation sent&#x22; notification")
+![&#x22;Success - Invitation sent&#x22; notification](/_images/image-(725 "&#x22;Success - Invitation sent&#x22; notification").png "&#x22;Success - Invitation sent&#x22; notification")
 
 The user will receive an email from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox with the subject **You are invited to&#x20;**_**\<company\_name>**_.
 
@@ -65,7 +65,7 @@ The user will receive an email from the [noreply@patchmypc.com](mailto:noreply@p
 
 The invitation and its details are shown on the **Invitations** tab, which includes any previously created outstanding invitations that are still valid.
 
-![“Invitations” tab showing valid, outstanding user invitations](/_images/image-(728).png "“Invitations” tab showing valid, outstanding user invitations")
+![“Invitations” tab showing valid, outstanding user invitations](/_images/image-(728 "“Invitations” tab showing valid, outstanding user invitations").png "“Invitations” tab showing valid, outstanding user invitations")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -77,11 +77,11 @@ The invitation and its details are shown on the **Invitations** tab, which inclu
 
 When a user from the same company who has not been set up on your company's PMPC Cloud portal tries to sign in, they will see the **Select the Company You Want to Sign In To** screen.
 
-![“Select the Company You Want to Sign In To” screen](/_images/image-(1378).png "“Select the Company You Want to Sign In To” screen")
+![“Select the Company You Want to Sign In To” screen](/_images/image-(1378 "“Select the Company You Want to Sign In To” screen").png "“Select the Company You Want to Sign In To” screen")
 
 To join your company, they should click **Request Access** beside your company.
 
-![Users should click “Request Access” beside your company to join it](/_images/image-(1379).png "Users should click “Request Access” beside your company to join it")
+![Users should click “Request Access” beside your company to join it](/_images/image-(1379 "Users should click “Request Access” beside your company to join it").png "Users should click “Request Access” beside your company to join it")
 
 The **Request Access to join&#x20;**_**\<company\_name>**_ popup appears.
 
@@ -91,7 +91,7 @@ The user should enter an optional **Reason for Request** then click **Submit**.&
 
 The **Request Access** text changes to **Renotify** and the **Success - Access request sent** notification is shown.
 
-![The “Success – Request sent” notification is displayed](/_images/image-(617).png "The “Success – Request sent” notification is displayed")
+![The “Success – Request sent” notification is displayed](/_images/image-(617 "The “Success – Request sent” notification is displayed").png "The “Success – Request sent” notification is displayed")
 
 Any users with the **Full Admin** role in your PMPC Cloud portal will receive an email containing the user’s details and which company they have requested access to. The email is sent from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox with the subject **Access Request&#x20;**_**\<your\_company\_name>**_.
 

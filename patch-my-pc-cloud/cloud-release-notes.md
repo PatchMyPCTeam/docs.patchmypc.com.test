@@ -16,7 +16,7 @@ Details the production release history for Patch My PC (PMPC) Cloud, the most re
 <p>* Public Preview for which you will need to have [Preview Features enabled](cloud-administration/manage-your-cloud-company/enable-cloud-preview-features.md) in your company to access it.</p>
 <p>* General Availability which is available to everyone.&#x20;</p>
 <p>Please see the relevant docs for a feature for more information which will indicate the state of the feature.</p>
-<p>You can also access this page from within the Cloud Portal by clicking the support button (!["support" button](/_images/image (587).png>)) in the header area and selecting **Release Notes**.</p>
+<p>You can also access this page from within the Cloud Portal by clicking the support button (!["support" button](/_images/image-(587 "\"support\" button").png>)) in the header area and selecting **Release Notes**.</p>
 </blockquote>
 
 ### Week of August 6<sup>th</sup>, 2025

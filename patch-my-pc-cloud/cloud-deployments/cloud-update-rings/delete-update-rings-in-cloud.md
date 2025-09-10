@@ -22,37 +22,37 @@ To delete all Update Rings for a deployment:
     To delete all Update Rings for this deployment, click **Remove all Rings**.\
 
 
-    ![Clicking “Remove all Rings”](/_images/image-(2061).png "Clicking “Remove all Rings”")
+    ![Clicking “Remove all Rings”](/_images/image-(2061 "Clicking “Remove all Rings”").png "Clicking “Remove all Rings”")
 
 
 3.  On the **Move Assignments or Delete** dialog box, click **Move** to remove the Update Rings but keep all the existing assignments.\
     \
 
 
-    ![Clicking “Move” to remove the Update Rings but keep all the existing assignments](/_images/image-(2062).png "Clicking “Move” to remove the Update Rings but keep all the existing assignments")
+    ![Clicking “Move” to remove the Update Rings but keep all the existing assignments](/_images/image-(2062 "Clicking “Move” to remove the Update Rings but keep all the existing assignments").png "Clicking “Move” to remove the Update Rings but keep all the existing assignments")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
 <p>Clicking **Delete** will delete any existing assignments but not the deployment itself.</p>
-<p>![Clicking “Delete” will delete any existing assignments, not the deployment itself.](/_images/image (2064).png>)\</p>
+<p>![Clicking “Delete” will delete any existing assignments, not the deployment itself.](/_images/image-(2064 "Clicking “Delete” will delete any existing assignments, not the deployment itself.").png>)\</p>
 </blockquote>
 
 The Update Rings are removed and any existing assignments are kept.
 
-![Update Rings are removed and any existing assignments are kept](/_images/image-(2065).png "Update Rings are removed and any existing assignments are kept")
+![Update Rings are removed and any existing assignments are kept](/_images/image-(2065 "Update Rings are removed and any existing assignments are kept").png "Update Rings are removed and any existing assignments are kept")
 
 4.  Click **Save** to save your changes.\
     \
 
 
-    ![Clicking “Save” to save changes](/_images/image-(2066).png "Clicking “Save” to save changes")
+    ![Clicking “Save” to save changes](/_images/image-(2066 "Clicking “Save” to save changes").png "Clicking “Save” to save changes")
 
 <blockquote class="wp-block-quote">
 <p>**Important**</p>
 <p>As removing all Update Rings disables Update Ring functionality for this deployment (which could result in unintended results), the **"**_**\<deployment\_name>**_**" Deployment Summary** is shown detailing the impact of your proposed change.\</p>
 <p>\</p>
 <p>For example, this version of the app will be deployed immediately to all of the following assignments without any of the delays enforced by using Update Rings.</p>
-<p>![“Deployment Summary” showing the impact of deleting all Update Rings ](/_images/image (2067).png>)</p>
+<p>![“Deployment Summary” showing the impact of deleting all Update Rings ](/_images/image-(2067 "“Deployment Summary” showing the impact of deleting all Update Rings ").png>)</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">
@@ -66,7 +66,7 @@ The Update Rings are removed and any existing assignments are kept.
     \
 
 
-    ![“Deployment Summary” showing the impact of delete all Update Rings](/_images/image-(2068).png "“Deployment Summary” showing the impact of delete all Update Rings")
+    ![“Deployment Summary” showing the impact of delete all Update Rings](/_images/image-(2068 "“Deployment Summary” showing the impact of delete all Update Rings").png "“Deployment Summary” showing the impact of delete all Update Rings")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
@@ -85,17 +85,17 @@ To delete a Single Update Ring:
 <p>Deleting an Update Ring also deletes any assignments controlled by that ring. If you want to keep the assignment, drag and drop it to another ring before you delete the ring.</p>
 </blockquote>
 
-![Clicking the read “X” to delete a specific Update Ring](/_images/image-(2069).png "Clicking the read “X” to delete a specific Update Ring")
+![Clicking the read “X” to delete a specific Update Ring](/_images/image-(2069 "Clicking the read “X” to delete a specific Update Ring").png "Clicking the read “X” to delete a specific Update Ring")
 
 The ring and any assignments it contains are deleted.
 
-![Update Ring deleted](/_images/image-(2070).png "Update Ring deleted")
+![Update Ring deleted](/_images/image-(2070 "Update Ring deleted").png "Update Ring deleted")
 
 3.  Click **Save** to save your changes.\
     \
 
 
-    ![Clicking “Save” to save changes](/_images/image-(2071).png "Clicking “Save” to save changes")
+    ![Clicking “Save” to save changes](/_images/image-(2071 "Clicking “Save” to save changes").png "Clicking “Save” to save changes")
 
     \
     As you’ve removed an Update Ring and it’s assignments, the **"<**_**deployment\_name**_**>" Deployment Summary** is shown detailing the impact of your proposed change.\
@@ -104,13 +104,13 @@ The ring and any assignments it contains are deleted.
     \
 
 
-    ![“Deployment Summary” showing the impact of deleting this Update Rings](/_images/image-(2072).png "“Deployment Summary” showing the impact of deleting this Update Rings")
+    ![“Deployment Summary” showing the impact of deleting this Update Rings](/_images/image-(2072 "“Deployment Summary” showing the impact of deleting this Update Rings").png "“Deployment Summary” showing the impact of deleting this Update Rings")
 4.  Click **Cancel** to return to the **Assignments** tab to make any required changes, or click **Confirm** to save your changes.\
     \
     The **Deployments** node is displayed along with the **Success – Edited <**_**deployment\_name**_**>** notification.\
 
 
-    ![“Deployment Summary” showing the impact of delete all Update Rings](/_images/image-(2073).png "“Deployment Summary” showing the impact of delete all Update Rings")
+    ![“Deployment Summary” showing the impact of delete all Update Rings](/_images/image-(2073 "“Deployment Summary” showing the impact of delete all Update Rings").png "“Deployment Summary” showing the impact of delete all Update Rings")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
