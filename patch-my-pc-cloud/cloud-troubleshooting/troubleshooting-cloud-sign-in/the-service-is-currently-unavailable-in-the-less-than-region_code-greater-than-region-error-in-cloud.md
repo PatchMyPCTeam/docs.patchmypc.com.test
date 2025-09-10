@@ -8,7 +8,7 @@ When I’m trying to sign into the Patch My PC (PMPC) portal, the following mess
 
 **The service is currently unavailable in the <**_**region\_code**_**> region.**
 
-<figure><img src="../../../.gitbook/assets/image (2293).png" alt="“The service is currently unavailable in the <region_code> region”"><figcaption></figcaption></figure>
+![](/_images/image-(2293).png "")
 
 ### CAUSE
 
@@ -18,14 +18,10 @@ This message appears if, for some reason, the region hosting your PMPC Cloud com
 
 There is no action on your part. Once we resolve the issue, this notification will automatically disappear and you will be able to sign in to the PMPC Cloud portal.
 
-{% hint style="info" %}
-**Note**
-
-If you are currently signed into a company in one region and you have a company in a different region that is currently inaccessible (as that region is currently down), you will see the following banner notification in the portal:
-
-**The service is currently unavailable in the <**_**region\_code**_**> region. We are actively working to resolve this issue.**
-
-![“The service is currently unavailable in the \<region\_code> region. We are actively working to resolve this issue” banner notification](<../../../.gitbook/assets/image (2294).png>)
-
-Again, there is no action on your part. Once we resolve the issue, this banner notification will automatically disappear.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If you are currently signed into a company in one region and you have a company in a different region that is currently inaccessible (as that region is currently down), you will see the following banner notification in the portal:</p>
+<p>**The service is currently unavailable in the <**_**region\_code**_**> region. We are actively working to resolve this issue.**</p>
+<p>![“The service is currently unavailable in the \<region\_code> region. We are actively working to resolve this issue” banner notification](/_images/image (2294).png>)</p>
+<p>Again, there is no action on your part. Once we resolve the issue, this banner notification will automatically disappear.</p>
+</blockquote>

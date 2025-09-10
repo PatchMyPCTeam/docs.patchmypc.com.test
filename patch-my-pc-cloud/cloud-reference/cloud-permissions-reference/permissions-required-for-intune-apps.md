@@ -4,13 +4,11 @@ _Applies to: Patch My PC Cloud_
 
 In addition to the [Permissions required for Patch My PC Cloud](permissions-required-for-patch-my-pc-cloud.md), to onboard to Intune Apps for Cloud (Intune Apps), we require the following permissions:
 
-{% hint style="info" %}
-**Note**
-
-Your account must have the **Global Administrator** role in Entra ID to approve our enterprise application. Using an account with the **Application Administrator** role will not work as our app requires Microsoft Graph permissions.
-
-See the [Application Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#application-administrator) section of [Microsoft Entra built-in roles](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference) for more information.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>Your account must have the **Global Administrator** role in Entra ID to approve our enterprise application. Using an account with the **Application Administrator** role will not work as our app requires Microsoft Graph permissions.</p>
+<p>See the <a href="https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#application-administrator">Application Administrator</a> section of <a href="https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference">Microsoft Entra built-in roles</a> for more information.</p>
+</blockquote>
 
 | Permission                                               | Claim                                       | Description                                                                                                                                                                                                                                                                      | Permission Type |
 | -------------------------------------------------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
@@ -24,13 +22,11 @@ See the [Application Administrator](https://learn.microsoft.com/en-us/entra/iden
 | Read domains                                             | Domain.Read.All                             | <p>Allows the app to read all domain properties without a signed-in user.</p><p>This is a permission requested to access your data in your company.</p>                                                                                                                          | Delegated       |
 | Read all group memberships                               | GroupMember.Read.All                        | <p>Allows the app to read memberships and basic group properties for all groups without a signed-in user.</p><p>This is a permission requested to access your data in your company.</p>                                                                                          | Application     |
 
-{% hint style="info" %}
-**\*** The **Read and write Microsoft Intune configuration** permission is required to manage blocking apps in the Enrollment Status Page (ESP) profile directly from the PMPC Cloud portal. This is the only feature in our solution that relies on this permission.
-
-We understand this permission may seem broad, but Microsoft does not offer a more granular alternative for updating the blocking apps feature in ESP profiles. If you have concerns and choose to revoke this permission from the **Patch My PC Cloud** Enterprise App in your Entra ID tenant, please be aware that this will impair our ability to manage ESP profiles and keep blocking apps up-to-date for you.
-
-For more details on the Graph endpoints covered by this API permission, please visit [DeviceManagementServiceConfig.ReadWrite.All | Graph Permissions](https://graphpermissions.merill.net/permission/DeviceManagementServiceConfig.ReadWrite.All?tabs=apiv1%2CdeviceManagement1)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**\*** The **Read and write Microsoft Intune configuration** permission is required to manage blocking apps in the Enrollment Status Page (ESP) profile directly from the PMPC Cloud portal. This is the only feature in our solution that relies on this permission.</p>
+<p>We understand this permission may seem broad, but Microsoft does not offer a more granular alternative for updating the blocking apps feature in ESP profiles. If you have concerns and choose to revoke this permission from the **Patch My PC Cloud** Enterprise App in your Entra ID tenant, please be aware that this will impair our ability to manage ESP profiles and keep blocking apps up-to-date for you.</p>
+<p>For more details on the Graph endpoints covered by this API permission, please visit <a href="https://graphpermissions.merill.net/permission/DeviceManagementServiceConfig.ReadWrite.All?tabs=apiv1%2CdeviceManagement1">DeviceManagementServiceConfig.ReadWrite.All | Graph Permissions</a></p>
+</blockquote>
 
 As per the **Permissions requested** dialog box displayed when you connect your Intune tenant:
 
@@ -42,5 +38,4 @@ _Does this app look suspicious?_ [_Report it here_](https://login.microsoftonlin
 
 You will be prompted to grant these during whenever you connect an Intune Tenant to your PMPC Cloud Portal by clicking **Accept** on the **Permissions requested** dialog box.
 
-<figure><img src="../../../.gitbook/assets/image (342).png" alt="&#x22;Permissions requested&#x22; dialog box showing which permissions we require to connect to your Intune Tenant to connect "><figcaption></figcaption></figure>
-
+![&#x22;Permissions requested&#x22; dialog box showing which permissions we require to connect to your Intune Tenant to connect](/_images/image-(342).png "&#x22;Permissions requested&#x22; dialog box showing which permissions we require to connect to your Intune Tenant to connect")

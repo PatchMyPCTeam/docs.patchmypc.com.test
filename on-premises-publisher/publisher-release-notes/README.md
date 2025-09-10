@@ -271,7 +271,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Support detecting software that translates DisplayName
   * Idea: [PATCHMYPC-I-1335](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1335)
 * Add support for configuring Win32 application max runtime in minutes
-  * ![](https://patchmypc.com/wp-content/uploads/2023/11/max-runtime.png)
+  * ![](/_images/max-runtime.png)
 
 ### Improvements <a href="#improvements" id="improvements"></a>
 
@@ -528,9 +528,9 @@ This release contains a variety of features, improvements, and fixes, as noted b
 
 This will be made available via the self-update channel over the next 2 weeks. You can upgrade in place now by downloading the latest [**MSI installer**](https://patchmypc.com/publishing-service-setup-documentation).
 
-{% hint style="info" %}
-**Note:** Starting with this production build, Patch My PC Publisher now requires a minimum of Microsoft .NET Framework 4.6.2.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note:** Starting with this production build, Patch My PC Publisher now requires a minimum of Microsoft .NET Framework 4.6.2.</p>
+</blockquote>
 
 ### Features -
 

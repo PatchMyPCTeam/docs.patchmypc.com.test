@@ -9,28 +9,26 @@ All user company-related tasks are performed from the **Company** node of the po
 1. Sign in in to the PMPC portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
 2. Navigate to **Settings | Company**
 
-<figure><img src="../../../.gitbook/assets/image (678).png" alt="Navigating to “Settings | Company”" width="563"><figcaption></figcaption></figure>
+![Navigating to “Settings | Company”](/_images/image-(678).png "Navigating to “Settings | Company”")
 
 The **Company** screen is then displayed.
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.</p>
+</blockquote>
 
-The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.
-{% endhint %}
+![“Company” screen](/_images/image-(2688).png "“Company” screen")
 
-<figure><img src="../../../.gitbook/assets/image (2688).png" alt="“Company” screen" width="563"><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-**Note**
-
-See [Company Reference](cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>See [Company Reference](cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.</p>
+</blockquote>
 
 3. Make any required changes, then click **Save**.
 
-<figure><img src="../../../.gitbook/assets/image (2687).png" alt="Clicking &#x22;Save&#x22; to save changes" width="563"><figcaption></figcaption></figure>
+![Clicking &#x22;Save&#x22; to save changes](/_images/image-(2687).png "Clicking &#x22;Save&#x22; to save changes")
 
 The **Success - Company information updated** notification is shown.
 
-<figure><img src="../../../.gitbook/assets/image (2689).png" alt="&#x22;Success - Company information updated&#x22; notification" width="563"><figcaption></figcaption></figure>
+![&#x22;Success - Company information updated&#x22; notification](/_images/image-(2689).png "&#x22;Success - Company information updated&#x22; notification")

@@ -85,15 +85,13 @@ When troubleshooting **Intune application installation errors on a client**, we 
 %ProgramData%\PatchMyPCIntuneLogs\PatchMyPC-SoftwareUpdateDetectionScript.log
 ```
 
-{% hint style="warning" %}
-**Important**
-
-For user-based apps, the logs mentioned above will reside in the following folders:
-
-* %LocalAppData%\PatchMyPCIntuneLogs\PatchMyPC-Scriptrunner.log
-* %Temp%\PatchMyPC-SoftwareDetectionScript.log
-* %Temp%\PatchMyPC-SoftwareUpdateDetectionScript.log
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>For user-based apps, the logs mentioned above will reside in the following folders:</p>
+<p>* %LocalAppData%\PatchMyPCIntuneLogs\PatchMyPC-Scriptrunner.log</p>
+<p>* %Temp%\PatchMyPC-SoftwareDetectionScript.log</p>
+<p>* %Temp%\PatchMyPC-SoftwareUpdateDetectionScript.log</p>
+</blockquote>
 
 ```
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs\AgentExecutor.log
@@ -102,11 +100,10 @@ For user-based apps, the logs mentioned above will reside in the following folde
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs\AppWorkload.log
 ```
 
-{% hint style="info" %}
-**Note**
-
-Some Patch My PC log files listed above may be found in **%WinDir%\CCM** folder if that folder exists.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>Some Patch My PC log files listed above may be found in **%WinDir%\CCM** folder if that folder exists.</p>
+</blockquote>
 
 ### **SCCM Applications Failing to Install on Client Devices**
 
@@ -186,11 +183,10 @@ When troubleshooting **updates failing to download into a deployment package fro
 %temp%\PatchDownloader*.log
 ```
 
-{% hint style="info" %}
-**Note**
-
-If you are using an RDP session, the **patchdownloader.log** may be in a numbered sub-folder in your **Users** **%temp%** folder.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If you are using an RDP session, the **patchdownloader.log** may be in a numbered sub-folder in your **Users** **%temp%** folder.</p>
+</blockquote>
 
 ### **Patch My PC Publisher - How to Enable Debug Logging**
 
