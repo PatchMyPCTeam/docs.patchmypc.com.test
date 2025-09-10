@@ -136,7 +136,10 @@ jobs:
           from urllib.parse import unquote
 
           IMG_EXT = r"(?:png|jpe?g|gif|webp|svg|gifv)"
-
+          
+          # Defensive: strip any trailing > from URL fragments
+          url = url.strip().rstrip('>')
+          
           def clean_filename_from_url(url: str) -> str:
               # 💡 Defensive: strip accidental empty-title tokens that leaked into URL
               # e.g. "/_images/image-(810 "").png" -> "/_images/image-(810).png"
