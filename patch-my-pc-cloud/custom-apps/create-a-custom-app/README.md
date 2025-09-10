@@ -4,13 +4,11 @@ _Applies to: Custom Apps_
 
 Patch My PC (PMPC) Cloud allows you to create your own Custom Apps, which are typically in-house developed.
 
-{% hint style="info" %}
-**Note**
-
-If you are using our on-premises Publisher, you should follow the [Publish a Custom App](../publish-a-custom-app.md) process instead.
-
-Likewise, if you are a Managed Service Provider (MSP) wanting to deploy a Custom App to one or more managed companies, see [MSP Custom Apps](../../managed-service-provider/msp-custom-apps/) for more details.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If you are using our on-premises Publisher, you should follow the [Publish a Custom App](../publish-a-custom-app.md) process instead.</p>
+<p>Likewise, if you are a Managed Service Provider (MSP) wanting to deploy a Custom App to one or more managed companies, see [MSP Custom Apps](../../managed-service-provider/msp-custom-apps/) for more details.</p>
+</blockquote>
 
 Creating a Custom App involves:
 
@@ -21,8 +19,7 @@ Creating a Custom App involves:
 * [Configuring Native Detection Rules](custom-apps-detection-rules-tab.md) (optional)
 * [Reviewing the Summary](custom-apps-summary-tab.md) (optional but recommended)
 
-{% hint style="info" %}
-**Note**
-
-See [How to package Visual Studio 2022 as Custom App](https://patchmypc.com/how-to-package-visual-studio-2022-custom-app) for a real-life example.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>See <a href="https://patchmypc.com/how-to-package-visual-studio-2022-custom-app">How to package Visual Studio 2022 as Custom App</a> for a real-life example.</p>
+</blockquote>

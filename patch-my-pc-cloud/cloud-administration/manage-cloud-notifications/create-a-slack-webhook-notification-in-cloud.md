@@ -8,39 +8,38 @@ To create a Slack webhook notification in Patch My PC (PMPC) Cloud:
 2.  On the **Add Slack** screen, enter a unique name for the webhook in the **Webhook Name** field. For example, **Patch My PC**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (753).png" alt="Entering a unique name for the webhook in the “Webhook Name” field"><figcaption></figcaption></figure>
+    ![Entering a unique name for the webhook in the “Webhook Name” field](/_images/image-(753).png "Entering a unique name for the webhook in the “Webhook Name” field")
 
 
 3.  In the **Webhook URL** field, enter the unique URL of your Slack webhook and click **Save**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (754).png" alt="Entering the unique URL for your Slack webhook"><figcaption></figcaption></figure>
+    ![Entering the unique URL for your Slack webhook](/_images/image-(754).png "Entering the unique URL for your Slack webhook")
 
     \
     The new webhook notification is shown under the **Webhook Notifications** section.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1899).png" alt="New webhook notification is shown under the “Webhook Notifications” section"><figcaption></figcaption></figure>
+    ![New webhook notification is shown under the “Webhook Notifications” section](/_images/image-(1899).png "New webhook notification is shown under the “Webhook Notifications” section")
 
-{% hint style="success" %}
-**Tip**
-
-You can click the small envelope beside the webhook URL (![](<../../../.gitbook/assets/image (1900).png>)) to send a test notification. See [Testing a Slack Webhook Notification](cloud-notifications-reference/test-a-slack-webhook-notification-in-cloud.md) for more details.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can click the small envelope beside the webhook URL (![](/_images/image-(1900).png>)) to send a test notification. See [Testing a Slack Webhook Notification](cloud-notifications-reference/test-a-slack-webhook-notification-in-cloud.md) for more details.</p>
+</blockquote>
 
 4.  Click **Save** to save the newly added notification.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1905).png" alt="Clicking “Save” to save the webhook"><figcaption></figcaption></figure>
+    ![Clicking “Save” to save the webhook](/_images/image-(1905).png "Clicking “Save” to save the webhook")
 
     \
     The **Success – Notification created** notification is shown.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1906).png" alt="&#x22;Success – Notification created&#x22; notification"><figcaption></figcaption></figure>
+    ![&#x22;Success – Notification created&#x22; notification](/_images/image-(1906).png "&#x22;Success – Notification created&#x22; notification")
 
     \
     The portal auto-refreshes to show the new notification.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1907).png" alt="Portal auto-refreshes to show the new notification"><figcaption></figcaption></figure>
+    ![Portal auto-refreshes to show the new notification](/_images/image-(1907).png "Portal auto-refreshes to show the new notification")
