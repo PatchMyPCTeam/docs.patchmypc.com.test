@@ -9,28 +9,28 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use [Categories]
     \
 
 
-    ![Navigating to “Apps”](/_images/image-(281 "Navigating to “Apps”").png "Navigating to “Apps”")
+    <figure><img src="../../../.gitbook/assets/image (281).png" alt="Navigating to “Apps”"><figcaption></figcaption></figure>
 
 
 3.  Navigate to **All Apps**.\
     \
 
 
-    ![Navigating to “All Apps”](/_images/image-(282 "Navigating to “All Apps”").png "Navigating to “All Apps”")
+    <figure><img src="../../../.gitbook/assets/image (282).png" alt="Navigating to “All Apps”"><figcaption></figcaption></figure>
 
 
 4.  Click the app if it’s shown in the results or search for it.\
     \
 
 
-    ![Clicking the app if it’s shown in the results or searching for it](/_images/image-(283 "Clicking the app if it’s shown in the results or searching for it").png "Clicking the app if it’s shown in the results or searching for it")
+    <figure><img src="../../../.gitbook/assets/image (283).png" alt="Clicking the app if it’s shown in the results or searching for it"><figcaption></figcaption></figure>
 
 
 5.  Navigate to **Manage | Properties**\
     \
 
 
-    ![Navigating to “Manage | Properties”](/_images/image-(284 "Navigating to “Manage | Properties”").png "Navigating to “Manage | Properties”")
+    <figure><img src="../../../.gitbook/assets/image (284).png" alt="Navigating to “Manage | Properties”"><figcaption></figcaption></figure>
 
 
 
@@ -38,4 +38,4 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use [Categories]
 6.  \
 
 
-    ![List of Categories is shown in the “Category” field.](/_images/image-(285 "List of Categories is shown in the “Category” field.").png "List of Categories is shown in the “Category” field.")
+    <figure><img src="../../../.gitbook/assets/image (285).png" alt="List of Categories is shown in the “Category” field."><figcaption></figcaption></figure>

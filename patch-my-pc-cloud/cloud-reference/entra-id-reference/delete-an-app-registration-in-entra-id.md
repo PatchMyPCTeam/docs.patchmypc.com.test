@@ -8,24 +8,25 @@ To delete an App Registration:
 
 1. Sign in to the Microsoft Azure portal using an account with the **GlobalAdmin** role and navigate to the [App Registrations](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) blade.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
-<p>You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.</p>
-</blockquote>
+{% hint style="warning" %}
+**Important**
 
-![Navigating to the “App registrations” blade](/_images/image-(1970 "Navigating to the “App registrations” blade").png "Navigating to the “App registrations” blade")
+You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (1970).png" alt="Navigating to the “App registrations” blade"><figcaption></figcaption></figure>
 
 2.  Click **All applications**.\
 
 
-    ![Clicking “All Applications”](/_images/image-(1971 "Clicking “All Applications”").png "Clicking “All Applications”")
+    <figure><img src="../../../.gitbook/assets/image (1971).png" alt="Clicking “All Applications”"><figcaption></figcaption></figure>
 
     \
 
 3.  Click the **PMPC Recovery** application.\
 
 
-    ![Clicking the “PMPC Recovery” application](/_images/image-(1972 "Clicking the “PMPC Recovery” application").png "Clicking the “PMPC Recovery” application")
+    <figure><img src="../../../.gitbook/assets/image (1972).png" alt="Clicking the “PMPC Recovery” application"><figcaption></figcaption></figure>
 
     \
 
@@ -33,7 +34,7 @@ To delete an App Registration:
     4.  Click **Delete**.\
 
 
-        ![Clicking “Delete”](/_images/image-(1973 "Clicking “Delete”").png "Clicking “Delete”")
+        <figure><img src="../../../.gitbook/assets/image (1973).png" alt="Clicking “Delete”"><figcaption></figcaption></figure>
 
         \
 
@@ -41,14 +42,14 @@ To delete an App Registration:
         \
 
 
-        ![Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”.](/_images/image-(1974 "Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”.").png "Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”.")
+        <figure><img src="../../../.gitbook/assets/image (1974).png" alt="Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”."><figcaption></figcaption></figure>
 
         \
         The **Welcome to Azure** page is shown and the **Delete application - Successfully deleted application PMPC Recovery** notification is shown.\
         \
 
 
-        ![“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown.](/_images/image-(1975 "“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown.").png "“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown.")
+        <figure><img src="../../../.gitbook/assets/image (1975).png" alt="“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown."><figcaption></figcaption></figure>
 
         \
 
@@ -56,7 +57,7 @@ To delete an App Registration:
         \
 
 
-        ![Clicking the “App Registrations” blade](/_images/image-(1976 "Clicking the “App Registrations” blade").png "Clicking the “App Registrations” blade")
+        <figure><img src="../../../.gitbook/assets/image (1976).png" alt="Clicking the “App Registrations” blade "><figcaption></figcaption></figure>
 
         \
 
@@ -64,7 +65,7 @@ To delete an App Registration:
         \
 
 
-        ![Clicking the “All applications” blade](/_images/image-(1977 "Clicking the “All applications” blade").png "Clicking the “All applications” blade")
+        <figure><img src="../../../.gitbook/assets/image (1977).png" alt="Clicking the “All applications” blade"><figcaption></figcaption></figure>
 
         \
 
@@ -72,4 +73,4 @@ To delete an App Registration:
         \
 
 
-        ![Verifying the “PMPC Recovery” application has been deleted.](/_images/image-(1978 "Verifying the “PMPC Recovery” application has been deleted.").png "Verifying the “PMPC Recovery” application has been deleted.")
+        <figure><img src="../../../.gitbook/assets/image (1978).png" alt="Verifying the “PMPC Recovery” application has been deleted."><figcaption></figcaption></figure>

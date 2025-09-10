@@ -6,7 +6,7 @@ Once onboarded to Patch My PC (PMPC) Cloud, you can manage the various environme
 
 All environment-related tasks are performed from the **Environments** node of the portal, accessed by navigating to **Settings | Environments.**
 
-![Navigating to “Settings | Environments”](/_images/image-(1592 "Navigating to “Settings | Environments”").png "Navigating to “Settings | Environments”")
+<figure><img src="../../../.gitbook/assets/image (1592).png" alt="Navigating to “Settings | Environments”" width="563"><figcaption></figcaption></figure>
 
 The **Environments** page is then displayed, allowing you to see and manage which:
 
@@ -14,4 +14,4 @@ The **Environments** page is then displayed, allowing you to see and manage whic
 * [Subscription level you currently have and when it expires](manage-your-cloud-license.md)
 * [Environments your portal is connected to and rename them](rename-your-cloud-environment.md)
 
-![](/_images/image-(2567).png "")
+<figure><img src="../../../.gitbook/assets/image (2567).png" alt="" width="563"><figcaption></figcaption></figure>
