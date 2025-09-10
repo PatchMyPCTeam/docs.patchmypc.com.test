@@ -137,11 +137,10 @@ jobs:
 
           IMG_EXT = r"(?:png|jpe?g|gif|webp|svg|gifv)"
           
-          # Defensive: strip any trailing > from URL fragments
-          url = url.strip().rstrip('>')
-          
           def clean_filename_from_url(url: str) -> str:
-              # 💡 Defensive: strip accidental empty-title tokens that leaked into URL
+              # Trim and remove any trailing '>' that can leak from <...> wrappers
+              url = url.strip().rstrip('>')
+              # Defensive: strip accidental empty-title tokens that leaked into URL
               # e.g. "/_images/image-(810 "").png" -> "/_images/image-(810).png"
               url = re.sub(r'\s*""', '', url)
 
@@ -271,7 +270,7 @@ jobs:
               # 6) Catch-all: fix bare .gitbook/assets occurrences (outside code fences)
               out_lines, fenced = [], False
               fence_re = re.compile(r'^\s*```')
-              asset_re = re.compile(r'(\.gitbook/assets/[^)\s"\'<>]+)', re.I)
+              asset_re = re.compile(r'(\.gitbook/assets/[^"\'<>]+)', re.I)
               for ln in s.splitlines():
                   if fence_re.match(ln):
                       fenced = not fenced
