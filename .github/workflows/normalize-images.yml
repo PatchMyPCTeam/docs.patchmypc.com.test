@@ -241,7 +241,6 @@ jobs:
               s = convert_hint_blocks(s)
           
               # s = replace_all_bold(s)
-        
 
               # 3) Gather reference defs
               defs = {}
