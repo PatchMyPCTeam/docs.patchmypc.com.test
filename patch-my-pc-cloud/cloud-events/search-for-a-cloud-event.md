@@ -6,20 +6,19 @@ _Applies to: Patch My PC Cloud_
 
 Type what you are looking for in the **Search** box on the **Events** page.
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If the portal finds any matching entries as you type, they are displayed. However, if no results are shown when you’ve finished typing your search phrase, either press Enter or click the magnifying glass.</p>
+</blockquote>
 
-If the portal finds any matching entries as you type, they are displayed. However, if no results are shown when you’ve finished typing your search phrase, either press Enter or click the magnifying glass.
-{% endhint %}
-
-<figure><img src="../../.gitbook/assets/image (1763).png" alt="The “Search” box"><figcaption></figcaption></figure>
+![The “Search” box](/_images/image-(1763).png "The “Search” box")
 
 The search results of the matching entries is displayed.
 
-<figure><img src="../../.gitbook/assets/image (1764).png" alt="Search results"><figcaption></figcaption></figure>
+![Search results](/_images/image-(1764).png "Search results")
 
 ### To clear the search:
 
 Either click the red **X** or manually clear the **Search** box.
 
-<figure><img src="../../.gitbook/assets/image (1765).png" alt="Clearing the “Search” box"><figcaption></figcaption></figure>
+![Clearing the “Search” box](/_images/image-(1765).png "Clearing the “Search” box")
