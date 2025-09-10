@@ -8,37 +8,39 @@ The _Sync Schedule_ allows you to set a different time and frequency for the syn
 
 To set a different time or frequency for the sync job:
 
-1.  Navigate to <strong>Settings | Sync Schedule</strong>.\
+1.  Navigate to **Settings | Sync Schedule**.\
 
 
-    ![Navigating to “Settings | Sync Schedule”](/_images/image-(1717).png "Navigating to “Settings | Sync Schedule”")
+    <figure><img src="../../.gitbook/assets/image (1717).png" alt="Navigating to “Settings | Sync Schedule”"><figcaption></figcaption></figure>
 
 
-2.  On the <strong>Sync Schedule</strong> page, make the required changes, then click <strong>Save</strong>.\
+2.  On the **Sync Schedule** page, make the required changes, then click **Save**.\
 
 
-    ![Clicking “Save” to save your changes](/_images/image-(464).png "Clicking “Save” to save your changes")
+    <figure><img src="../../.gitbook/assets/image (464).png" alt="Clicking “Save” to save your changes"><figcaption></figcaption></figure>
 
     \
-    The <strong>Success – Sync Scheduler updated</strong> notification is displayed.\
+    The **Success – Sync Scheduler updated** notification is displayed.\
 
 
-    ![“Success – Sync Scheduler saved” notification](/_images/image-(465).png "“Success – Sync Scheduler saved” notification")
+    <figure><img src="../../.gitbook/assets/image (465).png" alt="“Success – Sync Scheduler saved” notification"><figcaption></figcaption></figure>
 
 ### Other Frequencies
 
 You can also choose to run the Sync Schedule on a Weekly or Monthly basis.
 
-<blockquote class="wp-block-quote">
-<p><strong>Important</strong></p>
-<p>If you are using [Update Rings](../cloud-deployments/cloud-update-rings/), we recommend running the Sync Schedule daily to avoid potential issues with the timing of updates and the overall performance of this feature.</p>
-<p>This is why the warning message about this is displayed whenever you select either the <strong>Weekly</strong> or <strong>Monthly</strong> options.</p>
-</blockquote>
+{% hint style="warning" %}
+**Important**
 
-If you choose the <strong>Weekly</strong> option, as well as the time the sync runs, you can also choose which days it runs on.
+If you are using [Update Rings](../cloud-deployments/cloud-update-rings/), we recommend running the Sync Schedule daily to avoid potential issues with the timing of updates and the overall performance of this feature.
 
-![Choosing the “Weekly” option](/_images/image-(2116).png "Choosing the “Weekly” option")
+This is why the warning message about this is displayed whenever you select either the **Weekly** or **Monthly** options.
+{% endhint %}
 
-If you choose the <strong>Monthly</strong> option, as well as the time the sync runs, you can also choose to run it on a specific day of the month or a recurring pattern.
+If you choose the **Weekly** option, as well as the time the sync runs, you can also choose which days it runs on.
 
-![Choosing the “Monthly” option](/_images/image-(2117).png "Choosing the “Monthly” option")
+<figure><img src="../../.gitbook/assets/image (2116).png" alt="Choosing the “Weekly” option"><figcaption></figcaption></figure>
+
+If you choose the **Monthly** option, as well as the time the sync runs, you can also choose to run it on a specific day of the month or a recurring pattern.
+
+<figure><img src="../../.gitbook/assets/image (2117).png" alt="Choosing the “Monthly” option"><figcaption></figcaption></figure>

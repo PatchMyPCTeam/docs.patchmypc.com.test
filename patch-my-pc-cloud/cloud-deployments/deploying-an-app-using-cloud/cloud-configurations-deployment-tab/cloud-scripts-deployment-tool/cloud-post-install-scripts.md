@@ -4,70 +4,75 @@ _Applies to: Patch My PC Cloud_
 
 A _Post-Install Script_ is a script that can be run after the installer runs.
 
-To add a <strong>Post-Install</strong> script:
+To add a **Post-Install** script:
 
-1. Click <strong>Add</strong> beside the <strong>Post-Install</strong> option.
+1. Click **Add** beside the **Post-Install** option.
 
-![Clicking “Add” beside the “Post-Install” option](/_images/image-(2606).png "Clicking “Add” beside the “Post-Install” option")
+<figure><img src="../../../../../.gitbook/assets/image (2606).png" alt="Clicking “Add” beside the “Post-Install” option" width="419"><figcaption></figcaption></figure>
 
-2. To import an existing script, click <strong>Import</strong>, browse to the location containing the script, and select it.
+2. To import an existing script, click **Import**, browse to the location containing the script, and select it.
 
-![Clicking “Import” to import an existing script](/_images/image-(2450).png "Clicking “Import” to import an existing script")
+<figure><img src="../../../../../.gitbook/assets/image (2450).png" alt="Clicking “Import” to import an existing script" width="563"><figcaption></figcaption></figure>
 
-The <strong>Add Post-Install Script</strong> page is populated with the imported script.
+The **Add Post-Install Script** page is populated with the imported script.
 
-![“Add Post-Install Script” page is populated with the imported script.](/_images/image-(2451).png "“Add Post-Install Script” page is populated with the imported script.")
+<figure><img src="../../../../../.gitbook/assets/image (2451).png" alt="“Add Post-Install Script” page is populated with the imported script." width="563"><figcaption></figcaption></figure>
 
-3. To manually add a script, enter a unique name for the script in the <strong>Script Name</strong> field.
+3. To manually add a script, enter a unique name for the script in the **Script Name** field.
 
-![Entering a unique name for the script in the “Script Name” field](/_images/image-(2452).png "Entering a unique name for the script in the “Script Name” field")
+<figure><img src="../../../../../.gitbook/assets/image (2452).png" alt="Entering a unique name for the script in the “Script Name” field" width="563"><figcaption></figcaption></figure>
 
-4. Select the type of script from the <strong>Script Format</strong> dropdown.
+4. Select the type of script from the **Script Format** dropdown.
 
-![Selecting the type of script from the “Script Format” dropdown.](/_images/image-(2453).png "Selecting the type of script from the “Script Format” dropdown.")
+<figure><img src="../../../../../.gitbook/assets/image (2453).png" alt="Selecting the type of script from the “Script Format” dropdown." width="563"><figcaption></figcaption></figure>
 
 5. In the script editor, type your script.
 
-![Typing your script in the Script Editor](/_images/image-(2455).png "Typing your script in the Script Editor")
+<figure><img src="../../../../../.gitbook/assets/image (2455).png" alt="Typing your script in the Script Editor" width="563"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>We currently have a limit of 50,000 characters per script. Use the <strong>Number of characters used</strong> counter to keep track of the number of characters you’ve entered in the script editor.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-6.  In the <strong>Arguments</strong> field, enter any arguments you want to provide to the script.\
+We currently have a limit of 50,000 characters per script. Use the **Number of characters used** counter to keep track of the number of characters you’ve entered in the script editor.
+{% endhint %}
 
-
-    ![Entering any arguments you want to provide to the script by specifying them in the “Arguments” field](/_images/image-(2456).png "Entering any arguments you want to provide to the script by specifying them in the “Arguments” field")
-
-<blockquote class="wp-block-quote">
-<p><strong>Tip</strong></p>
-<p>You can use variable names as arguments, provided they are enclosed by percentage signs (`%`). We provide common variables under this field, which you can add by clicking the plus (`+`) symbol or relevant variable name.</p>
-<p>&#x20;`%ReturnCode%` is currently only supported on post-scripts.</p>
-</blockquote>
-
-<blockquote class="wp-block-quote">
-<p><strong>Important</strong></p>
-<p>Using script Arguments is currently unsupported when deploying an app to macOS.</p>
-</blockquote>
-
-7.  Click <strong>Save</strong> to save your script.\
+6.  In the **Arguments** field, enter any arguments you want to provide to the script.\
 
 
-    ![Clicking “Save” to save your script](/_images/image-(2457).png "Clicking “Save” to save your script")
+    <figure><img src="../../../../../.gitbook/assets/image (2456).png" alt="Entering any arguments you want to provide to the script by specifying them in the “Arguments” field" width="563"><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+**Tip**
+
+You can use variable names as arguments, provided they are enclosed by percentage signs (`%`). We provide common variables under this field, which you can add by clicking the plus (`+`) symbol or relevant variable name.
+
+&#x20;`%ReturnCode%` is currently only supported on post-scripts.
+{% endhint %}
+
+{% hint style="danger" %}
+**Important**
+
+Using script Arguments is currently unsupported when deploying an app to macOS.
+{% endhint %}
+
+7.  Click **Save** to save your script.\
+
+
+    <figure><img src="../../../../../.gitbook/assets/image (2457).png" alt="Clicking “Save” to save your script" width="563"><figcaption></figcaption></figure>
 
     \
-    The <strong>Configurations</strong> tab is re-displayed with the name of the configured script beside it.
+    The **Configurations** tab is re-displayed with the name of the configured script beside it.
 
-![“Configurations” tab re-displayed with the name of the configured script beside it](/_images/image-(94).png "“Configurations” tab re-displayed with the name of the configured script beside it")
+<figure><img src="../../../../../.gitbook/assets/image (94).png" alt="“Configurations” tab re-displayed with the name of the configured script beside it" width="418"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p><strong>Tip</strong></p>
-<p>You can click <strong>Edit</strong> to edit a script or its settings. You can also click the red “`x`” beside a script to delete it.</p>
-</blockquote>
+{% hint style="success" %}
+**Tip**
 
-<strong>*
+You can click **Edit** to edit a script or its settings. You can also click the red “`x`” beside a script to delete it.
+{% endhint %}
 
-If you do not want to configure any of the optional tabs under the </strong>Tools<strong> section, click </strong>Next<strong> to move to the [Assignments](../../cloud-assignments-deployment-tab.md) tab.
+***
 
-Otherwise, click on the relevant tab under </strong>Tools** to configure the required settings, which are explained in the relevant article.
+If you do not want to configure any of the optional tabs under the **Tools** section, click **Next** to move to the [Assignments](../../cloud-assignments-deployment-tab.md) tab.
+
+Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant article.

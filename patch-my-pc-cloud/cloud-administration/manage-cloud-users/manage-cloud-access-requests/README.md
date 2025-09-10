@@ -6,26 +6,28 @@ Access to the Patch My PC (PMPC) Cloud portal is controlled through either an ac
 
 This section details how to manage Access Requests.
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>See [Managing Invitations](../manage-cloud-invitations/) for more information on invitations.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+See [Managing Invitations](../manage-cloud-invitations/) for more information on invitations.
+{% endhint %}
 
 There are two ways to manage Access Requests to join your PMPC Cloud portal:
 
-* Clicking <strong>Review Request</strong> in the email generated when the user requests access.
-* Navigating to <strong>Settings | Users | Pending Approval</strong>.
+* Clicking **Review Request** in the email generated when the user requests access.
+* Navigating to **Settings | Users | Pending Approval**.
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>Clicking <strong>Review Request</strong> in the email takes you to the <strong>Pending Approval</strong> page. To see an example of the access request email, see [Example Access Request email](../../../cloud-reference/cloud-email-reference/example-cloud-access-request-email.md).</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-![Navigating to “Settings | Users | Pending Approval”](/_images/image-(693).png "Navigating to “Settings | Users | Pending Approval”")
+Clicking **Review Request** in the email takes you to the **Pending Approval** page. To see an example of the access request email, see [Example Access Request email](../../../cloud-reference/cloud-email-reference/example-cloud-access-request-email.md).
+{% endhint %}
+
+<figure><img src="../../../../.gitbook/assets/image (693).png" alt="Navigating to “Settings | Users | Pending Approval”"><figcaption></figcaption></figure>
 
 Any pending approvals are shown.
 
-![List of Pending Approvals](/_images/image-(618).png "List of Pending Approvals")
+<figure><img src="../../../../.gitbook/assets/image (618).png" alt="List of Pending Approvals"><figcaption></figcaption></figure>
 
 From this screen, you can:
 

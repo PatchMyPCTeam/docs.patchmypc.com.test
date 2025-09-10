@@ -4,11 +4,11 @@ _Applies to: Patch My PC Cloud_
 
 ### SYMPTOMS
 
-I am trying to edit a Patch My PC (PMPC) Cloud deployment, but when I view its properties, options such as <strong>Language</strong> are greyed out and I see the message:
+I am trying to edit a Patch My PC (PMPC) Cloud deployment, but when I view its properties, options such as **Language** are greyed out and I see the message:
 
-<strong>These settings are locked after deployment to prevent installation issues. Create a new deployment to apply different settings</strong>
+**These settings are locked after deployment to prevent installation issues. Create a new deployment to apply different settings**
 
-![&#x22;These settings are locked after deployment to prevent installation issues. Create a new deployment to apply different settings&#x22;](/_images/image-(2512).png "&#x22;These settings are locked after deployment to prevent installation issues. Create a new deployment to apply different settings&#x22;")
+<figure><img src="../../../.gitbook/assets/image (2512).png" alt="&#x22;These settings are locked after deployment to prevent installation issues. Create a new deployment to apply different settings&#x22;"><figcaption></figcaption></figure>
 
 ### CAUSE
 

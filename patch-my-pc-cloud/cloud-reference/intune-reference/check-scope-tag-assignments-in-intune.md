@@ -4,35 +4,36 @@ _Applies to: Microsoft Intune_
 
 If a Patch My PC (PMPC) Cloud deployment has been [configured to use Scope Tags](../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/role-scope-tags-optional.md), this is how you can check the tags have been created correctly in Intune:
 
-1. Sign in to the <strong>Intune admin center</strong>.
-2.  Navigate to <strong>Apps</strong>.\
+1. Sign in to the **Intune admin center**.
+2.  Navigate to **Apps**.\
     \
 
 
-    ![Navigating to “Apps”](/_images/image-(2220).png "Navigating to “Apps”")
+    <figure><img src="../../../.gitbook/assets/image (2220).png" alt="Navigating to “Apps”"><figcaption></figcaption></figure>
 
 
-3.  Navigate to <strong>All Apps</strong>.\
+3.  Navigate to **All Apps**.\
     \
 
 
-    ![Navigating to “All Apps”](/_images/image-(2221).png "Navigating to “All Apps”")
+    <figure><img src="../../../.gitbook/assets/image (2221).png" alt="Navigating to “All Apps”"><figcaption></figcaption></figure>
 
 
 4.  Click the app if it’s shown in the results or search for it.\
 
 
-    ![Clicking the app](/_images/image-(2222).png "Clicking the app")
+    <figure><img src="../../../.gitbook/assets/image (2222).png" alt="Clicking the app"><figcaption></figcaption></figure>
 
 
-5.  Navigate to <strong>Manage | Properties</strong>.\
+5.  Navigate to **Manage | Properties**.\
     \
 
 
-    ![Navigating to “Manage | Properties”](/_images/image-(2223).png "Navigating to “Manage | Properties”")
+    <figure><img src="../../../.gitbook/assets/image (2223).png" alt="Navigating to “Manage | Properties”"><figcaption></figcaption></figure>
 
 
-6.  Scroll down to the <strong>Scope tags</strong> section, which will show the tags defined in the PMPC Cloud deployment.\
+6.  Scroll down to the **Scope tags** section, which will show the tags defined in the PMPC Cloud deployment.\
 
 
-    ![Scrolling down to the “Scope tags” section which shows the tags defined in the PMPC Cloud deployment](/_images/image-(2224).png "Scrolling down to the “Scope tags” section which shows the tags defined in the PMPC Cloud deployment")
+    <figure><img src="../../../.gitbook/assets/image (2224).png" alt="Scrolling down to the “Scope tags” section which shows the tags defined in the PMPC Cloud deployment"><figcaption></figcaption></figure>
+

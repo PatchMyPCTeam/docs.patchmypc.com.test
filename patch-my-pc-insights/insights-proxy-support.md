@@ -15,17 +15,18 @@ Ports can be added at the end of the network address e.g. http://x.x.x.x:1234"
 
 If Advanced Insights cannot automatically access our licensing service at https://api.patchmypc.com we will automatically prompt for you to supply proxy details.
 
-![](/_images/image-(1063).png "Welcome page proxy prompt")
+<figure><img src="../.gitbook/assets/image (1063).png" alt=""><figcaption><p>Welcome page proxy prompt</p></figcaption></figure>
 
 ### Adding a proxy server in the Settings page
 
 Proxy configuration can also be added in the Administration - Settings - External Services tab
 
-![](/_images/image-(1064).png "Settings page proxy configuration")
+<figure><img src="../.gitbook/assets/image (1064).png" alt=""><figcaption><p>Settings page proxy configuration</p></figcaption></figure>
 
 
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>If you are changing proxy settings, you will need to restart the Advanced Insights Controller and Warranty websites on the server you have Advanced Insights installed to reload the proxy settings.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+If you are changing proxy settings, you will need to restart the Advanced Insights Controller and Warranty websites on the server you have Advanced Insights installed to reload the proxy settings.
+{% endhint %}

@@ -4,31 +4,33 @@ _Applies to: Patch My PC Cloud_
 
 Once onboarded to Patch My PC (PMPC) Cloud, you can modify certain aspects of your company-related information.
 
-All user company-related tasks are performed from the <strong>Company</strong> node of the portal, which is accessed by:
+All user company-related tasks are performed from the **Company** node of the portal, which is accessed by:
 
 1. Sign in in to the PMPC portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
-2. Navigate to <strong>Settings | Company</strong>
+2. Navigate to **Settings | Company**
 
-![Navigating to “Settings | Company”](/_images/image-(678).png "Navigating to “Settings | Company”")
+<figure><img src="../../../.gitbook/assets/image (678).png" alt="Navigating to “Settings | Company”" width="563"><figcaption></figcaption></figure>
 
-The <strong>Company</strong> screen is then displayed.
+The **Company** screen is then displayed.
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>The <strong>Usage</strong> tab shown in the screenshots in this article is a new feature that will be released soon.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-![“Company” screen](/_images/image-(2688).png "“Company” screen")
+The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.
+{% endhint %}
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>See [Company Reference](cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.</p>
-</blockquote>
+<figure><img src="../../../.gitbook/assets/image (2688).png" alt="“Company” screen" width="563"><figcaption></figcaption></figure>
 
-3. Make any required changes, then click <strong>Save</strong>.
+{% hint style="info" %}
+**Note**
 
-![Clicking &#x22;Save&#x22; to save changes](/_images/image-(2687).png "Clicking &#x22;Save&#x22; to save changes")
+See [Company Reference](cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.
+{% endhint %}
 
-The <strong>Success - Company information updated</strong> notification is shown.
+3. Make any required changes, then click **Save**.
 
-![&#x22;Success - Company information updated&#x22; notification](/_images/image-(2689).png "&#x22;Success - Company information updated&#x22; notification")
+<figure><img src="../../../.gitbook/assets/image (2687).png" alt="Clicking &#x22;Save&#x22; to save changes" width="563"><figcaption></figcaption></figure>
+
+The **Success - Company information updated** notification is shown.
+
+<figure><img src="../../../.gitbook/assets/image (2689).png" alt="&#x22;Success - Company information updated&#x22; notification" width="563"><figcaption></figcaption></figure>

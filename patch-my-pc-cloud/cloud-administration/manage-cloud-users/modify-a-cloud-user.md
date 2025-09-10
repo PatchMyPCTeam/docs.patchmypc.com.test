@@ -11,52 +11,59 @@ Once a user has been successfully created in Patch My PC (PMPC) Cloud, they can 
 
 To modify the role assigned to a user:
 
-1. Navigate to the <strong>Users</strong> page.
-2.  In the <strong>Roles</strong> column, click the down arrow and select the relevant role you want to assign to the user.\
+1. Navigate to the **Users** page.
+2.  In the **Roles** column, click the down arrow and select the relevant role you want to assign to the user.\
     \
-    For example, to change the user’s current role from <strong>Full Admin</strong> to <strong>Custom App Admin</strong>, click the down arrow beside the current role, then choose <strong>Custom App Admin</strong>.\
+    For example, to change the user’s current role from **Full Admin** to **Custom App Admin**, click the down arrow beside the current role, then choose **Custom App Admin**.\
     \
 
 
-    ![Selecting the required user role from the list of roles dropdown](/_images/image-(2118).png "Selecting the required user role from the list of roles dropdown")
+    <figure><img src="../../../.gitbook/assets/image (2118).png" alt="Selecting the required user role from the list of roles dropdown"><figcaption></figcaption></figure>
 
     \
-    The role for the user will be updated and the <strong>Success - Role changed</strong> notification is displayed.\
+    The role for the user will be updated and the **Success - Role changed** notification is displayed.\
 
 
-    ![“Success - Role changed” notification](/_images/image-(1648).png "“Success - Role changed” notification")
+    <figure><img src="../../../.gitbook/assets/image (1648).png" alt="“Success - Role changed” notification"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>See [User Roles](cloud-user-roles-reference.md) for more information on the user roles available.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+See [User Roles](cloud-user-roles-reference.md) for more information on the user roles available.
+{% endhint %}
 
 ### Managing Access Management privileges for a User
 
-To manage whether a user is granted the <strong>Access Management</strong> privilege:
+To manage whether a user is granted the **Access Management** privilege:
 
-1. Navigate to the <strong>Users</strong> area.
-2.  In the <strong>Roles</strong> column, slide the <strong>Access Management</strong> slider to the right for the user you want to grant this permission.\
+1. Navigate to the **Users** area.
+2.  In the **Roles** column, slide the **Access Management** slider to the right for the user you want to grant this permission.\
 
 
-    ![Using the slider to grant “Access Management” privileges](/_images/image-(1649).png "Using the slider to grant “Access Management” privileges")
+    <figure><img src="../../../.gitbook/assets/image (1649).png" alt="Using the slider to grant “Access Management” privileges"><figcaption></figcaption></figure>
 
     \
-    The <strong>Success - Role changed</strong> notification is displayed.\
+    The **Success - Role changed** notification is displayed.\
 
 
-    ![The “Success - Role changed&#x22; notification](/_images/image-(1650).png "The “Success - Role changed&#x22; notification")
+    <figure><img src="../../../.gitbook/assets/image (1650).png" alt="The “Success - Role changed&#x22; notification"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>To revoke this privilege, slide the <strong>Access Management</strong> slider to the left. If you are the last user in your company with this privilege, you will be unable to revoke it.</p>
-<p>If you try revoking it for yourself and there is at least one other user account with this privilege, you will see the following dialog box warning you that if you revoke access management you will be unable to manage user accounts in the portal.</p>
-<p>!["Are you sure you want to revoke access management from your account" pop up](/_images/image (1759).png>)&#x20;</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-<blockquote class="wp-block-quote">
-<p><strong>Important</strong></p>
-<p>As we recommend you have at least two users with Access Management privileges in your environment, if the portal detects you only have one, you will see the following warning message at the top of the portal:</p>
-<p><strong>You currently have only one user with Access Management privileges. To prevent access issues in the future, please add a second user with Access Management privileges.</strong></p>
-<p>Granting at least two users this privilege will remove this message. Likewise, if revoking Access Management privileges for a user results in only one user in your environment having this privilege, you will see the warning notification again.</p>
-</blockquote>
+To revoke this privilege, slide the **Access Management** slider to the left. If you are the last user in your company with this privilege, you will be unable to revoke it.
+
+If you try revoking it for yourself and there is at least one other user account with this privilege, you will see the following dialog box warning you that if you revoke access management you will be unable to manage user accounts in the portal.
+
+!["Are you sure you want to revoke access management from your account" pop up](<../../../.gitbook/assets/image (1759).png>)&#x20;
+{% endhint %}
+
+{% hint style="warning" %}
+**Important**
+
+As we recommend you have at least two users with Access Management privileges in your environment, if the portal detects you only have one, you will see the following warning message at the top of the portal:
+
+**You currently have only one user with Access Management privileges. To prevent access issues in the future, please add a second user with Access Management privileges.**
+
+Granting at least two users this privilege will remove this message. Likewise, if revoking Access Management privileges for a user results in only one user in your environment having this privilege, you will see the warning notification again.
+{% endhint %}
