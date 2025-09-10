@@ -140,6 +140,8 @@ jobs:
           def clean_filename_from_url(url: str) -> str:
               # Trim and remove any trailing '>' that can leak from <...> wrappers
               url = url.strip().rstrip('>')
+              # strip accidental empty-title tokens that leaked into URL
+              url = re.sub(r'\s*""', '', url)
               # Defensive: strip accidental empty-title tokens that leaked into URL
               # e.g. "/_images/image-(810 "").png" -> "/_images/image-(810).png"
               url = re.sub(r'\s*""', '', url)
@@ -239,6 +241,19 @@ jobs:
               s = convert_hint_blocks(s)
           
               # s = replace_all_bold(s)
+          
+              # 2.6) Sanitize ANY Markdown image URL (fix spaces, stray '>', etc.)
+                md_img_any = re.compile(
+                r'!\[([^\]]*)\]'          # group 1: alt
+                r'\('
+                r'\s*<?'
+                r'([^)\r\n]+?)'           # group 2: raw URL (no backref, we’ll clean it)
+                r'>?'                     # allow a dangling '>' but don't capture it
+                r'(?:\s+"[^"]*")?'        # optional "title" (ignored; build_md sets title=alt if non-empty)
+                r'\s*\)',
+                re.I
+                )
+              s = md_img_any.sub(lambda m: build_md(m.group(1), m.group(2)), s)
 
               # 3) Gather reference defs
               defs = {}
