@@ -4,7 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 ### SYMPTOMS
 
-I have a folder named "**MyFolder**" that contains 3,000 files, totaling 3GB. This folder needs to be available in the cache folder alongside the installer during installation.
+I have a folder named "<strong>MyFolder</strong>" that contains 3,000 files, totaling 3GB. This folder needs to be available in the cache folder alongside the installer during installation.
 
 However, when I try uploading these files to a Custom App or as Extra Files for a deployment using the Patch My PC (PMPC) portal, my browser crashes.
 
@@ -30,17 +30,17 @@ Then, when you deploy the app, you can configure a Pre-Installation script using
 
 #### Example Scenario
 
-Consider the scenario mentioned above, where you have a folder named "**MyFolder**" containing 3,000 files totaling 3GB. This folder should be available in the cache folder alongside the installer during installation.
+Consider the scenario mentioned above, where you have a folder named "<strong>MyFolder</strong>" containing 3,000 files totaling 3GB. This folder should be available in the cache folder alongside the installer during installation.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>If your scenario differs from the above, you should adjust the example scripts, ensuring you thoroughly test them. We provide no support for them or accept any liability for their use, which you do at your own risk.</p>
 <p>Please test these scripts thoroughly outside of the PMPC portal to ensure they work as expected before using them in your instance of the portal.</p>
 </blockquote>
 
 #### Step 1: Compress the Folder into a ZIP File
 
-Use the following PowerShell script to create a ZIP file. In this example, the folder to be compressed is located at **C:\Temp\MyFolder**
+Use the following PowerShell script to create a ZIP file. In this example, the folder to be compressed is located at <strong>C:\Temp\MyFolder</strong>
 
 `Define the path to the folder you want to compress`\
 `$sourceFolderPath = "C:\temp\MyFolder"`\
@@ -49,21 +49,21 @@ Use the following PowerShell script to create a ZIP file. In this example, the f
 `Create the zip archive`\
 `Compress-Archive -Path $sourceFolderPath -DestinationPath $zipFilePath -Force -ErrorAction 'Stop'`
 
-After running this script, a file named **C:\Temp\MyFolder.zip** will be created.
+After running this script, a file named <strong>C:\Temp\MyFolder.zip</strong> will be created.
 
 #### Step 2: Upload the ZIP Archive
 
-Create your Custom App or upload the ZIP archive as an **Extra File** in a deployment.
+Create your Custom App or upload the ZIP archive as an <strong>Extra File</strong> in a deployment.
 
 ![Adding the “MyFolder.zip” as an Extra File](/_images/image-(2381).png "Adding the “MyFolder.zip” as an Extra File")
 
 #### Step 3: Extract the ZIP Archive During Deployment
 
-During the app deployment step, specify a script to extract the ZIP archive in the same folder. The script below uses the **$PSScriptRoot** automatic variable to determine the correct extraction path.
+During the app deployment step, specify a script to extract the ZIP archive in the same folder. The script below uses the <strong>$PSScriptRoot</strong> automatic variable to determine the correct extraction path.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>**$PSScriptRoot** is an automatic variable in PowerShell that represents the folder where the script is located. This ensures the ZIP file is extracted in the same location as the installation files.</p>
+<p><strong>Note</strong></p>
+<p><strong>$PSScriptRoot</strong> is an automatic variable in PowerShell that represents the folder where the script is located. This ensures the ZIP file is extracted in the same location as the installation files.</p>
 </blockquote>
 
 `# Define the path to the zip file`\

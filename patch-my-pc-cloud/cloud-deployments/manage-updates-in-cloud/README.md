@@ -5,7 +5,7 @@ _Applies to: Patch My PC Cloud_
 Once Patch My PC (PMPC) Cloud has successfully deployed an app, you need to decide how to manage any updates to that app.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>By default, every morning at 02:00 AM in the country you selected during onboarding, our [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) runs to check for any updates to apps you have successfully deployed. If a newer version is found, we:</p>
 <p>* Create a new version of the app in your Intune tenant.</p>
 <p>* Move the assignments for the current version over to the new version.</p>
@@ -17,13 +17,13 @@ Once Patch My PC (PMPC) Cloud has successfully deployed an app, you need to deci
 <p>The next time the Sync Schedule runs, that is when we delete the old version of the Intune app, which includes removing it from any Enrollment Status Page (ESP) profiles.</p>
 </blockquote>
 
-All update-related tasks for an app are performed at the deployment level from the **Deployments** node of the PMPC portal by:
+All update-related tasks for an app are performed at the deployment level from the <strong>Deployments</strong> node of the PMPC portal by:
 
-Navigating to the **Deployments** node.
+Navigating to the <strong>Deployments</strong> node.
 
 ![Navigating to the “Deployments” node](/_images/image-(608).png "Navigating to the “Deployments” node")
 
-The **Deployments** page is then displayed, showing any existing deployments and allowing you to:
+The <strong>Deployments</strong> page is then displayed, showing any existing deployments and allowing you to:
 
 * [Pause Updates](pause-cloud-updates.md)
 * [Resume Updates](resume-cloud-updates.md)

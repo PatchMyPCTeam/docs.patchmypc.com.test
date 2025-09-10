@@ -3,41 +3,41 @@
 _Applies to: Patch My PC Cloud_
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>Reviewing the **Summary** tab is optional, but recommended.</p>
+<p><strong>Note</strong></p>
+<p>Reviewing the <strong>Summary</strong> tab is optional, but recommended.</p>
 </blockquote>
 
-The **Summary** tab of the Patch My PC (PMPC) Cloud deployment wizard provides a summary of the deployment so you can confirm that it is configured correctly before you create it.
+The <strong>Summary</strong> tab of the Patch My PC (PMPC) Cloud deployment wizard provides a summary of the deployment so you can confirm that it is configured correctly before you create it.
 
 ![&#x22;Summary&#x22; tab](/_images/image-(2391).png "&#x22;Summary&#x22; tab")
 
-Review the summary of the deployment shown on the **Summary** page.\
+Review the summary of the deployment shown on the <strong>Summary</strong> page.\
 \
-If you are happy click **Deploy**.\
+If you are happy click <strong>Deploy</strong>.\
 \
-If you need to change something, click **< Prev** to backtrack through the Deployment Wizard to the relevant setting. Make the change, then step back through the wizard to this page. If everything is now correct, click **Deploy**.
+If you need to change something, click <strong>< Prev</strong> to backtrack through the Deployment Wizard to the relevant setting. Make the change, then step back through the wizard to this page. If everything is now correct, click <strong>Deploy</strong>.
 
 ![Clicking &#x22;Deploy&#x22;](/_images/image-(2392).png "Clicking &#x22;Deploy&#x22;")
 
 <blockquote class="wp-block-quote">
 <p>Note</p>
-<p>If you have configured this deployment to use [Update Rings](../cloud-update-rings/), you will see the **Deployment Summary** screen, containing details on how you have configured the rings.</p>
+<p>If you have configured this deployment to use [Update Rings](../cloud-update-rings/), you will see the <strong>Deployment Summary</strong> screen, containing details on how you have configured the rings.</p>
 <p>!["Deployment Summary" shown if this deloyment is using Update Rings](/_images/image-(2291).png>)</p>
 <p>See [Update Rings](../cloud-update-rings/) for more information.</p>
 </blockquote>
 
-The App Catalog is redisplayed along with the **Success - Created&#x20;**_**\<deployment\_name>**_ notification.
+The App Catalog is redisplayed along with the <strong>Success - Created&#x20;</strong>_<strong>\<deployment\_name></strong>_ notification.
 
 ![](/_images/image-(2393).png "")
 
 <blockquote class="wp-block-quote">
-<p>**Important**</p>
+<p><strong>Important</strong></p>
 <p>When a new version of software is released, it is automatically deployed using the settings of the existing deployment. The old version will be removed from the target user/device and replaced with the newer version.</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>By default, the installation logs for an app will be created in the following folder regardless of the installer file type:</p>
 <p>`%ProgramData%\PatchMyPCInstallLogs`</p>
-<p>The only exception is for EXE files, where the specified value for the **loggingSwitch** variable will be used if it is not null or empty.</p>
+<p>The only exception is for EXE files, where the specified value for the <strong>loggingSwitch</strong> variable will be used if it is not null or empty.</p>
 </blockquote>

@@ -5,7 +5,7 @@ _Applies to: Patch My PC Cloud_
 There may be some scenarios (such as [Recover Your Company](../../cloud-administration/manage-your-cloud-company/recover-your-cloud-company.md) ) where you need to create an App Registration in Entra ID for use with Patch My PC (PMPC) Cloud.
 
 <blockquote class="wp-block-quote">
-<p>**Important**</p>
+<p><strong>Important</strong></p>
 <p>Once you create an App Registration, it must be used within 72 hours; otherwise, it will be considered expired, and you will need to create a new one.</p>
 </blockquote>
 
@@ -16,13 +16,13 @@ To create an App Registration:
 1. Sign in to the Microsoft Azure portal using an account with the Global Admin role and navigate to the [App Registrations](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) blade.
 
 <blockquote class="wp-block-quote">
-<p>**Important**</p>
+<p><strong>Important</strong></p>
 <p>You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.</p>
 </blockquote>
 
 ![Navigating to the “App registrations” blade](/_images/image-(542).png "Navigating to the “App registrations” blade")
 
-2.  Click **New registration**.\
+2.  Click <strong>New registration</strong>.\
     \
 
 
@@ -30,7 +30,7 @@ To create an App Registration:
 
 
 
-    3.  In the **Name** field, enter **PMPC Recovery**, then click **Register**.\
+    3.  In the <strong>Name</strong> field, enter <strong>PMPC Recovery</strong>, then click <strong>Register</strong>.\
 
 
         ![Entering “PMPC Recovery” then clicking “Register”](/_images/image-(544).png "Entering “PMPC Recovery” then clicking “Register”")
@@ -39,23 +39,23 @@ To create an App Registration:
 
     4.  Make a note of the following values:\
         \
-        &#xNAN;**• Application (client) ID**\
-        **• Object ID**\
-        **• Directory (tenant) ID**\
+        &#xNAN;<strong>• Application (client) ID</strong>\
+        <strong>• Object ID</strong>\
+        <strong>• Directory (tenant) ID</strong>\
 
 
         ![Noting the required values](/_images/image-(545).png "Noting the required values")
 
         \
 
-    5.  Navigate to **Manage | API Permissions**.\
+    5.  Navigate to <strong>Manage | API Permissions</strong>.\
 
 
         ![Navigating to “Manage | API Permissions”](/_images/image-(546).png "Navigating to “Manage | API Permissions”")
 
         \
 
-    6.  Under the **Configured permissions** section, click **Add a permission**.\
+    6.  Under the <strong>Configured permissions</strong> section, click <strong>Add a permission</strong>.\
         \
 
 
@@ -63,7 +63,7 @@ To create an App Registration:
 
         \
 
-    7.  In the **Request API permissions** blade, click **Microsoft Graph**.\
+    7.  In the <strong>Request API permissions</strong> blade, click <strong>Microsoft Graph</strong>.\
         \
 
 
@@ -71,7 +71,7 @@ To create an App Registration:
 
         \
 
-    8.  In the **Request API permissions** blade, click **Application permissions**.\
+    8.  In the <strong>Request API permissions</strong> blade, click <strong>Application permissions</strong>.\
         \
 
 
@@ -79,14 +79,14 @@ To create an App Registration:
 
         \
 
-    9.  In the **Select permissions** field, type **AuditLog**, then expand this section and check the **AuditLog.Read.All** permission checkbox.\
+    9.  In the <strong>Select permissions</strong> field, type <strong>AuditLog</strong>, then expand this section and check the <strong>AuditLog.Read.All</strong> permission checkbox.\
 
 
         ![Checking the “AuditLog.Read.All” permission checkbox](/_images/image-(550).png "Checking the “AuditLog.Read.All” permission checkbox")
 
         \
 
-    10. Click **Add permissions**.\
+    10. Click <strong>Add permissions</strong>.\
         \
 
 
@@ -94,27 +94,27 @@ To create an App Registration:
 
         \
 
-    11. On the **API permissions** screen, under the **Configured permissions** section, click **Grant admin consent for <**_**your\_tenant\_name**_**>**.\
+    11. On the <strong>API permissions</strong> screen, under the <strong>Configured permissions</strong> section, click <strong>Grant admin consent for <</strong>_<strong>your\_tenant\_name</strong>_<strong>></strong>.\
 
 
         ![](/_images/image-(552).png "")
 
         \
 
-    12. On the **Grant admin consent confirmation** popup, click **Yes**.\
+    12. On the <strong>Grant admin consent confirmation</strong> popup, click <strong>Yes</strong>.\
         \
 
 
         ![Clicking “Yes” on the “Grant admin consent confirmation” popup](/_images/image-(553).png "Clicking “Yes” on the “Grant admin consent confirmation” popup")
 
-        The **Grant consent - Grant consent successful** notification is shown and the **Status** for the **AuditLog.Read.All** permission changes to a green tick.\
+        The <strong>Grant consent - Grant consent successful</strong> notification is shown and the <strong>Status</strong> for the <strong>AuditLog.Read.All</strong> permission changes to a green tick.\
 
 
         ![“Grant consent - Grant consent successful notification” shown and the “Status” for the “AuditLog.Read.All” permission changes to a green tick.](/_images/image-(554).png "“Grant consent - Grant consent successful notification” shown and the “Status” for the “AuditLog.Read.All” permission changes to a green tick.")
 
         \
 
-    13. Navigate to **Certificates and secrets**.\
+    13. Navigate to <strong>Certificates and secrets</strong>.\
         \
 
 
@@ -122,7 +122,7 @@ To create an App Registration:
 
         \
 
-    14. Under the **Client secrets** section, click **New client secret**.\
+    14. Under the <strong>Client secrets</strong> section, click <strong>New client secret</strong>.\
         \
 
 
@@ -130,18 +130,18 @@ To create an App Registration:
 
         \
 
-    15. In the **Add a client secret** panel, type **PMPC Recovery**, then click **Add**.\
+    15. In the <strong>Add a client secret</strong> panel, type <strong>PMPC Recovery</strong>, then click <strong>Add</strong>.\
         \
 
 
         ![Typing “PMPC Recovery” in the “Description” field, then clicking “Add”](/_images/image-(557).png "Typing “PMPC Recovery” in the “Description” field, then clicking “Add”")
 
         \
-        The new Client Secret appears along with the **Update application credentials - Successfully updated application PMPC Recovery credentials** notification.\
+        The new Client Secret appears along with the <strong>Update application credentials - Successfully updated application PMPC Recovery credentials</strong> notification.\
         \
 
 
         ![New Client Secret and the “Update application credentials - Successfully updated application PMPC Recovery credentials” notification](/_images/image-(558).png "New Client Secret and the “Update application credentials - Successfully updated application PMPC Recovery credentials” notification")
 
 
-    16. Make a note of the **Value** of the **PMPC Recovery** client secret.
+    16. Make a note of the <strong>Value</strong> of the <strong>PMPC Recovery</strong> client secret.

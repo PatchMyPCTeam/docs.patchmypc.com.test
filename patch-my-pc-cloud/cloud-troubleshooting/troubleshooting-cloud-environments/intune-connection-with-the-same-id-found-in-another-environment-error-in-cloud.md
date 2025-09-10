@@ -4,11 +4,11 @@ _Applies to: Intune Apps for Cloud_
 
 ### SYMPTOMS
 
-When I click **Connect** in the **Environments** node to connect my Patch My PC (PMPC) Cloud portal to Intune, after accepting the permissions, I see the following:
+When I click <strong>Connect</strong> in the <strong>Environments</strong> node to connect my Patch My PC (PMPC) Cloud portal to Intune, after accepting the permissions, I see the following:
 
-**Error**
+<strong>Error</strong>
 
-**Intune connection with the same Id found in another environment**
+<strong>Intune connection with the same Id found in another environment</strong>
 
 ![&#x22;Intune connection with the same Id found in another environment&#x22;](/_images/image-(1753).png "&#x22;Intune connection with the same Id found in another environment&#x22;")
 

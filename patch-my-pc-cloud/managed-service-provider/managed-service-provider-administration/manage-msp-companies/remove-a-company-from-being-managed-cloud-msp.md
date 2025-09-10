@@ -7,15 +7,15 @@ If a parent Patch My PC (PMPC) Cloud Managed Service Provider (MSP) company no l
 Likewise, if a child company no longer wishes to be managed by an MSP, they can unlink themselves from the MSP using the [Unlink a Child Company](remove-a-company-from-being-managed-cloud-msp.md#unlink-a-child-company) process below.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>To perform this process, you must be signed in as a user who is either a **Full Admin** or **Full Admin with Access Management**.</p>
+<p><strong>Note</strong></p>
+<p>To perform this process, you must be signed in as a user who is either a <strong>Full Admin</strong> or <strong>Full Admin with Access Management</strong>.</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">
-<p>**Important**</p>
+<p><strong>Important</strong></p>
 <p>Please note the following:</p>
 <p>* You cannot delete a child company:</p>
-<p>* If at least one user/group in that company is not assigned the **Full Admin with Access Management** user role.</p>
+<p>* If at least one user/group in that company is not assigned the <strong>Full Admin with Access Management</strong> user role.</p>
 <p>* Without first removing the Intune connection. If you attempt to do this, you will see the [Intune connection with the same Id found in another environment!](../../../cloud-troubleshooting/troubleshooting-cloud-environments/intune-connection-with-the-same-id-found-in-another-environment-error-in-cloud.md) error.</p>
 <p>* An MSP admin cannot delete a child company from the Company node using the [Delete your Company](../../../cloud-administration/manage-your-cloud-company/delete-your-cloud-company.md) process, as the option is unavailable.\</p>
 <p>\</p>
@@ -30,15 +30,15 @@ Likewise, if a child company no longer wishes to be managed by an MSP, they can 
 ### Remove the Intune connection for a Child Company
 
 <blockquote class="wp-block-quote">
-<p>**Important**</p>
+<p><strong>Important</strong></p>
 <p>If you remove the Intune connection for a Child Company that has App Sets deployed to it from the Parent Company, any deployments for apps that belong to those  App Sets will be automatically deleted as part of the connection removal.</p>
 <p>If an App Set is deployed to multiple companies, when the last Intune connection is deleted from the last company an App Set is deployed to, the App Set itself will be automatically deleted.</p>
 </blockquote>
 
 To remove the Intune connection for a Child Company:
 
-1. On the parent company, sign in as a user who is either a **Full Admin** or **Full Admin with Access Management**.
-2. Navigate to the **MSP Customers** node.
+1. On the parent company, sign in as a user who is either a <strong>Full Admin</strong> or <strong>Full Admin with Access Management</strong>.
+2. Navigate to the <strong>MSP Customers</strong> node.
 3.  Click your user name in the top right-hand corner.\
 
 
@@ -51,36 +51,36 @@ To remove the Intune connection for a Child Company:
     ![Selecting the child company](/_images/image-(368).png "Selecting the child company")
 
     \
-    The portal refreshes to show the child company has been selected as the **Managed By <**_**msp\_name**_**>** indicator is shown in the header.\
+    The portal refreshes to show the child company has been selected as the <strong>Managed By <</strong>_<strong>msp\_name</strong>_<strong>></strong> indicator is shown in the header.\
 
 
     ![](/_images/image-(369).png "")
 5.  If the child company is no longer required and is going to be deleted, proceed to Step 6.\
     \
-    If the child company is not going to be deleted, you should navigate to the **Users** node and follow the [Invitation from an Administrator](../../../cloud-administration/manage-cloud-users/add-a-cloud-user.md#invitation-from-an-administrator) process to add at least one user who is a member of the child company.\
+    If the child company is not going to be deleted, you should navigate to the <strong>Users</strong> node and follow the [Invitation from an Administrator](../../../cloud-administration/manage-cloud-users/add-a-cloud-user.md#invitation-from-an-administrator) process to add at least one user who is a member of the child company.\
 
 
-    This user should be assigned the **Full Admin with Access Management** role as they will be responsible for the ongoing management of the child company once the parent company no longer manages it.
-6.  Navigate to **Settings | Environments**.\
+    This user should be assigned the <strong>Full Admin with Access Management</strong> role as they will be responsible for the ongoing management of the child company once the parent company no longer manages it.
+6.  Navigate to <strong>Settings | Environments</strong>.\
 
 
     ![Navigating to the “Environments” node](/_images/image-(370).png "Navigating to the “Environments” node")
 
 
-7.  Click **Delete** beside Intune.\
+7.  Click <strong>Delete</strong> beside Intune.\
 
 
     ![Clicking “Delete” beside “Intune.”](/_images/image-(371).png "Clicking “Delete” beside “Intune.”")
 
 
-8.  On the **Are you sure you want to disconnect Intune** popup, click **OK**.\
+8.  On the <strong>Are you sure you want to disconnect Intune</strong> popup, click <strong>OK</strong>.\
 
 
     ![Clicking “OK” on the “Are you sure you want to disconnect Intune” popup](/_images/image-(372).png "Clicking “OK” on the “Are you sure you want to disconnect Intune” popup")
 
 
 
-The portal refreshes to show that the Intune connection has been deleted and the **Success – Intune disconnected** notification is displayed.
+The portal refreshes to show that the Intune connection has been deleted and the <strong>Success – Intune disconnected</strong> notification is displayed.
 
 ![Portal refreshing to show that the Intune connection has been deleted and the “Success – Intune disconnected” notification is displayed.](/_images/image-(373).png "Portal refreshing to show that the Intune connection has been deleted and the “Success – Intune disconnected” notification is displayed.")
 
@@ -90,22 +90,22 @@ You can now follow the [Delete a Child Company](remove-a-company-from-being-mana
 
 Once the Intune connection for a Child Company has been removed, to delete a child company from a parent company:
 
-1. On the parent company, sign in as a user who is either a **Full Admin** or **Full Admin with Access Management**.
-2. Navigate to the **MSP Customers** node.
+1. On the parent company, sign in as a user who is either a <strong>Full Admin</strong> or <strong>Full Admin with Access Management</strong>.
+2. Navigate to the <strong>MSP Customers</strong> node.
 3.  Click the trashcan (![](/_images/image-(2098).png>)) beside the child company you want to remove.\
 
 
     ![Clicking the trashcan beside the child company you want to remove](/_images/image-(2099).png "Clicking the trashcan beside the child company you want to remove")
 
 
-4.  On the **Are you sure you want to delete <**_**child\_company\_name**_**> customer** dialog  box, click **Yes**.\
+4.  On the <strong>Are you sure you want to delete <</strong>_<strong>child\_company\_name</strong>_<strong>> customer</strong> dialog  box, click <strong>Yes</strong>.\
     \
 
 
     ![](/_images/image-(2100).png "")
 
     \
-    The portal refreshes to show the child company has been deleted and the **Success – Customer <**_**child\_company\_name**_**> deleted** notification is shown.\
+    The portal refreshes to show the child company has been deleted and the <strong>Success – Customer <</strong>_<strong>child\_company\_name</strong>_<strong>> deleted</strong> notification is shown.\
     \
 
 
@@ -116,55 +116,55 @@ Once the Intune connection for a Child Company has been removed, to delete a chi
 If a child company no longer wishes to be managed by a parent MSP company, it can be unlinked from the parent MSP company.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>To perform this process requires you sign in as a user that is either a **Full Admin** or **Full Admin with Access Management**.</p>
+<p><strong>Note</strong></p>
+<p>To perform this process requires you sign in as a user that is either a <strong>Full Admin</strong> or <strong>Full Admin with Access Management</strong>.</p>
 </blockquote>
 
 To unlink a child company from a parent MSP company:
 
 1. Verify the parent MSP company has created at least one user in the child company (by following the [Invitation from an Administrator](../../../cloud-administration/manage-cloud-users/add-a-cloud-user.md#invitation-from-an-administrator) process).\
    \
-   This user should be assigned the **Full Admin with Access Management** role as they will be responsible for the ongoing management of the child company once the parent company no longer manages it.
-2. Sign in to the child company using a user with either the **Full Admin** or **Full Admin with Access Management** role.
-3.  Navigate to **Settings | Company**.\
+   This user should be assigned the <strong>Full Admin with Access Management</strong> role as they will be responsible for the ongoing management of the child company once the parent company no longer manages it.
+2. Sign in to the child company using a user with either the <strong>Full Admin</strong> or <strong>Full Admin with Access Management</strong> role.
+3.  Navigate to <strong>Settings | Company</strong>.\
 
 
     ![Navigating to “Settings | Company”](/_images/image-(2102).png "Navigating to “Settings | Company”")
 
 
-4.  Scroll down to the **Your company is managed by an MSP (Managed Service Provider)** section, then click **Unlink MSP**.\
+4.  Scroll down to the <strong>Your company is managed by an MSP (Managed Service Provider)</strong> section, then click <strong>Unlink MSP</strong>.\
     \
 
 
     ![Clicking “Unlink MSP”](/_images/image-(2103).png "Clicking “Unlink MSP”")
 
 
-5.  On the **Are you sure you want to Disconnect MSP** dialog box, click **Yes**.\
+5.  On the <strong>Are you sure you want to Disconnect MSP</strong> dialog box, click <strong>Yes</strong>.\
     \
 
 
     ![Clicking “Yes” on the “Are you sure you want to Disconnect MSP” dialog box](/_images/image-(2104).png "Clicking “Yes” on the “Are you sure you want to Disconnect MSP” dialog box")
 
 
-6.  The **Customer <**_**parent\_company\_name**_**>** notification is displayed and you will prompted to enter a non-MSP+ license for the child company as it has been disconnected from the parent MSP company.\
+6.  The <strong>Customer <</strong>_<strong>parent\_company\_name</strong>_<strong>></strong> notification is displayed and you will prompted to enter a non-MSP+ license for the child company as it has been disconnected from the parent MSP company.\
     \
 
 
     ![Prompt to enter a non-MSP+ license key on the child company](/_images/image-(2105).png "Prompt to enter a non-MSP+ license key on the child company")
 
 
-7.  Enter the license key and click **Activate Now**.\
+7.  Enter the license key and click <strong>Activate Now</strong>.\
     \
 
 
     ![Entering the license key and clicking “Activate Now”](/_images/image-(103).png "Entering the license key and clicking “Activate Now”")
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>You cannot use a trial license for a company that an MSP has previously managed.</p>
 </blockquote>
 
-8.  On the **You have successfully activated your license** popup, click **Close**.\
+8.  On the <strong>You have successfully activated your license</strong> popup, click <strong>Close</strong>.\
     \
 
 
@@ -172,7 +172,7 @@ To unlink a child company from a parent MSP company:
 
 The following event is created on the parent MSP company so they know a user at the child site has unlinked the child company from the parent company:
 
-**Managed Company Relationship for <**_**child\_company\_name**_**> Removed by <**_**user\_name**_**>**
+<strong>Managed Company Relationship for <</strong>_<strong>child\_company\_name</strong>_<strong>> Removed by <</strong>_<strong>user\_name</strong>_<strong>></strong>
 
 ![Event on the parent company that a user at the child company has unlinked it from the parent company.](/_images/image-(2108).png "Event on the parent company that a user at the child company has unlinked it from the parent company.")
 

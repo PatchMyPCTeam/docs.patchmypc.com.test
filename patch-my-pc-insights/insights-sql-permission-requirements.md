@@ -19,7 +19,7 @@ Advanced Insights needs read access to the ConfigMgr SQL database. If Advanced I
 ### Option 1 - Using the Advanced Insights Computer Account
 
 1. Open SQL Management Studio and connect to the required SQL instance for your ConfigMgr database
-2. Execute the following script replacing the **domain\computername** and **CM\_XXX** database name
+2. Execute the following script replacing the <strong>domain\computername</strong> and <strong>CM\_XXX</strong> database name
 
 ```sql
 Use Master
@@ -44,7 +44,7 @@ Advanced Insights access to the Configuration Manager SQL database can be config
 See: [advanced-insights-iis-application-pool-identity.md](advanced-insights-iis-application-pool-identity.md "mention")
 
 1. Open SQL Management Studio and connect to the required SQL instance for your ConfigMgr database
-2. Execute the following script replacing the **domain\username** and **CM\_XXX** database name
+2. Execute the following script replacing the <strong>domain\username</strong> and <strong>CM\_XXX</strong> database name
 
 ```sql
 Use Master

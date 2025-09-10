@@ -129,7 +129,7 @@ On the left hand side, you will need to click "Assets" to begin importing your H
 
 ### Importing devices
 
-HP Workforce Experience allows you to import your device using four different mechanisms. Currently **only Intune Import and Asset enrolment allow for warranty data collection**, manual and csv upload do not trigger warranty collection by design. To begin importing devices, please click the "Add" button in the top left of the page.
+HP Workforce Experience allows you to import your device using four different mechanisms. Currently <strong>only Intune Import and Asset enrolment allow for warranty data collection</strong>, manual and csv upload do not trigger warranty collection by design. To begin importing devices, please click the "Add" button in the top left of the page.
 
 ![](/_images/image-(1840).png "Assets page with assets imported")
 

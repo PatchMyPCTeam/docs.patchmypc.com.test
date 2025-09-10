@@ -12,11 +12,11 @@ Active Directory Group Authentication enables the Advanced Insights administrato
 
 To use this feature, first enable Active Directory Authentication using Administration - Settings - User Management, more details [here](https://docs.patchmypc.com/installation-guides/advanced-insights/active-directory-integration).
 
-Once this is configured, we can assign an existing role to an Active Directory Group, or create a new role for a group. **N.B. There is currently no support for nested groups.**
+Once this is configured, we can assign an existing role to an Active Directory Group, or create a new role for a group. <strong>N.B. There is currently no support for nested groups.</strong>
 
-**Assigning a Role to an Active Directory Group**
+<strong>Assigning a Role to an Active Directory Group</strong>
 
-Navigate to **Administration** > **Roles**.
+Navigate to <strong>Administration</strong> > <strong>Roles</strong>.
 
 1. Click Create new role
 2. Enter a name for the role (in this example, "Helpdesk"

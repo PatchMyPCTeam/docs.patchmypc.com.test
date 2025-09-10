@@ -6,7 +6,7 @@ Use a Filter to help you find only the relevant Events you require.
 
 ### To filter Events:
 
-1.  Click the funnel button in the header of the **Events** page.\
+1.  Click the funnel button in the header of the <strong>Events</strong> page.\
 
 
     ![Clicking the funnel button](/_images/image-(1766).png "Clicking the funnel button")
@@ -18,7 +18,7 @@ Use a Filter to help you find only the relevant Events you require.
     ![Filter sidebar opens](/_images/image-(1767).png "Filter sidebar opens")
 
 
-2.  Configure your required filters, then click **Apply All Filters**.\
+2.  Configure your required filters, then click <strong>Apply All Filters</strong>.\
 
 
     ![Clicking “Apply All Filters”](/_images/image-(1768).png "Clicking “Apply All Filters”")
@@ -31,26 +31,26 @@ Use a Filter to help you find only the relevant Events you require.
     ![Only events matching the filtered criteria are shown](/_images/image-(1769).png "Only events matching the filtered criteria are shown")
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
+<p><strong>Note</strong></p>
 <p>You can click the filter button to close the filter sidebar to see more details about the results without affecting the filter.\</p>
 <p>\</p>
 <p>![Closing the filter sidebar](/_images/image-(1770).png>)</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">
-<p>**Tip**</p>
-<p>When a filter is applied, a green dot appears beside the **Filter** button.</p>
+<p><strong>Tip</strong></p>
+<p>When a filter is applied, a green dot appears beside the <strong>Filter</strong> button.</p>
 <p>![](/_images/image-(1498).png>)</p>
 </blockquote>
 
 ### To clear a Filter:
 
-1.  Click **Clear All** at the bottom of the filter box or navigate to a different page of the portal.\
+1.  Click <strong>Clear All</strong> at the bottom of the filter box or navigate to a different page of the portal.\
     \
 
 
     ![Using “Clear All” to remove a filter](/_images/image-(1771).png "Using “Clear All” to remove a filter")
-2.  Verify the green dot beside the **Filter** button has gone.\
+2.  Verify the green dot beside the <strong>Filter</strong> button has gone.\
 
 
     ![Verifying the green dot has gone](/_images/image-(1500).png "Verifying the green dot has gone")

@@ -10,36 +10,36 @@ To create a deployment with no assignments:
 
 1.  Follow the [Deploy an App](deploying-an-app-using-cloud/) process until you reach the[ Assignments](deploying-an-app-using-cloud/cloud-assignments-deployment-tab.md) tab where you can add an assignment.\
     \
-    When you click **Add Assignment**, you will see the **App Without Assignment** sub-menu containing the following two items:\
+    When you click <strong>Add Assignment</strong>, you will see the <strong>App Without Assignment</strong> sub-menu containing the following two items:\
     \
-    &#xNAN;**• Install App -** Allows the Intune admin to add **Required**, **Available**, or **Uninstall** assignments from within the Intune admin center.\
+    &#xNAN;<strong>• Install App -</strong> Allows the Intune admin to add <strong>Required</strong>, <strong>Available</strong>, or <strong>Uninstall</strong> assignments from within the Intune admin center.\
     \
-    • **Update Only App -** Allows the Intune admin to add only an **Update Only** assignment from within the Intune admin center.\
+    • <strong>Update Only App -</strong> Allows the Intune admin to add only an <strong>Update Only</strong> assignment from within the Intune admin center.\
 
 
     ![“App Without Assignment” sub-menu](/_images/image-(358).png "“App Without Assignment” sub-menu")
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>If you are deploying a Microsoft patch file (**.msp**), only the **Update Only App** option is shown under the **App Without Assignment** section as **.msp** files cannot be used to install an app, only update it.</p>
+<p><strong>Note</strong></p>
+<p>If you are deploying a Microsoft patch file (<strong>.msp</strong>), only the <strong>Update Only App</strong> option is shown under the <strong>App Without Assignment</strong> section as <strong>.msp</strong> files cannot be used to install an app, only update it.</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">
-<p>**Tip**</p>
-<p>You can also [Add a Template](../cloud-administration/manage-cloud-deployment-templates/add-a-cloud-deployment-template.md) with the **App Without Assignments** options configured. Then when you create the deployment, simply click **Apply Template** and select the relevant template to have its settings applied to this deployment.</p>
+<p><strong>Tip</strong></p>
+<p>You can also [Add a Template](../cloud-administration/manage-cloud-deployment-templates/add-a-cloud-deployment-template.md) with the <strong>App Without Assignments</strong> options configured. Then when you create the deployment, simply click <strong>Apply Template</strong> and select the relevant template to have its settings applied to this deployment.</p>
 </blockquote>
 
 2.  Select the relevant option.\
 
 
     ![Selecting the required option](/_images/image-(2483).png "Selecting the required option")
-3.  Uncheck the **Copy-Forward** checkbox if required.\
+3.  Uncheck the <strong>Copy-Forward</strong> checkbox if required.\
     \
     This checkbox is checked by default, which means whenever we see any manually created assignments on Intune, when we update the app, we’ll automatically copy forward all the assignments from the previous version to the new version.\
 
 
     ![“Copy-Forward” checkbox](/_images/image-(2484).png "“Copy-Forward” checkbox")
-4.  Click **Deploy** and wait for the deployment to complete successfully.\
+4.  Click <strong>Deploy</strong> and wait for the deployment to complete successfully.\
 
 
     ![Clicking “Deploy”](/_images/image-(2485).png "Clicking “Deploy”")
@@ -51,13 +51,13 @@ Once the deployment has successfully completed, if you look in the Intune admin 
 Your local IT teams can now follow the [Assign apps to groups with Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-deploy) process to add the relevant assignments for this app.
 
 <blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>If you checked the **Copy-Forward** checkbox, the next time the Sync Schedule detects a new version, the assignments are copied forward to the new version. The old version of the app will be removed immediately once the new version has been created and the assignments moved over to it.</p>
+<p><strong>Note</strong></p>
+<p>If you checked the <strong>Copy-Forward</strong> checkbox, the next time the Sync Schedule detects a new version, the assignments are copied forward to the new version. The old version of the app will be removed immediately once the new version has been created and the assignments moved over to it.</p>
 <p>Also, a deployment without assignments can be edited and managed in the same way as a regular deployment. See the [Manage Updates](manage-updates-in-cloud/) and [Manage Deployments](manage-cloud-deployments/) sections for more details.</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">
-<p>**Important**</p>
+<p><strong>Important</strong></p>
 <p>The current release of this feature has the following restrictions:</p>
 <p>* A deployment cannot contain both regular assignment types and no assignment types.</p>
 <p>* If you edit a deployment with no assignments, you cannot add a regular assignment type.</p>
