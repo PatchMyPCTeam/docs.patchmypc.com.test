@@ -7,7 +7,7 @@ To use the Managed Service Provider (MSP) feature of Patch My PC (PMPC) Cloud:
 * The parent MSP company needs to be [onboarded to PMPC Cloud](../onboard-to-cloud.md).
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>Once the parent company has been onboarded to PMPC Cloud, it does not need to be connected to an Intune tenant.</p>
 <p>The child company to be managed by the MSP company does not need to be onboarded to PMPC Cloud, as the parent company will complete this when it starts managing the child company.</p>
 </blockquote>

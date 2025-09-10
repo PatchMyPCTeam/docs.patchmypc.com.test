@@ -4,18 +4,18 @@ _Applies to: Patch My PC Cloud_
 
 ### SYMPTOMS
 
-I have signed into the Patch My PC (PMPC) Cloud portal, but I don’t see the <strong>Users</strong> node.
+I have signed into the Patch My PC (PMPC) Cloud portal, but I don’t see the **Users** node.
 
 ![No “Users” menu](/_images/image-(1422).png "No “Users” menu")
 
 ### CAUSE
 
-This is because your portal account has not been granted <strong>Access Management</strong> privileges.
+This is because your portal account has not been granted **Access Management** privileges.
 
 ### RESOLUTION
 
-To resolve this issue, ask a user with <strong>Access Management</strong> privileges to follow the [Managing Access Management privileges for a User](../../cloud-administration/manage-cloud-users/modify-a-cloud-user.md#managing-access-management-privileges-for-a-user) process in the [Modify a User](../../cloud-administration/manage-cloud-users/modify-a-cloud-user.md) article.
+To resolve this issue, ask a user with **Access Management** privileges to follow the [Managing Access Management privileges for a User](../../cloud-administration/manage-cloud-users/modify-a-cloud-user.md#managing-access-management-privileges-for-a-user) process in the [Modify a User](../../cloud-administration/manage-cloud-users/modify-a-cloud-user.md) article.
 
-Once you have granted the user <strong>Access Management</strong> privileges, if they refresh their portal the <strong>Users</strong> node appears.
+Once you have granted the user **Access Management** privileges, if they refresh their portal the **Users** node appears.
 
 ![“Users” menu now visible](/_images/image-(1423).png "“Users” menu now visible")

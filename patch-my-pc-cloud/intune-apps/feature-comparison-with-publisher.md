@@ -17,7 +17,7 @@ List of categories:
 * [Shipped](feature-comparison-with-publisher.md#shipped)
 
 <blockquote class="wp-block-quote">
-<p>While a few features from the on-premises <strong>Publisher</strong> are still being added to the <strong>Cloud Portal</strong>, the Cloud Portal already includes new capabilities not available in the Publisher. Beyond matching the Publisher, it now delivers distinct advantages.</p>
+<p>While a few features from the on-premises **Publisher** are still being added to the **Cloud Portal**, the Cloud Portal already includes new capabilities not available in the Publisher. Beyond matching the Publisher, it now delivers distinct advantages.</p>
 <p>See the full comparison matrix on our <a href="https://patchmypc.com/pricing/">Pricing</a> page.</p>
 </blockquote>
 
@@ -25,9 +25,9 @@ List of categories:
 
 | Feature Name                                                                                                                      | Status                                           |
 | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| [Configurable max runtime ](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-4218)                                                   | <mark style="color:yellow;"><strong>SUBMITTED</strong></mark> |
-| [Dynamically deploy updates based on security data](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-4176) (aka Dynamic Assignments) | <mark style="color:blue;"><strong>STARTED</strong></mark>     |
-| [Intune Application Manager Utility](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-5341)                                          | <mark style="color:yellow;"><strong>SUBMITTED</strong></mark> |
+| [Configurable max runtime ](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-4218)                                                   | <mark style="color:yellow;">**SUBMITTED**</mark> |
+| [Dynamically deploy updates based on security data](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-4176) (aka Dynamic Assignments) | <mark style="color:blue;">**STARTED**</mark>     |
+| [Intune Application Manager Utility](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-5341)                                          | <mark style="color:yellow;">**SUBMITTED**</mark> |
 
 ### Per-app configurations
 

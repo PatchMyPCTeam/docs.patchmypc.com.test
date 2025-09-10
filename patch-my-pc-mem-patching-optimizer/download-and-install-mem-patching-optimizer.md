@@ -18,17 +18,17 @@ _Applies to: Patch My PC MEM Patching Optimizer_
 
 ### Welcome Screen
 
-Once the installation starts, you will be greeted by the welcome screen in our installer wizard, click <strong>Next</strong>
+Once the installation starts, you will be greeted by the welcome screen in our installer wizard, click **Next**
 
 ![](/_images/Start.png)
 
-### <strong>End-User License Agreement & Install Directory</strong>
+### **End-User License Agreement & Install Directory**
 
-By default, this tool is installed in <strong>C:\Program Files\Patch My PC\MEM Performance Analyzer.</strong>
+By default, this tool is installed in **C:\Program Files\Patch My PC\MEM Performance Analyzer.**
 
 This location is where we store all of the product's configuration information.
 
-Read the End-User License Agreement. After that, select <strong>I accept the terms in the License terms and conditions</strong> and click <strong>Next</strong>.
+Read the End-User License Agreement. After that, select **I accept the terms in the License terms and conditions** and click **Next**.
 
 ![](/_images/EULA-(1).png "")
 
@@ -36,12 +36,12 @@ Read the End-User License Agreement. After that, select <strong>I accept the ter
 
 ### Ready to Install
 
-Click <strong>Install</strong>
+Click **Install**
 
 ![](/_images/Install.png)
 
 ### Completed
 
-Once the installation has been completed, click <strong>Finish</strong>
+Once the installation has been completed, click **Finish**
 
 ![](/_images/Finish.png)

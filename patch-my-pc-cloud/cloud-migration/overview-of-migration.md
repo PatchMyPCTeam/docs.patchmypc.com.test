@@ -3,7 +3,7 @@
 _Applies to: Patch My PC Cloud_
 
 <blockquote class="wp-block-quote">
-<p><strong>Important</strong></p>
+<p>**Important**</p>
 <p>This feature is currently only available through an invitation-only Private Preview, as both it and the documentation are under development, incomplete, and subject to change.</p>
 <p>Please do not share links to these docs with others outside of the Private Preview.</p>
 <p>Once this feature is released, it will be announced and this banner removed.</p>
@@ -14,7 +14,7 @@ The _Migration_ feature of Patch My PC (PMPC) Cloud allows you to migrate the fo
 * [Applications](overview-of-migration.md#migrating-applications)
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>We are currently focusing on just application migration, but we do plan to add the ability to migrate other types of objects from ConfigMgr as the Migration feature evolves.</p>
 </blockquote>
 

@@ -13,11 +13,11 @@ Using the App Sets feature you can:
 * [Delete an App Set](delete-an-msp-app-set.md)
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>To use the App Sets feature, you need to be assigned one of the following PMPC Cloud portal roles:</p>
 <p>* Full Admins (with and without access)</p>
 <p>* Intune Admins.</p>
-<p><strong>Read-Only Admins</strong> can view the App Sets page, but will not be able to make any changes.</p>
-<p><strong>Custom App Admins</strong> cannot view the App Sets page</p>
+<p>**Read-Only Admins** can view the App Sets page, but will not be able to make any changes.</p>
+<p>**Custom App Admins** cannot view the App Sets page</p>
 <p>Also, App Sets are not supported on macOS.</p>
 </blockquote>

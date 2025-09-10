@@ -3,18 +3,18 @@
 _Applies to: Patch My PC Cloud_
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>You can create a webhook to allow the Patch My PC (PMPC) Cloud portal to send you a notification of any newly created/updated deployments or whenever we release new versions of an app or update.</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">
-<p><strong>Important</strong></p>
+<p>**Important**</p>
 <p>You need to have already created the webhook to be able to configure a notification to use it. To create a webhook, follow either the [Creating a Microsoft Teams Webhook](webhooks-reference/create-a-microsoft-teams-webhook.md) process or the [Creating a Slack Webhook](webhooks-reference/create-a-slack-webhook.md) process.</p>
 </blockquote>
 
 To create a webhook notification:
 
-From the <strong>Add Webhook</strong> dropdown, select the type of webhook you want to create:
+From the **Add Webhook** dropdown, select the type of webhook you want to create:
 
 * [Microsoft Teams](create-a-microsoft-teams-webhook-notification-in-cloud.md)
 * [Slack](create-a-slack-webhook-notification-in-cloud.md)

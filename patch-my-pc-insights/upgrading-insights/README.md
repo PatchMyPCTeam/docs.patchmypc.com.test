@@ -24,11 +24,11 @@ If upgrading from 1.0.x and 2.0.x versions of Advanced Insights, the upgrade sum
 
 See section: [upgrading-to-advanced-insights-2.1-and-later-from-1.0.x-and-2.0.x-versions.md](upgrading-to-advanced-insights-2.1-and-later-from-1.0.x-and-2.0.x-versions.md "mention")
 
-If you wish to do so, click the <strong>'View / Change Cert'</strong> button will show additional information about any warnings being flagged.
+If you wish to do so, click the **'View / Change Cert'** button will show additional information about any warnings being flagged.
 
 ![](/_images/image-(707).png "Existing certificate properties")
 
-Following this, click <strong>Install</strong> to start the upgrade process.
+Following this, click **Install** to start the upgrade process.
 
 The upgrade success page is displayed upon completion.
 

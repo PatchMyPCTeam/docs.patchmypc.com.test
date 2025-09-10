@@ -6,7 +6,7 @@ Details the production release history for Patch My PC's Advanced Insights, the 
 
 ### 2.4.9 - 2025-06-10
 
-<strong>Bug fixes:</strong>
+**Bug fixes:**
 
 * Fixed an RBAC config which may have resulted in RBAC rules not being applied.&#x20;
 * Fixed Users and User Groups dashboard tables not showing any data
@@ -18,7 +18,7 @@ Details the production release history for Patch My PC's Advanced Insights, the 
 <p>This release was re-uploaded on 2025-06-05.&#x20;</p>
 </blockquote>
 
-<strong>Features / Misc</strong>
+**Features / Misc**
 
 * Update logic in Installer when selecting self-signed cert during upgrade
 * Add OS Support Status for Windows Business SKU
@@ -28,7 +28,7 @@ Details the production release history for Patch My PC's Advanced Insights, the 
 * Update Task Performance Item to allow filter by task sequences in Custom Dashboard
 * .NET update to 8.0.16
 
-<strong>Bugs:</strong>
+**Bugs:**
 
 * Fixed Installer Password reset by ensuring references to EditionId field are removed.
 * Fixed intermittent issue where Dashboard item filters sometimes get swapped around on load
@@ -39,7 +39,7 @@ Details the production release history for Patch My PC's Advanced Insights, the 
 
 ### 2.4.7 - 2025-04-23
 
-<strong>Features:</strong>
+**Features:**
 
 * In custom dashboards add ability to save spaces between items
 * Updated Icons in Custom Dashboard Grid
@@ -47,7 +47,7 @@ Details the production release history for Patch My PC's Advanced Insights, the 
 * Office 365 Support SQL Changes to account for new LTSC channel (2024)
 * Improve Table 'Loading' and 'No Data' message appearance.&#x20;
 
-<strong>Bug Fixes:</strong>
+**Bug Fixes:**
 
 * Fix table page and row count label issues when removing all rows from table (seen in Custom Dashboards)
 * Custom Dashboards cannot filter to User Collections in Dashboard Item Tile Filters
@@ -624,11 +624,11 @@ Version 2.0.1 is a major release of Advanced Insights with breaking changes whic
 
 #### Bug fixes:
 
-<strong>BREAKING CHANGES:</strong>
+**BREAKING CHANGES:**
 
 * Switched Active Directory authentication to use UPN instead of email address for Active Directory users. If your user's UPN is different from their email address, then a new user will be created in Advanced Insights.
 
-<strong>NON-BREAKING CHANGES</strong>
+**NON-BREAKING CHANGES**
 
 * Fixed bug removing settings inputs for Azure AD if "disabled" is not selected
 * Fix issue in Global collection not being set
@@ -681,7 +681,7 @@ Version 2.0.1 is a major release of Advanced Insights with breaking changes whic
 
 #### Installer Improvements
 
-* The installer has new logic to exclude selection of certificates with weak signature algorithms ('SHA1', 'SHA1RSA' etc) and _<strong>include</strong>_ certificates with algorithms at SHA256 and above.
+* The installer has new logic to exclude selection of certificates with weak signature algorithms ('SHA1', 'SHA1RSA' etc) and _**include**_ certificates with algorithms at SHA256 and above.
 * During the IIS Configuration phase, the installer will now add required MIME Types and HTTP Verbs.
   * MIME Types
     * .json - (API, Controller and Warranty site objects)

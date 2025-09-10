@@ -6,13 +6,13 @@ description: This guide will walk through enabling Standalone WSUS Mode in the P
 
 _Applies to: On-premises Publisher_
 
-To enable standalone WSUS mode, go to the <strong>Updates</strong> tab and select <strong>Options</strong>. In the <strong>WSUS options</strong> window check the box <strong>Make updates appear in the WSUS console. This option isn’t needed if using Configuration Manager.</strong>
+To enable standalone WSUS mode, go to the **Updates** tab and select **Options**. In the **WSUS options** window check the box **Make updates appear in the WSUS console. This option isn’t needed if using Configuration Manager.**
 
 ![](/_images/image-(1242).png>)
 
-If your WSUS database is using a <strong>Windows Internal Database</strong> (WID), the <strong>database connection options will be read-only</strong>.
+If your WSUS database is using a **Windows Internal Database** (WID), the **database connection options will be read-only**.
 
-When using a <strong>SQL Server for the WSUS database</strong>, you will need to choose either to connect to the database using the <strong>SYSTEM account</strong> or define a user name and password using <strong>SQL authentication</strong>.
+When using a **SQL Server for the WSUS database**, you will need to choose either to connect to the database using the **SYSTEM account** or define a user name and password using **SQL authentication**.
 
 ![](/_images/image-(1218).png>)
 

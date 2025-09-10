@@ -5,7 +5,7 @@ _Applies to: Patch My PC Advanced Insights_
 Sometimes we need you to provide log files, including information about your Advanced Insights instance. Your Advanced Insights deployment includes the Log Collector executable that can be used to collect all required logs.
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>The Advanced Insights Log Collector is located at:</p>
 <p>_`%Advanced Insights Install Directory%`_`\Api\LogCollector\AdvancedInsightsLogDiag.exe`\</p>
 <p>For example:</p>
@@ -14,14 +14,14 @@ Sometimes we need you to provide log files, including information about your Adv
 
 <blockquote class="wp-block-quote">
 <p>The Log Collector can be executed manually and is also used within the Advanced Insights installer. Once the log collection process is completed, a zip file is created on the desktop called:</p>
-<p><strong>AdvancedInsights\_Diag\_xxxxxxxx\_xxxxxx.zip</strong></p>
+<p>**AdvancedInsights\_Diag\_xxxxxxxx\_xxxxxx.zip**</p>
 <p>This ZIP should be shared with Patch My PC technical support.</p>
 <p>_Example output:_</p>
 </blockquote>
 
 ![](/_images/image-(1926).png "Advanced Insights log collection output.")
 
-<strong>This page provides details about what information the AdvancedInsightsLogDiag.exe collects.</strong>
+**This page provides details about what information the AdvancedInsightsLogDiag.exe collects.**
 
 ### Advanced Insights data and installation logs
 
@@ -43,13 +43,13 @@ The Windows Application Event log data is collected and output into 'Application
 
 The 'ConfigManagerLocation' and 'ConfigManagerDatabase' value are collected from the Advanced Insights SQLite database file located at:
 
-<strong>'C:\ProgramData\AdvancedInsights\Data\Api\AdvancedInsightsConfig.db'</strong>
+**'C:\ProgramData\AdvancedInsights\Data\Api\AdvancedInsightsConfig.db'**
 
 ### SQL Server information
 
 The following information is queried from the SQL Server instance where the Configuration Manager database is located:\
 \
-<strong>SQL Master db:</strong>
+**SQL Master db:**
 
 * Configuration Manager database name
 * &#x20;Configuration Manager databaste state (ONLINE/OFFLINE)
@@ -72,7 +72,7 @@ The following information is queried from the SQL Server instance where the Conf
 * SQL Server Minimum size of server memory (MB)
 * SQL Server Maximum size of server memory (MB)
 
-<strong>Configuration Manager SQL database:</strong>
+**Configuration Manager SQL database:**
 
 * Advanced Insights Inventory Extensions class names and data counts.
 * Advanced Insights Inventory Extensions Configuration Manager application information. For    example 'Name', 'created date', 'version', 'number of deployments'.

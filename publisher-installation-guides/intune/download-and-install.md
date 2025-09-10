@@ -38,7 +38,7 @@ The next step will be to accept the EULA. Make sure you select the "I accept the
 
 ### Enable Intune Standalone Mode
 
-When installing the product we provide an option called Intune Standalone mode. If you do <strong>NOT</strong> intend to use the product with Configuration Manager, ensure the option is checked and select next.
+When installing the product we provide an option called Intune Standalone mode. If you do **NOT** intend to use the product with Configuration Manager, ensure the option is checked and select next.
 
 ![](/_images/image-(1089).png>)
 
@@ -46,7 +46,7 @@ When installing the product we provide an option called Intune Standalone mode. 
 
 By default, we install the publisher service in \
 \
-<strong>C:\Program Files\Patch My PC\Patch My PC Publishing Service\\</strong>\
+**C:\Program Files\Patch My PC\Patch My PC Publishing Service\\**\
 \
 This location is where we store all of the products configuration information.&#x20;
 
@@ -65,8 +65,8 @@ You are now ready to install the product! Click Install, and grab a drink of wat
 Once the publisher has finished installing, just hit the finish button to close the install wizard.&#x20;
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>By default, the <strong>Launch Patch My PC Publishing Service</strong> checkbox is checked, meaning when you click <strong>Finish</strong>, Publisher will open automatically.</p>
+<p>**Note**</p>
+<p>By default, the **Launch Patch My PC Publishing Service** checkbox is checked, meaning when you click **Finish**, Publisher will open automatically.</p>
 </blockquote>
 
 ![](/_images/image-(1198).png>)

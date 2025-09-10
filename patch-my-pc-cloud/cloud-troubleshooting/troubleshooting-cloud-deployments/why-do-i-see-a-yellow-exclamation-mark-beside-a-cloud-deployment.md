@@ -4,13 +4,13 @@ _Applies to: Patch My PC Cloud_
 
 ### SYMPTOMS
 
-I’ve successfully deployed an app using Patch My PC (PMPC) Cloud, but when I look at the deployment, I see a yellow exclamation mark ("<strong>!</strong>") beside it in the <strong>Status</strong> column.
+I’ve successfully deployed an app using Patch My PC (PMPC) Cloud, but when I look at the deployment, I see a yellow exclamation mark ("**!**") beside it in the **Status** column.
 
 ![Yellow exclamation mark beside a deployment](/_images/image-(2346).png "Yellow exclamation mark beside a deployment")
 
 ### CAUSE
 
-You need to hover over the exclamation mark ("<strong>!</strong>") as the message displayed will tell you what is causing the problem.
+You need to hover over the exclamation mark ("**!**") as the message displayed will tell you what is causing the problem.
 
 ### RESOLUTION
 
@@ -25,7 +25,7 @@ This message is telling you that when the Sync Schedule ran, a new version of an
 However, we could not add this new version to the Enrollment Status Page (ESP) Profile to which this app is deployed, as the profile has reached the limit of 100 apps.
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>See [ESP Profiles](../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/esp-profiles-deployments.md) for more information.</p>
 </blockquote>
 

@@ -526,10 +526,10 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 This release contains a variety of features, improvements, and fixes, as noted below.
 
-This will be made available via the self-update channel over the next 2 weeks. You can upgrade in place now by downloading the latest [<strong>MSI installer</strong>](https://patchmypc.com/publishing-service-setup-documentation).
+This will be made available via the self-update channel over the next 2 weeks. You can upgrade in place now by downloading the latest [**MSI installer**](https://patchmypc.com/publishing-service-setup-documentation).
 
 <blockquote class="wp-block-quote">
-<p><strong>Note:</strong> Starting with this production build, Patch My PC Publisher now requires a minimum of Microsoft .NET Framework 4.6.2.</p>
+<p>**Note:** Starting with this production build, Patch My PC Publisher now requires a minimum of Microsoft .NET Framework 4.6.2.</p>
 </blockquote>
 
 ### Features -
@@ -823,7 +823,7 @@ This will be made available via the self-update channel over the next 2 weeks. Y
     * Intune Max: 45 minutes
   * New option to use ‘maximum run time’ from the respective update or app.
     * ConfigMgr Update Max: Will use configured update ‘[max run time](https://docs.microsoft.com/en-us/mem/configmgr/sum/get-started/manage-settings-for-software-updates#BKMK_SetMaxRunTime)’ as configured in ConfigMgr for the update.
-      * Note: Update max run time must be edited <strong>before</strong> the update is deployed for a client to recognize the change.
+      * Note: Update max run time must be edited **before** the update is deployed for a client to recognize the change.
     * ConfigMgr App Max: Will use the configured deployment time ‘max run time.’
     * Intune App/Update Max: Will use the maximum run time of an Intune Win32 app (60 minutes minus the 15-minute buffer).
   * Idea: [PATCHMYPC-I-1516](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1516)

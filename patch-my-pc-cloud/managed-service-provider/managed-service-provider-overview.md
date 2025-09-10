@@ -5,7 +5,7 @@ _Applies to: Patch My PC Cloud_
 The _Managed Service Provider_ (MSP) feature of Patch My PC (PMPC) Cloud allows one company (referred to as the _parent Company_) to manage another company’s Intune environment (referred to as the &#x63;_&#x68;ild Company_) using PMPC Cloud.
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>The MSP feature has its own special requirements, as detailed in [Managed Service Provider Requirements](managed-service-provider-requirements.md).</p>
 </blockquote>
 

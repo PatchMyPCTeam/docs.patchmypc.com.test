@@ -4,11 +4,11 @@ _Applies to: Intune Apps for Cloud_
 
 ### SYMPTOMS
 
-I’ve successfully deployed an app using Intune Apps for Cloud (Intune Apps). However, when I look at its properties (by clicking on the deployment, pressing <strong>More Info</strong>, and expanding the <strong>Assignment Type</strong>), why does it show <strong>(Group not found)</strong> beside the assignment?
+I’ve successfully deployed an app using Intune Apps for Cloud (Intune Apps). However, when I look at its properties (by clicking on the deployment, pressing **More Info**, and expanding the **Assignment Type**), why does it show **(Group not found)** beside the assignment?
 
 ![&#x22;Group not found&#x22; shown beside the assignment for a successful assignment.](/_images/image-(366).png "&#x22;Group not found&#x22; shown beside the assignment for a successful assignment.")
 
-If I edit the deployment and click <strong>Assignments</strong>, I also see the <strong>Group not found. Please remove the assignment</strong> message.
+If I edit the deployment and click **Assignments**, I also see the **Group not found. Please remove the assignment** message.
 
 ![&#x22;Group not found. Please remove the assignment&#x22; message](/_images/image-(365).png "&#x22;Group not found. Please remove the assignment&#x22; message")
 
@@ -27,7 +27,7 @@ To resolve this issue:
 5. Complete the deployment.
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>Even though the group has been recreated in Entra with the same name, it will have a different Object Id so the original assignment has to be deleted and recreated to pick up the new group with the new Object Id.</p>
 <p>See the [Edit a Deployment](../../cloud-deployments/manage-cloud-deployments/edit-a-cloud-deployment.md) process for more details.</p>
 </blockquote>

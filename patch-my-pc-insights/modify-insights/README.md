@@ -18,19 +18,19 @@ Advanced Insights website frontend network port.
 
 Reset default admin password.
 
-### <strong>Starting the modify process.</strong> <a href="#starting-the-modify-process" id="starting-the-modify-process"></a>
+### **Starting the modify process.** <a href="#starting-the-modify-process" id="starting-the-modify-process"></a>
 
-If the install executable version that was originally used to deploy Advanced Insights is available, you can start the modify process by rerunning the original installer. Otherwise, locate the Advanced Insights listing in the add - remove programs list and select <strong>'Modify'.</strong>
+If the install executable version that was originally used to deploy Advanced Insights is available, you can start the modify process by rerunning the original installer. Otherwise, locate the Advanced Insights listing in the add - remove programs list and select **'Modify'.**
 
-Click <strong>'Modify'</strong>
+Click **'Modify'**
 
 ![](/_images/image-(716).png "Advanced Insights - Add - Remove Programs entry.")
 
-Click <strong>'Yes'</strong>
+Click **'Yes'**
 
 ![](/_images/image-(717).png "UAC Prompt")
 
-Click <strong>'Modify'</strong>
+Click **'Modify'**
 
 ![](/_images/image-(718).png "Advanced Insights installer maintenance dialog")
 

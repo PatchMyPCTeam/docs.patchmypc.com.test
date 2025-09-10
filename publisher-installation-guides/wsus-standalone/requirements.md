@@ -10,14 +10,14 @@ _Applies to: On-premises Publisher_
 <p>Before you get started, make sure you take advantage of our <a href="https://patchmypc.com/free-trial">free trial</a>!</p>
 </blockquote>
 
-Standalone WSUS mode is <strong>only required when you are not using Configuration Manager</strong> for software updates and are <strong>only using WSUS</strong>. When enabled, published third-party updates will appear directly in the WSUS console.&#x20;
+Standalone WSUS mode is **only required when you are not using Configuration Manager** for software updates and are **only using WSUS**. When enabled, published third-party updates will appear directly in the WSUS console.&#x20;
 
 <blockquote class="wp-block-quote">
-<p><strong>Note:</strong></p>
+<p>**Note:**</p>
 <p>To publish updates with the customization options available in the Publisher, you will need the <a href="https://patchmypc.com/frequently-asked-questions#subscription-comparisons">Enterprise Patch subscription level</a>.  &#x20;</p>
 </blockquote>
 
-When installing the Publisher for <strong>WSUS Standalone</strong>, please ensure you meet the following requirements:
+When installing the Publisher for **WSUS Standalone**, please ensure you meet the following requirements:
 
 ### Software:
 

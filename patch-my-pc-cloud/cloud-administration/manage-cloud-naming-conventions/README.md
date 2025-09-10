@@ -6,14 +6,14 @@ The _Naming Conventions_ feature allows you to configure custom naming conventio
 
 You can configure naming conventions for both:
 
-* <strong>Update-only apps –</strong> Deployment of apps that incorporate <strong>Update Only</strong> assignments.
-* <strong>Install and Update Apps –</strong> Deployment of apps created in Intune that incorporate <strong>Available</strong>, <strong>Required</strong>, and <strong>Uninstall</strong> assignments.
+* **Update-only apps –** Deployment of apps that incorporate **Update Only** assignments.
+* **Install and Update Apps –** Deployment of apps created in Intune that incorporate **Available**, **Required**, and **Uninstall** assignments.
 
-All naming convention-related tasks are performed from the <strong>Naming</strong> node, accessed by navigating to <strong>Settings | Naming</strong>.
+All naming convention-related tasks are performed from the **Naming** node, accessed by navigating to **Settings | Naming**.
 
 ![Navigating to “Settings | Naming”](/_images/image-(657).png "Navigating to “Settings | Naming”")
 
-The <strong>Naming Conventions</strong> page is then displayed, allowing you to:
+The **Naming Conventions** page is then displayed, allowing you to:
 
 * [Configure Naming Conventions](configure-cloud-naming-conventions.md)
 * [Modify Naming Conventions](modify-cloud-naming-conventions.md)

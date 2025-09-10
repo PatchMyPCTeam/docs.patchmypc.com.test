@@ -5,7 +5,7 @@ _Applies to: Patch My PC Cloud_
 Welcome to the Deployment section for Patch My PC (PMPC) Cloud.
 
 <blockquote class="wp-block-quote">
-<p><strong>Important</strong></p>
+<p>**Important**</p>
 <p>You need to [Onboard to Intune Apps](../intune-apps/onboard-to-intune-apps/) before you can use the Deployments feature.</p>
 </blockquote>
 

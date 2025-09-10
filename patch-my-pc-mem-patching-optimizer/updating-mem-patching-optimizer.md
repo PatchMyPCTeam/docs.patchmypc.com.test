@@ -6,7 +6,7 @@ description: Updating MEM Patching Optimizer
 
 _Applies to: Patch My PC MEM Patching Optimizer_
 
-Clicking <strong>About</strong> gives you a new window showing information about the MEM Patching Optimizer
+Clicking **About** gives you a new window showing information about the MEM Patching Optimizer
 
 ![](/_images/Run_Tests_5.png)
 

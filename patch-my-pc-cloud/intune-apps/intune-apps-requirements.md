@@ -15,17 +15,17 @@ To use Intune Apps for Cloud (Intune Apps), you need:
 * An Enterprise Plus or Enterprise Premium Patch My PC subscription.
 
 <blockquote class="wp-block-quote">
-<p><strong>Important</strong></p>
+<p>**Important**</p>
 <p>We no longer allow customers whose Entra ID domain starts with "m365x" to start a Patch My PC (PMPC) Cloud trial. Such customers no longer see the option to start PMPC Cloud Trial and will either need to enter a PMPC Cloud license key or activate their license using their on-premises Publisher license key.</p>
 <p>Managed Service Providers (MSPs) cannot activate the Cloud Portal using a standard MSP subscription, as an MSP Plus subscription is required.</p>
 <p>See <a href="https://patchmypc.com/product/msp#pricing">Features by plan</a> for more information on our different subscription levels.&#x20;</p>
 </blockquote>
 
-* A minimum of two users, who will be granted [<strong>Access Management</strong>](https://docs.patchmypc.com/patch-my-pc-cloud/administration/managing-users/modify-a-user#managing-access-management-privileges-for-a-user) privileges within PMPC Cloud.
-* An account with the <strong>Global Administrator</strong> role in Entra ID to approve our enterprise app. See [Permissions required for the Intune Apps](https://docs.patchmypc.com/installation-guides/patch-my-pc-cloud/administration/manage-users/permissions-reference/permissions-required-for-intune-apps) for more details.
+* A minimum of two users, who will be granted [**Access Management**](https://docs.patchmypc.com/patch-my-pc-cloud/administration/managing-users/modify-a-user#managing-access-management-privileges-for-a-user) privileges within PMPC Cloud.
+* An account with the **Global Administrator** role in Entra ID to approve our enterprise app. See [Permissions required for the Intune Apps](https://docs.patchmypc.com/installation-guides/patch-my-pc-cloud/administration/manage-users/permissions-reference/permissions-required-for-intune-apps) for more details.
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>See <a href="https://patchmypc.com/request-quote#feature-comparison">Features by plan</a> for more information on our different subscription levels.</p>
 <p>You also do not need a copy of our OnPrem Publisher if you only plan to deploy Intune Apps to Intune clients.</p>
 </blockquote>

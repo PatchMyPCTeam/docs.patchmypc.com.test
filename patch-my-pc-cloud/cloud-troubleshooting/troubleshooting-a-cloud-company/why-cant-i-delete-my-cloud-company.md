@@ -4,7 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 ### SYMPTOMS
 
-I am trying to delete my Patch My PC (PMPC) Cloud company. But the <strong>Delete Company</strong> button is unavailable.
+I am trying to delete my Patch My PC (PMPC) Cloud company. But the **Delete Company** button is unavailable.
 
 ![&#x22;Delete Company&#x22; button is unavailable.](/_images/image-(1803).png "&#x22;Delete Company&#x22; button is unavailable.")
 

@@ -16,20 +16,20 @@ This section describes the steps required to change the frontend network port us
 <p>Review the network requirements here: [insights-network-requirements.md](../advanced-and-patch-insights-requirements-and-prerequisites/insights-network-requirements.md "mention")</p>
 </blockquote>
 
-In the configuration modification page, select the checkbox for <strong>'Frontend SSL Port Configuration'</strong> then click <strong>'Change SSL Port'</strong>:
+In the configuration modification page, select the checkbox for **'Frontend SSL Port Configuration'** then click **'Change SSL Port'**:
 
 ![](/_images/vmconnect_ZGfm8PKdEE.png)
 
-Click 'Edit port' in the 'Advanced Insights' section and enter a new port number, then click <strong>'Next'</strong>
+Click 'Edit port' in the 'Advanced Insights' section and enter a new port number, then click **'Next'**
 
 ![](/_images/image-(317).png "Edit port")
 
-Click <strong>'Install</strong>
+Click **'Install**
 
 ![](/_images/vmconnect_B7QMICBKSx.png)
 
 The installer will make the required configuration changes and display a summary once complete.
 
-Click <strong>'Finish'</strong>
+Click **'Finish'**
 
 ![](/_images/vmconnect_cyLJ47qjhn.png)

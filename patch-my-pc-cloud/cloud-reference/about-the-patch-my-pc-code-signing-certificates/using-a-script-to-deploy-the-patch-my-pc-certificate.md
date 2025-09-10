@@ -14,7 +14,7 @@ To deploy our code signing certificate using a script, first download our script
 [https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing](https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing)
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>You can find out more details about these scripts and what they do by reviewing the <a href="https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing#readme">ReadMe.md</a> file included with the scripts.</p>
 </blockquote>
 
@@ -23,7 +23,7 @@ To deploy our code signing certificate using a script, first download our script
 There are two distinct use cases in PMPC Cloud that require separate certificates:
 
 1. [Intune Detection and Requirement Scripts](using-a-script-to-deploy-the-patch-my-pc-certificate.md#id-1.-deploy-the-certificate-use-to-sign-intune-detection-and-requirement-scripts)\
-   Used to sign <strong>Intune detection and requirement scripts</strong> for Win32 applications published through PMPC Cloud.
+   Used to sign **Intune detection and requirement scripts** for Win32 applications published through PMPC Cloud.
 2. [Patch My PC Helper Scripts](using-a-script-to-deploy-the-patch-my-pc-certificate.md#id-2.-deploy-the-certificate-use-to-sign-patch-my-pc-helper-scripts)\
    Used to sign required and recommended pre/post "helper" scripts for certain applications in the PMPC catalog. These helper scripts perform essential tasks such as stopping processes, uninstalling older software versions, or configuring application behavior during deployment to ensure successful app installation.
 
@@ -53,7 +53,7 @@ Assign the configuration template to the desired Entra ID group(s).
 
 #### “Review + add” tab
 
-Double-check everything before clicking <strong>Add</strong>.
+Double-check everything before clicking **Add**.
 
 ### 2. Deploy the Certificate use to sign Patch My PC Helper Scripts
 
@@ -81,11 +81,11 @@ Assign the configuration template to the desired Entra ID group(s).
 
 #### “Review + add” tab
 
-Double-check everything before clicking <strong>Add</strong>.
+Double-check everything before clicking **Add**.
 
 ### Post Processing
 
-You can see the script being processed by the Intune Management Extension by looking in the <strong>IntuneManagementExtension.log</strong> located at:
+You can see the script being processed by the Intune Management Extension by looking in the **IntuneManagementExtension.log** located at:
 
 ```
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs
@@ -117,7 +117,7 @@ Assign the configuration template to the desired Entra ID group(s), then configu
 
 #### “Review + create” tab
 
-Double-check everything before clicking <strong>Create</strong>.
+Double-check everything before clicking **Create**.
 
 #### 2. Deploy the Certificate use to sign Patch My PC Helper Scripts
 
@@ -139,28 +139,28 @@ Assign the configuration template to the desired Entra ID group(s), then configu
 
 #### “Review + create” tab
 
-Double-check everything before clicking <strong>Create</strong>.
+Double-check everything before clicking **Create**.
 
 #### Post Processing
 
-You can see the script being processed by the Intune Management Extension by looking in the <strong>HealthScriptss.log</strong> located at:
+You can see the script being processed by the Intune Management Extension by looking in the **HealthScriptss.log** located at:
 
 ```
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs
 ```
 
-Observe the <strong>Proactive Remediation Device Status</strong> blade.
+Observe the **Proactive Remediation Device Status** blade.
 
 ![Observing the “Proactive Remediation Device Status” blade.](/_images/image-(649).png "Observing the “Proactive Remediation Device Status” blade.")
 
-The following log snippet shows the <strong>HealthScripts.log</strong> entry if the pre-remediation (detection) script found the certificate already installed in the local computer’s Trusted Publishers store.
+The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script found the certificate already installed in the local computer’s Trusted Publishers store.
 
 ![“HealthScripts.log” snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine’s Trusted Publishers store.](/_images/image-(650).png "“HealthScripts.log” snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine’s Trusted Publishers store.")
 
-The following log snippet shows the <strong>HealthScripts.log</strong> entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is <strong>1</strong>).
+The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is **1**).
 
 ![“HealthScripts.log” snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is 1).](/_images/image-(651).png "“HealthScripts.log” snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is 1).")
 
-The following log snippet shows the <strong>HealthScripts.log</strong> entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is <strong>0</strong>).
+The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is **0**).
 
 ![“HealthScripts.log” snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0).](/_images/image-(652).png "“HealthScripts.log” snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0).")

@@ -7,7 +7,7 @@ Welcome to the Administration section for Patch My PC (PMPC) Cloud.
 This section contains articles covering the various administrative tasks for Patch My PC (PMPC) Cloud.
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>As deployments are a feature of PMPC for Cloud, please see the [Deployments](../cloud-deployments/) section for deployment-related articles.</p>
 </blockquote>
 

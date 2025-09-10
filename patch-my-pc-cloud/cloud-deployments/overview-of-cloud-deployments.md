@@ -23,7 +23,7 @@ Some apps do not publish a publicly accessible download. These are typically app
 We refer to such apps as _Binary-free apps_ and you should follow the [Create a Binary Free App](../binary-free-apps/deploy-a-binary-free-app.md) process.
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>See our <a href="https://patchmypc.com/local-content-repository-for-licensed-applications-that-require-manual-download">Products that Require Manual Download to the Local Content Repository</a> for a list of such apps that we’ve built and maintain.</p>
 </blockquote>
 

@@ -19,7 +19,7 @@ This section describes the steps required to change the SSL certificate used for
 <blockquote class="wp-block-quote">
 <p>In this example, we are changing the SSL certificate to a CNAME / Alias type as described here - [#cname-alias-certificate](../download-and-install-insights/insights-ssl-certificate-configuration.md#cname-alias-certificate "mention")\</p>
 <p>\</p>
-<p>If you want to change the SSL certificate to a server host name only type, select the appropriate certificate and then click <strong>'Next'.</strong> Configuring a server host name type URL described here <strong>-</strong> [#standard-server-host-name-certificate](../download-and-install-insights/insights-ssl-certificate-configuration.md#standard-server-host-name-certificate "mention")</p>
+<p>If you want to change the SSL certificate to a server host name only type, select the appropriate certificate and then click **'Next'.** Configuring a server host name type URL described here **-** [#standard-server-host-name-certificate](../download-and-install-insights/insights-ssl-certificate-configuration.md#standard-server-host-name-certificate "mention")</p>
 </blockquote>
 
 In the configuration modification page, select the checkbox for 'SSL Certificate' then click 'Change Certificate':
@@ -30,7 +30,7 @@ Use the drop down list to select the SSL certificate which represents the CNAME 
 
 ![](/_images/image-(1654).png "Certificate selection dialog")
 
-With the appropriate SSL certificate selected, click <strong>'Set CNAME / Alias'</strong>
+With the appropriate SSL certificate selected, click **'Set CNAME / Alias'**
 
 ![](/_images/image-(1655).png "Certificate selection dialog")
 
@@ -38,21 +38,21 @@ In the set CNAME / Alias dialog page, the dialog will be prepopulated with a val
 
 Modify the prepopulated URL value if required.
 
-Click <strong>'Set CNAME / Alias'</strong>
+Click **'Set CNAME / Alias'**
 
 ![](/_images/vmconnect_3ZByUA7acq-(1).png "Set CNAME / Alias dialog")
 
-Click <strong>'Next'</strong>
+Click **'Next'**
 
 ![](/_images/image-(1656).png "Certificate selection dialog - CNAME / Alias set confirmed")
 
-Click <strong>'Install'</strong>
+Click **'Install'**
 
 ![](/_images/vmconnect_KN0zxDuJp8-(2).png "Certificate Modification option dialog")
 
 The installer will make the required configuration changes and display a summary once complete.
 
-Click <strong>'Finish'</strong>
+Click **'Finish'**
 
 ![](/_images/image-(1658).png "Certificate modification completion")
 

@@ -5,7 +5,7 @@ _Applies to: Custom Apps_
 Once our on-premises Publisher has been connected and a Custom App has been created, the Publisher can now Publish the Custom App.
 
 <blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
+<p>**Note**</p>
 <p>If you are using Intune Apps for Cloud, you should follow the [Create a Custom App](create-a-custom-app/) process instead.</p>
 </blockquote>
 
