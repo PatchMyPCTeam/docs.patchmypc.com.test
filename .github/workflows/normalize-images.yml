@@ -84,10 +84,23 @@ jobs:
           import re, glob, html, os
 
           def slug_filename(name:str)->str:
+              # Decode %20 etc.
               name = name.replace('%20',' ')
-              name = re.sub(r'\s+', '-', name)   # spaces -> dash
-              name = re.sub(r'-{2,}', '-', name) # collapse --
-              return name
+              # Split ext first so we can sanitize the base safely.
+              base, ext = os.path.splitext(name)
+
+              # Drop any space+quoted fragment that leaked into the base
+              # e.g.  image-(766 "Clicking …")  ->  image-(766)
+              base = re.sub(r'\s+"[^"]*"\s*$', '', base)
+              # Also, if any stray opening quote exists in the tail, cut from it
+              base = re.sub(r'["“”].*$', '', base)
+
+              # Normalize whitespace/symbols
+              base = re.sub(r'\s+', '-', base)        # spaces -> dash
+              base = re.sub(r'-{2,}', '-', base)      # collapse --
+              base = base.strip('-')
+
+              return f"{base}{ext.lower()}"
 
           files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
                    for p in glob.glob(g, recursive=True)]
@@ -105,16 +118,16 @@ jobs:
               img = m.group(0)
               raw_src = attr('src', img)
               alt = attr('alt', img)
-              # title = figcaption (preferred), else ALT
+
               mcap = CAP.search(block)
               cap = html.unescape(re.sub(r'<[^>]+>','',mcap.group(1))).strip() if mcap else ""
               title = cap or alt
 
               fn = slug_filename(os.path.basename(raw_src))
               url = f"/_images/{fn}"
-              alt_md = alt.replace(']', r'\]')
-              title_md = title.replace('"', r'\"')  # keep curly quotes, escape only "
-              return f'![{alt_md}]({url} "{title_md}")'
+              alt_md = (alt or '').replace(']', r'\]')
+              title_md = (title or '').replace('"', r'\"')
+              return f'![{alt_md}]({url} "{title_md}")' if title_md else f'![{alt_md}]({url})'
 
           for path in files:
               s = open(path, encoding="utf-8").read()
@@ -123,6 +136,7 @@ jobs:
                   open(path, "w", encoding="utf-8").write(n)
                   print(f"Converted figures in: {path}")
           PY
+      
       
       
 
@@ -137,54 +151,55 @@ jobs:
           from html import unescape
 
           IMG_EXT = r"(?:png|jpe?g|gif|webp|svg|gifv)"
-          
+
           def clean_filename_from_url(url: str) -> str:
             if not url:
-              return "unknown.png"  # safety
-        
-            # Trim noise that can leak from <...> wrappers and empty titles
+              return "unknown.png"
+
             url = url.strip().rstrip('>')
             url = re.sub(r'\s*""', '', url)
-        
-            # pick the last filename-looking token with an image extension
+
+            # Grab last filename-y token
             m = re.findall(rf'([^/?#]+?\.{IMG_EXT})', url, flags=re.I)
             bn = m[-1] if m else os.path.basename(url)
             bn = unquote(bn)
-        
-            # split into base + ext
+
+            # Split base + ext
             if "." in bn:
               base, ext = bn.rsplit(".", 1)
             else:
               base, ext = bn, ""
-        
-            # --- NEW: if a quoted fragment got appended before the extension,
-            #           drop everything from the first quote to the end.
-            #           e.g.  image-(766 "Clicking …").png  ->  image-(766)
-            base = re.sub(r'["“”].*$', '', base).strip()
-        
-            # normalize: spaces -> dash; keep (), -, _
+
+            # Remove any space+quoted fragment that leaked into the base
+            # e.g.  image-(766 "Clicking …")  ->  image-(766)
+            base = re.sub(r'\s+"[^"]*"\s*', '', base)
+            # Also cut from any first quote onward as a safety net
+            base = re.sub(r'["“”].*$', '', base)
+
+            # Keep balanced trailing ')' if present in original base
+            # If we removed a ' "…"' just before a ')', ensure the ')' remains:
+            # (the regex above already leaves ')' intact; this is just defensive)
+
+            # Normalize: spaces -> dash; allow (), -, _
             base = re.sub(r"\s+", "-", base)
             base = re.sub(r"[^A-Za-z0-9_\-()]", "-", base)
             base = re.sub(r"-{2,}", "-", base).strip("-")
-        
+
             return f"{base}.{ext.lower()}" if ext else base
-    
-    
+
           def to_root_image_url(url: str) -> str:
               return "/_images/" + clean_filename_from_url(url)
 
           def norm_text(s: str) -> str:
               t = unescape(s or "")
-              # normalize curly quotes to straight quotes
               t = t.replace("“", '"').replace("”", '"').replace("’", "'")
               return t
 
           def build_md(alt: str, url: str) -> str:
-              """Return strict Markdown. If alt is empty -> omit title entirely."""
-              alt = norm_text(alt)
+              alt = norm_text(alt or "")
               alt_md = alt.replace("]", r"\]")
               if alt.strip():
-                  title = alt.replace('"', r'\"')  # title = alt
+                  title = alt.replace('"', r'\"')
                   return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
               else:
                   return f'![{alt_md}]({to_root_image_url(url)})'
@@ -192,7 +207,6 @@ jobs:
           md_files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
                       for p in glob.glob(g, recursive=True)]
 
-          # --- Hint → blockquote converter ---
           HINT_BLOCK = re.compile(r'{%\s*hint\b[^%]*%}(.*?){%\s*endhint\s*%}', re.I | re.S)
           MD_LINK    = re.compile(r'\[([^\]]+)\]\((https?://[^)]+)\)')
           BARE_URL   = re.compile(r'^(https?://\S+)$')
@@ -214,37 +228,33 @@ jobs:
                   return f'<blockquote class="wp-block-quote">\n{content}\n</blockquote>'
               return HINT_BLOCK.sub(_repl, s)
 
-          # HTML <img> (alt optional)
           html_img = re.compile(
               r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
               re.I
           )
 
-          # Inline Markdown images (URL may be quoted, spaces allowed, optional title)
           md_img_inline = re.compile(
               r'!\[([^\]]*)\]'
               r'\('
               r'\s*<?'
-              r'("?)([^)\r\n]+?)\1'   # group 3: URL
+              r'("?)([^)\r\n]+?)\1'
               r'>?'
               r'(?:\s+"[^"]*")?'
               r'\s*\)',
               re.I
           )
 
-          # Sanitize ANY Markdown image (even ones already pointing to /_images)
           md_img_any = re.compile(
-            r'!\[([^\]]*)\]'              # group 1: alt
+            r'!\[([^\]]*)\]'
             r'\('
             r'\s*<?'
-            r'([^)\r\n]+?)'               # group 2: INNER (may contain spaces/quotes)
-            r'>?'                         # optional '>'
-            r'(?:\s+"[^"]*")?'            # optional Markdown title (excluded from group 2)
+            r'([^)\r\n]+?)'
+            r'>?'
+            r'(?:\s+"[^"]*")?'
             r'\s*\)',
             re.I
           )
 
-          # Reference usage and definition (loose)
           md_img_ref_use = re.compile(r'!\[([^\]]*)\]\s*\[([^\]]+)\]', re.I)
           ref_def_loose = re.compile(
               r'(\[([^\]]+)\]\s*:\s*)' r'<?("?)([^>\r\n]+?)\3>?' r'(\s+"[^"]*")?\s*$',
@@ -257,36 +267,24 @@ jobs:
                   s = f.read()
               o = s
 
-              # 1) HTML <img> → strict MD
               s = html_img.sub(lambda m: build_md(m.group(2) or "", m.group(1)), s)
-
-              # 2) Inline MD → strict MD (title = alt when alt non-empty)
               s = md_img_inline.sub(lambda m: build_md(m.group(1), m.group(3)), s)
-
-              # 2.5) GitBook hint blocks → Gutenberg blockquote
               s = convert_hint_blocks(s)
 
-              # 2.6) Sanitize ANY Markdown image URL (fix spaces, stray '>', etc.)
-              #s = md_img_any.sub(lambda m: build_md(m.group(1), m.group(2)), s)
               def _sanitize_md_img(m):
                 alt = m.group(1)
                 inner = (m.group(2) or "").strip()
                 if not inner:
                   return m.group(0)
-            
-                # Keep only up to the LAST image extension; drop anything after it
+                # Keep only through the first valid image extension occurrence
                 extm = re.search(rf'\.{IMG_EXT}\b', inner, re.I)
                 if extm:
                   inner = inner[:extm.end()]
-            
-                # Strip any embedded ' "…"' quote-fragments that snuck into the URL
+                # Remove any embedded space+"…"
                 inner = re.sub(r'\s+"[^"]*"\s*', '', inner)
-            
                 return build_md(alt, inner)
-              
               s = md_img_any.sub(_sanitize_md_img, s)
 
-              # 3) Gather reference defs
               defs = {}
               lines = s.splitlines()
               for ln in lines:
@@ -296,14 +294,12 @@ jobs:
                       url = m.group(4).strip()
                       defs[rid] = url
 
-              # 4) Reference usages → strict MD
               def repl_ref_use(m):
                   alt, rid = m.group(1), m.group(2).strip()
                   url = defs.get(rid)
                   return build_md(alt, url) if url else m.group(0)
               s = md_img_ref_use.sub(repl_ref_use, s)
 
-              # 5) Rewrite reference defs to /_images/<slug> (preserve title if present)
               def rewrite_def_line(ln: str) -> str:
                   m = ref_def_loose.search(ln)
                   if not m:
@@ -313,10 +309,9 @@ jobs:
                   return f"{head}{new_url}{title}"
               s = "\n".join(rewrite_def_line(ln) for ln in s.splitlines())
 
-              # 6) Catch-all: fix bare .gitbook/assets occurrences (outside code fences)
               out_lines, fenced = [], False
               fence_re = re.compile(r'^\s*```')
-              asset_re = re.compile(r'(\.gitbook/assets/[^"\'<>]+)', re.I)  # allow spaces
+              asset_re = re.compile(r'(\.gitbook/assets/[^"\'<>]+)', re.I)
               for ln in s.splitlines():
                   if fence_re.match(ln):
                       fenced = not fenced
@@ -326,7 +321,6 @@ jobs:
                   out_lines.append(ln)
               s = "\n".join(out_lines)
 
-              # 7) Remove lingering ../ or ./ before _images
               s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
 
               if s != o:
@@ -338,6 +332,7 @@ jobs:
           if not any_changed:
               print("No image links needed normalization.")
           PY
+      
       
       
 
