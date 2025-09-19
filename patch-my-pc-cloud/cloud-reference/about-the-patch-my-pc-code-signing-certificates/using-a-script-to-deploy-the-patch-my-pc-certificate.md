@@ -92,7 +92,7 @@ You can see the script being processed by the Intune Management Extension by loo
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs
 ```
 
-![“IntuneManagementExtension.log” showing the script being processed by the Intune Management Extension](../../../.gitbook/assets/image-\(648\).png)
+!\[]\(/\_images/image-(648 "").png "")
 
 ### Using a proactive remediation
 
@@ -152,16 +152,16 @@ You can see the script being processed by the Intune Management Extension by loo
 
 Observe the **Proactive Remediation Device Status** blade.
 
-![Observing the “Proactive Remediation Device Status” blade.](../../../.gitbook/assets/image-\(649\).png)
+!\[]\(/\_images/image-(649 "").png "")
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script found the certificate already installed in the local computer’s Trusted Publishers store.
 
-![“HealthScripts.log” snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine’s Trusted Publishers store.](../../../.gitbook/assets/image-\(650\).png)
+!\[]\(/\_images/image-(650 "").png "")
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is **1**).
 
-![“HealthScripts.log” snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is 1).](../../../.gitbook/assets/image-\(651\).png)
+!\[]\(/\_images/image-(651 "").png "")
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is **0**).
 
-![“HealthScripts.log” snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0).](../../../.gitbook/assets/image-\(652\).png)
+!\[]\(/\_images/image-(652 "").png "")

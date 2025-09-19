@@ -13,11 +13,11 @@ To switch to List view:
 
 On the **App Catalog** page, click the **List View** button.
 
-![Clicking the “List View” button](../../.gitbook/assets/image-\(2279\).png)
+!\[]\(/\_images/image-(2279 "").png "")
 
 The App Catalog updates to show the list of available apps in list view. The new **OS** column shows which operating systems each app can be deployed to.
 
-![New “OS” column shows which operating systems each app can be deployed to](../../.gitbook/assets/image-\(2280\).png)
+!\[]\(/\_images/image-(2280 "").png "")
 
 ### Using the OS Filter
 
@@ -25,11 +25,11 @@ To use the **Operating System (OS)** filter in the App Catalog:
 
 1.  On the **App Catalog** page, click the funnel button.\\
 
-    ![Clicking the funnel button.](../../.gitbook/assets/image-\(2281\).png)
+    !\[]\(/\_images/image-(2281 "").png "")
 2.  Click the checkbox for the OS you want to filter by (for example **macOS**), then click **Apply All Filters**.\
     \\
 
-    ![Checking the relevant checkbox for the OS you want to filter by then clicking “Apply All Filters”](../../.gitbook/assets/image-\(289\).png)
+    !\[]\(/\_images/image-(289 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -39,7 +39,7 @@ You can also use the **ARM** and **Universal (macOS)** checkboxes under the **Ar
 
 The App Catalog updates to show only the apps that match the selected filters.
 
-![App Catalog updating to show only the apps that match the selected filters.](../../.gitbook/assets/image-\(290\).png)
+!\[]\(/\_images/image-(290 "").png "")
 
 {% hint style="info" %}
 **Note**

@@ -31,18 +31,18 @@ When using a **CNAME / Alias** or **Wilcard** certificate for custom Advanced In
 
 _Example:_
 
-<img src="../../_images/image-(1024).png%3E" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (1024).png" alt="" data-size="original">
 {% endhint %}
 
 Certificate SAN values can be also verified within the certificate properties.
 
 _Examples:_
 
-![](../../.gitbook/assets/image-\(1025\).png)
+!\[]\(/\_images/image-(1025 "").png "")
 
-![](../../.gitbook/assets/image-\(1026\).png)
+!\[]\(/\_images/image-(1026 "").png "")
 
-![](../../.gitbook/assets/image-\(1027\).png)
+!\[]\(/\_images/image-(1027 "").png "")
 
 {% hint style="info" %}
 On the Windows Server OS which will host Advanced Insights, the following PowerShell script can be executed to list supported certificates.
@@ -56,7 +56,7 @@ Param()
 $CertsToExclude = @("ConfigMgr SQL Server Identification Certificate","WMSVC-SHA2")
 
 # Get the FQDN of the machine
-[System.Net.Dns]:/_images/GetHostEntry(-env-COMPUTERNAME).hostname
+$machineFQDN = [System.Net.Dns]::GetHostEntry($env:COMPUTERNAME).HostName
 
 # Certificate filtering
 
@@ -148,7 +148,7 @@ if ($uncapturedCerts.Count -gt 0) {
         
         {
             $sanNames = $sanExtension.Format(0) -split ', ' | ForEach-Object { $_.Split('=')[1].Trim() }
-[string]:/_images/IsNullOrEmpty(-sanNames))
+            if ([string]::IsNullOrEmpty($sanNames)) {
                 Write-Host "5 Subject Alternative Name (SAN) requires at least one entry matches the server FQDN or is a wildcard which matches the server domain name e.g. '*.internaldomain.local. SAN value(s): $($sanNames -join ', ')"
                 }
         }
@@ -170,9 +170,9 @@ if ($uncapturedCerts.Count -gt 0) {
 
 Example PowerShell outputs:
 
-![](../../.gitbook/assets/image-\(1312\).png)
+!\[]\(/\_images/image-(1312 "").png "")
 
-![](../../.gitbook/assets/image-\(1313\).png)
+!\[]\(/\_images/image-(1313 "").png "")
 
 {% hint style="info" %}
 **Self-signed certificate use.**

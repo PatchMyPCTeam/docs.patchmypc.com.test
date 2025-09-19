@@ -28,11 +28,11 @@ At the time of writing, Intune supports a maximum of 51 profiles plus the defaul
 
 2. Click the **ESP Profiles** tool.
 
-![Clicking the “ESP Profiles” tool](../../../../.gitbook/assets/image-\(56\).png)
+!\[]\(/\_images/image-(56 "").png "")
 
 3. Scroll down to the **ESP Profiles** section.
 
-![Scrolling down to the “ESP Profiles” section](../../../../.gitbook/assets/image-\(57\).png)
+!\[]\(/\_images/image-(57 "").png "")
 
 4. In the **Add Profile** field, either:
    1. Start typing the name of the relevant ESP Profile, then click the checkbox beside it to select it.
@@ -43,14 +43,14 @@ At the time of writing, Intune supports a maximum of 51 profiles plus the defaul
 
 If an ESP Profile already contains the maximum of 100 apps, you will be unable to select it from the dropdown. If you hover over it, you'll see the **Total limit reached** tooltip.
 
-!\["Total limit reached" tooltip]\(/\_images/image (235).png>)
+<img src="../../../../.gitbook/assets/image (235).png" alt="&#x22;Total limit reached&#x22; tooltip" data-size="original">
 {% endhint %}
 
-![Selecting the ESP Profile to add this deployment to](../../../../.gitbook/assets/image-\(58\).png)
+!\[]\(/\_images/image-(58 "").png "")
 
 The selected ESP Profile(s) are added to the **Add Profile** field.
 
-![Selected ESP Profiles added to the “Add Profile” field](../../../../.gitbook/assets/image-\(59\).png)
+!\[]\(/\_images/image-(59 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -87,4 +87,4 @@ Other important points about ESP Profiles:
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking "Next" to move to the "Assignments" page](../../../../.gitbook/assets/image-\(60\).png)
+!\[]\(/\_images/image-(60 "").png "")

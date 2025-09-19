@@ -19,6 +19,6 @@ To use the Custom Apps for Managed Service Providers (MSPs) feature of Patch My 
 Using the **Specific Customers** option does not automatically make the Custom App visible on any new child companies. If required, these will need to be manually added.
 {% endhint %}
 
-!["Custom App Visibility” section](../../../.gitbook/assets/image-\(345\).png)
+!\[]\(/\_images/image-(345 "").png "")
 
 3. Proceed from Step 13. (clicking **Create** to move to the **Summary** page) of the [Create a Custom App](../../custom-apps/create-a-custom-app/) process.

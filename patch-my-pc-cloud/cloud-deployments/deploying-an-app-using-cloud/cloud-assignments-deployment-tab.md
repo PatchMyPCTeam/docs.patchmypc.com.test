@@ -27,7 +27,7 @@ If your deployment uses a [Retention Policy](cloud-configurations-deployment-tab
 
 Also, Intune does not support using the **Update Only** assignment type with a deployment that is also configured to use [ESP Profiles](cloud-configurations-deployment-tab/esp-profiles-deployments.md). If you try to use this configuration, the **Deploy** button will be greyed out and the **Configurations** tab will show a red "**X**".
 
-!\["Deploy" button greyed out and red "x" on "Configurations" tab]\(/\_images/image (2374).png>)\
+!["Deploy" button greyed out and red "x" on "Configurations" tab](<../../../.gitbook/assets/image (2374).png>)\
 \
 You either need to:
 
@@ -55,7 +55,7 @@ f. **Update Only App -** Allows the Intune admin to add an **Update Only** assig
 See [Create a Deployment Without Assignments](../create-a-cloud-deployment-without-assignments.md) for more details on deploying apps without assignments.
 {% endhint %}
 
-![Choosing the desired assignment type](../../../.gitbook/assets/image-\(2386\).png)
+!\[]\(/\_images/image-(2386 "").png "")
 
 {% hint style="info" %}
 **Note**
@@ -70,7 +70,7 @@ Adding an **Available** assignment allows you to add an **Update Only** applicat
 | Include | If checked, all of the items in this group will receive the assigned app.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Exclude | <p>If checked, all of the items in this group will not receive the assigned app.<br><br>Can be used in conjunction with <strong>Include</strong> to exclude a subset of devices when you have an <strong>Include</strong> of a superset of devices.<br><br>For example, you want to target all of your computers except for your test devices. To achieve this, you'd configure your Entra ID groups as follows:<br><br>o Check <strong>Include</strong> for your <strong>All Company Devices</strong> Entra ID group.<br>o Check <strong>Exclude</strong> for your <strong>Test Devices</strong> Entra ID group.</p> |
 
-![Choosing the relevant Entra ID security groups to target for this assignment](../../../.gitbook/assets/image-\(2387\).png)
+!\[]\(/\_images/image-(2387 "").png "")
 
 {% hint style="info" %}
 **Note**
@@ -80,7 +80,7 @@ As our portal uses application permissions to read Entra ID groups, all groups w
 
 The **Assignments** page updates to show the newly added assignments, including their configuration.
 
-![“Assignments” page updates to show the newly added assignments](../../../.gitbook/assets/image-\(2388\).png)
+!\[]\(/\_images/image-(2388 "").png "")
 
 3. Make any of the following optional modifications to the assignment(s).
 
@@ -105,4 +105,4 @@ You can click **Deploy** on this page if you don’t want to add additional assi
 4. Add any additional assignments for this deployment by clicking **Add Assignment** and repeating the steps in this section.
 5.  If you are happy you have entered all of the details for the deployment correctly, click **Deploy** to deploy the app. However, we recommend you click **Next** to move to the [**Summary** ](cloud-summary-deployment-tab.md)tab, where you can verify the settings for this deployment before you deploy this app.\\
 
-    ![Clicking "Deploy" to deploy the app](../../../.gitbook/assets/image-\(2390\).png)
+    !\[]\(/\_images/image-(2390 "").png "")

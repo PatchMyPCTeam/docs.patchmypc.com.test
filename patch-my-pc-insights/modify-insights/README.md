@@ -24,16 +24,16 @@ If the install executable version that was originally used to deploy Advanced In
 
 Click **'Modify'**
 
-![](../../.gitbook/assets/image-\(716\).png)
+!\[]\(/\_images/image-(716 "").png "")
 
 Click **'Yes'**
 
-![](../../.gitbook/assets/image-\(717\).png)
+!\[]\(/\_images/image-(717 "").png "")
 
 Click **'Modify'**
 
-![](../../.gitbook/assets/image-\(718\).png)
+!\[]\(/\_images/image-(718 "").png "")
 
 Select the required modification option checkbox to enable the related 'Change' button
 
-![](<../../.gitbook/assets/vmconnect_w0AaMZPkHy (2).png>)
+![](<../../.gitbook/assets/vmconnect_w0AaMZPkHy (1).png>)

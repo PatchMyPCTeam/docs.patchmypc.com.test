@@ -22,28 +22,28 @@ To delete all Update Rings for a deployment:
     \
     To delete all Update Rings for this deployment, click **Remove all Rings**.\\
 
-    ![Clicking “Remove all Rings”](../../../.gitbook/assets/image-\(2061\).png)
+    !\[]\(/\_images/image-(2061 "").png "")
 3.  On the **Move Assignments or Delete** dialog box, click **Move** to remove the Update Rings but keep all the existing assignments.\
     \\
 
-    ![Clicking “Move” to remove the Update Rings but keep all the existing assignments](../../../.gitbook/assets/image-\(2062\).png)
+    !\[]\(/\_images/image-(2062 "").png "")
 
 {% hint style="info" %}
 **Note**
 
 Clicking **Delete** will delete any existing assignments but not the deployment itself.
 
-!\[Clicking “Delete” will delete any existing assignments, not the deployment itself.]\(/\_images/image (2064).png>)\\
+![Clicking “Delete” will delete any existing assignments, not the deployment itself.](<../../../.gitbook/assets/image (2064).png>)\\
 {% endhint %}
 
 The Update Rings are removed and any existing assignments are kept.
 
-![Update Rings are removed and any existing assignments are kept](../../../.gitbook/assets/image-\(2065\).png)
+!\[]\(/\_images/image-(2065 "").png "")
 
 4.  Click **Save** to save your changes.\
     \\
 
-    ![Clicking “Save” to save changes](../../../.gitbook/assets/image-\(2066\).png)
+    !\[]\(/\_images/image-(2066 "").png "")
 
 {% hint style="warning" %}
 **Important**
@@ -52,7 +52,7 @@ As removing all Update Rings disables Update Ring functionality for this deploym
 \
 For example, this version of the app will be deployed immediately to all of the following assignments without any of the delays enforced by using Update Rings.
 
-!\[“Deployment Summary” showing the impact of deleting all Update Rings ]\(/\_images/image (2067).png>)
+<img src="../../../.gitbook/assets/image (2067).png" alt="“Deployment Summary” showing the impact of deleting all Update Rings" data-size="original">
 {% endhint %}
 
 {% hint style="info" %}
@@ -66,7 +66,7 @@ If the existing deployment had different versions applied to different assignmen
     The **Deployments** node is displayed along with the **Success – Edited <**_**deployment\_name**_**>** notification.\
     \\
 
-    ![“Deployment Summary” showing the impact of delete all Update Rings](../../../.gitbook/assets/image-\(2068\).png)
+    !\[]\(/\_images/image-(2068 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -87,16 +87,16 @@ To delete a Single Update Ring:
 Deleting an Update Ring also deletes any assignments controlled by that ring. If you want to keep the assignment, drag and drop it to another ring before you delete the ring.
 {% endhint %}
 
-![Clicking the read “X” to delete a specific Update Ring](../../../.gitbook/assets/image-\(2069\).png)
+!\[]\(/\_images/image-(2069 "").png "")
 
 The ring and any assignments it contains are deleted.
 
-![Update Ring deleted](../../../.gitbook/assets/image-\(2070\).png)
+!\[]\(/\_images/image-(2070 "").png "")
 
 3.  Click **Save** to save your changes.\
     \\
 
-    ![Clicking “Save” to save changes](../../../.gitbook/assets/image-\(2071\).png)
+    !\[]\(/\_images/image-(2071 "").png "")
 
     \
     As you’ve removed an Update Ring and it’s assignments, the **"<**_**deployment\_name**_**>" Deployment Summary** is shown detailing the impact of your proposed change.\
@@ -104,12 +104,12 @@ The ring and any assignments it contains are deleted.
     For example, by deleting the **7-Zip Pilot +7 Days** ring, this app will not be deployed to the **03 - Patching - Production - All - 7 Days** Entra ID group.\
     \\
 
-    ![“Deployment Summary” showing the impact of deleting this Update Rings](../../../.gitbook/assets/image-\(2072\).png)
+    !\[]\(/\_images/image-(2072 "").png "")
 4.  Click **Cancel** to return to the **Assignments** tab to make any required changes, or click **Confirm** to save your changes.\
     \
     The **Deployments** node is displayed along with the **Success – Edited <**_**deployment\_name**_**>** notification.\\
 
-    ![“Deployment Summary” showing the impact of delete all Update Rings](../../../.gitbook/assets/image-\(2073\).png)
+    !\[]\(/\_images/image-(2073 "").png "")
 
 {% hint style="success" %}
 **Tip**

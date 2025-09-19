@@ -359,7 +359,7 @@ If you need assistance or have any questions, please visit our Technical Support
   * If needed, the embedded web browser can still be used with a [registry flag](https://patchmypc.com/advanced-configurations-available-using-the-registry-for-patch-my-pcs-publishing-service#MsalUseEmbeddedWebView).
 * The ‘[Collect Logs](https://patchmypc.com/logging-options#collectlogs)‘ button now collects all PowerShell detection scripts modified within the last 7 days. The scripts are renamed to have a .txt extension before being added to the zip file.
 * Icons in the product treeview now indicate if the product requires local content, or is configured to skip the install if running by default.
-  * ![image (2).png](https://dev.azure.com/PatchMyPC/1ee7e4b8-3e4e-4b11-8e25-c439149d3d3c/_apis/git/repositories/5ac414fe-cf4b-44e0-8299-c28f89a2f3b1/pullRequests/4918/attachments/image%20\(2\).png)
+  * !\[image (2).png]\(/\_images/image-(2 "image (2).png").png)
 
 ## 2.1.20.2 - 2024-02-27 <a href="#features" id="features"></a>
 
@@ -447,13 +447,13 @@ If you need assistance or have any questions, please visit our Technical Support
 
 * Add support for configuring Win32 application max runtime in minutes
 
-![Intune options with the new option to configure maximum install runtime highlighted.](https://patchmypc.com/wp-content/uploads/2023/11/max-runtime.png)
+![Intune options with the new option to configure maximum install runtime highlighted.](../../_images/max-runtime.png)
 
 ### Improvements <a href="#improvements" id="improvements"></a>
 
 * \*\*\* Report lines have been updated.
   * As the catalog grows and the number of syncing products increases, our \*\*\* report line has gotten too long! CMTrace does not parse the line, and it will not show it. To prevent this, we have split up the report line into one line per type. Below is an example.
-  * ![Patch My PC log file with four separate report lines all prepended by \*\*\*](https://patchmypc.com/wp-content/uploads/2023/11/report-line-change.png)
+  * ![Patch My PC log file with four separate report lines all prepended by \*\*\*](../../_images/report-line-change.png)
 * Implement certificate pinning. All requests to Patch My PC domains will have the certificate validated.
 * Implement a safety check prior to deleting a ConfigMgr application. In some instances, the SMS provider returns an empty list of apps instead of a connection exception. To account for this we ensure at least one Site is returned by the SMS provider prior to application deletion.
 * ConfigMgr script size is reduced. No functional changes. This should help with metadata download issues over CMG.
@@ -558,7 +558,7 @@ If you need assistance or have any questions, please visit our Technical Support
   * Note: Existing DO configuration on an assignment will also carry forward now when a new version of the software is Published.
 * The [Intune Application Manager Utility](https://patchmypc.com/intune-application-manager-utility) now has some multi-select bulk options.
 
-![A right-click menu in the Intune App manager tool, showing the options available. Manage DO priority. Manage ESP associations. Delete assignments. Delete applications. Extract content(s).](https://patchmypc.com/wp-content/uploads/2023/08/intune-app-man-bulk-options-zoomed.png)
+![A right-click menu in the Intune App manager tool, showing the options available. Manage DO priority. Manage ESP associations. Delete assignments. Delete applications. Extract content(s).](../../_images/intune-app-man-bulk-options-zoomed.png)
 
 ### Fixes <a href="#fixes" id="fixes"></a>
 
@@ -1342,7 +1342,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * ![](../../.gitbook/assets/image-\(1205\).png)
+  * !\[]\(/\_images/image-(1205 "").png "")
 
 ### Improvements
 
@@ -1355,7 +1355,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * ![](../../.gitbook/assets/image-\(1205\).png)
+  * !\[]\(/\_images/image-(1205 "").png "")
 
 ### Improvements
 
@@ -1368,7 +1368,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * ![](../../.gitbook/assets/image-\(1205\).png)
+  * !\[]\(/\_images/image-(1205 "").png "")
 
 ### Improvements
 

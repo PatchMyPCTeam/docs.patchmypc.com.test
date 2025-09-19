@@ -12,7 +12,7 @@ The User Profiles data on this page requires the deployment of the [Advanced Ins
 The Delete user profile button on this page requires the Approval of the run Script [Advanced Insights Client Actions](../../advanced-insights-inventory-extensions/insights-custom-client-actions.md#script-approval)
 {% endhint %}
 
-![](../../../.gitbook/assets/image-\(2171\).png)
+!\[]\(/\_images/image-(2171 "").png "")
 
 The User profiles dashboard is data collected from the Inventory Extensions. Here we are able to display information on:
 
@@ -21,13 +21,13 @@ The User profiles dashboard is data collected from the Inventory Extensions. Her
 * Orphaned User Profiles - User profiles with no associated user account.
 * Conflicting Paths - User profiles on the same device that share the same user profile path.
 
-![](../../../.gitbook/assets/image-\(2174\).png)
+!\[]\(/\_images/image-(2174 "").png "")
 
 On each of these reports you will be able to see the Computer name, Account name, Last logged in date, Age and Size of the user profile.
 
 The donut chart breaks down profiles based on size on disk.
 
-![](../../../.gitbook/assets/image-\(2173\).png)
+!\[]\(/\_images/image-(2173 "").png "")
 
 The User Profiles chart gives you a full list of inventoried user profiles on client devices but also you have the ability to delete a users profile from a device too.
 
@@ -37,4 +37,4 @@ Each profile entry includes a **Delete** button, allowing administrators to remo
 **Warning**: This action permanently deletes the local user profile, including all associated files and settings, from the device.
 {% endhint %}
 
-![](../../../.gitbook/assets/image-\(2176\).png)
+!\[]\(/\_images/image-(2176 "").png "")

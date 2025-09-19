@@ -8,19 +8,19 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use [Categories]
 2.  Navigate to **Apps**.\
     \\
 
-    ![Navigating to “Apps”](../../../.gitbook/assets/image-\(281\).png)
+    !\[]\(/\_images/image-(281 "").png "")
 3.  Navigate to **All Apps**.\
     \\
 
-    ![Navigating to “All Apps”](../../../.gitbook/assets/image-\(282\).png)
+    !\[]\(/\_images/image-(282 "").png "")
 4.  Click the app if it’s shown in the results or search for it.\
     \\
 
-    ![Clicking the app if it’s shown in the results or searching for it](../../../.gitbook/assets/image-\(283\).png)
+    !\[]\(/\_images/image-(283 "").png "")
 5.  Navigate to **Manage | Properties**\
     \\
 
-    ![Navigating to “Manage | Properties”](../../../.gitbook/assets/image-\(284\).png)
+    !\[]\(/\_images/image-(284 "").png "")
 6.  \\
 
-    ![List of Categories is shown in the “Category” field.](../../../.gitbook/assets/image-\(285\).png)
+    !\[]\(/\_images/image-(285 "").png "")

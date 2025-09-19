@@ -16,7 +16,7 @@ To deploy a macOS app using Patch My PC (PMPC) Cloud:
 
 1.  Locate the required app on the App Catalog page.\\
 
-    ![Locating the app to be deployed](../../.gitbook/assets/image-\(2285\).png)
+    !\[]\(/\_images/image-(2285 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -26,10 +26,10 @@ Use the Search field and filters to help you locate the app.
 
 2.  Click the relevant app.\\
 
-    ![Clicking the relevant app](../../.gitbook/assets/image-\(2286\).png)
+    !\[]\(/\_images/image-(2286 "").png "")
 3.  On the app’s properties page, click **Deploy** under the **macOS** section to start the Deployment Wizard.\\
 
-    ![Clicking “Deploy” under the “macOS” section](../../.gitbook/assets/image-\(291\).png)
+    !\[]\(/\_images/image-(291 "").png "")
 4. Continue from [General Information](../cloud-deployments/deploying-an-app-using-cloud/cloud-general-information-deployment-tab.md) to configure the deployment as required.
 
 {% hint style="info" %}
@@ -56,7 +56,7 @@ For now, the following key differences exist:
 
 Once a macOS deployment has been completed successfully, you’ll can see it under **Apps | Monitor | macOS | macOS apps** in the Microsoft Intune admin center.
 
-!\[Successful deployment visible in the Microsoft Intune admin center]\(/\_images/image (2289).png>)
+<img src="../../.gitbook/assets/image (2289).png" alt="Successful deployment visible in the Microsoft Intune admin center" data-size="original">
 {% endhint %}
 
 ### Deploying LOB app specifics
@@ -75,7 +75,7 @@ Adding either a pre or post-install script results in the **Add Uninstall** assi
 
 Likewise, if you add an **Add Uninstall** assignment and then click the **Configurations** page, the option to add either a pre or post-install script is greyed out (hovering your mouse over the **Add** button tells you **Uninstall Assignments disabled as you have added a pre/post-install script.**
 
-!\["Uninstall Assignments disabled as you have added a pre/post-install script."]\(/\_images/image (2395).png>)
+<img src="../../.gitbook/assets/image (2395).png" alt="&#x22;Uninstall Assignments disabled as you have added a pre/post-install script.&#x22;" data-size="original">
 
 See [Supported Assignment Types & Settings for macOS Deployments](supported-assignment-types-and-settings-for-cloud-macos-deployments.md) for more details.
 {% endhint %}

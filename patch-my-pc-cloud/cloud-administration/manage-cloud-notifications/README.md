@@ -32,7 +32,7 @@ To configure Notifications:
 1. Sign in to the portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
 2.  Navigate to **Settings | Notifications**.\\
 
-    ![Navigating to “Settings | Notifications”](../../../.gitbook/assets/image-\(760\).png)
+    !\[]\(/\_images/image-(760 "").png "")
 
 The **Notifications** page is then displayed, showing any existing Notifications and allowing you to:
 
@@ -40,4 +40,4 @@ The **Notifications** page is then displayed, showing any existing Notifications
 * [Modify a Notification](modify-a-cloud-notification.md)
 * [Delete a Notification](delete-a-cloud-notification.md)
 
-![“Notifications” page](../../../.gitbook/assets/image-\(761\).png)
+!\[]\(/\_images/image-(761 "").png "")

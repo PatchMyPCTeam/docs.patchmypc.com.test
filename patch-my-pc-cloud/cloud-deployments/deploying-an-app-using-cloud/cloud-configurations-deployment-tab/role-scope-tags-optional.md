@@ -22,17 +22,17 @@ To add Role Scope tag&#x73;**:**
 
 1. Click the **Role Scope Tags** tool.
 
-![Clicking the "Role Scope Tags" tool](../../../../.gitbook/assets/image-\(78\).png)
+!\[]\(/\_images/image-(78 "").png "")
 
 2. Scroll down to the **Role Scope Tags** section.
 
-![Scrolling down to the “Role Scope Tags” section](../../../../.gitbook/assets/image-\(79\).png)
+!\[]\(/\_images/image-(79 "").png "")
 
 3. In the **Profile Name** field, either:
    1. Start typing the name of the relevant Scope Tag, then click the checkbox beside it to select it.
    2. Click the dropdown to see a list of existing Scope Tags and click the relevant checkbox(es) to select it.
 
-![Selecting the check boxes beside the relevant Scope Tags](../../../../.gitbook/assets/image-\(80\).png)
+!\[]\(/\_images/image-(80 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -50,4 +50,4 @@ See [Check Scope Tag Assignments](../../../cloud-reference/intune-reference/chec
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking "Next" to move to the "Assignments" page](../../../../.gitbook/assets/image-\(81\).png)
+!\[]\(/\_images/image-(81 "").png "")

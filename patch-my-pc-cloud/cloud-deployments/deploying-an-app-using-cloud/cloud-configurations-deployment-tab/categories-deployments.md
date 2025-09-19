@@ -20,17 +20,17 @@ To add a Category to a deployment:
 
 1. Click the **Categories** tool.
 
-![Clicking the “Categories” tool](<../../../../.gitbook/assets/image-(72) (1).png>)
+!\[]\(/\_images/image-(72 "").png "")
 
 2. Scroll down to the **Categories** section.
 
-![Scrolling down to the "Categories" section](<../../../../.gitbook/assets/image-(73) (1).png>)
+!\[]\(/\_images/image-(73 "").png "")
 
 3. Go to Step 6. to add a new category or in the **Add Category** field, either:
    1. Start typing the name of the relevant Category, then click the checkbox beside it to select it.
    2. Click the dropdown to see a list of existing Categories and click the relevant checkbox(es) to select it.
 
-![Selecting the checkbox beside the relevant categories](<../../../../.gitbook/assets/image-(74) (1).png>)
+!\[]\(/\_images/image-(74 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -53,11 +53,11 @@ You can create up to 200 categories per Intune tenant. Each category name must:
 * Not be the name of a script.
 {% endhint %}
 
-![](../../../../.gitbook/assets/image-\(75\).png)
+!\[]\(/\_images/image-(75 "").png "")
 
 7. Press `ENTER` and the **Success – The category “<**_**category\_name>**_**” has been created** notification is shown, confirming the new category has been added to both Intune and this deployment.
 
-![](../../../../.gitbook/assets/image-\(76\).png)
+!\[]\(/\_images/image-(76 "").png "")” has been created” notification" width="563">
 
 {% hint style="info" %}
 **Note**
@@ -75,4 +75,4 @@ Also:
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking "Next" to move to the "Assignments" page](<../../../../.gitbook/assets/image-(77) (1).png>)
+!\[]\(/\_images/image-(77 "").png "")

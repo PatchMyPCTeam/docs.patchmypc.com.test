@@ -8,7 +8,7 @@ When I’m trying to sign into the Patch My PC (PMPC) portal, the following mess
 
 **The service is currently unavailable in the <**_**region\_code**_**> region.**
 
-![](../../../.gitbook/assets/image-\(2293\).png)
+!\[]\(/\_images/image-(2293 "").png "") region”">
 
 ### CAUSE
 
@@ -25,7 +25,7 @@ If you are currently signed into a company in one region and you have a company 
 
 **The service is currently unavailable in the <**_**region\_code**_**> region. We are actively working to resolve this issue.**
 
-!\[“The service is currently unavailable in the \<region\_code> region. We are actively working to resolve this issue” banner notification]\(/\_images/image (2294).png>)
+<img src="../../../.gitbook/assets/image (2294).png" alt="“The service is currently unavailable in the <region_code> region. We are actively working to resolve this issue” banner notification" data-size="original">
 
 Again, there is no action on your part. Once we resolve the issue, this banner notification will automatically disappear.
 {% endhint %}

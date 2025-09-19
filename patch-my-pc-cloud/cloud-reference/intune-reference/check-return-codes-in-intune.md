@@ -7,19 +7,19 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use [Return Code
 1. Sign in to the **Intune admin center**.
 2.  Navigate to **Apps**.\\
 
-    ![Navigating to “Apps”](../../../.gitbook/assets/image-\(281\).png)
+    !\[]\(/\_images/image-(281 "").png "")
 3.  Navigate to **All Apps**.\\
 
-    ![Navigating to “All Apps”](../../../.gitbook/assets/image-\(282\).png)
+    !\[]\(/\_images/image-(282 "").png "")
 4.  Click the app if it’s shown in the results or search for it.\
     \\
 
-    ![Clicking the app if it’s shown in the results or searching for it](../../../.gitbook/assets/image-\(2542\).png)
+    !\[]\(/\_images/image-(2542 "").png "")
 5.  Navigate to **Manage | Properties**\
     \\
 
-    ![Navigating to “Manage | Properties”](../../../.gitbook/assets/image-\(2543\).png)
+    !\[]\(/\_images/image-(2543 "").png "")
 6.  Scroll down to the **Program** section, under which you will find the **Return codes**.\
     \\
 
-    ![Scrolling down to the “Program” section to locate the “Return codes”](../../../.gitbook/assets/image-\(2544\).png)
+    !\[]\(/\_images/image-(2544 "").png "")

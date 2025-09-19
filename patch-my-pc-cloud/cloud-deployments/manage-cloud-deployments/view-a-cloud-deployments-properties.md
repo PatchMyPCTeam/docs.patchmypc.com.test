@@ -6,21 +6,21 @@ To view the properties of a Patch My PC (PMPC) Cloud deployment:
 
 1.  On the **Deployments** page, click the relevant deployment to open its properties screen.\\
 
-    ![A deployment's property page](../../../.gitbook/assets/image-\(2007\).png)
+    !\[]\(/\_images/image-(2007 "").png "")
 2.  To find out more details, click **More Info** to open the more info page.\\
 
-    ![Click “More Info” to see more information about the deployment](../../../.gitbook/assets/image-\(2008\).png)
+    !\[]\(/\_images/image-(2008 "").png "")
 
     More information about the deployment is shown.\\
 
-    ![More information about the deployment is shown](../../../.gitbook/assets/image-\(2009\).png)
+    !\[]\(/\_images/image-(2009 "").png "")
 
 {% hint style="info" %}
 **Note**
 
 If the deployment has any [App Dependencies](../deploying-an-app-using-cloud/cloud-configurations-deployment-tab/dependencies-deployments.md), the **Dependencies** section allows you to view them.
 
-!\[“Dependencies” section showing app dependencies]\(/\_images/image (2277).png>)
+<img src="../../../.gitbook/assets/image (2277).png" alt="“Dependencies” section showing app dependencies" data-size="original">
 {% endhint %}
 
 3. Click **X** in the top-right corner to return to the **Deployments** page, or click **Less Info** to return to the deployment’s property page.

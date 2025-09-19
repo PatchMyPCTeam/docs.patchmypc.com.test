@@ -19,22 +19,22 @@ To Pause Updates for an app:
 {% hint style="success" %}
 **Tip**
 
-Click the filter button (![](../../../_images/image-\(2513\).png%3E)) and select the **Disabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that do not have updates paused.
+Click the filter button (![](<../../../.gitbook/assets/image (2513).png>)) and select the **Disabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that do not have updates paused.
 {% endhint %}
 
-![Clicking on the relevant successful deployment you want to pause for updates](<../../../.gitbook/assets/image-(1788) (1).png>)
+!\[]\(/\_images/image-(1788 "").png "")
 
 2.  Click the **Pause Updates** slider to enable it.\\
 
-    ![Clicking the “Pause Updates” slider](<../../../.gitbook/assets/image-(1997) (1).png>)
+    !\[]\(/\_images/image-(1997 "").png "")
 3.  Click the **X** to close the deployment properties page.\\
 
-    ![Clicking "X" to close the deployment properties page.](<../../../.gitbook/assets/image-(1998) (1).png>)
+    !\[]\(/\_images/image-(1998 "").png "")
 
     \
     The list of deployments is displayed and **UPDATES PAUSED** shows under the deployment name so you updates are paused for this specific deployment.\\
 
-    ![](../../../.gitbook/assets/image-\(1999\).png)
+    !\[]\(/\_images/image-(1999 "").png "")
 
 {% hint style="info" %}
 **Note**

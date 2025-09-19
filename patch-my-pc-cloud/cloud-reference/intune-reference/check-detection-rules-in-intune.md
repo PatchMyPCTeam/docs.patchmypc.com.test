@@ -7,24 +7,24 @@ If a Patch My PC (PMPC) Cloud Custom App has been configured to use [Detection m
 1. Sign in to the **Intune admin center**.
 2.  Navigate to **Apps**.\\
 
-    ![Navigating to “Apps”](../../../.gitbook/assets/image-\(2220\).png)
+    !\[]\(/\_images/image-(2220 "").png "")
 3.  Navigate to **All Apps**.\\
 
-    ![Navigating to “All Apps”](../../../.gitbook/assets/image-\(2221\).png)
+    !\[]\(/\_images/image-(2221 "").png "")
 4.  Click the app if it’s shown in the results or search for it.\\
 
-    ![Clicking the app if it’s shown in the results or searching for it](../../../.gitbook/assets/image-\(227\).png)
+    !\[]\(/\_images/image-(227 "").png "")
 5.  Navigate to **Manage | Properties**.\\
 
-    ![Navigating to “Manage | Properties”](../../../.gitbook/assets/image-\(228\).png)
+    !\[]\(/\_images/image-(228 "").png "")
 6.  Scroll down to **Detection rules** and click **Edit**.\\
 
-    ![Scrolling down to “Detection rules” and clicking “Edit”](../../../.gitbook/assets/image-\(229\).png)
+    !\[]\(/\_images/image-(229 "").png "")
 
     \
     Any configured detection rules are displayed.\\
 
-    ![Any configured detection rules are displayed.](../../../.gitbook/assets/image-\(230\).png)
+    !\[]\(/\_images/image-(230 "").png "")
 7.  Click a detection rule to display more details.\\
 
-    ![Clicking a detection rule to display more details](../../../.gitbook/assets/image-\(231\).png)
+    !\[]\(/\_images/image-(231 "").png "")

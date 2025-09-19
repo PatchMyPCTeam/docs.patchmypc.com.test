@@ -14,7 +14,7 @@ All user account-related tasks are performed from the **Users** node of the PMPC
 1. Sign in to the PMPC portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/)
 2.  Navigate to **Settings | Users**.\\
 
-    ![Navigating to “Settings | Users”](../../../.gitbook/assets/image-\(286\).png)
+    !\[]\(/\_images/image-(286 "").png "")
 
 The **Users** page is then displayed, allowing you to complete the following tasks:
 
@@ -22,7 +22,7 @@ The **Users** page is then displayed, allowing you to complete the following tas
 * [Modify a User](modify-a-cloud-user.md)
 * [Delete a User](delete-a-cloud-user.md)
 
-![“Users” page](../../../.gitbook/assets/image-\(287\).png)
+!\[]\(/\_images/image-(287 "").png "")
 
 {% hint style="info" %}
 **Note**

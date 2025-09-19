@@ -26,7 +26,7 @@ Tip
 If the **Cloud** tab is not present, check you have entered your license key and clicked **Validate**.
 {% endhint %}
 
-!["Cloud" tab of our Publisher](../../.gitbook/assets/image-\(1725\).png)
+!\[]\(/\_images/image-(1725 "").png "")
 
 3. In the **Connection Name** field, enter a unique name for the connection. For example **Patch My PC Custom Apps**, then click **Connect**.
 
@@ -36,14 +36,14 @@ If the **Cloud** tab is not present, check you have entered your license key and
 The name you enter here determines how this connection shows on the **Connections** page of the **portal**.
 {% endhint %}
 
-![Entering a “Connection Name” and clicking “Connect”](../../.gitbook/assets/image-\(1726\).png)
+!\[]\(/\_images/image-(1726 "").png "")
 
 4.  In your browser, enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.
 
-    ![“Microsoft Sign in” screen](../../.gitbook/assets/image-\(1420\).png)
+    !\[]\(/\_images/image-(1420 "").png "")
 5.  Enter the password and click **Sign in**.
 
-    ![“Enter password” screen](../../.gitbook/assets/image-\(1421\).png)
+    !\[]\(/\_images/image-(1421 "").png "")
 
     \
     If the connection is successful, a new browser tab opens with the following message:
@@ -54,10 +54,10 @@ The name you enter here determines how this connection shows on the **Connection
 6. If the **Edit a customer** screen is not displayed, proceed to Step 8.
 7.  If the **Edit a customer** screen is displayed, click to select the customer you want to connect to, then click **OK**.\\
 
-    ![Selecting the relevant customer from the “Edit a customer” screen](../../.gitbook/assets/image-\(910\).png)
+    !\[]\(/\_images/image-(910 "").png "")
 8.  In Publisher, verify the **Connection Status** shows as **Connected**, then click **Save and Close**.\\
 
-    ![Publisher showing it’s “Connected”](../../.gitbook/assets/image-\(1728\).png)
+    !\[]\(/\_images/image-(1728 "").png "")
 
 {% hint style="info" %}
 **Note**

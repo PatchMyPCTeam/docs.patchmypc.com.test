@@ -14,11 +14,11 @@ To add extra folders and/or files:
 
 1. Click the **Extra Files** tool to expose the configurable settings.
 
-![Clicking the "Extra Files" tool](../../../../.gitbook/assets/image-\(82\).png)
+!\[]\(/\_images/image-(82 "").png "")
 
 2. Scroll down to the end of the **Extra Files** section so that the buttons and their subtext are visible.
 
-![Scrolling down to the end of the "Extra Files" section so that the buttons and their subtext are visible](../../../../.gitbook/assets/image-\(83\).png)
+!\[]\(/\_images/image-(83 "").png "")
 
 3. Either:
    1. Drag and drop the relevant folders or files to the relevant area.
@@ -37,12 +37,12 @@ We support uploading files with the same name, provided they are in different fo
 4.  Click **Upload** when your browser prompts you to upload the content.\
     \\
 
-    ![Clicking "Upload" when prompted to upload the content](../../../../.gitbook/assets/image-\(146\).png)
+    !\[]\(/\_images/image-(146 "").png "")
 
     \
     The hash will be calculated for any folders/files you upload, which will appear at the bottom of the **Extra Files** section.
 
-![Additional folders/files to be uploaded appearing at the bottom of the “Extra Files” section](../../../../.gitbook/assets/image-\(84\).png)
+!\[]\(/\_images/image-(84 "").png "")
 
 {% hint style="info" %}
 **Note**
@@ -51,7 +51,7 @@ The total number of extra folders/files is not limited, but their total size mus
 
 Also, if the **Installer Type** on the **General Information** page is set to **`.msi`**, the **MST File** section will be shown, allowing you to upload a single MST file. This file must have the **`.mst`** extension.
 
-!\[“MST Files” section]\(/\_images/image (241).png>)
+<img src="../../../../.gitbook/assets/image (241).png" alt="“MST Files” section" data-size="original">
 
 Uploading a **`.mst`** file automatically adds the following to the **Additional Argument** field of the **Install Parameters** section:
 
@@ -59,7 +59,7 @@ Uploading a **`.mst`** file automatically adds the following to the **Additional
 
 where **`<`**_**`mstfile>`**_ is the name of the uploaded MST file.
 
-!\[“Install Parameters” section updated]\(/\_images/image (243).png>)
+<img src="../../../../.gitbook/assets/image (243).png" alt="“Install Parameters” section updated" data-size="original">
 {% endhint %}
 
 5. Repeat the above steps to add any additional folders/files as required.
@@ -74,7 +74,7 @@ Once a deployment has been successfully created, you can add or remove any addit
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking "Next" to move to the "Assignments" page](../../../../.gitbook/assets/image-\(85\).png)
+!\[]\(/\_images/image-(85 "").png "")
 
 {% hint style="info" %}
 **Note**

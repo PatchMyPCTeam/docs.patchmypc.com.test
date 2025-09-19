@@ -8,27 +8,27 @@ To add a Post-Uninstall script:
 
 1. Click **Add** beside the **Post-Uninstall** option.
 
-![Clicking “Add” beside the “Post-Uninstall” option](../../../../../.gitbook/assets/image-\(2608\).png)
+!\[]\(/\_images/image-(2608 "").png "")
 
 2. To import an existing script, click **Import** then browse to the location containing the script and select it.
 
-![Clicking “Import” to import an existing script](../../../../../.gitbook/assets/image-\(2473\).png)
+!\[]\(/\_images/image-(2473 "").png "")
 
 The **Add Post-Uninstall Scripts** page is populated with the imported script.
 
-![“Add Post-Uninstall Script” page is populated with the imported script.](../../../../../.gitbook/assets/image-\(2474\).png)
+!\[]\(/\_images/image-(2474 "").png "")
 
 3. To manually add a script, enter a unique name for the script in the **Script Name** field.
 
-![Entering a unique name for the script in the “Script Name” field](../../../../../.gitbook/assets/image-\(2475\).png)
+!\[]\(/\_images/image-(2475 "").png "")
 
 4. Select the type of script from the **Script Format** dropdown.
 
-![Selecting the type of script from the “Script Format” dropdown.](../../../../../.gitbook/assets/image-\(2476\).png)
+!\[]\(/\_images/image-(2476 "").png "")
 
 5. In the script editor, type your script.
 
-![Typing your script in the Script Editor](../../../../../.gitbook/assets/image-\(2477\).png)
+!\[]\(/\_images/image-(2477 "").png "")
 
 {% hint style="info" %}
 **Note**
@@ -38,7 +38,7 @@ We currently have a limit of 50,000 characters per script. Use the **Number of c
 
 6.  In the **Arguments** field, enter any arguments you want to provide to the script.\\
 
-    ![Entering any arguments you want to provide to the script by specifying them in the “Arguments” field](../../../../../.gitbook/assets/image-\(2478\).png)
+    !\[]\(/\_images/image-(2478 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -56,12 +56,12 @@ Using script Arguments is currently unsupported when deploying an app to macOS.
 
 7.  Click **Save** to save your script.\\
 
-    ![Clicking “Save” to save your script](../../../../../.gitbook/assets/image-\(2479\).png)
+    !\[]\(/\_images/image-(2479 "").png "")
 
     \
     The **Configurations** tab is re-displayed with the name of the configured script beside it.
 
-![“Configurations” tab re-displayed with the name of the configured script beside it](../../../../../.gitbook/assets/image-\(96\).png)
+!\[]\(/\_images/image-(96 "").png "")
 
 {% hint style="success" %}
 **Tip**

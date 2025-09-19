@@ -15,7 +15,7 @@ To see the status of a deployment:
 1. Sign in to the portal at [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
 2.  Navigate to the **Deployments** node.\\
 
-    ![Navigating to the “Deployments” page.](../../.gitbook/assets/image-\(1453\).png)
+    !\[]\(/\_images/image-(1453 "").png "")
 
     \
     The **Deployments** page loads, showing all current deployments.\
@@ -26,4 +26,4 @@ To see the status of a deployment:
 * **In Progress –** The application is being created in Intune.
 * **Failed –** The application failed to be created in Intune.
 
-![“Status” column showing the status of each deployment](../../.gitbook/assets/image-\(1454\).png)
+!\[]\(/\_images/image-(1454 "").png "")

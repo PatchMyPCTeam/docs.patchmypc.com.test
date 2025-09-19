@@ -2,23 +2,23 @@
 
 _Applies to: Patch My PC Cloud_
 
-At Patch My PC (PMPC), we value customer feedback to help us understand if what we create meets your needs, both in terms of usability and functionality test.
+At Patch My PC (PMPC), we value customer feedback to help us understand if what we create meets your needs, both in terms of usability and functionality.
 
 To help us gather feedback, we have implemented a feedback mechanism into some workflows in PMPC Cloud.
 
 If feedback has been enabled for a workflow, the first time you complete that workflow, the **Rate Your Experience** popup is included as part of the usual notification.
 
-![“Rate Your Experience” notification](<../.gitbook/assets/image-(2721) (1).png>)
+!\[]\(/\_images/image-(2721 "").png "")
 
 Click on the relevant smiley to indicate your feelings about the workflow. Then provide your comments/feedback, and optionally check the **You can contact me regarding my feedback** checkbox.
 
 Finally, click the green paper airplane icon to send your feedback.
 
-![Providing comments and submitting feedback](<../.gitbook/assets/image-(2722) (1).png>)
+!\[]\(/\_images/image-(2722 "").png "")
 
 You will then see the **Thank You** notification thanking you for your feedback
 
-![“Thank You” notification](<../.gitbook/assets/image-(2723) (1).png>)
+!\[]\(/\_images/image-(2723 "").png "")
 
 {% hint style="info" %}
 **Note**

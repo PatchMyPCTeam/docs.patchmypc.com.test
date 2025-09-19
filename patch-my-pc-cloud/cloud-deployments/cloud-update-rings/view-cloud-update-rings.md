@@ -7,7 +7,7 @@ To view the Update Rings configured for a Patch My PC (PMPC) Cloud deployment:
 1. Follow the [Edit a Deployment](../manage-cloud-deployments/edit-a-cloud-deployment.md) process to open the properties of the relevant deployment whose Update Rings you want to view.
 2.  Click **More Info**.\\
 
-    ![Clicking “More Info”](../../../.gitbook/assets/image-\(455\).png)
+    !\[]\(/\_images/image-(455 "").png "")
 
     \
     Any configured Update Rings are shown as tabs, which you can switch between to review your settings.
@@ -18,8 +18,8 @@ To view the Update Rings configured for a Patch My PC (PMPC) Cloud deployment:
 If any rings have a status of **Scheduled**, it means that specific ring has yet to be created. See [Check if an Update Ring has been created](check-if-an-update-ring-has-been-created-in-cloud.md) for more information.
 {% endhint %}
 
-![Configured Update Rings showing as tabs](../../../.gitbook/assets/image-\(456\).png)
+!\[]\(/\_images/image-(456 "").png "")
 
 3.  Click the red **X** in the top right-hand corner to close the **More Info** page and return to the **Deployments** node.\\
 
-    ![Clicking the red X  in the top right-hand corner to close the “More Info” page and return to the “Deployments” node](../../../.gitbook/assets/image-\(457\).png)
+    !\[]\(/\_images/image-(457 "").png "")

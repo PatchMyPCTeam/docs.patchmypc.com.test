@@ -39,19 +39,19 @@ To deploy an app using PMPC Cloud:
 Use the **Search** field to help you locate the app.
 {% endhint %}
 
-![“App Catalog” page](../../../.gitbook/assets/image-\(193\).png)
+!\[]\(/\_images/image-(193 "").png "")
 
 {% hint style="info" %}
 **Note**
 
 If an app (for example, the Windows version of Slack) has multiple versions available for different variants/installer types, the App Catalog shows the total number of available versions. If you hover your mouse over this, you can see the list of variants grouped accordingly. Only that version will be displayed if a single version is available for all variants.
 
-!\[Total number of available variants]\(/\_images/image (2471).png>)
+<img src="../../../.gitbook/assets/image (2471).png" alt="Total number of available variants" data-size="original">
 {% endhint %}
 
 3.  Click the app to open its properties.\\
 
-    ![Application’s “Properties” page](../../../.gitbook/assets/image-\(194\).png)
+    !\[]\(/\_images/image-(194 "").png "")
 4. Click **Deploy** to start the Deployment Wizard.
 
 {% hint style="info" %}
@@ -62,6 +62,6 @@ If the app you are deploying is also supported for macOS, you will see a separat
 Also, if the app you are deploying is already published by our on-premises Publisher, you will see the **This app is already deployed** warning dialog stating that deploying the same app through both Publisher and PMPC Cloud can cause potential issues if there are differences between the deployment configurations. We therefore strongly recommend you only deploy an app through either Publisher PMPC Cloud to avoid such issues.
 {% endhint %}
 
-![Click "Deploy" to start the Deployment Wizard](../../../.gitbook/assets/image-\(195\).png)
+!\[]\(/\_images/image-(195 "").png "")
 
 The [General Information](cloud-general-information-deployment-tab.md) tab is displayed, which needs to be completed.

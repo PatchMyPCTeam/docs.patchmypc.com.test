@@ -6,10 +6,10 @@ To accept a user’s access request in Patch My PC (PMPC) Cloud:
 
 1.  Click the green tick in the **Action** column.\\
 
-    ![Clicking the green tick in the “Action” column](../../../../.gitbook/assets/image-\(619\).png)
+    !\[]\(/\_images/image-(619 "").png "")
 2.  On the **Which role would you like to assign to “<**_**user\_name**_**>”** dialog box, select the relevant role to assign this user, then click **Confirm**.\\
 
-    ![“Which role would you like to assign to” dialog box](../../../../.gitbook/assets/image-\(620\).png)
+    !\[]\(/\_images/image-(620 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -19,7 +19,7 @@ Hover over the “**i**” beside each role to see more information, or see [Use
 
 The portal auto-refreshes and switches to the **Active** tab to show the user has been added. At the same time, the **User approved** notification is shown.
 
-![Portal auto-refreshing, switching to the "Active" tab and showing to show the user has been added, plus the "User approved" notification is shown.](../../../../.gitbook/assets/image-\(622\).png)
+!\[]\(/\_images/image-(622 "").png "")
 
 The user will receive an email from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox with the subject **Access Granted “<**_**company\_name**_**>”**.
 

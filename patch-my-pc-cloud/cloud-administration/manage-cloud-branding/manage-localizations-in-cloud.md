@@ -29,15 +29,15 @@ To add a Localization:
 2. To an existing Branding app, follow the [Modify/Recreate Branding](modify-recreate-cloud-branding.md) process.
 3. Click **Add Language**
 
-![Clicking "Add Language"](<../../../.gitbook/assets/image-(2405) (1).png>)
+!\[]\(/\_images/image-(2405 "").png "")
 
 4. In the **Language** dropdown of the **Add Localization** screen, start typing the name of the relevant language or select it from the dropdown.
 
-![Typing the name of the relevant language or selecting it from the  "Language" dropdown of the "Add Localization" screen](<../../../.gitbook/assets/image-(2406) (1).png>)
+!\[]\(/\_images/image-(2406 "").png "")
 
 5. For each of the three tabs (**Install**, **Uninstall**, **Update)**, complete each field with the relevant text and variables you want to use.
 
-![Completing all of the fields on all of the tabs](<../../../.gitbook/assets/image-(2408) (1).png>)
+!\[]\(/\_images/image-(2408 "").png "")
 
 {% hint style="danger" %}
 **Important**
@@ -55,7 +55,7 @@ Also, see [Default Language Notifications](default-language-notifications-in-clo
 
 6. Click **Save** to save your settings.
 
-![Clicking "Save" to save your settings](<../../../.gitbook/assets/image-(2409) (1).png>)
+!\[]\(/\_images/image-(2409 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -65,7 +65,7 @@ If you make a mistake or want to start again, click **Reset** to reset this scre
 
 The **Branding** screen is redisplayed with the newly added localization shown at the top of the list allowing you to select it if required.
 
-!["Branding" screen redisplayed with the newly added localization shown at the top of the list allowing you to select it if required](<../../../.gitbook/assets/image-(2410) (1).png>)
+!\[]\(/\_images/image-(2410 "").png "")
 
 ### Modify an Localization
 
@@ -73,25 +73,25 @@ To modify a Localization for an existing Branding app:
 
 1. Follow the [Edit Branding](modify-recreate-cloud-branding.md#edit-branding) process.
 2. Click **Add Language** if you want to add a new language and follow the [Add a Localization](manage-localizations-in-cloud.md#add-a-localization) process.
-3. To modify an existing localization, click the pencil icon (![](../../../_images/image-\(2396\).png%3E)) beside the relevant language.
+3. To modify an existing localization, click the pencil icon (![](<../../../.gitbook/assets/image (2396).png>)) beside the relevant language.
 
-![Clicking the pencil icon beside the relevant language](<../../../.gitbook/assets/image-(2397) (1).png>)
+!\[]\(/\_images/image-(2397 "").png "")
 
 4. Make any required changes, then click **Save** to save your changes.
 
-![Clicking "Save"](<../../../.gitbook/assets/image-(2398) (1).png>)
+!\[]\(/\_images/image-(2398 "").png "")
 
 The **Branding** screen is redisplayed.
 
-!["Branding" screen is redisplayed](<../../../.gitbook/assets/image-(2399) (1).png>)
+!\[]\(/\_images/image-(2399 "").png "")
 
 5. Click **Save** to save your changes.
 
-![Clicking "Save" to save your changes](<../../../.gitbook/assets/image-(2400) (1).png>)
+!\[]\(/\_images/image-(2400 "").png "")
 
 The list of branding apps is displayed along with the **Success – Branding Updated** notification.
 
-!["Success – Branding Updated" notification](<../../../.gitbook/assets/image-(2674) (1).png>)
+!\[]\(/\_images/image-(2674 "").png "")
 
 ### Delete a Localization
 
@@ -100,14 +100,14 @@ To delete a Localization from either a new or existing branding app:
 1. [Edit the branding app](modify-recreate-cloud-branding.md#edit-branding).
 2. Click the red trash can beside the language you want to remove.
 
-![Clicking the red trashcan beside the language you want to remove](<../../../.gitbook/assets/image-(2402) (1).png>)
+!\[]\(/\_images/image-(2402 "").png "")
 
 The language is removed.
 
 3. Click **Save** to save your changes.
 
-![Clicking "Save" to save your changes](<../../../.gitbook/assets/image-(2403) (1).png>)
+!\[]\(/\_images/image-(2403 "").png "")
 
 The **Success – Branding updated** notification is displayed.
 
-!["Success – Branding updated" notification](<../../../.gitbook/assets/image-(2675) (1).png>)
+!\[]\(/\_images/image-(2675 "").png "")

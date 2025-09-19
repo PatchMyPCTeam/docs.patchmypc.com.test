@@ -24,12 +24,12 @@ To determine if a specific Update Ring has been created:
     \
     In the following example, **Ring 1** has been created as it has a status of **Success**.\\
 
-    ![“Ring 1” has been created as it has a status of “Success”.](../../../.gitbook/assets/image-\(413\).png)
+    !\[]\(/\_images/image-(413 "").png "")
 
     \
     However, as **Ring 2** has a status of **Scheduled**, it has yet to be created as the configured delay has not passed.\\
 
-    ![“Ring 2” has a status of Scheduled meaning it has yet to be created as the configured delay has not passed.](../../../.gitbook/assets/image-\(414\).png)
+    !\[]\(/\_images/image-(414 "").png "")
 
 {% hint style="success" %}
 **Tip**

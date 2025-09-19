@@ -17,23 +17,23 @@ To delete a Branding App:
 
 1. Navigate to **Settings | Branding**
 
-![Navigating to "Settings | Branding"](<../../../.gitbook/assets/image-(2506) (1).png>)
+!\[]\(/\_images/image-(2506 "").png "")
 
 2. Click the ellipsis (`⋮`) button beside the relevant Branding App and select **Delete**.
 
-![Selecting "Delete" from the ellipsis menu](<../../../.gitbook/assets/image-(2676) (1).png>)
+!\[]\(/\_images/image-(2676 "").png "")
 
 3. Read the **Are you sure** dialog box, and if you want to continue, click **Yes**.
 
-!["Are you sure" dialog box](<../../../.gitbook/assets/image-(2508) (1).png>)
+!\[]\(/\_images/image-(2508 "").png "")
 
 The **Success - <**_**branding\_app\_name**_**> deleted** notification is shown.
 
-![](../../../.gitbook/assets/image-\(2677\).png)
+!\[]\(/\_images/image-(2677 "").png "") deleted notification"" width="563">
 
 The **Branding** screen is redisplayed showing the Branding App has been deleted.
 
-!["Branding" screen is redisplayed showing the branding app has been  deleted.](<../../../.gitbook/assets/image-(2678) (1).png>)
+!\[]\(/\_images/image-(2678 "").png "")
 
 {% hint style="success" %}
 **Tip**

@@ -17,12 +17,12 @@ To manage the user invitations to join your PMPC Cloud portal:
 1. Navigate to **Settings | Users**.
 2.  Click the **Invitations** tab.\\
 
-    ![Clicking the “Invitations” tab on the “Users” screen](../../../../.gitbook/assets/image-\(1390\).png)
+    !\[]\(/\_images/image-(1390 "").png "")
 
     \
     The list of outstanding invitations which are still valid is displayed.\\
 
-    ![List of outstanding, valid invitations](../../../../.gitbook/assets/image-\(1391\).png)
+    !\[]\(/\_images/image-(1391 "").png "")
 
 You can now:
 

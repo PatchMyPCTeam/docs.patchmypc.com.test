@@ -31,7 +31,7 @@ Like Intune, we do not support circular dependencies (i.e. App A has a dependenc
 As per Intune, you can create a maximum of 100 dependencies, which includes the dependencies of any included dependencies, as well as the app itself. See [Step 5: Dependencies](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-5-dependencies) of [Add, assign, and monitor a Win32 app in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add) for more information.
 {% endhint %}
 
-![“Dependencies” tool](<../../../../.gitbook/assets/image-(88) (1).png>)
+!\[]\(/\_images/image-(88 "").png "")
 
 {% hint style="info" %}
 **Note**
@@ -43,17 +43,17 @@ To add a dependency:
 
 1. Click the **Dependencies** tool.
 
-![Clicking the "Dependencies" tool](<../../../../.gitbook/assets/image-(89) (1).png>)
+!\[]\(/\_images/image-(89 "").png "")
 
 2. From the **Add Dependencies** field, either:
    1. Start typing the name of the relevant app that this app depends on already being successfully installed on the target device.
    2. Click the dropdown and select the relevant app that this app depends on already being successfully installed on the target device.
 
-![Selecting the relevant app that this app depends on already being successfully installed on the target device](<../../../../.gitbook/assets/image-(90) (1).png>)
+!\[]\(/\_images/image-(90 "").png "")
 
 The selected app appears under the **Parent Deployment** section.
 
-![Selected app appearing under the “Parent Deployment” section](<../../../../.gitbook/assets/image-(91) (1).png>)
+!\[]\(/\_images/image-(91 "").png "")
 
 {% hint style="info" %}
 **Note**
@@ -68,7 +68,7 @@ Click the trashcan beside the relevant app under the **Parent Deployment** secti
 
 Once a dependency has been configured, you can view it as part of the app’s properties in the Microsoft Intune admin center.
 
-!\[Viewing dependencies for an app in the Microsoft Intune admin center]\(/\_images/image (339).png>)
+<img src="../../../../.gitbook/assets/image (339).png" alt="Viewing dependencies for an app in the Microsoft Intune admin center" data-size="original">
 
 For more information, see [Step 5: Dependencies](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-5-dependencies) of [Add, assign, and monitor a Win32 app in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add).
 {% endhint %}
@@ -84,7 +84,7 @@ If a dependency is set up in the Intune admin center between an app managed by P
 
 If we encounter any problems with app dependencies, we display a yellow exclamation mark (“**!**”) warning. Hovering over this will display more information.
 
-<img src="../../../../.gitbook/assets/image-(334).png" alt="" data-size="original">
+!\[]\(/\_images/image-(334 "").png "")
 
 We typically generate warnings in the following scenarios:
 
@@ -99,4 +99,4 @@ If an entire deployment fails before the dependencies stage is reached, no warni
 
     Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking "Next" to move to the "Assignments" page](<../../../../.gitbook/assets/image-(92) (1).png>)
+!\[]\(/\_images/image-(92 "").png "")

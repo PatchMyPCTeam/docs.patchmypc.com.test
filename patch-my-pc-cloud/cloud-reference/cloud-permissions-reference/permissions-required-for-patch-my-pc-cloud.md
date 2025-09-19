@@ -15,14 +15,14 @@ As per the dialog box:
 
 You will be prompted to grant these during the onboarding process by clicking **Accept** on the **Permissions requested** dialog box.
 
-![“Permissions required” prompting to grant permissions to your environment.](../../../.gitbook/assets/image-\(1351\).png)
+!\[]\(/\_images/image-(1351 "").png "")
 
 {% hint style="info" %}
 **Note**
 
 Whether or not you see the **Permissions Required** dialog box and what you see on it depends on the account you use to sign into Entra and how the **User consent for applications** settings are configured in your environment.
 
-!\[“User consent settings for applications” Entra settings.]\(/\_images/image (962).png>)
+<img src="../../../.gitbook/assets/image (962).png" alt="“User consent settings for applications” Entra settings." data-size="original">
 
 You will only see the C**onsent on behalf of your organization** checkbox if the user account you are signed in with is a Global Admin.
 

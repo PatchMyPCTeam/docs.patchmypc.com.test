@@ -22,10 +22,10 @@ To invite a new user to the PMPC Cloud portal:
 1. Navigate to **Settings | Users**.
 2.  Click **Invite User** in the header.\\
 
-    ![](../../../.gitbook/assets/image-\(722\).png)
+    !\[]\(/\_images/image-(722 "").png "")
 3.  On the **Invite User** screen, enter the user’s details.\\
 
-    ![Complete the details of the user you are inviting](<../../../.gitbook/assets/image-(2119) (1).png>)
+    !\[]\(/\_images/image-(2119 "").png "")
 
 {% hint style="warning" %}
 **Important**
@@ -41,7 +41,7 @@ The email address you enter must already have an Entra ID account associated wit
 See [User Roles](cloud-user-roles-reference.md) for details of the available roles and which actions they can perform.
 {% endhint %}
 
-![Choosing which role to assign this user](<../../../.gitbook/assets/image-(2120) (1).png>)
+!\[]\(/\_images/image-(2120 "").png "")
 
 {% hint style="success" %}
 **Tip**
@@ -52,11 +52,11 @@ Use the tooltips beside each role to gain a quick overview of the role and it's 
 5.  Click **Invite**.\
     \\
 
-    ![Clicking "Invite" to send the invitation](<../../../.gitbook/assets/image-(2122) (1).png>)
+    !\[]\(/\_images/image-(2122 "").png "")
 
 The **Success - Invitation sent** notification is displayed.
 
-!["Success - Invitation sent" notification](<../../../.gitbook/assets/image-(725) (1).png>)
+!\[]\(/\_images/image-(725 "").png "")
 
 The user will receive an email from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox with the subject **You are invited to&#x20;**_**\<company\_name>**_.
 
@@ -68,7 +68,7 @@ See [Example Invitation email](../../cloud-reference/cloud-email-reference/examp
 
 The invitation and its details are shown on the **Invitations** tab, which includes any previously created outstanding invitations that are still valid.
 
-![“Invitations” tab showing valid, outstanding user invitations](<../../../.gitbook/assets/image-(728) (1).png>)
+!\[]\(/\_images/image-(728 "").png "")
 
 {% hint style="info" %}
 **Note**
@@ -82,21 +82,21 @@ Users should follow the [Accepting an Invitation](manage-cloud-invitations/accep
 
 When a user from the same company who has not been set up on your company's PMPC Cloud portal tries to sign in, they will see the **Select the Company You Want to Sign In To** screen.
 
-![“Select the Company You Want to Sign In To” screen](<../../../.gitbook/assets/image-(1378) (1).png>)
+!\[]\(/\_images/image-(1378 "").png "")
 
 To join your company, they should click **Request Access** beside your company.
 
-![Users should click “Request Access” beside your company to join it](<../../../.gitbook/assets/image-(1379) (1).png>)
+!\[]\(/\_images/image-(1379 "").png "")
 
 The **Request Access to join&#x20;**_**\<company\_name>**_ popup appears.
 
-![](../../../.gitbook/assets/image-\(616\).png)
+!\[]\(/\_images/image-(616 "").png "")" popup">
 
 The user should enter an optional **Reason for Request** then click **Submit**.
 
 The **Request Access** text changes to **Renotify** and the **Success - Access request sent** notification is shown.
 
-![The “Success – Request sent” notification is displayed](<../../../.gitbook/assets/image-(617) (1).png>)
+!\[]\(/\_images/image-(617 "").png "")
 
 Any users with the **Full Admin** role in your PMPC Cloud portal will receive an email containing the user’s details and which company they have requested access to. The email is sent from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox with the subject **Access Request&#x20;**_**\<your\_company\_name>**_.
 
