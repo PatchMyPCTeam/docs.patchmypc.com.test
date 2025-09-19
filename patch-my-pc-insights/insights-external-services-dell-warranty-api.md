@@ -6,22 +6,24 @@ Advanced Insights (this is not relevant for Patch Insights) can access device wa
 
 First you will browse to [https://techdirect.dell.com](https://techdirect.dell.com/) and register or log in, you will need to be associated with your Dell Company account. Once all that is sorted you can select to go to the APIs section.
 
-![](../.gitbook/assets/image-\(1293\).png)
+![](/_images/image-(1293).png "Dell Tech API")
 
-![](../.gitbook/assets/image-\(1289\).png)
+![](/_images/image-(1289).png "Dell Tech Request API Key")
 
-![](../.gitbook/assets/image-\(1562\).png)
+![](/_images/image-(1562).png "Dell API Client ID")
 
-![](../.gitbook/assets/image-\(1563\).png)
+![](/_images/image-(1563).png "Dell API Client Secret")
 
-{% hint style="info" %}
-Advanced Insights makes a single API call for every 100 Dell clients when importing warranty information. To estimate the number of API calls you will require, we recommend specify 1% of the total Dell client device count.
-{% endhint %}
 
-Once you have successfully obtained your API key log into Advanced Insights and navigate to the Administration area. Go to Settings - External Services and check the "Is Enabled" and "Enable Warranty Caching" option.
+
+<blockquote class="wp-block-quote">
+<p>Advanced Insights makes a single API call for every 100 Dell clients when importing warranty information. To estimate the number of API calls you will require, we recommend specify 1% of the total Dell client device count.</p>
+</blockquote>
+
+Once you have successfully obtained your API key log into Advanced Insights and navigate to the Administration area. Go to Settings - External Services and check the "Is Enabled" and "Enable Warranty Caching" option.&#x20;
 
 Enter the provided Dell warranty text for Client ID, Client Secret and click save all.
 
 \*Please only enter in the text in-between the brackets for the API Client Secret.
 
-![](../.gitbook/assets/image-\(1561\).png)
+![](/_images/image-(1561).png "Example of Dell API Client ID and Client Secret")

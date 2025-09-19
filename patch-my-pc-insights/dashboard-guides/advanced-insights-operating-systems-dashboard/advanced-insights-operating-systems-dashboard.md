@@ -6,7 +6,7 @@ description: Operating Systems Dashboard
 
 _Applies to: Patch My PC Advanced Insights_
 
-![](../../../.gitbook/assets/image-\(2162\).png)
+![](/_images/image-(2162).png "Operating Systems Dashboard")
 
 On this operating system dashboard we are showing the following information:
 
@@ -19,7 +19,9 @@ On this operating system dashboard we are showing the following information:
 
 When you select Pending Restarts for one of the 4 options at the top you get a table with the device information, but also you get to see what the client has reported it is pending a restart for.
 
-![](../../../.gitbook/assets/image-\(2163\).png)
+![](/_images/image-(2163).png "Pending Restart")
+
+
 
 ### Windows OS Servicing
 
@@ -31,12 +33,13 @@ In this donut chart you can pivot the information using the properties button to
 * Edition (SKU)
 * Build Version
 
-![](../../../.gitbook/assets/image-\(2164\).png)
+![](/_images/image-(2164).png "Windows OS Servicing")
 
 From selecting a property you can then go and select for example build version and get a report just on one particular build version.
 
-![](../../../.gitbook/assets/image-\(2165\).png)
+![](/_images/image-(2165).png "Build Version")
 
-Or by clicking on the cog and then selecting View all Chart data you can get a table with all the devices in that property selected.\\
+Or by clicking on the cog and then selecting View all Chart data you can get a table with all the devices in that property selected.\
 
-![](../../../.gitbook/assets/image-\(2167\).png)
+
+![](/_images/image-(2167).png "Windows OS Servicing Data - Build Version")

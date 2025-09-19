@@ -9,28 +9,26 @@ All user company-related tasks are performed from the **Company** node of the po
 1. Sign in in to the PMPC portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
 2. Navigate to **Settings | Company**
 
-![Navigating to “Settings | Company”](../../../.gitbook/assets/image-\(678\).png)
+![Navigating to "Settings | Company"](/_images/image-(678 "Navigating to \"Settings | Company\"").png "Navigating to “Settings | Company”")
 
 The **Company** screen is then displayed.
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.</p>
+</blockquote>
 
-The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.
-{% endhint %}
+!["Company" screen](/_images/image-(2688 "\"Company\" screen").png "“Company” screen")
 
-![“Company” screen](../../../.gitbook/assets/image-\(2688\).png)
-
-{% hint style="info" %}
-**Note**
-
-See [Company Reference](cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>See [Company Reference](cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.</p>
+</blockquote>
 
 3. Make any required changes, then click **Save**.
 
-![Clicking "Save" to save changes](../../../.gitbook/assets/image-\(2687\).png)
+![Clicking "Save" to save changes](/_images/image-(2687 "Clicking \"Save\" to save changes").png "Clicking &#x22;Save&#x22; to save changes")
 
 The **Success - Company information updated** notification is shown.
 
-!["Success - Company information updated" notification](../../../.gitbook/assets/image-\(2689\).png)
+!["Success - Company information updated" notification](/_images/image-(2689 "\"Success - Company information updated\" notification").png "&#x22;Success - Company information updated&#x22; notification")

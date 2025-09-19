@@ -2,9 +2,9 @@
 
 _Applies to: Patch My PC Advanced Insights_
 
-![](../.gitbook/assets/image-\(1291\).png)
+![](/_images/image-(1291).png "Device Warranty Page")
 
-Advanced Insights (this is not relevant for Patch Insights) will display the warranty status of Lenovo devices in the device modal display. We need to provide a warranty API token to be able to get this data.
+Advanced Insights (this is not relevant for Patch Insights)  will display the warranty status of Lenovo devices in the device modal display. We need to provide a warranty API token to be able to get this data.
 
 To apply for a warranty API token you need to request one from your Lenovo account manager.
 
@@ -12,6 +12,6 @@ Once you have successfully obtained your API key log into Advanced Insights and 
 
 Enter the provided Lenovo warranty text for the Lenovo API Client token and click save all.
 
-![](../.gitbook/assets/image-\(1292\).png)
+![](/_images/image-(1292).png "External Services Warranty Lenovo API Key")
 
 You can then navigate to the Warranty dashboard and click the Bulk Processing object in the top left to initiate warranty lookup.

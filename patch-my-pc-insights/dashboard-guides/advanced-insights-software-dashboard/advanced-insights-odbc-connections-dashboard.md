@@ -6,10 +6,12 @@ description: Open Database Connectivity (ODBC) connections
 
 _Applies to: Patch My PC Advanced Insights_
 
-{% hint style="info" %}
-The ODBC Connections data on this page requires the deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The ODBC Connections data on this page requires the deployment of the  [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)</p>
+</blockquote>
 
-![](../../../.gitbook/assets/image-\(2160\).png)
 
-This dashboard will display all the Open Database Connectivity (ODBC) connections reported. We can see the name of the Computer, DataSource name, Server name, Database and Driver version.
+
+![](/_images/image-(2160).png "Configured Open Database Connectivity Connections")
+
+This dashboard will display all the Open Database Connectivity (ODBC) connections reported.  We can see the name of the Computer, DataSource name, Server name, Database and Driver version.

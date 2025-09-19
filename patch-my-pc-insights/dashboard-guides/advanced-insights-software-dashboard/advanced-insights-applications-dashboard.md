@@ -6,9 +6,9 @@ description: Software Applications provided by Configuration Manager
 
 _Applies to: Patch My PC Advanced Insights_
 
-![](../../../.gitbook/assets/image-\(1540\).png)
+![](/_images/image-(1540).png "Software Applications Dashboard")
 
-This dashboard shows details for all Applications defined in the Configuration Manager console.
+This dashboard shows details for all Applications defined in the Configuration Manager console.&#x20;
 
 The top row of statistics give you quick access to any applications modified recently as well as enabling you to see unused applications which can potentially be retired.
 
@@ -18,24 +18,24 @@ Click through to any individual application shows additional detail, including i
 
 ### General Information
 
-![](../../../.gitbook/assets/image-\(1542\).png)
+![](/_images/image-(1542).png "Application General Information tab")
 
 The General Information tab lists the metadata for the application and details of the distribution point status for the application.
 
 ### Deployment Types
 
-![](../../../.gitbook/assets/image-\(1543\).png)
+![](/_images/image-(1543).png "Deployment Types tab")
 
 The Deployment Types tab lists all deployment types defined for the application, the relevant technology and content size with the source path.
 
 ### Deployments
 
-![](../../../.gitbook/assets/image-\(1544\).png)
+![](/_images/image-(1544).png "Deployments tab")
 
 The deployments tab lists each deployment and its related compliance.
 
 ### Compliance
 
-![](../../../.gitbook/assets/image-\(1545\).png)
+![](/_images/image-(1545).png "Compliance tab")
 
 The compliance tab lists each targeted client and its overall application deployment compliance. Clicking any individual machine will take you to the device view focused on the software - applications tab.

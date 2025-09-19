@@ -4,23 +4,24 @@ _Applies to: Patch My PC Cloud_
 
 To view the properties of a Patch My PC (PMPC) Cloud deployment:
 
-1.  On the **Deployments** page, click the relevant deployment to open its properties screen.\\
+1.  On the **Deployments** page, click the relevant deployment to open its properties screen.\
 
-    ![A deployment's property page](../../../.gitbook/assets/image-\(2007\).png)
-2.  To find out more details, click **More Info** to open the more info page.\\
 
-    ![Click “More Info” to see more information about the deployment](../../../.gitbook/assets/image-\(2008\).png)
+    ![A deployment's property page](/_images/image-(2007 "A deployment's property page").png "A deployment&#x27;s property page")
+2.  To find out more details, click **More Info** to open the more info page.\
 
-    More information about the deployment is shown.\\
 
-    ![More information about the deployment is shown](../../../.gitbook/assets/image-\(2009\).png)
+    ![Click "More Info" to see more information about the deployment](/_images/image-(2008 "Click \"More Info\" to see more information about the deployment").png "Click “More Info” to see more information about the deployment")
 
-{% hint style="info" %}
-**Note**
+    More information about the deployment is shown.\
 
-If the deployment has any [App Dependencies](../deploying-an-app-using-cloud/cloud-configurations-deployment-tab/dependencies-deployments.md), the **Dependencies** section allows you to view them.
 
-!\[“Dependencies” section showing app dependencies]\(/\_images/image (2277).png>)
-{% endhint %}
+    ![More information about the deployment is shown](/_images/image-(2009 "More information about the deployment is shown").png "More information about the deployment is shown")
+
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>If the deployment has any [App Dependencies](../deploying-an-app-using-cloud/cloud-configurations-deployment-tab/dependencies-deployments.md), the **Dependencies** section allows you to view them.</p>
+<p>![“Dependencies” section showing app dependencies](/_images/image-(2277).png>)</p>
+</blockquote>
 
 3. Click **X** in the top-right corner to return to the **Deployments** page, or click **Less Info** to return to the deployment’s property page.

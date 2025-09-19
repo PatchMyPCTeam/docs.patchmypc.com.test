@@ -7,14 +7,18 @@ You can use the **Copy invite link** functionality to invite users to your Patch
 To copy the invitation link:
 
 1.  Click the **Copy invite link** icon beside the relevant invitation.\
-    \\
+    \
 
-    ![Clicking the “Copy invite link” icon](../../../../.gitbook/assets/image-\(1637\).png)
+
+    ![Clicking the "Copy invite link" icon](/_images/image-(1637 "Clicking the \"Copy invite link\" icon").png "Clicking the “Copy invite link” icon")
 
     \
-    The **Success - Invitation link copied** notification is displayed, confirming the link has been copied to your clipboard.\\
+    The **Success - Invitation link copied** notification is displayed, confirming the link has been copied to your clipboard.\
 
-    ![“Success - Invitation link copied” notification](../../../../.gitbook/assets/image-\(1639\).png)
+
+    !["Success - Invitation link copied" notification](/_images/image-(1639 "\"Success - Invitation link copied\" notification").png "“Success - Invitation link copied” notification")
+
+
 2.  Paste the link and give it to whoever needs it. The link looks something similar to:
 
     [https://portal.patchmypc.com/accept-invite?invitationId=_\<invite\_ID>_](https://portal.patchmypc.com/accept-invite?invitationId=%3cinvite_ID%3e)

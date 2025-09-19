@@ -6,10 +6,10 @@ description: Members of the local administrators group
 
 _Applies to: Patch My PC Advanced Insights_
 
-{% hint style="info" %}
-The Local Administrators data on this page requires the deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The Local Administrators data on this page requires the deployment of the  [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)</p>
+</blockquote>
 
-![](../../../.gitbook/assets/image-\(2168\).png)
+![](/_images/image-(2168).png "Local Administrators Groups Members")
 
 On this report we can see all the groups members and users part of the Local Administrators group on client devices.

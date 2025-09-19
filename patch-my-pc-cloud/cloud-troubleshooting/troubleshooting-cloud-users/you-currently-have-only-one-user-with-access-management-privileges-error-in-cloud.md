@@ -8,11 +8,11 @@ Why do I see the following message at the top of my screen when signing into the
 
 **You currently have only one user with Access Management privileges. To prevent access issues please add a second user with Access Management privileges.**
 
-![PMPC Portal showing the “You currently have only one user with Access Management privileges” message](../../../.gitbook/assets/image-\(1758\).png)
+![PMPC Portal showing the "You currently have only one user with Access Management privileges" message](/_images/image-(1758 "PMPC Portal showing the \"You currently have only one user with Access Management privileges\" message").png "PMPC Portal showing the “You currently have only one user with Access Management privileges” message")
 
 ### CAUSE
 
-This problem occurs because, as the message states, your environment only has a single user configured with Access Management privileges.
+This problem occurs because, as the message states, your environment only has a single user configured with Access Management privileges.&#x20;
 
 If, for some reason, this person leaves or forgets their password, you will be unable to access your environment.
 

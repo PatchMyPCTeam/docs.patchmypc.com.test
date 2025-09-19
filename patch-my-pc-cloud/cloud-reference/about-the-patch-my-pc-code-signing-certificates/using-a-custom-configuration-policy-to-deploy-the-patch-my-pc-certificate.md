@@ -13,17 +13,17 @@ To deploy the certificate using a custom configuration policy, follow the [Creat
 There are two distinct use cases in PMPC Cloud that require separate certificates:
 
 1. [Intune Detection and Requirement Scripts](using-a-custom-configuration-policy-to-deploy-the-patch-my-pc-certificate.md#deploy-the-certificate-use-to-sign-intune-detection-and-requirement-scripts)\
-   Used to sign **Intune detection and requirement scripts** for Win32 applications published through PMPC Cloud.
+   Used to sign **Intune detection and requirement scripts** for Win32 applications published through PMPC Cloud.&#x20;
 2. [Patch My PC Helper Scripts](using-a-custom-configuration-policy-to-deploy-the-patch-my-pc-certificate.md#deploy-the-certificate-use-to-sign-patch-my-pc-helper-scripts)\
    Used to sign required and recommended pre/post "helper" scripts for certain applications in the PMPC catalog. These helper scripts perform essential tasks such as stopping processes, uninstalling older software versions, or configuring application behavior during deployment to ensure successful app installation.
 
 ## 1. Deploy the Certificate use to sign Intune Detection and Requirement Scripts
 
-### “Create a Profile” tab
+### “Create a Profile” tab&#x20;
 
 <table><thead><tr><th width="139">Field</th><th width="218">Value</th></tr></thead><tbody><tr><td>Platform</td><td>Windows 10 and later</td></tr><tr><td>Profile type</td><td>Templates > Custom</td></tr></tbody></table>
 
-### “Basics” tab
+### “Basics” tab&#x20;
 
 <table><thead><tr><th width="140">Field</th><th>Value</th></tr></thead><tbody><tr><td>Name</td><td>A descriptive name for the policy. E.g. “Patch My PC Cloud Trusted Publisher Certificate”`</td></tr><tr><td>Description</td><td>Enter an optional description for the policy</td></tr></tbody></table>
 
@@ -47,16 +47,16 @@ Configure any desired applicability rules.
 
 Double-check everything before clicking **Create**.
 
-## 2. Deploy the Certificate use to sign Patch My PC Helper Scripts
+## 2. Deploy the Certificate use to sign Patch My PC Helper Scripts&#x20;
 
-### “Create a Profile” tab
+### “Create a Profile” tab&#x20;
 
 | Field        | Value                |
 | ------------ | -------------------- |
 | Platform     | Windows 10 and later |
 | Profile type | Templates > Custom   |
 
-### “Basics” tab
+### “Basics” tab&#x20;
 
 <table><thead><tr><th width="142">Field</th><th>Value</th></tr></thead><tbody><tr><td>Name</td><td>A descriptive name for the policy. E.g. “Patch My PC Apps Trusted Publisher Certificate”`</td></tr><tr><td>Description</td><td>Enter an optional description for the policy</td></tr></tbody></table>
 
@@ -84,8 +84,8 @@ Double-check everything before clicking **Create**.
 
 Once the client processes the policy, the certificate appears as follows in its **Trusted Publishers** store.
 
-![How the certificate appears in a clients “Trusted Publishers” store](../../../.gitbook/assets/image-\(654\).png)
+![How the certificate appears in a clients "Trusted Publishers" store](/_images/image-(654 "How the certificate appears in a clients \"Trusted Publishers\" store").png "How the certificate appears in a clients “Trusted Publishers” store")
 
 Double-clicking the certificate allows you to see its properties.
 
-![Properties of the certificate](../../../.gitbook/assets/image-\(655\).png)
+![Properties of the certificate](/_images/image-(655 "Properties of the certificate").png "Properties of the certificate")

@@ -4,13 +4,13 @@ _Applies to: Patch My PC Advanced and Patch Insights_
 
 The Software Update Deployments dashboard shows high-level compliance for each Software Update Deployments in the environment.
 
-![](../../../.gitbook/assets/image-\(304\).png)
+![](/_images/image-(304).png "Software Updates Deployments")
 
 Clicking through the Software Updates deployments you can see the general information about the deployment.
 
-![](../../../.gitbook/assets/image-\(306\).png)
+![](/_images/image-(306).png "Software Update Deployment details")
 
-You can toggle the DeploymentStatus to show you the following fields:
+&#x20;You can toggle the DeploymentStatus to show you the following fields:
 
 * Compliant
 * Enforcement State Unknown

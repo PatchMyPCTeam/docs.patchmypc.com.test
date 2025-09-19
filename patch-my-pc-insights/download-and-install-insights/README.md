@@ -10,11 +10,11 @@ _Applies to: Patch My PC Advanced and Patch Insights_
 
 Run the installation
 
-{% hint style="warning" %}
-Ensure the Software requirements have been reviewed here: [insights-software-requirements.md](../advanced-and-patch-insights-requirements-and-prerequisites/insights-software-requirements.md "mention")
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Ensure the Software requirements have been reviewed here: [insights-software-requirements.md](../advanced-and-patch-insights-requirements-and-prerequisites/insights-software-requirements.md "mention")</p>
+</blockquote>
 
-Download the latest installer for Advanced Insights by clicking the [link below](https://api.patchmypc.com/downloads/exe/AdvancedInsights.exe).
+Download the latest installer for Advanced Insights by clicking the [link below](https://api.patchmypc.com/downloads/exe/AdvancedInsights.exe).&#x20;
 
 {% embed url="https://patchmypc.com/ai-download" %}
 Download the Latest Version of Advanced Insights
@@ -24,32 +24,32 @@ You can view the release history for Advanced Insights on our [release history p
 
 Start the installation by double-clicking the downloaded AdvancedInsights.exe
 
-![](../../.gitbook/assets/image-\(1105\).png)
+![](/_images/image-(1105).png "")
 
 #### Prerequisites Screen
 
 Once the installation starts, you will likely be greeted by the prerequisite screen in our installer wizard, click **Next.**
 
-{% hint style="info" %}
-If you have already met the prerequisite requirements, these screens will not be shown, and you can step down to the [#license-terms-and-conditions](./#license-terms-and-conditions "mention") step.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>If you have already met the prerequisite requirements, these screens will not be shown, and you can step down to the [#license-terms-and-conditions](./#license-terms-and-conditions "mention") step.</p>
+</blockquote>
 
-![](../../.gitbook/assets/1-\(1\).png)
+![](/_images/1-(1).png "If you require prerequisites the installer will assist you")
 
 #### Select Prerequisites
 
 Any required prerequisites are listed. These can all install without requiring a restart. Confirm the requirements and click **Next**.
 
-![](../../.gitbook/assets/image-\(1295\).png)
+![](/_images/image-(1295).png "Prerequisites installing")
 
 #### License Terms and Conditions
 
 Once the required prerequisites have been installed, you must accept the Terms and Conditions of use. Tick the "I agree" box and click **Next**.
 
-![](../../.gitbook/assets/4-License-Agreement-\(1\).png)
+![](/_images/4-License-Agreement-(1).png "License terms and conditions")
 
 #### Installation Folder
 
 Advanced Insights requires approximately 1.5GB of storage space. Confirm the installation directory and click **Next**.
 
-![](<../../.gitbook/assets/5-Folder (1).png>)
+![](/_images/5-Folder.png)
