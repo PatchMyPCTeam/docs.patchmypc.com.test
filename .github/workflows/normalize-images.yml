@@ -383,11 +383,46 @@ jobs:
           PY
       
       
-      
+
+      # FINAL PATCH: strip quoted fragments inside filename parentheses before .ext
+      - name: Final fix — collapse ("…") inside filenames
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import re, glob, io
+          
+          exts = r'(?:png|jpe?g|gif|webp|svg|gifv)'
+          
+          # Example it fixes:
+          # /_images/image-(766 "Clicking the question mark and selecting \"Contact Support\"").png
+          # -> /_images/image-(766).png
+          pat = re.compile(
+            rf'(/_images/[^)\s]*\([^()"\\]*?)\s+"(?:[^"\\]|\\.)*"\s*(\)\.{exts})(?=[\s")])',
+            re.I
+          )
+          
+          files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
+                   for p in glob.glob(g, recursive=True)]
+          
+          changed = False
+          for p in files:
+            with open(p, 'r', encoding='utf-8') as f:
+              s = f.read()
+            n = pat.sub(r'\1\2', s)
+            if n != s:
+              with open(p, 'w', encoding='utf-8') as f:
+                f.write(n)
+              print(f"Collapsed quoted fragment inside filename: {p}")
+              changed = True
+          
+          if not changed:
+            print("No filenames with quoted fragments needed collapsing.")
+          PY
       
       
 
-      # 5) Validate: all image links are /_images/<no-spaces> and no subfolders
+        # 5) Validate: all image links are /_images/<no-spaces> and no subfolders
       - name: Validate image links style (/_images/*, no spaces)
         shell: bash
         run: |
