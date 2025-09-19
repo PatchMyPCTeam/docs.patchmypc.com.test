@@ -34,7 +34,7 @@ Use a Filter to help you find only the relevant Events you require.
 <p>**Note**</p>
 <p>You can click the filter button to close the filter sidebar to see more details about the results without affecting the filter.\</p>
 <p>\</p>
-<p>![Closing the filter sidebar](/_images/image-(1770).png>)</p>
+<p>![Closing the filter sidebar](/_images/image-(1770 "Closing the filter sidebar").png>)</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">

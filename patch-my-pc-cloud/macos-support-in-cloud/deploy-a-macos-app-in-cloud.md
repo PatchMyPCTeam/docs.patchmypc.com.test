@@ -55,7 +55,7 @@ To deploy a macOS app using Patch My PC (PMPC) Cloud:
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
 <p>Once a macOS deployment has been completed successfully, you’ll can see it under **Apps | Monitor | macOS | macOS apps** in the Microsoft Intune admin center.</p>
-<p>![Successful deployment visible in the Microsoft Intune admin center](/_images/image-(2289).png>)</p>
+<p>![Successful deployment visible in the Microsoft Intune admin center](/_images/image-(2289 "Successful deployment visible in the Microsoft Intune admin center").png>)</p>
 </blockquote>
 
 ### Deploying LOB app specifics
@@ -71,6 +71,6 @@ When deploying _Line-of-Business_ (LOB) apps (also known as Custom or in-house a
 <p>**Important**</p>
 <p>Adding either a pre or post-install script results in the **Add Uninstall** assignment type being unavailable, as this combination is unsupported (hovering your mouse over the **Add Uninstall** assignment tells you that **Adding a script will disable uninstall assignments for this deployment**).</p>
 <p>Likewise, if you add an **Add Uninstall** assignment and then click the **Configurations** page, the option to add either a pre or post-install script is greyed out (hovering your mouse over the **Add** button tells you **Uninstall Assignments disabled as you have added a pre/post-install script.**</p>
-<p>!["Uninstall Assignments disabled as you have added a pre/post-install script."](/_images/image-(2395).png>)</p>
+<p>!["Uninstall Assignments disabled as you have added a pre/post-install script."](/_images/image-(2395 "\"Uninstall Assignments disabled as you have added a pre/post-install script.\"").png>)</p>
 <p>See [Supported Assignment Types & Settings for macOS Deployments](supported-assignment-types-and-settings-for-cloud-macos-deployments.md) for more details.</p>
 </blockquote>

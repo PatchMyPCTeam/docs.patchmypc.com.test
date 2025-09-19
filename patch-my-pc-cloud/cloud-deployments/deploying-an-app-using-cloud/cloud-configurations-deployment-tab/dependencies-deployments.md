@@ -58,7 +58,7 @@ The selected app appears under the **Parent Deployment** section.
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
 <p>Once a dependency has been configured, you can view it as part of the app’s properties in the Microsoft Intune admin center.</p>
-<p>![Viewing dependencies for an app in the Microsoft Intune admin center](/_images/image-(339).png>)</p>
+<p>![Viewing dependencies for an app in the Microsoft Intune admin center](/_images/image-(339 "Viewing dependencies for an app in the Microsoft Intune admin center").png>)</p>
 <p>For more information, see <a href="https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-5-dependencies">Step 5: Dependencies</a> of <a href="https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add">Add, assign, and monitor a Win32 app in Microsoft Intune</a>.</p>
 </blockquote>
 

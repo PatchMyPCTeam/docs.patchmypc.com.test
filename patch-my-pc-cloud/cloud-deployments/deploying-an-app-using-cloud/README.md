@@ -41,7 +41,7 @@ To deploy an app using PMPC Cloud:
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
 <p>If an app (for example, the Windows version of Slack) has multiple versions available for different variants/installer types, the App Catalog shows the total number of available versions. If you hover your mouse over this, you can see the list of variants grouped accordingly. Only that version will be displayed if a single version is available for all variants.</p>
-<p>![Total number of available variants](/_images/image-(2471).png>)</p>
+<p>![Total number of available variants](/_images/image-(2471 "Total number of available variants").png>)</p>
 </blockquote>
 
 3.  Click the app to open its properties.\

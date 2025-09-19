@@ -51,7 +51,7 @@ To edit an existing deployment from the **Deployments** node:
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
 <p>You can also edit a deployment from the **Deployments** node by clicking the ellipsis (**⋮**) beside the relevant deployment you want to edit, then click **Edit**.</p>
-<p>![Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.](/_images/image-(1891).png>)</p>
+<p>![Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.](/_images/image-(1891 "Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.").png>)</p>
 </blockquote>
 
 ### Editing a deployment from the App Catalog

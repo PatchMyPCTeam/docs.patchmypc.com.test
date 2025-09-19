@@ -51,7 +51,7 @@ To manage whether a user is granted the **Access Management** privilege:
 <p>**Note**</p>
 <p>To revoke this privilege, slide the **Access Management** slider to the left. If you are the last user in your company with this privilege, you will be unable to revoke it.</p>
 <p>If you try revoking it for yourself and there is at least one other user account with this privilege, you will see the following dialog box warning you that if you revoke access management you will be unable to manage user accounts in the portal.</p>
-<p>!["Are you sure you want to revoke access management from your account" pop up](/_images/image-(1759).png>)&#x20;</p>
+<p>!["Are you sure you want to revoke access management from your account" pop up](/_images/image-(1759 "\"Are you sure you want to revoke access management from your account\" pop up").png>)&#x20;</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">

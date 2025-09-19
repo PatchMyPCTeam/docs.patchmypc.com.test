@@ -65,7 +65,7 @@ To onboard to Patch My PC (PMPC) Cloud:
     \
     The **Request Access to join&#x20;**_**\<company\_name>**_ popup appears.\
     \
-    !["Request Access to join \<company\_name>" popup](/_images/image-(626).png>)\
+    !["Request Access to join \<company\_name>" popup](/_images/image-(626 "\"Request Access to join \<company\_name>\" popup").png>)\
     \
     Enter an optional **Reason for Request** then click **Submit**.\
     \

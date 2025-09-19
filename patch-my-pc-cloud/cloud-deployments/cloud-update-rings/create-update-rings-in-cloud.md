@@ -50,7 +50,7 @@ A new ring is added.
 
 7. If you do not want to change the names of any of the rings, go to Step 10.\
    \
-   If you want to change the name of any of the rings, click the pencil icon (![pencil icon](/_images/image-(2039).png>)) beside the relevant ring.
+   If you want to change the name of any of the rings, click the pencil icon (![pencil icon](/_images/image-(2039 "pencil icon").png>)) beside the relevant ring.
 
 ![Clicking the pencil icon beside the relevant ring to rename](/_images/image-(2591 "Clicking the pencil icon beside the relevant ring to rename").png "Clicking the pencil icon beside the relevant ring to rename")
 

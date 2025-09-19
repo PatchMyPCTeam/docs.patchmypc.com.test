@@ -20,7 +20,7 @@ If you are already a Custom Apps user, to onboard to Intune Apps for Cloud (Intu
 <p>**Important**</p>
 <p>As Intune Apps currently does not have feature parity with our on-premises Publisher, you will see the **Feature Parity Notice** popup. Please read this before clicking **Submit** to proceed.\</p>
 <p>\</p>
-<p>!["Feature Parity Notice" popup](/_images/image-(1750).png>)</p>
+<p>!["Feature Parity Notice" popup](/_images/image-(1750 "\"Feature Parity Notice\" popup").png>)</p>
 </blockquote>
 
 4.  Enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.\

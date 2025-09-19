@@ -21,7 +21,7 @@ To view the properties of a Patch My PC (PMPC) Cloud deployment:
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
 <p>If the deployment has any [App Dependencies](../deploying-an-app-using-cloud/cloud-configurations-deployment-tab/dependencies-deployments.md), the **Dependencies** section allows you to view them.</p>
-<p>![“Dependencies” section showing app dependencies](/_images/image-(2277).png>)</p>
+<p>!["Dependencies" section showing app dependencies](/_images/image-(2277 "\"Dependencies\" section showing app dependencies").png>)</p>
 </blockquote>
 
 3. Click **X** in the top-right corner to return to the **Deployments** page, or click **Less Info** to return to the deployment’s property page.

@@ -50,5 +50,5 @@ You can also monitor the progress of the deployment by clicking the **Deployment
 <p>**Tip**</p>
 <p>To see the migrated app in Intune, within the Microsoft Intune admin center navigate to:</p>
 <p>**Home > Apps | Windows >Windows | Windows Apps ><**_**app\_name**_**>**</p>
-<p>![Migrated app in Intune](/_images/image-(9).png>)</p>
+<p>![Migrated app in Intune](/_images/image-(9 "Migrated app in Intune").png>)</p>
 </blockquote>

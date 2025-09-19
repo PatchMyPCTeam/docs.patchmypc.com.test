@@ -21,7 +21,7 @@ You can test a Slack webhook notification from Patch My PC (PMPC) Cloud both at 
     \
     If your Slack webhook is valid, the test message appear as a notification and in the configured Slack channel:\
     \
-    ![Slack notification](/_images/image-(1896).png>)\
+    ![Slack notification](/_images/image-(1896 "Slack notification").png>)\
 
 
     ![Slack channel notification](/_images/image-(1897 "Slack channel notification").png "Slack channel notification")
@@ -44,7 +44,7 @@ You can test a Slack webhook notification from Patch My PC (PMPC) Cloud both at 
     If your Slack webhook is valid, the test message appears as a notification and in the configured Slack channel:
 
     \
-    ![Slack notification](/_images/image-(1896).png>)\
+    ![Slack notification](/_images/image-(1896 "Slack notification").png>)\
 
 
     ![Slack channel notification](/_images/image-(1897 "Slack channel notification").png "Slack channel notification")

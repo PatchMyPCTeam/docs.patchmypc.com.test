@@ -39,7 +39,7 @@ To define which apps to include in the App Set:
     ![Clicking "Add App Set"](/_images/image-(2549 "Clicking \"Add App Set\"").png "Clicking “Add App Set”")
 4. On the **Add App Set** screen, enter a unique name for the new App Set in the **App Set Name** field and click **Add**\
    \
-   ![Specifying the name for the new App Set](/_images/image-(2551).png>)\
+   ![Specifying the name for the new App Set](/_images/image-(2551 "Specifying the name for the new App Set").png>)\
    \
    The App Set is created and the _**\<appset\_name>**_ screen opens (where _**\<appset\_name>**_ is the name of the App Set).
 
@@ -182,7 +182,7 @@ The **App Sets** page is redisplayed along with the **Success – App Set create
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
 <p>You and the admins at the child company can monitor the status of each individual deployment from the **Deployments** node of the targeted company.</p>
-<p>![App Set deployment when viewed from the child company](/_images/image-(124).png>)</p>
+<p>![App Set deployment when viewed from the child company](/_images/image-(124 "App Set deployment when viewed from the child company").png>)</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">

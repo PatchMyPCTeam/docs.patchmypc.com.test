@@ -38,7 +38,7 @@ To configure a PMPC Cloud deployment to use an ESP Profile:
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
 <p>If an ESP Profile already contains the maximum of 100 apps, you will be unable to select it from the dropdown. If you hover over it, you'll see the **Total limit reached** tooltip.</p>
-<p>!["Total limit reached" tooltip](/_images/image-(235).png>)&#x20;</p>
+<p>!["Total limit reached" tooltip](/_images/image-(235 "\"Total limit reached\" tooltip").png>)&#x20;</p>
 </blockquote>
 
 ![Selecting the ESP Profile to add this deployment to](/_images/image-(58 "Selecting the ESP Profile to add this deployment to").png "Selecting the ESP Profile to add this deployment to")

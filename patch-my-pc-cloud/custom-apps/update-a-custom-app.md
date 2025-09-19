@@ -45,7 +45,7 @@ The hash for the file is calculated as the file is uploaded to your portal.
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
 <p>If you choose to upload additional folders, you will be prompted to confirm you trust this site:</p>
-<p>![Trust prompt](/_images/image-(2640).png>)</p>
+<p>![Trust prompt](/_images/image-(2640 "Trust prompt").png>)</p>
 </blockquote>
 
 

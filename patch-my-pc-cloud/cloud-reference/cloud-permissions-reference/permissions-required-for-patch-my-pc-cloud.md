@@ -20,7 +20,7 @@ You will be prompted to grant these during the onboarding process by clicking **
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
 <p>Whether or not you see the **Permissions Required** dialog box and what you see on it depends on the account you use to sign into Entra and how the **User consent for applications** settings are configured in your environment.</p>
-<p>![“User consent settings for applications” Entra settings.](/_images/image-(962).png>)</p>
+<p>!["User consent settings for applications" Entra settings.](/_images/image-(962 "\"User consent settings for applications\" Entra settings.").png>)</p>
 <p>You will only see the C**onsent on behalf of your organization** checkbox if the user account you are signed in with is a Global Admin.</p>
 <p>How the **User consent for applications** settings are configured determines whether you can sign up for the PMPC Cloud or not.</p>
 <p>If **Do not allow user consent** is configured, you will not see the **Permissions Requested** dialog box, but an error prompting you to contact an administrator.</p>

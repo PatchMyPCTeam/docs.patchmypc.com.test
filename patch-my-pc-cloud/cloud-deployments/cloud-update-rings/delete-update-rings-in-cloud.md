@@ -34,7 +34,7 @@ To delete all Update Rings for a deployment:
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
 <p>Clicking **Delete** will delete any existing assignments but not the deployment itself.</p>
-<p>![Clicking “Delete” will delete any existing assignments, not the deployment itself.](/_images/image-(2064).png>)\</p>
+<p>![Clicking "Delete" will delete any existing assignments, not the deployment itself.](/_images/image-(2064 "Clicking \"Delete\" will delete any existing assignments, not the deployment itself.").png>)\</p>
 </blockquote>
 
 The Update Rings are removed and any existing assignments are kept.
@@ -52,7 +52,7 @@ The Update Rings are removed and any existing assignments are kept.
 <p>As removing all Update Rings disables Update Ring functionality for this deployment (which could result in unintended results), the **"**_**\<deployment\_name>**_**" Deployment Summary** is shown detailing the impact of your proposed change.\</p>
 <p>\</p>
 <p>For example, this version of the app will be deployed immediately to all of the following assignments without any of the delays enforced by using Update Rings.</p>
-<p>![“Deployment Summary” showing the impact of deleting all Update Rings ](/_images/image-(2067).png>)</p>
+<p>!["Deployment Summary" showing the impact of deleting all Update Rings ](/_images/image-(2067 "\"Deployment Summary\" showing the impact of deleting all Update Rings ").png>)</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">

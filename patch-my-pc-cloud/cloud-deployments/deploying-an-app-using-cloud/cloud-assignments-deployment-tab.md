@@ -22,7 +22,7 @@ To add an Assignment:
 <p>**Note**</p>
 <p>If your deployment uses a [Retention Policy](cloud-configurations-deployment-tab/retention-policy-deployments.md), using the **Update Only** assignment type will also retain the relevant number of versions of the app in addition to the regular deployment types in Intune.</p>
 <p>Also, Intune does not support using the **Update Only** assignment type with a deployment that is also configured to use [ESP Profiles](cloud-configurations-deployment-tab/esp-profiles-deployments.md). If you try to use this configuration, the **Deploy** button will be greyed out and the **Configurations** tab will show a red "**X**".</p>
-<p>!["Deploy" button greyed out and red "x" on "Configurations" tab](/_images/image-(2374).png>)\</p>
+<p>!["Deploy" button greyed out and red "x" on "Configurations" tab](/_images/image-(2374 "\"Deploy\" button greyed out and red \"x\" on \"Configurations\" tab").png>)\</p>
 <p>\</p>
 <p>You either need to:</p>
 <p>* Remove the **Update Only** assignment type</p>

@@ -45,11 +45,11 @@ To add extra folders and/or files:
 <p>**Note**</p>
 <p>The total number of extra folders/files is not limited, but their total size must not exceed the storage limits for your license type. See [Product Limitations](../../../cloud-product-limits.md)  for more details.</p>
 <p>Also, if the **Installer Type** on the **General Information** page is set to **`.msi`**, the **MST File** section will be shown, allowing you to upload a single MST file. This file must have the **`.mst`** extension.</p>
-<p>![“MST Files” section](/_images/image-(241).png>)</p>
+<p>!["MST Files" section](/_images/image-(241 "\"MST Files\" section").png>)</p>
 <p>Uploading a **`.mst`** file automatically adds the following to the **Additional Argument** field of the **Install Parameters** section:</p>
 <p>**`TRANSFORMS=[<`**_**`mstfile>`**_**`].mst`**</p>
 <p>where **`<`**_**`mstfile>`**_ is the name of the uploaded MST file.</p>
-<p>![“Install Parameters” section updated](/_images/image-(243).png>)</p>
+<p>!["Install Parameters" section updated](/_images/image-(243 "\"Install Parameters\" section updated").png>)</p>
 </blockquote>
 
 5. Repeat the above steps to add any additional folders/files as required.

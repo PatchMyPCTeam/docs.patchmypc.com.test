@@ -19,7 +19,7 @@ Likewise, if a child company no longer wishes to be managed by an MSP, they can 
 <p>* Without first removing the Intune connection. If you attempt to do this, you will see the [Intune connection with the same Id found in another environment!](../../../cloud-troubleshooting/troubleshooting-cloud-environments/intune-connection-with-the-same-id-found-in-another-environment-error-in-cloud.md) error.</p>
 <p>* An MSP admin cannot delete a child company from the Company node using the [Delete your Company](../../../cloud-administration/manage-your-cloud-company/delete-your-cloud-company.md) process, as the option is unavailable.\</p>
 <p>\</p>
-<p>![Delete options unavailable on a child company](/_images/image-(2096).png>)\</p>
+<p>![Delete options unavailable on a child company](/_images/image-(2096 "Delete options unavailable on a child company").png>)\</p>
 <p>* Any Custom Apps for MSPs have been shared with and deployed from a child company, either unlinking or deleting a child company (either from the parent or child company), will:</p>
 <p>* Delete the Custom App from the App Catalog of the child company.</p>
 <p>* Delete any active deployments of the relevant Custom Apps.</p>

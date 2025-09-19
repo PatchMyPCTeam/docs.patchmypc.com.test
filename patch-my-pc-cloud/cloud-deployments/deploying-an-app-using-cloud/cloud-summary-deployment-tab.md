@@ -22,7 +22,7 @@ If you need to change something, click **< Prev** to backtrack through the Deplo
 <blockquote class="wp-block-quote">
 <p>Note</p>
 <p>If you have configured this deployment to use [Update Rings](../cloud-update-rings/), you will see the **Deployment Summary** screen, containing details on how you have configured the rings.</p>
-<p>!["Deployment Summary" shown if this deloyment is using Update Rings](/_images/image-(2291).png>)</p>
+<p>!["Deployment Summary" shown if this deloyment is using Update Rings](/_images/image-(2291 "\"Deployment Summary\" shown if this deloyment is using Update Rings").png>)</p>
 <p>See [Update Rings](../cloud-update-rings/) for more information.</p>
 </blockquote>
 
