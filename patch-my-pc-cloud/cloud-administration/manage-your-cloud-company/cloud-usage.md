@@ -20,11 +20,11 @@ To see the usage information for your PMPC Cloud Company:
 
 1. Navigate to **Settings | Company**
 
-![Navigating to "Settings | Company"](/_images/image-(2697 "Navigating to \"Settings | Company\"").png "Navigating to “Settings | Company”")
+![Navigating to "Settings | Company"](/_images/image-(2697).png "Navigating to “Settings | Company”")
 
 2. On the **Company** page, click the **Usage** tab.
 
-![Clicking the "Usage" tab](/_images/image-(2698 "Clicking the \"Usage\" tab").png "Clicking the “Usage” tab")
+![Clicking the "Usage" tab](/_images/image-(2698).png "Clicking the “Usage” tab")
 
 The **Usage Info** for this company is shown, which is explained below.
 
@@ -34,7 +34,7 @@ The **Usage Info** for this company is shown, which is explained below.
 <p>See [Cloud User Roles Reference](../manage-cloud-users/cloud-user-roles-reference.md) for more information.</p>
 </blockquote>
 
-!["Usage" information](/_images/image-(2712 "\"Usage\" information").png "“Usage&#x22; information")
+!["Usage" information](/_images/image-(2712).png "“Usage&#x22; information")
 
 <table><thead><tr><th width="211" valign="top">Field</th><th valign="top">Shows the...</th></tr></thead><tbody><tr><td valign="top">License Type</td><td valign="top">Type of PMPC License this company is running, which determines the limits.</td></tr><tr><td valign="top">Number of Devices</td><td valign="top">Total number of active devices for the last year.</td></tr><tr><td valign="top">Windows Deployments</td><td valign="top">The number of Windows deployments that have been created out of the total allowed.</td></tr><tr><td valign="top">macOS Deployments</td><td valign="top"><p>The number of macOS deployments that have been created out of the total allowed.</p><p></p><p><mark style="color:blue;"><strong>NOTE:</strong></mark></p><p>If you do not have the macOS license feature enabled, the usage will show as <strong>N/A</strong>.</p><p></p><p>You can click <strong>Request a Quote</strong> if you would like a quote for managing your macOS devices using PMPC Cloud.</p></td></tr><tr><td valign="top">Number of Custom Apps</td><td valign="top">The number of Custom Apps you have created out of the total allowed.</td></tr><tr><td valign="top">Max Storage Size (GB)</td><td valign="top">Total size of all of the Custom App files you have uploaded out of the total allowed.</td></tr><tr><td valign="top">Deployments with Files</td><td valign="top">Total number of deployments you have created with extra files out of the total allowed.</td></tr></tbody></table>
 

@@ -25,7 +25,7 @@ To configure who receives new version notifications:
 2.  On the app’s properties page, click **New Version Notifications**.\
 
 
-    ![Clicking "New Version Notifications"](/_images/image-(2052 "Clicking \"New Version Notifications\"").png "Clicking “New Version Notifications”")
+    ![Clicking "New Version Notifications"](/_images/image-(2052).png "Clicking “New Version Notifications”")
 
 
 3.  On the **“**_**\<app-name>”**_**&#x20;Version Notifications** screen, decide whether you want to:\
@@ -45,27 +45,27 @@ To configure who receives new version notifications:
 5.  If you want to **Notify Specific Users**, select this option.\
 
 
-    ![Selecting "Notify Specific Users"](/_images/image-(2054 "Selecting \"Notify Specific Users\"").png "Selecting “Notify Specific Users”")
+    ![Selecting "Notify Specific Users"](/_images/image-(2054).png "Selecting “Notify Specific Users”")
 
 
 6.  Select the relevant email address of the portal users you want to notify from the **User Email** dropdown, then click **Add New Email**.\
     \
 
 
-    ![Selecting the relevant email address from the "User Email" dropdown, then clicking "Add New Email"](/_images/image-(2055 "Selecting the relevant email address from the \"User Email\" dropdown, then clicking \"Add New Email\"").png "Selecting the relevant email address from the “User Email” dropdown, then clicking “Add New Email”")
+    ![Selecting the relevant email address from the "User Email" dropdown, then clicking "Add New Email"](/_images/image-(2055).png "Selecting the relevant email address from the “User Email” dropdown, then clicking “Add New Email”")
 
 
 7.  If the user is not listed on the **User Email** dropdown, enter their email address, press `ENTER`, then click **Add New Email** to add them to the notification list.\
 
 
-    ![Adding a new email address to receive the notification](/_images/image-(2056 "Adding a new email address to receive the notification").png "Adding a new email address to receive the notification")
+    ![Adding a new email address to receive the notification](/_images/image-(2056).png "Adding a new email address to receive the notification")
 
     \
     The user is added to the notification list.\
     \
 
 
-    ![User added to the notification list](/_images/image-(2057 "User added to the notification list").png "User added to the notification list")
+    ![User added to the notification list](/_images/image-(2057).png "User added to the notification list")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
@@ -76,13 +76,13 @@ To configure who receives new version notifications:
     \
 
 
-    ![Clicking "Save"](/_images/image-(2058 "Clicking \"Save\"").png "Clicking “Save”")
+    ![Clicking "Save"](/_images/image-(2058).png "Clicking “Save”")
 
     \
     The portal refreshes back to the **App Catalog** and the **Success – Your changes have been successfully saved** notification is displayed.\
 
 
-    !["Success – Your changes have been successfully saved" notification](/_images/image-(2059 "\"Success – Your changes have been successfully saved\" notification").png "“Success – Your changes have been successfully saved” notification")
+    !["Success – Your changes have been successfully saved" notification](/_images/image-(2059).png "“Success – Your changes have been successfully saved” notification")
 
 
 

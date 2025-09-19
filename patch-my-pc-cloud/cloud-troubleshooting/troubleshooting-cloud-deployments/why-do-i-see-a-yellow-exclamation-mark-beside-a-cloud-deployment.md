@@ -6,7 +6,7 @@ _Applies to: Patch My PC Cloud_
 
 I’ve successfully deployed an app using Patch My PC (PMPC) Cloud, but when I look at the deployment, I see a yellow exclamation mark ("**!**") beside it in the **Status** column.
 
-![Yellow exclamation mark beside a deployment](/_images/image-(2346 "Yellow exclamation mark beside a deployment").png "Yellow exclamation mark beside a deployment")
+![Yellow exclamation mark beside a deployment](/_images/image-(2346).png "Yellow exclamation mark beside a deployment")
 
 ### CAUSE
 

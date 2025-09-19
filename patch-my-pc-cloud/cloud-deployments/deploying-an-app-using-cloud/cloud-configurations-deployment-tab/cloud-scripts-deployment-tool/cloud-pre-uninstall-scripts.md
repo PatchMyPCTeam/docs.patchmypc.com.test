@@ -8,23 +8,23 @@ To add a Pre-Uninstall script:
 
 1. Click **Add** beside the **Pre-Uninstall** option.
 
-![Clicking "Add" beside the "Pre-Uninstall" option](/_images/image-(2607 "Clicking \"Add\" beside the \"Pre-Uninstall\" option").png "Clicking “Add” beside the “Pre-Uninstall” option")
+![Clicking "Add" beside the "Pre-Uninstall" option](/_images/image-(2607).png "Clicking “Add” beside the “Pre-Uninstall” option")
 
 2. To import an existing script, click **Import** then browse to the location containing the script and select it.
 
-![Clicking "Import" to import an existing script](/_images/image-(2439 "Clicking \"Import\" to import an existing script").png "Clicking “Import” to import an existing script")
+![Clicking "Import" to import an existing script](/_images/image-(2439).png "Clicking “Import” to import an existing script")
 
 The **Add Pre-Uninstall Script** page is populated with the imported script.
 
-!["Add Pre-Uninstall Script" page is populated with the imported script.](/_images/image-(2440 "\"Add Pre-Uninstall Script\" page is populated with the imported script.").png "“Add Pre-Uninstall Script” page is populated with the imported script.")
+!["Add Pre-Uninstall Script" page is populated with the imported script.](/_images/image-(2440).png "“Add Pre-Uninstall Script” page is populated with the imported script.")
 
 3. To manually add a script, enter a unique name for the script in the **Script Name** field.
 
-![Entering a unique name for the script in the "Script Name" field](/_images/image-(2441 "Entering a unique name for the script in the \"Script Name\" field").png "Entering a unique name for the script in the “Script Name” field")
+![Entering a unique name for the script in the "Script Name" field](/_images/image-(2441).png "Entering a unique name for the script in the “Script Name” field")
 
 4. Select the type of script from the **Script Format** dropdown.
 
-![Selecting the type of script from the "Script Format" dropdown.](/_images/image-(2442 "Selecting the type of script from the \"Script Format\" dropdown.").png "Selecting the type of script from the “Script Format” dropdown.")
+![Selecting the type of script from the "Script Format" dropdown.](/_images/image-(2442).png "Selecting the type of script from the “Script Format” dropdown.")
 
 5. In the script editor, type your script.
 
@@ -38,7 +38,7 @@ The **Add Pre-Uninstall Script** page is populated with the imported script.
 6.  In the **Arguments** field, enter any arguments you want to provide to the script.\
 
 
-    ![Entering any arguments you want to provide to the script by specifying them in the "Arguments" field](/_images/image-(2444 "Entering any arguments you want to provide to the script by specifying them in the \"Arguments\" field").png "Entering any arguments you want to provide to the script by specifying them in the “Arguments” field")
+    ![Entering any arguments you want to provide to the script by specifying them in the "Arguments" field](/_images/image-(2444).png "Entering any arguments you want to provide to the script by specifying them in the “Arguments” field")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
@@ -55,16 +55,16 @@ The **Add Pre-Uninstall Script** page is populated with the imported script.
     If you do not check this checkbox, we will attempt to uninstall the app regardless of the exit code returned by the pre-install script.\
 
 
-    ![Checking the "Don't attempt software uninstall if the pre script returns an exit code other than 0 or 3010" checkbox](/_images/image-(2445 "Checking the \"Don't attempt software uninstall if the pre script returns an exit code other than 0 or 3010\" checkbox").png "Checking the “Don’t attempt software uninstall if the pre script returns an exit code other than 0 or 3010” checkbox")
+    ![Checking the "Don't attempt software uninstall if the pre script returns an exit code other than 0 or 3010" checkbox](/_images/image-(2445).png "Checking the “Don’t attempt software uninstall if the pre script returns an exit code other than 0 or 3010” checkbox")
 8.  Check the **Run the pre-uninstall script before performing any auto-close or skip process checks** checkbox if you want to run the pre-uninstall script before the conflicting process notification is displayed (if relevant).\
     \
     If you do not check this checkbox, we will run the pre-uninstall script after the conflicting process notification.
 
-    ![Checking the "Run the pre-uninstall script before performing any auto-close or skip process checks" checkbox](/_images/image-(2446 "Checking the \"Run the pre-uninstall script before performing any auto-close or skip process checks\" checkbox").png "Checking the “Run the pre-uninstall script before performing any auto-close or skip process checks” checkbox")
+    ![Checking the "Run the pre-uninstall script before performing any auto-close or skip process checks" checkbox](/_images/image-(2446).png "Checking the “Run the pre-uninstall script before performing any auto-close or skip process checks” checkbox")
 9.  Click **Save** to save your script.\
 
 
-    ![Clicking "Save" to save your script](/_images/image-(2447 "Clicking \"Save\" to save your script").png "Clicking “Save” to save your script")
+    ![Clicking "Save" to save your script](/_images/image-(2447).png "Clicking “Save” to save your script")
 
     \
     The **Configurations** tab is re-displayed with the name of the configured script beside it.

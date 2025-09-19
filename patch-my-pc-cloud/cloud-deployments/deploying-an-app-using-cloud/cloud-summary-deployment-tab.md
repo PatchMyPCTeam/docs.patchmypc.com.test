@@ -9,7 +9,7 @@ _Applies to: Patch My PC Cloud_
 
 The **Summary** tab of the Patch My PC (PMPC) Cloud deployment wizard provides a summary of the deployment so you can confirm that it is configured correctly before you create it.
 
-!["Summary" tab](/_images/image-(2391 "\"Summary\" tab").png "&#x22;Summary&#x22; tab")
+!["Summary" tab](/_images/image-(2391).png "&#x22;Summary&#x22; tab")
 
 Review the summary of the deployment shown on the **Summary** page.\
 \
@@ -17,7 +17,7 @@ If you are happy click **Deploy**.\
 \
 If you need to change something, click **< Prev** to backtrack through the Deployment Wizard to the relevant setting. Make the change, then step back through the wizard to this page. If everything is now correct, click **Deploy**.
 
-![Clicking "Deploy"](/_images/image-(2392 "Clicking \"Deploy\"").png "Clicking &#x22;Deploy&#x22;")
+![Clicking "Deploy"](/_images/image-(2392).png "Clicking &#x22;Deploy&#x22;")
 
 <blockquote class="wp-block-quote">
 <p>Note</p>

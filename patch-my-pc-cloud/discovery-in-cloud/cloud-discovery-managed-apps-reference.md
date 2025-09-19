@@ -29,11 +29,11 @@ In the following screenshot:
 * **Notepad++** has a single deployment with a **Required** assignment type to **All Users**.
 * **Zoom Workplace** has multiple deployments, but none have a **Required** assignment type to **All Users** or **All Devices**.
 
-![How an app only deployed through PMPC Cloud appears in the "Managed" tab](/_images/image-(2127 "How an app only deployed through PMPC Cloud appears in the \"Managed\" tab").png "How an app only deployed through PMPC Cloud appears in the “Managed” tab")
+![How an app only deployed through PMPC Cloud appears in the "Managed" tab](/_images/image-(2127).png "How an app only deployed through PMPC Cloud appears in the “Managed” tab")
 
 This can be confirmed by searching for the app in the App Catalog.
 
-![How an app only deployed through PMPC Cloud appears in the App Catalog](/_images/image-(384 "How an app only deployed through PMPC Cloud appears in the App Catalog").png "How an app only deployed through PMPC Cloud appears in the App Catalog")
+![How an app only deployed through PMPC Cloud appears in the App Catalog](/_images/image-(384).png "How an app only deployed through PMPC Cloud appears in the App Catalog")
 
 ### Publisher Only Deployment
 
@@ -45,11 +45,11 @@ If the app has only been deployed using Publisher, as PMPC Cloud did not create 
 
 In the following screenshot, the **Google Chrome** app has only been deployed using Publisher.
 
-![How an app only deployed through Publisher appears in the "Managed" tab](/_images/image-(2128 "How an app only deployed through Publisher appears in the \"Managed\" tab").png "How an app only deployed through Publisher appears in the “Managed” tab")
+![How an app only deployed through Publisher appears in the "Managed" tab](/_images/image-(2128).png "How an app only deployed through Publisher appears in the “Managed” tab")
 
 This can be confirmed by searching for the app in the App Catalog.
 
-![How an app only deployed through Publisher appears in the App Catalog](/_images/image-(2129 "How an app only deployed through Publisher appears in the App Catalog").png "How an app only deployed through Publisher appears in the App Catalog")
+![How an app only deployed through Publisher appears in the App Catalog](/_images/image-(2129).png "How an app only deployed through Publisher appears in the App Catalog")
 
 ### PMPC Cloud and Publisher Deployment
 
@@ -70,8 +70,8 @@ If the app has been deployed using PMPC Cloud and Publisher, the app:
 
 In the following screenshot, **Notepad++** has been deployed through Publisher and PMPC Cloud, with the PMPC Cloud deployment having a **Required** or **Update Only** assignment type to the Intune pre-defined **All Users** or **All Devices** assignments.
 
-![How an app deployed through both PMPC Cloud and Publisher appears in the "Managed" tab](/_images/image-(2130 "How an app deployed through both PMPC Cloud and Publisher appears in the \"Managed\" tab").png "How an app deployed through both PMPC Cloud and Publisher appears in the “Managed” tab")
+![How an app deployed through both PMPC Cloud and Publisher appears in the "Managed" tab](/_images/image-(2130).png "How an app deployed through both PMPC Cloud and Publisher appears in the “Managed” tab")
 
 This can be confirmed by searching for the app in the App Catalog.
 
-![How an app deployed through both PMPC Cloud and Publisher appears in the App Catalog](/_images/image-(2131 "How an app deployed through both PMPC Cloud and Publisher appears in the App Catalog").png "How an app deployed through both PMPC Cloud and Publisher appears in the App Catalog")
+![How an app deployed through both PMPC Cloud and Publisher appears in the App Catalog](/_images/image-(2131).png "How an app deployed through both PMPC Cloud and Publisher appears in the App Catalog")

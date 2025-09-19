@@ -6,11 +6,11 @@ _Applies to: Intune Apps for Cloud_
 
 I’ve successfully deployed an app using Intune Apps for Cloud (Intune Apps). However, when I look at its properties (by clicking on the deployment, pressing **More Info**, and expanding the **Assignment Type**), why does it show **(Group not found)** beside the assignment?
 
-!["Group not found" shown beside the assignment for a successful assignment.](/_images/image-(366 "\"Group not found\" shown beside the assignment for a successful assignment.").png "&#x22;Group not found&#x22; shown beside the assignment for a successful assignment.")
+!["Group not found" shown beside the assignment for a successful assignment.](/_images/image-(366).png "&#x22;Group not found&#x22; shown beside the assignment for a successful assignment.")
 
 If I edit the deployment and click **Assignments**, I also see the **Group not found. Please remove the assignment** message.
 
-!["Group not found. Please remove the assignment" message](/_images/image-(365 "\"Group not found. Please remove the assignment\" message").png "&#x22;Group not found. Please remove the assignment&#x22; message")
+!["Group not found. Please remove the assignment" message](/_images/image-(365).png "&#x22;Group not found. Please remove the assignment&#x22; message")
 
 ### CAUSE
 

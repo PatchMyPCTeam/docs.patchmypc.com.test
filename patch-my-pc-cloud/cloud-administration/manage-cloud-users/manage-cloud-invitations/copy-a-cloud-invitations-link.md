@@ -10,13 +10,13 @@ To copy the invitation link:
     \
 
 
-    ![Clicking the "Copy invite link" icon](/_images/image-(1637 "Clicking the \"Copy invite link\" icon").png "Clicking the “Copy invite link” icon")
+    ![Clicking the "Copy invite link" icon](/_images/image-(1637).png "Clicking the “Copy invite link” icon")
 
     \
     The **Success - Invitation link copied** notification is displayed, confirming the link has been copied to your clipboard.\
 
 
-    !["Success - Invitation link copied" notification](/_images/image-(1639 "\"Success - Invitation link copied\" notification").png "“Success - Invitation link copied” notification")
+    !["Success - Invitation link copied" notification](/_images/image-(1639).png "“Success - Invitation link copied” notification")
 
 
 2.  Paste the link and give it to whoever needs it. The link looks something similar to:

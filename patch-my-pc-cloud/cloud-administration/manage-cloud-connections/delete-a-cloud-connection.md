@@ -6,7 +6,7 @@ To delete a Connection from Patch My PC (PMPC) Cloud:
 
 1. On the **Connections** page, click the trashcan beside the connection you want to delete.
 
-![Clicking the trashcan beside the connection you want to delete](/_images/image-(2599 "Clicking the trashcan beside the connection you want to delete").png "Clicking the trashcan beside the connection you want to delete")
+![Clicking the trashcan beside the connection you want to delete](/_images/image-(2599).png "Clicking the trashcan beside the connection you want to delete")
 
 2. On the **Are you sure you want to delete <**_**connection\_name**_**>** dialog box, click **Yes** to confirm the deletion.
 

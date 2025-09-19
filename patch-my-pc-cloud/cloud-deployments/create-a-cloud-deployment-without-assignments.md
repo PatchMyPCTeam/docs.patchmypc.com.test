@@ -17,7 +17,7 @@ To create a deployment with no assignments:
     • **Update Only App -** Allows the Intune admin to add only an **Update Only** assignment from within the Intune admin center.\
 
 
-    !["App Without Assignment" sub-menu](/_images/image-(358 "\"App Without Assignment\" sub-menu").png "“App Without Assignment” sub-menu")
+    !["App Without Assignment" sub-menu](/_images/image-(358).png "“App Without Assignment” sub-menu")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -32,21 +32,21 @@ To create a deployment with no assignments:
 2.  Select the relevant option.\
 
 
-    ![Selecting the required option](/_images/image-(2483 "Selecting the required option").png "Selecting the required option")
+    ![Selecting the required option](/_images/image-(2483).png "Selecting the required option")
 3.  Uncheck the **Copy-Forward** checkbox if required.\
     \
     This checkbox is checked by default, which means whenever we see any manually created assignments on Intune, when we update the app, we’ll automatically copy forward all the assignments from the previous version to the new version.\
 
 
-    !["Copy-Forward" checkbox](/_images/image-(2484 "\"Copy-Forward\" checkbox").png "“Copy-Forward” checkbox")
+    !["Copy-Forward" checkbox](/_images/image-(2484).png "“Copy-Forward” checkbox")
 4.  Click **Deploy** and wait for the deployment to complete successfully.\
 
 
-    ![Clicking "Deploy"](/_images/image-(2485 "Clicking \"Deploy\"").png "Clicking “Deploy”")
+    ![Clicking "Deploy"](/_images/image-(2485).png "Clicking “Deploy”")
 
 Once the deployment has successfully completed, if you look in the Intune admin center you will see that the app has been created without any assignments.
 
-![App created with no assignments](/_images/image-(362 "App created with no assignments").png "App created with no assignments")
+![App created with no assignments](/_images/image-(362).png "App created with no assignments")
 
 Your local IT teams can now follow the [Assign apps to groups with Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-deploy) process to add the relevant assignments for this app.
 

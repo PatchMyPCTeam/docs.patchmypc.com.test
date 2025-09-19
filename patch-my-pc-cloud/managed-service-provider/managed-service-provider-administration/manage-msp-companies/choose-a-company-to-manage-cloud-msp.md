@@ -18,7 +18,7 @@ To switch between companies:
     •  To manage a child customer, select it under the **MSP Customers** section.\
 
 
-    ![Selecting the company you want to manage](/_images/image-(2092 "Selecting the company you want to manage").png "Selecting the company you want to manage")
+    ![Selecting the company you want to manage](/_images/image-(2092).png "Selecting the company you want to manage")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

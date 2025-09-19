@@ -16,7 +16,7 @@ To enable Preview Features:
 1. Navigate to the **Company** node.
 2. Scroll down to the **Preview Features** section.
 
-![Scrolling down to the "Preview Features" section](/_images/image-(2249 "Scrolling down to the \"Preview Features\" section").png "Scrolling down to the “Preview Features” section")
+![Scrolling down to the "Preview Features" section](/_images/image-(2249).png "Scrolling down to the “Preview Features” section")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -27,13 +27,13 @@ To enable Preview Features:
 3.  Click to check the **Enable Preview features** checkbox.\
 
 
-    ![Checking the "Enable Preview features" checkbox.](/_images/image-(2251 "Checking the \"Enable Preview features\" checkbox.").png "Checking the “Enable Preview features” checkbox.")
+    ![Checking the "Enable Preview features" checkbox.](/_images/image-(2251).png "Checking the “Enable Preview features” checkbox.")
 4.  Click **Save** to save your changes.\
 
 
-    ![Clicking "Save" to save your changes](/_images/image-(2252 "Clicking \"Save\" to save your changes").png "Clicking &#x22;Save&#x22; to save your changes")
+    ![Clicking "Save" to save your changes](/_images/image-(2252).png "Clicking &#x22;Save&#x22; to save your changes")
 
     \
     The **Success - Company information updated** notification is shown.
 
-!["Success - Company information updated" notification](/_images/image-(2253 "\"Success - Company information updated\" notification").png "“Success - Company information updated” notification")
+!["Success - Company information updated" notification](/_images/image-(2253).png "“Success - Company information updated” notification")

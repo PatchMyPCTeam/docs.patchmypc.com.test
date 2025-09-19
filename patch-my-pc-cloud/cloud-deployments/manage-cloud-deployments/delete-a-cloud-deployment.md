@@ -7,7 +7,7 @@ To delete a deployment in Patch My PC (PMPC) Cloud:
 1.  From the **Deployments** page, click the ellipsis (**⋮**) beside the relevant deployment you want to delete and click **Delete**.\
 
 
-    ![Clicking the ellipsis beside a deployment and selecting "Delete"](/_images/image-(1684 "Clicking the ellipsis beside a deployment and selecting \"Delete\"").png "Clicking the ellipsis beside a deployment and selecting “Delete”")
+    ![Clicking the ellipsis beside a deployment and selecting "Delete"](/_images/image-(1684).png "Clicking the ellipsis beside a deployment and selecting “Delete”")
 
 
 2.  On the **Are you sure you want to delete <**_**deployment\_name**_**>** dialog box, click **Yes**.\
