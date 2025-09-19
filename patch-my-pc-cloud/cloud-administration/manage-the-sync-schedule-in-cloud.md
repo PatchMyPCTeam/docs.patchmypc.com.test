@@ -11,36 +11,34 @@ To set a different time or frequency for the sync job:
 1.  Navigate to **Settings | Sync Schedule**.\
 
 
-    <figure><img src="../../.gitbook/assets/image (1717).png" alt="Navigating to “Settings | Sync Schedule”"><figcaption></figcaption></figure>
+    ![Navigating to "Settings | Sync Schedule"](/_images/image-(1717 "Navigating to \"Settings | Sync Schedule\"").png "Navigating to “Settings | Sync Schedule”")
 
 
 2.  On the **Sync Schedule** page, make the required changes, then click **Save**.\
 
 
-    <figure><img src="../../.gitbook/assets/image (464).png" alt="Clicking “Save” to save your changes"><figcaption></figcaption></figure>
+    ![Clicking "Save" to save your changes](/_images/image-(464 "Clicking \"Save\" to save your changes").png "Clicking “Save” to save your changes")
 
     \
     The **Success – Sync Scheduler updated** notification is displayed.\
 
 
-    <figure><img src="../../.gitbook/assets/image (465).png" alt="“Success – Sync Scheduler saved” notification"><figcaption></figcaption></figure>
+    !["Success – Sync Scheduler saved" notification](/_images/image-(465 "\"Success – Sync Scheduler saved\" notification").png "“Success – Sync Scheduler saved” notification")
 
 ### Other Frequencies
 
 You can also choose to run the Sync Schedule on a Weekly or Monthly basis.
 
-{% hint style="warning" %}
-**Important**
-
-If you are using [Update Rings](../cloud-deployments/cloud-update-rings/), we recommend running the Sync Schedule daily to avoid potential issues with the timing of updates and the overall performance of this feature.
-
-This is why the warning message about this is displayed whenever you select either the **Weekly** or **Monthly** options.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>If you are using [Update Rings](../cloud-deployments/cloud-update-rings/), we recommend running the Sync Schedule daily to avoid potential issues with the timing of updates and the overall performance of this feature.</p>
+<p>This is why the warning message about this is displayed whenever you select either the **Weekly** or **Monthly** options.</p>
+</blockquote>
 
 If you choose the **Weekly** option, as well as the time the sync runs, you can also choose which days it runs on.
 
-<figure><img src="../../.gitbook/assets/image (2116).png" alt="Choosing the “Weekly” option"><figcaption></figcaption></figure>
+![Choosing the "Weekly" option](/_images/image-(2116 "Choosing the \"Weekly\" option").png "Choosing the “Weekly” option")
 
 If you choose the **Monthly** option, as well as the time the sync runs, you can also choose to run it on a specific day of the month or a recurring pattern.
 
-<figure><img src="../../.gitbook/assets/image (2117).png" alt="Choosing the “Monthly” option"><figcaption></figcaption></figure>
+![Choosing the "Monthly" option](/_images/image-(2117 "Choosing the \"Monthly\" option").png "Choosing the “Monthly” option")
