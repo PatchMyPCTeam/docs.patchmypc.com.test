@@ -237,28 +237,30 @@ jobs:
               return t
 
           def build_md(alt: str, url: str) -> str:
+            # Normalize ALT (but don't mess with quotes in the title)
             alt = norm_text(alt or "")
-            alt_md = alt.replace("]", r"\]")  # keep alt safe inside []
+            alt_md = alt.replace("]", r"\]")
         
-            # Use ALT as the title (or keep your existing 'cap or alt' logic where you call build_md)
+            # Use ALT as title (you can change this if you prefer figcaption elsewhere)
             title = alt
         
-            # No title? Emit without a title part
+            # No title → emit without a title part
             if not title or not title.strip():
               return f'![{alt_md}]({to_root_image_url(url)})'
         
-            # Choose the wrapper based on content to avoid escaping-visible issues in WP
+            # Adaptive quoting for the title:
+            # - if contains both ' and ", use parentheses
+            # - if contains ", wrap in single quotes
+            # - otherwise use double quotes
             if '"' in title and "'" in title:
-              # Use parentheses; escape literal ')' inside the title
               safe = title.replace(")", r"\)")
               return f'![{alt_md}]({to_root_image_url(url)} ({safe}))'
             elif '"' in title:
-              # Use single-quoted title
               return f'![{alt_md}]({to_root_image_url(url)} \'{title}\')'
             else:
-            # Use double-quoted title
-            return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
-
+              return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
+      
+      
           md_files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
                       for p in glob.glob(g, recursive=True)]
 
