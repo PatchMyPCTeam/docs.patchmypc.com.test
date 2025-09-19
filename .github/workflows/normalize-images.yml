@@ -249,28 +249,31 @@ jobs:
               re.I
           )
 
+          # Inline Markdown images (URL captured up to image extension; allows ')' inside filename)
           md_img_inline = re.compile(
-              r'!\[([^\]]*)\]'
-              r'\('
-              r'\s*<?'
-              r'("?)([^)\r\n]+?)\1'
-              r'>?'
-              r'(?:\s+"[^"]*")?'
-              r'\s*\)',
-              re.I
+          r'!\[([^\]]*)\]'          # alt
+          r'\('
+          r'\s*<?'
+          r'("?)(.*?\.(?:png|jpe?g|gif|webp|svg|gifv)(?:\?[^\s")]+)?)\1'  # URL up to image ext
+          r'>?'
+          r'(?:\s+"[^"]*")?'        # optional title
+          r'\s*\)',
+          re.I | re.S
           )
-
+          
+          # Catch-all sanitizer with same URL rule
           md_img_any = re.compile(
-            r'!\[([^\]]*)\]'
-            r'\('
-            r'\s*<?'
-            r'([^)\r\n]+?)'
-            r'>?'
-            r'(?:\s+"[^"]*")?'
-            r'\s*\)',
-            re.I
+          r'!\[([^\]]*)\]'
+          r'\('
+          r'\s*<?'
+          r'(.*?\.(?:png|jpe?g|gif|webp|svg|gifv)(?:\?[^\s")]+)?)'        # URL up to image ext
+          r'>?'
+          r'(?:\s+"[^"]*")?'
+          r'\s*\)',
+          re.I | re.S
           )
-
+  
+  
           md_img_ref_use = re.compile(r'!\[([^\]]*)\]\s*\[([^\]]+)\]', re.I)
           ref_def_loose = re.compile(
               r'(\[([^\]]+)\]\s*:\s*)' r'<?("?)([^>\r\n]+?)\3>?' r'(\s+"[^"]*")?\s*$',
@@ -337,8 +340,18 @@ jobs:
               s = "\n".join(out_lines)
 
               s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
+          
+          # 4.9) Final defuser: if any space+"title" leaked into the filename just before the extension, strip it.
+            # Example: /_images/image-(766 "Clicking ...").png  ->  /_images/image-(766).png
+              s = re.sub(
+              r'(/_images/[^\s)]+?)\s+"(?:[^"\\]|\\.)*"\s*(\.(?:png|jpe?g|gif|webp|svg|gifv))',
+              r'\1\2',
+              s,
+              flags=re.I
+              )
 
-              if s != o:
+
+          if s != o:
                   with open(path, "w", encoding="utf-8") as f:
                       f.write(s)
                   print(f"Fixed: {path}")
