@@ -26,23 +26,27 @@ The certificate must meet the following minimum requirements:
   * **Scenario 3 - CNAME / Alias certificate.**
     * For Advanced Insights URL deployment using a **CNAME / Alias,** (e.g. _https://AdvancedInsights.contoso.local_) the certificate SAN must contain an entry which represents the CNAME / Alias. e.g. '_AdvancedInsights.contoso.local'._
 
-> When using a **CNAME / Alias** or **Wilcard** certificate for custom Advanced Insights deployment URL, ensure that DNS has been updated to include an entry which represents the chosen CNAME / Alias.
->
-> \_Example:\_
->
-> !\[]\(/\_images/image-(1024).png>)
+{% hint style="danger" %}
+When using a **CNAME / Alias** or **Wilcard** certificate for custom Advanced Insights deployment URL, ensure that DNS has been updated to include an entry which represents the chosen CNAME / Alias.
+
+_Example:_
+
+<img src="../../_images/image-(1024).png%3E" alt="" data-size="original">
+{% endhint %}
 
 Certificate SAN values can be also verified within the certificate properties.
 
 _Examples:_
 
-![](/_images/image-(1025).png)
+![](../../.gitbook/assets/image-\(1025\).png)
 
-![](/_images/image-(1026).png)
+![](../../.gitbook/assets/image-\(1026\).png)
 
-![](/_images/image-(1027).png)
+![](../../.gitbook/assets/image-\(1027\).png)
 
-> On the Windows Server OS which will host Advanced Insights, the following PowerShell script can be executed to list supported certificates.
+{% hint style="info" %}
+On the Windows Server OS which will host Advanced Insights, the following PowerShell script can be executed to list supported certificates.
+{% endhint %}
 
 {% code lineNumbers="true" %}
 ```powershell
@@ -166,20 +170,20 @@ if ($uncapturedCerts.Count -gt 0) {
 
 Example PowerShell outputs:
 
-![](/_images/image-(1312).png)
+![](../../.gitbook/assets/image-\(1312\).png)
 
-![](/_images/image-(1313).png)
+![](../../.gitbook/assets/image-\(1313\).png)
 
-> **Self-signed certificate use.**
->
-> When deploying Advanced Insights using a self-signed certificate, the installer will automatically create the certificate using the server host name value to create the Advanced Insights URL.
->
-> Example:
->
-> \_https://server01.contoso.local\_
->
-> We don't recommend using a self-signed certificate long-term in production as it won't be trusted by other client browsers by default.\\
->
-> \\
->
-> You can replace a self-signed certificate or modify the certificate in use using the Add/Remove Programs "Change" option as detailed \[here]\(../modify-insights/modify-insights-ssl-certificate.md).
+{% hint style="info" %}
+**Self-signed certificate use.**
+
+When deploying Advanced Insights using a self-signed certificate, the installer will automatically create the certificate using the server host name value to create the Advanced Insights URL.
+
+Example:
+
+_https://server01.contoso.local_
+
+We don't recommend using a self-signed certificate long-term in production as it won't be trusted by other client browsers by default.\
+\
+You can replace a self-signed certificate or modify the certificate in use using the Add/Remove Programs "Change" option as detailed [here](../modify-insights/modify-insights-ssl-certificate.md).
+{% endhint %}

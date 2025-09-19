@@ -2,9 +2,11 @@
 
 _Applies to: Patch My PC Cloud_
 
-> **Note**
->
-> Using the **Retention Policy** tool is optional and is not supported by the MSP App Sets feature.
+{% hint style="info" %}
+**Note**
+
+Using the **Retention Policy** tool is optional and is not supported by the MSP App Sets feature.
+{% endhint %}
 
 The **Retention Policy** tool of the Patch My PC (PMPC) Cloud deployment wizard allows you to determine how many versions of an app (both Windows and macOS) you want to keep. If deploying a later version of an app causes issues, you can redeploy an older version.
 
@@ -16,36 +18,39 @@ To configure a PMPC Cloud deployment to use a Retention Policy:
 
 1. Click the **Retention Policy** tool.
 
-![Clicking the "Retention Policy" tool](/_images/image-(99 "Clicking the \"Retention Policy\" tool").png)
+![Clicking the “Retention Policy” tool](../../../../.gitbook/assets/image-\(99\).png)
 
 2. Scroll down to the **Retention Policy** section.
 
-![Scrolling down to the "Retention Policy" section.](/_images/image-(100 "Scrolling down to the \"Retention Policy\" section.").png)
+![Scrolling down to the “Retention Policy” section.](../../../../.gitbook/assets/image-\(100\).png)
 
 3. In the **Versions to Retain** box, either type the required number or use the controls to configure the number of versions of this app you wish to retain in your environment.
 
-> **Note**
->
-> The default value of **0** means only the most recent version of the app is retained. You can retain up to ten versions of an app.
+{% hint style="info" %}
+**Note**
 
-![Configuring the number of versions of this app to retain using the "Versions to Retain" box](/_images/image-(61 "Configuring the number of versions of this app to retain using the \"Versions to Retain\" box").png)
+The default value of **0** means only the most recent version of the app is retained. You can retain up to ten versions of an app.
+{% endhint %}
 
-> **Tip**
->
-> See \[Check App Version Retention]\(../../../cloud-reference/intune-reference/check-app-version-retention-in-intune.md) for details on how to check within Intune that the correct number of versions of an app are being retained as defined in your Retention Policy.
+![Configuring the number of versions of this app to retain using the “Versions to Retain” box](../../../../.gitbook/assets/image-\(61\).png)
+
+{% hint style="success" %}
+**Tip**
+
+See [Check App Version Retention](../../../cloud-reference/intune-reference/check-app-version-retention-in-intune.md) for details on how to check within Intune that the correct number of versions of an app are being retained as defined in your Retention Policy.
+{% endhint %}
 
 4. If you do not want to configure any of the optional tabs under the **Tools** section, click **Next** to move to the [Assignments](../cloud-assignments-deployment-tab.md) tab. Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking "Next" to move to the "Assignments" tab](/_images/image-(102 "Clicking \"Next\" to move to the \"Assignments\" tab").png)
+![Clicking “Next” to move to the “Assignments” tab](../../../../.gitbook/assets/image-\(102\).png)
 
-> **Note**
->
-> Other important points about App Version Retention:
->
-> \* Modifying the **Versions to Retain** setting is supported. The next time the \[Sync Schedule]\(../../../cloud-administration/manage-the-sync-schedule-in-cloud.md) runs (or you manually \[update an app]\(../../manage-updates-in-cloud/)), the changes will be applied to the deployment.
->
-> \* Deleting a deployment or disconnecting \[Intune ]\(../../../cloud-administration/manage-your-environments-in-cloud/manage-cloud-intune-tenants.md#deleting-an-intune-tenant-connection)will delete the latest and all old unassigned versions of all of your deployments.
->
-> \* Modifying an existing deployment with a Retention Policy configured will only affect the current version, not all previous versions. For example, if you edit a deployment and add an extra file, the file is only added to the latest version, not all previous versions.
->
-> \* You should avoid deleting versions of apps manually using the Intune admin center. Inadvertently deleting a previous version from Intune will not break the Retention Policy for the deployment. When a newer version is deployed, we will delete the relevant previous version(s) accordingly to keep everything in sync.
+{% hint style="info" %}
+**Note**
+
+Other important points about App Version Retention:
+
+* Modifying the **Versions to Retain** setting is supported. The next time the [Sync Schedule](../../../cloud-administration/manage-the-sync-schedule-in-cloud.md) runs (or you manually [update an app](../../manage-updates-in-cloud/)), the changes will be applied to the deployment.
+* Deleting a deployment or disconnecting [Intune ](../../../cloud-administration/manage-your-environments-in-cloud/manage-cloud-intune-tenants.md#deleting-an-intune-tenant-connection)will delete the latest and all old unassigned versions of all of your deployments.
+* Modifying an existing deployment with a Retention Policy configured will only affect the current version, not all previous versions. For example, if you edit a deployment and add an extra file, the file is only added to the latest version, not all previous versions.
+* You should avoid deleting versions of apps manually using the Intune admin center. Inadvertently deleting a previous version from Intune will not break the Retention Policy for the deployment. When a newer version is deployed, we will delete the relevant previous version(s) accordingly to keep everything in sync.
+{% endhint %}

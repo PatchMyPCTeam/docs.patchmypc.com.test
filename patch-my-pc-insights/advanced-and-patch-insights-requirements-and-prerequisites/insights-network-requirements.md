@@ -13,20 +13,24 @@ Advanced Insights use the following ports, and the installer will automatically 
 * Advanced Insights Frontend - **tcp/443** (or whatever you have customised this to in the installer)
 * Advanced Insights API - **tcp/44301** (cannot be changed)
 
-> Both ports (443/custom frontend port and 44301) need to allowed through your firewall or network filtering software for internal network access to the application. If you want Advanced Insights to be accessed by multiple remote devices, please follow the appropriate procedure to unblock these two ports on your network.
->
-> You will more than likely see either no login screen, or an error message stating "Unable to Connect to the API Server" if either of these ports are blocked.
+{% hint style="warning" %}
+Both ports (443/custom frontend port and 44301) need to allowed through your firewall or network filtering software for internal network access to the application. If you want Advanced Insights to be accessed by multiple remote devices, please follow the appropriate procedure to unblock these two ports on your network.
 
-**\***
+You will more than likely see either no login screen, or an error message stating "Unable to Connect to the API Server" if either of these ports are blocked.
+{% endhint %}
 
-**RPC Traffic (**<mark style="color:yellow;">**If using remote server**</mark>**)If you are using a remote Advanced Insights server there are these requirements to use any console actions or features:**
+***
 
-* **The Remote Procedure Call (RPC) service must be running**
-* **Firewall must allow RPC Traffic to your ConfigMgr Provider (TCP ports:** 13&#x35;**,** RPC dynamic ports (49152–65535)
+### RPC Traffic (<mark style="color:yellow;">If using remote server</mark>)
 
-**Details on how to configure a firewall rule to allow this traffic can be found here:** [**https://learn.microsoft.com/en-us/windows/win32/wmisdk/connecting-to-wmi-remotely-starting-with-vista**](https://learn.microsoft.com/en-us/windows/win32/wmisdk/connecting-to-wmi-remotely-starting-with-vista)
+If you are using a remote Advanced Insights server there are these requirements to use any console actions or features:
 
-\*
+* The Remote Procedure Call (RPC) service must be running
+* Firewall must allow RPC Traffic to your ConfigMgr Provider (TCP ports: **135**, **RPC dynamic ports (49152–65535)**
+
+Details on how to configure a firewall rule to allow this traffic can be found here: [https://learn.microsoft.com/en-us/windows/win32/wmisdk/connecting-to-wmi-remotely-starting-with-vista](https://learn.microsoft.com/en-us/windows/win32/wmisdk/connecting-to-wmi-remotely-starting-with-vista)
+
+***
 
 ### Internet Access Requirements
 
@@ -39,7 +43,9 @@ The Advanced Insights server needs access to various domains and APIs to functio
 * **learn.microsoft.com:443**
   * Reason: For ConfigMgr, Windows, and Office 365 release and support statements
 
-> Important: To activate and use Advanced Insights, you must permit outbound access for api.patchmypc.com:443
+{% hint style="danger" %}
+Important: To activate and use Advanced Insights, you must permit outbound access for api.patchmypc.com:443
+{% endhint %}
 
 #### Recommended Addresses
 
@@ -62,10 +68,14 @@ The Advanced Insights server needs access to various domains and APIs to functio
 * **eu.daas.api.hp.com:443** or **daas.api.hp.com:433** (depending on your region)
   * Reason: To retrieve data from the HP Workforce Experience warranty service
 
-> To use these features of Advanced Insights, you will need outbound access to the above addresses.
+{% hint style="warning" %}
+To use these features of Advanced Insights, you will need outbound access to the above addresses.
+{% endhint %}
 
 ***
 
 ### Browsers
 
-> We do not support Internet Explorer for Advanced Insights. Please use Firefox, Edge, Chrome or any other modern browser to access Advanced Insights.
+{% hint style="warning" %}
+We do not support Internet Explorer for Advanced Insights. Please use Firefox, Edge, Chrome or any other modern browser to access Advanced Insights.
+{% endhint %}

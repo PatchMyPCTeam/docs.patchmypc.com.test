@@ -2,13 +2,15 @@
 
 _Applies to: Patch My PC Cloud_
 
-> **Important**
->
-> This feature is currently only available through an invitation-only Private Preview, as both it and the documentation are under development, incomplete, and subject to change.
->
-> Please do not share links to these docs with others outside of the Private Preview.
->
-> Once this feature is released, it will be announced and this banner removed.
+{% hint style="danger" %}
+**Important**
+
+This feature is currently only available through an invitation-only Private Preview, as both it and the documentation are under development, incomplete, and subject to change.
+
+Please do not share links to these docs with others outside of the Private Preview.
+
+Once this feature is released, it will be announced and this banner removed.
+{% endhint %}
 
 If you were an early adopter of Patch My PC (PMPC) Cloud Reporting, we provided instructions for installing our by creating a Custom App.
 

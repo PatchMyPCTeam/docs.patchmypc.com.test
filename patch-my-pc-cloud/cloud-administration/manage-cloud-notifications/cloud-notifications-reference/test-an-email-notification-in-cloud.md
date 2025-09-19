@@ -7,14 +7,14 @@ _Applies to: Patch My PC Cloud_
 ### Testing an email notification at the time of creation
 
 1. Follow the [Create an Email Notification](../create-a-cloud-email-notification.md) process.
-2.  Once you have entered and saved the relevant email addresses, click the small envelope beside any of the email addresses (![](/_images/image-(1900).png%3E)) to send a test message to that email address.\\
+2.  Once you have entered and saved the relevant email addresses, click the small envelope beside any of the email addresses (![](../../../../_images/image-\(1900\).png%3E)) to send a test message to that email address.\\
 
-    ![Clicking the small envelope beside any of the email addresses to send them a test message](/_images/image-(1922 "Clicking the small envelope beside any of the email addresses to send them a test message").png)
+    ![Clicking the small envelope beside any of the email addresses to send them a test message](<../../../../.gitbook/assets/image-(1922) (1).png>)
 
     \
     The portal will send a test email and display the **Success - Test email has been sent** notification.\\
 
-    !["Success - Test email has been sent" notification](/_images/image-(1923 "\"Success - Test email has been sent\" notification").png)
+    !["Success - Test email has been sent" notification](<../../../../.gitbook/assets/image-(1923) (1).png>)
 
     \
     If the email address is valid, the user will receive an email address with the following details:\
@@ -22,21 +22,23 @@ _Applies to: Patch My PC Cloud_
     **Sender:** Patch My PC\<noreply@patchmypc.com>\
     **Subject:** Test notification from Patch My PC Cloud
 
-> **Tip**
->
-> If the user does not receive the email, check the email is not in their junk email folder.
+{% hint style="success" %}
+**Tip**
+
+If the user does not receive the email, check the email is not in their junk email folder.
+{% endhint %}
 
 ### Testing an email notification after it has been created
 
 1. Follow the [Modify a Notification](../modify-a-cloud-notification.md) process and select the relevant Slack notification you want to test.
-2.  Click the small envelope beside any of the email addresses (![](/_images/image-(1900).png%3E)) to send a test message to that email address.\\
+2.  Click the small envelope beside any of the email addresses (![](../../../../_images/image-\(1900\).png%3E)) to send a test message to that email address.\\
 
-    ![Clicking the small envelope beside any of the email addresses to send them a test message](/_images/image-(1922 "Clicking the small envelope beside any of the email addresses to send them a test message").png)
+    ![Clicking the small envelope beside any of the email addresses to send them a test message](<../../../../.gitbook/assets/image-(1922) (1).png>)
 
     \
     The portal will send a test email and display the **Success - Test email has been sent** notification.\\
 
-    !["Success - Test email has been sent" notification](/_images/image-(1923 "\"Success - Test email has been sent\" notification").png)
+    !["Success - Test email has been sent" notification](<../../../../.gitbook/assets/image-(1923) (1).png>)
 
     If the email address is valid, the user will receive an email address with the following details:\
     \
@@ -44,8 +46,10 @@ _Applies to: Patch My PC Cloud_
     **Subject:** Test notification from Patch My PC Cloud\
     \\
 
-    ![Test email showing email notifications are working](/_images/image-(1893 "Test email showing email notifications are working").png)
+    ![Test email showing email notifications are working](<../../../../.gitbook/assets/image-(1893) (1).png>)
 
-> **Tip**
->
-> If the user does not receive the email, check the email is not in their junk email folder.
+{% hint style="success" %}
+**Tip**
+
+If the user does not receive the email, check the email is not in their junk email folder.
+{% endhint %}

@@ -16,9 +16,11 @@ List of categories:
 * [Per-app configurations](feature-comparison-with-publisher.md#per-app-configurations)
 * [Shipped](feature-comparison-with-publisher.md#shipped)
 
-> While a few features from the on-premises **Publisher** are still being added to the **Cloud Portal**, the Cloud Portal already includes new capabilities not available in the Publisher. Beyond matching the Publisher, it now delivers distinct advantages.
->
-> See the full comparison matrix on our [Pricing](https://patchmypc.com/pricing/) page.
+{% hint style="success" %}
+While a few features from the on-premises **Publisher** are still being added to the **Cloud Portal**, the Cloud Portal already includes new capabilities not available in the Publisher. Beyond matching the Publisher, it now delivers distinct advantages.
+
+See the full comparison matrix on our [Pricing](https://patchmypc.com/pricing/) page.
+{% endhint %}
 
 ### Global Configurations
 

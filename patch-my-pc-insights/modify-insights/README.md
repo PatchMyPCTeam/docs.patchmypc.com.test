@@ -6,7 +6,9 @@ description: Modify configuration.
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-> The ability to use the modify feature is supported in version 2.1.0 and later.
+{% hint style="warning" %}
+The ability to use the modify feature is supported in version 2.1.0 and later.
+{% endhint %}
 
 The following configurations can be modified for an existing Advanced Insights deployment.\
 \
@@ -22,16 +24,16 @@ If the install executable version that was originally used to deploy Advanced In
 
 Click **'Modify'**
 
-![](/_images/image-(716).png)
+![](../../.gitbook/assets/image-\(716\).png)
 
 Click **'Yes'**
 
-![](/_images/image-(717).png)
+![](../../.gitbook/assets/image-\(717\).png)
 
 Click **'Modify'**
 
-![](/_images/image-(718).png)
+![](../../.gitbook/assets/image-\(718\).png)
 
 Select the required modification option checkbox to enable the related 'Change' button
 
-![](/_images/vmconnect_w0AaMZPkHy-(1).png>)
+![](<../../.gitbook/assets/vmconnect_w0AaMZPkHy (2).png>)

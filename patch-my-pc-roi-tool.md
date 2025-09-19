@@ -10,11 +10,13 @@ _Applies to: Patch My PC Return on Investment tool_
 
 The Patch My PC Return on Investment (ROI) tool helps identify the products supported in the current Patch My PC catalog that are in use in your environment.
 
-> **Note**
->
-> At this time, the ROI Tool does not support Intune scanning for GCC High and DoD tenants
+{% hint style="info" %}
+**Note**
 
-![](/_images/image-(1278).png)
+At this time, the ROI Tool does not support Intune scanning for GCC High and DoD tenants
+{% endhint %}
+
+![](.gitbook/assets/image-\(1278\).png)
 
 ## Download
 
@@ -66,7 +68,7 @@ When you choose **Scan ConfigMgr**, the tool queries the below local WMI classes
 
 Assuming the permissions required below are satisfied, running the tool will allow the user to click on the Scan Intune or Scan ConfigMgr buttons:
 
-![](/_images/ROITool-(1).gif>)
+![](<.gitbook/assets/ROITool (2).gif>)
 
 The interface will update dynamically as the tool runs, showing progress as it scans all inventory. In testing the tool requires around 1 minute for every 5,000 clients.
 
@@ -89,23 +91,27 @@ This section will detail what permissions are required to run the ROI tool in yo
 
 To scan Intune you must accept the application's request to read your Intune data. The account approving the request must have at least the "**Application Administrator"** role in azure. The Tool's access to this data will only persist for as long as you keep your session open (1 hour max).
 
-![](/_images/image-(1281).png)
+![](.gitbook/assets/image-\(1281\).png)
 
-> **Note**
->
-> You do not need to check the optional **Consent on behalf of your organization** checkbox, which is only visible to Global or Application administrators.
->
-> However, if you are a Global or Application administrator and want to accept the request to read the profile for all users in your tenant and prevent this message from being displayed for them, you should check it.
->
-> Either way, checking or unchecking this checkbox does not affect the ROI tool functionality.
->
-> Once you accept the permissions, you will not see this dialog box again on subsequent sign-ins.
+{% hint style="info" %}
+**Note**
 
-> You can click the down arrow beside each permission to get more information.
+You do not need to check the optional **Consent on behalf of your organization** checkbox, which is only visible to Global or Application administrators.
+
+However, if you are a Global or Application administrator and want to accept the request to read the profile for all users in your tenant and prevent this message from being displayed for them, you should check it.
+
+Either way, checking or unchecking this checkbox does not affect the ROI tool functionality.
+
+Once you accept the permissions, you will not see this dialog box again on subsequent sign-ins.
+{% endhint %}
+
+{% hint style="success" %}
+You can click the down arrow beside each permission to get more information.
+{% endhint %}
 
 Once the app registration is approved, subsequent executions will ask for a run-as account only. This account requires, as a minimum, Intune **DeviceManagementManagedDevices.Read.All** rights.
 
-![](/_images/image-(1279).png)
+![](.gitbook/assets/image-\(1279\).png)
 
 ### Configuration Manager
 
