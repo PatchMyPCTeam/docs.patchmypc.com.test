@@ -6,7 +6,7 @@ _Applies to: Patch My PC Cloud_
 
 I have signed into the Patch My PC (PMPC) Cloud portal, but I don’t see the **Events** node.
 
-![No "Events" node](/_images/image-(1551Events "No \"Events\" node").png "No &#x22;Events&#x22; node")
+<figure><img src="../../../.gitbook/assets/image (1551).png" alt="No &#x22;Events&#x22; node"><figcaption></figcaption></figure>
 
 ### CAUSE
 
@@ -18,4 +18,4 @@ To resolve this issue, ask your portal administrator to upgrade your portal acco
 
 Once you have been granted the **Full Admin** role, sign out of the portal and back in again to see the **Events** node.
 
-!["Events" menu now visible](/_images/image-(1550Events "\"Events\" menu now visible").png "&#x22;Events&#x22; menu now visible")
+<figure><img src="../../../.gitbook/assets/image (1550).png" alt="&#x22;Events&#x22; menu now visible"><figcaption></figcaption></figure>

@@ -4,10 +4,11 @@ _Applies to: Patch My PC Cloud_
 
 All Patch My PC (PMPC) Cloud deployments include a status.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
-<p>As PMPC Cloud is performing the deployment and not Microsoft Intune, you can only view the status of these deployments from within the PMPC portal. The status of PMPC Cloud deployments is not visible from within the Intune admin center.</p>
-</blockquote>
+{% hint style="warning" %}
+**Important**
+
+As PMPC Cloud is performing the deployment and not Microsoft Intune, you can only view the status of these deployments from within the PMPC portal. The status of PMPC Cloud deployments is not visible from within the Intune admin center.
+{% endhint %}
 
 To see the status of a deployment:
 
@@ -15,7 +16,7 @@ To see the status of a deployment:
 2.  Navigate to the **Deployments** node.\
 
 
-    ![Navigating to the "Deployments" page.](/_images/image-(1453Deployments." "Navigating to the \"Deployments\" page.").png "Navigating to the “Deployments” page.")
+    <figure><img src="../../.gitbook/assets/image (1453).png" alt="Navigating to the “Deployments” page."><figcaption></figcaption></figure>
 
     \
     The **Deployments** page loads, showing all current deployments. \
@@ -26,4 +27,4 @@ To see the status of a deployment:
 * **In Progress –** The application is being created in Intune.
 * **Failed –** The application failed to be created in Intune.
 
-!["Status" column showing the status of each deployment](/_images/image-(1454Status "\"Status\" column showing the status of each deployment").png "“Status” column showing the status of each deployment")
+<figure><img src="../../.gitbook/assets/image (1454).png" alt="“Status” column showing the status of each deployment "><figcaption></figcaption></figure>

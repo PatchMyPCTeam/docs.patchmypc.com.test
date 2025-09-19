@@ -8,63 +8,68 @@ To add a Post-Uninstall script:
 
 1. Click **Add** beside the **Post-Uninstall** option.
 
-![Clicking "Add" beside the "Post-Uninstall" option](/_images/image-(2608Add "Clicking \"Add\" beside the \"Post-Uninstall\" option").png "Clicking “Add” beside the “Post-Uninstall” option")
+<figure><img src="../../../../../.gitbook/assets/image (2608).png" alt="Clicking “Add” beside the “Post-Uninstall” option" width="419"><figcaption></figcaption></figure>
 
 2. To import an existing script, click **Import** then browse to the location containing the script and select it.
 
-![Clicking "Import" to import an existing script](/_images/image-(2473Import "Clicking \"Import\" to import an existing script").png "Clicking “Import” to import an existing script")
+<figure><img src="../../../../../.gitbook/assets/image (2473).png" alt="Clicking “Import” to import an existing script" width="563"><figcaption></figcaption></figure>
 
 The **Add Post-Uninstall Scripts** page is populated with the imported script.
 
-!["Add Post-Uninstall Script" page is populated with the imported script.](/_images/image-(2474Add-Post-Uninstall-Script." "\"Add Post-Uninstall Script\" page is populated with the imported script.").png "“Add Post-Uninstall Script” page is populated with the imported script.")
+<figure><img src="../../../../../.gitbook/assets/image (2474).png" alt="“Add Post-Uninstall Script” page is populated with the imported script." width="563"><figcaption></figcaption></figure>
 
 3. To manually add a script, enter a unique name for the script in the **Script Name** field.
 
-![Entering a unique name for the script in the "Script Name" field](/_images/image-(2475Script-Name "Entering a unique name for the script in the \"Script Name\" field").png "Entering a unique name for the script in the “Script Name” field")
+<figure><img src="../../../../../.gitbook/assets/image (2475).png" alt="Entering a unique name for the script in the “Script Name” field" width="563"><figcaption></figcaption></figure>
 
 4. Select the type of script from the **Script Format** dropdown.
 
-![Selecting the type of script from the "Script Format" dropdown.](/_images/image-(2476Script-Format." "Selecting the type of script from the \"Script Format\" dropdown.").png "Selecting the type of script from the “Script Format” dropdown.")
+<figure><img src="../../../../../.gitbook/assets/image (2476).png" alt="Selecting the type of script from the “Script Format” dropdown." width="563"><figcaption></figcaption></figure>
 
 5. In the script editor, type your script.
 
-![Typing your script in the Script Editor](/_images/image-(2477 "Typing your script in the Script Editor").png "Typing your script in the Script Editor")
+<figure><img src="../../../../../.gitbook/assets/image (2477).png" alt="Typing your script in the Script Editor" width="563"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>We currently have a limit of 50,000 characters per script. Use the **Number of characters used** counter to keep track of the number of characters you’ve entered in the script editor.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+We currently have a limit of 50,000 characters per script. Use the **Number of characters used** counter to keep track of the number of characters you’ve entered in the script editor.
+{% endhint %}
 
 6.  In the **Arguments** field, enter any arguments you want to provide to the script.\
 
 
-    ![Entering any arguments you want to provide to the script by specifying them in the "Arguments" field](/_images/image-(2478Arguments "Entering any arguments you want to provide to the script by specifying them in the \"Arguments\" field").png "Entering any arguments you want to provide to the script by specifying them in the “Arguments” field")
+    <figure><img src="../../../../../.gitbook/assets/image (2478).png" alt="Entering any arguments you want to provide to the script by specifying them in the “Arguments” field" width="563"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
-<p>You can use variable names as arguments, provided they are enclosed by percentage signs (`%`). We provide common variables under this field, which you can add by clicking the plus (`+`) symbol or relevant variable name.</p>
-<p>`%ReturnCode%` is currently only supported on post-scripts.</p>
-</blockquote>
+{% hint style="success" %}
+**Tip**
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
-<p>Using script Arguments is currently unsupported when deploying an app to macOS.</p>
-</blockquote>
+You can use variable names as arguments, provided they are enclosed by percentage signs (`%`). We provide common variables under this field, which you can add by clicking the plus (`+`) symbol or relevant variable name.
+
+`%ReturnCode%` is currently only supported on post-scripts.
+{% endhint %}
+
+{% hint style="danger" %}
+**Important**
+
+Using script Arguments is currently unsupported when deploying an app to macOS.
+{% endhint %}
 
 7.  Click **Save** to save your script.\
 
 
-    ![Clicking "Save" to save your script](/_images/image-(2479Save "Clicking \"Save\" to save your script").png "Clicking “Save” to save your script")
+    <figure><img src="../../../../../.gitbook/assets/image (2479).png" alt="Clicking “Save” to save your script" width="563"><figcaption></figcaption></figure>
 
     \
     The **Configurations** tab is re-displayed with the name of the configured script beside it.
 
-!["Configurations" tab re-displayed with the name of the configured script beside it](/_images/image-(96Configurations "\"Configurations\" tab re-displayed with the name of the configured script beside it").png "“Configurations” tab re-displayed with the name of the configured script beside it")
+<figure><img src="../../../../../.gitbook/assets/image (96).png" alt="“Configurations” tab re-displayed with the name of the configured script beside it" width="419"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
-<p>You can click **Edit** to edit a script or its settings. You can also click the red “`x`” beside a script to delete it.</p>
-</blockquote>
+{% hint style="success" %}
+**Tip**
+
+You can click **Edit** to edit a script or its settings. You can also click the red “`x`” beside a script to delete it.
+{% endhint %}
 
 ***
 
