@@ -9,26 +9,28 @@ All user company-related tasks are performed from the **Company** node of the po
 1. Sign in in to the PMPC portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
 2. Navigate to **Settings | Company**
 
-![Navigating to "Settings | Company"](/_images/image-(678 "Navigating to \"Settings | Company\"").png "Navigating to “Settings | Company”")
+<figure><img src="../../../.gitbook/assets/image (678).png" alt="Navigating to “Settings | Company”" width="563"><figcaption></figcaption></figure>
 
 The **Company** screen is then displayed.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-!["Company" screen](/_images/image-(2688 "\"Company\" screen").png "“Company” screen")
+The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.
+{% endhint %}
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>See [Company Reference](cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.</p>
-</blockquote>
+<figure><img src="../../../.gitbook/assets/image (2688).png" alt="“Company” screen" width="563"><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Note**
+
+See [Company Reference](cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.
+{% endhint %}
 
 3. Make any required changes, then click **Save**.
 
-![Clicking "Save" to save changes](/_images/image-(2687 "Clicking \"Save\" to save changes").png "Clicking &#x22;Save&#x22; to save changes")
+<figure><img src="../../../.gitbook/assets/image (2687).png" alt="Clicking &#x22;Save&#x22; to save changes" width="563"><figcaption></figcaption></figure>
 
 The **Success - Company information updated** notification is shown.
 
-!["Success - Company information updated" notification](/_images/image-(2689 "\"Success - Company information updated\" notification").png "&#x22;Success - Company information updated&#x22; notification")
+<figure><img src="../../../.gitbook/assets/image (2689).png" alt="&#x22;Success - Company information updated&#x22; notification" width="563"><figcaption></figcaption></figure>
