@@ -10,13 +10,13 @@ To administer a Managed app:
 2.  Click the **Managed** tab.\
 
 
-    ![Clicking the “Managed” tab.](/_images/image-(397).png "Clicking the “Managed” tab.")
+    ![Clicking the "Managed" tab.](/_images/image-(397 "Clicking the \"Managed\" tab.").png "Clicking the “Managed” tab.")
 
     \
     The list of discovered managed apps is shown.\
 
 
-    ![“Managed” tab](/_images/image-(2123).png "“Managed” tab")
+    !["Managed" tab](/_images/image-(2123 "\"Managed\" tab").png "“Managed” tab")
 
 The following columns are shown on this page:
 
@@ -52,11 +52,11 @@ The following columns are shown on this page:
 <p>We do not recommend deploying the same app through the Publisher and PMPC Cloud to avoid settings conflicts and unwanted app behavior.</p>
 </blockquote>
 
-![Different styles of the “Edit” button](/_images/image-(2126).png "Different styles of the “Edit” button")
+![Different styles of the "Edit" button](/_images/image-(2126 "Different styles of the \"Edit\" button").png "Different styles of the “Edit” button")
 
 The Deployment Wizard starts, allowing you to make any required changes.
 
-![Deployment Wizard starting](/_images/image-(531).png "Deployment Wizard starting")
+![Deployment Wizard starting](/_images/image-(531 "Deployment Wizard starting").png "Deployment Wizard starting")
 
 4. Make any required changes, then click **Save** to save them.
 

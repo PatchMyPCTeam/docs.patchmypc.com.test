@@ -18,10 +18,10 @@ If the installer requires additional folders or files, either:
 
 
 
-    ![Clicking &#x22;Add Folder&#x22; or &#x22;Add Files&#x22; to additional items](/_images/image-(213).png "Clicking &#x22;Add Folder&#x22; or &#x22;Add Files&#x22; to additional items")
+    ![Clicking "Add Folder" or "Add Files" to additional items](/_images/image-(213 "Clicking \"Add Folder\" or \"Add Files\" to additional items").png "Clicking &#x22;Add Folder&#x22; or &#x22;Add Files&#x22; to additional items")
 
 
 2.  Click **Next** to move to the [General Information](custom-apps-general-information-tab.md) tab.\
 
 
-    ![Clicking &#x22;Next&#x22; to move to the &#x22;General Information&#x22; tab](/_images/image-(214).png "Clicking &#x22;Next&#x22; to move to the &#x22;General Information&#x22; tab")
+    ![Clicking "Next" to move to the "General Information" tab](/_images/image-(214 "Clicking \"Next\" to move to the \"General Information\" tab").png "Clicking &#x22;Next&#x22; to move to the &#x22;General Information&#x22; tab")

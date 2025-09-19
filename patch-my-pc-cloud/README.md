@@ -10,5 +10,5 @@ Welcome to the official home page for our Cloud-based solution, Patch My PC Clou
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
-<p>You can access this page from within the portal by clicking the support button (!["support" button](/_images/image-(587).png>)) in the header area and selecting **Product Docs**.</p>
+<p>You can access this page from within the portal by clicking the support button (!["support" button](/_images/image-(587 "\"support\" button").png>)) in the header area and selecting **Product Docs**.</p>
 </blockquote>

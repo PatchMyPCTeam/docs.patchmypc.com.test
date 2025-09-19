@@ -15,23 +15,23 @@ To modify a Custom App:
 2.  On the **App Catalog** page, search for the relevant app.\
 
 
-    ![Searching for your Custom App](/_images/image-(2015).png "Searching for your Custom App")
+    ![Searching for your Custom App](/_images/image-(2015 "Searching for your Custom App").png "Searching for your Custom App")
 3. Click the app to open it.
 4.  On the app’s properties page, click **Edit Info**.\
 
 
-    ![Clicking “Edit Info”](/_images/image-(2016).png "Clicking “Edit Info”")
+    ![Clicking "Edit Info"](/_images/image-(2016 "Clicking \"Edit Info\"").png "Clicking “Edit Info”")
 
 The Custom Apps **Edit Application** Wizard starts.
 
-![Custom Apps “Edit Application” Wizard](/_images/image-(2633).png "Custom Apps “Edit Application” Wizard")
+![Custom Apps "Edit Application" Wizard](/_images/image-(2633 "Custom Apps \"Edit Application\" Wizard").png "Custom Apps “Edit Application” Wizard")
 
 5. Make the required changes on the relevant tabs, then click **Save**.
 
-![Clicking “Save”](/_images/image-(2634).png "Clicking “Save”")
+![Clicking "Save"](/_images/image-(2634 "Clicking \"Save\"").png "Clicking “Save”")
 
 The App Catalog is displayed along with the following notification:\
 \
 **Success – Your application has been successfully edited**
 
-![“Success – Your application has been successfully edited” notification](/_images/image-(2019).png "“Success – Your application has been successfully edited” notification")
+!["Success – Your application has been successfully edited" notification](/_images/image-(2019 "\"Success – Your application has been successfully edited\" notification").png "“Success – Your application has been successfully edited” notification")

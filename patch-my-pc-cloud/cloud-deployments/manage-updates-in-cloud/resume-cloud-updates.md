@@ -19,12 +19,12 @@ To resume updates for an app:
 <p>Click the filter button (![](/_images/image-(2513).png>)) and select the **Enabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that have updates paused.&#x20;</p>
 </blockquote>
 
-![Clicking on the relevant successful deployment which has been paused for updates](/_images/image-(2000).png "Clicking on the relevant successful deployment which has been paused for updates")
+![Clicking on the relevant successful deployment which has been paused for updates](/_images/image-(2000 "Clicking on the relevant successful deployment which has been paused for updates").png "Clicking on the relevant successful deployment which has been paused for updates")
 
 2.  Click the **Pause Updates** slider to disable it.\
 
 
-    ![Clicking the “Pause Updates” slider](/_images/image-(2001).png "Clicking the “Pause Updates” slider")
+    ![Clicking the "Pause Updates" slider](/_images/image-(2001 "Clicking the \"Pause Updates\" slider").png "Clicking the “Pause Updates” slider")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -34,13 +34,13 @@ To resume updates for an app:
 3.  Click the **X** to close the deployment properties page.\
 
 
-    ![Clicking “X” to close the deployment properties page](/_images/image-(2002).png "Clicking “X” to close the deployment properties page")
+    ![Clicking "X" to close the deployment properties page](/_images/image-(2002 "Clicking \"X\" to close the deployment properties page").png "Clicking “X” to close the deployment properties page")
 
     \
     The list of deployments is displayed without **UPDATES PAUSED** under the deployment you just unpaused.\
 
 
-    ![&#x22;UPDATES PAUSED&#x22; no longer under the deployment name.](/_images/image-(2003).png "&#x22;UPDATES PAUSED&#x22; no longer under the deployment name.")
+    !["UPDATES PAUSED" no longer under the deployment name.](/_images/image-(2003 "\"UPDATES PAUSED\" no longer under the deployment name.").png "&#x22;UPDATES PAUSED&#x22; no longer under the deployment name.")
 
 Updates for this app are now resumed.
 

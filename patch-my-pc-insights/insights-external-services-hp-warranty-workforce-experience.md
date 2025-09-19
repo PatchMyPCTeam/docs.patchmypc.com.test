@@ -40,7 +40,7 @@ Please visit the link above to open the credentials generation page. You will be
 <p>If the page has an error screen like shown below, HP have not enrolled your developer account in the HP Proactive Insights APIs tech group. Please contact HP again to have your account enrolled in the HP Proactive Insights API tech group.&#x20;</p>
 </blockquote>
 
-![This image showcases the Hp Proactive Insights API web page, with the error You do not have appropriate permissions (role) to access any of this Tech Groups published Apis](/_images/hp-no-api-(1).png "HP enrolment error")
+![This image showcases the Hp Proactive Insights API web page, with the error You do not have appropriate permissions (role) to access any of this Tech Groups published Apis](/_images/hp-no-api-(1 "This image showcases the Hp Proactive Insights API web page, with the error You do not have appropriate permissions (role) to access any of this Tech Groups published Apis").png "HP enrolment error")
 
 #### Credentials creation flow
 

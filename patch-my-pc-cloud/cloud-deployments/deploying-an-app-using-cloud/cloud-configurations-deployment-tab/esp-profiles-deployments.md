@@ -25,11 +25,11 @@ To configure a PMPC Cloud deployment to use an ESP Profile:
 
 2. Click the **ESP Profiles** tool.
 
-![Clicking the “ESP Profiles” tool](/_images/image-(56).png "Clicking the “ESP Profiles” tool")
+![Clicking the "ESP Profiles" tool](/_images/image-(56 "Clicking the \"ESP Profiles\" tool").png "Clicking the “ESP Profiles” tool")
 
 3. Scroll down to the **ESP Profiles** section.
 
-![Scrolling down to the “ESP Profiles” section](/_images/image-(57).png "Scrolling down to the “ESP Profiles” section")
+![Scrolling down to the "ESP Profiles" section](/_images/image-(57 "Scrolling down to the \"ESP Profiles\" section").png "Scrolling down to the “ESP Profiles” section")
 
 4. In the **Add Profile** field, either:
    1. Start typing the name of the relevant ESP Profile, then click the checkbox beside it to select it.
@@ -38,14 +38,14 @@ To configure a PMPC Cloud deployment to use an ESP Profile:
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
 <p>If an ESP Profile already contains the maximum of 100 apps, you will be unable to select it from the dropdown. If you hover over it, you'll see the **Total limit reached** tooltip.</p>
-<p>!["Total limit reached" tooltip](/_images/image-(235).png>)&#x20;</p>
+<p>!["Total limit reached" tooltip](/_images/image-(235 "\"Total limit reached\" tooltip").png>)&#x20;</p>
 </blockquote>
 
-![Selecting the ESP Profile to add this deployment to](/_images/image-(58).png "Selecting the ESP Profile to add this deployment to")
+![Selecting the ESP Profile to add this deployment to](/_images/image-(58 "Selecting the ESP Profile to add this deployment to").png "Selecting the ESP Profile to add this deployment to")
 
 The selected ESP Profile(s) are added to the **Add Profile** field.
 
-![Selected ESP Profiles added to the “Add Profile” field](/_images/image-(59).png "Selected ESP Profiles added to the “Add Profile” field")
+![Selected ESP Profiles added to the "Add Profile" field](/_images/image-(59 "Selected ESP Profiles added to the \"Add Profile\" field").png "Selected ESP Profiles added to the “Add Profile” field")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
@@ -76,4 +76,4 @@ The selected ESP Profile(s) are added to the **Add Profile** field.
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-(60).png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
+![Clicking "Next" to move to the "Assignments" page](/_images/image-(60 "Clicking \"Next\" to move to the \"Assignments\" page").png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
