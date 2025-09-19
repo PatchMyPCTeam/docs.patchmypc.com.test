@@ -18,10 +18,8 @@ Patch My PC (PMPC) Cloud has the following limits depending on your license type
 
 **\*** If you need to upload more than this limit for an app, create a ZIP file containing all of the files and upload this.
 
-{% hint style="info" %}
-**Note**
-
-A Managed Service Provider (MSP) can create a maximum of 1,000 deployments for themselves and an additional 1,000 for each child company they manage.
-
-They can also create a maximum of 25 deployments with additional files for themselves and an additional 25 deployments with additional files for each child company they manage.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>A Managed Service Provider (MSP) can create a maximum of 1,000 deployments for themselves and an additional 1,000 for each child company they manage.</p>
+<p>They can also create a maximum of 25 deployments with additional files for themselves and an additional 25 deployments with additional files for each child company they manage.</p>
+</blockquote>

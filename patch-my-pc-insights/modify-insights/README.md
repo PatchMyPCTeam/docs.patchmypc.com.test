@@ -6,9 +6,9 @@ description: Modify configuration.
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-{% hint style="warning" %}
-The ability to use the modify feature is supported in version 2.1.0 and later.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The ability to use the modify feature is supported in version 2.1.0 and later.</p>
+</blockquote>
 
 The following configurations can be modified for an existing Advanced Insights deployment.\
 \
@@ -24,16 +24,16 @@ If the install executable version that was originally used to deploy Advanced In
 
 Click **'Modify'**
 
-<figure><img src="../../.gitbook/assets/image (716).png" alt=""><figcaption><p>Advanced Insights - Add - Remove Programs entry.</p></figcaption></figure>
+![](/_images/image-(716).png "Advanced Insights - Add - Remove Programs entry.")
 
 Click **'Yes'**
 
-<figure><img src="../../.gitbook/assets/image (717).png" alt=""><figcaption><p>UAC Prompt</p></figcaption></figure>
+![](/_images/image-(717).png "UAC Prompt")
 
 Click **'Modify'**
 
-<figure><img src="../../.gitbook/assets/image (718).png" alt=""><figcaption><p>Advanced Insights installer maintenance dialog</p></figcaption></figure>
+![](/_images/image-(718).png "Advanced Insights installer maintenance dialog")
 
 Select the required modification option checkbox to enable the related 'Change' button
 
-<figure><img src="../../.gitbook/assets/vmconnect_w0AaMZPkHy.png" alt=""><figcaption><p>Advanced Insights - Configuration Modification page.</p></figcaption></figure>
+![](/_images/vmconnect_w0AaMZPkHy.png)
