@@ -6,14 +6,14 @@ description: Enabled wireless adapters on client devices
 
 _Applies to: Patch My PC Advanced Insights_
 
-{% hint style="info" %}
-This dashboard requires deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>This dashboard requires deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)</p>
+</blockquote>
 
-<figure><img src="../../../.gitbook/assets/image (1538).png" alt=""><figcaption><p>Wireless Adapters table</p></figcaption></figure>
+![](/_images/image-(1538).png "Wireless Adapters table")
 
 This page helps to track which wireless adapters are present in the environment. The device name and driver version are shown along with MAC Address.&#x20;
 
 Click through shows connection history in the device view.
 
-<figure><img src="../../../.gitbook/assets/image (1539).png" alt=""><figcaption><p>Wireless Network Connection History</p></figcaption></figure>
+![](/_images/image-(1539).png "Wireless Network Connection History")
