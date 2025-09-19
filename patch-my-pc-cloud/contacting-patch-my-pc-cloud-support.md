@@ -4,7 +4,7 @@ If you encounter any issues with Patch My PC (PMPC) Cloud and need to contact us
 
 1.  In the header area of the portal, click the "**?**" and select **Contact Support**.\\
 
-    ![Clicking the question mark and selecting 'Contact Support'](/_images/image-(766).png "Clicking the question mark and selecting 'Contact Support'")
+    ![Clicking the question mark and selecting %22Contact Support%22](/_images/image-(766).png "Clicking the question mark and selecting %22Contact Support%22")
 
 The **Contact Support** dialog box appears.
 
