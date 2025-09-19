@@ -396,84 +396,81 @@ jobs:
           import re, glob, sys
 
           exts   = r"(png|jpe?g|gif|webp|svg|gifv)"
-            is_img = re.compile(rf"\.({exts})(?:$|\?)", re.I)
-            
-            md_img_inline = re.compile(
-            r'!\[([^\]]*)\]'
-            r'\('
+          is_img = re.compile(rf"\.({exts})(?:$|\?)", re.I)
+
+          md_img_inline = re.compile(
+            r'!\[([^\]]*)\]\('
             r'\s*<?'
             r'("?)([^)\r\n]+?)\1'
             r'>?'
             r'(?:\s+"[^"]*")?'
             r'\s*\)',
             re.I
-            )
-            html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
-            ref_def_loose = re.compile(
-            r'(\[([^\]]+)\]\s*:\s*)' r'<?("?)([^>\r\n]+?)\3>?' r'(\s+"[^"]*")?\s*$',
-            re.I
-            )
-          
+          )
+          html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
+          ref_def_loose = re.compile(
+              r'(\[([^\]]+)\]\s*:\s*)' r'<?("?)([^>\r\n]+?)\3>?' r'(\s+"[^"]*")?\s*$',
+              re.I
+          )
+          fence_re = re.compile(r'^\s*```')
+
           def bad(u: str) -> bool:
-                       u = u.strip()
-                       if u.startswith("http://") or u.startswith("https://"):
-                         return False
-                       if not is_img.search(u):
-                         return False
-                       if not u.startswith("/_images/"):
-                         return True
-                       rest = u[len("/_images/"):]
-                       if "/" in rest:
-                         return True
-                       if " " in u:
-                         return True
-                       return False
-            
-            bads = []
-            files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
-            for p in glob.glob(g, recursive=True)]
-            
-            fence_re = re.compile(r'^\s*```')
+              u = u.strip()
+              if u.startswith("http://") or u.startswith("https://"):
+                  return False
+              if not is_img.search(u):
+                  return False
+              if not u.startswith("/_images/"):
+                  return True
+              rest = u[len("/_images/"):]
+              if "/" in rest:
+                  return True
+              if " " in u:
+                  return True
+              return False
+
+          bads = []
+          files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
+                   for p in glob.glob(g, recursive=True)]
+
           for p in files:
-            with open(p, encoding="utf-8") as f:
-              lines = f.read().splitlines()
-            
-            fenced = False
-            # 1) Inline MD and HTML scans, skipping fenced blocks
-            for ln in lines:
-              if fence_re.match(ln):
-                fenced = not fenced
-                continue
-              if fenced:
-                continue
-              
-              for m in md_img_inline.finditer(ln):
-                u = m.group(2).strip()
-                if bad(u): bads.append((p, u))
-              for u in html_src.findall(ln):
-                if bad(u): bads.append((p, u))
-            
-            # 2) Ref defs: also skip if the def line is fenced
-            fenced = False
-            for ln in lines:
-              if fence_re.match(ln):
-                fenced = not fenced
-                continue
-              if fenced:
-                continue
-              m = ref_def_loose.search(ln)
-              if m:
-                u = m.group(4).strip()
-                if bad(u): bads.append((p, u))
-          
+              with open(p, encoding="utf-8") as f:
+                  lines = f.read().splitlines()
+
+              fenced = False
+              for ln in lines:
+                  if fence_re.match(ln):
+                      fenced = not fenced
+                      continue
+                  if fenced:
+                      continue
+                  for m in md_img_inline.finditer(ln):
+                      u = m.group(2).strip()
+                      if bad(u): bads.append((p, u))
+                  for u in html_src.findall(ln):
+                      if bad(u): bads.append((p, u))
+
+              fenced = False
+              for ln in lines:
+                  if fence_re.match(ln):
+                      fenced = not fenced
+                      continue
+                  if fenced:
+                      continue
+                  m = ref_def_loose.search(ln)
+                  if m:
+                      u = m.group(4).strip()
+                      if bad(u): bads.append((p, u))
+
           if bads:
-            print("Non-compliant image links:")
-            for pth, u in bads:
-              print(f"- {pth}: {u}")
+              print("Non-compliant image links:")
+              for pth, u in bads:
+                  print(f"- {pth}: {u}")
               sys.exit(1)
-          
+
           print("All local image links are /_images/<file> with no spaces and no subfolders. External URLs are ignored.")
           PY
+      
       
 
       - name: Commit changes (if any)
