@@ -113,7 +113,8 @@ jobs:
               base = re.sub(r'\s+', '-', base)
               base = re.sub(r'-{2,}', '-', base).strip('-')
 
-              # drop any quoted fragment inside trailing parentheses but keep the ')'
+              # if base ends with (...) and contains a stray quoted fragment inside, drop it but keep ()
+              # (defensive — shouldn’t be present in raw figure src, but safe)
               base = re.sub(r'\(\s*([^()"]*?)\s+"(?:[^"\\]|\\.)*"\s*\)$', r'(\1)', base)
 
               # allow only letters, digits, -, _, ()
@@ -121,20 +122,6 @@ jobs:
               base = re.sub(r'-{2,}', '-', base).strip('-')
 
               return base + ext
-
-          # NEW: adaptive title wrapper (avoid escaping quotes; pick wrapper instead)
-          def title_wrapper(title: str) -> str:
-              if not title or not title.strip():
-                  return ""
-              if '"' in title and "'" in title:
-                  # use parentheses; escape ')' to keep Markdown valid
-                  return f" ({title.replace(')', r'\\)')})"
-              elif '"' in title:
-                  # use single quotes when title contains "
-                  return f" '{title}'"
-              else:
-                  # default to double quotes
-                  return f' "{title}"'
 
           def convert_figure(block:str)->str:
               mimg = IMG.search(block)
@@ -153,11 +140,12 @@ jobs:
               fn  = clean_basename(raw_src)
               url = f"/_images/{fn}"
 
-              # escape only ']' in ALT; do NOT escape quotes in title
-              alt_md = alt.replace(']', r'\]')
+              # escape markdown specials safely
+              alt_md   = alt.replace(']', r'\]')
+              title_md = title.replace('"', r'\"')
 
-              # ADAPTIVE TITLE WRAP:
-              return f'![{alt_md}]({url}{title_wrapper(title)})'
+              # if no title at all, omit the "..."
+              return f'![{alt_md}]({url} "{title_md}")' if title_md else f'![{alt_md}]({url})'
 
           files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
                    for p in glob.glob(g, recursive=True)]
@@ -174,7 +162,6 @@ jobs:
           if not any_changed:
               print("No <figure> blocks to convert.")
           PY
-      
       
 
       # 4) Normalize any remaining image links to /_images/<no-spaces>, remove prefixes/subfolders, convert bare <img> too
@@ -237,30 +224,14 @@ jobs:
               return t
 
           def build_md(alt: str, url: str) -> str:
-            # Normalize ALT (but don't mess with quotes in the title)
-            alt = norm_text(alt or "")
-            alt_md = alt.replace("]", r"\]")
-        
-            # Use ALT as title (you can change this if you prefer figcaption elsewhere)
-            title = alt
-        
-            # No title → emit without a title part
-            if not title or not title.strip():
-              return f'![{alt_md}]({to_root_image_url(url)})'
-        
-            # Adaptive quoting for the title:
-            # - if contains both ' and ", use parentheses
-            # - if contains ", wrap in single quotes
-            # - otherwise use double quotes
-            if '"' in title and "'" in title:
-              safe = title.replace(")", r"\)")
-              return f'![{alt_md}]({to_root_image_url(url)} ({safe}))'
-            elif '"' in title:
-              return f'![{alt_md}]({to_root_image_url(url)} \'{title}\')'
-            else:
-              return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
-      
-      
+              alt = norm_text(alt or "")
+              alt_md = alt.replace("]", r"\]")
+              if alt.strip():
+                  title = alt.replace('"', r'\"')
+                  return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
+              else:
+                  return f'![{alt_md}]({to_root_image_url(url)})'
+
           md_files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
                       for p in glob.glob(g, recursive=True)]
 
@@ -448,60 +419,8 @@ jobs:
           if not changed:
             print("No filenames with quoted fragments needed collapsing.")
           PY
-
-      - name: Normalize image titles (adaptive quoting)
-        shell: bash
-        run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          import re, glob, html
-      
-          # Matches Markdown image with optional title (any wrapper)
-          md_img_any = re.compile(
-            r'!\[([^\]]*)\]\('              # alt
-            r'\s*<?([^)\r\n]+?)>?'          # url (token only; title handled below)
-            r'(?:\s+("([^"]*)"|\'([^\']*)\'|\(([^()]*?)\)))?'  # optional title in "…" or '…' or (…)
-            r'\s*\)',
-            re.I
-          )
-      
-          def pick_wrapper(title:str)->str:
-            if not title or not title.strip():
-              return ""
-            if '"' in title and "'" in title:
-              # parentheses; escape ')' to keep Markdown valid
-              return f" ({title.replace(')', r'\\)')})"
-            elif '"' in title:
-              return f" '{title}'"
-            else:
-              return f' "{title}"'
-      
-          files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
-                   for p in glob.glob(g, recursive=True)]
-      
-          changed = False
-          for p in files:
-            s = open(p, encoding="utf-8").read()
-            def repl(m):
-              alt, url = m.group(1), m.group(2).strip()
-              # prefer the captured title whichever wrapper was used
-              title = m.group(4) or m.group(5) or m.group(6) or ""
-              # If there was no explicit title, we use ALT as title (your current behavior)
-              if not title:
-                title = alt
-              # Rebuild with adaptive quoting, no backslash escapes
-              # Keep alt as-is except for ']'—we won’t re-escape here; your pipeline already does it.
-              return f"![{alt}]({url}{pick_wrapper(title)})"
-            n = md_img_any.sub(repl, s)
-            if n != s:
-              open(p, "w", encoding="utf-8").write(n)
-              print(f"Rewrapped titles: {p}")
-              changed = True
-      
-          if not changed:
-            print("No image titles required rewrapping.")
-          PY
-
+        
+        
 
         # 5) Validate: all image links are /_images/<no-spaces> and no subfolders
       - name: Validate image links style (/_images/*, no spaces)
@@ -586,8 +505,8 @@ jobs:
 
           print("All local image links are /_images/<file> with no spaces and no subfolders. External URLs are ignored.")
           PY
-      
-      
+
+
 
       - name: Commit changes (if any)
         run: |
