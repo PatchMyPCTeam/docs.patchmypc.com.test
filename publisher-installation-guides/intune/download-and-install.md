@@ -14,33 +14,33 @@ You can always download the latest MSI installer of the publishing service using
 
 [https://patchmypc.com/publishingservice-download](https://patchmypc.com/scupcatalog/downloads/publishingservice/PatchMyPC-Publishing-Service.msi)
 
-![This is how the MSI should look once downloaded](/_images/image-(1152 "This is how the MSI should look once downloaded").png>)
+![This is how the MSI should look once downloaded](<../../.gitbook/assets/image (1152).png>)
 
 ## Run the Installation
 
 Start the installation by double clicking the downloaded MSI.&#x20;
 
-<blockquote class="wp-block-quote">
-<p>Depending on user account control settings, you may need to run an elevated command prompt and launch the MSI from the command prompt.</p>
-</blockquote>
+{% hint style="info" %}
+Depending on user account control settings, you may need to run an elevated command prompt and launch the MSI from the command prompt.
+{% endhint %}
 
 ### Welcome Screen
 
 Once the installation starts you'll be greeted by the welcome screen in our installer wizard, click next.
 
-![Select next to continue past the welcome screen.](/_images/image-(1077 "Select next to continue past the welcome screen.").png>)
+![Select next to continue past the welcome screen.](<../../.gitbook/assets/image (1077).png>)
 
 ### End-User License Agreement
 
 The next step will be to accept the EULA. Make sure you select the "I accept the terms in the Agreement" and hit next.
 
-![EULA Terms](/_images/image-(1253 "EULA Terms").png>)
+![EULA Terms](<../../.gitbook/assets/image (1253).png>)
 
 ### Enable Intune Standalone Mode
 
 When installing the product we provide an option called Intune Standalone mode. If you do **NOT** intend to use the product with Configuration Manager, ensure the option is checked and select next.
 
-![](/_images/image-(1089).png>)
+![](<../../.gitbook/assets/image (1089).png>)
 
 ### Select Installation Folder
 
@@ -50,23 +50,24 @@ By default, we install the publisher service in \
 \
 This location is where we store all of the products configuration information.&#x20;
 
-![Select the folder where the service should be installed](/_images/image-(1066 "Select the folder where the service should be installed").png>)
+![Select the folder where the service should be installed](<../../.gitbook/assets/image (1066).png>)
 
 ### Ready To Install
 
 You are now ready to install the product! Click Install, and grab a drink of water.
 
-![Select install to start the installation.](/_images/image-(1174 "Select install to start the installation.").png>)
+![Select install to start the installation.](<../../.gitbook/assets/image (1174).png>)
 
-![Enjoy a glass of water, while we do the work.](/_images/image-(1217 "Enjoy a glass of water, while we do the work.").png>)
+![Enjoy a glass of water, while we do the work.](<../../.gitbook/assets/image (1217).png>)
 
 ### Completed
 
 Once the publisher has finished installing, just hit the finish button to close the install wizard.&#x20;
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>By default, the **Launch Patch My PC Publishing Service** checkbox is checked, meaning when you click **Finish**, Publisher will open automatically.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-![](/_images/image-(1198).png>)
+By default, the **Launch Patch My PC Publishing Service** checkbox is checked, meaning when you click **Finish**, Publisher will open automatically.
+{% endhint %}
+
+![](<../../.gitbook/assets/image (1198).png>)

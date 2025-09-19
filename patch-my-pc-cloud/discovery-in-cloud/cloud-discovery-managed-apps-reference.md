@@ -6,22 +6,23 @@ As detailed in [Managing Managed Apps](manage-cloud-managed-apps.md), an app wil
 
 This article includes examples of each of the supported scenarios.
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
-<p>Hovering over either the value in the **Assigned To All** column or **Edit** button for a deployment will show a tooltip providing more information.</p>
-</blockquote>
+{% hint style="success" %}
+**Tip**
+
+Hovering over either the value in the **Assigned To All** column or **Edit** button for a deployment will show a tooltip providing more information.
+{% endhint %}
 
 ### PMPC Cloud-Only Deployment
 
 If the app has only been deployed using PMPC Cloud, the app:
 
-* Has the PMPC Cloud (![](/_images/image-(2124).png>)) icon beside its name.
-* Has either a red X (![](/_images/image-(379).png)) or green tick (![](/_images/image-(380).png)) in the **Assigned To All** column, depending on whether there is at least one deployment with a **Required** or **Update Only** assignment type to the Intune pre-defined **All Users** or **All Devices** assignments:
+* Has the PMPC Cloud (![](<../../.gitbook/assets/image (2124).png>)) icon beside its name.
+* Has either a red X (<img src="../../.gitbook/assets/image (379).png" alt="" data-size="line">) or green tick (<img src="../../.gitbook/assets/image (380).png" alt="" data-size="line">) in the **Assigned To All** column, depending on whether there is at least one deployment with a **Required** or **Update Only** assignment type to the Intune pre-defined **All Users** or **All Devices** assignments:
   * A red X indicates there isn’t.
   * A green tick indicates there is.
 * The **Edit** button is either:
-  * A pencil (![](/_images/image-(381).png)) if the app only has one deployment.
-  * A down arrow (![](/_images/image-(382).png)) if the app has multiple deployments. When you click the arrow, a dropdown list opens containing all of the deployments for the app from which you can choose the deployment you want to edit.
+  * A pencil (<img src="../../.gitbook/assets/image (381).png" alt="" data-size="line">) if the app only has one deployment.
+  * A down arrow (<img src="../../.gitbook/assets/image (382).png" alt="" data-size="original">) if the app has multiple deployments. When you click the arrow, a dropdown list opens containing all of the deployments for the app from which you can choose the deployment you want to edit.
 
 In the following screenshot:
 
@@ -29,49 +30,50 @@ In the following screenshot:
 * **Notepad++** has a single deployment with a **Required** assignment type to **All Users**.
 * **Zoom Workplace** has multiple deployments, but none have a **Required** assignment type to **All Users** or **All Devices**.
 
-![How an app only deployed through PMPC Cloud appears in the "Managed" tab](/_images/image-(2127 "How an app only deployed through PMPC Cloud appears in the \"Managed\" tab").png "How an app only deployed through PMPC Cloud appears in the “Managed” tab")
+<figure><img src="../../.gitbook/assets/image (2127).png" alt="How an app only deployed through PMPC Cloud appears in the “Managed” tab "><figcaption></figcaption></figure>
 
 This can be confirmed by searching for the app in the App Catalog.
 
-![How an app only deployed through PMPC Cloud appears in the App Catalog](/_images/image-(384 "How an app only deployed through PMPC Cloud appears in the App Catalog").png "How an app only deployed through PMPC Cloud appears in the App Catalog")
+<figure><img src="../../.gitbook/assets/image (384).png" alt="How an app only deployed through PMPC Cloud appears in the App Catalog"><figcaption></figcaption></figure>
 
 ### Publisher Only Deployment
 
 If the app has only been deployed using Publisher, as PMPC Cloud did not create the deployment, the app:
 
-* Has the On-Prem Publisher (![](/_images/image-(2125).png>)) icon beside its name.
+* Has the On-Prem Publisher (![](<../../.gitbook/assets/image (2125).png>)) icon beside its name.
 * Has a value of **Unknown** in the **Assigned To All** column.
 * The **Edit** button is disabled as you need to edit the deployment in Publisher.
 
 In the following screenshot, the **Google Chrome** app has only been deployed using Publisher.
 
-![How an app only deployed through Publisher appears in the "Managed" tab](/_images/image-(2128 "How an app only deployed through Publisher appears in the \"Managed\" tab").png "How an app only deployed through Publisher appears in the “Managed” tab")
+<figure><img src="../../.gitbook/assets/image (2128).png" alt="How an app only deployed through Publisher appears in the “Managed” tab "><figcaption></figcaption></figure>
 
 This can be confirmed by searching for the app in the App Catalog.
 
-![How an app only deployed through Publisher appears in the App Catalog](/_images/image-(2129 "How an app only deployed through Publisher appears in the App Catalog").png "How an app only deployed through Publisher appears in the App Catalog")
+<figure><img src="../../.gitbook/assets/image (2129).png" alt="How an app only deployed through Publisher appears in the App Catalog"><figcaption></figcaption></figure>
 
 ### PMPC Cloud and Publisher Deployment
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
-<p>We do not recommend deploying the same app through the Publisher and PMPC Cloud to avoid settings conflicts and unwanted app behavior.</p>
-</blockquote>
+{% hint style="warning" %}
+**Important**
+
+We do not recommend deploying the same app through the Publisher and PMPC Cloud to avoid settings conflicts and unwanted app behavior.
+{% endhint %}
 
 If the app has been deployed using PMPC Cloud and Publisher, the app:
 
-* Has both the PMPC Cloud (![](/_images/image-(2124).png>)) and On-Prem Publisher (![](/_images/image-(2125).png>)) icons beside its name.
-* Has either a red X (![](/_images/image-(387).png)) or green tick (![](/_images/image-(389).png)) in the **Assigned To All** column, depending on whether there is at least one PMPC Cloud deployment with a **Required** or **Update Only** assignment type to the Intune pre-defined **All Users** or **All Devices** assignments:
+* Has both the PMPC Cloud (![](<../../.gitbook/assets/image (2124).png>)) and On-Prem Publisher (![](<../../.gitbook/assets/image (2125).png>)) icons beside its name.
+* Has either a red X (<img src="../../.gitbook/assets/image (387).png" alt="" data-size="line">) or green tick (<img src="../../.gitbook/assets/image (389).png" alt="" data-size="line">) in the **Assigned To All** column, depending on whether there is at least one PMPC Cloud deployment with a **Required** or **Update Only** assignment type to the Intune pre-defined **All Users** or **All Devices** assignments:
   * A red X indicates there isn’t.
   * A green tick indicates there is.
 * The **Edit** button is only available to edit the PMPC Cloud deployment and will either be:
-  * &#x20;A pencil (![](/_images/image-(390).png)) if the app only has one deployment.
-  * A down arrow (![](/_images/image-(391).png)) if the app has multiple deployments. When you click the arrow, a dropdown list opens containing all of the deployments for the app from which you can choose the deployment you want to edit.
+  * &#x20;A pencil (<img src="../../.gitbook/assets/image (390).png" alt="" data-size="line">) if the app only has one deployment.
+  * A down arrow (<img src="../../.gitbook/assets/image (391).png" alt="" data-size="original">) if the app has multiple deployments. When you click the arrow, a dropdown list opens containing all of the deployments for the app from which you can choose the deployment you want to edit.
 
 In the following screenshot, **Notepad++** has been deployed through Publisher and PMPC Cloud, with the PMPC Cloud deployment having a **Required** or **Update Only** assignment type to the Intune pre-defined **All Users** or **All Devices** assignments.
 
-![How an app deployed through both PMPC Cloud and Publisher appears in the "Managed" tab](/_images/image-(2130 "How an app deployed through both PMPC Cloud and Publisher appears in the \"Managed\" tab").png "How an app deployed through both PMPC Cloud and Publisher appears in the “Managed” tab")
+<figure><img src="../../.gitbook/assets/image (2130).png" alt="How an app deployed through both PMPC Cloud and Publisher appears in the “Managed” tab"><figcaption></figcaption></figure>
 
 This can be confirmed by searching for the app in the App Catalog.
 
-![How an app deployed through both PMPC Cloud and Publisher appears in the App Catalog](/_images/image-(2131 "How an app deployed through both PMPC Cloud and Publisher appears in the App Catalog").png "How an app deployed through both PMPC Cloud and Publisher appears in the App Catalog")
+<figure><img src="../../.gitbook/assets/image (2131).png" alt="How an app deployed through both PMPC Cloud and Publisher appears in the App Catalog"><figcaption></figcaption></figure>
