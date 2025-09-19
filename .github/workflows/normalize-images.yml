@@ -73,76 +73,96 @@ jobs:
               echo "Renamed: $b -> $(basename "$tgt")"
             fi
           done
-      
 
-      # 3) Convert <figure><img ...><figcaption>...</figcaption></figure> → ![alt](/_images/file "alt")
+      # 3) Convert <figure><img ...><figcaption>...</figcaption></figure> → ![alt](/_images/file "title")
       - name: Convert <figure><img> blocks to Markdown images (/_images, no spaces)
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
           import re, glob, html, os
-
-          def slug_filename(name:str)->str:
-            import os, re
-            name = name.replace('%20',' ')
-            base, ext = os.path.splitext(name)
-
-            # --- NEW fix: strip quoted fragment INSIDE trailing parentheses, keep ')'
-            # e.g. image-(766 "Clicking \"…\"")  ->  image-(766)
-            base = re.sub(r'\(\s*([^()"]*?)\s+"(?:[^"\\]|\\.)*"\s*\)$', r'(\1)', base)
-
-            # If base ends with (...) (no quotes), still normalize its inner spacing
-            m = re.search(r'\(([^()]*)\)$', base)
-            if m:
-              inner = m.group(1)
-              inner = re.sub(r'\s+', ' ', inner).strip()
-              base = base[:m.start()] + f'({inner})'
-
-            # Fallback removals
-            base = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', base)  # space+"…"
-            base = re.sub(r'["“”].*$', '', base)                 # anything after stray quote
-
-            # Normalize whitespace/symbols
-            base = re.sub(r'\s+', '-', base)
-            base = re.sub(r'-{2,}', '-', base).strip('-')
-
-            return f"{base}{ext.lower()}"
-
-          files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
-                   for p in glob.glob(g, recursive=True)]
+          from urllib.parse import unquote
 
           FIG = re.compile(r'<figure\b[^>]*>(.*?)</figure>', re.I|re.S)
           IMG = re.compile(r'<img\b[^>]*>', re.I|re.S)
           CAP = re.compile(r'<figcaption\b[^>]*>(.*?)</figcaption>', re.I|re.S)
+
           def attr(n,s):
               m = re.search(rf'\b{n}\s*=\s*["\']([^"\']*)["\']', s, re.I|re.S)
               return m.group(1).strip() if m else ''
 
-          def convert(block:str)->str:
-              m = IMG.search(block)
-              if not m: return block
-              img = m.group(0)
+          def clean_basename(src:str)->str:
+              """
+              Take src like '../.gitbook/assets/image (766).png'
+              → 'image-(766).png'
+              """
+              # take last path segment, URL-decode
+              bn = unquote(os.path.basename(src or '').strip())
+              if not bn:
+                  return 'unknown.png'
+
+              # split name + ext
+              if '.' in bn:
+                  base, ext = bn.rsplit('.', 1)
+                  ext = '.' + ext.lower()
+              else:
+                  base, ext = bn, ''
+
+              # replace %20/spaces with dash; collapse dashes
+              base = base.replace('%20', ' ')
+              base = re.sub(r'\s+', '-', base)
+              base = re.sub(r'-{2,}', '-', base).strip('-')
+
+              # if base ends with (...) and contains a stray quoted fragment inside, drop it but keep ()
+              # (defensive — shouldn’t be present in raw figure src, but safe)
+              base = re.sub(r'\(\s*([^()"]*?)\s+"(?:[^"\\]|\\.)*"\s*\)$', r'(\1)', base)
+
+              # allow only letters, digits, -, _, ()
+              base = re.sub(r'[^A-Za-z0-9_\-()]+', '-', base)
+              base = re.sub(r'-{2,}', '-', base).strip('-')
+
+              return base + ext
+
+          def convert_figure(block:str)->str:
+              mimg = IMG.search(block)
+              if not mimg:
+                  return block
+
+              img = mimg.group(0)
               raw_src = attr('src', img)
-              alt = attr('alt', img)
+              alt     = attr('alt', img) or ''
 
+              # title: figcaption (preferred) else alt
               mcap = CAP.search(block)
-              cap = html.unescape(re.sub(r'<[^>]+>','',mcap.group(1))).strip() if mcap else ""
-              title = cap or alt
+              cap_text = html.unescape(re.sub(r'<[^>]+>', '', mcap.group(1))).strip() if mcap else ''
+              title = cap_text or alt
 
-              fn = slug_filename(os.path.basename(raw_src))
+              fn  = clean_basename(raw_src)
               url = f"/_images/{fn}"
-              alt_md = (alt or '').replace(']', r'\]')
-              title_md = (title or '').replace('"', r'\"')
+
+              # escape markdown specials safely
+              alt_md   = alt.replace(']', r'\]')
+              title_md = title.replace('"', r'\"')
+
+              # if no title at all, omit the "..."
               return f'![{alt_md}]({url} "{title_md}")' if title_md else f'![{alt_md}]({url})'
 
+          files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
+                   for p in glob.glob(g, recursive=True)]
+
+          any_changed = False
           for path in files:
               s = open(path, encoding="utf-8").read()
-              n = FIG.sub(lambda m: convert(m.group(0)), s)
+              n = FIG.sub(lambda m: convert_figure(m.group(0)), s)
               if n != s:
                   open(path, "w", encoding="utf-8").write(n)
                   print(f"Converted figures in: {path}")
+                  any_changed = True
+
+          if not any_changed:
+              print("No <figure> blocks to convert.")
           PY
+      
       
       
       
