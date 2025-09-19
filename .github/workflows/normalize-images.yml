@@ -234,16 +234,12 @@ jobs:
 
           # Sanitize ANY Markdown image (even ones already pointing to /_images)
           md_img_any = re.compile(
-            r'!\[([^\]]*)\]'                # alt
+            r'!\[([^\]]*)\]'              # group 1: alt
             r'\('
             r'\s*<?'
-            r'(?:'                          # EITHER a quoted URL...
-            r'"([^"]+)"'                #   group 2 = quoted URL
-            r'|'                          # OR an unquoted URL without spaces
-            r'([^\s)<>]+)'              #   group 3 = unquoted URL
-            r')'
-            r'>?'                           # optional '>'
-            r'(?:\s+"[^"]*")?'              # optional "title"
+            r'([^)\r\n]+?)'               # group 2: INNER (may contain spaces/quotes)
+            r'>?'                         # optional '>'
+            r'(?:\s+"[^"]*")?'            # optional Markdown title (excluded from group 2)
             r'\s*\)',
             re.I
           )
@@ -274,10 +270,19 @@ jobs:
               #s = md_img_any.sub(lambda m: build_md(m.group(1), m.group(2)), s)
               def _sanitize_md_img(m):
                 alt = m.group(1)
-                url = (m.group(2) or m.group(3) or "").strip()
-                if not url:
-                  return m.group(0)  # leave it unchanged if URL missing
-                return build_md(alt, url)
+                inner = (m.group(2) or "").strip()
+                if not inner:
+                  return m.group(0)
+            
+                # Keep only up to the LAST image extension; drop anything after it
+                extm = re.search(rf'\.{IMG_EXT}\b', inner, re.I)
+                if extm:
+                  inner = inner[:extm.end()]
+            
+                # Strip any embedded ' "…"' quote-fragments that snuck into the URL
+                inner = re.sub(r'\s+"[^"]*"\s*', '', inner)
+            
+                return build_md(alt, inner)
               
               s = md_img_any.sub(_sanitize_md_img, s)
 
