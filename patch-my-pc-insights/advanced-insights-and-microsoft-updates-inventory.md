@@ -14,17 +14,15 @@ If you use **Intune** to manage your windows updates (**Windows Update for Busin
 
 ![](/_images/Microsoft-Updates-Page.png)
 
-***
+**\***
 
-## How does it work?
+**How does it work?**
 
-We supplement your ConfigMgr compliance data with **additional data** from Microsoft Update.
+**We supplement your ConfigMgr compliance data with** additional data **from Microsoft Update.**
 
-Our Inventory Extensions WMI Provider runs on clients and scans against Microsoft Update to find update compliance data. This data is then pulled into ConfigMgr via Hardware Inventory for reporting.
+**Our Inventory Extensions WMI Provider runs on clients and scans against Microsoft Update to find update compliance data. This data is then pulled into ConfigMgr via Hardware Inventory for reporting.**
 
-![](/_images/image-(1308).png "")
-
-***
+\*
 
 ## Requirements
 

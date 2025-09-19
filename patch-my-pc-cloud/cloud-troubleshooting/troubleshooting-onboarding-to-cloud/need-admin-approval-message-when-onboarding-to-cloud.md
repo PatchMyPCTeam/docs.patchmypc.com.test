@@ -7,10 +7,9 @@ _Applies to: Patch My PC Cloud_
 I am trying to onboard to Patch My PC (PMPC) Cloud. I’ve signed in, expecting to see the **Permissions requested** dialog box, but instead, I get the **Need admin approval** dialog box stating:
 
 **Patch My PC LLC needs permission to access resources in your organization that only an admin can grant. Please ask an admin to grant permission to this app before you can use it.**\
-\
+\\
 
-
-![“Need admin approval” dialog box](/_images/image-(906).png "“Need admin approval” dialog box")
+!["Need admin approval" dialog box](/_images/image-(906 "\"Need admin approval\" dialog box").png)
 
 ### CAUSE
 

@@ -95,7 +95,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 #### Features
 
-* The first  release of our CVE import/matching features based on UserVoice [<strong>Feature Request for CVE Import automation</strong>](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-916)
+* The first  release of our CVE import/matching features based on UserVoice [**Feature Request for CVE Import automation**](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-916)
   * You can launch the CVE import feature in the Updates tab by clicking the new document lock icon
   * If you have any feedback on the first release, leave a comment at [https://ideas.patchmypc.com/ideas/PATCHMYPC-I-916](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-916)
 * Updates published via the CVE Import Wizard will have a Teams and Email alert if enabled.
@@ -200,14 +200,14 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
     *   \*\*fails to install error code Looking for exit code
 
         &#x20; -2147467259 in exit codes table\*\*
-    * <strong>Unmatched exit code (2147500037) is considered an execution failure.</strong>&#x20;
-      * ![Bug with Percentage Sign in Application File Name](https://patchmypc.com/wp-content/uploads/2018/05/Bug-with-Percentage-Sign-in-Application-File-Name.jpg)
+    * **Unmatched exit code (2147500037) is considered an execution failure.**&#x20;
+      * ![Bug with Percentage Sign in Application File Name](/_images/Bug-with-Percentage-Sign-in-Application-File-Name.jpg "Bug with Percentage Sign in Application File Name")
 
 ### 1.8.9 - 2020-09-10
 
 #### Features
 
-* The Publisher now has a '<strong>Recreate Detection Script'</strong> right-click option. When this is selected, the specified products will have their Detection Scripts recreated during the next Publisher synchronization.
+* The Publisher now has a '**Recreate Detection Script'** right-click option. When this is selected, the specified products will have their Detection Scripts recreated during the next Publisher synchronization.
   * Idea: [PATCHMYPC-I-855](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-855)
 * The Modify Updates Wizard now has a checkbox to 'Show Only Updates for Not Enabled Products'
   * This is helpful in identifying updates you may want to decline for products you no longer publish updates for
@@ -312,7 +312,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Available date and deadline date for Intune assignments are not properly displayed in the assignment setting wizard
 *   The Publisher may crash when trying to check for a new release on Intune only installation where only RSAT:Windows Service Update Services is being used. If you are affected by this issue, please perform an in-place upgrade of the publisher using
 
-    &#x20; [<strong>version 1.8.4 available for download now</strong>](https://app.gitbook.com/publishing-service-setup-documentation).
+    &#x20; [**version 1.8.4 available for download now**](https://app.gitbook.com/publishing-service-setup-documentation).
 
 ### 1.8.3 - 2020-07-08
 
@@ -377,11 +377,11 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * [Custom right-click options](https://app.gitbook.com/custom-options-available-for-third-party-updates-and-applications) applied at the All Products level are now retained when the UI is closed, and future products are enabled. UserVoice Idea: [Retain the Logging Options in View when Saved at the All Products Level](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-742)
 *   SCCM Database Scan now has an option to ["Auto-enable products as 'Metadata Only' if found, but threshold is not met"](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-565)
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed bug where some SSRS report links did not function as expected
 *   Fixed an issue where a customer with an expired Intune only license could get stuck in a message box loop.
 
-    <strong>Improvements</strong>
+    **Improvements**
 * Enhances the display in the Update modification wizard when there is a lot of updates.
 * Sort SCCM folders when choosing a folder to move new newly created applications to. UserVoice Idea: [Fix sorting in Console Folder Browser](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-818)
 
@@ -398,17 +398,17 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 *   Added 'Like,' 'Dislike', and 'Feedback' button in the title bar of the settings tool.
 
-    <strong>Fixes</strong>
+    **Fixes**
 * List unreferenced package folders did not list any folders in some WSUS configurations
 * Added a workaround to handle SCCM apps published with an unsupported language
 *   Resolved incorrect summarization within the SCCM Scan Database tool
 
-    <strong>Improvements</strong>
+    **Improvements**
 * Web domains of downloaded icons are listed in the DownloadHistory.csv file.
 * Added several help links in the UI.
 *   Improved logging for known errors linking to KB articles
 
-    <strong>Changes</strong>
+    **Changes**
 * The option to fallback to ConfigMgr package publishing when an application can't be published as an SCCM application has been removed in the UI due to not being needed.
 * SQL query default timeout is now 90 seconds from 30 seconds.
 * Removed from the UI the option to generate a CSV file with publishing info. The option is always enabled, and the file path can be configured with the registry setting : HKEY\_LOCAL\_MACHINE\SOFTWARE\Patch My PC Publishing Service:PublishingHistoryCSVFolder
@@ -436,13 +436,13 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
     &#x20; [PATCHMYPC-I-740](https://patchmypc.aha.io/ideas/PATCHMYPC-I-740))
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed an issue where the WSUS Maintenance for unreferenced updates would not return folders when the name is longer than 80 characters
 * Fixed an issue where file coping during publishing would fail when a file is referenced more than once (e.g., in additional files and pre-command script)
 * Fixed an issue where adding multiple Intune assignments with customer deployment deadlines may cause the publisher UI to crash
 *   Fixed an issue where double quotes in the command line argument for software updates would not be retained.&#x20;
 
-    <strong>Improvements</strong>
+    **Improvements**
 * Adds logging for a new known error when access is denied to the application source.
 * Improved documentation for different areas of the Publisher UI.
 
@@ -461,12 +461,12 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 #### Feature
 
 * Added the ability to edit assignments for already published Intune applications using the Intune application manager
-* Added a column in the Update Modification Wizard to show supersedence based on [<strong>UserVoice 710</strong>](https://patchmypc.aha.io/ideas/ideas/PATCHMYPC-I-710)
+* Added a column in the Update Modification Wizard to show supersedence based on [**UserVoice 710**](https://patchmypc.aha.io/ideas/ideas/PATCHMYPC-I-710)
 * Added a right-click option to open Local Content Repository
-*   You can now limit the SCCM application database scan to a specific collection based on [<strong>UserVoice 475</strong>](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-475)
+*   You can now limit the SCCM application database scan to a specific collection based on [**UserVoice 475**](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-475)
 
-    <strong>Improvements</strong>
-* When a TRANSFORMS command is added in the additional arguments, we will automatically add the full relative path at execution based on [<strong>UserVoice 668</strong>](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-668)
+    **Improvements**
+* When a TRANSFORMS command is added in the additional arguments, we will automatically add the full relative path at execution based on [**UserVoice 668**](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-668)
 * Install times are now expressed as time offset starting from the publishing date when an application is published for the first time
 * When an Intune application is updated, if assignments are not copied from a previous version, new assignment(s) are created based on the right-click assignment options
 * Displays a warning message if the Local Content repository path is empty, and the option to look into this directory first is enabled
@@ -484,7 +484,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 *   We will now create assignments in Intune even if the Intune application was already created before adding the assignment
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Snooze duration in Intune assignments can be set to an invalid value when the restart grace period and restart countdown are also enabled
 *   SCCM Applications may fail to be created on older SCCM builds with error "An error occurred while creating an application in SCCM: Could not load type
 
@@ -502,15 +502,15 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 *   Retain Deployment type dependencies during application in-place update
 
-    <strong>Changes</strong>
+    **Changes**
 * Changed the behavior of the Scan SCCM Database wizard, add an Ok button, and rename the Close button to Cancel.
 *   Remove «Full Content» mention on Intune and SCCM TreeViews
 
-    <strong>Fixes</strong>
+    **Fixes**
 * We would always log 0 requirements carried from the previous version even if more than 0 requirements have been carried over
 * PowerShell detection method script wouldn't be signed if the filename contained a single quote
 * Intune assignments are not always carried during an upgrade
-  * <strong>Advanced</strong>
+  * **Advanced**
 * Added a new [advanced option](https://app.gitbook.com/advanced-configurations-available-using-the-registry-for-patch-my-pcs-publishing-service) enable via a registry value
   * Add the ability to parse the catalog using a sequential method instead of parallel (UseSequentialMethod = 1)
 
@@ -548,7 +548,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Improved the Microsoft Intune options. The options are now available in the Intune Apps tab and not the Advanced tab.
 *   Improved the installation options for enabling Microsoft Intune only publishing.
 
-    <strong>Features</strong>
+    **Features**
 * Display application dependencies in the SCCM application manager.
 
 ### 1.6.6 - 2020-03-02
@@ -569,7 +569,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Added a more details button in the modify published update wizard that will show important details about updates published to WSUS
 *   Improved success and failed icons for Microsoft Teams alerts
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed an issue where the right-click option for manage logging may display the correct information
 
 ### 1.6.4 - 2020-02-14
@@ -584,7 +584,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 *   Added the Intune bulk editor in the Advanced tab
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed an issue where custom files and folders defined, may not be included in a software update cab file
 
 ### 1.6.2 - 2020-02-07
@@ -605,24 +605,24 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 * Applications will no longer be duplicated in the event the deployment type's source folder was deleted.
 * You can now trigger a full and delta software update point synchronization from the advanced tab
-  * <strong>Microsoft Intune (Release Candidate)</strong>\\
+  * **Microsoft Intune (Release Candidate)**\\
 * You can now automate Win32 application management in Microsoft Intune
 * You can now create assignments for Win32 applications in Microsoft Intune
 * The authority URL for Microsoft Intune will be prepopulated
 * You can now select a custom code-signing certificate from the computer's personal certificate store. A full WSUS installation is no longer required for code-signing the detection method script used for Intune.
 *   The publishing service can now be installed on Windows 10 (x64) for a Microsoft Intune only setup.
 
-    <strong>Improvements</strong>
+    **Improvements**
 * Use env variables instead of hard-coded path in PowerShell detection script.
 * No longer perform WSUS service checks when the WSUS publishing is disabled for Intune only scenarios.
 * You can now test the SMS Provider connection under SYSTEM-level context
 *   Other fixes and improvements.
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Bug fixes and other improvements
 *   Fixed an issue where you may receive an error: An error occurred while updating a package in SCCM: OpenDatabase,DatabasePath,OpenMode
 
-    <strong>Changes</strong>
+    **Changes**
 * Rename Intune preview to Intune Release Candidate.
 
 ### 1.5.9 - 2019-11-29
@@ -635,7 +635,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * You can now browse to UNC paths when adding a custom folder in scripts dialog
 *   You can now change the folder location for the generated CSV file
 
-    <strong>Improvements</strong>
+    **Improvements**
 * You can now test the SMS Provider connection under SYSTEM-level context
 
 ### 1.5.8 - 2019-11-23
@@ -653,7 +653,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * You can now create new folders in the applications node of the console directly from the folder browse dialog
 *   You can now refresh folders in the applications node directly from the folder browse dialog
 
-    <strong>Improvements</strong>
+    **Improvements**
 * Files downloaded for publishing updates are now cached and reused for applications within the same sync cycle
 * Support to publish applications in other languages than en-US
 
@@ -663,11 +663,11 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 *   You can now send Microsoft Teams publishing alerts using a webhook
 
-    <strong>Improvements</strong>
+    **Improvements**
 * The software update point synchronization will be triggered after the update synchronization task rather than waiting for the updates and applications sync.
 *   Improved the accuracy of the SCCM application scan feature to better differentiate between x86 and x64 products based on UserVoice [Improve accuracy of 32/64-bit count results of SCCM Database scan](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-461)
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Minor bugs fixes
 
 ### 1.5.5 - 2019-10-25
@@ -691,7 +691,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 *   Set default download timeout to 100 seconds from 30 seconds.
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed an issue where a custom command line may not be processed if it contained double quotes and a space
 * Fixed an issue where the UI may crash when enabling a large number of products
 
@@ -712,14 +712,14 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Added the ability to start a sync by running the PatchMyPC-Settings.exe with argument /SyncNow (the UI is not displayed)
 *   Log events in the Windows event log (Starting/ending sync, success/fail publishing updates)
 
-    <strong>Improvements</strong>
+    **Improvements**
 *   Add several log entries when sync fails
 
     &#x20; ([EventID=3001-3005](https://patchmypc.com/windows-event-logging-details-for-patch-my-pc-publishing-service))
 * Add new[ advanced options to improve SQL queries](https://patchmypc.com/advanced-configurations-available-using-the-registry-for-patch-my-pcs-publishing-service) for large organizations.
 *   Improve the version comparison in the PowerShell detection method script
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Distribution point groups containing apostrophe were ignored during distribution
 * Improved the PowerShell detection method scripts to handle invalid DWORD entries better fixing a "Specified cast is not valid." error message
 * Various bug fixes
@@ -735,10 +735,10 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * You can now specify the subject name when creating a self-signed certificate.
 *   You can now Import/Export settings from the advanced tab.
 
-    <strong>Improvements</strong>
+    **Improvements**
 *   PatchMyPC-ScriptRunner.exe files are updated when SCCM applications are upgraded.
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed an issue where application detection method scripts may fail on devices with PowerShell version 2. The following output error would be logged to appdiscovery.log
   * Unexpected token '.0' in expression or statement.
   *
@@ -754,7 +754,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 *   You can now configure any custom pre-update script to run before checking any processes to close or skip
 
-    <strong>Improvements</strong>
+    **Improvements**
 * Improved logging
 * If SMTP emails are enabled, we will now include any newly enabled products from the automated SCCM inventory scans.
 * If there are pending settings changes unsaved, you will be prompted if you want to save the settings when performing a synchronization.
@@ -769,7 +769,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Application names are now clickable for applications published, and links to the vendors release notes.
 *   Added right-click option for products to be excluded from being automatically enabled during automated SCCM inventory scans.
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed an issue where applications may fail to install on Windows 10 when using Latvia language.
 * Fixed an issue where you may get an email about the license being expired when in trial-mode.
 
@@ -789,7 +789,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
     &#x20; \\"
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed a bug in version 1.4.7 and 1.4.8 where the application detection script may fail to evaluate when the application is deployed to a user collection as available, and a non-admin user initiates the installation. Note: this was a regression bug from version 1.4.1.
 
 ### 1.4.8 - 2019-08-07
@@ -803,7 +803,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Add an option to always check the local content repository to update content prior to downloading from the internet. Based on UserVoice item: [Check Local Content Repository for All Products](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-266)
 *   Dependencies are retained when updating SCCM App
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed an issue where the detection method script may show invalid signature on the client-side.
 
 ### 1.4.7 - 2019-08-01
@@ -815,7 +815,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
     &#x20; \\\Detection Method Scripts folder.
 *   Set requirements to prevent the installation of Flash Player ActiveX on Windows 10 and Windows Server 2016 and 2019 and higher.
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Products that don't support the application model would be created as a package even if the option to not fall to a package is enabled.
 
 ### 1.4.6 - 2019-07-30
@@ -834,7 +834,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * We now handle the non-standard exit codes for Adobe Digital Edition and Evernote so the installation will report successful.
 *   MSI based applications will now have the repair command line configured in the deployment type.
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed an issue where the detection method PowerShell script may not be code-signed if there was more than one certificate in the WSUS certificate store.
 * Fixed an issue where applications may fallback to the package model when a publishing sync if performed at the same time the SMSProvider DLL's are being registered during a site upgrade.
 * Fixed an issue where the uninstall command line may be empty after an MSI based product performed an in-place upgrade to a newer version.
@@ -845,7 +845,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 *   Email reports for publishing updates and applications will now be listed alphabetical order.
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed an issue where if multiple certificates exist in the WSUS certficaite the detection method script may not get code-signed.
 
 ### 1.4.3 - 2019-07-24
@@ -855,7 +855,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Fixed an issue wherein a small number of cases applications may fail to install with the following error "An error occurred while preparing the installation of the application: Illegal characters in path." in PatchMyPC-ScriptRunner.log
 *   Improved detection for CutePDF Writer and Allway Sync
 
-    <strong>Changes</strong>
+    **Changes**
 * Updates and applications will now timeout after thirty minutes
 * The ESC key will no longer close the publishing service UI
 * If timestamping is disabled for update publishing, the detection method PowerShell script will now not be timestamped
@@ -867,7 +867,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Added an option to include abitrary files in the pre/post script dialog box.
 *   Added an option to copy the installation log to a secondary folder on installation failure.
 
-    <strong>Fixes</strong>
+    **Fixes**
 *   Updated the detection method script for applications to resolve the following error (Access to the path
 
     &#x20; 'C:\Windows\CCM\Logs\PatchMyPC-SoftwareDetectionScript.log' is denied.) that would occur in AppDiscovery.log in certain builds of Configuration Manager.
@@ -878,7 +878,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 *   The base installation feature now creates applications in SCCM rather than legacy packages. Based on customer idea:[Base Installation Feature Should Create Applications not Packages in SCCM](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-16)
 
-    <strong>Improvements</strong>
+    **Improvements**
 * You can now configure an offset (in days) for the sync schedule. Based on customer idea: [Schedule Patch Tuesday +1 (Offset From Date)](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-138)
 * When using a custom pre/post update script, it will be run before any Patch My PC defined script. Based on customer idea: [Run custom pre-update scripts before any PatchMyPC defined scripts](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-177)
 
@@ -902,7 +902,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
     &#x20; \\\Backup folder.
 
-    <strong>Improvements</strong>
+    **Improvements**
 * Added an option to prefix the computer name to the installation log file name to allow you to use a shared path and receive unique log file names for each device.
 
 ### 1.3.7 - 2019-06-04
@@ -917,7 +917,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 #### Fixes
 
-* Fixed an issue where the "<strong>Automatically create installation packages in SCCM for initial installation.</strong>" in the <strong>Package Rules</strong> tab would become un-checked when in trial mode.
+* Fixed an issue where the "**Automatically create installation packages in SCCM for initial installation.**" in the **Package Rules** tab would become un-checked when in trial mode.
 
 ### 1.3.5 - 2019-05-23
 
@@ -927,7 +927,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Right-clicking on a product will now display the installer technology the product uses (MSI, EXE, or MSP)
 *   Added support for customer SSRS folder names for the report installer
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Bug fixes
 
 ### 1.3.4 - 2019-05-02
@@ -943,12 +943,12 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Added support for required Pre/Post-Scripts
 *   Added support for recommended Pre/Post-Scripts
 
-    <strong>Improvements</strong>
+    **Improvements**
 * We will now cache the list of supported products, so in the event, the settings tool can't download the latest products, it will use the last cached copy.
 * When the settings tool is opened, if any products are previously enabled that now have a Patch My PC defined recommended and required Pre/Post script(s) those scripts will be saved in the settings.xml automatically.
 *   When there is a product enabled that requires a [manual content download](https://patchmypc.com/local-content-repository-for-licensed-applications-that-require-manual-download) the product name(s) will be included in the prompt.
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed an issue where the UI may show not responding for a short period of time on initial open.
 * Fixed an issue where you may receive a prompt saying some settings are missing when clicking apply when using trial mode when all relevant settings are correct.
 
@@ -958,7 +958,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 *   Added a section in email report for updates published with Local Content Binary
 
-    <strong>Improvements</strong>
+    **Improvements**
 * Better handling of situations where SupportedProducts.xml fails to download
 * 3010 is considered as a success code by for pre-scripts when the option to bypass update installation when pre-script fail, is enabled
 
@@ -983,7 +983,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Added an option in the About tab to opt-in to the preview channel.
 *   Added subscription level and licensed device count based on feedback in the SCCM slack group.
 
-    <strong>Improvements</strong>
+    **Improvements**
 * We removed the two columns displaying the distribution point group and description in the base installation options dialog.
 * Change the error return for 404 download errors.
 * Changes to improve the performance of the license validation check.
@@ -1007,7 +1007,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Added an option to change the subject name for email notifications
 *   Added an option to include text in the body of the email notifications.
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed an unhandled exception when you enable base packages when no catalog URL is set.
 * Fixed an issue where updated installation packages are not added in the email report
 * Fixed an issue where superseded applications may not publish into SCCM
@@ -1029,10 +1029,10 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Fixes an issue where MSI logging options may be removed from a previously published update
 *   Improved logging
 
-    <strong>Fixes</strong>
+    **Fixes**
 * The Local Content Repository textbox is now read-only
 
-<strong>Note:</strong> Build 1.2.4 was re-released on 2019-03-07 to resolve an issue where the license validation may fail after the initial installation.
+**Note:** Build 1.2.4 was re-released on 2019-03-07 to resolve an issue where the license validation may fail after the initial installation.
 
 ### 1.2.3 - 2019-02-20
 
@@ -1046,7 +1046,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * Improved error handling if the WSUSPool or WSUS Service is in a stopped state
 *   When the user triggers a self-upgrade via the about tab, a progress bar is displayed, and the publishing settings UI will reopen after the update.
 
-    <strong>Fixes</strong>
+    **Fixes**
 * Fixed a bug where the SCCM application scan wrongly displays the Java migration update as being installed
 * Other minor bug fixes
 
@@ -1054,11 +1054,11 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 #### Improvements
 
-* Added option to "<strong>Un-Decline</strong>" updates in the "<strong>Modify Updates Wizard</strong>"
-* Added new right-click action in the "<strong>Product Rules</strong>" tab to allow you to enable <strong>installation logging for updates</strong> and choose a standard path for the installation logs.
-* The option to "<strong>Scan SCCM for Managed Applications</strong>" will now list <strong>all products available in the catalog</strong> even when the publishing service is in <strong>trial mode</strong>.
-* Improved logging, when there are <strong>known publishing error codes</strong>, we will now link to any <strong>KB articles containing the resolution</strong>.
-* Added option in the "<strong>About</strong>" tab to "<strong>Disable Self-Updates</strong>" based on customer feedback.
+* Added option to "**Un-Decline**" updates in the "**Modify Updates Wizard**"
+* Added new right-click action in the "**Product Rules**" tab to allow you to enable **installation logging for updates** and choose a standard path for the installation logs.
+* The option to "**Scan SCCM for Managed Applications**" will now list **all products available in the catalog** even when the publishing service is in **trial mode**.
+* Improved logging, when there are **known publishing error codes**, we will now link to any **KB articles containing the resolution**.
+* Added option in the "**About**" tab to "**Disable Self-Updates**" based on customer feedback.
 
 ### 1.2.1 - 2019-01-21
 
@@ -1085,10 +1085,10 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 
 #### Improvements
 
-* Added "<strong>About</strong>" tab that shows version information, release notes, support options, and how to request new products.
-*   Added "<strong>Local Content Repository</strong>" option in the
+* Added "**About**" tab that shows version information, release notes, support options, and how to request new products.
+*   Added "**Local Content Repository**" option in the
 
-    &#x20; "<strong>Advanced</strong>" tab. This feature is used if there are licensed products that don't allow for public download in the future. For more details, please see [licensed products that require a manual download](https://patchmypc.com/local-content-repository-for-licensed-applications-that-require-manual-download)
+    &#x20; "**Advanced**" tab. This feature is used if there are licensed products that don't allow for public download in the future. For more details, please see [licensed products that require a manual download](https://patchmypc.com/local-content-repository-for-licensed-applications-that-require-manual-download)
 
 ### 1.1.7 - 2018-12-13
 
@@ -1117,7 +1117,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 * We will now retain on previous version PatchMyPC.log and rename it to PatchMyPC.lo\_ when the max log size is reached.
 *   If a product doesn't support pre/post update scripts, the option will no longer be visible in the right-click action
 
-    <strong>Changes</strong>
+    **Changes**
 * Changed the PatchMyPC.log from 10MB to 2MB
 
 ### 1.1.4 - 2018-10-25
@@ -1184,7 +1184,7 @@ Details the production release history for Patch My PC's (PMPC's) On-premises Pu
 #### Improvements
 
 * Added a new tab called Advanced
-* New option in the Advanced tab named "<strong>Standalone WSUS Mode</strong>".
+* New option in the Advanced tab named "**Standalone WSUS Mode**".
   * When enabled, third-party updates published from the publishing service will be visible and available to deploy directly in the WSUS console. This option shouldn't be enabled if Microsoft SCCM is being used to deploy updates.
 * Moved the option "Defer Expiration of Updates" from the Scheduling tab to the Advanced tab.
 

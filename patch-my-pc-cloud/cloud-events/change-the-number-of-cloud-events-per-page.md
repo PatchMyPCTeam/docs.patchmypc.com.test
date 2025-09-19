@@ -6,4 +6,4 @@ To change the number of events shown per page in Patch My PC (PMPC) Cloud:
 
 Click the down arrow beside **Items per page** in the footer of the **Events** page and choose the required number.
 
-![Choosing the number of events shown per page](/_images/image-(1501).png "Choosing the number of events shown per page")
+![Choosing the number of events shown per page](/_images/image-(1501 "Choosing the number of events shown per page").png)

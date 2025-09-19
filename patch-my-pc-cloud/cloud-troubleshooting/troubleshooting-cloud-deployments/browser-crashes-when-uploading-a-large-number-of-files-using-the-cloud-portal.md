@@ -20,7 +20,7 @@ If you try to upload more than 1000 files at once, the upload will fail with the
 
 > You have selected too many files (available: 1000)
 
-![](/_images/image-(2600).png "")
+![](/_images/image-(2600).png)
 
 ### RESOLUTION
 
@@ -32,11 +32,11 @@ Then, when you deploy the app, you can configure a Pre-Installation script using
 
 Consider the scenario mentioned above, where you have a folder named "**MyFolder**" containing 3,000 files totaling 3GB. This folder should be available in the cache folder alongside the installer during installation.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>If your scenario differs from the above, you should adjust the example scripts, ensuring you thoroughly test them. We provide no support for them or accept any liability for their use, which you do at your own risk.</p>
-<p>Please test these scripts thoroughly outside of the PMPC portal to ensure they work as expected before using them in your instance of the portal.</p>
-</blockquote>
+> **Note**
+>
+> If your scenario differs from the above, you should adjust the example scripts, ensuring you thoroughly test them. We provide no support for them or accept any liability for their use, which you do at your own risk.
+>
+> Please test these scripts thoroughly outside of the PMPC portal to ensure they work as expected before using them in your instance of the portal.
 
 #### Step 1: Compress the Folder into a ZIP File
 
@@ -55,16 +55,15 @@ After running this script, a file named **C:\Temp\MyFolder.zip** will be created
 
 Create your Custom App or upload the ZIP archive as an **Extra File** in a deployment.
 
-![Adding the “MyFolder.zip” as an Extra File](/_images/image-(2381).png "Adding the “MyFolder.zip” as an Extra File")
+![Adding the "MyFolder.zip" as an Extra File](/_images/image-(2381 "Adding the \"MyFolder.zip\" as an Extra File").png)
 
 #### Step 3: Extract the ZIP Archive During Deployment
 
 During the app deployment step, specify a script to extract the ZIP archive in the same folder. The script below uses the **$PSScriptRoot** automatic variable to determine the correct extraction path.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>**$PSScriptRoot** is an automatic variable in PowerShell that represents the folder where the script is located. This ensures the ZIP file is extracted in the same location as the installation files.</p>
-</blockquote>
+> **Note**
+>
+> **$PSScriptRoot** is an automatic variable in PowerShell that represents the folder where the script is located. This ensures the ZIP file is extracted in the same location as the installation files.
 
 `# Define the path to the zip file`\
 `$zipFilePath = Join-Path -Path $PSScriptRoot -ChildPath 'MyFolder.zip'`\
@@ -77,7 +76,7 @@ During the app deployment step, specify a script to extract the ZIP archive in t
 
 Upload the extraction script as a Pre-Install Script in your deployment settings.
 
-![Uploading the extraction script as a Pre-Install Script in your deployment settings](/_images/image-(2382).png "Uploading the extraction script as a Pre-Install Script in your deployment settings")
+![Uploading the extraction script as a Pre-Install Script in your deployment settings](/_images/image-(2382 "Uploading the extraction script as a Pre-Install Script in your deployment settings").png)
 
 #### Step 5: Create the Deployment and Test
 

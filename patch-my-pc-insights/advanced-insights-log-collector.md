@@ -4,22 +4,25 @@ _Applies to: Patch My PC Advanced Insights_
 
 Sometimes we need you to provide log files, including information about your Advanced Insights instance. Your Advanced Insights deployment includes the Log Collector executable that can be used to collect all required logs.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>The Advanced Insights Log Collector is located at:</p>
-<p>_`%Advanced Insights Install Directory%`_`\Api\LogCollector\AdvancedInsightsLogDiag.exe`\</p>
-<p>For example:</p>
-<p>`C:\Program Files (x86)\Advanced Insights\Api\LogCollector\AdvancedInsightsLogDiag.exe`</p>
-</blockquote>
+> **Note**
+>
+> The Advanced Insights Log Collector is located at:
+>
+> \_\`%Advanced Insights Install Directory%\`\_\`\Api\LogCollector\AdvancedInsightsLogDiag.exe\`\\
+>
+> For example:
+>
+> \`C:\Program Files (x86)\Advanced Insights\Api\LogCollector\AdvancedInsightsLogDiag.exe\`
 
-<blockquote class="wp-block-quote">
-<p>The Log Collector can be executed manually and is also used within the Advanced Insights installer. Once the log collection process is completed, a zip file is created on the desktop called:</p>
-<p>**AdvancedInsights\_Diag\_xxxxxxxx\_xxxxxx.zip**</p>
-<p>This ZIP should be shared with Patch My PC technical support.</p>
-<p>_Example output:_</p>
-</blockquote>
+> The Log Collector can be executed manually and is also used within the Advanced Insights installer. Once the log collection process is completed, a zip file is created on the desktop called:
+>
+> **AdvancedInsights\\\_Diag\\\_xxxxxxxx\\\_xxxxxx.zip**
+>
+> This ZIP should be shared with Patch My PC technical support.
+>
+> \_Example output:\_
 
-![](/_images/image-(1926).png "Advanced Insights log collection output.")
+![](/_images/image-(1926).png)
 
 **This page provides details about what information the AdvancedInsightsLogDiag.exe collects.**
 
@@ -29,15 +32,15 @@ The contents of the following directory are collected, which consist of the 'Adv
 
 C:\ProgramData\AdvancedInsights\Logs
 
-![](/_images/image-(1924).png "Advanced Insights default logging directory")
+![](/_images/image-(1924).png)
 
 ### Windows Application Event Log
 
 The Windows Application Event log data is collected and output into 'Application\_EventLog.log' with a filter applied for the following event sources:
 
-* ".NET Runtime"&#x20;
+* ".NET Runtime"
 * "Advanced Insights"
-* "MsiInstaller" - if required to diagnose install problems, the filter will include&#x20;
+* "MsiInstaller" - if required to diagnose install problems, the filter will include
 
 ### Advanced Insights SQLite db
 
@@ -52,7 +55,7 @@ The following information is queried from the SQL Server instance where the Conf
 **SQL Master db:**
 
 * Configuration Manager database name
-* &#x20;Configuration Manager databaste state (ONLINE/OFFLINE)
+* Configuration Manager databaste state (ONLINE/OFFLINE)
 * Configuration Manager database compatibility level
 * Configuration Manager database .mdf file path
 * Configuration Manager database file size
@@ -75,7 +78,7 @@ The following information is queried from the SQL Server instance where the Conf
 **Configuration Manager SQL database:**
 
 * Advanced Insights Inventory Extensions class names and data counts.
-* Advanced Insights Inventory Extensions Configuration Manager application information. For    example 'Name', 'created date', 'version', 'number of deployments'.
+* Advanced Insights Inventory Extensions Configuration Manager application information. For example 'Name', 'created date', 'version', 'number of deployments'.
 * Configuration Manager database level SQL configured properties:
   * MAXDOP
   * LEGACY\_CARDINALITY\_ESTIMATION

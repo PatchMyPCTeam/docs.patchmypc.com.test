@@ -6,9 +6,7 @@ description: Modify configuration.
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-<blockquote class="wp-block-quote">
-<p>The ability to use the modify feature is supported in version 2.1.0 and later.</p>
-</blockquote>
+> The ability to use the modify feature is supported in version 2.1.0 and later.
 
 The following configurations can be modified for an existing Advanced Insights deployment.\
 \
@@ -24,16 +22,16 @@ If the install executable version that was originally used to deploy Advanced In
 
 Click **'Modify'**
 
-![](/_images/image-(716).png "Advanced Insights - Add - Remove Programs entry.")
+![](/_images/image-(716).png)
 
 Click **'Yes'**
 
-![](/_images/image-(717).png "UAC Prompt")
+![](/_images/image-(717).png)
 
 Click **'Modify'**
 
-![](/_images/image-(718).png "Advanced Insights installer maintenance dialog")
+![](/_images/image-(718).png)
 
 Select the required modification option checkbox to enable the related 'Change' button
 
-![](/_images/vmconnect_w0AaMZPkHy.png)
+![](/_images/vmconnect_w0AaMZPkHy-(1).png>)

@@ -4,8 +4,6 @@ description: Associating roles in Advanced Insights to Active Directory Groups
 
 # Advanced Insights Active Directory Group to Role Assignment
 
-
-
 _Applies to: Patch My PC Advanced Insights_
 
 Active Directory Group Authentication enables the Advanced Insights administrator to associate Advanced Insights Roles with AD Security Groups. This ensures that a new user is automatically granted the relevant rights in the portal without the need for manual user creation.
@@ -26,7 +24,7 @@ Navigate to **Administration** > **Roles**.
 
 Now click the Permissions tab and select the pages and permissions you want to grant to this role.
 
-![](/_images/image-(1226).png "Role Permissions")
+![](/_images/image-(1226).png)
 
 Logging on with an account in the helpdesk role, the user is granted only the access stated in the role configuration:
 
