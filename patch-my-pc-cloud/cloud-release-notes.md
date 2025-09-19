@@ -8,22 +8,16 @@ _Applies to: Patch My PC Cloud_
 
 Details the production release history for Patch My PC (PMPC) Cloud, the most recent release being shown first.
 
-{% hint style="info" %}
-**Note**
-
-We aim to release new features, updates, and fixes at 12:00 CEST every Wednesday.
-
-_Production Release_ means we have released that item to our Production environment i.e. customers can access it, although a specific feature maybe in one of the following three production states:\
-
-
-* Private Preview, which is invitation only.
-* Public Preview for which you will need to have [Preview Features enabled](cloud-administration/manage-your-cloud-company/enable-cloud-preview-features.md) in your company to access it.
-* General Availability which is available to everyone.&#x20;
-
-Please see the relevant docs for a feature for more information which will indicate the state of the feature.
-
-You can also access this page from within the Cloud Portal by clicking the support button (!["support" button](<../.gitbook/assets/image (587).png>)) in the header area and selecting **Release Notes**.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>We aim to release new features, updates, and fixes at 12:00 CEST every Wednesday.</p>
+<p>_Production Release_ means we have released that item to our Production environment i.e. customers can access it, although a specific feature maybe in one of the following three production states:\</p>
+<p>* Private Preview, which is invitation only.</p>
+<p>* Public Preview for which you will need to have [Preview Features enabled](cloud-administration/manage-your-cloud-company/enable-cloud-preview-features.md) in your company to access it.</p>
+<p>* General Availability which is available to everyone.&#x20;</p>
+<p>Please see the relevant docs for a feature for more information which will indicate the state of the feature.</p>
+<p>You can also access this page from within the Cloud Portal by clicking the support button (!["support" button](/_images/image-(587 "\"support\" button").png>)) in the header area and selecting **Release Notes**.</p>
+</blockquote>
 
 ### Week of August 6<sup>th</sup>, 2025
 
@@ -941,11 +935,10 @@ No release.
 
 * **Discovery –** The [Discovery ](discovery-in-cloud/)feature is now available in Public Preview. This feature lets you see which apps in our App Catalog are installed in your environment, including any Binary Free Apps or Custom Apps you may have added.
 
-{% hint style="info" %}
-**Note**
-
-As this is a preview feature, you must [Enable Preview Features](cloud-administration/manage-your-cloud-company/enable-cloud-preview-features.md) for the **Discovery** node to appear in your portal.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>As this is a preview feature, you must [Enable Preview Features](cloud-administration/manage-your-cloud-company/enable-cloud-preview-features.md) for the **Discovery** node to appear in your portal.</p>
+</blockquote>
 
 * **Folder installation log now shown –** We now show the path to the installation log in the new **Installation Logging** section of the **Summary** tab. We currently do not support changing this.
 
@@ -957,11 +950,10 @@ As this is a preview feature, you must [Enable Preview Features](cloud-administr
 
 ### 11th September 2024
 
-{% hint style="info" %}
-**Note**
-
-No public facing changes were made on the 4th September.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>No public facing changes were made on the 4th September.</p>
+</blockquote>
 
 #### New Features
 
