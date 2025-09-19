@@ -7,7 +7,7 @@ description: Advanced Insights ConfigMgr SQL Permissions requirements
 _Applies to: Patch My PC Advanced and Patch Insights_
 
 <blockquote class="wp-block-quote">
-<p>If Advanced Insights is installed on your ConfigMgr site server, then you should not need to do any SQL permissions configuration.</p>
+<p>If Advanced Insights is installed on your ConfigMgr site server, then you should not need to do any SQL permissions configuration.&#x20;</p>
 <p>The Advanced Insights IIS Application Pools can run as the local computer Identity, which has ConfigMgr SQL database access by default. If Advanced Insights is installed on the same server as Config Manager database this account will show as NT Authority\System in SSMS, else if on a different server it will show as the hostname of the server Advanced Insights is installed on.</p>
 <p>Alternatively, a custom ID can be used. See: [advanced-insights-iis-application-pool-identity.md](advanced-insights-iis-application-pool-identity.md "mention")</p>
 </blockquote>
@@ -39,7 +39,7 @@ EXEC ('USE' +' '+@CMDBNAME+';' + 'ALTER ROLE db_datareader ADD MEMBER' + @LOGIN)
 
 ### Option 2 - Using a user account for Advanced Insights
 
-Advanced Insights access to the Configuration Manager SQL database can be configured to use a Active Directory user account. This account is set as the IIS application pool identity.
+Advanced Insights access to the Configuration Manager SQL database can be configured to use a Active Directory user account. This account is set as the IIS application pool identity.&#x20;
 
 See: [advanced-insights-iis-application-pool-identity.md](advanced-insights-iis-application-pool-identity.md "mention")
 

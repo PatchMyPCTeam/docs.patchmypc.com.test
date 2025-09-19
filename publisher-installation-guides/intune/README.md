@@ -26,6 +26,8 @@ Here are a few important resources below to get you started.
 <p><a href="https://patchmypc.com/setup-call">https://patchmypc.com/setup-call</a></p>
 </blockquote>
 
+
+
 ### Video Installation Guide
 
 If you prefer using a video guide, you can watch the video version below.

@@ -33,7 +33,7 @@ When installing the Publisher for an Intune-only configuration, ensure you meet 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
 <p>The Publisher displays the following dialog if the WSUS prerequisites are not installed:\</p>
-<p>**Windows Server Update Services is not installed.**</p>
+<p>&#x20;         **Windows Server Update Services is not installed.**</p>
 <p>See the <a href="https://patchmypc.com/windows-server-update-services-not-installed">Windows Server Update Services is not installed</a> Knowledge Base article for details on how to resolve this.</p>
 </blockquote>
 

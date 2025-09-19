@@ -51,9 +51,9 @@ _Applies to: Patch My PC Advanced Insights_
 
 **BatteryID:** String identifying the battery.
 
-**DesignCapacity:** The design capacity of the battery in milliwatt-hours.
+**DesignCapacity:** The design capacity of the battery in milliwatt-hours.&#x20;
 
-**FullChargeCapacity:** The full charge capacity of the battery in milliwatt-hours.
+**FullChargeCapacity:** The full charge capacity of the battery in milliwatt-hours.&#x20;
 
 **Health:** Comparison of the FullChargeCapacity to the DesignCapacity property is used to determine the health of the battery. (100 = Healthy)
 
@@ -109,7 +109,7 @@ _Applies to: Patch My PC Advanced Insights_
 
 **GroupName:** Name of the local group.
 
-**Members:** List of user members belonging to that local group.
+**Members:** List of user members belonging to that local group.&#x20;
 
 **GroupMembers:** List of sub groups that are members of the local group
 
@@ -148,7 +148,7 @@ _Applies to: Patch My PC Advanced Insights_
 
 **ConnectionType:** The cable used to connect to monitor
 
-**Primary:** Whether this monitor is configured as the primary display. True or False.
+**Primary:** Whether this monitor is configured as the primary display. True or False.&#x20;
 
 **ResolutionHorizontal:** Maximum horizontal pixel count
 
@@ -200,7 +200,7 @@ _Applies to: Patch My PC Advanced Insights_
 
 **Cipher:** Encryption cipher used (e.g., AES, TKIP)
 
-**ConnectionMode:** Mode of connection
+**ConnectionMode:** Mode of connection&#x20;
 
 **Driver Version:** Version of the driver software controlling the interface
 
@@ -227,6 +227,8 @@ _Applies to: Patch My PC Advanced Insights_
 **AccountName:** Name of the user account
 
 **SizeGB:** Size of the user profile in gigabytes
+
+
 
 ***
 

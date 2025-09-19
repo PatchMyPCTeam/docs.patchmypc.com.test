@@ -4,7 +4,7 @@ _Applies to: Custom Apps_
 
 The Custom Apps Uninstall feature of Patch My PC (PMPC) is designed to simplify the uninstallation of custom applications. It works by leveraging specific uninstall strings found in the Windows registry.
 
-### QuietUninstallString
+### QuietUninstallString&#x20;
 
 If available, this is prioritized as it typically specifies a silent or automated uninstall command.
 

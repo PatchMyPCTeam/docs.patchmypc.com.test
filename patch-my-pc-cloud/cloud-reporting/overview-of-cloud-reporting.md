@@ -16,7 +16,7 @@ The **Reporting** node consists of the following sub-nodes, each of which contai
 * **Dashboard -** Contains a summary of all of the information from the other tabs.
 * **Software Updates -** Contains a summary of the most common software update-related information.
 * **Hardware -** Contains a summary of the most common hardware-related information.
-* **Intune -** Contains a summary of the most common information from your Intune tenant.
+* **Intune  -** Contains a summary of the most common information from your Intune tenant.
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
