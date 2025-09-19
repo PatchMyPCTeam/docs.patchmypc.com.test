@@ -163,10 +163,6 @@ jobs:
               print("No <figure> blocks to convert.")
           PY
       
-      
-      
-      
-      
 
       # 4) Normalize any remaining image links to /_images/<no-spaces>, remove prefixes/subfolders, convert bare <img> too
       - name: Normalize ALL image links to ![alt](/_images/<slug> "alt") exactly
@@ -307,6 +303,18 @@ jobs:
               o = s
 
               s = html_img.sub(lambda m: build_md(m.group(2) or "", m.group(1)), s)
+              # --- NEW: rewrite any inline MD image whose URL still points to .gitbook/assets
+                md_img_gitbook = re.compile(
+                r'!\[([^\]]*)\]\('          # alt
+                r'\s*<?'
+                r'([^)\r\n]*?\.gitbook/assets[^)\r\n]+?)'  # URL token that contains .gitbook/assets
+                r'>?'
+                r'(?:\s+"[^"]*")?'          # optional title (ignored; we set title=alt later)
+                r'\s*\)',
+                re.I
+                )
+              s = md_img_gitbook.sub(lambda m: build_md(m.group(1), m.group(2)), s)
+  
               s = md_img_inline.sub(lambda m: build_md(m.group(1), m.group(3)), s)
               s = convert_hint_blocks(s)
 
@@ -394,71 +402,82 @@ jobs:
           import re, glob, sys
 
           exts   = r"(png|jpe?g|gif|webp|svg|gifv)"
-          is_img = re.compile(rf"\.({exts})(?:$|\?)", re.I)
-
-          # Inline MD
-          md_img_inline = re.compile(
-            r'!\[([^\]]*)\]'           # alt text
+            is_img = re.compile(rf"\.({exts})(?:$|\?)", re.I)
+            
+            md_img_inline = re.compile(
+            r'!\[([^\]]*)\]'
             r'\('
             r'\s*<?'
-            r'("?)([^)\r\n]+?)\1'      # group 3 = URL only
-            r'>?'                      # optional >, not captured
+            r'("?)([^)\r\n]+?)\1'
+            r'>?'
             r'(?:\s+"[^"]*")?'
             r'\s*\)',
             re.I
-          )
-          # HTML
-          html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
-          # Loose ref def (line-by-line)
-          ref_def_loose = re.compile(
-              r'(\[([^\]]+)\]\s*:\s*)' r'<?("?)([^>\r\n]+?)\3>?' r'(\s+"[^"]*")?\s*$',
-              re.I
-          )
-
+            )
+            html_src = re.compile(r'\bsrc=["\']([^"\']+)["\']', re.I)
+            ref_def_loose = re.compile(
+            r'(\[([^\]]+)\]\s*:\s*)' r'<?("?)([^>\r\n]+?)\3>?' r'(\s+"[^"]*")?\s*$',
+            re.I
+            )
+          
           def bad(u: str) -> bool:
-              u = u.strip()
-              if u.startswith("http://") or u.startswith("https://"):
-                  return False  # ignore external images
-              if not is_img.search(u):
-                  return False
-              if not u.startswith("/_images/"):
-                  return True
-              rest = u[len("/_images/"):]
-              if "/" in rest:
-                  return True
-              if " " in u:
-                  return True
-              return False
-
-          bads = []
-          files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
-                   for p in glob.glob(g, recursive=True)]
+                       u = u.strip()
+                       if u.startswith("http://") or u.startswith("https://"):
+                         return False
+                       if not is_img.search(u):
+                         return False
+                       if not u.startswith("/_images/"):
+                         return True
+                       rest = u[len("/_images/"):]
+                       if "/" in rest:
+                         return True
+                       if " " in u:
+                         return True
+                       return False
+            
+            bads = []
+            files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
+            for p in glob.glob(g, recursive=True)]
+            
+            fence_re = re.compile(r'^\s*```')
           for p in files:
-              with open(p, encoding="utf-8") as f:
-                  s = f.read()
-
-              # Inline MD
-              for m in md_img_inline.finditer(s):
-                  u = m.group(2).strip()
-                  if bad(u): bads.append((p, u))
-
-              # HTML
-              for u in html_src.findall(s):
-                  if bad(u): bads.append((p, u))
-
-              # Ref defs
-              for ln in s.splitlines():
-                  m = ref_def_loose.search(ln)
-                  if m:
-                      u = m.group(4).strip()
-                      if bad(u): bads.append((p, u))
-
+            with open(p, encoding="utf-8") as f:
+              lines = f.read().splitlines()
+            
+            fenced = False
+            # 1) Inline MD and HTML scans, skipping fenced blocks
+            for ln in lines:
+              if fence_re.match(ln):
+                fenced = not fenced
+                continue
+              if fenced:
+                continue
+              
+              for m in md_img_inline.finditer(ln):
+                u = m.group(2).strip()
+                if bad(u): bads.append((p, u))
+              for u in html_src.findall(ln):
+                if bad(u): bads.append((p, u))
+            
+            # 2) Ref defs: also skip if the def line is fenced
+            fenced = False
+            for ln in lines:
+              if fence_re.match(ln):
+                fenced = not fenced
+                continue
+              if fenced:
+                continue
+              m = ref_def_loose.search(ln)
+              if m:
+                u = m.group(4).strip()
+                if bad(u): bads.append((p, u))
+          
           if bads:
-              print("Non-compliant image links:")
-              for p, u in bads:
-                  print(f"- {p}: {u}")
+            print("Non-compliant image links:")
+            for pth, u in bads:
+              print(f"- {pth}: {u}")
               sys.exit(1)
-
+          
           print("All local image links are /_images/<file> with no spaces and no subfolders. External URLs are ignored.")
           PY
       
