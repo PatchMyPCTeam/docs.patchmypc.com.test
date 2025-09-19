@@ -6,10 +6,11 @@ description: Definition and technical description of each of our custom WMI Clas
 
 _Applies to: Patch My PC Advanced Insights_
 
-<blockquote class="wp-block-quote">
-<p><mark style="color:yellow;">**Properties marked with \***</mark></p>
-<p><mark style="color:yellow;">These properties can vary by hardware manufacturer. Data generation methods may differ between manufacturers and not all manufacturers may be supported. Users should consult the manufacturer's documentation for accurate interpretation of these properties where applicable.</mark></p>
-</blockquote>
+{% hint style="info" %}
+<mark style="color:yellow;">**Properties marked with \***</mark>
+
+<mark style="color:yellow;">These properties can vary by hardware manufacturer. Data generation methods may differ between manufacturers and not all manufacturers may be supported. Users should consult the manufacturer's documentation for accurate interpretation of these properties where applicable.</mark>
+{% endhint %}
 
 ***
 
@@ -51,9 +52,9 @@ _Applies to: Patch My PC Advanced Insights_
 
 **BatteryID:** String identifying the battery.
 
-**DesignCapacity:** The design capacity of the battery in milliwatt-hours.
+**DesignCapacity:** The design capacity of the battery in milliwatt-hours.&#x20;
 
-**FullChargeCapacity:** The full charge capacity of the battery in milliwatt-hours.
+**FullChargeCapacity:** The full charge capacity of the battery in milliwatt-hours.&#x20;
 
 **Health:** Comparison of the FullChargeCapacity to the DesignCapacity property is used to determine the health of the battery. (100 = Healthy)
 
@@ -109,7 +110,7 @@ _Applies to: Patch My PC Advanced Insights_
 
 **GroupName:** Name of the local group.
 
-**Members:** List of user members belonging to that local group.
+**Members:** List of user members belonging to that local group.&#x20;
 
 **GroupMembers:** List of sub groups that are members of the local group
 
@@ -119,12 +120,13 @@ _Applies to: Patch My PC Advanced Insights_
 
 ### PMPC\_Dock
 
-<blockquote class="wp-block-quote">
-<p>Please note that collection of this data requires additional software from the vendors to be installed on clients:</p>
-<p>* HP - <a href="https://www.hp.com/us-en/solutions/client-management-solutions/download.html">HP Dock Accessory Provider</a></p>
-<p>* Lenovo - <a href="https://pcsupport.lenovo.com/us/el/solutions/ht037099">Lenovo Dock Manager</a></p>
-<p>* DELL - <a href="https://www.dell.com/support/kbdoc/en-us/000177080/dell-command-monitor">Dell Command Monitor</a> (or DSIA)</p>
-</blockquote>
+{% hint style="warning" %}
+Please note that collection of this data requires additional software from the vendors to be installed on clients:
+
+* HP - [HP Dock Accessory Provider](https://www.hp.com/us-en/solutions/client-management-solutions/download.html)
+* Lenovo - [Lenovo Dock Manager](https://pcsupport.lenovo.com/us/el/solutions/ht037099)
+* DELL - [Dell Command Monitor](https://www.dell.com/support/kbdoc/en-us/000177080/dell-command-monitor) (or DSIA)
+{% endhint %}
 
 **DeviceName:** Identified name of the dock device.
 
@@ -148,7 +150,7 @@ _Applies to: Patch My PC Advanced Insights_
 
 **ConnectionType:** The cable used to connect to monitor
 
-**Primary:** Whether this monitor is configured as the primary display. True or False.
+**Primary:** Whether this monitor is configured as the primary display. True or False.&#x20;
 
 **ResolutionHorizontal:** Maximum horizontal pixel count
 
@@ -200,7 +202,7 @@ _Applies to: Patch My PC Advanced Insights_
 
 **Cipher:** Encryption cipher used (e.g., AES, TKIP)
 
-**ConnectionMode:** Mode of connection
+**ConnectionMode:** Mode of connection&#x20;
 
 **Driver Version:** Version of the driver software controlling the interface
 
@@ -228,19 +230,23 @@ _Applies to: Patch My PC Advanced Insights_
 
 **SizeGB:** Size of the user profile in gigabytes
 
+
+
 ***
 
 ### PMPC\_BrowserExtension
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>Supported Browsers:</p>
-<p>* Chrome</p>
-<p>* Edge</p>
-<p>* Brave</p>
-<p>* Firefox</p>
-<p>* Opera</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+Supported Browsers:
+
+* Chrome
+* Edge
+* Brave
+* Firefox
+* Opera
+{% endhint %}
 
 **InstallPath:** Path of the extension content and manifest
 

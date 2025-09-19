@@ -10,13 +10,13 @@ To manage deployments:
 2.  Navigate to the **Deployments** node.\
 
 
-    ![Navigating to the "Deployments" page](/_images/image-(1457 "Navigating to the \"Deployments\" page").png "Navigating to the “Deployments” page")
+    <figure><img src="../../../.gitbook/assets/image (1457).png" alt="Navigating to the “Deployments” page"><figcaption></figcaption></figure>
 
     \
     The **Deployments** page is displayed.\
 
 
-    ![The "Deployments" page](/_images/image-(1458 "The \"Deployments\" page").png "The “Deployments” page")
+    <figure><img src="../../../.gitbook/assets/image (1458).png" alt="The “Deployments” page"><figcaption></figcaption></figure>
 
 Clicking the ellipsis (**⋮**) beside a deployment opens the management menu, allowing you to:
 
@@ -25,7 +25,8 @@ Clicking the ellipsis (**⋮**) beside a deployment opens the management menu, a
 * [Sort deployments](sort-cloud-deployments.md)
 * [Delete a deployment](delete-a-cloud-deployment.md)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>See [View a Deployment’s Properties](view-a-cloud-deployments-properties.md) for more details on how to view the properties of a deployment.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+See [View a Deployment’s Properties](view-a-cloud-deployments-properties.md) for more details on how to view the properties of a deployment.
+{% endhint %}
