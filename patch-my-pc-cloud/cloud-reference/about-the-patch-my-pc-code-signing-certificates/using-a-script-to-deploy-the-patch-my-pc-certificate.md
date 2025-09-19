@@ -13,11 +13,10 @@ To deploy our code signing certificate using a script, first download our script
 
 [https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing](https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing)
 
-{% hint style="info" %}
-**Note**
-
-You can find out more details about these scripts and what they do by reviewing the [ReadMe.md](https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing#readme) file included with the scripts.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>You can find out more details about these scripts and what they do by reviewing the <a href="https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing#readme">ReadMe.md</a> file included with the scripts.</p>
+</blockquote>
 
 ### Certificates to Deploy
 
@@ -92,7 +91,7 @@ You can see the script being processed by the Intune Management Extension by loo
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs
 ```
 
-<figure><img src="../../../.gitbook/assets/image (648).png" alt="“IntuneManagementExtension.log” showing the script being processed by the Intune Management Extension" width="563"><figcaption></figcaption></figure>
+!["IntuneManagementExtension.log" showing the script being processed by the Intune Management Extension](/_images/image-(648 "\"IntuneManagementExtension.log\" showing the script being processed by the Intune Management Extension").png "“IntuneManagementExtension.log” showing the script being processed by the Intune Management Extension")
 
 ### Using a proactive remediation
 
@@ -152,16 +151,16 @@ You can see the script being processed by the Intune Management Extension by loo
 
 Observe the **Proactive Remediation Device Status** blade.
 
-<figure><img src="../../../.gitbook/assets/image (649).png" alt="Observing the “Proactive Remediation Device Status” blade." width="563"><figcaption></figcaption></figure>
+![Observing the "Proactive Remediation Device Status" blade.](/_images/image-(649 "Observing the \"Proactive Remediation Device Status\" blade.").png "Observing the “Proactive Remediation Device Status” blade.")
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script found the certificate already installed in the local computer’s Trusted Publishers store.
 
-<figure><img src="../../../.gitbook/assets/image (650).png" alt="“HealthScripts.log” snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine’s Trusted Publishers store." width="563"><figcaption></figcaption></figure>
+!["HealthScripts.log" snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine's Trusted Publishers store.](/_images/image-(650 "\"HealthScripts.log\" snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine's Trusted Publishers store.").png "“HealthScripts.log” snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine’s Trusted Publishers store.")
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is **1**).
 
-<figure><img src="../../../.gitbook/assets/image (651).png" alt="“HealthScripts.log” snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is 1)." width="563"><figcaption></figcaption></figure>
+!["HealthScripts.log" snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine's Trusted Publishers store (the Exit code of the script is 1).](/_images/image-(651 "\"HealthScripts.log\" snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine's Trusted Publishers store (the Exit code of the script is 1).").png "“HealthScripts.log” snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is 1).")
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is **0**).
 
-<figure><img src="../../../.gitbook/assets/image (652).png" alt="“HealthScripts.log” snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0)." width="563"><figcaption></figcaption></figure>
+!["HealthScripts.log" snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine's Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0).](/_images/image-(652 "\"HealthScripts.log\" snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine's Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0).").png "“HealthScripts.log” snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0).")
