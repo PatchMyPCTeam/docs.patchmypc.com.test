@@ -24,7 +24,7 @@ You can view the release history for Advanced Insights on our [release history p
 
 Start the installation by double-clicking the downloaded AdvancedInsights.exe
 
-![](/_images/image-(1105).png "")
+![](/_images/image-(1105).png)
 
 #### Prerequisites Screen
 

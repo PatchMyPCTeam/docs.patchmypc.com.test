@@ -171,7 +171,7 @@ When you click on Import assets only from Intune groups, you will be presented w
 
 Intune will now begin importing your selected devices. You will receive a notification on begin and completion of the import.&#x20;
 
-![](/_images/image-(1850).png "")
+![](/_images/image-(1850).png)
 
 You can also check progress by navigating to the logs link on the left hand side.&#x20;
 

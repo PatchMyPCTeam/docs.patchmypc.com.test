@@ -19,7 +19,7 @@ To onboard to Patch My PC (PMPC) Cloud:
 
 5. If the **Permission requested** screen is not displayed, go to Step 7.
 
-![](/_images/image-(1506).png "")
+![](/_images/image-(1506).png)
 
 6. Review the **Permission requested** screen, clicking **Accept** if you are happy to continue.
 
@@ -60,7 +60,7 @@ To onboard to Patch My PC (PMPC) Cloud:
 
     3. If your email address is not associated with a user in a PMPC Cloud company, you can click **Request Access** beside the company you want to join.
 
-    ![](/_images/image-(538).png "")
+    ![](/_images/image-(538).png)
 
     \
     The **Request Access to join&#x20;**_**\<company\_name>**_ popup appears.\
@@ -114,7 +114,7 @@ To onboard to Patch My PC (PMPC) Cloud:
 
 14. Click the **Terms and Conditions** link to see these for using PMPC software and services.
 
-![](/_images/image-(810).png "")
+![](/_images/image-(810).png)
 
 The **Terms and Conditions** page is displayed. Once you’ve reviewed them, click the **X** in the top right-hand corner to close this window.
 

@@ -54,7 +54,7 @@ To remove the Intune connection for a Child Company:
     The portal refreshes to show the child company has been selected as the **Managed By <**_**msp\_name**_**>** indicator is shown in the header.\
 
 
-    ![](/_images/image-(369).png "")
+    ![](/_images/image-(369).png)
 5.  If the child company is no longer required and is going to be deleted, proceed to Step 6.\
     \
     If the child company is not going to be deleted, you should navigate to the **Users** node and follow the [Invitation from an Administrator](../../../cloud-administration/manage-cloud-users/add-a-cloud-user.md#invitation-from-an-administrator) process to add at least one user who is a member of the child company.\
@@ -102,14 +102,14 @@ Once the Intune connection for a Child Company has been removed, to delete a chi
     \
 
 
-    ![](/_images/image-(2100).png "")
+    ![](/_images/image-(2100).png)
 
     \
     The portal refreshes to show the child company has been deleted and the **Success – Customer <**_**child\_company\_name**_**> deleted** notification is shown.\
     \
 
 
-    ![](/_images/image-(2101).png "")
+    ![](/_images/image-(2101).png)
 
 ### Unlink a Child Company
 

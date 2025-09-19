@@ -15,7 +15,7 @@ The Patch My PC Return on Investment (ROI) tool helps identify the products supp
 <p>At this time, the ROI Tool does not support Intune scanning for GCC High and DoD tenants</p>
 </blockquote>
 
-![](/_images/image-(1278).png "")
+![](/_images/image-(1278).png)
 
 ## Download
 

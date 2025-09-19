@@ -44,7 +44,7 @@ To update an individual Update Ring to a later version:
     The portal refreshes showing that the deployment is **In Progress** and the **Success – Ring <**_**ring\_name**_**>** updated notification is shown.\
 
 
-    ![](/_images/image-(2148).png "")
+    ![](/_images/image-(2148).png)
 
     \
     Once the deployment has completed successfully, if you navigate back to the ring, you will see the version number has changed and the **Update Now** button is unavailable.\

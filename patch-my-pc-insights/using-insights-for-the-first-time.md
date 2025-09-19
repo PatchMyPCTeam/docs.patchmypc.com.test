@@ -22,7 +22,7 @@ The welcome screen needs your Patch My PC license key and your ConfigMgr site se
 
 If Advanced Insights is installed on the same server as the Patch My PC Publisher we will read the license key automatically. Alternatively, please add your license key and click to verify.&#x20;
 
-![](/_images/image-(1109).png "")
+![](/_images/image-(1109).png)
 
 ### Configuration Manager Database Details
 
@@ -32,8 +32,8 @@ As long as the IIS application pool identity running the Advanced Insights Contr
 
 If you have a problem at this stage, please see [this document ](insights-sql-permission-requirements.md)for details on granting SQL permissions.
 
-![](/_images/image-(1106).png "")
+![](/_images/image-(1106).png)
 
 Once the license key and SQL sections are successfully completed, click **Go to Dashboard** in the final step to complete setup.
 
-![](/_images/image-(1138).png "")
+![](/_images/image-(1138).png)

@@ -31,7 +31,7 @@ To update the version of a Binary Free App from the notification email:
     \
 
 
-    ![](/_images/image-(403).png "")
+    ![](/_images/image-(403).png)
 
 
 4.  On the **Upload File Installer** screen, either:\

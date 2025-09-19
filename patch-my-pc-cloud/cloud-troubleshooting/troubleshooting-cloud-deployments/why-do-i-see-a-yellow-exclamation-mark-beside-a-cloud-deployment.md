@@ -18,7 +18,7 @@ Follow the relevant section for the error message you are seeing.
 
 #### Failed to add application with version ‘_\<version\_number>_’ to app limit reached’ ESP Profile.
 
-![](/_images/image-(2348).png "")
+![](/_images/image-(2348).png)
 
 This message is telling you that when the Sync Schedule ran, a new version of an app was detected, which we successfully deployed.
 
@@ -36,7 +36,7 @@ To resolve this issue, you need to use the Intune admin center and from the ESP 
 
 #### Failed to apply new parent dependency for the child app '<_app\_name_>' '<_app\_version_>'
 
-![](/_images/image-(2349).png "")
+![](/_images/image-(2349).png)
 
 This message is telling you that the deployment of a dependency for this app has failed.
 

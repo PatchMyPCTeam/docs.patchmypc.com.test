@@ -49,7 +49,7 @@ To deploy the same app with a different configuration:
 
 7. On the **Add <**_**assignment\_type**_**> Assignment** page, select the relevant options, then click **Save**.
 
-![](/_images/image-(2618).png "")
+![](/_images/image-(2618).png)
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -88,7 +88,7 @@ If you need to change something, click **< Prev** to backtrack through the Deplo
 
 The **Deployments** page is displayed along with the **Success - Created&#x20;**_**\<deployment\_name>**_ notification.
 
-![](/_images/image-(2624).png "")
+![](/_images/image-(2624).png)
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

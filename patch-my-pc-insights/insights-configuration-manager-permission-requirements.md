@@ -18,7 +18,7 @@ For various Configuration Manager **console actions** and **features** to work, 
 
 By default, the **IIS App Pools** run under the local computer account of your Advanced Insights Server.&#x20;
 
-![](/_images/image-(1320).png "")
+![](/_images/image-(1320).png)
 
 ***
 
@@ -28,7 +28,7 @@ By default, the **IIS App Pools** run under the local computer account of your A
 2. Choose the User/Computer account running your IIS App Pools. In our example we are adding the local computer account of our server named "SCCM"
 3. Assign them the **Operations Administrator** role[ (or optionally a custom role)](insights-configuration-manager-permission-requirements.md#use-a-custom-security-role-optional)
 
-![](/_images/image-(1095).png "")
+![](/_images/image-(1095).png)
 
 ***
 
@@ -40,7 +40,7 @@ If you wish to adhere to the "Principle of Least Privilege" then you can downloa
 
 To import the security role XML file, open the ConfigMgr console and navigate to **Administration** > **Security** > **Security Roles** > click **Import Security Role**.
 
-![](/_images/image-(1163).png "")
+![](/_images/image-(1163).png)
 
 ***
 

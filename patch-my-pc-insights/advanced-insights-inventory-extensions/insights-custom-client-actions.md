@@ -14,7 +14,7 @@ Clients with the Inventory Extensions MSI installed will support the use of our 
 
 If you see this message when using any of the custom client actions:
 
-![](/_images/image-(968).png "")
+![](/_images/image-(968).png)
 
 This means you have the "Additional Script Approver" setting enabled in ConfigMgr. To approve our script, please follow these steps:
 

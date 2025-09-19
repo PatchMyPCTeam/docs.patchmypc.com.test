@@ -77,7 +77,7 @@ The **You have successfully activated your license** dialog box is displayed on 
 
 11. Click **App Catalog** to see all of the applications that can be deployed and managed using Intune Apps for Cloud.
 
-![](/_images/image-(1736).png "")
+![](/_images/image-(1736).png)
 
 ### Reconnecting an Intune tenant
 

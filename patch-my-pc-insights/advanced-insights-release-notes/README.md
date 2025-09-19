@@ -311,7 +311,7 @@ You can now create new ConfigMgr collections using Advanced Insights. The Resour
 
 You can also create a collection from a device list and automatically add the selected clients to a new collection or add to an existing collection.
 
-![](/_images/image-(1932).png "")
+![](/_images/image-(1932).png)
 
 #### Delete user profile task
 

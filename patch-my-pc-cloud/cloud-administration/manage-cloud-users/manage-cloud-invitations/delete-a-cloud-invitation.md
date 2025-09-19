@@ -11,7 +11,7 @@ To delete an invitation from Patch My PC (PMPC) Cloud before it expires:
     The **Are you sure you want to delete the invitation for <**_**user\_name**_**>** dialog box appears.\
 
 
-    ![](/_images/image-(1642).png "")
+    ![](/_images/image-(1642).png)
 
 
 2.  Click **Yes** to confirm the deletion.\

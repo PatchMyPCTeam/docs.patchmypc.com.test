@@ -85,7 +85,7 @@ The hash for the file is calculated as the file is uploaded to your portal.
     \
     **Success Version <**_**version\_number**_**> has been successfully added to <**_**app\_name**_**>**.
 
-![](/_images/image-(483).png "")
+![](/_images/image-(483).png)
 
 If the previous version of the app was deployed successfully, depending on the configured assignments, the new version will be installed the next time the daily sync runs.
 

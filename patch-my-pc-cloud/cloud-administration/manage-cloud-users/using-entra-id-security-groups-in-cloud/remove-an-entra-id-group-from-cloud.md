@@ -32,7 +32,7 @@ To remove an Entra ID Security Group from PMPC Cloud:
 
 4. On the **Are you sure you want to delete <**_**group\_name**_**>** dialog box, click **Yes** to confirm the removal.
 
-![](/_images/image-(2237).png "")
+![](/_images/image-(2237).png)
 
 \
 The portal auto-refreshes to show the group has been removed and the **Success – Group deleted** notification is shown.

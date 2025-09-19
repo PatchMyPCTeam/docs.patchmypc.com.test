@@ -62,4 +62,4 @@ To edit the Update Rings configuration for a deployment:
     The **Deployments** node is redisplayed along with the **Success – Edited <**_**deployment\_name**_**>** notification.\
 
 
-    ![](/_images/image-(440).png "")
+    ![](/_images/image-(440).png)

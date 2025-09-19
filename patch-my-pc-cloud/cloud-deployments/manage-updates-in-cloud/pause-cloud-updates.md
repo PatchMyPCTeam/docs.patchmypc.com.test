@@ -36,7 +36,7 @@ To Pause Updates for an app:
     The list of deployments is displayed and **UPDATES PAUSED** shows under the deployment name so you updates are paused for this specific deployment.\
 
 
-    ![](/_images/image-(1999).png "")
+    ![](/_images/image-(1999).png)
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

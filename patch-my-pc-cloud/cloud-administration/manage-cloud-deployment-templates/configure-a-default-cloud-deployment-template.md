@@ -26,11 +26,11 @@ To configure the default template for all deployments to a specific OS platform:
 
 3. On the **Are you sure you want to set ‘<**_**template\_name**_**>’ template as the default** popup, click **Yes**.
 
-![](/_images/image-(263).png "")
+![](/_images/image-(263).png)
 
 The **Templates** page is redisplayed, showing that the selected template is now the default template for all new deployments created for the relevant OS platform, along with the **Success - Template “<**_**template\_name**_**>" successfully set as the default for <**_**platform**_**>** notification.
 
-![](/_images/image-(49).png "")
+![](/_images/image-(49).png)
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -47,8 +47,8 @@ If you have previously configured a default template but now do not want a defau
 
 2. On the A**re you sure you want to unset ‘<**_**template\_name**_**>’ template as the default** popup, click **Yes**.
 
-![](/_images/image-(266).png "")
+![](/_images/image-(266).png)
 
 The **Templates** page is redisplayed, showing that the selected template is no longer the default template for all new deployments created for the relevant OS platform, along with the **Success - Template “<**_**template\_name**_**>" successfully unset as the default for <**_**platform**_**>** notification.
 
-![](/_images/image-(52).png "")
+![](/_images/image-(52).png)

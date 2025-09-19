@@ -36,7 +36,7 @@ To configure a new deployment to use a template:
 
 The Deployment Wizard is redisplayed along with the **Success - Template ‘<**_**template\_name**_**>’ applied** notification.
 
-![](/_images/image-(2332).png "")
+![](/_images/image-(2332).png)
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

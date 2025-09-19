@@ -57,7 +57,7 @@ To add a new PMPC Cloud company to be managed using the MSP Feature:
 8.  Verify Intune has **Connected** successfully.\
 
 
-    ![](/_images/image-(2304).png "")
+    ![](/_images/image-(2304).png)
 
 
 9. On the **Create New Customer** page, enter the name of the customer to be managed in the **Customer Name** field.
@@ -90,4 +90,4 @@ To add a new PMPC Cloud company to be managed using the MSP Feature:
 
 The portal refreshes, showing the newly added customer and the **Success - Child Customer <**_**customer\_name**_**> created** notification.
 
-![](/_images/image-(2566).png "")
+![](/_images/image-(2566).png)

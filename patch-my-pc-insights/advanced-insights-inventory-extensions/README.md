@@ -25,7 +25,7 @@ To setup the Inventory Extensions, there are **two** actions to complete:
 <p>Seeing this message suggests you need to configure [Configuration Manager Permissions](../insights-configuration-manager-permission-requirements.md). We recommend configuring permissions instead of proceeding with a manual install.</p>
 </blockquote>
 
-![](/_images/image002-(2).png "")
+![](/_images/image002-(2).png)
 
 {% file src="../..//_images/AdvancedInsights_SMS_DEF-(1).mof" %}
 For manual import of Inventory Extension Classes into Hardware Inventory

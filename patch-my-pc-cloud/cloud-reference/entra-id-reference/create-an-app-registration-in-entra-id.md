@@ -97,7 +97,7 @@ To create an App Registration:
     11. On the **API permissions** screen, under the **Configured permissions** section, click **Grant admin consent for <**_**your\_tenant\_name**_**>**.\
 
 
-        ![](/_images/image-(552).png "")
+        ![](/_images/image-(552).png)
 
         \
 

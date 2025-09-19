@@ -26,7 +26,7 @@ To create an email notification:
     The email address is added to the list of email addresses that will be sent the notification.\
 
 
-    ![](/_images/image-(1916).png "")
+    ![](/_images/image-(1916).png)
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
@@ -48,7 +48,7 @@ To create an email notification:
     The **Success - Notification created** notification is shown.\
 
 
-    ![](/_images/image-(1920).png "")
+    ![](/_images/image-(1920).png)
 
     \
     The portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification.\

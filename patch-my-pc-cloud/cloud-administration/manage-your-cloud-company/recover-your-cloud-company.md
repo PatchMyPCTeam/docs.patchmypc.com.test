@@ -42,7 +42,7 @@ To recover a PMPC Company:
 2.  Navigate to [https://portal.patchmypc.com/](https://portal.patchmypc.com/)\
 
 
-    ![](/_images/image-(488).png "")
+    ![](/_images/image-(488).png)
 3. Click **Sign In** if the user attempting the recovery can sign in to multiple companies in PMPC Cloud.
 4.  Click **Sign Up** if any of the following applies to the user attempting recovery:\
 
@@ -151,7 +151,7 @@ To recover a PMPC Company:
     If you navigate to the **Events** node, you will see that the **Company Ownership Approved for <**_**user\_name**_**>** event confirming the name of the user who performed the recovery process.\
 
 
-    ![](/_images/image-(1968).png "")
+    ![](/_images/image-(1968).png)
 
     \
     The previous owner will also receive an email with the subject **Access Recovered to “PMPC\_<**_**company\_name**_**>”**, containing details of who performed the recovery and when.

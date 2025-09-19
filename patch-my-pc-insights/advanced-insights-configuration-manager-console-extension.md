@@ -40,7 +40,7 @@ Once approved the Extension can be Installed:
 
 &#x20;You will be prompted to restart the ConfigMgr Console. When it reloads the Advanced Insights node will have been added tot he Assets and Compliance view:
 
-![](/_images/image-(1813).png "")
+![](/_images/image-(1813).png)
 
 ## First Run
 

@@ -48,11 +48,11 @@ To add a Category to a deployment:
 <p>* Not be the name of a script.</p>
 </blockquote>
 
-![](/_images/image-(75).png "")
+![](/_images/image-(75).png)
 
 7. Press `ENTER` and the **Success – The category “<**_**category\_name>**_**” has been created** notification is shown, confirming the new category has been added to both Intune and this deployment.
 
-![](/_images/image-(76).png "")
+![](/_images/image-(76).png)
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

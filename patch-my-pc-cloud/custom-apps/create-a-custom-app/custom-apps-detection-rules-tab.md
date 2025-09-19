@@ -65,7 +65,7 @@ If you want to configure Native Detection Rules:
     The rule is added to the list of detection rules.\
 
 
-    ![](/_images/image-(202).png "")
+    ![](/_images/image-(202).png)
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

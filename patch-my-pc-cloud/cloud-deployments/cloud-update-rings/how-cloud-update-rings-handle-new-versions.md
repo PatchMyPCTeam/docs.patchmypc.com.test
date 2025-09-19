@@ -40,7 +40,7 @@ This is how you would configure this deployment in the PMPC Cloud portal to use 
 
 In this scenario, when you deploy the app the **Deployments** node is displayed along with the **Success – Created <**_**app\_name**_**>** notification.
 
-![](/_images/image-(2200).png "")
+![](/_images/image-(2200).png)
 
 Once the deployment has been completed successfully, if you look in the Microsoft Intune admin center under **All apps** and search for the app, you will see that version **2019.1** has been successfully deployed.
 

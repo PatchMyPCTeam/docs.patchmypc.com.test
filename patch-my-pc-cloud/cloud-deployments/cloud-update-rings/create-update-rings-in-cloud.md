@@ -108,4 +108,4 @@ The **“<**_**deployment\_name**_**>” Deployment Summary** dialog box appears
 
 When you click **Confirm**, the **Deployments** node appears showing the deployment as **In Progress** and the **Success – Created <**_**deployment\_name**_**>** notification.
 
-![](/_images/image-(2142).png "")
+![](/_images/image-(2142).png)

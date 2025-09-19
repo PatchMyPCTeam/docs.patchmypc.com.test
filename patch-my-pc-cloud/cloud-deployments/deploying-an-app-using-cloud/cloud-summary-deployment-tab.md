@@ -28,7 +28,7 @@ If you need to change something, click **< Prev** to backtrack through the Deplo
 
 The App Catalog is redisplayed along with the **Success - Created&#x20;**_**\<deployment\_name>**_ notification.
 
-![](/_images/image-(2393).png "")
+![](/_images/image-(2393).png)
 
 <blockquote class="wp-block-quote">
 <p>**Important**</p>

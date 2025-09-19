@@ -18,7 +18,7 @@ This dashboard hosts two primary tables.&#x20;
 
 The top table lists physical disk, the partitions defined on that disk and the logical drives created on that partition. For example:
 
-![](/_images/image-(1534).png "")
+![](/_images/image-(1534).png)
 
 Here, a a machine has five physical disks, Disk #0 has three partitions, but only one of these partitions has a logical drive with a drive letter (C:) defined (the "missing" partitions in this instance are the Windows Recovery Partition and the EFI System Partition). That partition is allocated 232.3GB of a 232.9GB disk (\~100% of the drive) and the logical disk is 232.3GB in size with 168.2GB free space, i.e. it is 27.6% used.
 
