@@ -2,10 +2,11 @@
 
 _Applies to: Patch My PC Cloud Custom Apps_
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>Configuring Extra Folders and Files is optional.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+Configuring Extra Folders and Files is optional.
+{% endhint %}
 
 If the installer requires additional folders or files, either:
 
@@ -18,10 +19,10 @@ If the installer requires additional folders or files, either:
 
 
 
-    ![Clicking "Add Folder" or "Add Files" to additional items](/_images/image-(213 "Clicking \"Add Folder\" or \"Add Files\" to additional items").png "Clicking &#x22;Add Folder&#x22; or &#x22;Add Files&#x22; to additional items")
+    <figure><img src="../../../.gitbook/assets/image (213).png" alt="Clicking &#x22;Add Folder&#x22; or &#x22;Add Files&#x22; to additional items"><figcaption></figcaption></figure>
 
 
 2.  Click **Next** to move to the [General Information](custom-apps-general-information-tab.md) tab.\
 
 
-    ![Clicking "Next" to move to the "General Information" tab](/_images/image-(214 "Clicking \"Next\" to move to the \"General Information\" tab").png "Clicking &#x22;Next&#x22; to move to the &#x22;General Information&#x22; tab")
+    <figure><img src="../../../.gitbook/assets/image (214).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;General Information&#x22; tab"><figcaption></figcaption></figure>
