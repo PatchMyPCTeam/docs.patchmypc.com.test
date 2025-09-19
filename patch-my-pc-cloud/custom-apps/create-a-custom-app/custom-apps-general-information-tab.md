@@ -11,36 +11,38 @@ The **General Information** tab is where you configure the basic information for
     1. Click **Upload Icon** to upload a suitable file (png, jpg or jpeg) to use as the icon for this app.
     2. Drag and drop the image file onto this page.
 
-    ![Clicking "Upload Icon"](/_images/image-(215 "Clicking \"Upload Icon\"").png "Clicking “Upload Icon”")
+    <figure><img src="../../../.gitbook/assets/image (215).png" alt="Clicking “Upload Icon”"><figcaption></figcaption></figure>
 
 
 2.  In the **App Name** field, enter a unique name for the app.\
 
 
-    ![Entering a unique name in the "App Name" field](/_images/image-(216 "Entering a unique name in the \"App Name\" field").png "Entering a unique name in the “App Name” field")
+    <figure><img src="../../../.gitbook/assets/image (216).png" alt="Entering a unique name in the “App Name” field"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
-<p>Avoid specifying the version number in this field, as this field does not get updated whenever you add a new version</p>
-</blockquote>
+{% hint style="success" %}
+**Tip**
+
+Avoid specifying the version number in this field, as this field does not get updated whenever you add a new version
+{% endhint %}
 
 3.  In the **Vendor** field, either select an existing entry from the dropdown or enter the required name.\
 
 
-    ![Entering a vendor name](/_images/image-(217 "Entering a vendor name").png "Entering a vendor name")
+    <figure><img src="../../../.gitbook/assets/image (217).png" alt="Entering a vendor name"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>If the vendor is new to your portal, you will see the **Success – The vendor <**_**vendor\_name**_**> has been created** notification. The next time you add an app, this vendor will appear in the **Vendor** dropdown.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+If the vendor is new to your portal, you will see the **Success – The vendor <**_**vendor\_name**_**> has been created** notification. The next time you add an app, this vendor will appear in the **Vendor** dropdown.
+{% endhint %}
 
 4.  In the **Description** field, enter a description of the app.\
 
 
-    ![Entering a description](/_images/image-(218 "Entering a description").png "Entering a description")
+    <figure><img src="../../../.gitbook/assets/image (218).png" alt="Entering a description"><figcaption></figcaption></figure>
 
 
 5.  Enter any optional internal notes, then click **Next** to move to the [Configuration ](custom-apps-configuration-tab.md)tab.\
 
 
-    ![Clicking "Next" to move to the "Configuration" page](/_images/image-(219 "Clicking \"Next\" to move to the \"Configuration\" page").png "Clicking &#x22;Next&#x22; to move to the &#x22;Configuration&#x22; page")
+    <figure><img src="../../../.gitbook/assets/image (219).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Configuration&#x22; page"><figcaption></figcaption></figure>
