@@ -6,16 +6,15 @@ description: Advanced Insights welcome page
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-{% hint style="info" %}
-The default credentials for your first logon are below. You will be prompted to change these:
-
-* Username: admin
-* Password: 123qwe
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The default credentials for your first logon are below. You will be prompted to change these:</p>
+<p>* Username: admin</p>
+<p>* Password: 123qwe</p>
+</blockquote>
 
 On first logon, you will see the welcome page. You can access this page any time by clicking your username in the top right of the screen.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1209).png" alt=""><figcaption><p>Advanced Insights welcome screen</p></figcaption></figure>
+![](/_images/image-(1209).png "Advanced Insights welcome screen")
 
 The welcome screen needs your Patch My PC license key and your ConfigMgr site server details.
 
@@ -23,7 +22,7 @@ The welcome screen needs your Patch My PC license key and your ConfigMgr site se
 
 If Advanced Insights is installed on the same server as the Patch My PC Publisher we will read the license key automatically. Alternatively, please add your license key and click to verify.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1109).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1109).png "")
 
 ### Configuration Manager Database Details
 
@@ -33,8 +32,8 @@ As long as the IIS application pool identity running the Advanced Insights Contr
 
 If you have a problem at this stage, please see [this document ](insights-sql-permission-requirements.md)for details on granting SQL permissions.
 
-<figure><img src="../.gitbook/assets/image (1106).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1106).png "")
 
 Once the license key and SQL sections are successfully completed, click **Go to Dashboard** in the final step to complete setup.
 
-<figure><img src="../.gitbook/assets/image (1138).png" alt=""><figcaption></figcaption></figure>
+![](/_images/image-(1138).png "")
