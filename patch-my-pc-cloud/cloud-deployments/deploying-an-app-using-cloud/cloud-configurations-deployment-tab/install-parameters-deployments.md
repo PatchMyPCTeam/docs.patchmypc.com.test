@@ -2,14 +2,15 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>Using the **Install Parameters** tool is optional.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+Using the **Install Parameters** tool is optional.
+{% endhint %}
 
 The **Install Parameters** tool of the Patch My PC (PMPC) Cloud deployment wizard allows you to configure various installation parameters and arguments.
 
-!["Install Parameters" tool](/_images/image-(86 "\"Install Parameters\" tool").png "&#x22;Install Parameters&#x22; tool")
+<figure><img src="../../../../.gitbook/assets/image (86).png" alt="&#x22;Install Parameters&#x22; tool" width="563"><figcaption></figcaption></figure>
 
 To add installation parameters:
 
@@ -27,4 +28,4 @@ If you do not want to configure any of the optional tabs under the **Tools** sec
 
 Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Click "Next" to move to the "Assignments" page](/_images/image-(87 "Click \"Next\" to move to the \"Assignments\" page").png "Click &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
+<figure><img src="../../../../.gitbook/assets/image (87).png" alt="Click &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page" width="563"><figcaption></figcaption></figure>

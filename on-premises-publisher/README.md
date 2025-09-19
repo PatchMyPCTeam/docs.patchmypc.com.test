@@ -4,13 +4,17 @@ _Applies to: Patch My PC On-Premises Publisher_
 
 Welcome to the official home page for Patch my PC's (PMPC's) On-Premises Publisher.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
-<p>We are currently reviewing and migrating all of our current Publisher-related content to this space, which should be considered as the most up-to-date.</p>
-<p>Once content has been migrated to this location, it will be deleted from the old location to avoid duplication and confusion.</p>
-<p>This is not a small undertaking and will take us some time to complete. We realize there will be some inconvenience to you with content being split across locations, which is why we always recommend using the **Search** function to find what you are looking for.</p>
-<p>If you encounter any documentation-related issues or have any feedback, feel free to email [docs@patchmypc.com](mailto:docs@patchmypc.com).</p>
-</blockquote>
+{% hint style="danger" %}
+**Important**
+
+We are currently reviewing and migrating all of our current Publisher-related content to this space, which should be considered as the most up-to-date.
+
+Once content has been migrated to this location, it will be deleted from the old location to avoid duplication and confusion.
+
+This is not a small undertaking and will take us some time to complete. We realize there will be some inconvenience to you with content being split across locations, which is why we always recommend using the **Search** function to find what you are looking for.
+
+If you encounter any documentation-related issues or have any feedback, feel free to email [docs@patchmypc.com](mailto:docs@patchmypc.com).
+{% endhint %}
 
 The configuration guides will help you setup the Patch My PC On-Premises Publisher (Publisher) with Microsoft Configuration Manager and Microsoft Intune.
 
@@ -26,9 +30,9 @@ Don't feel like going it alone? You can[ **schedule a setup call** ](https://pat
 Download Patch My PC Publisher
 {% endembed %}
 
-<blockquote class="wp-block-quote">
-<p>SHA256: B73090F25FB00A777659734CAEF19EE1F53DACA86832B2CA23AA3917B435EE21</p>
-</blockquote>
+{% hint style="info" %}
+SHA256: B73090F25FB00A777659734CAEF19EE1F53DACA86832B2CA23AA3917B435EE21
+{% endhint %}
 
 ### Configuration Manager Install
 
@@ -130,7 +134,9 @@ Want to learn more about who we are and what we do? Head on over to our [About U
 Want to learn more about us? Click here to learn more about our team.
 {% endembed %}
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>If you have any feedback or comments on our docs, please email [docs@patchmypc.com](mailto:docs@patchmypc.com).</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+If you have any feedback or comments on our docs, please email [docs@patchmypc.com](mailto:docs@patchmypc.com).
+{% endhint %}
+
