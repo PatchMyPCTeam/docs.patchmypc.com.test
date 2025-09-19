@@ -2,74 +2,85 @@
 
 _Applies to: Patch My PC Cloud_
 
-The <strong>Assignments</strong> tab of the Patch My PC (PMPC) Cloud deployment wizard allows you to configure various assignments (explained below) for how you want the app to be deployed.
+The **Assignments** tab of the Patch My PC (PMPC) Cloud deployment wizard allows you to configure various assignments (explained below) for how you want the app to be deployed.
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>From the <strong>Assignments</strong> page you can also:</p>
-<p>* Apply a [Template](../use-a-template-in-cloud-deployments.md) of pre-configured settings to this deployment.</p>
-<p>* [Enable Update Rings](../cloud-update-rings/create-update-rings-in-cloud.md) for this deployment.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+From the **Assignments** page you can also:
+
+* Apply a [Template](../use-a-template-in-cloud-deployments.md) of pre-configured settings to this deployment.
+* [Enable Update Rings](../cloud-update-rings/create-update-rings-in-cloud.md) for this deployment.
+{% endhint %}
 
 To add an Assignment:
 
-1. Click <strong>Add Assignment</strong> and then choose the assignment type you want to add for this deployment:
-   1. <strong>Add Required –</strong> A mandatory application that will be installed automatically for all users or devices it is assigned to.
-   2. <strong>Add Available –</strong> An optional application that will be available to install via the Company Portal for the primary user of the device.
-   3. <strong>Add Update Only –</strong> An Intune Apps-only function that adds a mandatory update that will be installed for all users or devices it applies to. This option does not install the app or any updates to it on a device where the app has never been previously installed.
+1. Click **Add Assignment** and then choose the assignment type you want to add for this deployment:
+   1. **Add Required –** A mandatory application that will be installed automatically for all users or devices it is assigned to.
+   2. **Add Available –** An optional application that will be available to install via the Company Portal for the primary user of the device.
+   3. **Add Update Only –** An Intune Apps-only function that adds a mandatory update that will be installed for all users or devices it applies to. This option does not install the app or any updates to it on a device where the app has never been previously installed.
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>If your deployment uses a [Retention Policy](cloud-configurations-deployment-tab/retention-policy-deployments.md), using the <strong>Update Only</strong> assignment type will also retain the relevant number of versions of the app in addition to the regular deployment types in Intune.</p>
-<p>Also, Intune does not support using the <strong>Update Only</strong> assignment type with a deployment that is also configured to use [ESP Profiles](cloud-configurations-deployment-tab/esp-profiles-deployments.md). If you try to use this configuration, the <strong>Deploy</strong> button will be greyed out and the <strong>Configurations</strong> tab will show a red "<strong>X</strong>".</p>
-<p>!["Deploy" button greyed out and red "x" on "Configurations" tab](/_images/image-(2374).png>)\</p>
-<p>\</p>
-<p>You either need to:</p>
-<p>* Remove the <strong>Update Only</strong> assignment type</p>
-<p>* Or remove all ESP Profiles.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-d. <strong>Add Uninstall –</strong> A mandatory uninstall that will remove the application from any users or devices it is assigned to, using the apps uninstaller.
+If your deployment uses a [Retention Policy](cloud-configurations-deployment-tab/retention-policy-deployments.md), using the **Update Only** assignment type will also retain the relevant number of versions of the app in addition to the regular deployment types in Intune.
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>We do not support the <strong>Uninstall</strong> assignment type for pkg installers.</p>
-<p>See [Uninstall a Custom App](../../custom-apps/custom-apps-reference/uninstall-a-custom-app.md) for more details on how the Custom Apps uninstall feature works and its limitations.</p>
-</blockquote>
+Also, Intune does not support using the **Update Only** assignment type with a deployment that is also configured to use [ESP Profiles](cloud-configurations-deployment-tab/esp-profiles-deployments.md). If you try to use this configuration, the **Deploy** button will be greyed out and the **Configurations** tab will show a red "**X**".
 
-e. <strong>Install App -</strong> Allows the Intune admin to add <strong>Required</strong>, <strong>Available</strong>, or <strong>Uninstall</strong> assignments from within the Intune admin center.
+!["Deploy" button greyed out and red "x" on "Configurations" tab](<../../../.gitbook/assets/image (2374).png>)\
+\
+You either need to:
 
-f. <strong>Update Only App -</strong> Allows the Intune admin to add an <strong>Update Only</strong> assignment from within the Intune admin center.
+* Remove the **Update Only** assignment type
+* Or remove all ESP Profiles.
+{% endhint %}
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>See [Create a Deployment Without Assignments](../create-a-cloud-deployment-without-assignments.md) for more details on deploying apps without assignments.</p>
-</blockquote>
+d. **Add Uninstall –** A mandatory uninstall that will remove the application from any users or devices it is assigned to, using the apps uninstaller.
 
-![Choosing the desired assignment type](/_images/image-(2386).png "Choosing the desired assignment type")
+{% hint style="info" %}
+**Note**
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>Adding an <strong>Available</strong> assignment allows you to add an <strong>Update Only</strong> application. This ensures that any applications assigned as <strong>Available</strong> are updated automatically when installed via Microsoft’s Company Portal.</p>
-</blockquote>
+We do not support the **Uninstall** assignment type for pkg installers.
 
-2. On the <strong>Add <</strong>_<strong>assignment\_type</strong>_<strong>> Assignment</strong> screen, choose the relevant Entra ID security groups to target for this assignment, then click <strong>Save</strong>.
+See [Uninstall a Custom App](../../custom-apps/custom-apps-reference/uninstall-a-custom-app.md) for more details on how the Custom Apps uninstall feature works and its limitations.
+{% endhint %}
+
+e. **Install App -** Allows the Intune admin to add **Required**, **Available**, or **Uninstall** assignments from within the Intune admin center.
+
+f. **Update Only App -** Allows the Intune admin to add an **Update Only** assignment from within the Intune admin center.
+
+{% hint style="info" %}
+**Note**
+
+See [Create a Deployment Without Assignments](../create-a-cloud-deployment-without-assignments.md) for more details on deploying apps without assignments.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (2386).png" alt="Choosing the desired assignment type"><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Note**
+
+Adding an **Available** assignment allows you to add an **Update Only** application. This ensures that any applications assigned as **Available** are updated automatically when installed via Microsoft’s Company Portal.
+{% endhint %}
+
+2. On the **Add <**_**assignment\_type**_**> Assignment** screen, choose the relevant Entra ID security groups to target for this assignment, then click **Save**.
 
 | Option  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Include | If checked, all of the items in this group will receive the assigned app.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Exclude | <p>If checked, all of the items in this group will not receive the assigned app.<br><br>Can be used in conjunction with <strong>Include</strong> to exclude a subset of devices when you have an <strong>Include</strong> of a superset of devices.<br><br>For example, you want to target all of your computers except for your test devices. To achieve this, you'd configure your Entra ID groups as follows:<br><br>o Check <strong>Include</strong> for your <strong>All Company Devices</strong> Entra ID group.<br>o Check <strong>Exclude</strong> for your <strong>Test Devices</strong> Entra ID group.</p> |
 
-![Choosing the relevant Entra ID security groups to target for this assignment](/_images/image-(2387).png "Choosing the relevant Entra ID security groups to target for this assignment")
+<figure><img src="../../../.gitbook/assets/image (2387).png" alt="Choosing the relevant Entra ID security groups to target for this assignment" width="449"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>As our portal uses application permissions to read Entra ID groups, all groups will be visible whenever you manage assignments.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-The <strong>Assignments</strong> page updates to show the newly added assignments, including their configuration.
+As our portal uses application permissions to read Entra ID groups, all groups will be visible whenever you manage assignments.
+{% endhint %}
 
-![“Assignments” page updates to show the newly added assignments](/_images/image-(2388).png "“Assignments” page updates to show the newly added assignments")
+The **Assignments** page updates to show the newly added assignments, including their configuration.
+
+<figure><img src="../../../.gitbook/assets/image (2388).png" alt="“Assignments” page updates to show the newly added assignments"><figcaption></figcaption></figure>
 
 3. Make any of the following optional modifications to the assignment(s).
 
@@ -79,18 +90,20 @@ The <strong>Assignments</strong> page updates to show the newly added assignment
 | Notifications    | When to display notifications related to this deployment.                                                                                                 |
 | Content Download | <p>How to download the content for the deployment:<br><br>o Foreground - The default for initial installs.<br>o Background - The default for updates.</p> |
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>We automatically configure these settings based on our experience and best practices, but you can modify certain settings if necessary.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-<blockquote class="wp-block-quote">
-<p><strong>Tip</strong></p>
-<p>You can click <strong>Deploy</strong> on this page if you don’t want to add additional assignments or see the <strong>Summary</strong> page, which allows you to double-check the settings you’ve configured for this deployment.</p>
-</blockquote>
+We automatically configure these settings based on our experience and best practices, but you can modify certain settings if necessary.
+{% endhint %}
 
-4. Add any additional assignments for this deployment by clicking <strong>Add Assignment</strong> and repeating the steps in this section.
-5.  If you are happy you have entered all of the details for the deployment correctly, click <strong>Deploy</strong> to deploy the app. However, we recommend you click <strong>Next</strong> to move to the [<strong>Summary</strong> ](cloud-summary-deployment-tab.md)tab, where you can verify the settings for this deployment before you deploy this app.\
+{% hint style="success" %}
+**Tip**
+
+You can click **Deploy** on this page if you don’t want to add additional assignments or see the **Summary** page, which allows you to double-check the settings you’ve configured for this deployment.
+{% endhint %}
+
+4. Add any additional assignments for this deployment by clicking **Add Assignment** and repeating the steps in this section.
+5.  If you are happy you have entered all of the details for the deployment correctly, click **Deploy** to deploy the app. However, we recommend you click **Next** to move to the [**Summary** ](cloud-summary-deployment-tab.md)tab, where you can verify the settings for this deployment before you deploy this app.\
 
 
-    ![Clicking &#x22;Deploy&#x22; to deploy the app](/_images/image-(2390).png "Clicking &#x22;Deploy&#x22; to deploy the app")
+    <figure><img src="../../../.gitbook/assets/image (2390).png" alt="Clicking &#x22;Deploy&#x22; to deploy the app"><figcaption></figcaption></figure>

@@ -2,36 +2,36 @@
 
 If you encounter any issues with Patch My PC (PMPC) Cloud and need to contact us:
 
-1.  In the header area of the portal, click the "<strong>?</strong>" and select <strong>Contact Support</strong>.\
+1.  In the header area of the portal, click the "**?**" and select **Contact Support**.\
 
 
-    ![Clicking the question mark and selecting “Contact Support”](/_images/image-(766).png "Clicking the question mark and selecting “Contact Support”")
+    <figure><img src="../.gitbook/assets/image (766).png" alt="Clicking the question mark and selecting “Contact Support”"><figcaption></figcaption></figure>
 
 
 
-The <strong>Contact Support</strong> dialog box appears.
+The **Contact Support** dialog box appears.
 
-![&#x22;Contact Support&#x22; dialog box](/_images/image-(104).png "&#x22;Contact Support&#x22; dialog box")
+<figure><img src="../.gitbook/assets/image (104).png" alt="&#x22;Contact Support&#x22; dialog box" width="384"><figcaption></figcaption></figure>
 
-2. Verify that the <strong>From</strong> email address is valid, as this is the email address we will use to contact you.
-3. Select the relevant reason for contacting us from the <strong>Subject</strong> dropdown.
+2. Verify that the **From** email address is valid, as this is the email address we will use to contact you.
+3. Select the relevant reason for contacting us from the **Subject** dropdown.
 
-![&#x22;Subject&#x22; dropdown](/_images/image-(2565).png "&#x22;Subject&#x22; dropdown")
+<figure><img src="../.gitbook/assets/image (2565).png" alt="&#x22;Subject&#x22; dropdown" width="385"><figcaption></figcaption></figure>
 
-4. Complete the <strong>Description of Issue</strong> field with as much relevant information as possible.
+4. Complete the **Description of Issue** field with as much relevant information as possible.
 
-![Complete the &#x22;Description&#x22; field](/_images/image-(106).png "Complete the &#x22;Description&#x22; field")
+<figure><img src="../.gitbook/assets/image (106).png" alt="Complete the &#x22;Description&#x22; field" width="379"><figcaption></figcaption></figure>
 
-5. Click <strong>Attach File</strong> and browse to and select a relevant file (such as a ZIP file of logs) that can help us.
+5. Click **Attach File** and browse to and select a relevant file (such as a ZIP file of logs) that can help us.
 
-![Clicking &#x22;Attach File&#x22;](/_images/image-(107).png "Clicking &#x22;Attach File&#x22;")
+<figure><img src="../.gitbook/assets/image (107).png" alt="Clicking &#x22;Attach File&#x22;" width="379"><figcaption></figcaption></figure>
 
-6. Click <strong>Send</strong>
+6. Click **Send**
 
-![Clicking &#x22;Send&#x22;](/_images/image-(109).png "Clicking &#x22;Send&#x22;")
+<figure><img src="../.gitbook/assets/image (109).png" alt="Clicking &#x22;Send&#x22;" width="376"><figcaption></figcaption></figure>
 
-The <strong>Message sent</strong> notification is shown.
+The **Message sent** notification is shown.
 
-![The &#x22;Message sent&#x22; notification is shown](/_images/image-(110).png "The &#x22;Message sent&#x22; notification is shown")
+<figure><img src="../.gitbook/assets/image (110).png" alt="The &#x22;Message sent&#x22; notification is shown" width="563"><figcaption></figcaption></figure>
 
 A Support Engineer will contact you at the provided email address as soon as possible.

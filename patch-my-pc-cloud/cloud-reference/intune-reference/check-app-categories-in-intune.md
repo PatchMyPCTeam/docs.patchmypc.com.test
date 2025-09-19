@@ -4,33 +4,33 @@ _Applies to: Microsoft Intune_
 
 If a Patch My PC (PMPC) Cloud deployment has been configured to use [Categories](../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/categories-deployments.md), this is how you can check the Categories have been created correctly in Intune:
 
-1. Sign in to the <strong>Intune admin center</strong>.
-2.  Navigate to <strong>Apps</strong>.\
+1. Sign in to the **Intune admin center**.
+2.  Navigate to **Apps**.\
     \
 
 
-    ![Navigating to “Apps”](/_images/image-(281).png "Navigating to “Apps”")
+    <figure><img src="../../../.gitbook/assets/image (281).png" alt="Navigating to “Apps”"><figcaption></figcaption></figure>
 
 
-3.  Navigate to <strong>All Apps</strong>.\
+3.  Navigate to **All Apps**.\
     \
 
 
-    ![Navigating to “All Apps”](/_images/image-(282).png "Navigating to “All Apps”")
+    <figure><img src="../../../.gitbook/assets/image (282).png" alt="Navigating to “All Apps”"><figcaption></figcaption></figure>
 
 
 4.  Click the app if it’s shown in the results or search for it.\
     \
 
 
-    ![Clicking the app if it’s shown in the results or searching for it](/_images/image-(283).png "Clicking the app if it’s shown in the results or searching for it")
+    <figure><img src="../../../.gitbook/assets/image (283).png" alt="Clicking the app if it’s shown in the results or searching for it"><figcaption></figcaption></figure>
 
 
-5.  Navigate to <strong>Manage | Properties</strong>\
+5.  Navigate to **Manage | Properties**\
     \
 
 
-    ![Navigating to “Manage | Properties”](/_images/image-(284).png "Navigating to “Manage | Properties”")
+    <figure><img src="../../../.gitbook/assets/image (284).png" alt="Navigating to “Manage | Properties”"><figcaption></figcaption></figure>
 
 
 
@@ -38,4 +38,4 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use [Categories]
 6.  \
 
 
-    ![List of Categories is shown in the “Category” field.](/_images/image-(285).png "List of Categories is shown in the “Category” field.")
+    <figure><img src="../../../.gitbook/assets/image (285).png" alt="List of Categories is shown in the “Category” field."><figcaption></figcaption></figure>

@@ -9,22 +9,23 @@ To switch between companies:
 1.  Click your user name in the top right-hand corner.\
 
 
-    ![](/_images/image-(2091).png "")
+    <figure><img src="../../../../.gitbook/assets/image (2091).png" alt=""><figcaption></figcaption></figure>
 
 
 2.  Select which company you want to manage:\
     \
-    •  To manage your own company, select it under the <strong>My Tenant</strong> section.\
-    •  To manage a child customer, select it under the <strong>MSP Customers</strong> section.\
+    •  To manage your own company, select it under the **My Tenant** section.\
+    •  To manage a child customer, select it under the **MSP Customers** section.\
 
 
-    ![Selecting the company you want to manage](/_images/image-(2092).png "Selecting the company you want to manage")
+    <figure><img src="../../../../.gitbook/assets/image (2092).png" alt="Selecting the company you want to manage"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>The company currently being managed has a tick beside it.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-If you switch to managing a child customer, the <strong>Managed By <</strong>_<strong>company\_name</strong>_<strong>></strong> indicator is shown in the portal's header.
+The company currently being managed has a tick beside it.
+{% endhint %}
 
-![](/_images/image-(2093).png "")
+If you switch to managing a child customer, the **Managed By <**_**company\_name**_**>** indicator is shown in the portal's header.
+
+<figure><img src="../../../../.gitbook/assets/image (2093).png" alt="The “Managed By <company_name>” indicator is shown in the portal’s header if you are managing a child customer"><figcaption></figcaption></figure>

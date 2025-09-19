@@ -6,23 +6,23 @@ _Applies to: Patch My PC Cloud_
 
 I am trying to onboard an Intune tenant to Patch My PC (PMPC) Cloud.
 
-However, after entering the credentials associated with the account used for my PMPC subscription, I don’t see the <strong>Permissions requested</strong> dialog box.\
+However, after entering the credentials associated with the account used for my PMPC subscription, I don’t see the **Permissions requested** dialog box.\
 
 
-![“Permissions requested” dialog box](/_images/image-(958).png "“Permissions requested” dialog box")
+<figure><img src="../../../.gitbook/assets/image (958).png" alt="“Permissions requested” dialog box"><figcaption></figcaption></figure>
 
 Instead, I’m just taken to the home page of the PMPC portal.\
 
 
-![PMPC Portal home page](/_images/image-(960).png "PMPC Portal home page")
+<figure><img src="../../../.gitbook/assets/image (960).png" alt="PMPC Portal home page"><figcaption></figcaption></figure>
 
 ### CAUSE
 
 There are two causes of this problem:
 
-* An Intune administrator checked the optional <strong>Consent on behalf of your organization</strong> checkbox when they were prompted. By checking this box, that administrator has accepted the request to read the profile for all users in that tenant, negating the need to display the <strong>Permissions requested</strong> dialog box for other users.
+* An Intune administrator checked the optional **Consent on behalf of your organization** checkbox when they were prompted. By checking this box, that administrator has accepted the request to read the profile for all users in that tenant, negating the need to display the **Permissions requested** dialog box for other users.
 * The Intune tenant has already been onboarded to the PMPC Cloud Platform. See the Resolution below if you need to reset it.
 
 ### RESOLUTION
 
-To resolve this issue, check If the <strong>Patch My PC Cloud</strong> Enterprise Application is visible in the Azure Portal by following the [Deleting the Patch My PC Cloud application](../../cloud-administration/delete-the-patch-my-pc-cloud-enterprise-application.md) process.
+To resolve this issue, check If the **Patch My PC Cloud** Enterprise Application is visible in the Azure Portal by following the [Deleting the Patch My PC Cloud application](../../cloud-administration/delete-the-patch-my-pc-cloud-enterprise-application.md) process.
