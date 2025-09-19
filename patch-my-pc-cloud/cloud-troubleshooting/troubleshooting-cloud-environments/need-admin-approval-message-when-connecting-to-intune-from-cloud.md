@@ -10,7 +10,7 @@ I am trying to onboard to Intune Apps for Cloud (Intune Apps). I’ve signed in 
 \
 
 
-!["Need admin approval" dialog box](/_images/image-(906 '"Need admin approval" dialog box').png "“Need admin approval” dialog box")
+<figure><img src="../../../.gitbook/assets/image (906).png" alt="“Need admin approval” dialog box"><figcaption></figcaption></figure>
 
 ### CAUSE
 
@@ -19,3 +19,4 @@ This problem occurs because, as the message states, your Entra ID account is not
 ### RESOLUTION
 
 To resolve this issue, ensure you are completing this process using a **Global Administrator** account to create the enterprise app.
+

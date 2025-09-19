@@ -8,13 +8,13 @@ I am trying to change the role assigned to an Entra ID Security Group in the Pat
 
 **Error - Unable to change the role of this group as it was not found in Entra ID**
 
-!["Unable to change the role of this group as it was not found in Entra ID" error](/_images/image-(2292 '"Unable to change the role of this group as it was not found in Entra ID" error').png "&#x22;Unable to change the role of this group as it was not found in Entra ID&#x22; error")
+<figure><img src="../../../.gitbook/assets/image (2292).png" alt="&#x22;Unable to change the role of this group as it was not found in Entra ID&#x22; error"><figcaption></figcaption></figure>
 
 ### CAUSE
 
 This error is caused if the Entra ID Security Group has been deleted in Entra ID. If you refresh the portal, you will see the **GROUP WAS DELETED ON AZURE**  message and you can only delete the group.
 
-!["Group role was deleted on Azure" error](/_images/image-(348 '"Group role was deleted on Azure" error').png "“Group role was deleted on Azure” error")
+<figure><img src="../../../.gitbook/assets/image (348).png" alt="“Group role was deleted on Azure” error"><figcaption></figcaption></figure>
 
 ### RESOLUTION
 
