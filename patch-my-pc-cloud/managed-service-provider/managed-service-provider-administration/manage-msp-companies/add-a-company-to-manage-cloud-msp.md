@@ -13,19 +13,19 @@ To add a new PMPC Cloud company to be managed using the MSP Feature:
 1. Sign in to the parent company where the MSP license has been enabled.
 2.  Click the **MSP Customers** node.
 
-    ![Clicking the “MSP Customers” node](../../../../.gitbook/assets/image-\(2074\).png)
+    ![Clicking the "MSP Customers" node](/_images/image-(2074 "Clicking the \"MSP Customers\" node").png)
 3.  On the **MSP Customers** page, click **Add Customer**.
 
-    ![Clicking “Add Customer”](../../../../.gitbook/assets/image-\(2075\).png)
+    ![Clicking "Add Customer"](/_images/image-(2075 "Clicking \"Add Customer\"").png)
 4.  Click **Connect** under the **Intune Connection** section.
 
-    ![Clicking "Connect" under the "Intune Connection" section of the "Create New Customer" screen.](../../../../.gitbook/assets/image-\(2301\).png)
+    ![Clicking "Connect" under the "Intune Connection" section of the "Create New Customer" screen.](/_images/image-(2301 "Clicking \"Connect\" under the \"Intune Connection\" section of the \"Create New Customer\" screen.").png)
 5.  On the **Sign in** screen, enter the Entra ID that is a Global Admin in the child company or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.\\
 
-    ![“Sign in” screen](../../../../.gitbook/assets/image-\(2078\).png)
+    !["Sign in" screen](/_images/image-(2078 "\"Sign in\" screen").png)
 6.  Enter the password and click **Sign in**.
 
-    ![Entering the password and clicking “Sign in”](../../../../.gitbook/assets/image-\(2079\).png)
+    ![Entering the password and clicking "Sign in"](/_images/image-(2079 "Entering the password and clicking \"Sign in\"").png)
 7. On the **Permissions requested** screen, click **Accept**.
 
 > **Note**
@@ -36,7 +36,7 @@ To add a new PMPC Cloud company to be managed using the MSP Feature:
 >
 > See \[Permissions required for the Intune Apps]\(../../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.
 
-![Clicking “Accept” on the “Permissions requested” page](../../../../.gitbook/assets/image-\(2080\).png)
+![Clicking "Accept" on the "Permissions requested" page](/_images/image-(2080 "Clicking \"Accept\" on the \"Permissions requested\" page").png)
 
 > **Tip**
 >
@@ -44,25 +44,25 @@ To add a new PMPC Cloud company to be managed using the MSP Feature:
 
 8.  Verify Intune has **Connected** successfully.\\
 
-    ![](../../../../.gitbook/assets/image-\(2304\).png)
+    ![](/_images/image-(2304).png)
 9. On the **Create New Customer** page, enter the name of the customer to be managed in the **Customer Name** field.
 
 > **Note**
 >
 > We support the characters **À-ÿ** (which includes characters from the Latin-1 Supplement Unicode block) for customer names.
 
-![Enter the name of the customer in the "Customer Name" field](../../../../.gitbook/assets/image-\(2308\).png)
+![Enter the name of the customer in the "Customer Name" field](/_images/image-(2308 "Enter the name of the customer in the \"Customer Name\" field").png)
 
 10. Click **Terms and Conditions**.\\
 
-    ![Clicking "Terms and Conditions".](../../../../.gitbook/assets/image-\(2309\).png)
+    ![Clicking "Terms and Conditions".](/_images/image-(2309 "Clicking \"Terms and Conditions\".").png)
 11. Review the Terms and Conditions, and once you are happy, click the **X** in the top right-hand corner to return to the **Create New Customer** screen.\\
 
-    ![Reviewing the Terms and Conditions](../../../../.gitbook/assets/image-\(2307\).png)
+    ![Reviewing the Terms and Conditions](/_images/image-(2307 "Reviewing the Terms and Conditions").png)
 12. Check the **Accept all Terms and conditions** checkbox, then click **Create**.\\
 
-    ![Accepting the Terms and conditions then clicking "Create".](../../../../.gitbook/assets/image-\(2310\).png)
+    ![Accepting the Terms and conditions then clicking "Create".](/_images/image-(2310 "Accepting the Terms and conditions then clicking \"Create\".").png)
 
 The portal refreshes, showing the newly added customer and the **Success - Child Customer <**_**customer\_name**_**> created** notification.
 
-![](../../../../.gitbook/assets/image-\(2566\).png)
+![](/_images/image-(2566).png)

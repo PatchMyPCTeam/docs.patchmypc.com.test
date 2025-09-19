@@ -16,11 +16,11 @@ To configure a PMPC Cloud deployment to use a Retention Policy:
 
 1. Click the **Retention Policy** tool.
 
-![Clicking the “Retention Policy” tool](../../../../.gitbook/assets/image-\(99\).png)
+![Clicking the "Retention Policy" tool](/_images/image-(99 "Clicking the \"Retention Policy\" tool").png)
 
 2. Scroll down to the **Retention Policy** section.
 
-![Scrolling down to the “Retention Policy” section.](../../../../.gitbook/assets/image-\(100\).png)
+![Scrolling down to the "Retention Policy" section.](/_images/image-(100 "Scrolling down to the \"Retention Policy\" section.").png)
 
 3. In the **Versions to Retain** box, either type the required number or use the controls to configure the number of versions of this app you wish to retain in your environment.
 
@@ -28,7 +28,7 @@ To configure a PMPC Cloud deployment to use a Retention Policy:
 >
 > The default value of **0** means only the most recent version of the app is retained. You can retain up to ten versions of an app.
 
-![Configuring the number of versions of this app to retain using the “Versions to Retain” box](../../../../.gitbook/assets/image-\(61\).png)
+![Configuring the number of versions of this app to retain using the "Versions to Retain" box](/_images/image-(61 "Configuring the number of versions of this app to retain using the \"Versions to Retain\" box").png)
 
 > **Tip**
 >
@@ -36,7 +36,7 @@ To configure a PMPC Cloud deployment to use a Retention Policy:
 
 4. If you do not want to configure any of the optional tabs under the **Tools** section, click **Next** to move to the [Assignments](../cloud-assignments-deployment-tab.md) tab. Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking “Next” to move to the “Assignments” tab](../../../../.gitbook/assets/image-\(102\).png)
+![Clicking "Next" to move to the "Assignments" tab](/_images/image-(102 "Clicking \"Next\" to move to the \"Assignments\" tab").png)
 
 > **Note**
 >

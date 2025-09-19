@@ -6,19 +6,19 @@ To add a new Template:
 
 1. Navigate to **Settings | Templates**
 
-![Navigating to “Settings | Templates”](../../../.gitbook/assets/image-\(2321\).png)
+![Navigating to "Settings | Templates"](/_images/image-(2321 "Navigating to \"Settings | Templates\"").png)
 
 2. Click **Add Template** in the header.
 
-![Clicking “Add Template”](../../../.gitbook/assets/image-\(2322\).png)
+![Clicking "Add Template"](/_images/image-(2322 "Clicking \"Add Template\"").png)
 
 3. Select the relevant OS for which this template will apply.
 
-![Selecting the relevant OS this Template will apply to](../../../.gitbook/assets/image-\(2611\).png)
+![Selecting the relevant OS this Template will apply to](/_images/image-(2611 "Selecting the relevant OS this Template will apply to").png)
 
 4. On the **Add Template** screen, enter a unique name for the template in the **Template Name** field.
 
-![Entering a unique name for the Template in the “Template Name” field](../../../.gitbook/assets/image-\(2609\).png)
+![Entering a unique name for the Template in the "Template Name" field](/_images/image-(2609 "Entering a unique name for the Template in the \"Template Name\" field").png)
 
 5. On the **Configurations** page, configure the various Tools and configuration settings for how you want apps that use this template to be deployed.
 
@@ -30,11 +30,11 @@ To add a new Template:
 
 6. Click **Next** to move to the **Assignments** tab.
 
-![Clicking “Next” to move to the “Assignments” tab](../../../.gitbook/assets/image-\(2610\).png)
+![Clicking "Next" to move to the "Assignments" tab](/_images/image-(2610 "Clicking \"Next\" to move to the \"Assignments\" tab").png)
 
 7. On the **Assignments** tab, click **Add Assignment** and select the relevant assignment type from the dropdown.
 
-![Clicking “Add Assignment” and select the relevant assignment type](../../../.gitbook/assets/image-\(2612\).png)
+![Clicking "Add Assignment" and select the relevant assignment type](/_images/image-(2612 "Clicking \"Add Assignment\" and select the relevant assignment type").png)
 
 8. Configure the assignments to be used when deploying an app using this template.
 
@@ -44,11 +44,11 @@ To add a new Template:
 
 9. Click **Save** to save the Template.
 
-![Clicking “Save” to save the Template](../../../.gitbook/assets/image-\(2613\).png)
+![Clicking "Save" to save the Template](/_images/image-(2613 "Clicking \"Save\" to save the Template").png)
 
 The **Templates** page is redisplayed along with the **Success - Template “<**_**template\_name**_**>" has been created** notification.
 
-![“Templates” redisplayed along with “Success” notification](../../../.gitbook/assets/image-\(2614\).png)
+!["Templates" redisplayed along with "Success" notification](/_images/image-(2614 "\"Templates\" redisplayed along with \"Success\" notification").png)
 
 > **Note**
 >

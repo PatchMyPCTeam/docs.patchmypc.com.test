@@ -7,10 +7,10 @@ If you are already a Custom Apps user, to onboard to Intune Apps for Cloud (Intu
 1. Sign in to the Portal at [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
 2.  On the **App Catalog** page, navigate to **Settings | Environments**.\\
 
-    ![Navigating to “Settings | Environments”](../../../.gitbook/assets/image-\(1748\).png)
+    ![Navigating to "Settings | Environments"](/_images/image-(1748 "Navigating to \"Settings | Environments\"").png)
 3.  Under the **Intune** tab, click **Connect**.\\
 
-    ![Clicking “Connect” under the “Intune” tab](../../../.gitbook/assets/image-\(1749\).png)
+    ![Clicking "Connect" under the "Intune" tab](/_images/image-(1749 "Clicking \"Connect\" under the \"Intune\" tab").png)
 
 > **Important**
 >
@@ -22,10 +22,10 @@ If you are already a Custom Apps user, to onboard to Intune Apps for Cloud (Intu
 
 4.  Enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.\\
 
-    ![Microsoft “Sign in” screen](../../../.gitbook/assets/image-\(1472\).png)
+    ![Microsoft "Sign in" screen](/_images/image-(1472 "Microsoft \"Sign in\" screen").png)
 5.  Enter the password and click **Sign in**.
 
-    ![Microsoft “Enter password” screen](../../../.gitbook/assets/image-\(1473\).png)
+    ![Microsoft "Enter password" screen](/_images/image-(1473 "Microsoft \"Enter password\" screen").png)
 6. On the **Permission requested** screen, click **Accept**.
 
 > **Note**
@@ -34,7 +34,7 @@ If you are already a Custom Apps user, to onboard to Intune Apps for Cloud (Intu
 >
 > See \[Permissions required for the Intune Apps]\(../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.
 
-![“Permission requested” screen](../../../.gitbook/assets/image-\(1474\).png)
+!["Permission requested" screen](/_images/image-(1474 "\"Permission requested\" screen").png)
 
 > **Tip**
 >
@@ -42,7 +42,7 @@ If you are already a Custom Apps user, to onboard to Intune Apps for Cloud (Intu
 
 7.  Verify the icon has changed in the **Intune** section and has a green tick beside it.\\
 
-    ![Verifying there is a green tick beside “Intune”](../../../.gitbook/assets/image-\(1751\).png)
+    ![Verifying there is a green tick beside "Intune"](/_images/image-(1751 "Verifying there is a green tick beside \"Intune\"").png)
 8.  Click **App Catalog** which shows all of the applications that can be deployed and managed using Intune Apps for Cloud.\\
 
-    ![“App Catalog” showing the available apps](../../../.gitbook/assets/image-\(1752\).png)
+    !["App Catalog" showing the available apps](/_images/image-(1752 "\"App Catalog\" showing the available apps").png)

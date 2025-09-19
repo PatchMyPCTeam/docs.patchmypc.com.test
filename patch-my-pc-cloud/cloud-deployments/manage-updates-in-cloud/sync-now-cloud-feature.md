@@ -10,11 +10,11 @@ If you have [resumed updates](resume-cloud-updates.md) for an app in Patch My PC
 
 1.  Click on the relevant deployment which has been resumed.\\
 
-    ![Clicking on the relevant successful deployment for which updates have been resumed](../../../.gitbook/assets/image-\(2004\).png)
+    ![Clicking on the relevant successful deployment for which updates have been resumed](/_images/image-(2004 "Clicking on the relevant successful deployment for which updates have been resumed").png)
 2.  Click **Sync Now** to install any updates for the app immediately.\
     \\
 
-    ![Clicking “Sync Now”](../../../.gitbook/assets/image-\(2005\).png)
+    ![Clicking "Sync Now"](/_images/image-(2005 "Clicking \"Sync Now\"").png)
 
 > **Note**
 >
@@ -22,17 +22,17 @@ If you have [resumed updates](resume-cloud-updates.md) for an app in Patch My PC
 
 3.  On the **Are you sure you want to update <**_**app\_name**_**> to the latest version** popup, click **OK**.\\
 
-    ![](../../../.gitbook/assets/image-\(1828\).png)
+    ![](/_images/image-(1828).png)
 
     \
     The **Deployment <**_**app\_name**_**> updated** notification is displayed and the deployment **Status** changes to **In Progress**.\\
 
-    ![](../../../.gitbook/assets/image-\(1829\).png)
+    ![](/_images/image-(1829).png)
 
     \
     Once the deployment has been completed successfully, the **Status** changes to **Success**.\\
 
-    ![“Status” changing to Success.](../../../.gitbook/assets/image-\(1830\).png)
+    !["Status" changing to Success.](/_images/image-(1830 "\"Status\" changing to Success.").png)
 
 > **Tip**
 >

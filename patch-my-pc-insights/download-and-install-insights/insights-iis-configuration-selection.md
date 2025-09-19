@@ -22,11 +22,11 @@ Examples:
 
 In this example, the installer automatically determined that the best available port was 444. IIS Application Pool left as default 'LocalSystem'.
 
-![](<../../.gitbook/assets/vmconnect_Dmraspavez (2).png>)
+![](/_images/vmconnect_Dmraspavez-(2).png>)
 
 In this example a custom IIS application pool identity has been set:
 
-![](../../.gitbook/assets/image-\(315\).png)
+![](/_images/image-(315).png)
 
 Confirm the required Dashboard Port and if required, IIS application pool identity and click **Next**.
 

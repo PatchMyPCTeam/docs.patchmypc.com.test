@@ -10,13 +10,13 @@ _Applies to: Patch My PC Advanced and Patch Insights_
 
 For various Configuration Manager **console actions** and **features** to work, the accounts running the IIS App Pools need to have permissions to connect to your SMS Provider Server.
 
-![](../.gitbook/assets/Permissions-Example.png)
+![](/_images/Permissions-Example.png)
 
 > Note: If you installed Advanced Insights on an SMS Provider Server then you may not have to configure any permissions for this to work.
 
 By default, the **IIS App Pools** run under the local computer account of your Advanced Insights Server.
 
-![](../.gitbook/assets/image-\(1320\).png)
+![](/_images/image-(1320).png)
 
 **\***
 
@@ -32,11 +32,11 @@ By default, the **IIS App Pools** run under the local computer account of your A
 
 If you wish to adhere to the "Principle of Least Privilege" then you can download the XML file below and import it as a security role into ConfigMgr. This role grants the lowest possible privileges.
 
-{% file src="../.gitbook/assets/Patch-My-PC-Advanced-Insights-Client-Actions-and-Collections-(1).zip" %}
+{% file src="..//_images/Patch-My-PC-Advanced-Insights-Client-Actions-and-Collections-(1).zip" %}
 
 To import the security role XML file, open the ConfigMgr console and navigate to **Administration** > **Security** > **Security Roles** > click **Import Security Role**.
 
-![](../.gitbook/assets/image-\(1163\).png)
+![](/_images/image-(1163).png)
 
 **\***
 

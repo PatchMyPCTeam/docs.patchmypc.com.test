@@ -13,7 +13,7 @@ description: >-
 
 If you are unsure which type of call you would like to book, please use this decision tree below.
 
-![](../../.gitbook/assets/image-\(595\).png)
+![](/_images/image-(595).png)
 
 ## Book a Live Demo
 

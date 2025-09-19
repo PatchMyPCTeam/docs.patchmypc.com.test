@@ -20,10 +20,10 @@ To invite a new user to the PMPC Cloud portal:
 1. Navigate to **Settings | Users**.
 2.  Click **Invite User** in the header.\\
 
-    ![](../../../.gitbook/assets/image-\(722\).png)
+    ![](/_images/image-(722).png)
 3.  On the **Invite User** screen, enter the user’s details.\\
 
-    ![Complete the details of the user you are inviting](../../../.gitbook/assets/image-\(2119\).png)
+    ![Complete the details of the user you are inviting](/_images/image-(2119 "Complete the details of the user you are inviting").png)
 
 > **Important**
 >
@@ -35,7 +35,7 @@ To invite a new user to the PMPC Cloud portal:
 >
 > See \[User Roles]\(cloud-user-roles-reference.md) for details of the available roles and which actions they can perform.
 
-![Choosing which role to assign this user](../../../.gitbook/assets/image-\(2120\).png)
+![Choosing which role to assign this user](/_images/image-(2120 "Choosing which role to assign this user").png)
 
 > **Tip**
 >
@@ -44,11 +44,11 @@ To invite a new user to the PMPC Cloud portal:
 5.  Click **Invite**.\
     \\
 
-    ![Clicking "Invite" to send the invitation](../../../.gitbook/assets/image-\(2122\).png)
+    ![Clicking "Invite" to send the invitation](/_images/image-(2122 "Clicking \"Invite\" to send the invitation").png)
 
 The **Success - Invitation sent** notification is displayed.
 
-!["Success - Invitation sent" notification](../../../.gitbook/assets/image-\(725\).png)
+!["Success - Invitation sent" notification](/_images/image-(725 "\"Success - Invitation sent\" notification").png)
 
 The user will receive an email from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox with the subject **You are invited to&#x20;**_**\<company\_name>**_.
 
@@ -58,7 +58,7 @@ The user will receive an email from the [noreply@patchmypc.com](mailto:noreply@p
 
 The invitation and its details are shown on the **Invitations** tab, which includes any previously created outstanding invitations that are still valid.
 
-![“Invitations” tab showing valid, outstanding user invitations](../../../.gitbook/assets/image-\(728\).png)
+!["Invitations" tab showing valid, outstanding user invitations](/_images/image-(728 "\"Invitations\" tab showing valid, outstanding user invitations").png)
 
 > **Note**
 >
@@ -70,21 +70,21 @@ The invitation and its details are shown on the **Invitations** tab, which inclu
 
 When a user from the same company who has not been set up on your company's PMPC Cloud portal tries to sign in, they will see the **Select the Company You Want to Sign In To** screen.
 
-![“Select the Company You Want to Sign In To” screen](../../../.gitbook/assets/image-\(1378\).png)
+!["Select the Company You Want to Sign In To" screen](/_images/image-(1378 "\"Select the Company You Want to Sign In To\" screen").png)
 
 To join your company, they should click **Request Access** beside your company.
 
-![Users should click “Request Access” beside your company to join it](../../../.gitbook/assets/image-\(1379\).png)
+![Users should click "Request Access" beside your company to join it](/_images/image-(1379 "Users should click \"Request Access\" beside your company to join it").png)
 
 The **Request Access to join&#x20;**_**\<company\_name>**_ popup appears.
 
-![](../../../.gitbook/assets/image-\(616\).png)
+![](/_images/image-(616).png)
 
 The user should enter an optional **Reason for Request** then click **Submit**.
 
 The **Request Access** text changes to **Renotify** and the **Success - Access request sent** notification is shown.
 
-![The “Success – Request sent” notification is displayed](../../../.gitbook/assets/image-\(617\).png)
+![The "Success – Request sent" notification is displayed](/_images/image-(617 "The \"Success – Request sent\" notification is displayed").png)
 
 Any users with the **Full Admin** role in your PMPC Cloud portal will receive an email containing the user’s details and which company they have requested access to. The email is sent from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox with the subject **Access Request&#x20;**_**\<your\_company\_name>**_.
 

@@ -23,26 +23,26 @@ To sign up for the trial, you can click **Try it now** in the following location
 * The header notification area
 * The banner shown at the top of the App Catalog
 
-![Clicking “Try it now” to start the macOS free trial](../../.gitbook/assets/image-\(21\).png)
+![Clicking "Try it now" to start the macOS free trial](/_images/image-(21 "Clicking \"Try it now\" to start the macOS free trial").png)
 
 * Under the **macOS** option when creating a deployment.
 
-![Clicking “Try it now” when deploying an app supported by macOS](../../.gitbook/assets/image-\(22\).png)
+![Clicking "Try it now" when deploying an app supported by macOS](/_images/image-(22 "Clicking \"Try it now\" when deploying an app supported by macOS").png)
 
 When you click **Try it now**, you then have the option of either:
 
 * Typing or using the controls to enter the total number of devices you want to license for the trial in the **Enter the total number of macOS devices to license** box.
 * Clicking **Request a Quote** to request a quote for a non-trial license to manage your macOS devices using PMPC Cloud.
 
-![Trial options screen](../../.gitbook/assets/image-\(23\).png)
+![Trial options screen](/_images/image-(23 "Trial options screen").png)
 
 Once you’ve entered the number of devices for the trial, click **Start Now**
 
-![Clicking “Start Now”](../../.gitbook/assets/image-\(24\).png)
+![Clicking "Start Now"](/_images/image-(24 "Clicking \"Start Now\"").png)
 
 The **Your30-day trial expires on <**_**expiry date**_**>** confirmation is shown.
 
-![The trial expiry confirmation](../../.gitbook/assets/image-\(27\).png)
+![The trial expiry confirmation](/_images/image-(27 "The trial expiry confirmation").png)
 
 > **Note**
 >
@@ -56,7 +56,7 @@ Make a note of the expiry date and our contact details in case you need to conta
 
 Once your trial has started, you see the following countdown at the top of the portal advising you of how many days you have left on your trial.
 
-![Trial countdown](../../.gitbook/assets/image-\(28\).png)
+![Trial countdown](/_images/image-(28 "Trial countdown").png)
 
 When your trial expires, you see the following notification at the top of the portal:
 

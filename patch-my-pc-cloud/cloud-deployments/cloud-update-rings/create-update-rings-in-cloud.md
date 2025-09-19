@@ -7,30 +7,30 @@ To create Update Rings for a new Deployment in Patch My PC (PMPC) Cloud:
 1. If you are unfamiliar with creating a deployment, follow the [Deploy an App](../deploying-an-app-using-cloud/) process until Step 7.
 2.  On the **Assignments** page, click **Enable Update Rings**.\\
 
-    ![Clicking “Enable Update Rings](../../../.gitbook/assets/image-\(2110\).png)
+    ![Clicking "Enable Update Rings](/_images/image-(2110 "Clicking \"Enable Update Rings").png)
 3. From the **Update ring start time** dropdown, choose how you want your Update Rings to handle the start times for their assignments:\
    • [Delayed](how-cloud-update-rings-are-created.md#delayed)\
    • [Immediate](how-cloud-update-rings-are-created.md#immediate)
 
-![Choosing the Update Ring start time](../../../.gitbook/assets/image-\(2582\).png)
+![Choosing the Update Ring start time](/_images/image-(2582 "Choosing the Update Ring start time").png)
 
 By default, two Update Rings are created with a two-day delay between them.
 
-![Default rings and their settings](../../../.gitbook/assets/image-\(2583\).png)
+![Default rings and their settings](/_images/image-(2583 "Default rings and their settings").png)
 
 4. If you do not want to add additional Update Rings, go to step 7.\
    \
    To add an additional Update Ring, click **Add Update Ring**.
 
-![Clicking “Add Update Ring”](../../../.gitbook/assets/image-\(2584\).png)
+![Clicking "Add Update Ring"](/_images/image-(2584 "Clicking \"Add Update Ring\"").png)
 
 5. On the **Add Update Ring** dialog box, enter the name for the new ring in the **Name** field and click **Save**.
 
-![“Add Update Ring” dialog box](../../../.gitbook/assets/image-\(2187\).png)
+!["Add Update Ring" dialog box](/_images/image-(2187 "\"Add Update Ring\" dialog box").png)
 
 A new ring is added.
 
-![New ring added](../../../.gitbook/assets/image-\(2585\).png)
+![New ring added](/_images/image-(2585 "New ring added").png)
 
 > **Important**
 >
@@ -50,24 +50,24 @@ A new ring is added.
 
 7. If you do not want to change the names of any of the rings, go to Step 10.\
    \
-   If you want to change the name of any of the rings, click the pencil icon (![pencil icon](../../../_images/image-\(2039\).png%3E)) beside the relevant ring.
+   If you want to change the name of any of the rings, click the pencil icon (![pencil icon](/_images/image-(2039 "pencil icon").png%3E)) beside the relevant ring.
 
-![Clicking the pencil icon beside the relevant ring to rename](../../../.gitbook/assets/image-\(2591\).png)
+![Clicking the pencil icon beside the relevant ring to rename](/_images/image-(2591 "Clicking the pencil icon beside the relevant ring to rename").png)
 
 8. Enter the ring's name in the **Name** field of the **Edit Update Ring** dialog box, then click **Save**.
 
-![Entering the ring's name in the “Name” field of the “Edit Update Ring” dialog box and clicking “Save”](../../../.gitbook/assets/image-\(2041\).png)
+![Entering the ring's name in the "Name" field of the "Edit Update Ring" dialog box and clicking "Save"](/_images/image-(2041 "Entering the ring's name in the \"Name\" field of the \"Edit Update Ring\" dialog box and clicking \"Save\"").png)
 
 The updated name appears.
 
-![Updated ring name](../../../.gitbook/assets/image-\(2592\).png)
+![Updated ring name](/_images/image-(2592 "Updated ring name").png)
 
 9. Change the name of any other rings.
 10. If you do not want to change the delay for any of the rings, go to Step 11.\
     \
     If you want to change the delay for a ring, click the plus (**+**) or minus (**-**) sign beside the relevant rings.
 
-![Clicking plus or minus beside the relevant rings](../../../.gitbook/assets/image-\(2593\).png)
+![Clicking plus or minus beside the relevant rings](/_images/image-(2593 "Clicking plus or minus beside the relevant rings").png)
 
 11. Click **Add Assignment** and add the relevant assignments for each ring, configuring the settings for each assignment as required.
 
@@ -79,15 +79,15 @@ The updated name appears.
 >
 > You can drag assignments between Update Rings by clicking the double ellipsis (!\[]\(/\_images/image-(2044).png)) beside the relevant assignment and dragging and dropping it to the relevant Update Ring.
 
-![Assignments added and configured for each Update Ring](../../../.gitbook/assets/image-\(2594\).png)
+![Assignments added and configured for each Update Ring](/_images/image-(2594 "Assignments added and configured for each Update Ring").png)
 
 12. Click **Deploy**.
 
-![Clicking “Deploy”](../../../.gitbook/assets/image-\(2595\).png)
+![Clicking "Deploy"](/_images/image-(2595 "Clicking \"Deploy\"").png)
 
 The **“<**_**deployment\_name**_**>” Deployment Summary** dialog box appears, summarizing what you are deploying, to which groups, and when.
 
-![“Deployment Summary”](../../../.gitbook/assets/image-\(2135\).png)
+!["Deployment Summary"](/_images/image-(2135 "\"Deployment Summary\"").png)
 
 > **Note**
 >
@@ -103,8 +103,8 @@ The **“<**_**deployment\_name**_**>” Deployment Summary** dialog box appears
     \
     b. Click **Confirm** to continue.
 
-![Clicking "Confirm"](../../../.gitbook/assets/image-\(2140\).png)
+![Clicking "Confirm"](/_images/image-(2140 "Clicking \"Confirm\"").png)
 
 When you click **Confirm**, the **Deployments** node appears showing the deployment as **In Progress** and the **Success – Created <**_**deployment\_name**_**>** notification.
 
-![](../../../.gitbook/assets/image-\(2142\).png)
+![](/_images/image-(2142).png)

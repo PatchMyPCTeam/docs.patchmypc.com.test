@@ -36,7 +36,7 @@ To add a script:
 
 1. Click the **Scripts** tab to expose the configurable settings.
 
-![Clicking the "Scripts" tab to expose the configurable settings](../../../../../.gitbook/assets/image-\(2603\).png)
+![Clicking the "Scripts" tab to expose the configurable settings](/_images/image-(2603 "Clicking the \"Scripts\" tab to expose the configurable settings").png)
 
 2. Click **Add** beside the relevant script option to add a script, then configure the required settings as per the relevant articles:
 

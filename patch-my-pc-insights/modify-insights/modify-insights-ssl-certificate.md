@@ -20,15 +20,15 @@ This section describes the steps required to change the SSL certificate used for
 
 In the configuration modification page, select the checkbox for 'SSL Certificate' then click 'Change Certificate':
 
-![](<../../.gitbook/assets/vmconnect_KN0zxDuJp8 (3).png>)
+![](/_images/vmconnect_KN0zxDuJp8-(3).png>)
 
 Use the drop down list to select the SSL certificate which represents the CNAME / Alias you wish to use.
 
-![](../../.gitbook/assets/image-\(1654\).png)
+![](/_images/image-(1654).png)
 
 With the appropriate SSL certificate selected, click **'Set CNAME / Alias'**
 
-![](../../.gitbook/assets/image-\(1655\).png)
+![](/_images/image-(1655).png)
 
 In the set CNAME / Alias dialog page, the dialog will be prepopulated with a value for the CNAME / Alias based upon the selected certificated.
 
@@ -36,22 +36,22 @@ Modify the prepopulated URL value if required.
 
 Click **'Set CNAME / Alias'**
 
-![](../../.gitbook/assets/vmconnect_3ZByUA7acq-\(1\).png)
+![](/_images/vmconnect_3ZByUA7acq-(1).png)
 
 Click **'Next'**
 
-![](../../.gitbook/assets/image-\(1656\).png)
+![](/_images/image-(1656).png)
 
 Click **'Install'**
 
-![](../../.gitbook/assets/vmconnect_KN0zxDuJp8-\(2\).png)
+![](/_images/vmconnect_KN0zxDuJp8-(2).png)
 
 The installer will make the required configuration changes and display a summary once complete.
 
 Click **'Finish'**
 
-![](../../.gitbook/assets/image-\(1658\).png)
+![](/_images/image-(1658).png)
 
 New Advanced Insights URL
 
-![](<../../.gitbook/assets/vmconnect_hyyumsMyOf (1).png>)
+![](/_images/vmconnect_hyyumsMyOf-(1).png>)

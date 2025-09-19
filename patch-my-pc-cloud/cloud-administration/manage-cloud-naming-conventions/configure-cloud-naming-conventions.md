@@ -7,7 +7,7 @@ To configure Naming Conventions in Patch My PC (PMPC) Cloud:
 1. Navigate to **Settings | Naming**.
 2.  Click on the relevant tab for the type of apps you want to configure naming conventions for.\\
 
-    ![Clicking the relevant tab for the type of app to configure](../../../.gitbook/assets/image-\(659\).png)
+    ![Clicking the relevant tab for the type of app to configure](/_images/image-(659 "Clicking the relevant tab for the type of app to configure").png)
 3.  Configure the options as required. You can:
 
     a. Type text in each of the fields.\
@@ -15,12 +15,12 @@ To configure Naming Conventions in Patch My PC (PMPC) Cloud:
     c. Use the double-ellipsis (**⋮⋮**) beside a field to drag it to a different order on the page.
 4.  Click **Save** to save your changes.\\
 
-    ![Clicking “Save” to save your changes](../../../.gitbook/assets/image-\(660\).png)
+    ![Clicking "Save" to save your changes](/_images/image-(660 "Clicking \"Save\" to save your changes").png)
 
     \
     The **Success – Naming Conventions saved** notification is displayed.\\
 
-    !["Success – Naming Conventions saved" notification](../../../.gitbook/assets/image-\(1777\).png)
+    !["Success – Naming Conventions saved" notification](/_images/image-(1777 "\"Success – Naming Conventions saved\" notification").png)
 
 > **Note**
 >

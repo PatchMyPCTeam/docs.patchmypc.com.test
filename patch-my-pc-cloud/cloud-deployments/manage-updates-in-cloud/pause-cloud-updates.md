@@ -18,19 +18,19 @@ To Pause Updates for an app:
 >
 > Click the filter button (!\[]\(/\_images/image-(2513).png>)) and select the **Disabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that do not have updates paused.
 
-![Clicking on the relevant successful deployment you want to pause for updates](../../../.gitbook/assets/image-\(1788\).png)
+![Clicking on the relevant successful deployment you want to pause for updates](/_images/image-(1788 "Clicking on the relevant successful deployment you want to pause for updates").png)
 
 2.  Click the **Pause Updates** slider to enable it.\\
 
-    ![Clicking the “Pause Updates” slider](../../../.gitbook/assets/image-\(1997\).png)
+    ![Clicking the "Pause Updates" slider](/_images/image-(1997 "Clicking the \"Pause Updates\" slider").png)
 3.  Click the **X** to close the deployment properties page.\\
 
-    ![Clicking "X" to close the deployment properties page.](../../../.gitbook/assets/image-\(1998\).png)
+    ![Clicking "X" to close the deployment properties page.](/_images/image-(1998 "Clicking \"X\" to close the deployment properties page.").png)
 
     \
     The list of deployments is displayed and **UPDATES PAUSED** shows under the deployment name so you updates are paused for this specific deployment.\\
 
-    ![](../../../.gitbook/assets/image-\(1999\).png)
+    ![](/_images/image-(1999).png)
 
 > **Note**
 >

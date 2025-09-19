@@ -8,7 +8,7 @@ When I’m trying to sign into the Patch My PC (PMPC) portal, the following mess
 
 **The service is currently unavailable in the <**_**region\_code**_**> region.**
 
-![](../../../.gitbook/assets/image-\(2293\).png)
+![](/_images/image-(2293).png)
 
 ### CAUSE
 

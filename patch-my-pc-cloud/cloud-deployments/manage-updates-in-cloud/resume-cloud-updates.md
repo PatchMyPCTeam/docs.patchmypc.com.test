@@ -18,11 +18,11 @@ To resume updates for an app:
 >
 > Click the filter button (!\[]\(/\_images/image-(2513).png>)) and select the **Enabled** option under the **Updates** section, followed by **Apply Filters** to see just those deployments that have updates paused.
 
-![Clicking on the relevant successful deployment which has been paused for updates](../../../.gitbook/assets/image-\(2000\).png)
+![Clicking on the relevant successful deployment which has been paused for updates](/_images/image-(2000 "Clicking on the relevant successful deployment which has been paused for updates").png)
 
 2.  Click the **Pause Updates** slider to disable it.\\
 
-    ![Clicking the “Pause Updates” slider](../../../.gitbook/assets/image-\(2001\).png)
+    ![Clicking the "Pause Updates" slider](/_images/image-(2001 "Clicking the \"Pause Updates\" slider").png)
 
 > **Note**
 >
@@ -30,12 +30,12 @@ To resume updates for an app:
 
 3.  Click the **X** to close the deployment properties page.\\
 
-    ![Clicking “X” to close the deployment properties page](../../../.gitbook/assets/image-\(2002\).png)
+    ![Clicking "X" to close the deployment properties page](/_images/image-(2002 "Clicking \"X\" to close the deployment properties page").png)
 
     \
     The list of deployments is displayed without **UPDATES PAUSED** under the deployment you just unpaused.\\
 
-    !["UPDATES PAUSED" no longer under the deployment name.](../../../.gitbook/assets/image-\(2003\).png)
+    !["UPDATES PAUSED" no longer under the deployment name.](/_images/image-(2003 "\"UPDATES PAUSED\" no longer under the deployment name.").png)
 
 Updates for this app are now resumed.
 

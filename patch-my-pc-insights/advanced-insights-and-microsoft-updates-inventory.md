@@ -12,7 +12,7 @@ If you use **Intune** to manage your windows updates (**Windows Update for Busin
 
 * You get **complete** visibility of **all** update compliance from Advanced Insights
 
-![](../.gitbook/assets/Microsoft-Updates-Page.png)
+![](/_images/Microsoft-Updates-Page.png)
 
 **\***
 

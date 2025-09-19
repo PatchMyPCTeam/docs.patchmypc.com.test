@@ -40,7 +40,7 @@ If there is a match, the app is marked as either:
 
 Any matching apps are shown on the relevant tab of the **Discovery** node.
 
-![Populated “Discovery” node](../../.gitbook/assets/image-\(415\).png)
+![Populated "Discovery" node](/_images/image-(415 "Populated \"Discovery\" node").png)
 
 > **Tip**
 >

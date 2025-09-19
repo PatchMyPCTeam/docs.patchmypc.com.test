@@ -8,7 +8,7 @@ _Applies to: Patch My PC Cloud_
 
 The **Install Parameters** tool of the Patch My PC (PMPC) Cloud deployment wizard allows you to configure various installation parameters and arguments.
 
-!["Install Parameters" tool](../../../../.gitbook/assets/image-\(86\).png)
+!["Install Parameters" tool](/_images/image-(86 "\"Install Parameters\" tool").png)
 
 To add installation parameters:
 
@@ -26,4 +26,4 @@ To add installation parameters:
 
 **Otherwise, click on the relevant tab under** Tools\*\* to configure the required settings, which are explained in the relevant process.
 
-![Click "Next" to move to the "Assignments" page](../../../../.gitbook/assets/image-\(87\).png)
+![Click "Next" to move to the "Assignments" page](/_images/image-(87 "Click \"Next\" to move to the \"Assignments\" page").png)

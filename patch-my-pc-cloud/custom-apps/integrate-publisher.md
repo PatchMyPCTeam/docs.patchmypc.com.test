@@ -22,7 +22,7 @@ To connect Publisher to PMPC Cloud:
 >
 > If the **Cloud** tab is not present, check you have entered your license key and clicked **Validate**.
 
-!["Cloud" tab of our Publisher](../../.gitbook/assets/image-\(1725\).png)
+!["Cloud" tab of our Publisher](/_images/image-(1725 "\"Cloud\" tab of our Publisher").png)
 
 3. In the **Connection Name** field, enter a unique name for the connection. For example **Patch My PC Custom Apps**, then click **Connect**.
 
@@ -30,14 +30,14 @@ To connect Publisher to PMPC Cloud:
 >
 > The name you enter here determines how this connection shows on the **Connections** page of the **portal**.
 
-![Entering a “Connection Name” and clicking “Connect”](../../.gitbook/assets/image-\(1726\).png)
+![Entering a "Connection Name" and clicking "Connect"](/_images/image-(1726 "Entering a \"Connection Name\" and clicking \"Connect\"").png)
 
 4.  In your browser, enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.
 
-    ![“Microsoft Sign in” screen](../../.gitbook/assets/image-\(1420\).png)
+    !["Microsoft Sign in" screen](/_images/image-(1420 "\"Microsoft Sign in\" screen").png)
 5.  Enter the password and click **Sign in**.
 
-    ![“Enter password” screen](../../.gitbook/assets/image-\(1421\).png)
+    !["Enter password" screen](/_images/image-(1421 "\"Enter password\" screen").png)
 
     \
     If the connection is successful, a new browser tab opens with the following message:
@@ -48,10 +48,10 @@ To connect Publisher to PMPC Cloud:
 6. If the **Edit a customer** screen is not displayed, proceed to Step 8.
 7.  If the **Edit a customer** screen is displayed, click to select the customer you want to connect to, then click **OK**.\\
 
-    ![Selecting the relevant customer from the “Edit a customer” screen](../../.gitbook/assets/image-\(910\).png)
+    ![Selecting the relevant customer from the "Edit a customer" screen](/_images/image-(910 "Selecting the relevant customer from the \"Edit a customer\" screen").png)
 8.  In Publisher, verify the **Connection Status** shows as **Connected**, then click **Save and Close**.\\
 
-    ![Publisher showing it’s “Connected”](../../.gitbook/assets/image-\(1728\).png)
+    ![Publisher showing it's "Connected"](/_images/image-(1728 "Publisher showing it's \"Connected\"").png)
 
 > **Note**
 >

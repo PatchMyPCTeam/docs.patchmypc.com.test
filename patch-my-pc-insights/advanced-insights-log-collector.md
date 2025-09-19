@@ -22,7 +22,7 @@ Sometimes we need you to provide log files, including information about your Adv
 >
 > \_Example output:\_
 
-![](../.gitbook/assets/image-\(1926\).png)
+![](/_images/image-(1926).png)
 
 **This page provides details about what information the AdvancedInsightsLogDiag.exe collects.**
 
@@ -32,7 +32,7 @@ The contents of the following directory are collected, which consist of the 'Adv
 
 C:\ProgramData\AdvancedInsights\Logs
 
-![](../.gitbook/assets/image-\(1924\).png)
+![](/_images/image-(1924).png)
 
 ### Windows Application Event Log
 

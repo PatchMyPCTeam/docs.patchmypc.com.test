@@ -8,7 +8,7 @@ _Applies to: Patch My PC Cloud_
 
 To export today's events plus the past 29 days of events, click **Export** in the header of the **Events** page.
 
-![Clicking “Export” in the header of the “Events” page](../../.gitbook/assets/image-\(1772\).png)
+![Clicking "Export" in the header of the "Events" page](/_images/image-(1772 "Clicking \"Export\" in the header of the \"Events\" page").png)
 
 > **Note**
 >
@@ -31,7 +31,7 @@ We export the following:
 
 Here is an example:
 
-![Example of the “events\_log\_entries.csv” file](../../.gitbook/assets/image-\(97\).png)
+![Example of the "events\_log\_entries.csv" file](/_images/image-(97 "Example of the \"events\_log\_entries.csv\" file").png)
 
 > **Tip**
 >

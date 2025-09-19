@@ -12,7 +12,7 @@ On the **Configuration** tab:
 >
 > Also, see \[Supported Variables in Publisher and PMPC Cloud]\(../../../patch-my-pc-product-reference/supported-variables-in-patch-my-pc-on-premises-publisher-and-cloud.md) for a list of the variables we support in this field.
 
-![Configuring the "Silent Install Parameters" for this app](../../../.gitbook/assets/image-\(43\).png)
+![Configuring the "Silent Install Parameters" for this app](/_images/image-(43 "Configuring the \"Silent Install Parameters\" for this app").png)
 
 2. In the **Version** field, enter the version number for this app.
 
@@ -24,11 +24,11 @@ On the **Configuration** tab:
 >
 > \`HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\`
 
-![Entering the version number for this app.](../../../.gitbook/assets/image-\(42\).png)
+![Entering the version number for this app.](/_images/image-(42 "Entering the version number for this app.").png)
 
 3. In the **Language** field, either type the language for this app or select it from the dropdown list.
 
-![Configuring the language for the app](../../../.gitbook/assets/image-\(41\).png)
+![Configuring the language for the app](/_images/image-(41 "Configuring the language for the app").png)
 
 4. In the **Apps & Feature Name** field, type the name of the app as it appears in **Add or remove programs**.
 
@@ -46,7 +46,7 @@ On the **Configuration** tab:
 >
 > As the **Apps & Features Name** is used to determine applicability and detection, using an overly generic name may cause Intune Updates to be detected as required on devices without the software installed.
 
-![Entering the "Apps & Feature Name"](../../../.gitbook/assets/image-\(44\).png)
+![Entering the "Apps & Feature Name"](/_images/image-(44 "Entering the \"Apps & Feature Name\"").png)
 
 5. Configure any additional required options from those listed below.
 
@@ -67,37 +67,37 @@ On the **Configuration** tab:
 >
 > A Return code must be a unique integer up to 10 digits long. You can add as many Return codes as your app supports. In the current release, you cannot edit or specify your own Code type as these are managed in Intune.
 
-![Adding a new Return Code](../../../.gitbook/assets/image-\(2625\).png)
+![Adding a new Return Code](/_images/image-(2625 "Adding a new Return Code").png)
 
 The new Return Code is added to the list.
 
-![New Return Code added to the list.](../../../.gitbook/assets/image-\(2626\).png)
+![New Return Code added to the list.](/_images/image-(2626 "New Return Code added to the list.").png)
 
 9. If you do not want to edit a Return Code, go to Step 13.
 10. To edit a Return Code, click the pencil icon beside it.
 
-![Clicking the pencil icon beside a Return Code to edit it.](../../../.gitbook/assets/image-\(2627\).png)
+![Clicking the pencil icon beside a Return Code to edit it.](/_images/image-(2627 "Clicking the pencil icon beside a Return Code to edit it.").png)
 
 11. Choose the correct **Code type** for this Return Code from the dropdown list.
 
-![Choosing the correct “Code type” from the dropdown list](../../../.gitbook/assets/image-\(2628\).png)
+![Choosing the correct "Code type" from the dropdown list](/_images/image-(2628 "Choosing the correct \"Code type\" from the dropdown list").png)
 
 12. Click the green tick to save your changes.
 
-![Clicking the green tick.](../../../.gitbook/assets/image-\(2629\).png)
+![Clicking the green tick.](/_images/image-(2629 "Clicking the green tick.").png)
 
 The **Code type** field is updated.
 
-![“Code type” field updated.](../../../.gitbook/assets/image-\(2630\).png)
+!["Code type" field updated.](/_images/image-(2630 "\"Code type\" field updated.").png)
 
 13. If you do not want to delete a Return Code, go to Step 15.
 14. To delete a Return Code, click the red trash can beside the relevant code.
 
-![Deleting a Return Code](../../../.gitbook/assets/image-\(2631\).png)
+![Deleting a Return Code](/_images/image-(2631 "Deleting a Return Code").png)
 
 The code is deleted from the list.
 
-![Code deleted from the list](../../../.gitbook/assets/image-\(2632\).png)
+![Code deleted from the list](/_images/image-(2632 "Code deleted from the list").png)
 
 15. If you want to configure Native Detection Rules for this app, click **Next** to go to the [Detection Rules](custom-apps-detection-rules-tab.md) tab.\
     \

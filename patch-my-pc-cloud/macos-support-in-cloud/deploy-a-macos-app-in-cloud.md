@@ -14,7 +14,7 @@ To deploy a macOS app using Patch My PC (PMPC) Cloud:
 
 1.  Locate the required app on the App Catalog page.\\
 
-    ![Locating the app to be deployed](../../.gitbook/assets/image-\(2285\).png)
+    ![Locating the app to be deployed](/_images/image-(2285 "Locating the app to be deployed").png)
 
 > **Tip**
 >
@@ -22,10 +22,10 @@ To deploy a macOS app using Patch My PC (PMPC) Cloud:
 
 2.  Click the relevant app.\\
 
-    ![Clicking the relevant app](../../.gitbook/assets/image-\(2286\).png)
+    ![Clicking the relevant app](/_images/image-(2286 "Clicking the relevant app").png)
 3.  On the app’s properties page, click **Deploy** under the **macOS** section to start the Deployment Wizard.\\
 
-    ![Clicking “Deploy” under the “macOS” section](../../.gitbook/assets/image-\(291\).png)
+    ![Clicking "Deploy" under the "macOS" section](/_images/image-(291 "Clicking \"Deploy\" under the \"macOS\" section").png)
 4. Continue from [General Information](../cloud-deployments/deploying-an-app-using-cloud/cloud-general-information-deployment-tab.md) to configure the deployment as required.
 
 > **Note**
