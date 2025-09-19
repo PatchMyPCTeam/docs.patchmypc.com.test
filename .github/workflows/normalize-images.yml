@@ -113,8 +113,7 @@ jobs:
               base = re.sub(r'\s+', '-', base)
               base = re.sub(r'-{2,}', '-', base).strip('-')
 
-              # if base ends with (...) and contains a stray quoted fragment inside, drop it but keep ()
-              # (defensive — shouldn’t be present in raw figure src, but safe)
+              # drop any quoted fragment inside trailing parentheses but keep the ')'
               base = re.sub(r'\(\s*([^()"]*?)\s+"(?:[^"\\]|\\.)*"\s*\)$', r'(\1)', base)
 
               # allow only letters, digits, -, _, ()
@@ -122,6 +121,20 @@ jobs:
               base = re.sub(r'-{2,}', '-', base).strip('-')
 
               return base + ext
+
+          # NEW: adaptive title wrapper (avoid escaping quotes; pick wrapper instead)
+          def title_wrapper(title: str) -> str:
+              if not title or not title.strip():
+                  return ""
+              if '"' in title and "'" in title:
+                  # use parentheses; escape ')' to keep Markdown valid
+                  return f" ({title.replace(')', r'\\)')})"
+              elif '"' in title:
+                  # use single quotes when title contains "
+                  return f" '{title}'"
+              else:
+                  # default to double quotes
+                  return f' "{title}"'
 
           def convert_figure(block:str)->str:
               mimg = IMG.search(block)
@@ -140,12 +153,11 @@ jobs:
               fn  = clean_basename(raw_src)
               url = f"/_images/{fn}"
 
-              # escape markdown specials safely
-              alt_md   = alt.replace(']', r'\]')
-              title_md = title.replace('"', r'\"')
+              # escape only ']' in ALT; do NOT escape quotes in title
+              alt_md = alt.replace(']', r'\]')
 
-              # if no title at all, omit the "..."
-              return f'![{alt_md}]({url} "{title_md}")' if title_md else f'![{alt_md}]({url})'
+              # ADAPTIVE TITLE WRAP:
+              return f'![{alt_md}]({url}{title_wrapper(title)})'
 
           files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
                    for p in glob.glob(g, recursive=True)]
@@ -162,6 +174,7 @@ jobs:
           if not any_changed:
               print("No <figure> blocks to convert.")
           PY
+      
       
 
       # 4) Normalize any remaining image links to /_images/<no-spaces>, remove prefixes/subfolders, convert bare <img> too
