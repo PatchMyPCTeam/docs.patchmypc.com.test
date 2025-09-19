@@ -87,24 +87,26 @@ jobs:
             import os, re
             name = name.replace('%20',' ')
             base, ext = os.path.splitext(name)
-        
-            # --- NEW: if base ends with (...) remove any quoted fragment inside but keep ()
+
+            # --- NEW fix: strip quoted fragment INSIDE trailing parentheses, keep ')'
+            # e.g. image-(766 "Clicking \"…\"")  ->  image-(766)
+            base = re.sub(r'\(\s*([^()"]*?)\s+"(?:[^"\\]|\\.)*"\s*\)$', r'(\1)', base)
+
+            # If base ends with (...) (no quotes), still normalize its inner spacing
             m = re.search(r'\(([^()]*)\)$', base)
             if m:
               inner = m.group(1)
-              # remove any "…", including escaped quotes, and trim/collapse space
-              inner = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', ' ', inner)
               inner = re.sub(r'\s+', ' ', inner).strip()
               base = base[:m.start()] + f'({inner})'
-        
-            # Remove any space+quoted fragment (fallback) and anything after stray quotes
-            base = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', base)
-            base = re.sub(r'["“”].*$', '', base)
-        
+
+            # Fallback removals
+            base = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', base)  # space+"…"
+            base = re.sub(r'["“”].*$', '', base)                 # anything after stray quote
+
             # Normalize whitespace/symbols
             base = re.sub(r'\s+', '-', base)
             base = re.sub(r'-{2,}', '-', base).strip('-')
-        
+
             return f"{base}{ext.lower()}"
 
           files = [p for g in ["**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN"]
@@ -144,6 +146,7 @@ jobs:
       
       
       
+      
 
       # 4) Normalize any remaining image links to /_images/<no-spaces>, remove prefixes/subfolders, convert bare <img> too
       - name: Normalize ALL image links to ![alt](/_images/<slug> "alt") exactly
@@ -160,46 +163,46 @@ jobs:
           def clean_filename_from_url(url: str) -> str:
             import os, re
             from urllib.parse import unquote
-        
-            IMG_EXT = r"(?:png|jpe?g|gif|webp|svg|gifv)"
-        
+
             if not url:
               return "unknown.png"
-        
+
             url = url.strip().rstrip('>')
             url = re.sub(r'\s*""', '', url)
-        
+
             # last filename-like token
             m = re.findall(rf'([^/?#]+?\.{IMG_EXT})', url, flags=re.I)
             bn = m[-1] if m else os.path.basename(url)
             bn = unquote(bn)
-        
+
             # split
             if "." in bn:
               base, ext = bn.rsplit(".", 1)
             else:
               base, ext = bn, ""
-        
-            # --- NEW: if base ends with (...) remove any quoted fragment inside but keep ()
+
+            # --- NEW fix: strip quoted fragment INSIDE trailing parentheses, keep ')'
+            # e.g. image-(766 "Clicking \"…\"")  ->  image-(766)
+            base = re.sub(r'\(\s*([^()"]*?)\s+"(?:[^"\\]|\\.)*"\s*\)$', r'(\1)', base)
+
+            # If base ends with (...) (no quotes), still normalize its inner spacing
             pm = re.search(r'\(([^()]*)\)$', base)
             if pm:
               inner = pm.group(1)
-              inner = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', ' ', inner)
               inner = re.sub(r'\s+', ' ', inner).strip()
               base = base[:pm.start()] + f'({inner})'
-        
+
             # Fallback cleanups
-            base = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', base)  # remove space+"…"
+            base = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', base)  # space+"…"
             base = re.sub(r'["“”].*$', '', base)                 # cut from any stray quote
-        
+
             # normalize: spaces -> dash; allow (), -, _
             base = re.sub(r"\s+", "-", base)
             base = re.sub(r"[^A-Za-z0-9_\-()]", "-", base)
             base = re.sub(r"-{2,}", "-", base).strip("-")
-        
+
             return f"{base}.{ext.lower()}" if ext else base
-    
-    
+
           def to_root_image_url(url: str) -> str:
               return "/_images/" + clean_filename_from_url(url)
 
@@ -289,11 +292,10 @@ jobs:
                 inner = (m.group(2) or "").strip()
                 if not inner:
                   return m.group(0)
-                # Keep only through the first valid image extension occurrence
                 extm = re.search(rf'\.{IMG_EXT}\b', inner, re.I)
                 if extm:
                   inner = inner[:extm.end()]
-                # Remove any embedded space+"…"
+                # Escaped-aware removal of embedded titles
                 inner = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', inner)
                 return build_md(alt, inner)
               s = md_img_any.sub(_sanitize_md_img, s)
@@ -345,6 +347,7 @@ jobs:
           if not any_changed:
               print("No image links needed normalization.")
           PY
+      
       
       
       
