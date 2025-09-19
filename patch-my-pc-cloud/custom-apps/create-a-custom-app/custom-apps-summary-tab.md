@@ -12,7 +12,7 @@ On the **Summary** tab, review you have configured the Custom App correctly.
 * If you are happy, click **Create**.
 * If you need to change something, click **< Prev** to backtrack through the Deployment Wizard to the relevant setting. Make the change, then step back through the wizard to this tab. If everything is now correct, click **Create**.
 
-![Clicking "Create" on the "Summary" page](/_images/image-(206).png "Clicking “Create” on the “Summary” page")
+![Clicking "Create" on the "Summary" page](/_images/image-(206 'Clicking "Create" on the "Summary" page').png "Clicking “Create” on the “Summary” page")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

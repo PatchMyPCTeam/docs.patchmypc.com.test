@@ -15,7 +15,7 @@ To deploy a macOS app using Patch My PC (PMPC) Cloud:
 1.  Locate the required app on the App Catalog page.\
 
 
-    ![Locating the app to be deployed](/_images/image-(2285).png "Locating the app to be deployed")
+    ![Locating the app to be deployed](/_images/image-(2285 "Locating the app to be deployed").png "Locating the app to be deployed")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
@@ -25,13 +25,13 @@ To deploy a macOS app using Patch My PC (PMPC) Cloud:
 2.  Click the relevant app.\
 
 
-    ![Clicking the relevant app](/_images/image-(2286).png "Clicking the relevant app")
+    ![Clicking the relevant app](/_images/image-(2286 "Clicking the relevant app").png "Clicking the relevant app")
 
 
 3.  On the app’s properties page, click **Deploy** under the **macOS** section to start the Deployment Wizard.\
 
 
-    ![Clicking "Deploy" under the "macOS" section](/_images/image-(291).png "Clicking “Deploy” under the “macOS” section")
+    ![Clicking "Deploy" under the "macOS" section](/_images/image-(291 'Clicking "Deploy" under the "macOS" section').png "Clicking “Deploy” under the “macOS” section")
 4. Continue from [General Information](../cloud-deployments/deploying-an-app-using-cloud/cloud-general-information-deployment-tab.md) to configure the deployment as required.
 
 <blockquote class="wp-block-quote">
@@ -71,6 +71,6 @@ When deploying _Line-of-Business_ (LOB) apps (also known as Custom or in-house a
 <p>**Important**</p>
 <p>Adding either a pre or post-install script results in the **Add Uninstall** assignment type being unavailable, as this combination is unsupported (hovering your mouse over the **Add Uninstall** assignment tells you that **Adding a script will disable uninstall assignments for this deployment**).</p>
 <p>Likewise, if you add an **Add Uninstall** assignment and then click the **Configurations** page, the option to add either a pre or post-install script is greyed out (hovering your mouse over the **Add** button tells you **Uninstall Assignments disabled as you have added a pre/post-install script.**</p>
-<p>!["Uninstall Assignments disabled as you have added a pre/post-install script."](/_images/image-(2395 "\"Uninstall Assignments disabled as you have added a pre/post-install script.\"").png>)</p>
+<p>!["Uninstall Assignments disabled as you have added a pre/post-install script."](/_images/image-(2395 '"Uninstall Assignments disabled as you have added a pre/post-install script."').png>)</p>
 <p>See [Supported Assignment Types & Settings for macOS Deployments](supported-assignment-types-and-settings-for-cloud-macos-deployments.md) for more details.</p>
 </blockquote>

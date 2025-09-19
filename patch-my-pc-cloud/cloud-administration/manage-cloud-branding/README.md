@@ -16,7 +16,7 @@ All branding-related tasks are performed from the **Branding** node of the porta
 2.  Navigate to **Settings | Branding**.\
 
 
-    ![Navigating to "Settings | Branding"](/_images/image-(1477).png "Navigating to “Settings | Branding”")
+    ![Navigating to "Settings | Branding"](/_images/image-(1477 'Navigating to "Settings | Branding"').png "Navigating to “Settings | Branding”")
 
 The **Branding** screen is then displayed, allowing you to:
 
@@ -26,7 +26,7 @@ The **Branding** screen is then displayed, allowing you to:
 * [Delete Branding](delete-cloud-branding.md)
 * [Uninstall Branding](uninstall-cloud-branding.md)
 
-!["Branding" screen](/_images/image-(1478).png "“Branding” screen")
+!["Branding" screen](/_images/image-(1478 '"Branding" screen').png "“Branding” screen")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

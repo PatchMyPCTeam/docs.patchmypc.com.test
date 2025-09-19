@@ -12,5 +12,5 @@ To delete a Custom App for a Managed Service Provider (MSP) you’ve created in 
 <blockquote class="wp-block-quote">
 <p>**Important**</p>
 <p>If you try to delete a Custom App for an MSP that is shared with and deployed from a child, you will see the “**Are you sure?**” popup warning you of the impact and prompting you to confirm the deletion of the deployment at the child company.</p>
-<p>!["Are you sure" popup](/_images/image-(343 "\"Are you sure\" popup").png>)</p>
+<p>!["Are you sure" popup](/_images/image-(343 '"Are you sure" popup').png>)</p>
 </blockquote>

@@ -6,7 +6,7 @@ Once onboarded to Patch My PC (PMPC) Cloud, you can manage the various environme
 
 All environment-related tasks are performed from the **Environments** node of the portal, accessed by navigating to **Settings | Environments.**
 
-![Navigating to "Settings | Environments"](/_images/image-(1592).png "Navigating to “Settings | Environments”")
+![Navigating to "Settings | Environments"](/_images/image-(1592 'Navigating to "Settings | Environments"').png "Navigating to “Settings | Environments”")
 
 The **Environments** page is then displayed, allowing you to see and manage which:
 

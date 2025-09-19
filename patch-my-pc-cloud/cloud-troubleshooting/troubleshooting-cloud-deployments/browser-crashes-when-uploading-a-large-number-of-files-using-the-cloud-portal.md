@@ -55,7 +55,7 @@ After running this script, a file named **C:\Temp\MyFolder.zip** will be created
 
 Create your Custom App or upload the ZIP archive as an **Extra File** in a deployment.
 
-![Adding the "MyFolder.zip" as an Extra File](/_images/image-(2381).png "Adding the “MyFolder.zip” as an Extra File")
+![Adding the "MyFolder.zip" as an Extra File](/_images/image-(2381 'Adding the "MyFolder.zip" as an Extra File').png "Adding the “MyFolder.zip” as an Extra File")
 
 #### Step 3: Extract the ZIP Archive During Deployment
 
@@ -77,7 +77,7 @@ During the app deployment step, specify a script to extract the ZIP archive in t
 
 Upload the extraction script as a Pre-Install Script in your deployment settings.
 
-![Uploading the extraction script as a Pre-Install Script in your deployment settings](/_images/image-(2382).png "Uploading the extraction script as a Pre-Install Script in your deployment settings")
+![Uploading the extraction script as a Pre-Install Script in your deployment settings](/_images/image-(2382 "Uploading the extraction script as a Pre-Install Script in your deployment settings").png "Uploading the extraction script as a Pre-Install Script in your deployment settings")
 
 #### Step 5: Create the Deployment and Test
 

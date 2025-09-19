@@ -13,7 +13,7 @@ To edit the Update Rings configuration for a deployment:
 1.  Navigate to the **Deployments** node.\
 
 
-    ![Navigating to the "Deployments" node](/_images/image-(434).png "Navigating to the “Deployments” node")
+    ![Navigating to the "Deployments" node](/_images/image-(434 'Navigating to the "Deployments" node').png "Navigating to the “Deployments” node")
 
 
 2. Click the relevant deployment whose Update Ring configuration you want to edit.
@@ -23,18 +23,18 @@ To edit the Update Rings configuration for a deployment:
 <p>Click the filter button (![](/_images/image-(2513).png>)) and select the **Enabled** option under the **Update Rings** section, followed by **Apply Filters** to see just those deployments that have update Rings configured.&#x20;</p>
 </blockquote>
 
-![Clicking the relevant deployment you want to edit](/_images/image-(2060).png "Clicking the relevant deployment you want to edit")
+![Clicking the relevant deployment you want to edit](/_images/image-(2060 "Clicking the relevant deployment you want to edit").png "Clicking the relevant deployment you want to edit")
 
 3.  Click **Edit**.\
 
 
-    ![Clicking "More Info"](/_images/image-(436).png "Clicking “More Info”")
+    ![Clicking "More Info"](/_images/image-(436 'Clicking "More Info"').png "Clicking “More Info”")
 
 
 4.  Click the **Assignments** tab.\
 
 
-    ![Clicking the "Assignments" tab](/_images/image-(437).png "Clicking the “Assignments” tab")
+    ![Clicking the "Assignments" tab](/_images/image-(437 'Clicking the "Assignments" tab').png "Clicking the “Assignments” tab")
 
 
 5. Make any required changes, for example:&#x20;
@@ -46,7 +46,7 @@ To edit the Update Rings configuration for a deployment:
 6.  Click **Save** to save your changes.\
 
 
-    ![Clicking "Save"](/_images/image-(438).png "Clicking “Save”")
+    ![Clicking "Save"](/_images/image-(438 'Clicking "Save"').png "Clicking “Save”")
 
     \
     If you make any changes that affect how the Update Rings will work, you will see the **“<**_**app\_name**_**>” Deployment Summary** asking you to either confirm or cancel your changes.\
@@ -54,7 +54,7 @@ To edit the Update Rings configuration for a deployment:
     For example, reducing the delay for **Corel All Users** ring from **3** days to **2** results in the following.\
 
 
-    ![Example "Deployment Summary" showing the effects of the edit](/_images/image-(439).png "Example “Deployment Summary” showing the effects of the edit")
+    ![Example "Deployment Summary" showing the effects of the edit](/_images/image-(439 'Example "Deployment Summary" showing the effects of the edit').png "Example “Deployment Summary” showing the effects of the edit")
 
 
 7.  Either click **Cancel** to return to the **Assignments** tab and make any required changes or click **Confirm** to save your changes.\

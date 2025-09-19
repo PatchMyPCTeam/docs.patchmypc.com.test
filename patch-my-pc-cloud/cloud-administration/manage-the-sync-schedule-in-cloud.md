@@ -11,19 +11,19 @@ To set a different time or frequency for the sync job:
 1.  Navigate to **Settings | Sync Schedule**.\
 
 
-    ![Navigating to "Settings | Sync Schedule"](/_images/image-(1717).png "Navigating to “Settings | Sync Schedule”")
+    ![Navigating to "Settings | Sync Schedule"](/_images/image-(1717 'Navigating to "Settings | Sync Schedule"').png "Navigating to “Settings | Sync Schedule”")
 
 
 2.  On the **Sync Schedule** page, make the required changes, then click **Save**.\
 
 
-    ![Clicking "Save" to save your changes](/_images/image-(464).png "Clicking “Save” to save your changes")
+    ![Clicking "Save" to save your changes](/_images/image-(464 'Clicking "Save" to save your changes').png "Clicking “Save” to save your changes")
 
     \
     The **Success – Sync Scheduler updated** notification is displayed.\
 
 
-    !["Success – Sync Scheduler saved" notification](/_images/image-(465).png "“Success – Sync Scheduler saved” notification")
+    !["Success – Sync Scheduler saved" notification](/_images/image-(465 '"Success – Sync Scheduler saved" notification').png "“Success – Sync Scheduler saved” notification")
 
 ### Other Frequencies
 
@@ -37,8 +37,8 @@ You can also choose to run the Sync Schedule on a Weekly or Monthly basis.
 
 If you choose the **Weekly** option, as well as the time the sync runs, you can also choose which days it runs on.
 
-![Choosing the "Weekly" option](/_images/image-(2116).png "Choosing the “Weekly” option")
+![Choosing the "Weekly" option](/_images/image-(2116 'Choosing the "Weekly" option').png "Choosing the “Weekly” option")
 
 If you choose the **Monthly** option, as well as the time the sync runs, you can also choose to run it on a specific day of the month or a recurring pattern.
 
-![Choosing the "Monthly" option](/_images/image-(2117).png "Choosing the “Monthly” option")
+![Choosing the "Monthly" option](/_images/image-(2117 'Choosing the "Monthly" option').png "Choosing the “Monthly” option")

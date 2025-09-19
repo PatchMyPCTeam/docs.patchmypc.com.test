@@ -42,13 +42,13 @@ To remove the Intune connection for a Child Company:
 3.  Click your user name in the top right-hand corner.\
 
 
-    ![Clicking  your user name in the top right-hand corner](/_images/image-(367).png "Clicking  your user name in the top right-hand corner")
+    ![Clicking  your user name in the top right-hand corner](/_images/image-(367 "Clicking  your user name in the top right-hand corner").png "Clicking  your user name in the top right-hand corner")
 
 
 4.  Select the child company to switch to.\
 
 
-    ![Selecting the child company](/_images/image-(368).png "Selecting the child company")
+    ![Selecting the child company](/_images/image-(368 "Selecting the child company").png "Selecting the child company")
 
     \
     The portal refreshes to show the child company has been selected as the **Managed By <**_**msp\_name**_**>** indicator is shown in the header.\
@@ -64,25 +64,25 @@ To remove the Intune connection for a Child Company:
 6.  Navigate to **Settings | Environments**.\
 
 
-    ![Navigating to the "Environments" node](/_images/image-(370).png "Navigating to the “Environments” node")
+    ![Navigating to the "Environments" node](/_images/image-(370 'Navigating to the "Environments" node').png "Navigating to the “Environments” node")
 
 
 7.  Click **Delete** beside Intune.\
 
 
-    ![Clicking "Delete" beside "Intune."](/_images/image-(371).png "Clicking “Delete” beside “Intune.”")
+    ![Clicking "Delete" beside "Intune."](/_images/image-(371 'Clicking "Delete" beside "Intune."').png "Clicking “Delete” beside “Intune.”")
 
 
 8.  On the **Are you sure you want to disconnect Intune** popup, click **OK**.\
 
 
-    ![Clicking "OK" on the "Are you sure you want to disconnect Intune" popup](/_images/image-(372).png "Clicking “OK” on the “Are you sure you want to disconnect Intune” popup")
+    ![Clicking "OK" on the "Are you sure you want to disconnect Intune" popup](/_images/image-(372 'Clicking "OK" on the "Are you sure you want to disconnect Intune" popup').png "Clicking “OK” on the “Are you sure you want to disconnect Intune” popup")
 
 
 
 The portal refreshes to show that the Intune connection has been deleted and the **Success – Intune disconnected** notification is displayed.
 
-![Portal refreshing to show that the Intune connection has been deleted and the "Success – Intune disconnected" notification is displayed.](/_images/image-(373).png "Portal refreshing to show that the Intune connection has been deleted and the “Success – Intune disconnected” notification is displayed.")
+![Portal refreshing to show that the Intune connection has been deleted and the "Success – Intune disconnected" notification is displayed.](/_images/image-(373 'Portal refreshing to show that the Intune connection has been deleted and the "Success – Intune disconnected" notification is displayed.').png "Portal refreshing to show that the Intune connection has been deleted and the “Success – Intune disconnected” notification is displayed.")
 
 You can now follow the [Delete a Child Company](remove-a-company-from-being-managed-cloud-msp.md#delete-a-child-company) process if you want to delete the child company.
 
@@ -95,7 +95,7 @@ Once the Intune connection for a Child Company has been removed, to delete a chi
 3.  Click the trashcan (![](/_images/image-(2098).png>)) beside the child company you want to remove.\
 
 
-    ![Clicking the trashcan beside the child company you want to remove](/_images/image-(2099).png "Clicking the trashcan beside the child company you want to remove")
+    ![Clicking the trashcan beside the child company you want to remove](/_images/image-(2099 "Clicking the trashcan beside the child company you want to remove").png "Clicking the trashcan beside the child company you want to remove")
 
 
 4.  On the **Are you sure you want to delete <**_**child\_company\_name**_**> customer** dialog  box, click **Yes**.\
@@ -129,35 +129,35 @@ To unlink a child company from a parent MSP company:
 3.  Navigate to **Settings | Company**.\
 
 
-    ![Navigating to "Settings | Company"](/_images/image-(2102).png "Navigating to “Settings | Company”")
+    ![Navigating to "Settings | Company"](/_images/image-(2102 'Navigating to "Settings | Company"').png "Navigating to “Settings | Company”")
 
 
 4.  Scroll down to the **Your company is managed by an MSP (Managed Service Provider)** section, then click **Unlink MSP**.\
     \
 
 
-    ![Clicking "Unlink MSP"](/_images/image-(2103).png "Clicking “Unlink MSP”")
+    ![Clicking "Unlink MSP"](/_images/image-(2103 'Clicking "Unlink MSP"').png "Clicking “Unlink MSP”")
 
 
 5.  On the **Are you sure you want to Disconnect MSP** dialog box, click **Yes**.\
     \
 
 
-    ![Clicking "Yes" on the "Are you sure you want to Disconnect MSP" dialog box](/_images/image-(2104).png "Clicking “Yes” on the “Are you sure you want to Disconnect MSP” dialog box")
+    ![Clicking "Yes" on the "Are you sure you want to Disconnect MSP" dialog box](/_images/image-(2104 'Clicking "Yes" on the "Are you sure you want to Disconnect MSP" dialog box').png "Clicking “Yes” on the “Are you sure you want to Disconnect MSP” dialog box")
 
 
 6.  The **Customer <**_**parent\_company\_name**_**>** notification is displayed and you will prompted to enter a non-MSP+ license for the child company as it has been disconnected from the parent MSP company.\
     \
 
 
-    ![Prompt to enter a non-MSP+ license key on the child company](/_images/image-(2105).png "Prompt to enter a non-MSP+ license key on the child company")
+    ![Prompt to enter a non-MSP+ license key on the child company](/_images/image-(2105 "Prompt to enter a non-MSP+ license key on the child company").png "Prompt to enter a non-MSP+ license key on the child company")
 
 
 7.  Enter the license key and click **Activate Now**.\
     \
 
 
-    ![Entering the license key and clicking "Activate Now"](/_images/image-(103).png "Entering the license key and clicking “Activate Now”")
+    ![Entering the license key and clicking "Activate Now"](/_images/image-(103 'Entering the license key and clicking "Activate Now"').png "Entering the license key and clicking “Activate Now”")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -168,14 +168,14 @@ To unlink a child company from a parent MSP company:
     \
 
 
-    ![Clicking "Close" on the "You have successfully activated your license" popup](/_images/image-(2107).png "Clicking “Close” on the “You have successfully activated your license” popup")
+    ![Clicking "Close" on the "You have successfully activated your license" popup](/_images/image-(2107 'Clicking "Close" on the "You have successfully activated your license" popup').png "Clicking “Close” on the “You have successfully activated your license” popup")
 
 The following event is created on the parent MSP company so they know a user at the child site has unlinked the child company from the parent company:
 
 **Managed Company Relationship for <**_**child\_company\_name**_**> Removed by <**_**user\_name**_**>**
 
-![Event on the parent company that a user at the child company has unlinked it from the parent company.](/_images/image-(2108).png "Event on the parent company that a user at the child company has unlinked it from the parent company.")
+![Event on the parent company that a user at the child company has unlinked it from the parent company.](/_images/image-(2108 "Event on the parent company that a user at the child company has unlinked it from the parent company.").png "Event on the parent company that a user at the child company has unlinked it from the parent company.")
 
 Also, the child company is automatically deleted from the parent company.
 
-![Child company automatically deleted from the parent company](/_images/image-(2109).png "Child company automatically deleted from the parent company")
+![Child company automatically deleted from the parent company](/_images/image-(2109 "Child company automatically deleted from the parent company").png "Child company automatically deleted from the parent company")

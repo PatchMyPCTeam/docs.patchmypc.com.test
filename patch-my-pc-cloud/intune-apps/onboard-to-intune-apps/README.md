@@ -14,24 +14,24 @@ To onboard to the Intune Apps for Cloud (Intune Apps):
 2.  On the **App Catalog** page, click **Connect** under **Intune**.\
 
 
-    ![Clicking "Connect" under Intune on the App Catalog page](/_images/image-(1745).png "Clicking “Connect” under Intune on the App Catalog page")
+    ![Clicking "Connect" under Intune on the App Catalog page](/_images/image-(1745 'Clicking "Connect" under Intune on the App Catalog page').png "Clicking “Connect” under Intune on the App Catalog page")
 3.  Enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.\
 
 
-    !["Microsoft Sign in" screen](/_images/image-(926).png "“Microsoft Sign in” screen")
+    !["Microsoft Sign in" screen](/_images/image-(926 '"Microsoft Sign in" screen').png "“Microsoft Sign in” screen")
 
 
 4.  Enter the password and click **Sign in**.
 
 
 
-    !["Microsoft Enter password" screen](/_images/image-(927).png "“Microsoft Enter password” screen")
+    !["Microsoft Enter password" screen](/_images/image-(927 '"Microsoft Enter password" screen').png "“Microsoft Enter password” screen")
 
 
 5.  On the **Permission requested** screen, click **Accept**.\
 
 
-    !["Permissions requested" screen](/_images/image-(929).png "“Permissions requested” screen")
+    !["Permissions requested" screen](/_images/image-(929 '"Permissions requested" screen').png "“Permissions requested” screen")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -49,7 +49,7 @@ To onboard to the Intune Apps for Cloud (Intune Apps):
     If you do not see this screen, it is probably because you already have a suitable, valid PMPC license. Continue to Step 8.\
 
 
-    !["Intune connected successfully" screen](/_images/image-(930).png "“Intune connected successfully” screen")
+    !["Intune connected successfully" screen](/_images/image-(930 '"Intune connected successfully" screen').png "“Intune connected successfully” screen")
 
 
 7.  On the **Intune connected successfully** screen, either:\
@@ -62,7 +62,7 @@ To onboard to the Intune Apps for Cloud (Intune Apps):
     Enter your current PMPC license key in the **Enter License Key** field and click **Activate Now**.\
 
 
-    !["Intune connected successfully" screen](/_images/image-(931).png "“Intune connected successfully” screen")
+    !["Intune connected successfully" screen](/_images/image-(931 '"Intune connected successfully" screen').png "“Intune connected successfully” screen")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -72,4 +72,4 @@ To onboard to the Intune Apps for Cloud (Intune Apps):
 8.  Once connected successfully, the **App Catalog** shows applications that can be deployed and managed using Intune Apps.\
 
 
-    !["App Catalog" screen](/_images/image-(1747).png "“App Catalog” screen")
+    !["App Catalog" screen](/_images/image-(1747 '"App Catalog" screen').png "“App Catalog” screen")

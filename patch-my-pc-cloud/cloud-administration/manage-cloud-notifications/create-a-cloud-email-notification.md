@@ -14,13 +14,13 @@ To create an email notification:
 1.  In the **User Email** field, select the relevant administrator’s email address from the dropdown or type their email address.\
 
 
-    ![Select the relevant administrator's email address from the "User Email" dropdown or type their email address](/_images/image-(1917).png "Select the relevant administrator’s email address from the “User Email” dropdown or type their email address")
+    ![Select the relevant administrator's email address from the "User Email" dropdown or type their email address](/_images/image-(1917 (Select the relevant administrator's email address from the "User Email" dropdown or type their email address)).png "Select the relevant administrator’s email address from the “User Email” dropdown or type their email address")
 
 
 2.  Click **Add New Email**.\
 
 
-    ![Clicking "Add New Email" to add the email address to the notification list](/_images/image-(1918).png "Clicking “Add New Email” to add the email address to the notification list")
+    ![Clicking "Add New Email" to add the email address to the notification list](/_images/image-(1918 'Clicking "Add New Email" to add the email address to the notification list').png "Clicking “Add New Email” to add the email address to the notification list")
 
     \
     The email address is added to the list of email addresses that will be sent the notification.\
@@ -42,7 +42,7 @@ To create an email notification:
 3.  Click **Save** on the **Add Notifications** screen to save the notification.\
 
 
-    ![Clicking "Save" on the "Add Notifications" screen](/_images/image-(1919).png "Clicking “Save” on the “Add Notifications” screen")
+    ![Clicking "Save" on the "Add Notifications" screen](/_images/image-(1919 'Clicking "Save" on the "Add Notifications" screen').png "Clicking “Save” on the “Add Notifications” screen")
 
     \
     The **Success - Notification created** notification is shown.\
@@ -55,4 +55,4 @@ To create an email notification:
     \
 
 
-    ![Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification](/_images/image-(1921).png "Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification")
+    ![Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification](/_images/image-(1921 "Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification").png "Portal auto-refreshes to show the new notification, including abbreviations of the users who will receive the email notification")
