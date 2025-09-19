@@ -137,6 +137,12 @@ jobs:
           from html import unescape
 
           IMG_EXT = r"(?:png|jpe?g|gif|webp|svg|gifv)"
+          
+          def clean_filename_from_url(url: str) -> str:
+            if not url:                      # None or empty → don't crash
+              return "unknown.png"         # stays validator-safe (no spaces)
+            url = url.strip().rstrip('>')
+            url = re.sub(r'\s*""', '', url)
 
           def clean_filename_from_url(url: str) -> str:
               # Trim noise that can leak from <...> wrappers and empty titles
@@ -258,7 +264,15 @@ jobs:
               s = convert_hint_blocks(s)
 
               # 2.6) Sanitize ANY Markdown image URL (fix spaces, stray '>', etc.)
-              s = md_img_any.sub(lambda m: build_md(m.group(1), m.group(2)), s)
+              #s = md_img_any.sub(lambda m: build_md(m.group(1), m.group(2)), s)
+              def _sanitize_md_img(m):
+                alt = m.group(1)
+                url = (m.group(2) or m.group(3) or "").strip()
+                if not url:
+                  return m.group(0)  # leave it unchanged if URL missing
+                return build_md(alt, url)
+              
+              s = md_img_any.sub(_sanitize_md_img, s)
 
               # 3) Gather reference defs
               defs = {}
