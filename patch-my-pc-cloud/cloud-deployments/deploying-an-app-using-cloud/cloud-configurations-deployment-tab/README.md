@@ -4,20 +4,18 @@ _Applies to: Patch My PC Cloud_
 
 The **Configurations** tab of the Patch My PC (PMPC) Cloud deployment wizard allows you to configure various configuration settings (explained below) for how you want the app to be deployed.
 
-{% hint style="info" %}
-**Note**
-
-The most common settings are displayed by default. You can configure additional, optional settings by clicking the relevant tab under the **Tools** section and following the relevant process.
-
-If any configuration options mentioned below are missing from your deployment, it is probably because the specific feature(s) the option relates to have not been enabled in your PMPC Cloud company.
-
-Any settings you configure for a deployment will be used for the current deployment and automatically applied to any new versions of the deployment as it's updated.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>The most common settings are displayed by default. You can configure additional, optional settings by clicking the relevant tab under the **Tools** section and following the relevant process.</p>
+<p>If any configuration options mentioned below are missing from your deployment, it is probably because the specific feature(s) the option relates to have not been enabled in your PMPC Cloud company.</p>
+<p>Any settings you configure for a deployment will be used for the current deployment and automatically applied to any new versions of the deployment as it's updated.</p>
+</blockquote>
 
 This tab contains the following settings:
 
 * [Apply Template](./#apply-template)
-*  [Built-in Auto Updates](./#built-in-auto-updates)
+*
+  [Built-in Auto Updates](./#built-in-auto-updates)
 * [Desktop Shortcut](./#desktop-shortcut)
 * [Available Uninstall](./#available-uninstall)
 * [Conflicting Process](./#conflicting-process)
@@ -26,7 +24,7 @@ This tab contains the following settings:
 * [Notification Policy](./#notification-policy)
 * [Conflicting Process - Conflicting Process](./#conflicting-process-conflicting-process)
 
-<figure><img src="../../../../.gitbook/assets/image (2601).png" alt="&#x22;Configurations&#x22; tab" width="563"><figcaption></figcaption></figure>
+!["Configurations" tab](/_images/image-(2601 '"Configurations" tab').png "&#x22;Configurations&#x22; tab")
 
 ### **Apply Template**
 
@@ -36,7 +34,8 @@ Allows you to apply a [Template](../../use-a-template-in-cloud-deployments.md) o
 
 | Option               | Description                                                                                                                                                                                                                                                                                                                                        |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Disable Self-Updates | <p>If an app supports built-in auto-updates, this option will be shown and enabled by default, disabling any auto-updates.</p><p></p><p>There might be apps that have built-in auto-updates, but do not support controlling this setting by setting an install parameter or a registry value. In such cases, this option will be unavailable.</p> |
+| Disable Self-Updates | <p>If an app supports built-in auto-updates, this option will be shown and enabled by default, disabling any auto-updates.</p><p></p><p>There might be apps that have built-in auto-updates, but do not support controlling this setting by setting an install parameter or a registry value. In such cases, 
+this option will be unavailable.</p> |
 
 ### **Desktop Shortcut**
 
@@ -95,4 +94,4 @@ If you do not want to configure any of the optional tabs under the **Tools** sec
 
 Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-<figure><img src="../../../../.gitbook/assets/image (2602).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab" width="563"><figcaption></figcaption></figure>
+![Clicking "Next" to move to the "Assignments" tab](/_images/image-(2602 'Clicking "Next" to move to the "Assignments" tab').png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab")

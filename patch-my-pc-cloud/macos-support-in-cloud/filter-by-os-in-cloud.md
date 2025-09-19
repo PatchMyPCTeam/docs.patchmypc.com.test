@@ -13,11 +13,11 @@ To switch to List view:
 
 On the **App Catalog** page, click the **List View** button.
 
-<figure><img src="../../.gitbook/assets/image (2279).png" alt="Clicking the “List View” button"><figcaption></figcaption></figure>
+![Clicking the "List View" button](/_images/image-(2279 'Clicking the "List View" button').png "Clicking the “List View” button")
 
 The App Catalog updates to show the list of available apps in list view. The new **OS** column shows which operating systems each app can be deployed to.
 
-<figure><img src="../../.gitbook/assets/image (2280).png" alt="New “OS” column shows which operating systems each app can be deployed to"><figcaption></figcaption></figure>
+![New "OS" column shows which operating systems each app can be deployed to](/_images/image-(2280 'New "OS" column shows which operating systems each app can be deployed to').png "New “OS” column shows which operating systems each app can be deployed to")
 
 ### Using the OS Filter
 
@@ -26,27 +26,25 @@ To use the **Operating System (OS)** filter in the App Catalog:
 1.  On the **App Catalog** page, click the funnel button.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2281).png" alt="Clicking the funnel button."><figcaption></figcaption></figure>
+    ![Clicking the funnel button.](/_images/image-(2281 "Clicking the funnel button.").png "Clicking the funnel button.")
 
 
 2.  Click the checkbox for the OS you want to filter by (for example **macOS**), then click **Apply All Filters**.\
     \
 
 
-    <figure><img src="../../.gitbook/assets/image (289).png" alt="Checking the relevant checkbox for the OS you want to filter by then clicking “Apply All Filters”"><figcaption></figcaption></figure>
+    ![Checking the relevant checkbox for the OS you want to filter by then clicking "Apply All Filters"](/_images/image-(289 'Checking the relevant checkbox for the OS you want to filter by then clicking "Apply All Filters"').png "Checking the relevant checkbox for the OS you want to filter by then clicking “Apply All Filters”")
 
-{% hint style="success" %}
-**Tip**
-
-You can also use the **ARM** and **Universal (macOS)** checkboxes under the **Architecture** dropdown to filter the App Catalog by macOS apps.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>You can also use the **ARM** and **Universal (macOS)** checkboxes under the **Architecture** dropdown to filter the App Catalog by macOS apps.</p>
+</blockquote>
 
 The App Catalog updates to show only the apps that match the selected filters.
 
-<figure><img src="../../.gitbook/assets/image (290).png" alt="App Catalog updating to show only the apps that match the selected filters."><figcaption></figcaption></figure>
+![App Catalog updating to show only the apps that match the selected filters.](/_images/image-(290 "App Catalog updating to show only the apps that match the selected filters.").png "App Catalog updating to show only the apps that match the selected filters.")
 
-{% hint style="info" %}
-**Note**
-
-Click **Clear All** to clear any filters that have been applied, then click the filter button to close the filter dropdown.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>Click **Clear All** to clear any filters that have been applied, then click the filter button to close the filter dropdown.</p>
+</blockquote>

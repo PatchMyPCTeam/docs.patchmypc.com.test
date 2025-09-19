@@ -6,7 +6,7 @@ _Applies to: Patch My PC Cloud_
 
 I have signed into the Patch My PC (PMPC) Cloud portal, but I don’t see the **Users** node.
 
-<figure><img src="../../../.gitbook/assets/image (1422).png" alt="No “Users” menu"><figcaption></figcaption></figure>
+![No "Users" menu](/_images/image-(1422 'No "Users" menu').png "No “Users” menu")
 
 ### CAUSE
 
@@ -18,4 +18,4 @@ To resolve this issue, ask a user with **Access Management** privileges to follo
 
 Once you have granted the user **Access Management** privileges, if they refresh their portal the **Users** node appears.
 
-<figure><img src="../../../.gitbook/assets/image (1423).png" alt="“Users” menu now visible"><figcaption></figcaption></figure>
+!["Users" menu now visible](/_images/image-(1423 '"Users" menu now visible').png "“Users” menu now visible")
