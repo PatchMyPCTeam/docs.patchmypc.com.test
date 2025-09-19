@@ -20,7 +20,7 @@ To uninstall a Branding app:
 
 1. Navigate to **Settings | Branding**
 
-![Navigating to "Settings | Branding"](/_images/image-(2650 "Navigating to \"Settings | Branding\"").png "Navigating to “Settings | Branding”")
+![Navigating to "Settings | Branding"](/_images/image-(2650Settings-Branding "Navigating to \"Settings | Branding\"").png "Navigating to “Settings | Branding”")
 
 2.  On the **Branding** screen, make a note of the assignments for the branding app you want to uninstall.\
 
@@ -35,19 +35,19 @@ To uninstall a Branding app:
     This not only deletes the Branding App from Intune, but also avoids a potential loop of the branding being installed by the Branding App and then uninstalled by the Branding Uninstall App.
 4. On the **Branding** screen, click **Uninstall Brandings**
 
-![Clicking "Uninstall Brandings"](/_images/image-(2652 "Clicking \"Uninstall Brandings\"").png "Clicking “Uninstall Brandings”")
+![Clicking "Uninstall Brandings"](/_images/image-(2652Uninstall-Brandings "Clicking \"Uninstall Brandings\"").png "Clicking “Uninstall Brandings”")
 
 5. In the **Uninstall Branding App Name** field, type a unique name for the Intune Win32 app that will be used to uninstall the Branding App.
 
-![Entering a unique name in the "Uninstall Branding App Name" field](/_images/image-(2653 "Entering a unique name in the \"Uninstall Branding App Name\" field").png "Entering a unique name in the “Uninstall Branding App Name” field")
+![Entering a unique name in the "Uninstall Branding App Name" field](/_images/image-(2653Uninstall-Branding-App-Name "Entering a unique name in the \"Uninstall Branding App Name\" field").png "Entering a unique name in the “Uninstall Branding App Name” field")
 
 6. Click **Add Assignment**
 
-![Clicking "Add Assignment](/_images/image-(2654 "Clicking \"Add Assignment").png "Clicking “Add Assignment")
+![Clicking "Add Assignment](/_images/image-(2654Add-Assignment "Clicking \"Add Assignment").png "Clicking “Add Assignment")
 
 7. On the **Add Uninstall Assignment** page, select the relevant resources noted in step 2 that this uninstall should be targeted to and click **Save**.
 
-![Select the relevant resources this uninstall should be targeted at and clicking "Save"](/_images/image-(2655 "Select the relevant resources this uninstall should be targeted at and clicking \"Save\"").png "Select the relevant resources this uninstall should be targeted at and clicking “Save”")
+![Select the relevant resources this uninstall should be targeted at and clicking "Save"](/_images/image-(2655Save "Select the relevant resources this uninstall should be targeted at and clicking \"Save\"").png "Select the relevant resources this uninstall should be targeted at and clicking “Save”")
 
 The list of assignments is updated to show that the **Uninstall** assignment has been added for the selected resources.
 
@@ -56,7 +56,7 @@ The list of assignments is updated to show that the **Uninstall** assignment has
 <p>Assigning the Uninstall Branding App to a resource will remove all PMPC Cloud-related brandings and associated files and localizations.&#x20;</p>
 </blockquote>
 
-![List of assignments updated to show the "Uninstall" assignment has been added for the selected resources.](/_images/image-(17 "List of assignments updated to show the \"Uninstall\" assignment has been added for the selected resources.").png "List of assignments updated to show the “Uninstall” assignment has been added for the selected resources.")
+![List of assignments updated to show the "Uninstall" assignment has been added for the selected resources.](/_images/image-(17Uninstall." "List of assignments updated to show the \"Uninstall\" assignment has been added for the selected resources.").png "List of assignments updated to show the “Uninstall” assignment has been added for the selected resources.")
 
 8. If the list of assignments is correct, proceed to step 9; otherwise, repeat steps 6 and 7 to add any additional assignments.
 
@@ -67,7 +67,7 @@ The list of assignments is updated to show that the **Uninstall** assignment has
 
 9. Click **Save** to continue.
 
-![Clicking "Save" to continue](/_images/image-(2657 "Clicking \"Save\" to continue").png "Clicking “Save” to continue")
+![Clicking "Save" to continue](/_images/image-(2657Save "Clicking \"Save\" to continue").png "Clicking “Save” to continue")
 
 The **Branding** page is redisplayed, showing the new **Uninstall App** at the top, along with the **Success – Uninstall Branding app created** notification.
 
@@ -76,7 +76,7 @@ The **Branding** page is redisplayed, showing the new **Uninstall App** at the t
 <p>You can tell which Branding App is the uninstall as it has **UNINSTALL BRANDING** for it's company logo.</p>
 </blockquote>
 
-!["Branding" page redisplayed showing the new uninstall app along with the "Success – Branding created" notification.](/_images/image-(18 "\"Branding\" page redisplayed showing the new uninstall app along with the \"Success – Branding created\" notification.").png "“Branding” page redisplayed showing the new uninstall app along with the “Success – Branding created” notification.")
+!["Branding" page redisplayed showing the new uninstall app along with the "Success – Branding created" notification.](/_images/image-(18Branding." "\"Branding\" page redisplayed showing the new uninstall app along with the \"Success – Branding created\" notification.").png "“Branding” page redisplayed showing the new uninstall app along with the “Success – Branding created” notification.")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

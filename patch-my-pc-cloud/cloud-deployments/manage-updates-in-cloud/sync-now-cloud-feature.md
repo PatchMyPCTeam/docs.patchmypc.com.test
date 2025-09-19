@@ -17,7 +17,7 @@ If you have [resumed updates](resume-cloud-updates.md) for an app in Patch My PC
     \
 
 
-    ![Clicking "Sync Now"](/_images/image-(2005 "Clicking \"Sync Now\"").png "Clicking “Sync Now”")
+    ![Clicking "Sync Now"](/_images/image-(2005Sync-Now "Clicking \"Sync Now\"").png "Clicking “Sync Now”")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -39,7 +39,7 @@ If you have [resumed updates](resume-cloud-updates.md) for an app in Patch My PC
     Once the deployment has been completed successfully, the **Status** changes to **Success**.\
 
 
-    !["Status" changing to Success.](/_images/image-(1830 "\"Status\" changing to Success.").png "“Status” changing to Success.")
+    !["Status" changing to Success.](/_images/image-(1830Status." "\"Status\" changing to Success.").png "“Status” changing to Success.")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>

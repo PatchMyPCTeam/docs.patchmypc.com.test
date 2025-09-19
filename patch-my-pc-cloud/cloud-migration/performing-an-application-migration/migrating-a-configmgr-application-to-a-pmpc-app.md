@@ -29,7 +29,7 @@ Once you click **Migrate** to migrate a ConfigMgr application to a PMPC App, the
 
 Once you have added your assignments, click **Migrate** and the **Success – Deployment Created, Migration Pending** notification is shown.
 
-!["Migrate, the Success – Deployment Created, Migration Pending" notification](/_images/image-(10 "\"Migrate, the Success – Deployment Created, Migration Pending\" notification").png "“Migrate, the Success – Deployment Created, Migration Pending” notification")
+!["Migrate, the Success – Deployment Created, Migration Pending" notification](/_images/image-(10Migrate-the-Success-Deployment-Created-Migration-Pending "\"Migrate, the Success – Deployment Created, Migration Pending\" notification").png "“Migrate, the Success – Deployment Created, Migration Pending” notification")
 
 The **Status** field also updates to show **In Progress** as the deployment is being created, with any required content (such as extra files) being zipped and sent to Azure Blob Storage.
 
@@ -41,5 +41,5 @@ You can also monitor the progress of the deployment by clicking the **Deployment
 <p>**Tip**</p>
 <p>To see the migrated app in Intune, within the Microsoft Intune admin center navigate to:</p>
 <p>**Home > Apps | Windows > Windows | Windows Apps > <**_**app\_name**_**>**</p>
-<p>![Migrated app in Intune](/_images/image-(12).png>)</p>
+<p>![Migrated app in Intune](/_images/image-(12 "Migrated app in Intune").png>)</p>
 </blockquote>

@@ -24,13 +24,13 @@ To Pause Updates for an app:
 2.  Click the **Pause Updates** slider to enable it.\
 
 
-    ![Clicking the "Pause Updates" slider](/_images/image-(1997 "Clicking the \"Pause Updates\" slider").png "Clicking the “Pause Updates” slider")
+    ![Clicking the "Pause Updates" slider](/_images/image-(1997Pause-Updates "Clicking the \"Pause Updates\" slider").png "Clicking the “Pause Updates” slider")
 
 
 3.  Click the **X** to close the deployment properties page.\
 
 
-    ![Clicking "X" to close the deployment properties page.](/_images/image-(1998 "Clicking \"X\" to close the deployment properties page.").png "Clicking &#x22;X&#x22; to close the deployment properties page.")
+    ![Clicking "X" to close the deployment properties page.](/_images/image-(1998X." "Clicking \"X\" to close the deployment properties page.").png "Clicking &#x22;X&#x22; to close the deployment properties page.")
 
     \
     The list of deployments is displayed and **UPDATES PAUSED** shows under the deployment name so you updates are paused for this specific deployment.\

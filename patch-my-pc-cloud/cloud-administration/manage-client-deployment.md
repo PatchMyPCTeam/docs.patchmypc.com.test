@@ -38,14 +38,14 @@ To install the Patch My PC (PMPC) Client:
 
 1. Navigate to **Settings | Client Deployment**
 
-![Navigating to "Settings | Client Deployment"](/_images/image-(2724 "Navigating to \"Settings | Client Deployment\"").png "Navigating to “Settings | Client Deployment”")
+![Navigating to "Settings | Client Deployment"](/_images/image-(2724Settings-Client-Deployment "Navigating to \"Settings | Client Deployment\"").png "Navigating to “Settings | Client Deployment”")
 
 The **Client Deployment** screen is shown, which is split into two sections:
 
 * **Preview Version Deployment –** Shows details of the preview version of our Client and which Entra ID groups it is targeted to (if relevant).
 * **Production Version Deployment -** Shows details of the production version of our Client and which Entra ID groups it is targeted to (if relevant).
 
-!["Client Deployment" screen](/_images/image-(2725 "\"Client Deployment\" screen").png "“Client Deployment” screen")
+!["Client Deployment" screen](/_images/image-(2725Client-Deployment "\"Client Deployment\" screen").png "“Client Deployment” screen")
 
 2. To deploy the Client (**Preview** or **Production**), click the **Groups** dropdown and select the relevant Entra ID group(s) you want to deploy the Client to.
 
@@ -59,11 +59,11 @@ The **Client Deployment** screen is shown, which is split into two sections:
 
 3. Click **Save**
 
-![Clicking "Save"](/_images/image-(2727 "Clicking \"Save\"").png "Clicking &#x22;Save&#x22;")
+![Clicking "Save"](/_images/image-(2727Save "Clicking \"Save\"").png "Clicking &#x22;Save&#x22;")
 
 The **Success** notification is shown.
 
-!["Success – Created" notification](/_images/image-(2728 "\"Success – Created\" notification").png "“Success – Created” notification")
+!["Success – Created" notification](/_images/image-(2728Success-Created "\"Success – Created\" notification").png "“Success – Created” notification")
 
 Once the Win32 app for the Client has been created in Intune, the status updates to **Success** and the Client will be deployed to the targeted devices.
 
@@ -107,7 +107,7 @@ In this scenario, you can also uninstall the Client by:
 
 2. Select the relevant group.
 
-![Clicking the relevant "Uninstall Client" button](/_images/image-(1 "Clicking the relevant \"Uninstall Client\" button").png "Clicking the relevant “Uninstall Client” button")
+![Clicking the relevant "Uninstall Client" button](/_images/image-(1Uninstall-Client "Clicking the relevant \"Uninstall Client\" button").png "Clicking the relevant “Uninstall Client” button")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -117,11 +117,11 @@ In this scenario, you can also uninstall the Client by:
 3. Add any additional Groups as required.
 4. Click **Save**.
 
-![Clicking "Save"](/_images/image-(2 "Clicking \"Save\"").png "Clicking “Save”")
+![Clicking "Save"](/_images/image-(2Save "Clicking \"Save\"").png "Clicking “Save”")
 
 The **Client Deployment** page is displayed along with the **Success – Updated** notification.
 
-!["Success | Updated" notification](/_images/image-(3 "\"Success | Updated\" notification").png "“Success | Updated” notification")
+!["Success | Updated" notification](/_images/image-(3Success-Updated "\"Success | Updated\" notification").png "“Success | Updated” notification")
 
 The Client will then be uninstalled from all the devices within the selected Entra ID Group(s).
 
@@ -135,11 +135,11 @@ If you want to delete the entire deployment used to deploy the Client:
 
 2. On the **Are you sure?** dialog box, click **Submit**
 
-![Clicking "Submit" on the "Are you sure?" dialog](/_images/image-(5 "Clicking \"Submit\" on the \"Are you sure?\" dialog").png "Clicking “Submit” on the “Are you sure?” dialog")
+![Clicking "Submit" on the "Are you sure?" dialog](/_images/image-(5Submit "Clicking \"Submit\" on the \"Are you sure?\" dialog").png "Clicking “Submit” on the “Are you sure?” dialog")
 
 The **Client Deployment** screen is redisplayed along with the **Success – Deleted** notification.
 
-!["Client Deployment" screen is redisplayed along with the "Success – Deleted" notification](/_images/image-(6 "\"Client Deployment\" screen is redisplayed along with the \"Success – Deleted\" notification").png "“Client Deployment” screen is redisplayed along with the “Success – Deleted” notification")
+!["Client Deployment" screen is redisplayed along with the "Success – Deleted" notification](/_images/image-(6Client-Deployment "\"Client Deployment\" screen is redisplayed along with the \"Success – Deleted\" notification").png "“Client Deployment” screen is redisplayed along with the “Success – Deleted” notification")
 
 <blockquote class="wp-block-quote">
 <p>**Important**</p>

@@ -14,7 +14,7 @@ To rename an Environment in Patch My PC (PMPC) Cloud:
 
 The **Environments** node is shown, displaying the updated name and the **Success - Environment updated** notification is displayed.
 
-!["Success - Environment updated" notification](/_images/image-(2577 "\"Success - Environment updated\" notification").png "&#x22;Success - Environment updated&#x22; notification")
+!["Success - Environment updated" notification](/_images/image-(2577Success-Environment-updated "\"Success - Environment updated\" notification").png "&#x22;Success - Environment updated&#x22; notification")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>

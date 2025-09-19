@@ -6,7 +6,7 @@ _Applies to: Patch My PC Cloud_
 
 I am trying to edit my environment in Patch My PC (PMPC) Cloud, but I don’t see the ellipsis (**⋮**) on the **Environments** page that allows me to choose the **Edit Environment** or **Edit License** option.
 
-![Missing ellipsis on the "Environments" page](/_images/image-(1754 "Missing ellipsis on the \"Environments\" page").png "Missing ellipsis on the “Environments” page")
+![Missing ellipsis on the "Environments" page](/_images/image-(1754Environments "Missing ellipsis on the \"Environments\" page").png "Missing ellipsis on the “Environments” page")
 
 ### CAUSE
 

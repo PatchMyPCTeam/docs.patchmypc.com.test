@@ -17,7 +17,7 @@ To configure a new deployment to use a template:
 2.  Once the Deployment Wizard has started, click **Apply Template**\
 
 
-    ![Clicking "Apply Template"](/_images/image-(2330 "Clicking \"Apply Template\"").png "Clicking “Apply Template”")
+    ![Clicking "Apply Template"](/_images/image-(2330Apply-Template "Clicking \"Apply Template\"").png "Clicking “Apply Template”")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -27,7 +27,7 @@ To configure a new deployment to use a template:
 3.  On the **Apply Template** screen, select the radio button beside the template you want to apply, then click **Apply**.\
 
 
-    ![Selecting the radio button beside the template you want to apply and clicking "Apply"](/_images/image-(2331 "Selecting the radio button beside the template you want to apply and clicking \"Apply\"").png "Selecting the radio button beside the template you want to apply and clicking “Apply”")
+    ![Selecting the radio button beside the template you want to apply and clicking "Apply"](/_images/image-(2331Apply "Selecting the radio button beside the template you want to apply and clicking \"Apply\"").png "Selecting the radio button beside the template you want to apply and clicking “Apply”")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

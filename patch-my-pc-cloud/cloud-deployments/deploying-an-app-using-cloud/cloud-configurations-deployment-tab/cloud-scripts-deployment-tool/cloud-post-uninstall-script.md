@@ -8,23 +8,23 @@ To add a Post-Uninstall script:
 
 1. Click **Add** beside the **Post-Uninstall** option.
 
-![Clicking "Add" beside the "Post-Uninstall" option](/_images/image-(2608 "Clicking \"Add\" beside the \"Post-Uninstall\" option").png "Clicking “Add” beside the “Post-Uninstall” option")
+![Clicking "Add" beside the "Post-Uninstall" option](/_images/image-(2608Add "Clicking \"Add\" beside the \"Post-Uninstall\" option").png "Clicking “Add” beside the “Post-Uninstall” option")
 
 2. To import an existing script, click **Import** then browse to the location containing the script and select it.
 
-![Clicking "Import" to import an existing script](/_images/image-(2473 "Clicking \"Import\" to import an existing script").png "Clicking “Import” to import an existing script")
+![Clicking "Import" to import an existing script](/_images/image-(2473Import "Clicking \"Import\" to import an existing script").png "Clicking “Import” to import an existing script")
 
 The **Add Post-Uninstall Scripts** page is populated with the imported script.
 
-!["Add Post-Uninstall Script" page is populated with the imported script.](/_images/image-(2474 "\"Add Post-Uninstall Script\" page is populated with the imported script.").png "“Add Post-Uninstall Script” page is populated with the imported script.")
+!["Add Post-Uninstall Script" page is populated with the imported script.](/_images/image-(2474Add-Post-Uninstall-Script." "\"Add Post-Uninstall Script\" page is populated with the imported script.").png "“Add Post-Uninstall Script” page is populated with the imported script.")
 
 3. To manually add a script, enter a unique name for the script in the **Script Name** field.
 
-![Entering a unique name for the script in the "Script Name" field](/_images/image-(2475 "Entering a unique name for the script in the \"Script Name\" field").png "Entering a unique name for the script in the “Script Name” field")
+![Entering a unique name for the script in the "Script Name" field](/_images/image-(2475Script-Name "Entering a unique name for the script in the \"Script Name\" field").png "Entering a unique name for the script in the “Script Name” field")
 
 4. Select the type of script from the **Script Format** dropdown.
 
-![Selecting the type of script from the "Script Format" dropdown.](/_images/image-(2476 "Selecting the type of script from the \"Script Format\" dropdown.").png "Selecting the type of script from the “Script Format” dropdown.")
+![Selecting the type of script from the "Script Format" dropdown.](/_images/image-(2476Script-Format." "Selecting the type of script from the \"Script Format\" dropdown.").png "Selecting the type of script from the “Script Format” dropdown.")
 
 5. In the script editor, type your script.
 
@@ -38,7 +38,7 @@ The **Add Post-Uninstall Scripts** page is populated with the imported script.
 6.  In the **Arguments** field, enter any arguments you want to provide to the script.\
 
 
-    ![Entering any arguments you want to provide to the script by specifying them in the "Arguments" field](/_images/image-(2478 "Entering any arguments you want to provide to the script by specifying them in the \"Arguments\" field").png "Entering any arguments you want to provide to the script by specifying them in the “Arguments” field")
+    ![Entering any arguments you want to provide to the script by specifying them in the "Arguments" field](/_images/image-(2478Arguments "Entering any arguments you want to provide to the script by specifying them in the \"Arguments\" field").png "Entering any arguments you want to provide to the script by specifying them in the “Arguments” field")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
@@ -54,12 +54,12 @@ The **Add Post-Uninstall Scripts** page is populated with the imported script.
 7.  Click **Save** to save your script.\
 
 
-    ![Clicking "Save" to save your script](/_images/image-(2479 "Clicking \"Save\" to save your script").png "Clicking “Save” to save your script")
+    ![Clicking "Save" to save your script](/_images/image-(2479Save "Clicking \"Save\" to save your script").png "Clicking “Save” to save your script")
 
     \
     The **Configurations** tab is re-displayed with the name of the configured script beside it.
 
-!["Configurations" tab re-displayed with the name of the configured script beside it](/_images/image-(96 "\"Configurations\" tab re-displayed with the name of the configured script beside it").png "“Configurations” tab re-displayed with the name of the configured script beside it")
+!["Configurations" tab re-displayed with the name of the configured script beside it](/_images/image-(96Configurations "\"Configurations\" tab re-displayed with the name of the configured script beside it").png "“Configurations” tab re-displayed with the name of the configured script beside it")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>

@@ -14,13 +14,13 @@ To add an Entra ID Security Group to Patch My PC (PMPC) Cloud:
 2.  In the PMPC Cloud portal, navigate to **Settings | Users**.\
 
 
-    ![Navigating to "Settings | Users"](/_images/image-(2239 "Navigating to \"Settings | Users\"").png "Navigating to “Settings | Users”")
+    ![Navigating to "Settings | Users"](/_images/image-(2239Settings-Users "Navigating to \"Settings | Users\"").png "Navigating to “Settings | Users”")
 
 
 3.  Click **Add Group**.\
 
 
-    ![Clicking "Add Group"](/_images/image-(2240 "Clicking \"Add Group\"").png "Clicking “Add Group”")
+    ![Clicking "Add Group"](/_images/image-(2240Add-Group "Clicking \"Add Group\"").png "Clicking “Add Group”")
 
 
 4.  On the **Available Groups** screen, click the checkbox beside the relevant Entra ID Security Group you want to add, then select the PMPC Cloud role you want to assign to this group from the **Role** dropdown.\
@@ -47,13 +47,13 @@ The selected Entra ID Security Group and role you’ve assigned it in your porta
 6.  Click **Add Group**.\
 
 
-    ![Clicking "Add Group"](/_images/image-(2243 "Clicking \"Add Group\"").png "Clicking “Add Group”")
+    ![Clicking "Add Group"](/_images/image-(2243Add-Group "Clicking \"Add Group\"").png "Clicking “Add Group”")
 
     \
     The portal auto-refreshes, showing the selected groups have been added and the **Success – Group created** notification is shown.\
 
 
-    ![Portal auto-refreshes, showing the selected groups have been added and the "Success – Group created" notification is shown](/_images/image-(2244 "Portal auto-refreshes, showing the selected groups have been added and the \"Success – Group created\" notification is shown").png "Portal auto-refreshes, showing the selected groups have been added and the “Success – Group created” notification is shown")
+    ![Portal auto-refreshes, showing the selected groups have been added and the "Success – Group created" notification is shown](/_images/image-(2244Success-Group-created "Portal auto-refreshes, showing the selected groups have been added and the \"Success – Group created\" notification is shown").png "Portal auto-refreshes, showing the selected groups have been added and the “Success – Group created” notification is shown")
 
 When you add an Entra ID Security Group, the **Group role with id <**_**entra\_id\_security\_group\_id**_**> was created with role <**_**user\_role**_**>** event is written to the **Events** node.
 

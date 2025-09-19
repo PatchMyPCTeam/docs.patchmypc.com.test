@@ -11,13 +11,13 @@ The **General Information** tab is where you configure the basic information for
     1. Click **Upload Icon** to upload a suitable file (png, jpg or jpeg) to use as the icon for this app.
     2. Drag and drop the image file onto this page.
 
-    ![Clicking "Upload Icon"](/_images/image-(215 "Clicking \"Upload Icon\"").png "Clicking “Upload Icon”")
+    ![Clicking "Upload Icon"](/_images/image-(215Upload-Icon "Clicking \"Upload Icon\"").png "Clicking “Upload Icon”")
 
 
 2.  In the **App Name** field, enter a unique name for the app.\
 
 
-    ![Entering a unique name in the "App Name" field](/_images/image-(216 "Entering a unique name in the \"App Name\" field").png "Entering a unique name in the “App Name” field")
+    ![Entering a unique name in the "App Name" field](/_images/image-(216App-Name "Entering a unique name in the \"App Name\" field").png "Entering a unique name in the “App Name” field")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
@@ -43,4 +43,4 @@ The **General Information** tab is where you configure the basic information for
 5.  Enter any optional internal notes, then click **Next** to move to the [Configuration ](custom-apps-configuration-tab.md)tab.\
 
 
-    ![Clicking "Next" to move to the "Configuration" page](/_images/image-(219 "Clicking \"Next\" to move to the \"Configuration\" page").png "Clicking &#x22;Next&#x22; to move to the &#x22;Configuration&#x22; page")
+    ![Clicking "Next" to move to the "Configuration" page](/_images/image-(219Next "Clicking \"Next\" to move to the \"Configuration\" page").png "Clicking &#x22;Next&#x22; to move to the &#x22;Configuration&#x22; page")

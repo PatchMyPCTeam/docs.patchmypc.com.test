@@ -24,11 +24,11 @@ To sign up for the trial, you can click **Try it now** in the following location
 * The header notification area
 * The banner shown at the top of the App Catalog
 
-![Clicking "Try it now" to start the macOS free trial](/_images/image-(21 "Clicking \"Try it now\" to start the macOS free trial").png "Clicking “Try it now” to start the macOS free trial")
+![Clicking "Try it now" to start the macOS free trial](/_images/image-(21Try-it-now "Clicking \"Try it now\" to start the macOS free trial").png "Clicking “Try it now” to start the macOS free trial")
 
 * Under the **macOS** option when creating a deployment.
 
-![Clicking "Try it now" when deploying an app supported by macOS](/_images/image-(22 "Clicking \"Try it now\" when deploying an app supported by macOS").png "Clicking “Try it now” when deploying an app supported by macOS")
+![Clicking "Try it now" when deploying an app supported by macOS](/_images/image-(22Try-it-now "Clicking \"Try it now\" when deploying an app supported by macOS").png "Clicking “Try it now” when deploying an app supported by macOS")
 
 When you click **Try it now**, you then have the option of either:
 
@@ -39,7 +39,7 @@ When you click **Try it now**, you then have the option of either:
 
 Once you’ve entered the number of devices for the trial, click **Start Now**
 
-![Clicking "Start Now"](/_images/image-(24 "Clicking \"Start Now\"").png "Clicking “Start Now”")
+![Clicking "Start Now"](/_images/image-(24Start-Now "Clicking \"Start Now\"").png "Clicking “Start Now”")
 
 The **Your30-day trial expires on <**_**expiry date**_**>** confirmation is shown.
 

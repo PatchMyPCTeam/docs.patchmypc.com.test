@@ -56,13 +56,13 @@ If you click on the deployment in the portal, then click **More Info**, then cli
 
 Two days after the deployment was created and after the next Sync Schedule runs, the second update ring will be created and the assignment added for the **dBase All Users** group to install the software to all of the members of this group.
 
-![Second Update Ring has been created, which has added the assignment to the "dBase All Users" group.](/_images/image-(2204 "Second Update Ring has been created, which has added the assignment to the \"dBase All Users\" group.").png "Second Update Ring has been created, which has added the assignment to the “dBase All Users” group.")
+![Second Update Ring has been created, which has added the assignment to the "dBase All Users" group.](/_images/image-(2204dBase-All-Users." "Second Update Ring has been created, which has added the assignment to the \"dBase All Users\" group.").png "Second Update Ring has been created, which has added the assignment to the “dBase All Users” group.")
 
 You can now edit the deployment if required, as all of the rings have been created.
 
 If you also look at the deployment's properties, you will see that the second ring has been created successfully and assigned to the **dBase All Users** group.
 
-![Properties of the deployment showing the second Update Ring has been created and assigned to the "dBase All Users" group.](/_images/image-(2205 "Properties of the deployment showing the second Update Ring has been created and assigned to the \"dBase All Users\" group.").png "Properties of the deployment showing the second Update Ring has been created and assigned to the “dBase All Users” group.")
+![Properties of the deployment showing the second Update Ring has been created and assigned to the "dBase All Users" group.](/_images/image-(2205dBase-All-Users." "Properties of the deployment showing the second Update Ring has been created and assigned to the \"dBase All Users\" group.").png "Properties of the deployment showing the second Update Ring has been created and assigned to the “dBase All Users” group.")
 
 As the following table shows, the software is installed immediately for any users in the **dBase Pilot Users** group.
 
@@ -87,11 +87,11 @@ In this scenario, you can:
 
 Once the deployment has been updated, you can now edit it as all of the rings have now been created. If you look at the deployment’s properties, you will see that for the **Ring 1**, version **2019.2** has now been assigned to the **dBase Pilot Users** group.
 
-![Version 2019.2 targeted to the "dBase Pilot Users" Update Ring.](/_images/image-(2206 "Version 2019.2 targeted to the \"dBase Pilot Users\" Update Ring.").png "Version 2019.2 targeted to the “dBase Pilot Users” Update Ring.")
+![Version 2019.2 targeted to the "dBase Pilot Users" Update Ring.](/_images/image-(2206dBase-Pilot-Users." "Version 2019.2 targeted to the \"dBase Pilot Users\" Update Ring.").png "Version 2019.2 targeted to the “dBase Pilot Users” Update Ring.")
 
 But if you click on **Ring 2**, you will see that version **2019.1** is still assigned to the **dBase All Users** group.
 
-!["Ring 2" is still assigned version 2019.1 and assigned to the "dBase All Users" group](/_images/image-(2207 "\"Ring 2\" is still assigned version 2019.1 and assigned to the \"dBase All Users\" group").png "“Ring 2” is still assigned version 2019.1 and assigned to the “dBase All Users” group")
+!["Ring 2" is still assigned version 2019.1 and assigned to the "dBase All Users" group](/_images/image-(2207Ring-2.1 and assigned to the \"dbase all users\" group" "\"Ring 2\" is still assigned version 2019.1 and assigned to the \"dBase All Users\" group").png "“Ring 2” is still assigned version 2019.1 and assigned to the “dBase All Users” group")
 
 If you check in the Intune admin center, you will now see both the existing app (version 2019.1) and the new version we have just deployed (version 2019.2).
 
@@ -169,11 +169,11 @@ In this scenario, you can:
 
 Once the deployment has been updated, if you look at its properties, you will see that for the **Ring 1**, version **2024.2** has now been assigned to the **Corel Pilot Users** group.
 
-![Version 2024.2 targeted to the "Corel Pilot Users" Update Ring.](/_images/image-(2216 "Version 2024.2 targeted to the \"Corel Pilot Users\" Update Ring.").png "Version 2024.2 targeted to the “Corel Pilot Users” Update Ring.")
+![Version 2024.2 targeted to the "Corel Pilot Users" Update Ring.](/_images/image-(2216Corel-Pilot-Users." "Version 2024.2 targeted to the \"Corel Pilot Users\" Update Ring.").png "Version 2024.2 targeted to the “Corel Pilot Users” Update Ring.")
 
 But if you click on **Ring 2**, you will see that version **2024.1** is still assigned to the **Corel All Users** group.
 
-!["Ring 2" is still assigned version 2024.1 and assigned to the "Corel All Users" group](/_images/image-(2217 "\"Ring 2\" is still assigned version 2024.1 and assigned to the \"Corel All Users\" group").png "“Ring 2” is still assigned version 2024.1 and assigned to the “Corel All Users” group")
+!["Ring 2" is still assigned version 2024.1 and assigned to the "Corel All Users" group](/_images/image-(2217Ring-2.1 and assigned to the \"corel all users\" group" "\"Ring 2\" is still assigned version 2024.1 and assigned to the \"Corel All Users\" group").png "“Ring 2” is still assigned version 2024.1 and assigned to the “Corel All Users” group")
 
 If you check in the Intune admin center, you will now see both the existing app (version 2024.1) and the new version we have just deployed (version 2024.2).
 

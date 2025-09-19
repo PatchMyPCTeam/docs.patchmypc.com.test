@@ -20,20 +20,20 @@ To create an App Registration:
 <p>You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.</p>
 </blockquote>
 
-![Navigating to the "App registrations" blade](/_images/image-(542 "Navigating to the \"App registrations\" blade").png "Navigating to the “App registrations” blade")
+![Navigating to the "App registrations" blade](/_images/image-(542App-registrations "Navigating to the \"App registrations\" blade").png "Navigating to the “App registrations” blade")
 
 2.  Click **New registration**.\
     \
 
 
-    ![Clicking "New registration"](/_images/image-(543 "Clicking \"New registration\"").png "Clicking “New registration”")
+    ![Clicking "New registration"](/_images/image-(543New-registration "Clicking \"New registration\"").png "Clicking “New registration”")
 
 
 
     3.  In the **Name** field, enter **PMPC Recovery**, then click **Register**.\
 
 
-        ![Entering "PMPC Recovery" then clicking "Register"](/_images/image-(544 "Entering \"PMPC Recovery\" then clicking \"Register\"").png "Entering “PMPC Recovery” then clicking “Register”")
+        ![Entering "PMPC Recovery" then clicking "Register"](/_images/image-(544PMPC-Recovery "Entering \"PMPC Recovery\" then clicking \"Register\"").png "Entering “PMPC Recovery” then clicking “Register”")
 
         \
 
@@ -51,7 +51,7 @@ To create an App Registration:
     5.  Navigate to **Manage | API Permissions**.\
 
 
-        ![Navigating to "Manage | API Permissions"](/_images/image-(546 "Navigating to \"Manage | API Permissions\"").png "Navigating to “Manage | API Permissions”")
+        ![Navigating to "Manage | API Permissions"](/_images/image-(546Manage-API-Permissions "Navigating to \"Manage | API Permissions\"").png "Navigating to “Manage | API Permissions”")
 
         \
 
@@ -59,7 +59,7 @@ To create an App Registration:
         \
 
 
-        ![Clicking "Add a permission"](/_images/image-(547 "Clicking \"Add a permission\"").png "Clicking “Add a permission”")
+        ![Clicking "Add a permission"](/_images/image-(547Add-a-permission "Clicking \"Add a permission\"").png "Clicking “Add a permission”")
 
         \
 
@@ -67,7 +67,7 @@ To create an App Registration:
         \
 
 
-        ![Clicking "Microsoft Graph"](/_images/image-(548 "Clicking \"Microsoft Graph\"").png "Clicking “Microsoft Graph”")
+        ![Clicking "Microsoft Graph"](/_images/image-(548Microsoft-Graph "Clicking \"Microsoft Graph\"").png "Clicking “Microsoft Graph”")
 
         \
 
@@ -75,14 +75,14 @@ To create an App Registration:
         \
 
 
-        ![Clicking "Application permissions"](/_images/image-(549 "Clicking \"Application permissions\"").png "Clicking “Application permissions”")
+        ![Clicking "Application permissions"](/_images/image-(549Application-permissions "Clicking \"Application permissions\"").png "Clicking “Application permissions”")
 
         \
 
     9.  In the **Select permissions** field, type **AuditLog**, then expand this section and check the **AuditLog.Read.All** permission checkbox.\
 
 
-        ![Checking the "AuditLog.Read.All" permission checkbox](/_images/image-(550 "Checking the \"AuditLog.Read.All\" permission checkbox").png "Checking the “AuditLog.Read.All” permission checkbox")
+        ![Checking the "AuditLog.Read.All" permission checkbox](/_images/image-(550AuditLog-Read.all\" permission checkbox" "Checking the \"AuditLog.Read.All\" permission checkbox").png "Checking the “AuditLog.Read.All” permission checkbox")
 
         \
 
@@ -90,7 +90,7 @@ To create an App Registration:
         \
 
 
-        ![Clicking "Add permissions"](/_images/image-(551 "Clicking \"Add permissions\"").png "Clicking “Add permissions”")
+        ![Clicking "Add permissions"](/_images/image-(551Add-permissions "Clicking \"Add permissions\"").png "Clicking “Add permissions”")
 
         \
 
@@ -105,12 +105,12 @@ To create an App Registration:
         \
 
 
-        ![Clicking "Yes" on the "Grant admin consent confirmation" popup](/_images/image-(553 "Clicking \"Yes\" on the \"Grant admin consent confirmation\" popup").png "Clicking “Yes” on the “Grant admin consent confirmation” popup")
+        ![Clicking "Yes" on the "Grant admin consent confirmation" popup](/_images/image-(553Yes "Clicking \"Yes\" on the \"Grant admin consent confirmation\" popup").png "Clicking “Yes” on the “Grant admin consent confirmation” popup")
 
         The **Grant consent - Grant consent successful** notification is shown and the **Status** for the **AuditLog.Read.All** permission changes to a green tick.\
 
 
-        !["Grant consent - Grant consent successful notification" shown and the "Status" for the "AuditLog.Read.All" permission changes to a green tick.](/_images/image-(554 "\"Grant consent - Grant consent successful notification\" shown and the \"Status\" for the \"AuditLog.Read.All\" permission changes to a green tick.").png "“Grant consent - Grant consent successful notification” shown and the “Status” for the “AuditLog.Read.All” permission changes to a green tick.")
+        !["Grant consent - Grant consent successful notification" shown and the "Status" for the "AuditLog.Read.All" permission changes to a green tick.](/_images/image-(554Grant-consent-Grant-consent-successful-notification." "\"Grant consent - Grant consent successful notification\" shown and the \"Status\" for the \"AuditLog.Read.All\" permission changes to a green tick.").png "“Grant consent - Grant consent successful notification” shown and the “Status” for the “AuditLog.Read.All” permission changes to a green tick.")
 
         \
 
@@ -118,7 +118,7 @@ To create an App Registration:
         \
 
 
-        ![Navigating to "Certificates and secrets"](/_images/image-(555 "Navigating to \"Certificates and secrets\"").png "Navigating to “Certificates and secrets”")
+        ![Navigating to "Certificates and secrets"](/_images/image-(555Certificates-and-secrets "Navigating to \"Certificates and secrets\"").png "Navigating to “Certificates and secrets”")
 
         \
 
@@ -126,7 +126,7 @@ To create an App Registration:
         \
 
 
-        ![Clicking "New client secret" under the "Client secrets" section](/_images/image-(556 "Clicking \"New client secret\" under the \"Client secrets\" section").png "Clicking “New client secret” under the “Client secrets” section")
+        ![Clicking "New client secret" under the "Client secrets" section](/_images/image-(556New-client-secret "Clicking \"New client secret\" under the \"Client secrets\" section").png "Clicking “New client secret” under the “Client secrets” section")
 
         \
 
@@ -134,14 +134,14 @@ To create an App Registration:
         \
 
 
-        ![Typing "PMPC Recovery" in the "Description" field, then clicking "Add"](/_images/image-(557 "Typing \"PMPC Recovery\" in the \"Description\" field, then clicking \"Add\"").png "Typing “PMPC Recovery” in the “Description” field, then clicking “Add”")
+        ![Typing "PMPC Recovery" in the "Description" field, then clicking "Add"](/_images/image-(557PMPC-Recovery "Typing \"PMPC Recovery\" in the \"Description\" field, then clicking \"Add\"").png "Typing “PMPC Recovery” in the “Description” field, then clicking “Add”")
 
         \
         The new Client Secret appears along with the **Update application credentials - Successfully updated application PMPC Recovery credentials** notification.\
         \
 
 
-        ![New Client Secret and the "Update application credentials - Successfully updated application PMPC Recovery credentials" notification](/_images/image-(558 "New Client Secret and the \"Update application credentials - Successfully updated application PMPC Recovery credentials\" notification").png "New Client Secret and the “Update application credentials - Successfully updated application PMPC Recovery credentials” notification")
+        ![New Client Secret and the "Update application credentials - Successfully updated application PMPC Recovery credentials" notification](/_images/image-(558Update-application-credentials-Successfully-updated-application-PMPC-Recovery-credentials "New Client Secret and the \"Update application credentials - Successfully updated application PMPC Recovery credentials\" notification").png "New Client Secret and the “Update application credentials - Successfully updated application PMPC Recovery credentials” notification")
 
 
     16. Make a note of the **Value** of the **PMPC Recovery** client secret.

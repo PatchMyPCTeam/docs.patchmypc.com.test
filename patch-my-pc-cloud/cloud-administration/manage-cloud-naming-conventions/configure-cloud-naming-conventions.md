@@ -19,13 +19,13 @@ To configure Naming Conventions in Patch My PC (PMPC) Cloud:
 4.  Click **Save** to save your changes.\
 
 
-    ![Clicking "Save" to save your changes](/_images/image-(660 "Clicking \"Save\" to save your changes").png "Clicking “Save” to save your changes")
+    ![Clicking "Save" to save your changes](/_images/image-(660Save "Clicking \"Save\" to save your changes").png "Clicking “Save” to save your changes")
 
     \
     The **Success – Naming Conventions saved** notification is displayed.\
 
 
-    !["Success – Naming Conventions saved" notification](/_images/image-(1777 "\"Success – Naming Conventions saved\" notification").png "&#x22;Success – Naming Conventions saved&#x22; notification")
+    !["Success – Naming Conventions saved" notification](/_images/image-(1777Success-Naming-Conventions-saved "\"Success – Naming Conventions saved\" notification").png "&#x22;Success – Naming Conventions saved&#x22; notification")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

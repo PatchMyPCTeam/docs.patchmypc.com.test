@@ -8,13 +8,13 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use [Return Code
 2.  Navigate to **Apps**.\
 
 
-    ![Navigating to "Apps"](/_images/image-(281 "Navigating to \"Apps\"").png "Navigating to “Apps”")
+    ![Navigating to "Apps"](/_images/image-(281Apps "Navigating to \"Apps\"").png "Navigating to “Apps”")
 
 
 3.  Navigate to **All Apps**.\
 
 
-    ![Navigating to "All Apps"](/_images/image-(282 "Navigating to \"All Apps\"").png "Navigating to “All Apps”")
+    ![Navigating to "All Apps"](/_images/image-(282All-Apps "Navigating to \"All Apps\"").png "Navigating to “All Apps”")
 
 
 4.  Click the app if it’s shown in the results or search for it.\
@@ -26,11 +26,11 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use [Return Code
     \
 
 
-    ![Navigating to "Manage | Properties"](/_images/image-(2543 "Navigating to \"Manage | Properties\"").png "Navigating to “Manage | Properties”")
+    ![Navigating to "Manage | Properties"](/_images/image-(2543Manage-Properties "Navigating to \"Manage | Properties\"").png "Navigating to “Manage | Properties”")
 
 
 6.  Scroll down to the **Program** section, under which you will find the **Return codes**.\
     \
 
 
-    ![Scrolling down to the "Program" section to locate the "Return codes"](/_images/image-(2544 "Scrolling down to the \"Program\" section to locate the \"Return codes\"").png "Scrolling down to the “Program” section to locate the “Return codes”")
+    ![Scrolling down to the "Program" section to locate the "Return codes"](/_images/image-(2544Program "Scrolling down to the \"Program\" section to locate the \"Return codes\"").png "Scrolling down to the “Program” section to locate the “Return codes”")

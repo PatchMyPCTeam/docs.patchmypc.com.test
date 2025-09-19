@@ -27,11 +27,11 @@ To add a Localization:
 2. To an existing Branding app, follow the [Modify/Recreate Branding](modify-recreate-cloud-branding.md) process.
 3. Click **Add Language**
 
-![Clicking "Add Language"](/_images/image-(2405 "Clicking \"Add Language\"").png "Clicking &#x22;Add Language&#x22;")
+![Clicking "Add Language"](/_images/image-(2405Add-Language "Clicking \"Add Language\"").png "Clicking &#x22;Add Language&#x22;")
 
 4. In the **Language** dropdown of the **Add Localization** screen, start typing the name of the relevant language or select it from the dropdown.
 
-![Typing the name of the relevant language or selecting it from the  "Language" dropdown of the "Add Localization" screen](/_images/image-(2406 "Typing the name of the relevant language or selecting it from the  \"Language\" dropdown of the \"Add Localization\" screen").png "Typing the name of the relevant language or selecting it from the  &#x22;Language&#x22; dropdown of the &#x22;Add Localization&#x22; screen")
+![Typing the name of the relevant language or selecting it from the  "Language" dropdown of the "Add Localization" screen](/_images/image-(2406Language "Typing the name of the relevant language or selecting it from the  \"Language\" dropdown of the \"Add Localization\" screen").png "Typing the name of the relevant language or selecting it from the  &#x22;Language&#x22; dropdown of the &#x22;Add Localization&#x22; screen")
 
 5. For each of the three tabs (**Install**, **Uninstall**, **Update)**, complete each field with the relevant text and variables you want to use.
 
@@ -50,7 +50,7 @@ To add a Localization:
 
 6. Click **Save** to save your settings.
 
-![Clicking "Save" to save your settings](/_images/image-(2409 "Clicking \"Save\" to save your settings").png "Clicking &#x22;Save&#x22; to save your settings")
+![Clicking "Save" to save your settings](/_images/image-(2409Save "Clicking \"Save\" to save your settings").png "Clicking &#x22;Save&#x22; to save your settings")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
@@ -59,7 +59,7 @@ To add a Localization:
 
 The **Branding** screen is redisplayed with the newly added localization shown at the top of the list allowing you to select it if required.
 
-!["Branding" screen redisplayed with the newly added localization shown at the top of the list allowing you to select it if required](/_images/image-(2410 "\"Branding\" screen redisplayed with the newly added localization shown at the top of the list allowing you to select it if required").png "&#x22;Branding&#x22; screen redisplayed with the newly added localization shown at the top of the list allowing you to select it if required")
+!["Branding" screen redisplayed with the newly added localization shown at the top of the list allowing you to select it if required](/_images/image-(2410Branding "\"Branding\" screen redisplayed with the newly added localization shown at the top of the list allowing you to select it if required").png "&#x22;Branding&#x22; screen redisplayed with the newly added localization shown at the top of the list allowing you to select it if required")
 
 ### Modify an Localization
 
@@ -73,19 +73,19 @@ To modify a Localization for an existing Branding app:
 
 4. Make any required changes, then click **Save** to save your changes.
 
-![Clicking "Save"](/_images/image-(2398 "Clicking \"Save\"").png "Clicking &#x22;Save&#x22;")
+![Clicking "Save"](/_images/image-(2398Save "Clicking \"Save\"").png "Clicking &#x22;Save&#x22;")
 
 The **Branding** screen is redisplayed.
 
-!["Branding" screen is redisplayed](/_images/image-(2399 "\"Branding\" screen is redisplayed").png "&#x22;Branding&#x22; screen is redisplayed")
+!["Branding" screen is redisplayed](/_images/image-(2399Branding "\"Branding\" screen is redisplayed").png "&#x22;Branding&#x22; screen is redisplayed")
 
 5. Click **Save** to save your changes.
 
-![Clicking "Save" to save your changes](/_images/image-(2400 "Clicking \"Save\" to save your changes").png "Clicking &#x22;Save&#x22; to save your changes")
+![Clicking "Save" to save your changes](/_images/image-(2400Save "Clicking \"Save\" to save your changes").png "Clicking &#x22;Save&#x22; to save your changes")
 
 The list of branding apps is displayed along with the **Success – Branding Updated** notification.
 
-!["Success – Branding Updated" notification](/_images/image-(2674 "\"Success – Branding Updated\" notification").png "&#x22;Success – Branding Updated&#x22; notification")
+!["Success – Branding Updated" notification](/_images/image-(2674Success-Branding-Updated "\"Success – Branding Updated\" notification").png "&#x22;Success – Branding Updated&#x22; notification")
 
 ### Delete a Localization
 
@@ -100,8 +100,8 @@ The language is removed.
 
 3. Click **Save** to save your changes.
 
-![Clicking "Save" to save your changes](/_images/image-(2403 "Clicking \"Save\" to save your changes").png "Clicking &#x22;Save&#x22; to save your changes")
+![Clicking "Save" to save your changes](/_images/image-(2403Save "Clicking \"Save\" to save your changes").png "Clicking &#x22;Save&#x22; to save your changes")
 
 The **Success – Branding updated** notification is displayed.
 
-!["Success – Branding updated" notification](/_images/image-(2675 "\"Success – Branding updated\" notification").png "&#x22;Success – Branding updated&#x22; notification")
+!["Success – Branding updated" notification](/_images/image-(2675Success-Branding-updated "\"Success – Branding updated\" notification").png "&#x22;Success – Branding updated&#x22; notification")

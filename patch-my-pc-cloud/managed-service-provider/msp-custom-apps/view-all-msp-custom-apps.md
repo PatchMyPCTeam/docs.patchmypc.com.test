@@ -13,7 +13,7 @@ To locate any Custom Apps for Managed Service Providers (MSPs) you’ve created 
 2.  Under the **Source** section, select the checkbox for the relevant company that created the Custom App and click **Apply All Filters**.\
 
 
-    ![Selecting the checkbox for the relevant company that created the Custom App and clicking "Apply All Filters](/_images/image-(2264 "Selecting the checkbox for the relevant company that created the Custom App and clicking \"Apply All Filters").png "Selecting the checkbox for the relevant company that created the Custom App and clicking “Apply All Filters")
+    ![Selecting the checkbox for the relevant company that created the Custom App and clicking "Apply All Filters](/_images/image-(2264Apply-All-Filters "Selecting the checkbox for the relevant company that created the Custom App and clicking \"Apply All Filters").png "Selecting the checkbox for the relevant company that created the Custom App and clicking “Apply All Filters")
 
     \
     \

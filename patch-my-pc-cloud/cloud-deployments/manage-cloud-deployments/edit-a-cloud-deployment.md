@@ -35,7 +35,7 @@ To edit an existing deployment from the **Deployments** node:
 
 
 
-    ![Clicking "Edit" on the deployment's property page.](/_images/image-(2010 "Clicking \"Edit\" on the deployment's property page.").png "Clicking &#x22;Edit&#x22; on the deployment&#x27;s property page.")
+    ![Clicking "Edit" on the deployment's property page.](/_images/image-(2010Edit." "Clicking \"Edit\" on the deployment's property page.").png "Clicking &#x22;Edit&#x22; on the deployment&#x27;s property page.")
 
     The Deployment Wizard starts.\
 
@@ -51,7 +51,7 @@ To edit an existing deployment from the **Deployments** node:
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
 <p>You can also edit a deployment from the **Deployments** node by clicking the ellipsis (**⋮**) beside the relevant deployment you want to edit, then click **Edit**.</p>
-<p>![Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.](/_images/image-(1891).png>)</p>
+<p>![Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.](/_images/image-(1891 "Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.").png>)</p>
 </blockquote>
 
 ### Editing a deployment from the App Catalog
@@ -71,7 +71,7 @@ To edit a deployment from the App Catalog:
 2.  Click **Edit Deployment** on the deployment's property page.\
 
 
-    ![Clicking "Edit Deployment" on the deployment's property page.](/_images/image-(2011 "Clicking \"Edit Deployment\" on the deployment's property page.").png "Clicking &#x22;Edit Deployment&#x22; on the deployment&#x27;s property page.")
+    ![Clicking "Edit Deployment" on the deployment's property page.](/_images/image-(2011Edit-Deployment." "Clicking \"Edit Deployment\" on the deployment's property page.").png "Clicking &#x22;Edit Deployment&#x22; on the deployment&#x27;s property page.")
 
 The behavior of the **Edit Deployment** button depends on whether there is at least one existing, successful deployment:
 

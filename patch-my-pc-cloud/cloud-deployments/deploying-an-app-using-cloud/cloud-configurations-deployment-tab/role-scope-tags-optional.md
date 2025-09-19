@@ -19,11 +19,11 @@ To add Role Scope tag&#x73;**:**
 
 1. Click the **Role Scope Tags** tool.
 
-![Clicking the "Role Scope Tags" tool](/_images/image-(78 "Clicking the \"Role Scope Tags\" tool").png "Clicking the &#x22;Role Scope Tags&#x22; tool")
+![Clicking the "Role Scope Tags" tool](/_images/image-(78Role-Scope-Tags "Clicking the \"Role Scope Tags\" tool").png "Clicking the &#x22;Role Scope Tags&#x22; tool")
 
 2. Scroll down to the **Role Scope Tags** section.
 
-![Scrolling down to the "Role Scope Tags" section](/_images/image-(79 "Scrolling down to the \"Role Scope Tags\" section").png "Scrolling down to the “Role Scope Tags” section")
+![Scrolling down to the "Role Scope Tags" section](/_images/image-(79Role-Scope-Tags "Scrolling down to the \"Role Scope Tags\" section").png "Scrolling down to the “Role Scope Tags” section")
 
 3. In the **Profile Name** field, either:
    1. Start typing the name of the relevant Scope Tag, then click the checkbox beside it to select it.
@@ -45,4 +45,4 @@ To add Role Scope tag&#x73;**:**
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking "Next" to move to the "Assignments" page](/_images/image-(81 "Clicking \"Next\" to move to the \"Assignments\" page").png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
+![Clicking "Next" to move to the "Assignments" page](/_images/image-(81Next "Clicking \"Next\" to move to the \"Assignments\" page").png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")

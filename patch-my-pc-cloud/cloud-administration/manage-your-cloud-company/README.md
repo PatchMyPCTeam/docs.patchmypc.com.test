@@ -9,7 +9,7 @@ All user company-related tasks are performed from the **Company** node of the po
 1. Sign in in to the PMPC portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
 2. Navigate to **Settings | Company**
 
-![Navigating to "Settings | Company"](/_images/image-(678 "Navigating to \"Settings | Company\"").png "Navigating to “Settings | Company”")
+![Navigating to "Settings | Company"](/_images/image-(678Settings-Company "Navigating to \"Settings | Company\"").png "Navigating to “Settings | Company”")
 
 The **Company** screen is then displayed.
 
@@ -18,7 +18,7 @@ The **Company** screen is then displayed.
 <p>The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.</p>
 </blockquote>
 
-!["Company" screen](/_images/image-(2688 "\"Company\" screen").png "“Company” screen")
+!["Company" screen](/_images/image-(2688Company "\"Company\" screen").png "“Company” screen")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -27,8 +27,8 @@ The **Company** screen is then displayed.
 
 3. Make any required changes, then click **Save**.
 
-![Clicking "Save" to save changes](/_images/image-(2687 "Clicking \"Save\" to save changes").png "Clicking &#x22;Save&#x22; to save changes")
+![Clicking "Save" to save changes](/_images/image-(2687Save "Clicking \"Save\" to save changes").png "Clicking &#x22;Save&#x22; to save changes")
 
 The **Success - Company information updated** notification is shown.
 
-!["Success - Company information updated" notification](/_images/image-(2689 "\"Success - Company information updated\" notification").png "&#x22;Success - Company information updated&#x22; notification")
+!["Success - Company information updated" notification](/_images/image-(2689Success-Company-information-updated "\"Success - Company information updated\" notification").png "&#x22;Success - Company information updated&#x22; notification")

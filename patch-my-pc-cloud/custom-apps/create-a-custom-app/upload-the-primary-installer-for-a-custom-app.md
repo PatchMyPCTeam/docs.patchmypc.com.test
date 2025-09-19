@@ -8,7 +8,7 @@ To create a Custom App you first need up upload the Primary Installer for the ap
 2.  On the **App Catalog** page, click **Add App**.\
 
 
-    ![Clicking "Add App" on the App Catalog page](/_images/image-(209 "Clicking \"Add App\" on the App Catalog page").png "Clicking &#x22;Add App&#x22; on the App Catalog page")
+    ![Clicking "Add App" on the App Catalog page](/_images/image-(209Add-App "Clicking \"Add App\" on the App Catalog page").png "Clicking &#x22;Add App&#x22; on the App Catalog page")
 
     \
     The Custom Apps Deployment Wizard starts.\
@@ -24,7 +24,7 @@ To create a Custom App you first need up upload the Primary Installer for the ap
 <p>We currently do not support macOS Custom Apps. If you select a .pkg/.dmg you will see a warning stating this and explaining how you can upvote this idea.</p>
 </blockquote>
 
-![Clicking "Add Primary Install File" on the "Upload Application" page](/_images/image-(211 "Clicking \"Add Primary Install File\" on the \"Upload Application\" page").png "Clicking “Add Primary Install File” on the “Upload Application” page")
+![Clicking "Add Primary Install File" on the "Upload Application" page](/_images/image-(211Add-Primary-Install-File "Clicking \"Add Primary Install File\" on the \"Upload Application\" page").png "Clicking “Add Primary Install File” on the “Upload Application” page")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>

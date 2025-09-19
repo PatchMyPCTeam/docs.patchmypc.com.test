@@ -17,7 +17,7 @@ To edit an MSP App Set:
 1.  Navigate to **App Sets**\
 
 
-    ![Navigating to "App Sets"](/_images/image-(111 "Navigating to \"App Sets\"").png "Navigating to “App Sets”")
+    ![Navigating to "App Sets"](/_images/image-(111App-Sets "Navigating to \"App Sets\"").png "Navigating to “App Sets”")
 2.  Click the ellipsis (**⋮**) beside the App Set you want to edit and select **Edit**\
 
 
@@ -35,4 +35,4 @@ To edit an MSP App Set:
 <p>Also, deleting a company from an App Set removes all of the deployments for the apps within that App Set from the relevant company.</p>
 </blockquote>
 
-![Clicking "Deploy"](/_images/image-(113 "Clicking \"Deploy\"").png "Clicking “Deploy”")
+![Clicking "Deploy"](/_images/image-(113Deploy "Clicking \"Deploy\"").png "Clicking “Deploy”")

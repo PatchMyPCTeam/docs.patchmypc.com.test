@@ -9,7 +9,7 @@ To recreate a deployment:
 1.  From the **Deployments** page, click the ellipsis (**⋮**) beside the relevant deployment you want to recreate and click **Recreate**.\
 
 
-    ![Clicking the ellipsis beside a deployment and selecting "Recreate"](/_images/image-(2013 "Clicking the ellipsis beside a deployment and selecting \"Recreate\"").png "Clicking the ellipsis beside a deployment and selecting “Recreate”")
+    ![Clicking the ellipsis beside a deployment and selecting "Recreate"](/_images/image-(2013Recreate "Clicking the ellipsis beside a deployment and selecting \"Recreate\"").png "Clicking the ellipsis beside a deployment and selecting “Recreate”")
 2.  On the **Are you sure you want to recreate <**_**deployment\_name**_**>** dialog box, click **Yes**.\
 
 

@@ -18,11 +18,11 @@ To configure the default template for all deployments to a specific OS platform:
 
 1. Navigate to **Settings | Templates**
 
-![Navigating to "Settings | Templates"](/_images/image-(261 "Navigating to \"Settings | Templates\"").png "Navigating to “Settings | Templates”")
+![Navigating to "Settings | Templates"](/_images/image-(261Settings-Templates "Navigating to \"Settings | Templates\"").png "Navigating to “Settings | Templates”")
 
 2. On the **Templates** page, click the relevant slider under the **Default** column beside the template you want to configure as the default for all deployments created for that OS platform going forward.
 
-![Clicking the "default" slider beside the relevant template](/_images/image-(47 "Clicking the \"default\" slider beside the relevant template").png "Clicking the “default” slider beside the relevant template")
+![Clicking the "default" slider beside the relevant template](/_images/image-(47default "Clicking the \"default\" slider beside the relevant template").png "Clicking the “default” slider beside the relevant template")
 
 3. On the **Are you sure you want to set ‘<**_**template\_name**_**>’ template as the default** popup, click **Yes**.
 
@@ -43,7 +43,7 @@ If you have previously configured a default template but now do not want a defau
 
 1. Click the slider under the **Default** column beside the template you currently have configured as the default.
 
-![Clicking the slider under the "Default" column beside the template currently configured as the default.](/_images/image-(51 "Clicking the slider under the \"Default\" column beside the template currently configured as the default.").png "Clicking the slider under the “Default” column beside the template currently configured as the default.")
+![Clicking the slider under the "Default" column beside the template currently configured as the default.](/_images/image-(51Default." "Clicking the slider under the \"Default\" column beside the template currently configured as the default.").png "Clicking the slider under the “Default” column beside the template currently configured as the default.")
 
 2. On the A**re you sure you want to unset ‘<**_**template\_name**_**>’ template as the default** popup, click **Yes**.
 

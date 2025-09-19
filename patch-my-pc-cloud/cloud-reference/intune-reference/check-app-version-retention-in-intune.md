@@ -7,11 +7,11 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use a [Retention
 1. Sign in to the **Intune admin center**
 2. Navigate to **Apps**
 
-![Navigating to "Apps"](/_images/image-(2579 "Navigating to \"Apps\"").png "Navigating to “Apps”")
+![Navigating to "Apps"](/_images/image-(2579Apps "Navigating to \"Apps\"").png "Navigating to “Apps”")
 
 3. Navigate to **All Apps**
 
-![Navigating to "All Apps"](/_images/image-(2580 "Navigating to \"All Apps\"").png "Navigating to “All Apps”")
+![Navigating to "All Apps"](/_images/image-(2580All-Apps "Navigating to \"All Apps\"").png "Navigating to “All Apps”")
 
 You will see all versions of all apps deployed.
 

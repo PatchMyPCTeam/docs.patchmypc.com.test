@@ -17,13 +17,13 @@ To delete your company from Patch My PC (PMPC) Cloud:
 1.  Navigate to **Settings | Company**.\
 
 
-    ![Navigating to "Settings | Company"](/_images/image-(597 "Navigating to \"Settings | Company\"").png "Navigating to “Settings | Company”")
+    ![Navigating to "Settings | Company"](/_images/image-(597Settings-Company "Navigating to \"Settings | Company\"").png "Navigating to “Settings | Company”")
 
 
 2.  Scroll down to the bottom of the **Company** page and click **Delete Company**.\
 
 
-    ![Scrolling down to the bottom of the "Company" page and clicking "Delete Company."](/_images/image-(598 "Scrolling down to the bottom of the \"Company\" page and clicking \"Delete Company.\"").png "Scrolling down to the bottom of the &#x22;Company&#x22; page and clicking &#x22;Delete Company.&#x22;")
+    ![Scrolling down to the bottom of the "Company" page and clicking "Delete Company."](/_images/image-(598Company.\ "Scrolling down to the bottom of the \"Company\" page and clicking \"Delete Company.\"").png "Scrolling down to the bottom of the &#x22;Company&#x22; page and clicking &#x22;Delete Company.&#x22;")
 3.  On the **Are you sure you want to delete the company <**_**company\_name**_**>?** dialog box, click **Yes** to confirm the deletion.\
 
 

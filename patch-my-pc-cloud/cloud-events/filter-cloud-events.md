@@ -21,7 +21,7 @@ Use a Filter to help you find only the relevant Events you require.
 2.  Configure your required filters, then click **Apply All Filters**.\
 
 
-    ![Clicking "Apply All Filters"](/_images/image-(1768 "Clicking \"Apply All Filters\"").png "Clicking “Apply All Filters”")
+    ![Clicking "Apply All Filters"](/_images/image-(1768Apply-All-Filters "Clicking \"Apply All Filters\"").png "Clicking “Apply All Filters”")
 
     \
     \
@@ -34,7 +34,7 @@ Use a Filter to help you find only the relevant Events you require.
 <p>**Note**</p>
 <p>You can click the filter button to close the filter sidebar to see more details about the results without affecting the filter.\</p>
 <p>\</p>
-<p>![Closing the filter sidebar](/_images/image-(1770).png>)</p>
+<p>![Closing the filter sidebar](/_images/image-(1770 "Closing the filter sidebar").png>)</p>
 </blockquote>
 
 <blockquote class="wp-block-quote">
@@ -49,7 +49,7 @@ Use a Filter to help you find only the relevant Events you require.
     \
 
 
-    ![Using "Clear All" to remove a filter](/_images/image-(1771 "Using \"Clear All\" to remove a filter").png "Using “Clear All” to remove a filter")
+    ![Using "Clear All" to remove a filter](/_images/image-(1771Clear-All "Using \"Clear All\" to remove a filter").png "Using “Clear All” to remove a filter")
 2.  Verify the green dot beside the **Filter** button has gone.\
 
 

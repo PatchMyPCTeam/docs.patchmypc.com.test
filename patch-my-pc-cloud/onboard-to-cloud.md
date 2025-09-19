@@ -7,15 +7,15 @@ To onboard to Patch My PC (PMPC) Cloud:
 1. Navigate to [https://portal.patchmypc.com/](https://portal.patchmypc.com/)
 2. Click **Sign Up**.
 
-![Click "Sign Up" on the Patch My PC Portal page](/_images/image-(1363 "Click \"Sign Up\" on the Patch My PC Portal page").png "Click “Sign Up” on the Patch My PC Portal page")
+![Click "Sign Up" on the Patch My PC Portal page](/_images/image-(1363Sign-Up "Click \"Sign Up\" on the Patch My PC Portal page").png "Click “Sign Up” on the Patch My PC Portal page")
 
 3. On the **Sign in** screen, enter the Entra ID you want to use to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.
 
-![Microsoft "Sign in" screen](/_images/image-(1364 "Microsoft \"Sign in\" screen").png "Microsoft “Sign in” screen")
+![Microsoft "Sign in" screen](/_images/image-(1364Sign-in "Microsoft \"Sign in\" screen").png "Microsoft “Sign in” screen")
 
 4. Enter the password and click **Sign in**.
 
-![Microsoft "Enter password" screen](/_images/image-(1365 "Microsoft \"Enter password\" screen").png "Microsoft “Enter password” screen")
+![Microsoft "Enter password" screen](/_images/image-(1365Enter-password "Microsoft \"Enter password\" screen").png "Microsoft “Enter password” screen")
 
 5. If the **Permission requested** screen is not displayed, go to Step 7.
 
@@ -23,7 +23,7 @@ To onboard to Patch My PC (PMPC) Cloud:
 
 6. Review the **Permission requested** screen, clicking **Accept** if you are happy to continue.
 
-!["Permissions requested" dialog box](/_images/image-(1366 "\"Permissions requested\" dialog box").png "“Permissions requested” dialog box")
+!["Permissions requested" dialog box](/_images/image-(1366Permissions-requested "\"Permissions requested\" dialog box").png "“Permissions requested” dialog box")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -42,20 +42,20 @@ To onboard to Patch My PC (PMPC) Cloud:
 
 7. If you do not see the **Select the Company You Want to Sign-In To** screen, go to Step 9.
 
-!["Select the Company You Want to Sign-In To" screen](/_images/image-(535 "\"Select the Company You Want to Sign-In To\" screen").png "&#x22;Select the Company You Want to Sign-In To&#x22; screen")
+!["Select the Company You Want to Sign-In To" screen](/_images/image-(535Select-the-Company-You-Want-to-Sign-In-To "\"Select the Company You Want to Sign-In To\" screen").png "&#x22;Select the Company You Want to Sign-In To&#x22; screen")
 
 8.  On the **Select the Company You Want to Sign-In To** screen, select the relevant option:
 
     1.  If you are setting up a new company, click **Create Company** and continue to Step 9.\
 
 
-        ![Clicking "Create Company" to create a new company](/_images/image-(536 "Clicking \"Create Company\" to create a new company").png "Clicking “Create Company” to create a new company")
+        ![Clicking "Create Company" to create a new company](/_images/image-(536Create-Company "Clicking \"Create Company\" to create a new company").png "Clicking “Create Company” to create a new company")
 
 
     2.  If your email address has already been used to create a user in a PMPC Cloud company, you will see **Select** beside the relevant companies that you can sign in to.\
 
 
-        ![Clcking "Select" beside the company you want to sign in to.](/_images/image-(20 "Clcking \"Select\" beside the company you want to sign in to.").png "Clcking &#x22;Select&#x22; beside the company you want to sign in to.")
+        ![Clcking "Select" beside the company you want to sign in to.](/_images/image-(20Select." "Clcking \"Select\" beside the company you want to sign in to.").png "Clcking &#x22;Select&#x22; beside the company you want to sign in to.")
 
 
     3. If your email address is not associated with a user in a PMPC Cloud company, you can click **Request Access** beside the company you want to join.
@@ -65,14 +65,14 @@ To onboard to Patch My PC (PMPC) Cloud:
     \
     The **Request Access to join&#x20;**_**\<company\_name>**_ popup appears.\
     \
-    !["Request Access to join \<company\_name>" popup](/_images/image-(626).png>)\
+    !["Request Access to join \<company\_name>" popup](/_images/image-(626 "\"Request Access to join \<company\_name>\" popup").png>)\
     \
     Enter an optional **Reason for Request** then click **Submit**.\
     \
     The **Request Access** text changes to **Renotify** and the **Success - Access request sent** notification is shown. \
 
 
-    ![The "Success – Access request sent" notification is displayed](/_images/image-(1632 "The \"Success – Access request sent\" notification is displayed").png "The “Success – Access request sent” notification is displayed")
+    ![The "Success – Access request sent" notification is displayed](/_images/image-(1632Success-Access-request-sent "The \"Success – Access request sent\" notification is displayed").png "The “Success – Access request sent” notification is displayed")
 
     \
     You now need to wait for a user with the **Full Admin with Access Management** role to review and approve your request.
@@ -89,11 +89,11 @@ To onboard to Patch My PC (PMPC) Cloud:
 
 9. On the **Company Info** screen, click **Select** for the location where your company’s data will be stored.
 
-![Click "Select" to select the relevant location to store your company data](/_images/image-(609 "Click \"Select\" to select the relevant location to store your company data").png "Click “Select” to select the relevant location to store your company data")
+![Click "Select" to select the relevant location to store your company data](/_images/image-(609Select "Click \"Select\" to select the relevant location to store your company data").png "Click “Select” to select the relevant location to store your company data")
 
 10. In the **Company Name** field, type your company’s name.
 
-![Type your company's name in the "Company Name" field](/_images/image-(610 "Type your company's name in the \"Company Name\" field").png "Type your company’s name in the “Company Name” field")
+![Type your company's name in the "Company Name" field](/_images/image-(610Company-Name "Type your company's name in the \"Company Name\" field").png "Type your company’s name in the “Company Name” field")
 
 <blockquote class="wp-block-quote">
 <p>**Important**</p>
@@ -106,11 +106,11 @@ To onboard to Patch My PC (PMPC) Cloud:
 
 12. Click **Continue**.
 
-![Clicking "Continue" on the "Company Info" screen](/_images/image-(808 "Clicking \"Continue\" on the \"Company Info\" screen").png "Clicking “Continue” on the “Company Info” screen")
+![Clicking "Continue" on the "Company Info" screen](/_images/image-(808Continue "Clicking \"Continue\" on the \"Company Info\" screen").png "Clicking “Continue” on the “Company Info” screen")
 
 13. On the **User Info** screen, verify your **First Name** and **Last Name** are correct, amending as required.
 
-![Verifying your "First Name" and "Last Name" are correct](/_images/image-(809 "Verifying your \"First Name\" and \"Last Name\" are correct").png "Verifying your “First Name” and “Last Name” are correct")
+![Verifying your "First Name" and "Last Name" are correct](/_images/image-(809First-Name "Verifying your \"First Name\" and \"Last Name\" are correct").png "Verifying your “First Name” and “Last Name” are correct")
 
 14. Click the **Terms and Conditions** link to see these for using PMPC software and services.
 
@@ -118,11 +118,11 @@ To onboard to Patch My PC (PMPC) Cloud:
 
 The **Terms and Conditions** page is displayed. Once you’ve reviewed them, click the **X** in the top right-hand corner to close this window.
 
-!["Terms and Conditions" for you using PMPC software and services](/_images/image-(811 "\"Terms and Conditions\" for you using PMPC software and services").png "“Terms and Conditions” for you using PMPC software and services")
+!["Terms and Conditions" for you using PMPC software and services](/_images/image-(811Terms-and-Conditions "\"Terms and Conditions\" for you using PMPC software and services").png "“Terms and Conditions” for you using PMPC software and services")
 
 15. If you agree with our terms and conditions, check the **Accept all Terms and conditions** checkbox.
 
-![Click to check the "Accept Terms and Conditions" checkbox](/_images/image-(812 "Click to check the \"Accept Terms and Conditions\" checkbox").png "Click to check the “Accept Terms and Conditions” checkbox")
+![Click to check the "Accept Terms and Conditions" checkbox](/_images/image-(812Accept-Terms-and-Conditions "Click to check the \"Accept Terms and Conditions\" checkbox").png "Click to check the “Accept Terms and Conditions” checkbox")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -131,7 +131,7 @@ The **Terms and Conditions** page is displayed. Once you’ve reviewed them, cli
 
 16. Click **Continue**.
 
-![Clicking "Continue" on the User Info page](/_images/image-(1509 "Clicking \"Continue\" on the User Info page").png "Clicking “Continue” on the User Info page")
+![Clicking "Continue" on the User Info page](/_images/image-(1509Continue "Clicking \"Continue\" on the User Info page").png "Clicking “Continue” on the User Info page")
 
 The PMPC Portal loads, showing the **App Catalog** page.
 

@@ -13,11 +13,11 @@ To switch to List view:
 
 On the **App Catalog** page, click the **List View** button.
 
-![Clicking the "List View" button](/_images/image-(2279 "Clicking the \"List View\" button").png "Clicking the “List View” button")
+![Clicking the "List View" button](/_images/image-(2279List-View "Clicking the \"List View\" button").png "Clicking the “List View” button")
 
 The App Catalog updates to show the list of available apps in list view. The new **OS** column shows which operating systems each app can be deployed to.
 
-![New "OS" column shows which operating systems each app can be deployed to](/_images/image-(2280 "New \"OS\" column shows which operating systems each app can be deployed to").png "New “OS” column shows which operating systems each app can be deployed to")
+![New "OS" column shows which operating systems each app can be deployed to](/_images/image-(2280OS "New \"OS\" column shows which operating systems each app can be deployed to").png "New “OS” column shows which operating systems each app can be deployed to")
 
 ### Using the OS Filter
 
@@ -33,7 +33,7 @@ To use the **Operating System (OS)** filter in the App Catalog:
     \
 
 
-    ![Checking the relevant checkbox for the OS you want to filter by then clicking "Apply All Filters"](/_images/image-(289 "Checking the relevant checkbox for the OS you want to filter by then clicking \"Apply All Filters\"").png "Checking the relevant checkbox for the OS you want to filter by then clicking “Apply All Filters”")
+    ![Checking the relevant checkbox for the OS you want to filter by then clicking "Apply All Filters"](/_images/image-(289Apply-All-Filters "Checking the relevant checkbox for the OS you want to filter by then clicking \"Apply All Filters\"").png "Checking the relevant checkbox for the OS you want to filter by then clicking “Apply All Filters”")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>

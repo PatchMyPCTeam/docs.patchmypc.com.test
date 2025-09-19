@@ -23,19 +23,19 @@ To delete the **Patch My PC Cloud** Enterprise Application from the Azure Portal
 5.  Click **Delete** from the command bar.\
 
 
-    ![Clicking "Delete" on the "Properties" page of the Patch My PC Cloud app in the Azure Portal](/_images/image-(1354 "Clicking \"Delete\" on the \"Properties\" page of the Patch My PC Cloud app in the Azure Portal").png "Clicking “Delete” on the “Properties” page of the Patch My PC Cloud app in the Azure Portal")
+    ![Clicking "Delete" on the "Properties" page of the Patch My PC Cloud app in the Azure Portal](/_images/image-(1354Delete "Clicking \"Delete\" on the \"Properties\" page of the Patch My PC Cloud app in the Azure Portal").png "Clicking “Delete” on the “Properties” page of the Patch My PC Cloud app in the Azure Portal")
 
 
 6.  Click **Yes** when prompted **Delete Patch My PC Cloud?**\
 
 
-    ![Clicking "Yes" when prompted to "Delete Patch My PC Cloud" app from the Azure Portal](/_images/image-(1356 "Clicking \"Yes\" when prompted to \"Delete Patch My PC Cloud\" app from the Azure Portal").png "Clicking “Yes” when prompted to “Delete Patch My PC Cloud” app from the Azure Portal")
+    ![Clicking "Yes" when prompted to "Delete Patch My PC Cloud" app from the Azure Portal](/_images/image-(1356Yes "Clicking \"Yes\" when prompted to \"Delete Patch My PC Cloud\" app from the Azure Portal").png "Clicking “Yes” when prompted to “Delete Patch My PC Cloud” app from the Azure Portal")
 
     \
     The **Deleting application** message will be displayed whilst the Enterprise Application is deleted.\
 
 
-    !["Deleting application" message being displayed whilst the app is deleted.](/_images/image-(1359 "\"Deleting application\" message being displayed whilst the app is deleted.").png "“Deleting application” message being displayed whilst the app is deleted.")
+    !["Deleting application" message being displayed whilst the app is deleted.](/_images/image-(1359Deleting-application." "\"Deleting application\" message being displayed whilst the app is deleted.").png "“Deleting application” message being displayed whilst the app is deleted.")
 
 
 7.  Refresh the Azure portal (as it doesn’t auto-refresh), which will show that the PMPC Cloud Enterprise Application has been deleted successfully.
@@ -46,4 +46,4 @@ To delete the **Patch My PC Cloud** Enterprise Application from the Azure Portal
 
 If you sign out and back into the same Intune tenant, you will see the **Permissions requested** prompt.
 
-!["Permissions requested" dialog box](/_images/image-(1362 "\"Permissions requested\" dialog box").png "“Permissions requested” dialog box")
+!["Permissions requested" dialog box](/_images/image-(1362Permissions-requested "\"Permissions requested\" dialog box").png "“Permissions requested” dialog box")

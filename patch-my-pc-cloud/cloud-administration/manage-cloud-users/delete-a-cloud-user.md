@@ -23,7 +23,7 @@ To delete a user from the Patch My PC (PMPC) Cloud portal:
 <p>Only click **Yes** if you are sure you want to revoke your own access.</p>
 </blockquote>
 
-![Clicking "Yes" to confirm the deletion of the user](/_images/image-(782 "Clicking \"Yes\" to confirm the deletion of the user").png "Clicking “Yes” to confirm the deletion of the user")
+![Clicking "Yes" to confirm the deletion of the user](/_images/image-(782Yes "Clicking \"Yes\" to confirm the deletion of the user").png "Clicking “Yes” to confirm the deletion of the user")
 
 The user is deleted and the **Success - User deleted** notification is shown.
 

@@ -10,7 +10,7 @@ I am trying to onboard to Intune Apps for Cloud (Intune Apps). I’ve signed in 
 \
 
 
-!["Need admin approval" dialog box](/_images/image-(906 "\"Need admin approval\" dialog box").png "“Need admin approval” dialog box")
+!["Need admin approval" dialog box](/_images/image-(906Need-admin-approval "\"Need admin approval\" dialog box").png "“Need admin approval” dialog box")
 
 ### CAUSE
 

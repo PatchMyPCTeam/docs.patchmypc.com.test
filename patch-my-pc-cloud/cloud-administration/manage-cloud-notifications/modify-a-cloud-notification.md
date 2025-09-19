@@ -13,13 +13,13 @@ To modify a notification in Patch My PC (PMPC) Cloud:
 2.  Make the required changes, then click **Save** to save your changes.\
 
 
-    ![Clicking "Save" to save your changes](/_images/image-(1714 "Clicking \"Save\" to save your changes").png "Clicking “Save” to save your changes")
+    ![Clicking "Save" to save your changes](/_images/image-(1714Save "Clicking \"Save\" to save your changes").png "Clicking “Save” to save your changes")
 
     \
     The **Success - Notification updated** notification is shown.\
 
 
-    !["Success - Notification updated" notification](/_images/image-(1715 "\"Success - Notification updated\" notification").png "&#x22;Success - Notification updated&#x22; notification")
+    !["Success - Notification updated" notification](/_images/image-(1715Success-Notification-updated "\"Success - Notification updated\" notification").png "&#x22;Success - Notification updated&#x22; notification")
 
     The portal auto-refreshes to show the modified notification.\
 

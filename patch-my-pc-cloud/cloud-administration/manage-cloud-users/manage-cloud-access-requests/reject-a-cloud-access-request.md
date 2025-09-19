@@ -20,7 +20,7 @@ To reject an access request in Patch My PC (PMPC) Cloud:
     The portal auto-refreshes to the **Pending Approval** tab to show the user’s request has been rejected, and the **Success - Request rejected** notification is shown.\
 
 
-    !["Success- Request rejected" notification](/_images/image-(625 "\"Success- Request rejected\" notification").png "“Success- Request rejected” notification")
+    !["Success- Request rejected" notification](/_images/image-(625Success-Request-rejected "\"Success- Request rejected\" notification").png "“Success- Request rejected” notification")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

@@ -12,13 +12,13 @@ To remove an Entra ID Security Group from PMPC Cloud:
 1.  In the PMPC Cloud portal, navigate to **Settings | Users**.\
 
 
-    ![Navigating to "Settings | Users"](/_images/image-(2234 "Navigating to \"Settings | Users\"").png "Navigating to “Settings | Users”")
+    ![Navigating to "Settings | Users"](/_images/image-(2234Settings-Users "Navigating to \"Settings | Users\"").png "Navigating to “Settings | Users”")
 
 
 2.  Click the **Entra ID Groups** tab.\
 
 
-    ![Clicking the "Entra ID Groups" tab](/_images/image-(2235 "Clicking the \"Entra ID Groups\" tab").png "Clicking the “Entra ID Groups” tab")
+    ![Clicking the "Entra ID Groups" tab](/_images/image-(2235Entra-ID-Groups "Clicking the \"Entra ID Groups\" tab").png "Clicking the “Entra ID Groups” tab")
 
 
 3. Click the trashcan beside the relevant Entra ID Security Group you want to remove.
@@ -37,6 +37,6 @@ To remove an Entra ID Security Group from PMPC Cloud:
 \
 The portal auto-refreshes to show the group has been removed and the **Success – Group deleted** notification is shown.
 
-![Portal auto-refreshing to show the group has been removed and the "Success – Group deleted" notification is shown](/_images/image-(2238 "Portal auto-refreshing to show the group has been removed and the \"Success – Group deleted\" notification is shown").png "Portal auto-refreshing to show the group has been removed and the “Success – Group deleted” notification is shown")
+![Portal auto-refreshing to show the group has been removed and the "Success – Group deleted" notification is shown](/_images/image-(2238Success-Group-deleted "Portal auto-refreshing to show the group has been removed and the \"Success – Group deleted\" notification is shown").png "Portal auto-refreshing to show the group has been removed and the “Success – Group deleted” notification is shown")
 
 When you remove an Entra ID Security Group, the **Group Role Removed** event is written to the **Events** node.

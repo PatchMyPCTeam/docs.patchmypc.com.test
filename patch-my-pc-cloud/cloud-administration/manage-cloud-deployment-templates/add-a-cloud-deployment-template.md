@@ -6,11 +6,11 @@ To add a new Template:
 
 1. Navigate to **Settings | Templates**
 
-![Navigating to "Settings | Templates"](/_images/image-(2321 "Navigating to \"Settings | Templates\"").png "Navigating to “Settings | Templates”")
+![Navigating to "Settings | Templates"](/_images/image-(2321Settings-Templates "Navigating to \"Settings | Templates\"").png "Navigating to “Settings | Templates”")
 
 2. Click **Add Template** in the header.
 
-![Clicking "Add Template"](/_images/image-(2322 "Clicking \"Add Template\"").png "Clicking “Add Template”")
+![Clicking "Add Template"](/_images/image-(2322Add-Template "Clicking \"Add Template\"").png "Clicking “Add Template”")
 
 3. Select the relevant OS for which this template will apply.
 
@@ -18,7 +18,7 @@ To add a new Template:
 
 4. On the **Add Template** screen, enter a unique name for the template in the **Template Name** field.
 
-![Entering a unique name for the Template in the "Template Name" field](/_images/image-(2609 "Entering a unique name for the Template in the \"Template Name\" field").png "Entering a unique name for the Template in the “Template Name” field")
+![Entering a unique name for the Template in the "Template Name" field](/_images/image-(2609Template-Name "Entering a unique name for the Template in the \"Template Name\" field").png "Entering a unique name for the Template in the “Template Name” field")
 
 5. On the **Configurations** page, configure the various Tools and configuration settings for how you want apps that use this template to be deployed.
 
@@ -30,11 +30,11 @@ To add a new Template:
 
 6. Click **Next** to move to the **Assignments** tab.
 
-![Clicking "Next" to move to the "Assignments" tab](/_images/image-(2610 "Clicking \"Next\" to move to the \"Assignments\" tab").png "Clicking “Next” to move to the “Assignments” tab")
+![Clicking "Next" to move to the "Assignments" tab](/_images/image-(2610Next "Clicking \"Next\" to move to the \"Assignments\" tab").png "Clicking “Next” to move to the “Assignments” tab")
 
 7. On the **Assignments** tab, click **Add Assignment** and select the relevant assignment type from the dropdown.
 
-![Clicking "Add Assignment" and select the relevant assignment type](/_images/image-(2612 "Clicking \"Add Assignment\" and select the relevant assignment type").png "Clicking “Add Assignment” and select the relevant assignment type")
+![Clicking "Add Assignment" and select the relevant assignment type](/_images/image-(2612Add-Assignment "Clicking \"Add Assignment\" and select the relevant assignment type").png "Clicking “Add Assignment” and select the relevant assignment type")
 
 8. Configure the assignments to be used when deploying an app using this template.
 
@@ -45,11 +45,11 @@ To add a new Template:
 
 9. Click **Save** to save the Template.
 
-![Clicking "Save" to save the Template](/_images/image-(2613 "Clicking \"Save\" to save the Template").png "Clicking “Save” to save the Template")
+![Clicking "Save" to save the Template](/_images/image-(2613Save "Clicking \"Save\" to save the Template").png "Clicking “Save” to save the Template")
 
 The **Templates** page is redisplayed along with the **Success - Template “<**_**template\_name**_**>" has been created** notification.
 
-!["Templates" redisplayed along with "Success" notification](/_images/image-(2614 "\"Templates\" redisplayed along with \"Success\" notification").png "“Templates” redisplayed along with “Success” notification")
+!["Templates" redisplayed along with "Success" notification](/_images/image-(2614Templates "\"Templates\" redisplayed along with \"Success\" notification").png "“Templates” redisplayed along with “Success” notification")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

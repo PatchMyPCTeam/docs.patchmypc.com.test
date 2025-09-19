@@ -9,7 +9,7 @@ To convert an existing deployment to use Update Rings:
 1.  [Edit the deployment](../manage-cloud-deployments/edit-a-cloud-deployment.md) and navigate to the **Assignments** tab.\
 
 
-    ![Navigating to the "Assignments" tab](/_images/image-(449 "Navigating to the \"Assignments\" tab").png "Navigating to the “Assignments” tab")
+    ![Navigating to the "Assignments" tab](/_images/image-(449Assignments "Navigating to the \"Assignments\" tab").png "Navigating to the “Assignments” tab")
 
     \
     Any existing assignments for the deployment are shown.\
@@ -19,11 +19,11 @@ To convert an existing deployment to use Update Rings:
 2.  Click **Enable Update Rings**.\
 
 
-    ![Clicking "Enable Update Rings"](/_images/image-(451 "Clicking \"Enable Update Rings\"").png "Clicking “Enable Update Rings”")
+    ![Clicking "Enable Update Rings"](/_images/image-(451Enable-Update-Rings "Clicking \"Enable Update Rings\"").png "Clicking “Enable Update Rings”")
 3.  On the **Move Assignments or Delete** dialog box, click **Move** to create the Update Rings and move any existing assignments to the first Update Ring.\
 
 
-    ![Clicking "Move" to move any existing assignments to the first Update Ring.](/_images/image-(452 "Clicking \"Move\" to move any existing assignments to the first Update Ring.").png "Clicking “Move” to move any existing assignments to the first Update Ring.")
+    ![Clicking "Move" to move any existing assignments to the first Update Ring.](/_images/image-(452Move." "Clicking \"Move\" to move any existing assignments to the first Update Ring.").png "Clicking “Move” to move any existing assignments to the first Update Ring.")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -39,6 +39,6 @@ Any existing assignments are moved into the first Update Ring.
     \
 
 
-    ![Clicking "Save" to save changes](/_images/image-(454 "Clicking \"Save\" to save changes").png "Clicking “Save” to save changes")
+    ![Clicking "Save" to save changes](/_images/image-(454Save "Clicking \"Save\" to save changes").png "Clicking “Save” to save changes")
 
 The deployment will be updated and the Update Rings will be created depending on the type of rings you chose ([Delayed](how-cloud-update-rings-are-created.md#delayed-update-rings) or [Immediate](how-cloud-update-rings-are-created.md#immediate-update-rings)).

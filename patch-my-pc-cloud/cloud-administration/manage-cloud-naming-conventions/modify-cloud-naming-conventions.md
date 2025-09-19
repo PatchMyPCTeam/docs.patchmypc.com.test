@@ -24,15 +24,15 @@ To modify Naming Conventions:
 4.  Click **Save** to save your changes.\
 
 
-    ![Clicking "Save" to save your changes](/_images/image-(663 "Clicking \"Save\" to save your changes").png "Clicking “Save” to save your changes")
+    ![Clicking "Save" to save your changes](/_images/image-(663Save "Clicking \"Save\" to save your changes").png "Clicking “Save” to save your changes")
 
 
 5.  Click **Submit** to save your changes on the **Are you sure** popup.\
 
 
-    ![Clicking "Submit" on the "Are you sure?" popup](/_images/image-(664 "Clicking \"Submit\" on the \"Are you sure?\" popup").png "Clicking “Submit” on the “Are you sure?” popup")
+    ![Clicking "Submit" on the "Are you sure?" popup](/_images/image-(664Submit "Clicking \"Submit\" on the \"Are you sure?\" popup").png "Clicking “Submit” on the “Are you sure?” popup")
 
     The **Success – Naming Conventions saved** notification is displayed.\
 
 
-    !["Success – Naming Conventions saved" notification](/_images/image-(1777 "\"Success – Naming Conventions saved\" notification").png "&#x22;Success – Naming Conventions saved&#x22; notification")
+    !["Success – Naming Conventions saved" notification](/_images/image-(1777Success-Naming-Conventions-saved "\"Success – Naming Conventions saved\" notification").png "&#x22;Success – Naming Conventions saved&#x22; notification")

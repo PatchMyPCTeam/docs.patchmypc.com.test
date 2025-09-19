@@ -8,7 +8,7 @@ To create Update Rings for a new Deployment in Patch My PC (PMPC) Cloud:
 2.  On the **Assignments** page, click **Enable Update Rings**.\
 
 
-    ![Clicking "Enable Update Rings](/_images/image-(2110 "Clicking \"Enable Update Rings").png "Clicking “Enable Update Rings")
+    ![Clicking "Enable Update Rings](/_images/image-(2110Enable-Update-Rings "Clicking \"Enable Update Rings").png "Clicking “Enable Update Rings")
 3. From the **Update ring start time** dropdown, choose how you want your Update Rings to handle the start times for their assignments:\
    • [Delayed](how-cloud-update-rings-are-created.md#delayed)\
    • [Immediate](how-cloud-update-rings-are-created.md#immediate)
@@ -23,11 +23,11 @@ By default, two Update Rings are created with a two-day delay between them.
    \
    To add an additional Update Ring, click **Add Update Ring**.
 
-![Clicking "Add Update Ring"](/_images/image-(2584 "Clicking \"Add Update Ring\"").png "Clicking “Add Update Ring”")
+![Clicking "Add Update Ring"](/_images/image-(2584Add-Update-Ring "Clicking \"Add Update Ring\"").png "Clicking “Add Update Ring”")
 
 5. On the **Add Update Ring** dialog box, enter the name for the new ring in the **Name** field and click **Save**.
 
-!["Add Update Ring" dialog box](/_images/image-(2187 "\"Add Update Ring\" dialog box").png "“Add Update Ring” dialog box")
+!["Add Update Ring" dialog box](/_images/image-(2187Add-Update-Ring "\"Add Update Ring\" dialog box").png "“Add Update Ring” dialog box")
 
 A new ring is added.
 
@@ -50,13 +50,13 @@ A new ring is added.
 
 7. If you do not want to change the names of any of the rings, go to Step 10.\
    \
-   If you want to change the name of any of the rings, click the pencil icon (![pencil icon](/_images/image-(2039).png>)) beside the relevant ring.
+   If you want to change the name of any of the rings, click the pencil icon (![pencil icon](/_images/image-(2039 "pencil icon").png>)) beside the relevant ring.
 
 ![Clicking the pencil icon beside the relevant ring to rename](/_images/image-(2591 "Clicking the pencil icon beside the relevant ring to rename").png "Clicking the pencil icon beside the relevant ring to rename")
 
 8. Enter the ring's name in the **Name** field of the **Edit Update Ring** dialog box, then click **Save**.
 
-![Entering the ring's name in the "Name" field of the "Edit Update Ring" dialog box and clicking "Save"](/_images/image-(2041 "Entering the ring's name in the \"Name\" field of the \"Edit Update Ring\" dialog box and clicking \"Save\"").png "Entering the ring&#x27;s name in the “Name” field of the “Edit Update Ring” dialog box and clicking “Save”")
+![Entering the ring's name in the "Name" field of the "Edit Update Ring" dialog box and clicking "Save"](/_images/image-(2041Name "Entering the ring's name in the \"Name\" field of the \"Edit Update Ring\" dialog box and clicking \"Save\"").png "Entering the ring&#x27;s name in the “Name” field of the “Edit Update Ring” dialog box and clicking “Save”")
 
 The updated name appears.
 
@@ -85,11 +85,11 @@ The updated name appears.
 
 12. Click **Deploy**.
 
-![Clicking "Deploy"](/_images/image-(2595 "Clicking \"Deploy\"").png "Clicking “Deploy”")
+![Clicking "Deploy"](/_images/image-(2595Deploy "Clicking \"Deploy\"").png "Clicking “Deploy”")
 
 The **“<**_**deployment\_name**_**>” Deployment Summary** dialog box appears, summarizing what you are deploying, to which groups, and when.
 
-!["Deployment Summary"](/_images/image-(2135 "\"Deployment Summary\"").png "“Deployment Summary”")
+!["Deployment Summary"](/_images/image-(2135Deployment-Summary "\"Deployment Summary\"").png "“Deployment Summary”")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -104,7 +104,7 @@ The **“<**_**deployment\_name**_**>” Deployment Summary** dialog box appears
     \
     b. Click **Confirm** to continue.
 
-![Clicking "Confirm"](/_images/image-(2140 "Clicking \"Confirm\"").png "Clicking &#x22;Confirm&#x22;")
+![Clicking "Confirm"](/_images/image-(2140Confirm "Clicking \"Confirm\"").png "Clicking &#x22;Confirm&#x22;")
 
 When you click **Confirm**, the **Deployments** node appears showing the deployment as **In Progress** and the **Success – Created <**_**deployment\_name**_**>** notification.
 

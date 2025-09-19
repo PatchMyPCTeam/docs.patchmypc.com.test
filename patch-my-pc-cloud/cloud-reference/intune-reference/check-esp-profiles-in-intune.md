@@ -8,17 +8,17 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use [ESP Profile
 2.  Navigate to **Devices**\
 
 
-    ![Navigating to "Devices"](/_images/image-(126 "Navigating to \"Devices\"").png "Navigating to “Devices”")
+    ![Navigating to "Devices"](/_images/image-(126Devices "Navigating to \"Devices\"").png "Navigating to “Devices”")
 3.  Navigate to **Enrollment**\
 
 
-    ![Navigating to "Enrollment"](/_images/image-(276 "Navigating to \"Enrollment\"").png "Navigating to “Enrollment”")
+    ![Navigating to "Enrollment"](/_images/image-(276Enrollment "Navigating to \"Enrollment\"").png "Navigating to “Enrollment”")
 
 
 4.  Scroll down and select **Enrollment Status Page**\
 
 
-    ![Scrolling down and selecting "Enrollment Status Page"](/_images/image-(277 "Scrolling down and selecting \"Enrollment Status Page\"").png "Scrolling down and selecting “Enrollment Status Page”")
+    ![Scrolling down and selecting "Enrollment Status Page"](/_images/image-(277Enrollment-Status-Page "Scrolling down and selecting \"Enrollment Status Page\"").png "Scrolling down and selecting “Enrollment Status Page”")
 
 
 5.  On the **Enrollment Status Page** click the relevant profile the PMPC Cloud deployment has been added to.\
@@ -30,10 +30,10 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use [ESP Profile
 6.  On the _**\<profile\_name>**_ page, navigate to **Manage | Properties**\
 
 
-    ![Navigating to "Manage | Properties"](/_images/image-(279 "Navigating to \"Manage | Properties\"").png "Navigating to “Manage | Properties”")
+    ![Navigating to "Manage | Properties"](/_images/image-(279Manage-Properties "Navigating to \"Manage | Properties\"").png "Navigating to “Manage | Properties”")
 
 
 7.  Scroll down to the **Block device use until required apps are installed if they are assigned to the user/device** field. This shows the apps that must be installed before the user can use the device and will include the PMPC Cloud deployment if it was configured correctly.\
 
 
-    ![Scrolling down to the "Block device use until required apps are installed if they are assigned to the user/device field", which shows the apps that must be installed before a user can use the device](/_images/image-(280 "Scrolling down to the \"Block device use until required apps are installed if they are assigned to the user/device field\", which shows the apps that must be installed before a user can use the device").png "Scrolling down to the “Block device use until required apps are installed if they are assigned to the user/device field”, which shows the apps that must be installed before a user can use the device")
+    ![Scrolling down to the "Block device use until required apps are installed if they are assigned to the user/device field", which shows the apps that must be installed before a user can use the device](/_images/device-field "Scrolling down to the \"Block device use until required apps are installed if they are assigned to the user/device field\", which shows the apps that must be installed before a user can use the device").png "Scrolling down to the “Block device use until required apps are installed if they are assigned to the user/device field”, which shows the apps that must be installed before a user can use the device")

@@ -32,17 +32,17 @@ To upload the app installer for the Binary Free App:
 5.  Click **Manage Files**.\
 
 
-    ![Clicking "Manage Files"](/_images/image-(445 "Clicking \"Manage Files\"").png "Clicking “Manage Files”")
+    ![Clicking "Manage Files"](/_images/image-(445Manage-Files "Clicking \"Manage Files\"").png "Clicking “Manage Files”")
 6.  On the **“<**_**app\_name**_**>” Upload file** screen, click **Add App File**.\
 
 
-    ![Clicking "Add App File"](/_images/image-(446 "Clicking \"Add App File\"").png "Clicking “Add App File”")
+    ![Clicking "Add App File"](/_images/image-(446Add-App-File "Clicking \"Add App File\"").png "Clicking “Add App File”")
 
 
 7.  On the **General Information** tab, configure the required options for the app, then click **Next**.\
 
 
-    ![Configuring any required options for the app, then clicking "Next"](/_images/image-(447 "Configuring any required options for the app, then clicking \"Next\"").png "Configuring any required options for the app, then clicking “Next”")
+    ![Configuring any required options for the app, then clicking "Next"](/_images/image-(447Next "Configuring any required options for the app, then clicking \"Next\"").png "Configuring any required options for the app, then clicking “Next”")
 
 
 8.  On the **Upload File Installer** tab, either:\
@@ -56,7 +56,7 @@ To upload the app installer for the Binary Free App:
 <p>We suggest you use the download link at the bottom of the page to ensure you download the latest version of the app from the vendor’s official website.</p>
 </blockquote>
 
-![Clicking "Select Application File"](/_images/image-(448 "Clicking \"Select Application File\"").png "Clicking “Select Application File”")
+![Clicking "Select Application File"](/_images/image-(448Select-Application-File "Clicking \"Select Application File\"").png "Clicking “Select Application File”")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -75,7 +75,7 @@ The portal also shows **File Up to Date** and the **Success – File Successfull
 *   The calculated hash matches that stored in our App Catalog.\
 
 
-    !["Success – File Successfully Uploaded" notification](/_images/image-(2050 "\"Success – File Successfully Uploaded\" notification").png "“Success – File Successfully Uploaded” notification")
+    !["Success – File Successfully Uploaded" notification](/_images/image-(2050Success-File-Successfully-Uploaded "\"Success – File Successfully Uploaded\" notification").png "“Success – File Successfully Uploaded” notification")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

@@ -55,7 +55,7 @@ After running this script, a file named **C:\Temp\MyFolder.zip** will be created
 
 Create your Custom App or upload the ZIP archive as an **Extra File** in a deployment.
 
-![Adding the "MyFolder.zip" as an Extra File](/_images/image-(2381 "Adding the \"MyFolder.zip\" as an Extra File").png "Adding the “MyFolder.zip” as an Extra File")
+![Adding the "MyFolder.zip" as an Extra File](/_images/image-(2381MyFolder.zip\" as an extra file" "Adding the \"MyFolder.zip\" as an Extra File").png "Adding the “MyFolder.zip” as an Extra File")
 
 #### Step 3: Extract the ZIP Archive During Deployment
 

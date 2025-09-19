@@ -17,7 +17,7 @@ To manage the user invitations to join your PMPC Cloud portal:
 2.  Click the **Invitations** tab.\
 
 
-    ![Clicking the "Invitations" tab on the "Users" screen](/_images/image-(1390 "Clicking the \"Invitations\" tab on the \"Users\" screen").png "Clicking the “Invitations” tab on the “Users” screen")
+    ![Clicking the "Invitations" tab on the "Users" screen](/_images/image-(1390Invitations "Clicking the \"Invitations\" tab on the \"Users\" screen").png "Clicking the “Invitations” tab on the “Users” screen")
 
     \
     The list of outstanding invitations which are still valid is displayed.\

@@ -24,7 +24,7 @@ To manage Return Codes for a Deployment:
 
 1. Click the **Return Codes** tool.
 
-![Clicking the "Return Codes" tool](/_images/image-(62 "Clicking the \"Return Codes\" tool").png "Clicking the “Return Codes” tool")
+![Clicking the "Return Codes" tool](/_images/image-(62Return-Codes "Clicking the \"Return Codes\" tool").png "Clicking the “Return Codes” tool")
 
 2. Scroll down to the **Manage Return Codes** section, which shows the default Return Codes plus any defined for the app if this is a Custom App.
 
@@ -33,7 +33,7 @@ To manage Return Codes for a Deployment:
 <p>If a vendor supplies a list of Return Codes for their app, we include it. If they don’t, we automatically populate the list of Return Codes with industry-standard codes.</p>
 </blockquote>
 
-![Scrolling down to the "Manage Return Codes" section](/_images/image-(63 "Scrolling down to the \"Manage Return Codes\" section").png "Scrolling down to the “Manage Return Codes” section")
+![Scrolling down to the "Manage Return Codes" section](/_images/image-(63Manage-Return-Codes "Scrolling down to the \"Manage Return Codes\" section").png "Scrolling down to the “Manage Return Codes” section")
 
 3. If you do not want to add a new Return Code, proceed to Step 5.
 4. To add a new Return Code for this deployment, enter the numerical value in the **Return Code** field, select its meaning from the **Code type** dropdown, then click **Add**.
@@ -56,7 +56,7 @@ The new Return Code is added to the list.
 
 The **Code type** field is updated.
 
-!["Code type" field updated.](/_images/image-(68 "\"Code type\" field updated.").png "“Code type” field updated.")
+!["Code type" field updated.](/_images/image-(68Code-type." "\"Code type\" field updated.").png "“Code type” field updated.")
 
 9. If you do not want to delete a Return Code, go to Step 11.
 10. To delete a Return Code, click the red trash can beside the relevant code.
@@ -82,7 +82,7 @@ The code is deleted from the list.
     \
     Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking "Next" to move to the "Assignments" tab](/_images/image-(71 "Clicking \"Next\" to move to the \"Assignments\" tab").png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab")
+![Clicking "Next" to move to the "Assignments" tab](/_images/image-(71Next "Clicking \"Next\" to move to the \"Assignments\" tab").png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

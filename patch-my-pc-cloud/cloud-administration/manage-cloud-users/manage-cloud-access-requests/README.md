@@ -21,7 +21,7 @@ There are two ways to manage Access Requests to join your PMPC Cloud portal:
 <p>Clicking **Review Request** in the email takes you to the **Pending Approval** page. To see an example of the access request email, see [Example Access Request email](../../../cloud-reference/cloud-email-reference/example-cloud-access-request-email.md).</p>
 </blockquote>
 
-![Navigating to "Settings | Users | Pending Approval"](/_images/image-(693 "Navigating to \"Settings | Users | Pending Approval\"").png "Navigating to “Settings | Users | Pending Approval”")
+![Navigating to "Settings | Users | Pending Approval"](/_images/image-(693Settings-Users-Pending-Approval "Navigating to \"Settings | Users | Pending Approval\"").png "Navigating to “Settings | Users | Pending Approval”")
 
 Any pending approvals are shown.
 

@@ -7,13 +7,13 @@ To accept a user’s access request in Patch My PC (PMPC) Cloud:
 1.  Click the green tick in the **Action** column.\
 
 
-    ![Clicking the green tick in the "Action" column](/_images/image-(619 "Clicking the green tick in the \"Action\" column").png "Clicking the green tick in the “Action” column")
+    ![Clicking the green tick in the "Action" column](/_images/image-(619Action "Clicking the green tick in the \"Action\" column").png "Clicking the green tick in the “Action” column")
 
 
 2.  On the **Which role would you like to assign to “<**_**user\_name**_**>”** dialog box, select the relevant role to assign this user, then click **Confirm**.\
 
 
-    !["Which role would you like to assign to" dialog box](/_images/image-(620 "\"Which role would you like to assign to\" dialog box").png "“Which role would you like to assign to” dialog box")
+    !["Which role would you like to assign to" dialog box](/_images/image-(620Which-role-would-you-like-to-assign-to "\"Which role would you like to assign to\" dialog box").png "“Which role would you like to assign to” dialog box")
 
 <blockquote class="wp-block-quote">
 <p>**Tip**</p>
@@ -22,7 +22,7 @@ To accept a user’s access request in Patch My PC (PMPC) Cloud:
 
 The portal auto-refreshes and switches to the **Active** tab to show the user has been added. At the same time, the **User approved** notification is shown.
 
-![Portal auto-refreshing, switching to the "Active" tab and showing to show the user has been added, plus the "User approved" notification is shown.](/_images/image-(622 "Portal auto-refreshing, switching to the \"Active\" tab and showing to show the user has been added, plus the \"User approved\" notification is shown.").png "Portal auto-refreshing, switching to the &#x22;Active&#x22; tab and showing to show the user has been added, plus the &#x22;User approved&#x22; notification is shown.")
+![Portal auto-refreshing, switching to the "Active" tab and showing to show the user has been added, plus the "User approved" notification is shown.](/_images/image-(622Active." "Portal auto-refreshing, switching to the \"Active\" tab and showing to show the user has been added, plus the \"User approved\" notification is shown.").png "Portal auto-refreshing, switching to the &#x22;Active&#x22; tab and showing to show the user has been added, plus the &#x22;User approved&#x22; notification is shown.")
 
 The user will receive an email from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com) mailbox with the subject **Access Granted “<**_**company\_name**_**>”**.
 

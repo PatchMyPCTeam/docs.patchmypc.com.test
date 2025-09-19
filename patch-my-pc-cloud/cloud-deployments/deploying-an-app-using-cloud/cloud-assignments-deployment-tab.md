@@ -22,7 +22,7 @@ To add an Assignment:
 <p>**Note**</p>
 <p>If your deployment uses a [Retention Policy](cloud-configurations-deployment-tab/retention-policy-deployments.md), using the **Update Only** assignment type will also retain the relevant number of versions of the app in addition to the regular deployment types in Intune.</p>
 <p>Also, Intune does not support using the **Update Only** assignment type with a deployment that is also configured to use [ESP Profiles](cloud-configurations-deployment-tab/esp-profiles-deployments.md). If you try to use this configuration, the **Deploy** button will be greyed out and the **Configurations** tab will show a red "**X**".</p>
-<p>!["Deploy" button greyed out and red "x" on "Configurations" tab](/_images/image-(2374).png>)\</p>
+<p>!["Deploy" button greyed out and red "x" on "Configurations" tab](/_images/image-(2374 "\"Deploy\" button greyed out and red \"x\" on \"Configurations\" tab").png>)\</p>
 <p>\</p>
 <p>You either need to:</p>
 <p>* Remove the **Update Only** assignment type</p>
@@ -69,7 +69,7 @@ f. **Update Only App -** Allows the Intune admin to add an **Update Only** assig
 
 The **Assignments** page updates to show the newly added assignments, including their configuration.
 
-!["Assignments" page updates to show the newly added assignments](/_images/image-(2388 "\"Assignments\" page updates to show the newly added assignments").png "“Assignments” page updates to show the newly added assignments")
+!["Assignments" page updates to show the newly added assignments](/_images/image-(2388Assignments "\"Assignments\" page updates to show the newly added assignments").png "“Assignments” page updates to show the newly added assignments")
 
 3. Make any of the following optional modifications to the assignment(s).
 
@@ -93,4 +93,4 @@ The **Assignments** page updates to show the newly added assignments, including 
 5.  If you are happy you have entered all of the details for the deployment correctly, click **Deploy** to deploy the app. However, we recommend you click **Next** to move to the [**Summary** ](cloud-summary-deployment-tab.md)tab, where you can verify the settings for this deployment before you deploy this app.\
 
 
-    ![Clicking "Deploy" to deploy the app](/_images/image-(2390 "Clicking \"Deploy\" to deploy the app").png "Clicking &#x22;Deploy&#x22; to deploy the app")
+    ![Clicking "Deploy" to deploy the app](/_images/image-(2390Deploy "Clicking \"Deploy\" to deploy the app").png "Clicking &#x22;Deploy&#x22; to deploy the app")

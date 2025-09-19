@@ -8,13 +8,13 @@ If a Patch My PC (PMPC) Cloud Custom App has been configured to use [Detection m
 2.  Navigate to **Apps**.\
 
 
-    ![Navigating to "Apps"](/_images/image-(2220 "Navigating to \"Apps\"").png "Navigating to “Apps”")
+    ![Navigating to "Apps"](/_images/image-(2220Apps "Navigating to \"Apps\"").png "Navigating to “Apps”")
 
 
 3.  Navigate to **All Apps**.\
 
 
-    ![Navigating to "All Apps"](/_images/image-(2221 "Navigating to \"All Apps\"").png "Navigating to “All Apps”")
+    ![Navigating to "All Apps"](/_images/image-(2221All-Apps "Navigating to \"All Apps\"").png "Navigating to “All Apps”")
 
 
 4.  Click the app if it’s shown in the results or search for it.\
@@ -26,13 +26,13 @@ If a Patch My PC (PMPC) Cloud Custom App has been configured to use [Detection m
 5.  Navigate to **Manage | Properties**.\
 
 
-    ![Navigating to "Manage | Properties"](/_images/image-(228 "Navigating to \"Manage | Properties\"").png "Navigating to “Manage | Properties”")
+    ![Navigating to "Manage | Properties"](/_images/image-(228Manage-Properties "Navigating to \"Manage | Properties\"").png "Navigating to “Manage | Properties”")
 
 
 6.  Scroll down to **Detection rules** and click **Edit**.\
 
 
-    ![Scrolling down to "Detection rules" and clicking "Edit"](/_images/image-(229 "Scrolling down to \"Detection rules\" and clicking \"Edit\"").png "Scrolling down to “Detection rules” and clicking “Edit”")
+    ![Scrolling down to "Detection rules" and clicking "Edit"](/_images/image-(229Detection-rules "Scrolling down to \"Detection rules\" and clicking \"Edit\"").png "Scrolling down to “Detection rules” and clicking “Edit”")
 
     \
     Any configured detection rules are displayed.\

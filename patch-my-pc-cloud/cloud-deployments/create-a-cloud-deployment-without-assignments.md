@@ -17,7 +17,7 @@ To create a deployment with no assignments:
     • **Update Only App -** Allows the Intune admin to add only an **Update Only** assignment from within the Intune admin center.\
 
 
-    !["App Without Assignment" sub-menu](/_images/image-(358 "\"App Without Assignment\" sub-menu").png "“App Without Assignment” sub-menu")
+    !["App Without Assignment" sub-menu](/_images/image-(358App-Without-Assignment "\"App Without Assignment\" sub-menu").png "“App Without Assignment” sub-menu")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>
@@ -38,11 +38,11 @@ To create a deployment with no assignments:
     This checkbox is checked by default, which means whenever we see any manually created assignments on Intune, when we update the app, we’ll automatically copy forward all the assignments from the previous version to the new version.\
 
 
-    !["Copy-Forward" checkbox](/_images/image-(2484 "\"Copy-Forward\" checkbox").png "“Copy-Forward” checkbox")
+    !["Copy-Forward" checkbox](/_images/image-(2484Copy-Forward "\"Copy-Forward\" checkbox").png "“Copy-Forward” checkbox")
 4.  Click **Deploy** and wait for the deployment to complete successfully.\
 
 
-    ![Clicking "Deploy"](/_images/image-(2485 "Clicking \"Deploy\"").png "Clicking “Deploy”")
+    ![Clicking "Deploy"](/_images/image-(2485Deploy "Clicking \"Deploy\"").png "Clicking “Deploy”")
 
 Once the deployment has successfully completed, if you look in the Intune admin center you will see that the app has been created without any assignments.
 

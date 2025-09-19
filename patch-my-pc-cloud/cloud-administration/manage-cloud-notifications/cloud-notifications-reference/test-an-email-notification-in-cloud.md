@@ -16,7 +16,7 @@ _Applies to: Patch My PC Cloud_
     The portal will send a test email and display the **Success - Test email has been sent** notification.\
 
 
-    !["Success - Test email has been sent" notification](/_images/image-(1923 "\"Success - Test email has been sent\" notification").png "&#x22;Success - Test email has been sent&#x22; notification")
+    !["Success - Test email has been sent" notification](/_images/image-(1923Success-Test-email-has-been-sent "\"Success - Test email has been sent\" notification").png "&#x22;Success - Test email has been sent&#x22; notification")
 
     \
     If the email address is valid, the user will receive an email address with the following details:\
@@ -41,7 +41,7 @@ _Applies to: Patch My PC Cloud_
     The portal will send a test email and display the **Success - Test email has been sent** notification.\
 
 
-    !["Success - Test email has been sent" notification](/_images/image-(1923 "\"Success - Test email has been sent\" notification").png "&#x22;Success - Test email has been sent&#x22; notification")
+    !["Success - Test email has been sent" notification](/_images/image-(1923Success-Test-email-has-been-sent "\"Success - Test email has been sent\" notification").png "&#x22;Success - Test email has been sent&#x22; notification")
 
 
 

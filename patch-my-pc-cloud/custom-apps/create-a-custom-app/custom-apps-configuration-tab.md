@@ -12,7 +12,7 @@ On the **Configuration** tab:
 <p>Also, see [Supported Variables in Publisher and PMPC Cloud](../../../patch-my-pc-product-reference/supported-variables-in-patch-my-pc-on-premises-publisher-and-cloud.md) for a list of the variables we support in this field.</p>
 </blockquote>
 
-![Configuring the "Silent Install Parameters" for this app](/_images/image-(43 "Configuring the \"Silent Install Parameters\" for this app").png "Configuring the &#x22;Silent Install Parameters&#x22; for this app")
+![Configuring the "Silent Install Parameters" for this app](/_images/image-(43Silent-Install-Parameters "Configuring the \"Silent Install Parameters\" for this app").png "Configuring the &#x22;Silent Install Parameters&#x22; for this app")
 
 2. In the **Version** field, enter the version number for this app.
 
@@ -44,7 +44,7 @@ On the **Configuration** tab:
 <p>As the **Apps & Features Name** is used to determine applicability and detection, using an overly generic name may cause Intune Updates to be detected as required on devices without the software installed.</p>
 </blockquote>
 
-![Entering the "Apps & Feature Name"](/_images/image-(44 "Entering the \"Apps & Feature Name\"").png "Entering the &#x22;Apps &#x26; Feature Name&#x22;")
+![Entering the "Apps & Feature Name"](/_images/image-(44Apps-Feature-Name "Entering the \"Apps & Feature Name\"").png "Entering the &#x22;Apps &#x26; Feature Name&#x22;")
 
 5. Configure any additional required options from those listed below.
 
@@ -79,7 +79,7 @@ The new Return Code is added to the list.
 
 11. Choose the correct **Code type** for this Return Code from the dropdown list.
 
-![Choosing the correct "Code type" from the dropdown list](/_images/image-(2628 "Choosing the correct \"Code type\" from the dropdown list").png "Choosing the correct “Code type” from the dropdown list")
+![Choosing the correct "Code type" from the dropdown list](/_images/image-(2628Code-type "Choosing the correct \"Code type\" from the dropdown list").png "Choosing the correct “Code type” from the dropdown list")
 
 12. Click the green tick to save your changes.
 
@@ -87,7 +87,7 @@ The new Return Code is added to the list.
 
 The **Code type** field is updated.
 
-!["Code type" field updated.](/_images/image-(2630 "\"Code type\" field updated.").png "“Code type” field updated.")
+!["Code type" field updated.](/_images/image-(2630Code-type." "\"Code type\" field updated.").png "“Code type” field updated.")
 
 13. If you do not want to delete a Return Code, go to Step 15.
 14. To delete a Return Code, click the red trash can beside the relevant code.

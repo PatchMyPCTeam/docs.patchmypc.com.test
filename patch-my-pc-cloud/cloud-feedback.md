@@ -8,7 +8,7 @@ To help us gather feedback, we have implemented a feedback mechanism into some w
 
 If feedback has been enabled for a workflow, the first time you complete that workflow, the **Rate Your Experience** popup is included as part of the usual notification.
 
-!["Rate Your Experience" notification](/_images/image-(2721 "\"Rate Your Experience\" notification").png "“Rate Your Experience” notification")
+!["Rate Your Experience" notification](/_images/image-(2721Rate-Your-Experience "\"Rate Your Experience\" notification").png "“Rate Your Experience” notification")
 
 Click on the relevant smiley to indicate your feelings about the workflow. Then provide your comments/feedback, and optionally check the **You can contact me regarding my feedback** checkbox.
 
@@ -18,7 +18,7 @@ Finally, click the green paper airplane icon to send your feedback.
 
 You will then see the **Thank You** notification thanking you for your feedback
 
-!["Thank You" notification](/_images/image-(2723 "\"Thank You\" notification").png "“Thank You” notification")
+!["Thank You" notification](/_images/image-(2723Thank-You "\"Thank You\" notification").png "“Thank You” notification")
 
 <blockquote class="wp-block-quote">
 <p>**Note**</p>

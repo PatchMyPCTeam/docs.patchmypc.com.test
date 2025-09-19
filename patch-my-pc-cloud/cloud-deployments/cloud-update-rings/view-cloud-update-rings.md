@@ -8,7 +8,7 @@ To view the Update Rings configured for a Patch My PC (PMPC) Cloud deployment:
 2.  Click **More Info**.\
 
 
-    ![Clicking "More Info"](/_images/image-(455 "Clicking \"More Info\"").png "Clicking “More Info”")
+    ![Clicking "More Info"](/_images/image-(455More-Info "Clicking \"More Info\"").png "Clicking “More Info”")
 
     \
     Any configured Update Rings are shown as tabs, which you can switch between to review your settings.
@@ -23,4 +23,4 @@ To view the Update Rings configured for a Patch My PC (PMPC) Cloud deployment:
 3.  Click the red **X** in the top right-hand corner to close the **More Info** page and return to the **Deployments** node.\
 
 
-    ![Clicking the red X  in the top right-hand corner to close the "More Info" page and return to the "Deployments" node](/_images/image-(457 "Clicking the red X  in the top right-hand corner to close the \"More Info\" page and return to the \"Deployments\" node").png "Clicking the red X  in the top right-hand corner to close the “More Info” page and return to the “Deployments” node")
+    ![Clicking the red X  in the top right-hand corner to close the "More Info" page and return to the "Deployments" node](/_images/image-(457More-Info "Clicking the red X  in the top right-hand corner to close the \"More Info\" page and return to the \"Deployments\" node").png "Clicking the red X  in the top right-hand corner to close the “More Info” page and return to the “Deployments” node")
