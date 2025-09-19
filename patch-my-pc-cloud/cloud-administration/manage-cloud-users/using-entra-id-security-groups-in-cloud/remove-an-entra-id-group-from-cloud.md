@@ -2,43 +2,41 @@
 
 _Applies to: Patch My PC Cloud_
 
-{% hint style="warning" %}
-**Important**
-
-When you remove an Entra ID Security Group, you are only removing that group’s access to your Patch My PC (PMPC) Cloud Company. You are not deleting the group from Entra ID.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>When you remove an Entra ID Security Group, you are only removing that group’s access to your Patch My PC (PMPC) Cloud Company. You are not deleting the group from Entra ID.</p>
+</blockquote>
 
 To remove an Entra ID Security Group from PMPC Cloud:
 
 1.  In the PMPC Cloud portal, navigate to **Settings | Users**.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (2234).png" alt="Navigating to “Settings | Users”"><figcaption></figcaption></figure>
+    ![Navigating to "Settings | Users"](/_images/image-(2234).png "Navigating to “Settings | Users”")
 
 
 2.  Click the **Entra ID Groups** tab.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (2235).png" alt="Clicking the “Entra ID Groups” tab"><figcaption></figcaption></figure>
+    ![Clicking the "Entra ID Groups" tab](/_images/image-(2235).png "Clicking the “Entra ID Groups” tab")
 
 
 3. Click the trashcan beside the relevant Entra ID Security Group you want to remove.
 
-{% hint style="warning" %}
-**Important**
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>You need to have at least one user or Entra ID Security Group assigned the **Full Admin with Access Management** user role at all times. You will be unable to delete an Entra ID Security Group assigned this role unless you have either one other user or Entra ID Security Group assigned this role.</p>
+</blockquote>
 
-You need to have at least one user or Entra ID Security Group assigned the **Full Admin with Access Management** user role at all times. You will be unable to delete an Entra ID Security Group assigned this role unless you have either one other user or Entra ID Security Group assigned this role.
-{% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/image (2236).png" alt="Clicking the trashcan beside the relevant Entra group you want to delete"><figcaption></figcaption></figure>
+![Clicking the trashcan beside the relevant Entra group you want to delete](/_images/image-(2236).png "Clicking the trashcan beside the relevant Entra group you want to delete")
 
 4. On the **Are you sure you want to delete <**_**group\_name**_**>** dialog box, click **Yes** to confirm the removal.
 
-<figure><img src="../../../../.gitbook/assets/image (2237).png" alt="Clicking “Yes” to confirm the deletion on the “Are you sure you want to delete <group_name>” dialog box" width="451"><figcaption></figcaption></figure>
+![](/_images/image-(2237).png)
 
 \
 The portal auto-refreshes to show the group has been removed and the **Success – Group deleted** notification is shown.
 
-<figure><img src="../../../../.gitbook/assets/image (2238).png" alt="Portal auto-refreshing to show the group has been removed and the “Success – Group deleted” notification is shown"><figcaption></figcaption></figure>
+![Portal auto-refreshing to show the group has been removed and the "Success – Group deleted" notification is shown](/_images/image-(2238).png "Portal auto-refreshing to show the group has been removed and the “Success – Group deleted” notification is shown")
 
 When you remove an Entra ID Security Group, the **Group Role Removed** event is written to the **Events** node.
