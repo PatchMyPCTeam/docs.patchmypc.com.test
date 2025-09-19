@@ -6,21 +6,18 @@ Once you have created a branding app in Patch My PC (PMPC) Cloud, you can modify
 
 1. Navigate to **Settings | Branding**
 
-<figure><img src="../../../.gitbook/assets/image (2411).png" alt="Navigating  to TSettings | Branding&#x22;" width="563"><figcaption></figcaption></figure>
+![Navigating  to TSettings | Branding"](/_images/image-(2411 "Navigating  to TSettings | Branding\"").png "Navigating  to TSettings | Branding&#x22;")
 
 2. Click the ellipsis (`⋮`) button beside the relevant branding app and select the action you want to perform:
    1. [Edit](modify-recreate-cloud-branding.md#edit-branding)
    2. [Recreate](modify-recreate-cloud-branding.md#recreate-branding)
 
-{% hint style="info" %}
-**Note**
-
-See [Delete Branding](delete-cloud-branding.md) for details on how to delete a branding app.
-
-You won’t be able to manage a branding app until it has been deployed successfully.
-
-Also, see [Managing Localizations](manage-localizations-in-cloud.md) for details on how to modify the localization used by a branding app.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>See [Delete Branding](delete-cloud-branding.md) for details on how to delete a branding app.</p>
+<p>You won’t be able to manage a branding app until it has been deployed successfully.</p>
+<p>Also, see [Managing Localizations](manage-localizations-in-cloud.md) for details on how to modify the localization used by a branding app.</p>
+</blockquote>
 
 ### Edit Branding
 
@@ -30,34 +27,33 @@ If you want to reset the logo used by a branding app:
 
 1. Click **Edit** on the ellipsis (`⋮`) menu.
 
-<figure><img src="../../../.gitbook/assets/image (2659).png" alt="Clicking the ellipsis (⋮) button beside the relevant branding app and selecting the action you want to perform:" width="563"><figcaption></figcaption></figure>
+![Clicking the ellipsis (⋮) button beside the relevant branding app and selecting the action you want to perform:](/_images/image-(2659 "Clicking the ellipsis (⋮) button beside the relevant branding app and selecting the action you want to perform:").png "Clicking the ellipsis (⋮) button beside the relevant branding app and selecting the action you want to perform:")
 
 2. In the **Company Logo** area, click **Use Default**.
 
-<figure><img src="../../../.gitbook/assets/image (2413).png" alt="Clicking &#x22;Use Default&#x22; in the &#x22;Company Logo&#x22; area" width="563"><figcaption></figcaption></figure>
+![Clicking "Use Default" in the "Company Logo" area](/_images/image-(2413 "Clicking \"Use Default\" in the \"Company Logo\" area").png "Clicking &#x22;Use Default&#x22; in the &#x22;Company Logo&#x22; area")
 
 The **Branding** page resets just the logo to the default for this branding app.
 
-<figure><img src="../../../.gitbook/assets/image (2414).png" alt="Branding logo reset" width="563"><figcaption></figcaption></figure>
+![Branding logo reset](/_images/image-(2414 "Branding logo reset").png "Branding logo reset")
 
 3. Make any other required changes.
 4. Click **Save** to save your changes to Intune, which will deploy the modified version to all of the resources this branding app is assigned to.
 
-<figure><img src="../../../.gitbook/assets/image (2415).png" alt="Clicking &#x22;Save&#x22; to save your changes" width="563"><figcaption></figcaption></figure>
+![Clicking "Save" to save your changes](/_images/image-(2415 "Clicking \"Save\" to save your changes").png "Clicking &#x22;Save&#x22; to save your changes")
 
 The **Success - Branding updated** notification is shown.
 
-<figure><img src="../../../.gitbook/assets/image (2680).png" alt="&#x22;Success - Branding updated&#x22; notification" width="563"><figcaption></figcaption></figure>
+!["Success - Branding updated" notification](/_images/image-(2680 "\"Success - Branding updated\" notification").png "&#x22;Success - Branding updated&#x22; notification")
 
 Once your branding app has been updated with the default PMPC logo, the **Status** and **Last Update** fields will be updated to show when this branding app was last updated.
 
-<figure><img src="../../../.gitbook/assets/image (2681).png" alt="&#x22;Status&#x22; and &#x22;Last Update&#x22; fields updated to show when this branding app was last updated" width="563"><figcaption></figcaption></figure>
+!["Status" and "Last Update" fields updated to show when this branding app was last updated](/_images/image-(2681 "\"Status\" and \"Last Update\" fields updated to show when this branding app was last updated").png "&#x22;Status&#x22; and &#x22;Last Update&#x22; fields updated to show when this branding app was last updated")
 
-{% hint style="success" %}
-**Tip**
-
-If you look in the **Events** section, you see a message stating the branding app was updated.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>If you look in the **Events** section, you see a message stating the branding app was updated.</p>
+</blockquote>
 
 5. The branding app will be automatically updated on all of the assigned resources. There is no need for you to [Recreate Branding](modify-recreate-cloud-branding.md#recreate-branding) as in previous versions..
 
@@ -65,32 +61,30 @@ If you look in the **Events** section, you see a message stating the branding ap
 
 The **Recreate** function allows you to delete and recreate a branding app in Intune if you detect an issue with it.
 
-{% hint style="danger" %}
-**Important**
-
-You can only recreate branding apps that have either been deployed successfully or have failed.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Important**</p>
+<p>You can only recreate branding apps that have either been deployed successfully or have failed.</p>
+</blockquote>
 
 To recreate branding:
 
 1. Click **Recreate** on the ellipsis (`⋮`) menu.
 
-<figure><img src="../../../.gitbook/assets/image (2682).png" alt="Clicking &#x22;Recreate&#x22; on the ellipsis (⋮) menu" width="563"><figcaption></figcaption></figure>
+![Clicking "Recreate" on the ellipsis (⋮) menu](/_images/image-(2682 "Clicking \"Recreate\" on the ellipsis (⋮) menu").png "Clicking &#x22;Recreate&#x22; on the ellipsis (⋮) menu")
 
 2. On the **Are you sure you want to recreate <**_**branding\_app\_name**_**>** dialog box click **Yes**.
 
-<figure><img src="../../../.gitbook/assets/image (2503).png" alt="Clicking &#x22;Yes&#x22;" width="287"><figcaption></figcaption></figure>
+![Clicking "Yes"](/_images/image-(2503 "Clicking \"Yes\"").png "Clicking &#x22;Yes&#x22;")
 
 The **Success - Recreating the branding <**_**branding\_app\_name**_**>** notification is shown.
 
-<figure><img src="../../../.gitbook/assets/image (2683).png" alt="&#x22;Success - Recreating the branding <branding_app_name>&#x22; notification" width="563"><figcaption></figcaption></figure>
+![](/_images/image-(2683).png)
 
 Once the branding app has been recreated, the **Status** and **Last update** fields update to show when this branding app was last modified.
 
-<figure><img src="../../../.gitbook/assets/image (2684).png" alt="&#x22;Status&#x22; and &#x22;Last update&#x22; fields updated to show when this branding app was last modified" width="563"><figcaption></figcaption></figure>
+!["Status" and "Last update" fields updated to show when this branding app was last modified](/_images/image-(2684 "\"Status\" and \"Last update\" fields updated to show when this branding app was last modified").png "&#x22;Status&#x22; and &#x22;Last update&#x22; fields updated to show when this branding app was last modified")
 
-{% hint style="success" %}
-**Tip**
-
-If you look in the **Events** node, you see a message stating the branding app was recreated
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Tip**</p>
+<p>If you look in the **Events** node, you see a message stating the branding app was recreated</p>
+</blockquote>
