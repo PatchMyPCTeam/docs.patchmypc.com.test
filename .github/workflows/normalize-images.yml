@@ -139,30 +139,37 @@ jobs:
           IMG_EXT = r"(?:png|jpe?g|gif|webp|svg|gifv)"
           
           def clean_filename_from_url(url: str) -> str:
-            if not url:                      # None or empty → don't crash
-              return "unknown.png"         # stays validator-safe (no spaces)
+            if not url:
+              return "unknown.png"  # safety
+        
+            # Trim noise that can leak from <...> wrappers and empty titles
             url = url.strip().rstrip('>')
             url = re.sub(r'\s*""', '', url)
-
-          def clean_filename_from_url(url: str) -> str:
-              # Trim noise that can leak from <...> wrappers and empty titles
-              url = url.strip().rstrip('>')
-              url = re.sub(r'\s*""', '', url)
-
-              # pick the last filename-looking token with an image extension
-              m = re.findall(rf'([^/?#]+?\.{IMG_EXT})', url, flags=re.I)
-              bn = m[-1] if m else os.path.basename(url)
-              bn = unquote(bn)
-              if "." in bn:
-                  base, ext = bn.rsplit(".", 1)
-              else:
-                  base, ext = bn, ""
-              # spaces -> dash; keep (), -, _
-              base = re.sub(r"\s+", "-", base)
-              base = re.sub(r"[^A-Za-z0-9\-\_\(\)]", "-", base)
-              base = re.sub(r"-{2,}", "-", base).strip("-")
-              return f"{base}.{ext.lower()}" if ext else base
-
+        
+            # pick the last filename-looking token with an image extension
+            m = re.findall(rf'([^/?#]+?\.{IMG_EXT})', url, flags=re.I)
+            bn = m[-1] if m else os.path.basename(url)
+            bn = unquote(bn)
+        
+            # split into base + ext
+            if "." in bn:
+              base, ext = bn.rsplit(".", 1)
+            else:
+              base, ext = bn, ""
+        
+            # --- NEW: if a quoted fragment got appended before the extension,
+            #           drop everything from the first quote to the end.
+            #           e.g.  image-(766 "Clicking …").png  ->  image-(766)
+            base = re.sub(r'["“”].*$', '', base).strip()
+        
+            # normalize: spaces -> dash; keep (), -, _
+            base = re.sub(r"\s+", "-", base)
+            base = re.sub(r"[^A-Za-z0-9_\-()]", "-", base)
+            base = re.sub(r"-{2,}", "-", base).strip("-")
+        
+            return f"{base}.{ext.lower()}" if ext else base
+    
+    
           def to_root_image_url(url: str) -> str:
               return "/_images/" + clean_filename_from_url(url)
 
