@@ -89,10 +89,10 @@ jobs:
               # Split ext first so we can sanitize the base safely.
               base, ext = os.path.splitext(name)
 
-              # Drop any space+quoted fragment that leaked into the base
-              # e.g.  image-(766 "Clicking …")  ->  image-(766)
-              base = re.sub(r'\s+"[^"]*"\s*$', '', base)
-              # Also, if any stray opening quote exists in the tail, cut from it
+              # Remove any space+quoted fragment (handles escaped quotes too)
+              # e.g.  image-(766 "Clicking \"…\"")  ->  image-(766)
+              base = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', base)
+              # Safety net: cut from the first raw quote if anything remains
               base = re.sub(r'["“”].*$', '', base)
 
               # Normalize whitespace/symbols
@@ -170,10 +170,11 @@ jobs:
             else:
               base, ext = bn, ""
 
-            # Remove any space+quoted fragment that leaked into the base
-            # e.g.  image-(766 "Clicking …")  ->  image-(766)
-            base = re.sub(r'\s+"[^"]*"\s*', '', base)
-            # Also cut from any first quote onward as a safety net
+            # Remove any space+quoted fragment anywhere in the base (escaped quotes supported)
+            # e.g.  image-(766 "Clicking \"…\"")  ->  image-(766)
+            base = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', base)
+            
+            # Safety net: if any raw quote slipped through, cut from it
             base = re.sub(r'["“”].*$', '', base)
 
             # Keep balanced trailing ')' if present in original base
@@ -281,7 +282,7 @@ jobs:
                 if extm:
                   inner = inner[:extm.end()]
                 # Remove any embedded space+"…"
-                inner = re.sub(r'\s+"[^"]*"\s*', '', inner)
+                inner = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', inner)
                 return build_md(alt, inner)
               s = md_img_any.sub(_sanitize_md_img, s)
 
