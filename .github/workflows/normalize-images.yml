@@ -221,14 +221,18 @@ jobs:
 
           # Sanitize ANY Markdown image (even ones already pointing to /_images)
           md_img_any = re.compile(
-              r'!\[([^\]]*)\]'
-              r'\('
-              r'\s*<?'
-              r'([^)\r\n]+?)'         # group 2: raw URL (we will clean it)
-              r'>?'
-              r'(?:\s+"[^"]*")?'
-              r'\s*\)',
-              re.I
+            r'!\[([^\]]*)\]'                # alt
+            r'\('
+            r'\s*<?'
+            r'(?:'                          # EITHER a quoted URL...
+            r'"([^"]+)"'                #   group 2 = quoted URL
+            r'|'                          # OR an unquoted URL without spaces
+            r'([^\s)<>]+)'              #   group 3 = unquoted URL
+            r')'
+            r'>?'                           # optional '>'
+            r'(?:\s+"[^"]*")?'              # optional "title"
+            r'\s*\)',
+            re.I
           )
 
           # Reference usage and definition (loose)
