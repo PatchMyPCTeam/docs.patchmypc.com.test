@@ -13,24 +13,26 @@ See [Updating a Custom App](update-a-custom-app.md) for details on how to update
 To modify a Custom App:
 
 1. Sign in to the PMPC portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
-2.  On the **App Catalog** page, search for the relevant app.\\
+2.  On the **App Catalog** page, search for the relevant app.\
 
-    !\[]\(/\_images/image-(2015 "").png "")
+
+    <figure><img src="../../.gitbook/assets/image (2015).png" alt="Searching for your Custom App" width="563"><figcaption></figcaption></figure>
 3. Click the app to open it.
-4.  On the app’s properties page, click **Edit Info**.\\
+4.  On the app’s properties page, click **Edit Info**.\
 
-    !\[]\(/\_images/image-(2016 "").png "")
+
+    <figure><img src="../../.gitbook/assets/image (2016).png" alt="Clicking “Edit Info”" width="563"><figcaption></figcaption></figure>
 
 The Custom Apps **Edit Application** Wizard starts.
 
-!\[]\(/\_images/image-(2633 "").png "")
+<figure><img src="../../.gitbook/assets/image (2633).png" alt="Custom Apps “Edit Application” Wizard" width="563"><figcaption></figcaption></figure>
 
 5. Make the required changes on the relevant tabs, then click **Save**.
 
-!\[]\(/\_images/image-(2634 "").png "")
+<figure><img src="../../.gitbook/assets/image (2634).png" alt="Clicking “Save”" width="563"><figcaption></figcaption></figure>
 
 The App Catalog is displayed along with the following notification:\
 \
 **Success – Your application has been successfully edited**
 
-!\[]\(/\_images/image-(2019 "").png "")
+<figure><img src="../../.gitbook/assets/image (2019).png" alt="“Success – Your application has been successfully edited” notification" width="563"><figcaption></figcaption></figure>

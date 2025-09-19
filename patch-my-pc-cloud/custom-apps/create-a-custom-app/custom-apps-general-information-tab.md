@@ -11,10 +11,13 @@ The **General Information** tab is where you configure the basic information for
     1. Click **Upload Icon** to upload a suitable file (png, jpg or jpeg) to use as the icon for this app.
     2. Drag and drop the image file onto this page.
 
-    !\[]\(/\_images/image-(215 "").png "")
-2.  In the **App Name** field, enter a unique name for the app.\\
+    <figure><img src="../../../.gitbook/assets/image (215).png" alt="Clicking “Upload Icon”"><figcaption></figcaption></figure>
 
-    !\[]\(/\_images/image-(216 "").png "")
+
+2.  In the **App Name** field, enter a unique name for the app.\
+
+
+    <figure><img src="../../../.gitbook/assets/image (216).png" alt="Entering a unique name in the “App Name” field"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**
@@ -22,9 +25,10 @@ The **General Information** tab is where you configure the basic information for
 Avoid specifying the version number in this field, as this field does not get updated whenever you add a new version
 {% endhint %}
 
-3.  In the **Vendor** field, either select an existing entry from the dropdown or enter the required name.\\
+3.  In the **Vendor** field, either select an existing entry from the dropdown or enter the required name.\
 
-    !\[]\(/\_images/image-(217 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (217).png" alt="Entering a vendor name"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -32,9 +36,13 @@ Avoid specifying the version number in this field, as this field does not get up
 If the vendor is new to your portal, you will see the **Success – The vendor <**_**vendor\_name**_**> has been created** notification. The next time you add an app, this vendor will appear in the **Vendor** dropdown.
 {% endhint %}
 
-4.  In the **Description** field, enter a description of the app.\\
+4.  In the **Description** field, enter a description of the app.\
 
-    !\[]\(/\_images/image-(218 "").png "")
-5.  Enter any optional internal notes, then click **Next** to move to the [Configuration ](custom-apps-configuration-tab.md)tab.\\
 
-    !\[]\(/\_images/image-(219 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (218).png" alt="Entering a description"><figcaption></figcaption></figure>
+
+
+5.  Enter any optional internal notes, then click **Next** to move to the [Configuration ](custom-apps-configuration-tab.md)tab.\
+
+
+    <figure><img src="../../../.gitbook/assets/image (219).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Configuration&#x22; page"><figcaption></figcaption></figure>

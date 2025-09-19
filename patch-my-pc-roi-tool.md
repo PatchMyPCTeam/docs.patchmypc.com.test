@@ -16,7 +16,7 @@ The Patch My PC Return on Investment (ROI) tool helps identify the products supp
 At this time, the ROI Tool does not support Intune scanning for GCC High and DoD tenants
 {% endhint %}
 
-!\[]\(/\_images/image-(1278 "").png "")
+<figure><img src=".gitbook/assets/image (1278).png" alt=""><figcaption></figcaption></figure>
 
 ## Download
 
@@ -38,11 +38,11 @@ All of your data remains in your environment and is not shared with anyone, incl
 
 When you choose **Scan Intune**, you will be prompted to approve an Enterprise Application (see [#what-permissions-are-required](patch-my-pc-roi-tool.md#what-permissions-are-required "mention") for more information.)
 
-This uses **delegated permissions**; the Patch My PC ROI tool does not harvest any of your Intune data, and it is not stored anywhere other than in your tenant. It simply allows the tool to connect to your Intune tenant on your behalf.
+This uses **delegated permissions**; the Patch My PC ROI tool does not harvest any of your Intune data, and it is not stored anywhere other than in your tenant. It simply allows the tool to connect to your Intune tenant on your behalf.&#x20;
 
 After logging in, it then uses Microsoft's Graph API to retrieve the same inventory data displayed in the **Discovered Apps** report within the Intune console.
 
-You read more about Intune's Discovered Apps software inventory here:
+You read more about Intune's Discovered Apps software inventory here:&#x20;
 
 {% embed url="https://learn.microsoft.com/en-us/mem/intune/apps/app-discovered-apps" %}
 Intune discovered apps
@@ -68,13 +68,13 @@ When you choose **Scan ConfigMgr**, the tool queries the below local WMI classes
 
 Assuming the permissions required below are satisfied, running the tool will allow the user to click on the Scan Intune or Scan ConfigMgr buttons:
 
-![](<.gitbook/assets/ROITool (1).gif>)
+<figure><img src=".gitbook/assets/ROITool.gif" alt=""><figcaption><p>The ROI Tool Scanning Configuration Manager</p></figcaption></figure>
 
 The interface will update dynamically as the tool runs, showing progress as it scans all inventory. In testing the tool requires around 1 minute for every 5,000 clients.
 
 The Your Apps tile shows the number of applications in your environment which have been found in the Patch My PC current catalog. This is the number of apps which Patch My PC could provide management of in your environment today.
 
-The Annual Quote tile shows the list price of the license version selected, this can be Enterprise Premium (default) or Enterprise Plus.
+The Annual Quote tile shows the list price of the license version selected, this can be Enterprise Premium (default) or Enterprise Plus.&#x20;
 
 The Annual Hours and Annual Cost savings tiles show an estimate of the impact of using Patch My PC to handle your application updates over a manual approach. The parameters used to create these estimates can be edited in the bottom right section of the tool to reflect your cost and experience.
 
@@ -91,7 +91,7 @@ This section will detail what permissions are required to run the ROI tool in yo
 
 To scan Intune you must accept the application's request to read your Intune data. The account approving the request must have at least the "**Application Administrator"** role in azure. The Tool's access to this data will only persist for as long as you keep your session open (1 hour max).
 
-!\[]\(/\_images/image-(1281 "").png "")
+<figure><img src=".gitbook/assets/image (1281).png" alt=""><figcaption><p>App registration approval request</p></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -111,10 +111,11 @@ You can click the down arrow beside each permission to get more information.
 
 Once the app registration is approved, subsequent executions will ask for a run-as account only. This account requires, as a minimum, Intune **DeviceManagementManagedDevices.Read.All** rights.
 
-!\[]\(/\_images/image-(1279 "").png "")
+<figure><img src=".gitbook/assets/image (1279).png" alt=""><figcaption><p>Executing the ROI tool once the app registration is complete</p></figcaption></figure>
 
 ### Configuration Manager
 
 * **Read-only Analyst**
 
 To scan Configuration Manager the tool **must be run on your SMS Provider Server.** By default, this will be your primary site or CAS. The account running the tool must have at least the **"Read-only Analyst"** role in Configuration Manager.
+

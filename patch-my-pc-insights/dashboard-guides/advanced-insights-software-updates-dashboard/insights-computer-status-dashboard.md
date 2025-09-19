@@ -2,6 +2,6 @@
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-!\[]\(/\_images/image-(309 "").png "")
+<figure><img src="../../../.gitbook/assets/image (309).png" alt=""><figcaption><p>Software Update Deployment State per Computer</p></figcaption></figure>
 
 In this dashboard you can see the last installation status for deployed software updates for computers needing the update.

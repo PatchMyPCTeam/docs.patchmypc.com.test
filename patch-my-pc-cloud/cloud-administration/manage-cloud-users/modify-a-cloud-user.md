@@ -15,14 +15,16 @@ To modify the role assigned to a user:
 2.  In the **Roles** column, click the down arrow and select the relevant role you want to assign to the user.\
     \
     For example, to change the user’s current role from **Full Admin** to **Custom App Admin**, click the down arrow beside the current role, then choose **Custom App Admin**.\
-    \\
+    \
 
-    !\[]\(/\_images/image-(2118 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2118).png" alt="Selecting the required user role from the list of roles dropdown"><figcaption></figcaption></figure>
 
     \
-    The role for the user will be updated and the **Success - Role changed** notification is displayed.\\
+    The role for the user will be updated and the **Success - Role changed** notification is displayed.\
 
-    !\[]\(/\_images/image-(1648 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (1648).png" alt="“Success - Role changed” notification"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -35,14 +37,16 @@ See [User Roles](cloud-user-roles-reference.md) for more information on the user
 To manage whether a user is granted the **Access Management** privilege:
 
 1. Navigate to the **Users** area.
-2.  In the **Roles** column, slide the **Access Management** slider to the right for the user you want to grant this permission.\\
+2.  In the **Roles** column, slide the **Access Management** slider to the right for the user you want to grant this permission.\
 
-    !\[]\(/\_images/image-(1649 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (1649).png" alt="Using the slider to grant “Access Management” privileges"><figcaption></figcaption></figure>
 
     \
-    The **Success - Role changed** notification is displayed.\\
+    The **Success - Role changed** notification is displayed.\
 
-    !\[]\(/\_images/image-(1650 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (1650).png" alt="The “Success - Role changed&#x22; notification"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -51,7 +55,7 @@ To revoke this privilege, slide the **Access Management** slider to the left. If
 
 If you try revoking it for yourself and there is at least one other user account with this privilege, you will see the following dialog box warning you that if you revoke access management you will be unable to manage user accounts in the portal.
 
-<img src="../../../.gitbook/assets/image (1759).png" alt="&#x22;Are you sure you want to revoke access management from your account&#x22; pop up" data-size="original">
+!["Are you sure you want to revoke access management from your account" pop up](<../../../.gitbook/assets/image (1759).png>)&#x20;
 {% endhint %}
 
 {% hint style="warning" %}

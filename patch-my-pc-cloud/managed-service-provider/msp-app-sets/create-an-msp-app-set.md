@@ -26,17 +26,20 @@ Adopting this approach reduces the impact of working with App Sets on your infra
 To define which apps to include in the App Set:
 
 1. Sign in to the parent MSP Company at [https://portal.patchmypc.com/](https://portal.patchmypc.com/)
-2.  Navigate to **App Sets**\\
+2.  Navigate to **App Sets**\
 
-    !\[]\(/\_images/image-(2546 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2546).png" alt="Navigating to “App Sets”" width="563"><figcaption></figcaption></figure>
 
     \
-    The **App Sets** page shows any existing App Sets.\\
+    The **App Sets** page shows any existing App Sets.\
 
-    !\[]\(/\_images/image-(2548 "").png "")
-3.  Click **Add App Set**\\
 
-    !\[]\(/\_images/image-(2549 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (2548).png" alt="“App Sets” page showing an existing App Sets" width="563"><figcaption></figcaption></figure>
+3.  Click **Add App Set**\
+
+
+    <figure><img src="../../../.gitbook/assets/image (2549).png" alt="Clicking “Add App Set”" width="563"><figcaption></figcaption></figure>
 4. On the **Add App Set** screen, enter a unique name for the new App Set in the **App Set Name** field and click **Add**\
    \
    ![Specifying the name for the new App Set](<../../../.gitbook/assets/image (2551).png>)\
@@ -49,7 +52,7 @@ To define which apps to include in the App Set:
 You can click **Edit Name** beside the App Set name if you want to rename it.
 {% endhint %}
 
-!\[]\(/\_images/image-(2552 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2552).png" alt="App Set name screen" width="563"><figcaption></figcaption></figure>
 
 5. To add an application to this App Set, click **Add Application**
 
@@ -61,7 +64,7 @@ You can add up to 100 apps per App Set, but each app can only be added to an App
 You can also add an [MSP Custom App](../msp-custom-apps/) to an App Set, provided that app has been created and assigned to all customers.
 {% endhint %}
 
-!\[]\(/\_images/image-(2553 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2553).png" alt="Clicking “Add Application” to add an application to this App Set" width="563"><figcaption></figcaption></figure>
 
 6. On the **General Information** page, select the relevant app you want to add from the **Select Application** dropdown or start typing its name.
 
@@ -73,9 +76,10 @@ Only apps that have been deployed successfully will appear in the **Select Appli
 An MSP Custom App will only appear in the **Select Application** dropdown if it has been added and assigned to all customers. If the Custom App has only been assigned to a specific customer or only to the MSP, it will not appear in the dropdown.
 {% endhint %}
 
-!\[]\(/\_images/image-(2554 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2554).png" alt="Selecting the relevant app you want to add from the “Select Application” dropdown" width="506"><figcaption></figcaption></figure>
 
-7.  In the **Display Name** field, we suggest you add the name of the App Set as a suffix.\\
+7.  In the **Display Name** field, we suggest you add the name of the App Set as a suffix.\
+
 
     For example, if the App Set’s name is **Core Apps** and you are deploying Adobe Acrobat Pro, we recommend changing the **Display Name** from just **Adobe Acrobat Pro** to **Adobe Acrobat Pro – Core Apps**.
 
@@ -91,7 +95,7 @@ So in our Acrobat example, the default deployment name would be something like:
 This is potentially confusing as you won’t know which deployment belongs to which App Set. We are working on improving this.
 {% endhint %}
 
-!\[]\(/\_images/image-(2555 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2555).png" alt="Modifying the “Display Name” to include the App Set’s suffix" width="509"><figcaption></figcaption></figure>
 
 8. Modify any other settings on the **General Information** page as required, then click **Next**
 
@@ -101,7 +105,7 @@ This is potentially confusing as you won’t know which deployment belongs to wh
 In the current release, this page contains a subset of the options for creating a regular PMPC Cloud Deployment. See [General Information (Deployments)](../../cloud-deployments/deploying-an-app-using-cloud/cloud-general-information-deployment-tab.md) for more details on each option.
 {% endhint %}
 
-!\[]\(/\_images/image-(2556 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2556).png" alt="Clicking “Next” on the “General information” page." width="509"><figcaption></figcaption></figure>
 
 9. On the **Configurations** page, configure the required options, then click **Next**.
 
@@ -111,7 +115,7 @@ In the current release, this page contains a subset of the options for creating 
 In the current release, this page contains a subset of the options for creating a regular PMPC Cloud Deployment. See [Configurations (Deployments)](../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/) for more details on each option.
 {% endhint %}
 
-!\[]\(/\_images/image-(2557 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2557).png" alt="Configuring any required options on the “Configurations” page" width="507"><figcaption></figcaption></figure>
 
 10. On the **Assignment Type** page, select which assignment type(s) you want to apply to this App Set, then click **Save** to save your changes.
 
@@ -123,7 +127,7 @@ As this is an App Set, only certain assignment types are supported compared to a
 Selecting the **Update Only** type (if available) will create an Update Only app in Intune alongside the Available or Required type selected.
 {% endhint %}
 
-!\[]\(/\_images/image-(2558 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2558).png" alt="Selecting the assignment type for this app and clicking “Save”" width="502"><figcaption></figcaption></figure>
 
 11. Repeat steps 5 to 10 to add any additional apps to the App Set.
 
@@ -133,9 +137,10 @@ Once you have added the required apps, next you need to define where to deploy t
 
 To define where to deploy an App Set:
 
-1.  Click the **Assignments** tab.\\
+1.  Click the **Assignments** tab.\
 
-    !\[]\(/\_images/image-(114 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (114).png" alt="Clicking the “Assignments” tab" width="563"><figcaption></figcaption></figure>
 2. If you don’t want to use Update Rings, go to step 4.
 3. Click **Enable Update Rings** and [configure them](../../cloud-deployments/cloud-update-rings/create-update-rings-in-cloud.md) as required.
 
@@ -149,12 +154,13 @@ You can add multiple companies to an App Set and to the same set of Update Rings
 A child customer also doesn’t need to be present in all rings. For example, if you create four Update Rings for an App Set, but a child customer only requires two rings, you only need to add that child customer to the two relevant rings. On the child customer side, only the rings they are part of will be created in the child company, not all four rings defined in the App Set.
 {% endhint %}
 
-!\[]\(/\_images/image-(115 "").png "")
+<figure><img src="../../../.gitbook/assets/image (115).png" alt="Clicking “Enable Update Rings”" width="563"><figcaption></figcaption></figure>
 
 4.  Click **Add Assignment**\
-    \\
+    \
 
-    !\[]\(/\_images/image-(116 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (116).png" alt="Clicking “Add Assignment”" width="563"><figcaption></figcaption></figure>
 5. Select the relevant company that has an Intune connection that you want to assign this deployment to and click **Next**
 
 {% hint style="info" %}
@@ -163,11 +169,11 @@ A child customer also doesn’t need to be present in all rings. For example, if
 You can only select a single company at a time (up to a maximum of 100), as every company’s Entra ID setup in terms of resources will be different.
 {% endhint %}
 
-!\[]\(/\_images/image-(118 "").png "")
+<figure><img src="../../../.gitbook/assets/image (118).png" alt="Selecting the relevant company to assign this deployment to." width="466"><figcaption></figcaption></figure>
 
 6. On the **Assignments** tab, select the relevant resources you want to deploy this app to and click **Save**.
 
-!\[]\(/\_images/image-(119 "").png "")
+<figure><img src="../../../.gitbook/assets/image (119).png" alt="Selecting the relevant resources for this assignment" width="460"><figcaption></figcaption></figure>
 
 7. Repeat steps 4 to 6 to add any additional companies you want to deploy this App Set to.
 8. On the **App Set** page, configure any required settings for the assignments.
@@ -178,11 +184,12 @@ You can only select a single company at a time (up to a maximum of 100), as ever
 If you are using Update Rings for this App Set, we recommend you create all of the assignments first, which adds all of them to the first Update Ring. Then drag and drop the assignments to the relevant rings.
 {% endhint %}
 
-!\[]\(/\_images/image-(120 "").png "")
+<figure><img src="../../../.gitbook/assets/image (120).png" alt="Configuring any required settings for the assignments" width="563"><figcaption></figcaption></figure>
 
-9.  Click **Deploy** to deploy this App Set.\\
+9.  Click **Deploy** to deploy this App Set.\
 
-    !\[]\(/\_images/image-(122 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (122).png" alt="Clicking “Deploy” to deploy this App Set" width="563"><figcaption></figcaption></figure>
 
 The **App Sets** page is redisplayed along with the **Success – App Set created** notification. The newly created App Set will show a Status of **In Progress**, followed by **Success** once all the deployments within the App Set have been completed successfully.
 
@@ -192,14 +199,14 @@ The **App Sets** page is redisplayed along with the **Success – App Set create
 The **Status** will show as **Failed** if one or more of the deployments fails.
 {% endhint %}
 
-!\[]\(/\_images/image-(123 "").png "")
+<figure><img src="../../../.gitbook/assets/image (123).png" alt="“App Sets” showing the newly created deployment" width="563"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**
 
 You and the admins at the child company can monitor the status of each individual deployment from the **Deployments** node of the targeted company.
 
-<img src="../../../.gitbook/assets/image (124).png" alt="App Set deployment when viewed from the child company" data-size="original">
+![App Set deployment when viewed from the child company](<../../../.gitbook/assets/image (124).png>)
 {% endhint %}
 
 {% hint style="danger" %}
@@ -210,7 +217,7 @@ You cannot **Edit** or **Delete** a deployment from the **Deployments** node if 
 
 Once the App Set has been deployed successfully, it will show a **Status** of **Success** on the **App Sets** page.
 
-!\[]\(/\_images/image-(125 "").png "")
+<figure><img src="../../../.gitbook/assets/image (125).png" alt="App Set showing with a status of “Success”" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**

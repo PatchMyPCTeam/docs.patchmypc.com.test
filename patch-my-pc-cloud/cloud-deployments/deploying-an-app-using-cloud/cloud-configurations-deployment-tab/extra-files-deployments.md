@@ -14,11 +14,11 @@ To add extra folders and/or files:
 
 1. Click the **Extra Files** tool to expose the configurable settings.
 
-!\[]\(/\_images/image-(82 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (82).png" alt="Clicking the &#x22;Extra Files&#x22; tool" width="563"><figcaption></figcaption></figure>
 
 2. Scroll down to the end of the **Extra Files** section so that the buttons and their subtext are visible.
 
-!\[]\(/\_images/image-(83 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (83).png" alt="Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible" width="563"><figcaption></figcaption></figure>
 
 3. Either:
    1. Drag and drop the relevant folders or files to the relevant area.
@@ -35,23 +35,24 @@ We support uploading files with the same name, provided they are in different fo
 {% endhint %}
 
 4.  Click **Upload** when your browser prompts you to upload the content.\
-    \\
+    \
 
-    !\[]\(/\_images/image-(146 "").png "")
+
+    <figure><img src="../../../../.gitbook/assets/image (146).png" alt="Clicking &#x22;Upload&#x22; when prompted to upload the content"><figcaption></figcaption></figure>
 
     \
     The hash will be calculated for any folders/files you upload, which will appear at the bottom of the **Extra Files** section.
 
-!\[]\(/\_images/image-(84 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (84).png" alt="Additional folders/files to be uploaded appearing at the bottom of the “Extra Files” section" width="438"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
 
-The total number of extra folders/files is not limited, but their total size must not exceed the storage limits for your license type. See [Product Limitations](../../../cloud-product-limits.md) for more details.
+The total number of extra folders/files is not limited, but their total size must not exceed the storage limits for your license type. See [Product Limitations](../../../cloud-product-limits.md)  for more details.
 
 Also, if the **Installer Type** on the **General Information** page is set to **`.msi`**, the **MST File** section will be shown, allowing you to upload a single MST file. This file must have the **`.mst`** extension.
 
-<img src="../../../../.gitbook/assets/image (241).png" alt="“MST Files” section" data-size="original">
+![“MST Files” section](<../../../../.gitbook/assets/image (241).png>)
 
 Uploading a **`.mst`** file automatically adds the following to the **Additional Argument** field of the **Install Parameters** section:
 
@@ -59,7 +60,7 @@ Uploading a **`.mst`** file automatically adds the following to the **Additional
 
 where **`<`**_**`mstfile>`**_ is the name of the uploaded MST file.
 
-<img src="../../../../.gitbook/assets/image (243).png" alt="“Install Parameters” section updated" data-size="original">
+![“Install Parameters” section updated](<../../../../.gitbook/assets/image (243).png>)
 {% endhint %}
 
 5. Repeat the above steps to add any additional folders/files as required.
@@ -74,7 +75,7 @@ Once a deployment has been successfully created, you can add or remove any addit
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-!\[]\(/\_images/image-(85 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (85).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**

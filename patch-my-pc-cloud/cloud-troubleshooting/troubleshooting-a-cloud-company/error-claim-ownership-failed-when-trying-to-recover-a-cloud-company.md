@@ -12,7 +12,7 @@ I have tried running through the [Recover Your Company](../../cloud-administrati
 
 **Claim Ownership Failed**
 
-!\[]\(/\_images/image-(1959 "").png "")
+<figure><img src="../../../.gitbook/assets/image (1959).png" alt="“Error - Claim Ownership Failed”"><figcaption></figcaption></figure>
 
 ### CAUSE
 

@@ -12,9 +12,10 @@ There are two ways to grant access:
 All user account-related tasks are performed from the **Users** node of the PMPC portal, which is accessed by:
 
 1. Sign in to the PMPC portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/)
-2.  Navigate to **Settings | Users**.\\
+2.  Navigate to  **Settings | Users**.\
 
-    !\[]\(/\_images/image-(286 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (286).png" alt="Navigating to “Settings | Users”"><figcaption></figcaption></figure>
 
 The **Users** page is then displayed, allowing you to complete the following tasks:
 
@@ -22,7 +23,7 @@ The **Users** page is then displayed, allowing you to complete the following tas
 * [Modify a User](modify-a-cloud-user.md)
 * [Delete a User](delete-a-cloud-user.md)
 
-!\[]\(/\_images/image-(287 "").png "")
+<figure><img src="../../../.gitbook/assets/image (287).png" alt="“Users” page"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**

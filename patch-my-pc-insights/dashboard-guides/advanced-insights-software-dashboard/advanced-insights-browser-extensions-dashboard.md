@@ -7,9 +7,9 @@ description: Installed Web Browser Extensions
 _Applies to: Patch My PC Advanced Insights_
 
 {% hint style="info" %}
-The Web Browser Extensions data on this page requires the deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
+The Web Browser Extensions data on this page requires the deployment of the  [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
 {% endhint %}
 
-!\[]\(/\_images/image-(2161 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2161).png" alt=""><figcaption><p>Installed Web Browsers Extensions</p></figcaption></figure>
 
 All the information on this page are the web browsers extensions installed in the web different browsers.

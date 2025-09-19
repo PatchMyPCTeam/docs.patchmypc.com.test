@@ -2,7 +2,7 @@
 
 _Applies to: On-premises Publisher_
 
-This article covers integrating the Patch My PC Publisher with your **Intune tenant**. We will go over creating an **app registration** in your **Azure AD** environment and configuring the Graph API permissions required for the Publisher to automatically create, update and assign **Win32 applications** in your Intune tenant; as well as configuring the tenant authority, application ID and application secret within the Publisher.
+This article covers integrating the Patch My PC Publisher with your **Intune tenant**.  We will go over creating an **app registration** in your **Azure AD** environment and configuring the Graph API permissions required for the Publisher to automatically create, update and assign **Win32 applications** in your Intune tenant; as well as configuring the tenant authority, application ID and application secret within the Publisher.
 
 **Topics** covered in this article:
 
@@ -22,7 +22,7 @@ In order for our service to have permissions to your Intune tenant for applicati
 
 ![](<../../.gitbook/assets/image (1121).png>)
 
-Give your app registration a relevant name such as “Patch My PC – Intune Connector”. Configure the account types based on your tenant requirements. For the Redirect URI, leave it to the default unless you have specific requirements for configuring the Redirect URI. Then click **Register**.
+Give your app registration a relevant name such as “Patch My PC – Intune Connector”.  Configure the account types based on your tenant requirements.  For the Redirect URI, leave it to the default unless you have specific requirements for configuring the Redirect URI.  Then click **Register**.
 
 ![](<../../.gitbook/assets/image (1113).png>)
 
@@ -32,9 +32,9 @@ Give your app registration a relevant name such as “Patch My PC – Intune Con
 A full Intune API reference KB article for the Publisher can be found at [https://patchmypc.com/patchmypc-publisher-api-reference](https://patchmypc.com/patchmypc-publisher-api-reference)
 {% endhint %}
 
-After you register a new application, we will need to delegate certain permissions in order for the Patch My PC Publisher to create and update Win32 applications in your Intune tenant, as well as view Azure groups and create assignments for the applications automatically.
+After you register a new application, we will need to delegate certain permissions in order for the Patch My PC Publisher to create and update Win32 applications in your Intune tenant, as well as view Azure groups and create assignments for the applications automatically.&#x20;
 
-Once the new app is registered, navigate to the **API permissions** node in the left column of the newly created app’s page. In the **API permissions** page, click the button to **Add a permission**, then in the right pane that appears, select the **Microsoft Graph** API.
+Once the new app is registered, navigate to the **API permissions** node in the left column of the newly created app’s page. In the **API permissions** page, click the button to **Add a permission**, then in the right pane that appears, select the **Microsoft Graph** API. &#x20;
 
 ![](<../../.gitbook/assets/image (1274).png>)
 
@@ -72,7 +72,7 @@ Then, search for “GroupMember”, and under Group permissions, enable:
 
 Click **Add permissions**.
 
-To approve the new permissions, click **Grant admin consent for**. Choose **Yes** if you are prompted to consent for the required permissions. You must be logged into an Azure AD account with permissions to perform this task.
+To approve the new permissions, click **Grant admin consent for**. Choose **Yes** if you are prompted to consent for the required permissions.  You must be logged into an Azure AD account with permissions to perform this task.
 
 {% hint style="info" %}
 Note: Granting admin consent may require one of the following roles: [Global Administrator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#global-administrator) or [Privileged Role Administrator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#privileged-role-administrator).
@@ -84,7 +84,7 @@ The result is shown below.
 
 ## Step 3: Configuring a Certificate or Client Secret
 
-A certificate is considered more secure than a client secret for authentication to the new app registration as it is something you have (private key) rather than something you know (password). A client secret is the easiest configuration method but is considered less secure.
+A certificate is considered more secure than a client secret for authentication to the new app registration as it is something you have (private key) rather than something you know (password). A client secret is the easiest configuration method but is considered less secure. &#x20;
 
 {% hint style="success" %}
 More guidance on why a certificate should be used instead of a client secret can be found at [https://learn.microsoft.com/en-us/azure/active-directory/develop/security-best-practices-for-app-registration#certificates-and-secrets](https://learn.microsoft.com/en-us/azure/active-directory/develop/security-best-practices-for-app-registration#certificates-and-secrets)
@@ -115,7 +115,7 @@ Follow the steps below to create a self-signed certificate using the _**New-Self
 
 Open a PowerShell window on the same computer where the Patch My PC Publisher is installed. Be sure to elevate the prompt by choosing _**Run as Administrator.**_
 
-!\[]\(/\_images/image-(1044 "").png "")
+<figure><img src="../../.gitbook/assets/image (1044).png" alt=""><figcaption></figcaption></figure>
 
 Copy the following code snippet to and paste into the elevated PowerShell window.
 
@@ -139,19 +139,19 @@ $newCert = @{
 $cert = New-SelfSignedCertificate @newCert
 ```
 
-!\[]\(/\_images/image-(1277 "").png "")
+<figure><img src="../../.gitbook/assets/image (1277).png" alt=""><figcaption></figcaption></figure>
 
 Verify the certificate was created successfully in the Local Machine _**Personal**_ Certificate Store by running _**certlm.msc.**_
 
-!\[]\(/\_images/image-(1042 "").png "")
+<figure><img src="../../.gitbook/assets/image (1042).png" alt=""><figcaption></figcaption></figure>
 
 #### Export the Public Key
 
 We need to export the Public Key and upload it to the new app registration for the Patch My PC Intune connector. Follow the steps below:-
 
-Open PowerShell window on the same computer where the Patch My PC Publisher is installed. Be sure to elevate the prompt by choosing _**Run as Administrator.**_
+Open  PowerShell window on the same computer where the Patch My PC Publisher is installed. Be sure to elevate the prompt by choosing _**Run as Administrator.**_
 
-!\[]\(/\_images/image-(1044 "").png "")
+<figure><img src="../../.gitbook/assets/image (1044).png" alt=""><figcaption></figcaption></figure>
 
 Copy the following code snippet to and paste into the elevated PowerShell window.
 
@@ -166,29 +166,29 @@ FilePath = "$($certFolder)\$($subjectName).cer"
 Export-Certificate @certExport
 ```
 
-!\[]\(/\_images/image-(1049 "").png "")
+<figure><img src="../../.gitbook/assets/image (1049).png" alt=""><figcaption></figcaption></figure>
 
 Verify the certificate was exported successfully in the _**C:\temp\certs**_ folder.
 
-!\[]\(/\_images/image-(1050 "").png "")
+<figure><img src="../../.gitbook/assets/image (1050).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 If you receive the message "The system cannot find the path specified" (as shown below), please ensure the credentials used to launch the PowerShell session have permission to create a folder at C:\temp or specify a new path for the $certFolder variable where you do have permission to create the folder.
 {% endhint %}
 
-!\[]\(/\_images/image-(1048 "").png "")
+<figure><img src="../../.gitbook/assets/image (1048).png" alt=""><figcaption></figcaption></figure>
 
 In the browser, navigate to the App registration created in [Step 1](azure-app-registration.md#step-1-registering-the-patch-my-pc-application-in-azure-a-d) and select the **Certificates & secrets node** in the left column. Select the _**Certificates**_ and click _**Upload certificate**_.
 
-!\[]\(/\_images/image-(1052 "").png "")
+<figure><img src="../../.gitbook/assets/image (1052).png" alt=""><figcaption></figcaption></figure>
 
 Browse to the _**C:\temp\certs**_ folder, select the certificate that was exported earlier, click _**Open**_ and then click _**Add.**_
 
-!\[]\(/\_images/image-(1053 "").png "")
+<figure><img src="../../.gitbook/assets/image (1053).png" alt=""><figcaption></figcaption></figure>
 
 Verify the public key is listed correctly in the app registration.
 
-!\[]\(/\_images/image-(1054 "").png "")
+<figure><img src="../../.gitbook/assets/image (1054).png" alt=""><figcaption></figcaption></figure>
 
 ### Option 2: Creating a Client Secret
 
@@ -196,7 +196,7 @@ Verify the public key is listed correctly in the app registration.
 If you have already followed the instructions for Option 1, you do not need to create a client secret. Instead, go to [Step 4](azure-app-registration.md#step-4-configuring-the-patch-my-pc-publisher-to-connect-to-the-intune-tenant)
 {% endhint %}
 
-A client secret, a password string that our app will use to prove its identity when requesting a token. Navigate to the **Certificates & secrets node** in the left column, and click the button to add a **New client secret**. Decide on a description and expiration date (in months) that best suits your organization’s needs, then click **Add**.
+A client secret, a password string that our app will use to prove its identity when requesting a token.  Navigate to the **Certificates & secrets node** in the left column, and click the button to add a **New client secret**. Decide on a description and expiration date (in months) that best suits your organization’s needs, then click **Add**.
 
 {% hint style="danger" %}
 Microsoft recommends a client secret of no longer than 6 months
@@ -204,7 +204,7 @@ Microsoft recommends a client secret of no longer than 6 months
 
 ![](<../../.gitbook/assets/image (1231).png>)
 
-Copy the **Value** for the Client Secret you created. Save this value to a secure location, you will enter the value under **Application Secret** in the **Intune Options** of the Publisher.
+Copy the **Value** for the Client Secret you created. Save this value to a secure location, you will enter the value under **Application Secret** in the **Intune Options** of the Publisher.&#x20;
 
 ![](<../../.gitbook/assets/image (1155).png>)
 
@@ -214,13 +214,13 @@ You may receive an error similar to **‘An error occurred while connecting to I
 
 ## Step 4: Configuring the Patch My PC Publisher to Connect to the Intune Tenant
 
-Navigate to the **Overview** node of the app registration, and copy the **Application (client) ID**. Save this value to a secure location along with your secret key value.
+Navigate to the **Overview** node of the app registration, and copy the **Application (client) ID**.  Save this value to a secure location along with your secret key value.
 
-![](<../../.gitbook/assets/application-client-id (1).png>)
+![](../../.gitbook/assets/application-client-id.png)
 
 If you do not know your Intune tenant domain, navigate to the [tenant status page](https://devicemanagement.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/TenantAdminMenu/tenantStatus) in your Intune tenant, and look at the property for **Tenant name**.
 
-![](<../../.gitbook/assets/tenant-status (1).png>)
+![](../../.gitbook/assets/tenant-status.png)
 
 Now, it is time to go to the **Intune Options** window of the Publisher **Patch My PC Publisher** to configure the following:-
 
@@ -228,7 +228,7 @@ Now, it is time to go to the **Intune Options** window of the Publisher **Patch 
 [**Application ID**](azure-app-registration.md#application-id)\
 [**Certificate or Application Secret** ](azure-app-registration.md#certificate-application-secret)(depending on whether you followed Step 3 option 1 or option 2)
 
-![](../../.gitbook/assets/Intune-Options.png)
+<figure><img src="../../.gitbook/assets/Intune Options.png" alt=""><figcaption></figcaption></figure>
 
 ### **Authority**
 
@@ -237,9 +237,9 @@ The **Authority** value is a URL made up from the Microsoft authentication endpo
 **https://login.microsoftonline.com**
 
 {% hint style="info" %}
-Referring to the screenshot above, replace _tenantname.onmicrosoft.com_ with the **Tenant name** you found in the **tenant status page** of your Intune tenant.\
+Referring to the screenshot above, replace _tenantname.onmicrosoft.com_ with the **Tenant name** you found in the **tenant status page** of your Intune tenant. \
 \
-The construct of the URL should look something like **https://login.microsoftonline.com/<\<Tenant name>>**\
+The construct of the URL should look something like **https://login.microsoftonline.com/<\<Tenant name>>** \
 \
 The complete Authority value should look similar to this example below:-\
 \
@@ -248,17 +248,17 @@ The complete Authority value should look similar to this example below:-\
 
 ### **Application ID**
 
-Paste the **Application ID** that you recorded earlier.
+Paste the **Application ID** that you recorded earlier.&#x20;
 
 ### **Certificate / Application Secret**
 
 If you chose to use a Certificate for authentication, click the certificate option and browse the Local Machine store for the correct certificate and click **Ok.**
 
-!\[]\(/\_images/image-(1055 "").png "")
+<figure><img src="../../.gitbook/assets/image (1055).png" alt=""><figcaption></figcaption></figure>
 
 If you chose to use a Client Secret for authentication, click the Application Secret option and enter the Client Secret _**value**_ you recorded earlier.
 
-!\[]\(/\_images/image-(1056 "").png "")
+<figure><img src="../../.gitbook/assets/image (1056).png" alt=""><figcaption></figcaption></figure>
 
 ### Test Authentication, Connectivity and API Permissions
 

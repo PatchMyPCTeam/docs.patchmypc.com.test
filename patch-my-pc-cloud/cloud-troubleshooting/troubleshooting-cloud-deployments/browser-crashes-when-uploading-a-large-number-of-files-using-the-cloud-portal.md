@@ -20,7 +20,7 @@ If you try to upload more than 1000 files at once, the upload will fail with the
 
 > You have selected too many files (available: 1000)
 
-!\[]\(/\_images/image-(2600 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2600).png" alt=""><figcaption></figcaption></figure>
 
 ### RESOLUTION
 
@@ -57,7 +57,7 @@ After running this script, a file named **C:\Temp\MyFolder.zip** will be created
 
 Create your Custom App or upload the ZIP archive as an **Extra File** in a deployment.
 
-!\[]\(/\_images/image-(2381 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2381).png" alt="Adding the “MyFolder.zip” as an Extra File"><figcaption></figcaption></figure>
 
 #### Step 3: Extract the ZIP Archive During Deployment
 
@@ -80,7 +80,7 @@ During the app deployment step, specify a script to extract the ZIP archive in t
 
 Upload the extraction script as a Pre-Install Script in your deployment settings.
 
-!\[]\(/\_images/image-(2382 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2382).png" alt="Uploading the extraction script as a Pre-Install Script in your deployment settings"><figcaption></figcaption></figure>
 
 #### Step 5: Create the Deployment and Test
 

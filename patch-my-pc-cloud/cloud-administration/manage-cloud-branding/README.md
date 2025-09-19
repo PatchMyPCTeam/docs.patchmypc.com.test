@@ -13,9 +13,10 @@ C:\ProgramData\PatchMyPC\Notification\
 All branding-related tasks are performed from the **Branding** node of the portal, which is accessed by:
 
 1. Sign in to the PMPC Portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
-2.  Navigate to **Settings | Branding**.\\
+2.  Navigate to **Settings | Branding**.\
 
-    !\[]\(/\_images/image-(1477 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (1477).png" alt="Navigating to “Settings | Branding”"><figcaption></figcaption></figure>
 
 The **Branding** screen is then displayed, allowing you to:
 
@@ -25,12 +26,12 @@ The **Branding** screen is then displayed, allowing you to:
 * [Delete Branding](delete-cloud-branding.md)
 * [Uninstall Branding](uninstall-cloud-branding.md)
 
-!\[]\(/\_images/image-(1478 "").png "")
+<figure><img src="../../../.gitbook/assets/image (1478).png" alt="“Branding” screen"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
 
 If you do not add branding, our default branding shown on the **Branding** page will be used for all Intune App-related notifications on your computers.
 
-<img src="../../../.gitbook/assets/image (1479).png" alt="Default Intune Apps for Cloud branding" data-size="original">
+![Default Intune Apps for Cloud branding](<../../../.gitbook/assets/image (1479).png>)
 {% endhint %}

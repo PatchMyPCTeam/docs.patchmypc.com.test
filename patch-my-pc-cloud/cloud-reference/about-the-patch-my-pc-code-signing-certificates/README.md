@@ -10,14 +10,14 @@ Patch My PC (PMPC) signs PowerShell scripts with a code-signing certificate from
 
 For these scripts to run correctly under an [AllSigned](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4) execution policy, the public key of the code-signing certificate(s) must be present in the **Trusted Publishers** certificate store on all relevant computers you intend to deploy the packages to.
 
-If this public key is not in the store, scripts will fail to execute. No error will be thrown in the log files, however, **powershell.exe** will hang while it tries to execute the detection or requirement script.
+If this public key is not in the store, scripts will fail to execute. No error will be thrown in the log files, however, **powershell.exe** will hang while it tries to execute the detection or requirement script.&#x20;
 
-### Certificates used
+### Certificates used&#x20;
 
 There are two distinct use cases that require separate certificates in Patch My PC:
 
 1. [Intune Detection and Requirement Scripts](./#use-case-1-intune-detection-and-requirement-scripts)\
-   Used to sign **Intune detection and requirement scripts** for Win32 applications published through PMPC Cloud.
+   Used to sign **Intune detection and requirement scripts** for Win32 applications published through PMPC Cloud.&#x20;
 2. [Patch My PC Helper Scripts](./#use-case-2-patch-my-pc-helper-scripts)\
    Used to sign required and recommended pre/post "helper" scripts for certain applications in the PMPC catalog. These helper scripts perform essential tasks such as stopping processes, uninstalling older software versions, or configuring application behavior during deployment to ensure successful app installation.
 
@@ -27,13 +27,15 @@ There are two distinct use cases that require separate certificates in Patch My 
 Patch My PC **only** signs helper scripts that we author for certain applications in the PMPC catalog. Any customer-provided scripts added using the [Cloud "Scripts" Deployment Tool](../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/cloud-scripts-deployment-tool/) will not be signed with the Patch My PC code-signing certificate.
 {% endhint %}
 
+
+
 ### Use Case 1: Intune Detection and Requirement Scripts
 
-Specifically for Intune detection and requirement scripts, **AgentExecutor.exe** (the Intune client process responsible for calling Win32 app detection or requirement scripts) runs in session 0; it is not visible by the logged on user and PowerShell is awaiting input by the user to accept the code-signing certificate.
+Specifically for Intune detection and requirement scripts, **AgentExecutor.exe** (the Intune client process responsible for calling Win32 app detection or requirement scripts) runs in session 0; it is not visible by the logged on user and PowerShell is awaiting input by the user to accept the code-signing certificate.&#x20;
 
-!\[]\(/\_images/image-(1832 "").png "")
+<figure><img src="../../../.gitbook/assets/image (1832).png" alt=""><figcaption><p>powershell.exe waiting for user input</p></figcaption></figure>
 
-After 60 minutes, the Intune Management Extension service will timeout and terminate the **powershell.exe** process with the below log entries in the **IntuneManagementExtension.log**.
+After 60 minutes, the Intune Management Extension service will timeout and terminate the **powershell.exe** process with the below log entries in the **IntuneManagementExtension.log**.&#x20;
 
 {% hint style="info" %}
 **Note**
@@ -41,7 +43,7 @@ After 60 minutes, the Intune Management Extension service will timeout and termi
 Microsoft do not expose this timeout to be configurable in Intune.
 {% endhint %}
 
-!\[]\(/\_images/image-(1833 "").png "")
+<figure><img src="../../../.gitbook/assets/image (1833).png" alt=""><figcaption><p>powershell.exe being terminated after 60 minutes timeout</p></figcaption></figure>
 
 ### Use Case 2: Patch My PC Helper Scripts
 

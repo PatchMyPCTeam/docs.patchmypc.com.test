@@ -20,7 +20,7 @@ _Applies to: Patch My PC MEM Patching Optimizer_
 
 Once the installation starts, you will be greeted by the welcome screen in our installer wizard, click **Next**
 
-![](<../.gitbook/assets/Start (1).png>)
+<figure><img src="../.gitbook/assets/Start.png" alt=""><figcaption></figcaption></figure>
 
 ### **End-User License Agreement & Install Directory**
 
@@ -30,18 +30,18 @@ This location is where we store all of the product's configuration information.
 
 Read the End-User License Agreement. After that, select **I accept the terms in the License terms and conditions** and click **Next**.
 
-!\[]\(/\_images/EULA-(1 "").png "")
+<figure><img src="../.gitbook/assets/EULA (1).png" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/Install_Dir (1).png>)
+<figure><img src="../.gitbook/assets/Install_Dir.png" alt=""><figcaption></figcaption></figure>
 
 ### Ready to Install
 
 Click **Install**
 
-![](<../.gitbook/assets/Install (1).png>)
+<figure><img src="../.gitbook/assets/Install.png" alt=""><figcaption></figcaption></figure>
 
 ### Completed
 
 Once the installation has been completed, click **Finish**
 
-![](<../.gitbook/assets/Finish (1).png>)
+<figure><img src="../.gitbook/assets/Finish.png" alt=""><figcaption></figcaption></figure>

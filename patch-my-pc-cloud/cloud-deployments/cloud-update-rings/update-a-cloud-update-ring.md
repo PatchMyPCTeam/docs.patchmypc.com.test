@@ -7,12 +7,18 @@ If you are using the Update Rings feature of Patch My PC (PMPC) Cloud, you may f
 To update an individual Update Ring to a later version:
 
 1. Navigate to the **Deployments** node.
-2.  Click the relevant deployment to open its properties then click **More Info**.\\
+2.  Click the relevant deployment to open its properties then click **More Info**.\
 
-    !\[]\(/\_images/image-(2143 "").png "")
-3.  If you can update a ring to a newer version the **Update Now** button is available.\\
 
-    !\[]\(/\_images/image-(2144 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (2143).png" alt="Clicking “More Info”"><figcaption></figcaption></figure>
+
+
+3.  If you can update a ring to a newer version the **Update Now** button is available.\
+
+
+    <figure><img src="../../../.gitbook/assets/image (2144).png" alt="“Update Now” button available"><figcaption></figcaption></figure>
+
+
 
 {% hint style="warning" %}
 **Important**
@@ -25,19 +31,25 @@ Some important points to note:
 * You are only updating a specific ring to a later version, not the whole deployment or any other rings.
 {% endhint %}
 
-4.  Click **Update Now** and select the relevant version you want to upgrade this ring to.\\
+4.  Click **Update Now** and select the relevant version you want to upgrade this ring to.\
 
-    !\[]\(/\_images/image-(2145 "").png "")
-5.  On the **Update “<**_**deployment\_name**_**>” ring to version <**_**version\_number**_**>** dialog box, click **Confirm**.\\
 
-    !\[]\(/\_images/image-(2147 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (2145).png" alt="Selecting which version to update this ring to"><figcaption></figcaption></figure>
+
+
+5.  On the **Update “<**_**deployment\_name**_**>” ring to version <**_**version\_number**_**>** dialog box, click **Confirm**.\
+
+
+    <figure><img src="../../../.gitbook/assets/image (2147).png" alt="Clicking “Confirm”" width="455"><figcaption></figcaption></figure>
 
     \
-    The portal refreshes showing that the deployment is **In Progress** and the **Success – Ring <**_**ring\_name**_**>** updated notification is shown.\\
+    The portal refreshes showing that the deployment is **In Progress** and the **Success – Ring <**_**ring\_name**_**>** updated notification is shown.\
 
-    !\[]\(/\_images/image-(2148 "").png "") updated” notification is shown.">
+
+    <figure><img src="../../../.gitbook/assets/image (2148).png" alt="Deployment shows as “In Progress” and the “Success – Ring <ring_name> updated” notification is shown."><figcaption></figcaption></figure>
 
     \
-    Once the deployment has completed successfully, if you navigate back to the ring, you will see the version number has changed and the **Update Now** button is unavailable.\\
+    Once the deployment has completed successfully, if you navigate back to the ring, you will see the version number has changed and the **Update Now** button is unavailable.\
 
-    !\[]\(/\_images/image-(2149 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2149).png" alt="Version number has changed and “Update Now” button is unavailable."><figcaption></figcaption></figure>

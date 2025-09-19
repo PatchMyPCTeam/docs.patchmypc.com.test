@@ -2,20 +2,27 @@
 
 To view the membership of an Entra ID Security Group that has been added to Patch My PC (PMPC) Cloud:
 
-1.  In the PMPC Cloud portal, navigate to **Settings | Users**.\\
+1.  In the PMPC Cloud portal, navigate to **Settings | Users**.\
 
-    !\[]\(/\_images/image-(350 "").png "")
-2.  Click **Entra ID Groups**.\\
 
-    !\[]\(/\_images/image-(351 "").png "")
-3.  Click the person icon beside the group whose membership you want to view.\\
+    <figure><img src="../../../../.gitbook/assets/image (350).png" alt="Navigating to “Settings | Users”"><figcaption></figcaption></figure>
 
-    !\[]\(/\_images/image-(352 "").png "")
+
+2.  Click **Entra ID Groups**.\
+
+
+    <figure><img src="../../../../.gitbook/assets/image (351).png" alt="Clicking “Entra ID Groups”"><figcaption></figcaption></figure>
+
+
+3.  Click the person icon beside the group whose membership you want to view.\
+
+
+    <figure><img src="../../../../.gitbook/assets/image (352).png" alt="	Clicking the person icon beside the group whose membership you want to view"><figcaption></figcaption></figure>
 
     \
     The **Group Members** screen appears, showing the members of the selected group.
 
-!\[]\(/\_images/image-(349 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (349).png" alt="&#x22;Group Members&#x22; screen" width="305"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -28,5 +35,5 @@ We only display the Entra ID of the user, not their actual name, as this require
 {% hint style="info" %}
 **Note**
 
-If a user has been added directly to the portal using the [Add a User](../add-a-cloud-user.md) process and they are also a member of an Entra ID Security Group that is granted access to the same PMPC Cloud company, they will appear both under the **Users** tab and as a member of the relevant Entra ID Security Group(s).
+If a user has been added directly to the portal using the [Add a User](../add-a-cloud-user.md) process and they are also a member of an Entra ID Security Group that is granted access to the same PMPC Cloud company, they will appear both under the **Users** tab and as a member of the relevant  Entra ID Security Group(s).
 {% endhint %}

@@ -5,32 +5,33 @@ _Applies to: Patch My PC Cloud_
 To create Update Rings for a new Deployment in Patch My PC (PMPC) Cloud:
 
 1. If you are unfamiliar with creating a deployment, follow the [Deploy an App](../deploying-an-app-using-cloud/) process until Step 7.
-2.  On the **Assignments** page, click **Enable Update Rings**.\\
+2.  On the **Assignments** page, click **Enable Update Rings**.\
 
-    !\[]\(/\_images/image-(2110 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2110).png" alt="Clicking “Enable Update Rings" width="563"><figcaption></figcaption></figure>
 3. From the **Update ring start time** dropdown, choose how you want your Update Rings to handle the start times for their assignments:\
    • [Delayed](how-cloud-update-rings-are-created.md#delayed)\
    • [Immediate](how-cloud-update-rings-are-created.md#immediate)
 
-!\[]\(/\_images/image-(2582 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2582).png" alt="Choosing the Update Ring start time " width="563"><figcaption></figcaption></figure>
 
 By default, two Update Rings are created with a two-day delay between them.
 
-!\[]\(/\_images/image-(2583 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2583).png" alt="Default rings and their settings" width="563"><figcaption></figcaption></figure>
 
 4. If you do not want to add additional Update Rings, go to step 7.\
    \
    To add an additional Update Ring, click **Add Update Ring**.
 
-!\[]\(/\_images/image-(2584 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2584).png" alt="Clicking “Add Update Ring”" width="563"><figcaption></figcaption></figure>
 
 5. On the **Add Update Ring** dialog box, enter the name for the new ring in the **Name** field and click **Save**.
 
-!\[]\(/\_images/image-(2187 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2187).png" alt="“Add Update Ring” dialog box" width="336"><figcaption></figcaption></figure>
 
 A new ring is added.
 
-!\[]\(/\_images/image-(2585 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2585).png" alt="New ring added" width="563"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Important**
@@ -56,22 +57,22 @@ You can add up to a maximum of 10 Update Rings per deployment.
    \
    If you want to change the name of any of the rings, click the pencil icon (![pencil icon](<../../../.gitbook/assets/image (2039).png>)) beside the relevant ring.
 
-!\[]\(/\_images/image-(2591 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2591).png" alt="Clicking the pencil icon beside the relevant ring to rename" width="563"><figcaption></figcaption></figure>
 
 8. Enter the ring's name in the **Name** field of the **Edit Update Ring** dialog box, then click **Save**.
 
-!\[]\(/\_images/image-(2041 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2041).png" alt="Entering the ring&#x27;s name in the “Name” field of the “Edit Update Ring” dialog box and clicking “Save”" width="336"><figcaption></figcaption></figure>
 
 The updated name appears.
 
-!\[]\(/\_images/image-(2592 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2592).png" alt="Updated ring name" width="563"><figcaption></figcaption></figure>
 
 9. Change the name of any other rings.
 10. If you do not want to change the delay for any of the rings, go to Step 11.\
     \
     If you want to change the delay for a ring, click the plus (**+**) or minus (**-**) sign beside the relevant rings.
 
-!\[]\(/\_images/image-(2593 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2593).png" alt="Clicking plus or minus beside the relevant rings" width="563"><figcaption></figcaption></figure>
 
 11. Click **Add Assignment** and add the relevant assignments for each ring, configuring the settings for each assignment as required.
 
@@ -84,25 +85,25 @@ See the [Assignments](../deploying-an-app-using-cloud/cloud-assignments-deployme
 {% hint style="success" %}
 **Tip**
 
-You can drag assignments between Update Rings by clicking the double ellipsis (!\[]\(/\_images/image-(2044 "").png "")) beside the relevant assignment and dragging and dropping it to the relevant Update Ring.
+You can drag assignments between Update Rings by clicking the double ellipsis (<img src="../../../.gitbook/assets/image (2044).png" alt="double ellipsis" data-size="line">) beside the relevant assignment and dragging and dropping it to the relevant Update Ring.
 {% endhint %}
 
-!\[]\(/\_images/image-(2594 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2594).png" alt="Assignments added and configured for each Update Ring" width="563"><figcaption></figcaption></figure>
 
 12. Click **Deploy**.
 
-!\[]\(/\_images/image-(2595 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2595).png" alt="Clicking “Deploy”" width="563"><figcaption></figcaption></figure>
 
 The **“<**_**deployment\_name**_**>” Deployment Summary** dialog box appears, summarizing what you are deploying, to which groups, and when.
 
-!\[]\(/\_images/image-(2135 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2135).png" alt="“Deployment Summary”"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
 
-If your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) is set to anything other than **Daily**, the UI will warn you that some rings may not be evaluated as expected.
+If your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) is set to anything other than **Daily**, the UI will warn you that some rings may not be evaluated as expected.&#x20;
 
-<img src="../../../.gitbook/assets/image (2138).png" alt="" data-size="original">
+![](<../../../.gitbook/assets/image (2138).png>)
 
 This is why we recommend you set your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to **Daily** if you plan to use Update Rings.
 {% endhint %}
@@ -113,8 +114,8 @@ This is why we recommend you set your [Sync Schedule](../../cloud-administration
     \
     b. Click **Confirm** to continue.
 
-!\[]\(/\_images/image-(2140 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2140).png" alt="Clicking &#x22;Confirm&#x22;"><figcaption></figcaption></figure>
 
 When you click **Confirm**, the **Deployments** node appears showing the deployment as **In Progress** and the **Success – Created <**_**deployment\_name**_**>** notification.
 
-!\[]\(/\_images/image-(2142 "").png "")” notification. ">
+<figure><img src="../../../.gitbook/assets/image (2142).png" alt="“Deployments” node appearing showing the deployment as “In Progress” and the “Success – Created <deployment_name>” notification. "><figcaption></figcaption></figure>

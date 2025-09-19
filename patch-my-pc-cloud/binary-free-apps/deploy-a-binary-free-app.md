@@ -13,12 +13,16 @@ To upload the app installer for the Binary Free App:
 
 1. Download the relevant version of the software from the vendor for the app you wish to deploy.
 2. Login to our portal.
-3.  Search for the app in the **App Catalog**.\\
+3.  Search for the app in the **App Catalog**.\
 
-    !\[]\(/\_images/image-(443 "").png "")
-4.  Click the app to open its properties.\\
 
-    !\[]\(/\_images/image-(444 "").png "")
+    <figure><img src="../../.gitbook/assets/image (443).png" alt="Searching for the app in the App Catalog"><figcaption></figcaption></figure>
+
+
+4.  Click the app to open its properties.\
+
+
+    <figure><img src="../../.gitbook/assets/image (444).png" alt="Clicking the app to open its properties"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -26,15 +30,22 @@ To upload the app installer for the Binary Free App:
 Notice that both the **Deploy** and **Edit Deployment** options are unavailable as this is a Binary Free App that requires you to upload the installer.
 {% endhint %}
 
-5.  Click **Manage Files**.\\
+5.  Click **Manage Files**.\
 
-    !\[]\(/\_images/image-(445 "").png "")
-6.  On the **“<**_**app\_name**_**>” Upload file** screen, click **Add App File**.\\
 
-    !\[]\(/\_images/image-(446 "").png "")
-7.  On the **General Information** tab, configure the required options for the app, then click **Next**.\\
+    <figure><img src="../../.gitbook/assets/image (445).png" alt="Clicking “Manage Files” "><figcaption></figcaption></figure>
+6.  On the **“<**_**app\_name**_**>” Upload file** screen, click **Add App File**.\
 
-    !\[]\(/\_images/image-(447 "").png "")
+
+    <figure><img src="../../.gitbook/assets/image (446).png" alt="Clicking “Add App File”"><figcaption></figcaption></figure>
+
+
+7.  On the **General Information** tab, configure the required options for the app, then click **Next**.\
+
+
+    <figure><img src="../../.gitbook/assets/image (447).png" alt="Configuring any required options for the app, then clicking “Next”"><figcaption></figcaption></figure>
+
+
 8.  On the **Upload File Installer** tab, either:\
     \
     a. Click **Select Application File** and browse to the location containing the app’s installer.
@@ -47,7 +58,7 @@ Notice that both the **Deploy** and **Edit Deployment** options are unavailable 
 We suggest you use the download link at the bottom of the page to ensure you download the latest version of the app from the vendor’s official website.
 {% endhint %}
 
-!\[]\(/\_images/image-(448 "").png "")
+<figure><img src="../../.gitbook/assets/image (448).png" alt="Clicking “Select Application File”"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -56,19 +67,20 @@ If you select either the wrong file or the wrong version of the file, the [Unabl
 
 This is because we validate the hash of the installer to ensure you are uploading the correct file compared to the version information we have stored in our App Catalog.
 
-If you really need to deploy an older version of the app, deploy it as a Custom App by using the [Create a Custom App](../custom-apps/create-a-custom-app/) process.
+If you really need to deploy an older version of the app, deploy it as a Custom App by using the [Create a Custom App](../custom-apps/create-a-custom-app/)  process.
 {% endhint %}
 
 The hash for the file is calculated as the file is uploaded to your portal.
 
-!\[]\(/\_images/image-(2049 "").png "")
+<figure><img src="../../.gitbook/assets/image (2049).png" alt="Calculating the hash for the file as its uploaded to your portal."><figcaption></figcaption></figure>
 
 The portal also shows **File Up to Date** and the **Success – File Successfully Uploaded** notification once:
 
 * The file has been uploaded successfully.
-*   The calculated hash matches that stored in our App Catalog.\\
+*   The calculated hash matches that stored in our App Catalog.\
 
-    !\[]\(/\_images/image-(2050 "").png "")
+
+    <figure><img src="../../.gitbook/assets/image (2050).png" alt="“Success – File Successfully Uploaded” notification "><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**

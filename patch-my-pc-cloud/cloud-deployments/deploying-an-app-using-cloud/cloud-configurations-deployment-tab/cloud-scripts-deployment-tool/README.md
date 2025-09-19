@@ -30,14 +30,14 @@ We currently support the following script types:
 
 Currently, scripts containing `"${env:ProgramFiles(x86)}"` or `"${env:ProgramFiles}"` cannot be uploaded as Cloudflare is falsely identifying them as a false positive related to Log4j exploits. We are actively working with them to resolve this, but as this is outside our control, we cannot provide an estimated resolution time.
 
-To work around this issue, see the [Resolution](../../../../cloud-troubleshooting/troubleshooting-cloud-deployments/typeerror-failed-to-fetch-error-when-trying-to-upload-a-pre-or-post-script-in-cloud.md#resolution) section of ["TypeError: Failed to fetch" error when trying to upload a Pre or Post Script](../../../../cloud-troubleshooting/troubleshooting-cloud-deployments/typeerror-failed-to-fetch-error-when-trying-to-upload-a-pre-or-post-script-in-cloud.md).
+To work around this issue, see the [Resolution](../../../../cloud-troubleshooting/troubleshooting-cloud-deployments/typeerror-failed-to-fetch-error-when-trying-to-upload-a-pre-or-post-script-in-cloud.md#resolution) section of ["TypeError: Failed to fetch" error when trying to upload  a Pre or Post Script](../../../../cloud-troubleshooting/troubleshooting-cloud-deployments/typeerror-failed-to-fetch-error-when-trying-to-upload-a-pre-or-post-script-in-cloud.md).
 {% endhint %}
 
 To add a script:
 
 1. Click the **Scripts** tab to expose the configurable settings.
 
-!\[]\(/\_images/image-(2603 "").png "")
+<figure><img src="../../../../../.gitbook/assets/image (2603).png" alt="Clicking the &#x22;Scripts&#x22; tab to expose the configurable settings" width="563"><figcaption></figcaption></figure>
 
 2. Click **Add** beside the relevant script option to add a script, then configure the required settings as per the relevant articles:
 

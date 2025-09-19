@@ -92,7 +92,7 @@ You can see the script being processed by the Intune Management Extension by loo
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs
 ```
 
-!\[]\(/\_images/image-(648 "").png "")
+<figure><img src="../../../.gitbook/assets/image (648).png" alt="“IntuneManagementExtension.log” showing the script being processed by the Intune Management Extension" width="563"><figcaption></figcaption></figure>
 
 ### Using a proactive remediation
 
@@ -108,7 +108,7 @@ To deploy our certificate using a proactive remediation deployment, follow the [
 
 <table><thead><tr><th width="291">Field</th><th>Value</th></tr></thead><tbody><tr><td>Detection script file</td><td>Browse to and select <strong>PMPCCloudTrustedPublisherCertificate_HealthScript_Detection.ps1</strong></td></tr><tr><td>Remediation script file</td><td>Browse to and select Import-<strong>PMPCCloudTrustedPublisherCertificate.ps1</strong></td></tr><tr><td>Run this script using the logged on credentials</td><td>No</td></tr><tr><td>Enforce script signature check</td><td>No</td></tr><tr><td>Run script in 64 bit PowerShell Host</td><td>No</td></tr></tbody></table>
 
-#### “Scope tags” tab
+#### &#x20;“Scope tags” tab
 
 Configure as required.
 
@@ -130,7 +130,7 @@ Double-check everything before clicking **Create**.
 
 <table><thead><tr><th width="290">Field</th><th>Value</th></tr></thead><tbody><tr><td>Detection script file</td><td>Browse to and select <strong>PMPCAppsTrustedPublisherCertificate_HealthScript_Detection.ps1</strong></td></tr><tr><td>Remediation script file</td><td>Browse to and select Import-<strong>PMPCAppsTrustedPublisherCertificate.ps1</strong></td></tr><tr><td>Run this script using the logged on credentials</td><td>No</td></tr><tr><td>Enforce script signature check</td><td>No</td></tr><tr><td>Run script in 64 bit PowerShell Host</td><td>No</td></tr></tbody></table>
 
-#### “Scope tags” tab
+#### &#x20;“Scope tags” tab
 
 Configure as required.
 
@@ -152,16 +152,16 @@ You can see the script being processed by the Intune Management Extension by loo
 
 Observe the **Proactive Remediation Device Status** blade.
 
-!\[]\(/\_images/image-(649 "").png "")
+<figure><img src="../../../.gitbook/assets/image (649).png" alt="Observing the “Proactive Remediation Device Status” blade." width="563"><figcaption></figcaption></figure>
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script found the certificate already installed in the local computer’s Trusted Publishers store.
 
-!\[]\(/\_images/image-(650 "").png "")
+<figure><img src="../../../.gitbook/assets/image (650).png" alt="“HealthScripts.log” snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine’s Trusted Publishers store." width="563"><figcaption></figcaption></figure>
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is **1**).
 
-!\[]\(/\_images/image-(651 "").png "")
+<figure><img src="../../../.gitbook/assets/image (651).png" alt="“HealthScripts.log” snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is 1)." width="563"><figcaption></figcaption></figure>
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is **0**).
 
-!\[]\(/\_images/image-(652 "").png "")
+<figure><img src="../../../.gitbook/assets/image (652).png" alt="“HealthScripts.log” snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0)." width="563"><figcaption></figcaption></figure>

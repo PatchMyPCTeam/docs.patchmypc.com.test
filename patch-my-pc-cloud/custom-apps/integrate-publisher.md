@@ -26,7 +26,7 @@ Tip
 If the **Cloud** tab is not present, check you have entered your license key and clicked **Validate**.
 {% endhint %}
 
-!\[]\(/\_images/image-(1725 "").png "")
+<figure><img src="../../.gitbook/assets/image (1725).png" alt="&#x22;Cloud&#x22; tab of our Publisher"><figcaption></figcaption></figure>
 
 3. In the **Connection Name** field, enter a unique name for the connection. For example **Patch My PC Custom Apps**, then click **Connect**.
 
@@ -36,31 +36,43 @@ If the **Cloud** tab is not present, check you have entered your license key and
 The name you enter here determines how this connection shows on the **Connections** page of the **portal**.
 {% endhint %}
 
-!\[]\(/\_images/image-(1726 "").png "")
+<figure><img src="../../.gitbook/assets/image (1726).png" alt="Entering a “Connection Name” and clicking “Connect”"><figcaption></figcaption></figure>
 
 4.  In your browser, enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.
 
-    !\[]\(/\_images/image-(1420 "").png "")
+
+
+    <figure><img src="../../.gitbook/assets/image (1420).png" alt="“Microsoft Sign in” screen"><figcaption></figcaption></figure>
+
+
 5.  Enter the password and click **Sign in**.
 
-    !\[]\(/\_images/image-(1421 "").png "")
+
+
+    <figure><img src="../../.gitbook/assets/image (1421).png" alt="“Enter password” screen"><figcaption></figcaption></figure>
 
     \
     If the connection is successful, a new browser tab opens with the following message:
 
     **Authentication complete. You can return to the application. Feel free to close this browser tab.**\
     \
-    You can close this tab at this point.\\
+    You can close this tab at this point.\
+
 6. If the **Edit a customer** screen is not displayed, proceed to Step 8.
-7.  If the **Edit a customer** screen is displayed, click to select the customer you want to connect to, then click **OK**.\\
+7.  If the **Edit a customer** screen is displayed, click to select the customer you want to connect to, then click **OK**.\
 
-    !\[]\(/\_images/image-(910 "").png "")
-8.  In Publisher, verify the **Connection Status** shows as **Connected**, then click **Save and Close**.\\
 
-    !\[]\(/\_images/image-(1728 "").png "")
+    <figure><img src="../../.gitbook/assets/image (910).png" alt="Selecting the relevant customer from the “Edit a customer” screen"><figcaption></figcaption></figure>
+
+
+8.  In Publisher, verify the **Connection Status** shows as **Connected**, then click **Save and Close**.\
+
+
+    <figure><img src="../../.gitbook/assets/image (1728).png" alt="Publisher showing it’s “Connected”"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
 
 You can also use the [Verifying the Publisher connection from the Portal](../cloud-administration/manage-cloud-connections/verify-a-publisher-connection-from-cloud.md) process to verify that your Publisher is connected to the Portal.
 {% endhint %}
+

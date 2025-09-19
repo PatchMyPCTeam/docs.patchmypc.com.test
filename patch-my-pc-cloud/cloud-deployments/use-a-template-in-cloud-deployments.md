@@ -17,9 +17,10 @@ If a template contains an option that is supported by a deployment, that option 
 To configure a new deployment to use a template:
 
 1. Follow the relevant deployment scenario.
-2.  Once the Deployment Wizard has started, click **Apply Template**\\
+2.  Once the Deployment Wizard has started, click **Apply Template**\
 
-    !\[]\(/\_images/image-(2330 "").png "")
+
+    <figure><img src="../../.gitbook/assets/image (2330).png" alt="Clicking “Apply Template”"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -27,9 +28,10 @@ To configure a new deployment to use a template:
 You can click **Apply Template** at any time, regardless of the tab you are working on.
 {% endhint %}
 
-3.  On the **Apply Template** screen, select the radio button beside the template you want to apply, then click **Apply**.\\
+3.  On the **Apply Template** screen, select the radio button beside the template you want to apply, then click **Apply**.\
 
-    !\[]\(/\_images/image-(2331 "").png "")
+
+    <figure><img src="../../.gitbook/assets/image (2331).png" alt="Selecting the radio button beside the template you want to apply and clicking “Apply”"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -39,7 +41,7 @@ Only the templates created for the Operating System (OS) platform you are deploy
 
 The Deployment Wizard is redisplayed along with the **Success - Template ‘<**_**template\_name**_**>’ applied** notification.
 
-!\[]\(/\_images/image-(2332 "").png "")’ applied” notification">
+<figure><img src="../../.gitbook/assets/image (2332).png" alt="Deployment Wizard redisplayed along with the “Success - Template ‘<template_name>’ applied” notification"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**

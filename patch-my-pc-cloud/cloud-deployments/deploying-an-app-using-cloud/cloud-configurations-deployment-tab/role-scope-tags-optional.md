@@ -22,17 +22,17 @@ To add Role Scope tag&#x73;**:**
 
 1. Click the **Role Scope Tags** tool.
 
-!\[]\(/\_images/image-(78 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (78).png" alt="Clicking the &#x22;Role Scope Tags&#x22; tool" width="563"><figcaption></figcaption></figure>
 
 2. Scroll down to the **Role Scope Tags** section.
 
-!\[]\(/\_images/image-(79 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (79).png" alt="Scrolling down to the “Role Scope Tags” section" width="563"><figcaption></figcaption></figure>
 
 3. In the **Profile Name** field, either:
    1. Start typing the name of the relevant Scope Tag, then click the checkbox beside it to select it.
    2. Click the dropdown to see a list of existing Scope Tags and click the relevant checkbox(es) to select it.
 
-!\[]\(/\_images/image-(80 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (80).png" alt="Selecting the check boxes beside the relevant Scope Tags" width="419"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**
@@ -50,4 +50,4 @@ See [Check Scope Tag Assignments](../../../cloud-reference/intune-reference/chec
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-!\[]\(/\_images/image-(81 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (81).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page" width="563"><figcaption></figcaption></figure>

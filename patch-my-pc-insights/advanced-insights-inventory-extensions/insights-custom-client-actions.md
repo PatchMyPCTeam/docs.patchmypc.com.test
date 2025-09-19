@@ -8,17 +8,17 @@ Advanced Insights must be granted the correct permissions to your SMS Provider f
 
 Clients with the Inventory Extensions MSI installed will support the use of our custom client actions:
 
-![](<../../.gitbook/assets/ClientActions (1).png>)
+<figure><img src="../../.gitbook/assets/ClientActions.png" alt=""><figcaption></figcaption></figure>
 
 ### ⚙ Script Approval
 
 If you see this message when using any of the custom client actions:
 
-!\[]\(/\_images/image-(968 "").png "")
+<figure><img src="../../.gitbook/assets/image (968).png" alt=""><figcaption></figcaption></figure>
 
 This means you have the "Additional Script Approver" setting enabled in ConfigMgr. To approve our script, please follow these steps:
 
-![](../../.gitbook/assets/script-approval.png)
+<figure><img src="../../.gitbook/assets/script approval.png" alt=""><figcaption></figcaption></figure>
 
 1. Open your ConfigMgr Console
 2. Go to Software Library > Scripts
@@ -26,7 +26,7 @@ This means you have the "Additional Script Approver" setting enabled in ConfigMg
 
 ### Custom Action Descriptions
 
-* Notify - Sends a message box to all users logged in on the client, this message includes the\
+* Notify - Sends a message box to all users logged in on the client, this message includes the \
   ![](<../../.gitbook/assets/image (2261).png>)
 * Install Updates - Installs all updates which are advertised to the device which are targeted as available or required. This is the same action as pressing Install All in the Software Center.
 * Repair Client - Executes the ccmrepair.exe

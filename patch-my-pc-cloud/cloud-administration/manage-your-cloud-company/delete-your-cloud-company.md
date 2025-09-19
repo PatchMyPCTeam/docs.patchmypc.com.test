@@ -17,18 +17,26 @@ If the portal detects any connections, the **Delete Company** button will be una
 
 To delete your company from Patch My PC (PMPC) Cloud:
 
-1.  Navigate to **Settings | Company**.\\
+1.  Navigate to **Settings | Company**.\
 
-    !\[]\(/\_images/image-(597 "").png "")
-2.  Scroll down to the bottom of the **Company** page and click **Delete Company**.\\
 
-    !\[]\(/\_images/image-(598 "").png "")
-3.  On the **Are you sure you want to delete the company <**_**company\_name**_**>?** dialog box, click **Yes** to confirm the deletion.\\
+    <figure><img src="../../../.gitbook/assets/image (597).png" alt="Navigating to “Settings | Company”" width="563"><figcaption></figcaption></figure>
 
-    !\[]\(/\_images/image-(799 "").png "")?” dialog box" width="289">
+
+2.  Scroll down to the bottom of the **Company** page and click **Delete Company**.\
+
+
+    <figure><img src="../../../.gitbook/assets/image (598).png" alt="Scrolling down to the bottom of the &#x22;Company&#x22; page and clicking &#x22;Delete Company.&#x22;" width="563"><figcaption></figcaption></figure>
+3.  On the **Are you sure you want to delete the company <**_**company\_name**_**>?** dialog box, click **Yes** to confirm the deletion.\
+
+
+    <figure><img src="../../../.gitbook/assets/image (799).png" alt="“Are you sure you want to delete the company <company_name>?” dialog box" width="289"><figcaption></figcaption></figure>
 
     \
-    The Patch My PC Signup screen is displayed.\\
+    The Patch My PC Signup screen is displayed.\
 
-    !\[]\(/\_images/image-(800 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (800).png" alt="Patch My PC Signup screen" width="563"><figcaption></figcaption></figure>
+
+
 4. Follow the [Deleting the Patch My PC Cloud Enterprise Application](../delete-the-patch-my-pc-cloud-enterprise-application.md) process to delete the PMPC Enterprise Application and complete the deletion of your company.

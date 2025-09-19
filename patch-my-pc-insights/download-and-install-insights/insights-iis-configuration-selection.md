@@ -12,7 +12,7 @@ Advanced Installer will create two websites and related application pools. The D
 Ensure the network requirements are reviewed here: [insights-network-requirements.md](../advanced-and-patch-insights-requirements-and-prerequisites/insights-network-requirements.md "mention")
 {% endhint %}
 
-The IIS Configuration page allows you to set the dashboard port and IIS application pool identity to your requirements. The port is what will be used when browsing the portal (e.g., _https://adv01.contoso.com:444_). The API port is read-only. Firewall rules will be automatically created for the dashboard, and API websites.
+The IIS Configuration page allows you to set the dashboard port and IIS application pool identity to your requirements. The port is what will be used when browsing the portal (e.g., _https://adv01.contoso.com:444_). The API port is read-only. Firewall rules will be automatically created for the dashboard, and API websites.&#x20;
 
 {% hint style="info" %}
 The installer will automatically recommend the best available port for the dashboard website. You can change this if you wish.
@@ -28,11 +28,11 @@ Examples:
 
 In this example, the installer automatically determined that the best available port was 444. IIS Application Pool left as default 'LocalSystem'.
 
-![](<../../.gitbook/assets/vmconnect_Dmraspavez (2).png>)
+<figure><img src="../../.gitbook/assets/vmconnect_Dmraspavez.png" alt=""><figcaption><p>Example - Server FQDN SSL certificate used with port 444.</p></figcaption></figure>
 
 In this example a custom IIS application pool identity has been set:
 
-!\[]\(/\_images/image-(315 "").png "")
+<figure><img src="../../.gitbook/assets/image (315).png" alt=""><figcaption><p>Example - Custom app pool identity (AD Account) set.</p></figcaption></figure>
 
 Confirm the required Dashboard Port and if required, IIS application pool identity and click **Next**.
 

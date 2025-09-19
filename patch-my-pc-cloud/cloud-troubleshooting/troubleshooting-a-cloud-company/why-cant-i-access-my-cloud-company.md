@@ -8,7 +8,7 @@ I am trying to onboard to the Patch My PC Cloud (PMPC) portal. My company is lis
 
 However, no one remembers who registered the company, so I cannot gain access.
 
-!\[]\(/\_images/image-(1980 "").png "")
+<figure><img src="../../../.gitbook/assets/image (1980).png" alt="&#x22;Select the Company You Want to Sign-In To&#x22; screen "><figcaption></figcaption></figure>
 
 ### CAUSE
 
@@ -23,3 +23,4 @@ To resolve this issue, follow the [Recover Your Company](../../cloud-administrat
 
 Once you regain access, ensure you set up at least two users with the **Full Admin with Access Management** user role as detailed in [Managing Access Management privileges for a User](https://docs.patchmypc.com/patch-my-pc-cloud/administration/managing-users/modify-a-user#managing-access-management-privileges-for-a-user). This will help you avoid this problem in the future.
 {% endhint %}
+

@@ -6,7 +6,7 @@ _Applies to: Patch My PC Cloud_
 
 I have signed into the Patch My PC (PMPC) Cloud portal, but I don’t see the **Branding** node under **Settings**.
 
-!\[]\(/\_images/image-(1570 "").png "")
+<figure><img src="../../../.gitbook/assets/image (1570).png" alt="No &#x22;Branding&#x22; node"><figcaption></figcaption></figure>
 
 ### CAUSE
 
@@ -24,4 +24,4 @@ To resolve this issue, follow the [Connecting to an Intune tenant](../../cloud-a
 
 Once your portal has been connected to an Intune tenant you will see the **Branding** node.
 
-!\[]\(/\_images/image-(1571 "").png "")
+<figure><img src="../../../.gitbook/assets/image (1571).png" alt="&#x22;Branding&#x22; node is now visible"><figcaption></figcaption></figure>

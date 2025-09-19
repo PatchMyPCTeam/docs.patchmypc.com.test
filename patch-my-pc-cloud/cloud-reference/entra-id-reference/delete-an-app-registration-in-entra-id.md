@@ -14,49 +14,63 @@ To delete an App Registration:
 You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.
 {% endhint %}
 
-!\[]\(/\_images/image-(1970 "").png "")
+<figure><img src="../../../.gitbook/assets/image (1970).png" alt="Navigating to the “App registrations” blade"><figcaption></figcaption></figure>
 
-2.  Click **All applications**.\\
+2.  Click **All applications**.\
 
-    !\[]\(/\_images/image-(1971 "").png "")
 
-    \\
-3.  Click the **PMPC Recovery** application.\\
+    <figure><img src="../../../.gitbook/assets/image (1971).png" alt="Clicking “All Applications”"><figcaption></figcaption></figure>
 
-    !\[]\(/\_images/image-(1972 "").png "")
+    \
 
-    \\
+3.  Click the **PMPC Recovery** application.\
 
-    4.  Click **Delete**.\\
 
-        !\[]\(/\_images/image-(1973 "").png "")
+    <figure><img src="../../../.gitbook/assets/image (1972).png" alt="Clicking the “PMPC Recovery” application"><figcaption></figcaption></figure>
 
-        \\
+    \
+
+
+    4.  Click **Delete**.\
+
+
+        <figure><img src="../../../.gitbook/assets/image (1973).png" alt="Clicking “Delete”"><figcaption></figcaption></figure>
+
+        \
+
     5.  On the **Delete app registration** screen, check the **I understand the implications of deleting this app registration** checkbox, then click **Delete**.\
-        \\
+        \
 
-        !\[]\(/\_images/image-(1974 "").png "")
+
+        <figure><img src="../../../.gitbook/assets/image (1974).png" alt="Checking the “I understand the implications of deleting this app registration” checkbox, then clicking “Delete”."><figcaption></figcaption></figure>
 
         \
         The **Welcome to Azure** page is shown and the **Delete application - Successfully deleted application PMPC Recovery** notification is shown.\
-        \\
+        \
 
-        !\[]\(/\_images/image-(1975 "").png "")
 
-        \\
+        <figure><img src="../../../.gitbook/assets/image (1975).png" alt="“App registrations” page refreshes and the “Delete application - Successfully deleted application PMPC Recovery” notification is shown."><figcaption></figcaption></figure>
+
+        \
+
     6.  Click **App Registrations**.\
-        \\
+        \
 
-        !\[]\(/\_images/image-(1976 "").png "")
 
-        \\
+        <figure><img src="../../../.gitbook/assets/image (1976).png" alt="Clicking the “App Registrations” blade "><figcaption></figcaption></figure>
+
+        \
+
     7.  On the **App registrations** screen, click **All applications**.\
-        \\
+        \
 
-        !\[]\(/\_images/image-(1977 "").png "")
 
-        \\
+        <figure><img src="../../../.gitbook/assets/image (1977).png" alt="Clicking the “All applications” blade"><figcaption></figcaption></figure>
+
+        \
+
     8.  Verify the **PMPC Recovery** application has been deleted.\
-        \\
+        \
 
-        !\[]\(/\_images/image-(1978 "").png "")
+
+        <figure><img src="../../../.gitbook/assets/image (1978).png" alt="Verifying the “PMPC Recovery” application has been deleted."><figcaption></figcaption></figure>

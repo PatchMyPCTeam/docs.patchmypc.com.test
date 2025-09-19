@@ -20,30 +20,36 @@ To delete all Update Rings for a deployment:
 1. [Edit](../manage-cloud-deployments/edit-a-cloud-deployment.md) the relevant deployment and navigate to the **Assignments** tab.
 2.  If you want to delete a single Update Ring, use the [Delete a Single Update Ring](delete-update-rings-in-cloud.md#delete-a-single-update-ring) process.\
     \
-    To delete all Update Rings for this deployment, click **Remove all Rings**.\\
+    To delete all Update Rings for this deployment, click **Remove all Rings**.\
 
-    !\[]\(/\_images/image-(2061 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2061).png" alt="Clicking “Remove all Rings”"><figcaption></figcaption></figure>
+
+
 3.  On the **Move Assignments or Delete** dialog box, click **Move** to remove the Update Rings but keep all the existing assignments.\
-    \\
+    \
 
-    !\[]\(/\_images/image-(2062 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2062).png" alt="Clicking “Move” to remove the Update Rings but keep all the existing assignments" width="300"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
 
 Clicking **Delete** will delete any existing assignments but not the deployment itself.
 
-![Clicking “Delete” will delete any existing assignments, not the deployment itself.](<../../../.gitbook/assets/image (2064).png>)\\
+![Clicking “Delete” will delete any existing assignments, not the deployment itself.](<../../../.gitbook/assets/image (2064).png>)\
+
 {% endhint %}
 
 The Update Rings are removed and any existing assignments are kept.
 
-!\[]\(/\_images/image-(2065 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2065).png" alt="Update Rings are removed and any existing assignments are kept"><figcaption></figcaption></figure>
 
 4.  Click **Save** to save your changes.\
-    \\
+    \
 
-    !\[]\(/\_images/image-(2066 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2066).png" alt="Clicking “Save” to save changes"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Important**
@@ -52,7 +58,7 @@ As removing all Update Rings disables Update Ring functionality for this deploym
 \
 For example, this version of the app will be deployed immediately to all of the following assignments without any of the delays enforced by using Update Rings.
 
-<img src="../../../.gitbook/assets/image (2067).png" alt="“Deployment Summary” showing the impact of deleting all Update Rings" data-size="original">
+![“Deployment Summary” showing the impact of deleting all Update Rings ](<../../../.gitbook/assets/image (2067).png>)
 {% endhint %}
 
 {% hint style="info" %}
@@ -64,9 +70,10 @@ If the existing deployment had different versions applied to different assignmen
 5.  Click **Cancel** to return to the **Assignments** tab to make any required changes, or click **Confirm** to save your changes.\
     \
     The **Deployments** node is displayed along with the **Success – Edited <**_**deployment\_name**_**>** notification.\
-    \\
+    \
 
-    !\[]\(/\_images/image-(2068 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2068).png" alt="“Deployment Summary” showing the impact of delete all Update Rings"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**
@@ -87,29 +94,32 @@ To delete a Single Update Ring:
 Deleting an Update Ring also deletes any assignments controlled by that ring. If you want to keep the assignment, drag and drop it to another ring before you delete the ring.
 {% endhint %}
 
-!\[]\(/\_images/image-(2069 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2069).png" alt="Clicking the read “X” to delete a specific Update Ring "><figcaption></figcaption></figure>
 
 The ring and any assignments it contains are deleted.
 
-!\[]\(/\_images/image-(2070 "").png "")
+<figure><img src="../../../.gitbook/assets/image (2070).png" alt="Update Ring deleted"><figcaption></figcaption></figure>
 
 3.  Click **Save** to save your changes.\
-    \\
+    \
 
-    !\[]\(/\_images/image-(2071 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2071).png" alt="Clicking “Save” to save changes"><figcaption></figcaption></figure>
 
     \
     As you’ve removed an Update Ring and it’s assignments, the **"<**_**deployment\_name**_**>" Deployment Summary** is shown detailing the impact of your proposed change.\
     \
     For example, by deleting the **7-Zip Pilot +7 Days** ring, this app will not be deployed to the **03 - Patching - Production - All - 7 Days** Entra ID group.\
-    \\
+    \
 
-    !\[]\(/\_images/image-(2072 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2072).png" alt="“Deployment Summary” showing the impact of deleting this Update Rings"><figcaption></figcaption></figure>
 4.  Click **Cancel** to return to the **Assignments** tab to make any required changes, or click **Confirm** to save your changes.\
     \
-    The **Deployments** node is displayed along with the **Success – Edited <**_**deployment\_name**_**>** notification.\\
+    The **Deployments** node is displayed along with the **Success – Edited <**_**deployment\_name**_**>** notification.\
 
-    !\[]\(/\_images/image-(2073 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2073).png" alt="“Deployment Summary” showing the impact of delete all Update Rings"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**

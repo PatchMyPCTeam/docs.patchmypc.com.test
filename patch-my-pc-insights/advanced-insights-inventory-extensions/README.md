@@ -10,12 +10,12 @@ To setup the Inventory Extensions, there are **two** actions to complete:
 
 ## ⚙ Extend ConfigMgr's Hardware Inventory Schema
 
-1. Navigate to the **Administration** > **Settings** page
+1. Navigate to the **Administration** > **Settings** page&#x20;
 2. Select the **Advanced Insights Inventory Extensions** tab
 3. Select whether to collect **Microsoft Update** Compliance Data [see here for more information](../advanced-insights-and-microsoft-updates-inventory.md)
 4. Click <mark style="color:green;">**Update Hardware Inventory via Advanced Insights**</mark>
 
-![](<../../.gitbook/assets/Inventory_Extensions_Settings (1)>)
+<figure><img src="../../.gitbook/assets/Inventory_Extensions_Settings" alt=""><figcaption><p>Advanced Insights Inventory Extensions</p></figcaption></figure>
 
 ***
 
@@ -25,7 +25,7 @@ To setup the Inventory Extensions, there are **two** actions to complete:
 Seeing this message suggests you need to configure [Configuration Manager Permissions](../insights-configuration-manager-permission-requirements.md). We recommend configuring permissions instead of proceeding with a manual install.
 {% endhint %}
 
-!\[]\(/\_images/image002-(2 "").png "")
+<figure><img src="../../.gitbook/assets/image002 (2).png" alt=""><figcaption></figcaption></figure>
 
 {% file src="../../.gitbook/assets/AdvancedInsights_SMS_DEF (1).mof" %}
 For manual import of Inventory Extension Classes into Hardware Inventory
@@ -36,7 +36,7 @@ For manual import of Inventory Extension Classes into Hardware Inventory
 3. From this page click **Import...** and select the **AdvancedInsights\_SMS\_DEF.mof**
 4. Tick/untick the imported Inventory Classes as required
 
-!\[]\(/\_images/image-(1258 "").png "")
+<figure><img src="../../.gitbook/assets/image (1258).png" alt=""><figcaption><p>Inventory Classes displayed In Hardware Inventory Client Settings</p></figcaption></figure>
 
 ***
 
@@ -46,7 +46,7 @@ For manual import of Inventory Extension Classes into Hardware Inventory
 If you have previously deployed the "**PMPC Data Collection**" PowerShell Package, please ensure you delete its deployment before deploying the new **InventoryExtensions.msi**
 {% endhint %}
 
-!\[]\(/\_images/image-(1325 "").png "")
+<figure><img src="../../.gitbook/assets/image (1325).png" alt=""><figcaption><p>ConfigMgr package "PMPC Data Collection (LEGACY)" to remove</p></figcaption></figure>
 
 {% hint style="info" %}
 After removing the deployment for the legacy PMPC Data Collection package, the **InventoryExtensions.msi** must be installed on clients you wish to collect inventory data from.
@@ -63,19 +63,19 @@ You can deploy the **Inventory Extensions** product via <mark style="color:green
 
 1\. Open the Patch My PC Publisher, navigate to the ConfigMgr/Intune Apps tab and select **Patch My PC >** **Advanced Insights Inventory Extensions (MSI-x64)**
 
-!\[]\(/\_images/image-(1321 "").png "")
+<figure><img src="../../.gitbook/assets/image (1321).png" alt=""><figcaption><p>Advanced Insights Inventory Extensions app in the PMPC Publisher</p></figcaption></figure>
 
 2\. To quickly sync this app to ConfigMgr/Intune without having to wait for all other selected apps and updates in the Publisher to evaluate and process, right click the **Advanced Insights Inventory Extensions (MSI-x64)** app and select **Publish this product during the next manual sync. (Selective sync).**
 
-!\[]\(/\_images/image-(1326 "").png "")
+<figure><img src="../../.gitbook/assets/image (1326).png" alt="" width="375"><figcaption><p>Choose "Selective sync" to publish the MSI quickly to ConfigMgr</p></figcaption></figure>
 
 3\. On the **Sync Schedule** tab, click **Run Publishing Service Sync.**
 
-!\[]\(/\_images/image-(1327 "").png "")
+<figure><img src="../../.gitbook/assets/image (1327).png" alt="" width="375"><figcaption><p>Publisher Sync</p></figcaption></figure>
 
 4\. Verify the **Inventory Extensions x.x.x.x (MSI-x64)** application was created and deploy it to your desired collection(s).
 
-!\[]\(/\_images/image-(1329 "").png "")
+<figure><img src="../../.gitbook/assets/image (1329).png" alt=""><figcaption><p>Inventory Extensions app created successfully</p></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -88,11 +88,11 @@ We also recommend that you enable the Advanced Insights Inventory Extensions (MS
 {% hint style="info" %}
 **Note**
 
-The Advanced Insights Inventory Extensions will add approximately 0.5 MB per-client to the Configuration Manager database. We recommend increasing the acceptable inventory file size from the default of 5MB to a minimum of 10MB.
+The Advanced Insights Inventory Extensions will add approximately 0.5 MB per-client to the Configuration Manager database. We recommend increasing the acceptable inventory file size from the default of 5MB to a minimum of 10MB.&#x20;
 
 To do so, edit the below registry value on the ConfigMgr site server:
 
 * **Registry key:** HKLM\Software\Microsoft\SMS\Components\SMS\_INVENTORY\_DATA\_LOADER
-* **Registry value:** Max MIF Size
-* **Data:** 10485760 (decimal) / a00000 (hexadecimal)
+* **Registry value:** Max MIF Size&#x20;
+* **Data:** 10485760 (decimal) / a00000 (hexadecimal)&#x20;
 {% endhint %}

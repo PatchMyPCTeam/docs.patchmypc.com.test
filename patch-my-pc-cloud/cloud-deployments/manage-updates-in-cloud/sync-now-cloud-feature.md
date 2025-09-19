@@ -10,13 +10,15 @@ If an app has more than one version of an update available, using **Sync Now** e
 
 If you have [resumed updates](resume-cloud-updates.md) for an app in Patch My PC (PMPC) Cloud and want to update it as soon as possible rather than waiting for the nightly sync job to run:
 
-1.  Click on the relevant deployment which has been resumed.\\
+1.  Click on the relevant deployment which has been resumed.\
 
-    !\[]\(/\_images/image-(2004 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2004).png" alt="Clicking on the relevant successful deployment for which updates have been resumed"><figcaption></figcaption></figure>
 2.  Click **Sync Now** to install any updates for the app immediately.\
-    \\
+    \
 
-    !\[]\(/\_images/image-(2005 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (2005).png" alt="Clicking “Sync Now”"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -24,19 +26,22 @@ If you have [resumed updates](resume-cloud-updates.md) for an app in Patch My PC
 If the **Sync Now** button is greyed out, no updates are available for this app.
 {% endhint %}
 
-3.  On the **Are you sure you want to update <**_**app\_name**_**> to the latest version** popup, click **OK**.\\
+3.  On the **Are you sure you want to update <**_**app\_name**_**> to the latest version** popup, click **OK**.\
 
-    !\[]\(/\_images/image-(1828 "").png "") to the latest version" popup">
 
-    \
-    The **Deployment <**_**app\_name**_**> updated** notification is displayed and the deployment **Status** changes to **In Progress**.\\
-
-    !\[]\(/\_images/image-(1829 "").png "") updated” notification is displayed and the deployment “Status” changes to “In Progress”.">
+    <figure><img src="../../../.gitbook/assets/image (1828).png" alt="&#x22;Are you sure you want to update <app_name> to the latest version&#x22; popup"><figcaption></figcaption></figure>
 
     \
-    Once the deployment has been completed successfully, the **Status** changes to **Success**.\\
+    The **Deployment <**_**app\_name**_**> updated** notification is displayed and the deployment **Status** changes to **In Progress**.\
 
-    !\[]\(/\_images/image-(1830 "").png "")
+
+    <figure><img src="../../../.gitbook/assets/image (1829).png" alt="“Deployment <app_name> updated” notification is displayed and the deployment “Status” changes to “In Progress”."><figcaption></figcaption></figure>
+
+    \
+    Once the deployment has been completed successfully, the **Status** changes to **Success**.\
+
+
+    <figure><img src="../../../.gitbook/assets/image (1830).png" alt="“Status” changing to Success."><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Tip**

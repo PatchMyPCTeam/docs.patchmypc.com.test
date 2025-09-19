@@ -9,7 +9,8 @@ Sometimes we need you to provide log files, including information about your Adv
 
 The Advanced Insights Log Collector is located at:
 
-_`%Advanced Insights Install Directory%`_`\Api\LogCollector\AdvancedInsightsLogDiag.exe`\\
+_`%Advanced Insights Install Directory%`_`\Api\LogCollector\AdvancedInsightsLogDiag.exe`\
+
 
 For example:
 
@@ -26,7 +27,7 @@ This ZIP should be shared with Patch My PC technical support.
 _Example output:_
 {% endhint %}
 
-!\[]\(/\_images/image-(1926 "").png "")
+<figure><img src="../.gitbook/assets/image (1926).png" alt=""><figcaption><p>Advanced Insights log collection output.</p></figcaption></figure>
 
 **This page provides details about what information the AdvancedInsightsLogDiag.exe collects.**
 
@@ -36,15 +37,15 @@ The contents of the following directory are collected, which consist of the 'Adv
 
 C:\ProgramData\AdvancedInsights\Logs
 
-!\[]\(/\_images/image-(1924 "").png "")
+<figure><img src="../.gitbook/assets/image (1924).png" alt=""><figcaption><p>Advanced Insights default logging directory</p></figcaption></figure>
 
 ### Windows Application Event Log
 
 The Windows Application Event log data is collected and output into 'Application\_EventLog.log' with a filter applied for the following event sources:
 
-* ".NET Runtime"
+* ".NET Runtime"&#x20;
 * "Advanced Insights"
-* "MsiInstaller" - if required to diagnose install problems, the filter will include
+* "MsiInstaller" - if required to diagnose install problems, the filter will include&#x20;
 
 ### Advanced Insights SQLite db
 
@@ -59,7 +60,7 @@ The following information is queried from the SQL Server instance where the Conf
 **SQL Master db:**
 
 * Configuration Manager database name
-* Configuration Manager databaste state (ONLINE/OFFLINE)
+* &#x20;Configuration Manager databaste state (ONLINE/OFFLINE)
 * Configuration Manager database compatibility level
 * Configuration Manager database .mdf file path
 * Configuration Manager database file size
@@ -82,7 +83,7 @@ The following information is queried from the SQL Server instance where the Conf
 **Configuration Manager SQL database:**
 
 * Advanced Insights Inventory Extensions class names and data counts.
-* Advanced Insights Inventory Extensions Configuration Manager application information. For example 'Name', 'created date', 'version', 'number of deployments'.
+* Advanced Insights Inventory Extensions Configuration Manager application information. For    example 'Name', 'created date', 'version', 'number of deployments'.
 * Configuration Manager database level SQL configured properties:
   * MAXDOP
   * LEGACY\_CARDINALITY\_ESTIMATION

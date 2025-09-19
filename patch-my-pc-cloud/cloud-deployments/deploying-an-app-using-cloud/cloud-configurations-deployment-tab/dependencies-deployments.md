@@ -31,7 +31,7 @@ Like Intune, we do not support circular dependencies (i.e. App A has a dependenc
 As per Intune, you can create a maximum of 100 dependencies, which includes the dependencies of any included dependencies, as well as the app itself. See [Step 5: Dependencies](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-5-dependencies) of [Add, assign, and monitor a Win32 app in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add) for more information.
 {% endhint %}
 
-!\[]\(/\_images/image-(88 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (88).png" alt="“Dependencies” tool" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -43,17 +43,17 @@ To add a dependency:
 
 1. Click the **Dependencies** tool.
 
-!\[]\(/\_images/image-(89 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (89).png" alt="Clicking the &#x22;Dependencies&#x22; tool" width="563"><figcaption></figcaption></figure>
 
 2. From the **Add Dependencies** field, either:
    1. Start typing the name of the relevant app that this app depends on already being successfully installed on the target device.
    2. Click the dropdown and select the relevant app that this app depends on already being successfully installed on the target device.
 
-!\[]\(/\_images/image-(90 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (90).png" alt="Selecting the relevant app that this app depends on already being successfully installed on the target device" width="423"><figcaption></figcaption></figure>
 
 The selected app appears under the **Parent Deployment** section.
 
-!\[]\(/\_images/image-(91 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (91).png" alt="Selected app appearing under the “Parent Deployment” section" width="422"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note**
@@ -68,7 +68,7 @@ Click the trashcan beside the relevant app under the **Parent Deployment** secti
 
 Once a dependency has been configured, you can view it as part of the app’s properties in the Microsoft Intune admin center.
 
-<img src="../../../../.gitbook/assets/image (339).png" alt="Viewing dependencies for an app in the Microsoft Intune admin center" data-size="original">
+![Viewing dependencies for an app in the Microsoft Intune admin center](<../../../../.gitbook/assets/image (339).png>)
 
 For more information, see [Step 5: Dependencies](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-5-dependencies) of [Add, assign, and monitor a Win32 app in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add).
 {% endhint %}
@@ -84,7 +84,7 @@ If a dependency is set up in the Intune admin center between an app managed by P
 
 If we encounter any problems with app dependencies, we display a yellow exclamation mark (“**!**”) warning. Hovering over this will display more information.
 
-!\[]\(/\_images/image-(334 "").png "")
+<img src="../../../../.gitbook/assets/image (334).png" alt="" data-size="original">
 
 We typically generate warnings in the following scenarios:
 
@@ -92,11 +92,14 @@ We typically generate warnings in the following scenarios:
 * If a dependency fails to be carried forward. In this case, a warning is shown on the impacted child app(s) at the deployment level.
 * When multiple parent dependencies exist, any warnings will specify which particular dependency failed to be created to help you troubleshoot the issue.
 
+
+
 If an entire deployment fails before the dependencies stage is reached, no warnings are shown, as we only show warnings for successful deployments.
 {% endhint %}
 
-4.  If you do not want to configure any of the optional tabs under the **Tools** section, click **Next** to move to the [Assignments](../cloud-assignments-deployment-tab.md) tab.\\
+4.  If you do not want to configure any of the optional tabs under the **Tools** section, click **Next** to move to the [Assignments](../cloud-assignments-deployment-tab.md) tab.\
+
 
     Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-!\[]\(/\_images/image-(92 "").png "")
+<figure><img src="../../../../.gitbook/assets/image (92).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page" width="563"><figcaption></figcaption></figure>
