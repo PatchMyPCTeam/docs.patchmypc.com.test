@@ -4,15 +4,14 @@ _Applies to: Patch My PC Cloud_
 
 To edit a Custom App for a Managed Service Provider (MSP) you’ve created in Patch My PC (PMPC) Cloud, follow the [Modify a Custom App](../../custom-apps/modify-a-custom-app.md) process for the relevant app.
 
-{% hint style="info" %}
-**Note**
-
-When you view the properties of a Custom App for an MSP, the **Source** field shows the name of the company that created the app.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>When you view the properties of a Custom App for an MSP, the <strong>Source</strong> field shows the name of the company that created the app.</p>
+</blockquote>
 
 You can also change:
 
-* The visibility of the Custom App by selecting the new setting under the **Custom App Visibility** section of the **Configurations** page.
+* The visibility of the Custom App by selecting the new setting under the <strong>Custom App Visibility</strong> section of the <strong>Configurations</strong> page.
 * Which child companies the app is visible on.
 
 For example:
@@ -23,16 +22,13 @@ For example:
 | No Customers            | Specific Customers | Custom App will only appear in the App Catalog of the selected child companies. |
 | All /Specific Customers | No Customers       | Custom App will be removed from the App Catalog of all child companies.         |
 
-{% hint style="warning" %}
-**Important**
+<blockquote class="wp-block-quote">
+<p><strong>Important</strong></p>
+<p>If an app has been shared with and deployed from that company, changing either of the above settings may generate the "<strong>Are you sure?</strong>" popup warning you of the impact and asking you to confirm the deletion of the deployment of this app at the child company.</p>
+<p>![“Are you sure” popup](/_images/image-(344).png>)</p>
+</blockquote>
 
-If an app has been shared with and deployed from that company, changing either of the above settings may generate the "**Are you sure?**" popup warning you of the impact and asking you to confirm the deletion of the deployment of this app at the child company.
-
-![“Are you sure” popup](<../../../.gitbook/assets/image (344).png>)
-{% endhint %}
-
-{% hint style="info" %}
-**Note**
-
-If a child company has been selected in the **Customers** field, you cannot remove it if the app has been deployed from there. You must delete the deployment first, after which you can remove that child company from the list.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>If a child company has been selected in the <strong>Customers</strong> field, you cannot remove it if the app has been deployed from there. You must delete the deployment first, after which you can remove that child company from the list.</p>
+</blockquote>

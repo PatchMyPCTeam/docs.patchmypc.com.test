@@ -2,22 +2,20 @@
 
 _Applies to: Patch My PC Cloud_
 
-The **Configurations** tab of the Patch My PC (PMPC) Cloud deployment wizard allows you to configure various configuration settings (explained below) for how you want the app to be deployed.
+The <strong>Configurations</strong> tab of the Patch My PC (PMPC) Cloud deployment wizard allows you to configure various configuration settings (explained below) for how you want the app to be deployed.
 
-{% hint style="info" %}
-**Note**
-
-The most common settings are displayed by default. You can configure additional, optional settings by clicking the relevant tab under the **Tools** section and following the relevant process.
-
-If any configuration options mentioned below are missing from your deployment, it is probably because the specific feature(s) the option relates to have not been enabled in your PMPC Cloud company.
-
-Any settings you configure for a deployment will be used for the current deployment and automatically applied to any new versions of the deployment as it's updated.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>The most common settings are displayed by default. You can configure additional, optional settings by clicking the relevant tab under the <strong>Tools</strong> section and following the relevant process.</p>
+<p>If any configuration options mentioned below are missing from your deployment, it is probably because the specific feature(s) the option relates to have not been enabled in your PMPC Cloud company.</p>
+<p>Any settings you configure for a deployment will be used for the current deployment and automatically applied to any new versions of the deployment as it's updated.</p>
+</blockquote>
 
 This tab contains the following settings:
 
 * [Apply Template](./#apply-template)
-*  [Built-in Auto Updates](./#built-in-auto-updates)
+*
+  [Built-in Auto Updates](./#built-in-auto-updates)
 * [Desktop Shortcut](./#desktop-shortcut)
 * [Available Uninstall](./#available-uninstall)
 * [Conflicting Process](./#conflicting-process)
@@ -26,31 +24,32 @@ This tab contains the following settings:
 * [Notification Policy](./#notification-policy)
 * [Conflicting Process - Conflicting Process](./#conflicting-process-conflicting-process)
 
-<figure><img src="../../../../.gitbook/assets/image (2601).png" alt="&#x22;Configurations&#x22; tab" width="563"><figcaption></figcaption></figure>
+![&#x22;Configurations&#x22; tab](/_images/image-(2601).png "&#x22;Configurations&#x22; tab")
 
-### **Apply Template**
+### <strong>Apply Template</strong>
 
 Allows you to apply a [Template](../../use-a-template-in-cloud-deployments.md) of pre-configured settings to this deployment.
 
-### **Built-in Auto Updates**
+### <strong>Built-in Auto Updates</strong>
 
 | Option               | Description                                                                                                                                                                                                                                                                                                                                        |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Disable Self-Updates | <p>If an app supports built-in auto-updates, this option will be shown and enabled by default, disabling any auto-updates.</p><p></p><p>There might be apps that have built-in auto-updates, but do not support controlling this setting by setting an install parameter or a registry value. In such cases, this option will be unavailable.</p> |
+| Disable Self-Updates | <p>If an app supports built-in auto-updates, this option will be shown and enabled by default, disabling any auto-updates.</p><p></p><p>There might be apps that have built-in auto-updates, but do not support controlling this setting by setting an install parameter or a registry value. In such cases, 
+this option will be unavailable.</p> |
 
-### **Desktop Shortcut**
+### <strong>Desktop Shortcut</strong>
 
 | Option                  | Description                                                                           |
 | ----------------------- | ------------------------------------------------------------------------------------- |
 | Remove Desktop Shortcut | If checked, will remove the desktop shortcut created as part of the app installation. |
 
-### **Available Uninstall**
+### <strong>Available Uninstall</strong>
 
 | Option                    | Description                                                                             |
 | ------------------------- | --------------------------------------------------------------------------------------- |
 | Allow Available Uninstall | If checked, allows Intune Apps to uninstall the app if the Company Portal installed it. |
 
-### **Conflicting Process**
+### <strong>Conflicting Process</strong>
 
 The installation of some apps cannot be completed if the app:
 
@@ -68,13 +67,13 @@ This setting lets you manage those conflicting processes (also known as "_Confli
 
 ### Conflicting Process - Settings
 
-Allows you to configure the following **Advanced Settings** for Conflicting Processes.
+Allows you to configure the following <strong>Advanced Settings</strong> for Conflicting Processes.
 
-### **Notify Timeout Configuration**
+### <strong>Notify Timeout Configuration</strong>
 
-How long in seconds (**300** by default), before the notification timeouts.
+How long in seconds (<strong>300</strong> by default), before the notification timeouts.
 
-### **Notification Policy**
+### <strong>Notification Policy</strong>
 
 | Option                                                                       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -85,14 +84,14 @@ How long in seconds (**300** by default), before the notification timeouts.
 
 ### Conflicting Process - Conflicting Process
 
-Clicking the **Conflicting Process** button lets you see any conflicting processes we have identified that will prevent an app from updating.
+Clicking the <strong>Conflicting Process</strong> button lets you see any conflicting processes we have identified that will prevent an app from updating.
 
 You can also add additional entries or remove existing entries to suit your environment.
 
-***
+<strong>*
 
-If you do not want to configure any of the optional tabs under the **Tools** section, click **Next** to move to the [Assignments](../cloud-assignments-deployment-tab.md) tab.
+If you do not want to configure any of the optional tabs under the </strong>Tools<strong> section, click </strong>Next<strong> to move to the [Assignments](../cloud-assignments-deployment-tab.md) tab.
 
-Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
+Otherwise, click on the relevant tab under </strong>Tools** to configure the required settings, which are explained in the relevant process.
 
-<figure><img src="../../../../.gitbook/assets/image (2602).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab" width="563"><figcaption></figcaption></figure>
+![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab](/_images/image-(2602).png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab")

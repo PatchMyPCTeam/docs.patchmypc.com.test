@@ -2,83 +2,70 @@
 
 _Applies to: Patch My PC Cloud_
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>Using the <strong>Extra Files</strong> tool is optional.</p>
+</blockquote>
 
-Using the **Extra Files** tool is optional.
-{% endhint %}
-
-The **Extra Files** tool of the Patch My PC (PMPC) Cloud deployment wizard allows you to upload additional configuration files for a deployment.
+The <strong>Extra Files</strong> tool of the Patch My PC (PMPC) Cloud deployment wizard allows you to upload additional configuration files for a deployment.
 
 To add extra folders and/or files:
 
-1. Click the **Extra Files** tool to expose the configurable settings.
+1. Click the <strong>Extra Files</strong> tool to expose the configurable settings.
 
-<figure><img src="../../../../.gitbook/assets/image (82).png" alt="Clicking the &#x22;Extra Files&#x22; tool" width="563"><figcaption></figcaption></figure>
+![Clicking the &#x22;Extra Files&#x22; tool](/_images/image-(82).png "Clicking the &#x22;Extra Files&#x22; tool")
 
-2. Scroll down to the end of the **Extra Files** section so that the buttons and their subtext are visible.
+2. Scroll down to the end of the <strong>Extra Files</strong> section so that the buttons and their subtext are visible.
 
-<figure><img src="../../../../.gitbook/assets/image (83).png" alt="Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible" width="563"><figcaption></figcaption></figure>
+![Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible](/_images/image-(83).png "Scrolling down to the end of the &#x22;Extra Files&#x22; section so that the buttons and their subtext are visible")
 
 3. Either:
    1. Drag and drop the relevant folders or files to the relevant area.
    2. Click the relevant button to browse to and select the relevant folders or files.
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>See [Unsupported File Names and Extensions for Extra Files](../../../cloud-reference/unsupported-file-names-and-extensions-in-cloud.md) for a list of filenames and extensions we do not support for upload.</p>
+<p>Also, adding a folder will add any files and folders (including their files) within the selected folder.</p>
+<p>We support uploading files with the same name, provided they are in different folders. We also support uploading folders with the same name, provided the selected paths are unique.</p>
+</blockquote>
 
-See [Unsupported File Names and Extensions for Extra Files](../../../cloud-reference/unsupported-file-names-and-extensions-in-cloud.md) for a list of filenames and extensions we do not support for upload.
-
-Also, adding a folder will add any files and folders (including their files) within the selected folder.
-
-We support uploading files with the same name, provided they are in different folders. We also support uploading folders with the same name, provided the selected paths are unique.
-{% endhint %}
-
-4.  Click **Upload** when your browser prompts you to upload the content.\
+4.  Click <strong>Upload</strong> when your browser prompts you to upload the content.\
     \
 
 
-    <figure><img src="../../../../.gitbook/assets/image (146).png" alt="Clicking &#x22;Upload&#x22; when prompted to upload the content"><figcaption></figcaption></figure>
+    ![Clicking &#x22;Upload&#x22; when prompted to upload the content](/_images/image-(146).png "Clicking &#x22;Upload&#x22; when prompted to upload the content")
 
     \
-    The hash will be calculated for any folders/files you upload, which will appear at the bottom of the **Extra Files** section.
+    The hash will be calculated for any folders/files you upload, which will appear at the bottom of the <strong>Extra Files</strong> section.
 
-<figure><img src="../../../../.gitbook/assets/image (84).png" alt="Additional folders/files to be uploaded appearing at the bottom of the “Extra Files” section" width="438"><figcaption></figcaption></figure>
+![Additional folders/files to be uploaded appearing at the bottom of the “Extra Files” section](/_images/image-(84).png "Additional folders/files to be uploaded appearing at the bottom of the “Extra Files” section")
 
-{% hint style="info" %}
-**Note**
-
-The total number of extra folders/files is not limited, but their total size must not exceed the storage limits for your license type. See [Product Limitations](../../../cloud-product-limits.md)  for more details.
-
-Also, if the **Installer Type** on the **General Information** page is set to **`.msi`**, the **MST File** section will be shown, allowing you to upload a single MST file. This file must have the **`.mst`** extension.
-
-![“MST Files” section](<../../../../.gitbook/assets/image (241).png>)
-
-Uploading a **`.mst`** file automatically adds the following to the **Additional Argument** field of the **Install Parameters** section:
-
-**`TRANSFORMS=[<`**_**`mstfile>`**_**`].mst`**
-
-where **`<`**_**`mstfile>`**_ is the name of the uploaded MST file.
-
-![“Install Parameters” section updated](<../../../../.gitbook/assets/image (243).png>)
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>The total number of extra folders/files is not limited, but their total size must not exceed the storage limits for your license type. See [Product Limitations](../../../cloud-product-limits.md)  for more details.</p>
+<p>Also, if the <strong>Installer Type</strong> on the <strong>General Information</strong> page is set to <strong>`.msi`</strong>, the <strong>MST File</strong> section will be shown, allowing you to upload a single MST file. This file must have the <strong>`.mst`</strong> extension.</p>
+<p>![“MST Files” section](/_images/image-(241).png>)</p>
+<p>Uploading a <strong>`.mst`</strong> file automatically adds the following to the <strong>Additional Argument</strong> field of the <strong>Install Parameters</strong> section:</p>
+<p><strong>`TRANSFORMS=[<`</strong>_<strong>`mstfile>`</strong>_<strong>`].mst`</strong></p>
+<p>where <strong>`<`</strong>_<strong>`mstfile>`</strong>_ is the name of the uploaded MST file.</p>
+<p>![“Install Parameters” section updated](/_images/image-(243).png>)</p>
+</blockquote>
 
 5. Repeat the above steps to add any additional folders/files as required.
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>Once a deployment has been successfully created, you can add or remove any additional folders or files as required.</p>
+</blockquote>
 
-Once a deployment has been successfully created, you can add or remove any additional folders or files as required.
-{% endhint %}
-
-6. If you do not want to configure any of the optional tabs under the **Tools** section, click **Next** to move to the [Assignments](../cloud-assignments-deployment-tab.md) tab.\
+6. If you do not want to configure any of the optional tabs under the <strong>Tools</strong> section, click <strong>Next</strong> to move to the [Assignments](../cloud-assignments-deployment-tab.md) tab.\
    \
-   Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
+   Otherwise, click on the relevant tab under <strong>Tools</strong> to configure the required settings, which are explained in the relevant process.
 
-<figure><img src="../../../../.gitbook/assets/image (85).png" alt="Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page" width="563"><figcaption></figcaption></figure>
+![Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page](/_images/image-(85).png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; page")
 
-{% hint style="info" %}
-**Note**
-
-If you upload [Extra Files](extra-files-deployments.md) as part of your Patch My PC (PMPC) Cloud Deployment, you can reference those files in any of the [Scripts](cloud-scripts-deployment-tool/) in the same deployment by building a path relative to the script's current location. See [Referencing Extra Files in Scripts](../../cloud-deployments-reference/referencing-extra-files-in-scripts.md) for more information.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>If you upload [Extra Files](extra-files-deployments.md) as part of your Patch My PC (PMPC) Cloud Deployment, you can reference those files in any of the [Scripts](cloud-scripts-deployment-tool/) in the same deployment by building a path relative to the script's current location. See [Referencing Extra Files in Scripts](../../cloud-deployments-reference/referencing-extra-files-in-scripts.md) for more information.</p>
+</blockquote>

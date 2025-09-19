@@ -6,18 +6,18 @@ _Applies to: Binary Free Apps_
 
 I am trying to upload the application file for a Patch My PC (PMPC) Cloud Binary Free App, but after selecting the file, I get the following:
 
-**Error**
+<strong>Error</strong>
 
-**Unable to verify the file you are trying to upload. Please ensure you have uploaded the correct file.**
+<strong>Unable to verify the file you are trying to upload. Please ensure you have uploaded the correct file.</strong>
 
-<figure><img src="../../../.gitbook/assets/image (2048).png" alt="“Unable to verify the file you are trying to upload. Please ensure you have uploaded the correct file” error when uploading a Binary Free App "><figcaption></figcaption></figure>
+![“Unable to verify the file you are trying to upload. Please ensure you have uploaded the correct file” error when uploading a Binary Free App](/_images/image-(2048).png "“Unable to verify the file you are trying to upload. Please ensure you have uploaded the correct file” error when uploading a Binary Free App")
 
 ### CAUSE
 
 This error is caused either by you selecting a file that doesn’t match the:
 
 * Metadata we hold for the Binary Free App in our App Catalog
-* Configuration set on the **General Information** tab of the Binary Free App.
+* Configuration set on the <strong>General Information</strong> tab of the Binary Free App.
 
 For example, you could have selected an installer with the wrong:
 

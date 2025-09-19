@@ -13,7 +13,7 @@ To deploy the certificate using a custom configuration policy, follow the [Creat
 There are two distinct use cases in PMPC Cloud that require separate certificates:
 
 1. [Intune Detection and Requirement Scripts](using-a-custom-configuration-policy-to-deploy-the-patch-my-pc-certificate.md#deploy-the-certificate-use-to-sign-intune-detection-and-requirement-scripts)\
-   Used to sign **Intune detection and requirement scripts** for Win32 applications published through PMPC Cloud.&#x20;
+   Used to sign <strong>Intune detection and requirement scripts</strong> for Win32 applications published through PMPC Cloud.&#x20;
 2. [Patch My PC Helper Scripts](using-a-custom-configuration-policy-to-deploy-the-patch-my-pc-certificate.md#deploy-the-certificate-use-to-sign-patch-my-pc-helper-scripts)\
    Used to sign required and recommended pre/post "helper" scripts for certain applications in the PMPC catalog. These helper scripts perform essential tasks such as stopping processes, uninstalling older software versions, or configuring application behavior during deployment to ensure successful app installation.
 
@@ -45,7 +45,7 @@ Configure any desired applicability rules.
 
 ### “Review + create” tab
 
-Double-check everything before clicking **Create**.
+Double-check everything before clicking <strong>Create</strong>.
 
 ## 2. Deploy the Certificate use to sign Patch My PC Helper Scripts&#x20;
 
@@ -78,14 +78,14 @@ Configure any desired applicability rules.
 
 ### “Review + create” tab
 
-Double-check everything before clicking **Create**.
+Double-check everything before clicking <strong>Create</strong>.
 
 ## Post Processing
 
-Once the client processes the policy, the certificate appears as follows in its **Trusted Publishers** store.
+Once the client processes the policy, the certificate appears as follows in its <strong>Trusted Publishers</strong> store.
 
-<figure><img src="../../../.gitbook/assets/image (654).png" alt="How the certificate appears in a clients “Trusted Publishers” store" width="563"><figcaption></figcaption></figure>
+![How the certificate appears in a clients “Trusted Publishers” store](/_images/image-(654).png "How the certificate appears in a clients “Trusted Publishers” store")
 
 Double-clicking the certificate allows you to see its properties.
 
-<figure><img src="../../../.gitbook/assets/image (655).png" alt="Properties of the certificate" width="475"><figcaption></figcaption></figure>
+![Properties of the certificate](/_images/image-(655).png "Properties of the certificate")

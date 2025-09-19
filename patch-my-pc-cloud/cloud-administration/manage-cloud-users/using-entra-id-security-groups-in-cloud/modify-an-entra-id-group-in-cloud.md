@@ -4,38 +4,36 @@ _Applies to: Patch My PC Cloud_
 
 Once an Entra ID Security Group has been added to Patch My PC (PMPC) Cloud, you can change the role assigned to that group.
 
-{% hint style="info" %}
-**Note**
-
-You cannot change the membership of an Entra ID Security Group from within the PMPC Cloud portal.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>You cannot change the membership of an Entra ID Security Group from within the PMPC Cloud portal.</p>
+</blockquote>
 
 To change the role assigned to an Entra ID Security Group:
 
-1.  In the PMPC Cloud portal, navigate to **Settings | Users**.\
+1.  In the PMPC Cloud portal, navigate to <strong>Settings | Users</strong>.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (2245).png" alt="Navigating to “Settings | Users”"><figcaption></figcaption></figure>
+    ![Navigating to “Settings | Users”](/_images/image-(2245).png "Navigating to “Settings | Users”")
 
 
-2.  Click **Entra ID Groups**.\
+2.  Click <strong>Entra ID Groups</strong>.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (2246).png" alt="Clicking “Entra ID Groups”"><figcaption></figcaption></figure>
+    ![Clicking “Entra ID Groups”](/_images/image-(2246).png "Clicking “Entra ID Groups”")
 
 
-3. Click the dropdown arrow in the **Group Role** column beside the group whose role you want to modify and select the new role.
+3. Click the dropdown arrow in the <strong>Group Role</strong> column beside the group whose role you want to modify and select the new role.
 
-{% hint style="warning" %}
-**Important**
+<blockquote class="wp-block-quote">
+<p><strong>Important</strong></p>
+<p>You will be unable to change the group’s role from <strong>Full Admin with Access Management</strong> to another role if this is the only group assigned that role and no users under the <strong>Active Users</strong> tab have been assigned the <strong>Full Admin with Access Management</strong> role.</p>
+</blockquote>
 
-You will be unable to change the group’s role from **Full Admin with Access Management** to another role if this is the only group assigned that role and no users under the **Active Users** tab have been assigned the **Full Admin with Access Management** role.
-{% endhint %}
+![Clicking the dropdown arrow in the “Group Role” column beside the group whose role you want to modify and selecting the new role](/_images/image-(2247).png "Clicking the dropdown arrow in the “Group Role” column beside the group whose role you want to modify and selecting the new role")
 
-<figure><img src="../../../../.gitbook/assets/image (2247).png" alt="Clicking the dropdown arrow in the “Group Role” column beside the group whose role you want to modify and selecting the new role"><figcaption></figcaption></figure>
+The portal auto-refreshes to show the new role assigned to the group and the <strong>Success – Role changed</strong> notification is shown.
 
-The portal auto-refreshes to show the new role assigned to the group and the **Success – Role changed** notification is shown.
+![Portal auto-refreshing to show the new role assigned to the group and the “Success – Role changed” notification is shown](/_images/image-(2248).png "Portal auto-refreshing to show the new role assigned to the group and the “Success – Role changed” notification is shown")
 
-<figure><img src="../../../../.gitbook/assets/image (2248).png" alt="Portal auto-refreshing to show the new role assigned to the group and the “Success – Role changed” notification is shown"><figcaption></figcaption></figure>
-
-When you change the role of an Entra ID Security Group, the **Group role with name <**_**group\_name**_**> and id <**_**entra\_id\_security\_group\_id**_**> was changed to role <**_**new\_user\_role**_**>** event is written to the **Events** node.&#x20;
+When you change the role of an Entra ID Security Group, the <strong>Group role with name <</strong>_<strong>group\_name</strong>_<strong>> and id <</strong>_<strong>entra\_id\_security\_group\_id</strong>_<strong>> was changed to role <</strong>_<strong>new\_user\_role</strong>_<strong>></strong> event is written to the <strong>Events</strong> node.&#x20;

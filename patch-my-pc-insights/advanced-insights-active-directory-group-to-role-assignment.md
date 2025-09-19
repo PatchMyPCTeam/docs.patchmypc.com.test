@@ -12,22 +12,22 @@ Active Directory Group Authentication enables the Advanced Insights administrato
 
 To use this feature, first enable Active Directory Authentication using Administration - Settings - User Management, more details [here](https://docs.patchmypc.com/installation-guides/advanced-insights/active-directory-integration).
 
-Once this is configured, we can assign an existing role to an Active Directory Group, or create a new role for a group. **N.B. There is currently no support for nested groups.**
+Once this is configured, we can assign an existing role to an Active Directory Group, or create a new role for a group. <strong>N.B. There is currently no support for nested groups.</strong>
 
-**Assigning a Role to an Active Directory Group**
+<strong>Assigning a Role to an Active Directory Group</strong>
 
-Navigate to **Administration** > **Roles**.
+Navigate to <strong>Administration</strong> > <strong>Roles</strong>.
 
 1. Click Create new role
 2. Enter a name for the role (in this example, "Helpdesk"
 3. Type the name of the associated Active Directory Security Group, here, we are using "sg-Helpdesk". Ensure the group name is validated on save.
 
-<figure><img src="../.gitbook/assets/Role Group.jpg" alt=""><figcaption><p>Role creation dialog</p></figcaption></figure>
+![](/_images/Role-Group.jpg)
 
 Now click the Permissions tab and select the pages and permissions you want to grant to this role.
 
-<figure><img src="../.gitbook/assets/image (1226).png" alt=""><figcaption><p>Role Permissions</p></figcaption></figure>
+![](/_images/image-(1226).png "Role Permissions")
 
 Logging on with an account in the helpdesk role, the user is granted only the access stated in the role configuration:
 
-<figure><img src="../.gitbook/assets/Helpdesk User Dashboard.jpg" alt=""><figcaption></figcaption></figure>
+![](/_images/Helpdesk-User-Dashboard.jpg)

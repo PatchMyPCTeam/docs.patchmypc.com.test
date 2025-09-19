@@ -10,20 +10,18 @@ If available, this is prioritized as it typically specifies a silent or automate
 
 ### UninstallString
 
-If no **QuietUninstallString** is found, it falls back to the general uninstall command.
+If no <strong>QuietUninstallString</strong> is found, it falls back to the general uninstall command.
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>The <strong>UninstallString</strong> may not always support silent operations and could display prompts or dialogs requiring user input. When the uninstallation is triggered in the SYSTEM context, this interaction occurs in session 0, potentially causing the process to fail while waiting for input.</p>
+</blockquote>
 
-The **UninstallString** may not always support silent operations and could display prompts or dialogs requiring user input. When the uninstallation is triggered in the SYSTEM context, this interaction occurs in session 0, potentially causing the process to fail while waiting for input.
-{% endhint %}
-
-### **Limitations**
+### <strong>Limitations</strong>
 
 Custom Apps uninstallation supports MSI's for ConfigMgr and both MSI's and EXE's for Intune. We are planning to add additional customizations and support in a future release.
 
-{% hint style="info" %}
-**Note**
-
-If you are using our On-Premises Publisher, pre and post script functionality for uninstalling EXE-based Custom Apps for both ConfigMgr and Intune is currently unavailable.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>If you are using our On-Premises Publisher, pre and post script functionality for uninstalling EXE-based Custom Apps for both ConfigMgr and Intune is currently unavailable.</p>
+</blockquote>

@@ -12,9 +12,9 @@ Below, you will find logs needed for specific scenarios.
 
 ## Server-Side Logs
 
-### **Software Updates - Failing to Publish Updates Using Patch My PC's Publisher**
+### <strong>Software Updates - Failing to Publish Updates Using Patch My PC's Publisher</strong>
 
-When using the Patch My PC **Publisher to published third-party updates to WSUS**, we will need the following log files from the SUP/WSUS server where the service is installed.
+When using the Patch My PC <strong>Publisher to published third-party updates to WSUS</strong>, we will need the following log files from the SUP/WSUS server where the service is installed.
 
 ```
 %PatchMyPCInstallDirectory%\PatchMyPC.log
@@ -26,15 +26,15 @@ When using the Patch My PC **Publisher to published third-party updates to WSUS*
 %SiteServerLogsFolder%\WCM*.log
 ```
 
-The following log may be needed **upon request only due to large file size**
+The following log may be needed <strong>upon request only due to large file size</strong>
 
 ```
 %ProgramFiles%\Update Services\LogFiles\SoftwareDistribution.log
 ```
 
-### **Software Updates - Failing to Publish Updates Using SCCM In-Console Publishing**
+### <strong>Software Updates - Failing to Publish Updates Using SCCM In-Console Publishing</strong>
 
-When using the **SCCM in-console publishing**, we will need the following log files from the SUP/WSUS server where the service is installed.
+When using the <strong>SCCM in-console publishing</strong>, we will need the following log files from the SUP/WSUS server where the service is installed.
 
 ```
 %SiteSystemLogsFolder%\SMS_ISVUPDATES_SYNCAGENT*.log
@@ -42,15 +42,15 @@ When using the **SCCM in-console publishing**, we will need the following log fi
 %SiteServerLogsFolder%\WCM*.log
 ```
 
-The following log file may be needed **upon request only due to large file size**
+The following log file may be needed <strong>upon request only due to large file size</strong>
 
 ```
 %ProgramFiles%\Update Services\LogFiles\SoftwareDistribution.log
 ```
 
-### **SCCM Applications - Failing to Create/Update SCCM Applications Using Patch My PC's Publisher**
+### <strong>SCCM Applications - Failing to Create/Update SCCM Applications Using Patch My PC's Publisher</strong>
 
-When using the Patch My PC **Publisher for SCCM application creation**, we will need the following log files to troubleshoot applications failing to create.
+When using the Patch My PC <strong>Publisher for SCCM application creation</strong>, we will need the following log files to troubleshoot applications failing to create.
 
 ```
 %PatchMyPCInstallDirectory%\PatchMyPC.log
@@ -61,9 +61,9 @@ When using the Patch My PC **Publisher for SCCM application creation**, we will 
 %SCCMInstallFolder%\Logs\SMSProv*.log
 ```
 
-### **Intune Applications - Fails to Create/Update Applications Using Patch My PC's Publisher**
+### <strong>Intune Applications - Fails to Create/Update Applications Using Patch My PC's Publisher</strong>
 
-When using the Patch My PC **Publisher for Intune application creation**, we will need the following log files to troubleshoot applications failing to create.
+When using the Patch My PC <strong>Publisher for Intune application creation</strong>, we will need the following log files to troubleshoot applications failing to create.
 
 ```
 %PatchMyPCInstallDirectory%\PatchMyPC.log
@@ -75,9 +75,9 @@ When using the Patch My PC **Publisher for Intune application creation**, we wil
 
 ## Client-Side Logs
 
-### **Intune Applications/Updates Failing to Install on Client Devices**
+### <strong>Intune Applications/Updates Failing to Install on Client Devices</strong>
 
-When troubleshooting **Intune application installation errors on a client**, we will need multiple client logs. Please include the following logs:
+When troubleshooting <strong>Intune application installation errors on a client</strong>, we will need multiple client logs. Please include the following logs:
 
 ```
 %ProgramData%\PatchMyPCIntuneLogs\PatchMyPC-ScriptRunner.log
@@ -85,15 +85,13 @@ When troubleshooting **Intune application installation errors on a client**, we 
 %ProgramData%\PatchMyPCIntuneLogs\PatchMyPC-SoftwareUpdateDetectionScript.log
 ```
 
-{% hint style="warning" %}
-**Important**
-
-For user-based apps, the logs mentioned above will reside in the following folders:
-
-* %LocalAppData%\PatchMyPCIntuneLogs\PatchMyPC-Scriptrunner.log
-* %Temp%\PatchMyPC-SoftwareDetectionScript.log
-* %Temp%\PatchMyPC-SoftwareUpdateDetectionScript.log
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Important</strong></p>
+<p>For user-based apps, the logs mentioned above will reside in the following folders:</p>
+<p>* %LocalAppData%\PatchMyPCIntuneLogs\PatchMyPC-Scriptrunner.log</p>
+<p>* %Temp%\PatchMyPC-SoftwareDetectionScript.log</p>
+<p>* %Temp%\PatchMyPC-SoftwareUpdateDetectionScript.log</p>
+</blockquote>
 
 ```
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs\AgentExecutor.log
@@ -102,15 +100,14 @@ For user-based apps, the logs mentioned above will reside in the following folde
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs\AppWorkload.log
 ```
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>Some Patch My PC log files listed above may be found in <strong>%WinDir%\CCM</strong> folder if that folder exists.</p>
+</blockquote>
 
-Some Patch My PC log files listed above may be found in **%WinDir%\CCM** folder if that folder exists.
-{% endhint %}
+### <strong>SCCM Applications Failing to Install on Client Devices</strong>
 
-### **SCCM Applications Failing to Install on Client Devices**
-
-When troubleshooting **SCCM application installation errors on a client**, we will need multiple client logs. Please include the following logs:
+When troubleshooting <strong>SCCM application installation errors on a client</strong>, we will need multiple client logs. Please include the following logs:
 
 ```
 %WinDir%\CCM\Logs\AppDiscovery*.log
@@ -124,9 +121,9 @@ When troubleshooting **SCCM application installation errors on a client**, we wi
 %WinDir%\CCM\Logs\StateMessage.log
 ```
 
-### **Third-Party Software Updates Failing to Install on Client Devices**
+### <strong>Third-Party Software Updates Failing to Install on Client Devices</strong>
 
-When troubleshooting **update installation errors on a client**, we will need the following client logs:
+When troubleshooting <strong>update installation errors on a client</strong>, we will need the following client logs:
 
 ```
 %WinDir%\CCM\Logs\CAS*.log
@@ -142,11 +139,11 @@ When troubleshooting **update installation errors on a client**, we will need th
 %WinDir%\WindowsUpdate.log
 ```
 
-* You need to run [**Get-WindowsUpdateLog on Windows 8.1 and newer**](https://docs.microsoft.com/en-us/powershell/module/windowsupdate/get-windowsupdatelog?view=win10-ps) in PowerShell.
+* You need to run [<strong>Get-WindowsUpdateLog on Windows 8.1 and newer</strong>](https://docs.microsoft.com/en-us/powershell/module/windowsupdate/get-windowsupdatelog?view=win10-ps) in PowerShell.
 
-### **Download Stuck at 0% / Waiting to install / Preparing to download**
+### <strong>Download Stuck at 0% / Waiting to install / Preparing to download</strong>
 
-When troubleshooting **update installation errors on a client**, we will need the following client logs:
+When troubleshooting <strong>update installation errors on a client</strong>, we will need the following client logs:
 
 ```
 %WinDir%\CCM\Logs\CAS*.log
@@ -165,61 +162,60 @@ When troubleshooting **update installation errors on a client**, we will need th
 
 ## Configuration Manager Specific  Logs
 
-### **Automatic Deployment Rule Failing for Third-Party Updates**
+### <strong>Automatic Deployment Rule Failing for Third-Party Updates</strong>
 
-When troubleshooting **automatic deployment rules failing for third-party updates**, we will need the following server-side logs. In this example, we will assume the main SCCM installation directory is: **C:\Program Files\Microsoft Configuration Manager**
+When troubleshooting <strong>automatic deployment rules failing for third-party updates</strong>, we will need the following server-side logs. In this example, we will assume the main SCCM installation directory is: <strong>C:\Program Files\Microsoft Configuration Manager</strong>
 
-* **C:\Program Files\Microsoft Configuration Manager\Logs\ruleengine\*.log**
-* The [**PatchDownloader.log**](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/log-files#BKMK_SU_NAPLog) (Location may vary)
+* <strong>C:\Program Files\Microsoft Configuration Manager\Logs\ruleengine\*.log</strong>
+* The [<strong>PatchDownloader.log</strong>](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/log-files#BKMK_SU_NAPLog) (Location may vary)
   * C:\Program Files\SMS\_CCM\Logs\PatchDownloader\*.log (Most common location)
   * C:\Program Files\Microsoft Configuration Manager\Logs\PatchDownloader\*.log (Possible location)
   * %WinDir%\CCM\Logs (Possible location)
-  * If **unable to locate** a current [**PatchDownloader.log**](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/log-files#BKMK_SU_NAPLog), check HKLM\SOFTWARE\Microsoft\CCM\Logging\\@Global:**LogDirectory** on the [**site server**](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/plan-for-site-system-servers-and-site-system-roles#configuration-manager-site-server)
+  * If <strong>unable to locate</strong> a current [<strong>PatchDownloader.log</strong>](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/log-files#BKMK_SU_NAPLog), check HKLM\SOFTWARE\Microsoft\CCM\Logging\\@Global:<strong>LogDirectory</strong> on the [<strong>site server</strong>](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/plan-for-site-system-servers-and-site-system-roles#configuration-manager-site-server)
 
 ![how to locate the patchdownloader.log file](https://patchmypc.com/wp-content/uploads/2020/09/locate-the-patchdownloader.log-file.png)
 
-### **Updates Failing to Download to Deployment Package using SCCM Console**
+### <strong>Updates Failing to Download to Deployment Package using SCCM Console</strong>
 
-When troubleshooting **updates failing to download into a deployment package from the SCCM console**, we will need the following log from the machine running the SCCM console:
+When troubleshooting <strong>updates failing to download into a deployment package from the SCCM console</strong>, we will need the following log from the machine running the SCCM console:
 
 ```
 %temp%\PatchDownloader*.log
 ```
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>If you are using an RDP session, the <strong>patchdownloader.log</strong> may be in a numbered sub-folder in your <strong>Users</strong> <strong>%temp%</strong> folder.</p>
+</blockquote>
 
-If you are using an RDP session, the **patchdownloader.log** may be in a numbered sub-folder in your **Users** **%temp%** folder.
-{% endhint %}
-
-### **Patch My PC Publisher - How to Enable Debug Logging**
+### <strong>Patch My PC Publisher - How to Enable Debug Logging</strong>
 
 Enabling Debug logging is often helpful for troubleshooting unique issues with publishing. Follow the steps below to enable Debug logging:
 
 1. Open the Publisher
-2. Click on the **General** tab
-3. In the dropdown under **Logging Options** select **Debug**\
+2. Click on the <strong>General</strong> tab
+3. In the dropdown under <strong>Logging Options</strong> select <strong>Debug</strong>\
    ![Enable Debug Logging in Publisher](https://patchmypc.com/wp-content/uploads/2020/05/PatchMyPC-Settings_VB3O5uDPhE.png)\
 
 4. Close the Publisher
-5. Open Services.msc and locate the **PatchMyPCService**
-6. Right-click and Restart the **PatchMyPCService**
+5. Open Services.msc and locate the <strong>PatchMyPCService</strong>
+6. Right-click and Restart the <strong>PatchMyPCService</strong>
 7. Debug Logging is now enabled
 
 ## List of Specific Patch My PC Logs and Files
 
 ### PatchMyPC.log
 
-**PatchMyPC.log** is the primary log file for the Publisher and is often required by support for any troubleshooting. The file name and location are:
+<strong>PatchMyPC.log</strong> is the primary log file for the Publisher and is often required by support for any troubleshooting. The file name and location are:
 
 ```
 %PatchMyPCInstallDirectory%\PatchMyPC.log
 %PatchMyPCInstallDirectory%\PatchMyPC.lo_
 ```
 
-### **Settings.xml**
+### <strong>Settings.xml</strong>
 
-**Settings.xml** stores all settings related to the Publisher. This file is also used for [Backup and Restore](https://patchmypc.com/backup-and-restore-publisher-settings). The file name and location are:
+<strong>Settings.xml</strong> stores all settings related to the Publisher. This file is also used for [Backup and Restore](https://patchmypc.com/backup-and-restore-publisher-settings). The file name and location are:
 
 ```
 %PatchMyPCInstallDirectory%\Settings.xml

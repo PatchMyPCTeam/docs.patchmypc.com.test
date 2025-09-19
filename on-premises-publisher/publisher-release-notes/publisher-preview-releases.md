@@ -4,11 +4,10 @@ _Applies to: Patch My PC On-Premises Publisher_
 
 Details the production release history for preview versions of Patch My PC's (PMPC's) On-premises Publisher, the most recent release being shown first.
 
-{% hint style="info" %}
-**Note**
-
-You can find the Preview release notes below, and you can also learn more about the Preview channel here: [Publisher Preview Channel](https://patchmypc.com/preview-channel).
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>You can find the Preview release notes below, and you can also learn more about the Preview channel here: <a href="https://patchmypc.com/preview-channel">Publisher Preview Channel</a>.</p>
+</blockquote>
 
 ## 2.1.36.115 - 2025-08-07
 
@@ -53,29 +52,24 @@ You can find the Preview release notes below, and you can also learn more about 
 
 * Fixed issue where ScriptRunner was not correctly appending MSI and MSP installers with /qn (Introduced in Preview release 2.1.36.80)&#x20;
 
-{% hint style="warning" %}
-#### Remediation Options:
-
-To resolve this issue, please choose one of the following options:
-
-1. **Update to the latest Preview Release (Version 2.1.36.90)**
-   1. In the Publisher, navigate to the About tab.
-   2. You may already have the "Install preview builds" option checked **(1)**
-   3. If the "Currently Installed Version" is 2.1.36.80 **(2)** and the "Latest Available Preview Version" is 2.1.36.90 **(2)**, click "Upgrade Now" **(3)**\
-      \
-      &#xNAN;_**Note:** If the "Install preview builds" option is not checked **(1)**, please check it and click "Apply" and version 2.1.36.90 will be offered. You can now select "Upgrade Now"_.\
-
-2. **Roll back to the latest Production Release (Version 2.1.36.0)**\
-   If you do not wish to remain on the Preview Release channel, uncheck the "Install preview builds" checkbox on the About tab in the Publisher and click "Apply".&#x20;
-   1. Download the latest Publisher production release from [https://patchmypc.com/msi](https://patchmypc.com/msi)
-   2. Follow [this guide](https://patchmypc.com/kb/backup-restore-publisher-settings/#h-backup-the-publisher-settings) to create a backup the Publisher settings (not required to roll back but recommended)
-   3. Uninstall Patch My PC Publisher from Add/Remove Programs (your settings will be preserved)
-   4. Install the Publisher production build MSI you downloaded in step 1
-
-**Important:** Regardless of the option you choose, you will need to **re-publish any applications that were published using version 2.1.36.80** to ensure the correct installation parameters are applied.
-
-If you need assistance or have any questions, please visit our Technical Support page at [https://patchmypc.com/technical-support/](https://patchmypc.com/technical-support/) to open a support case.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>#### Remediation Options:</p>
+<p>To resolve this issue, please choose one of the following options:</p>
+<p>1. <strong>Update to the latest Preview Release (Version 2.1.36.90)</strong></p>
+<p>1. In the Publisher, navigate to the About tab.</p>
+<p>2. You may already have the "Install preview builds" option checked <strong>(1)</strong></p>
+<p>3. If the "Currently Installed Version" is 2.1.36.80 <strong>(2)</strong> and the "Latest Available Preview Version" is 2.1.36.90 <strong>(2)</strong>, click "Upgrade Now" <strong>(3)</strong>\</p>
+<p>\</p>
+<p>&#xNAN;_<strong>Note:</strong> If the "Install preview builds" option is not checked <strong>(1)</strong>, please check it and click "Apply" and version 2.1.36.90 will be offered. You can now select "Upgrade Now"_.\</p>
+<p>2. <strong>Roll back to the latest Production Release (Version 2.1.36.0)</strong>\</p>
+<p>If you do not wish to remain on the Preview Release channel, uncheck the "Install preview builds" checkbox on the About tab in the Publisher and click "Apply".&#x20;</p>
+<p>1. Download the latest Publisher production release from <a href="https://patchmypc.com/msi">https://patchmypc.com/msi</a></p>
+<p>2. Follow <a href="https://patchmypc.com/kb/backup-restore-publisher-settings/#h-backup-the-publisher-settings">this guide</a> to create a backup the Publisher settings (not required to roll back but recommended)</p>
+<p>3. Uninstall Patch My PC Publisher from Add/Remove Programs (your settings will be preserved)</p>
+<p>4. Install the Publisher production build MSI you downloaded in step 1</p>
+<p><strong>Important:</strong> Regardless of the option you choose, you will need to <strong>re-publish any applications that were published using version 2.1.36.80</strong> to ensure the correct installation parameters are applied.</p>
+<p>If you need assistance or have any questions, please visit our Technical Support page at <a href="https://patchmypc.com/technical-support/">https://patchmypc.com/technical-support/</a> to open a support case.</p>
+</blockquote>
 
 ## 2.1.36.80 - 2025-07-09
 
@@ -271,7 +265,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
 * Added support for Microsoft Teams Workflows as a new webhook provider option. With the announced [retirement of Office 365 connectors within Microsoft Teams](https://devblogs.microsoft.com/microsoft365dev/retirement-of-office-365-connectors-within-microsoft-teams/), we now support the new Workflow options. Our Teams notifications have been updated with new ⁠[Adaptive Card](https://learn.microsoft.com/en-us/adaptive-cards/) templates.
 
-![](https://patchmypc.com/wp-content/uploads/2024/08/Workflow-Summary.png) ![](https://patchmypc.com/wp-content/uploads/2024/08/Workflow-DeploymentUpdates.png)
+![](/_images/Workflow-Summary.png) ![](/_images/Workflow-DeploymentUpdates.png)
 
 ### Improvements <a href="#improvements" id="improvements"></a>
 
@@ -764,9 +758,9 @@ If you need assistance or have any questions, please visit our Technical Support
 
 
 
-{% hint style="info" %}
-**Note:** Did I miss 33 preview builds???? No, you did not. Patch My PC has started to increment version numbers automatically as changes are reviewed and merged. The result is preview builds having multiple internal builds before a public preview is released.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Note:</strong> Did I miss 33 preview builds???? No, you did not. Patch My PC has started to increment version numbers automatically as changes are reviewed and merged. The result is preview builds having multiple internal builds before a public preview is released.</p>
+</blockquote>
 
 ### Features
 
@@ -796,9 +790,9 @@ If you need assistance or have any questions, please visit our Technical Support
 
 ## 2.1.6.2 - 2022-08-26
 
-{% hint style="info" %}
-**Note:** Starting with this build, Patch My PC Publisher now requires a minimum of Microsoft .NET Framework 4.6.2.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Note:</strong> Starting with this build, Patch My PC Publisher now requires a minimum of Microsoft .NET Framework 4.6.2.</p>
+</blockquote>
 
 ### Features
 
@@ -1152,7 +1146,7 @@ If you need assistance or have any questions, please visit our Technical Support
     * Intune Max: 45 minutes
   * New option to use ‘maximum run time’ from the respective update or app.
     * ConfigMgr Update Max: Will use configured update ‘max run time’ as configured in ConfigMgr for the update.
-      * Note: Update max run time must be edited **before** the update is deployed for a client to recognize the change.
+      * Note: Update max run time must be edited <strong>before</strong> the update is deployed for a client to recognize the change.
     * ConfigMgr App Max: Will use the configured deployment time ‘max run time.’
     * Intune App/Update Max: Will use the maximum run time of an Intune Win32 app (60 minutes minus the 15-minute buffer).
   * Idea: [PATCHMYPC-I-1516](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1516)
@@ -1349,7 +1343,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * <img src="../../.gitbook/assets/image (1205).png" alt="" data-size="original">&#x20;
+  * ![](/_images/image-(1205).png)&#x20;
 
 ### Improvements
 
@@ -1362,7 +1356,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * <img src="../../.gitbook/assets/image (1205).png" alt="" data-size="original">&#x20;
+  * ![](/_images/image-(1205).png)&#x20;
 
 ### Improvements
 
@@ -1375,7 +1369,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added support to add a future Home Lab subscription
   * Idea: [PATCHMYPC-I-1213](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-1213)
 * Added a new context menu in the Intune Application Manager
-  * <img src="../../.gitbook/assets/image (1205).png" alt="" data-size="original">&#x20;
+  * ![](/_images/image-(1205).png)&#x20;
 
 ### Improvements
 
@@ -1773,7 +1767,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
 ### Features
 
-* The first preview release of our CVE import/matching features based on UserVoice [**Feature Request for CVE Import automation**](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-916)
+* The first preview release of our CVE import/matching features based on UserVoice [<strong>Feature Request for CVE Import automation</strong>](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-916)
   * You can launch the CVE import feature in the Updates tab by clicking the new document lock icon
   * If you have any feedback on the first preview release, leave a comment at [https://ideas.patchmypc.com/ideas/PATCHMYPC-I-916](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-916)
 
@@ -2020,7 +2014,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
 *   We now use a FIPS compliant algorithm when creating Intune applications
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Fixed an issue where the checkbox in the MSI installer to enable Intune only mode may not be applied after the installation
 
 ## 1.8.2.1 - 2020-06-10
@@ -2038,7 +2032,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
     &#x20; 'Metadata Only' if found, but threshold is not met"]\([https://ideas.patchmypc.com/ideas/PATCHMYPC-I-565](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-565))
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Fixed issue where a customer with an expired Intune only license could be stuck in a messagebox loop.
 
 ## 1.7.9.2 - 2020-05-26
@@ -2057,7 +2051,7 @@ If you need assistance or have any questions, please visit our Technical Support
     &#x20; [Retain the Logging Options in View when Saved at the All Products Level](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-742)
 *   Added support for Server 2019 in the [SSRS dashboards](https://app.gitbook.com/free-software-update-compliance-dashboard-reports-for-microsoft-sccm)
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Fixed some issues where some links may not work in the SSRS dashboards&#x20;
 
 ## 1.7.8.1 - 2020-05-18
@@ -2073,16 +2067,16 @@ If you need assistance or have any questions, please visit our Technical Support
 
 *   Added like, dislike, and feedback button in the title bar of the settings tool.
 
-    **Fixes**
+    <strong>Fixes</strong>
 * List unreferenced package folders don’t list any folders in some WSUS configuration
 *   Added a workaround to handle SCCM apps published with an unsupported language
 
-    **Improvements**
+    <strong>Improvements</strong>
 * Web domains of downloaded icons are listed in the DownloadHistory.csv file.
 * Added several help links in the UI.
 *   Improved logging for known errors linking to KB articles
 
-    **Changes**
+    <strong>Changes</strong>
 * The option to fallback to ConfigMgr package publishing when an application can’t be published as an SCCM application has been removed in the UI due to not being needed
 * SQL query default timeout is now 90 seconds from 30 seconds.
 * Removed from the UI the option to generate a CSV file with publishing info. The option is always enabled and the file path can be configured with the registry settings : HKEY\_LOCAL\_MACHINE\\\SOFTWARE\\\Patch My PC Publishing Service:PublishingHistoryCSVFolder
@@ -2096,7 +2090,7 @@ If you need assistance or have any questions, please visit our Technical Support
     &#x20; (Idea: [PATCHMYPC-I-645](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-645))
 *   UI improvements to the Base Install options
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Fixed an issue where double quotes in the command line argument for software updates would not be retained.&#x20;
 
 ## 1.7.6.2 - 2020-04-22
@@ -2121,7 +2115,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
     &#x20; [PATCHMYPC-I-718](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-718))
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Fixed an issue where the WSUS Maintenance for unreferenced updates would not return folders when the name is longer than 80 characters
 * Fixed an issue where file coping during publishing would fail when a file is referenced more than once (e.g., in additional files and pre-command script)
 
@@ -2162,7 +2156,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Use env variables instead of hard-coded path in PowerShell detection script.
 *   Other fixes and improvements.
 
-    **Changes**
+    <strong>Changes</strong>
 * Rename Intune preview to Intune Release Candidate.
 
 ## 1.5.9.6 - 2020-02-03
@@ -2172,7 +2166,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * You can now select a custom code-signing certificate from the computer's personal certificate store. A full WSUS installation is no longer required for code-signing the detection method script used for Intune.
 *   Applications will no longer be duplicated in the event the deployment type's source folder was deleted.
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Bug fixes and other improvements
 
 ## 1.5.9.5 - 2020-01-27
@@ -2245,10 +2239,10 @@ If you need assistance or have any questions, please visit our Technical Support
 
 *   You can now send Microsoft Teams publishing alerts using a webhook
 
-    **Improvements**
+    <strong>Improvements</strong>
 *   The software update point synchronization will be triggered after the update synchronization task rather than waiting for the updates and applications sync.
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Minor bugs fixes
 
 ## 1.5.4.7 - 2019-10-24
@@ -2276,7 +2270,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * You can now exclude products at the vendor level from being enabled in automatic scanning
 *   You can now press F4/Shift+F4 keys to go to the next/previous when searching products or vendors
 
-    **Improvements\\**
+    <strong>Improvements\\</strong>
 * When disabling updates, we will now create a RegKey is it doesn't exist to disable self-updates
 * Improved logging
 * Add support to auto-popular the uninstall command line for 25+ applications in SCCM
@@ -2289,10 +2283,10 @@ If you need assistance or have any questions, please visit our Technical Support
 * Preserve User Categories when updating Apps in SCCM
 *   Preserve Admin Categories when updating an SCCM application
 
-    **Changes**
+    <strong>Changes</strong>
 *   Set default download timeout to 100 seconds from 30 seconds.
 
-    **Improvements**
+    <strong>Improvements</strong>
 * Improved logging for varias actions including download percentages
 *   Allows searching backward for products and vendors when clicking
 
@@ -2318,7 +2312,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Create a CSV file at the end of each synchronization with a summary of what was published, revised, created
 *   You can now set the max log size between 1-10 MB
 
-    **Improvements**
+    <strong>Improvements</strong>
 *   Add several log entries when sync fails
 
     &#x20; ([EventID=3001-3005](https://app.gitbook.com/windows-event-logging-details-for-patch-my-pc-publishing-service))
@@ -2335,7 +2329,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added the ability to start a sync by running the PatchMyPC-Settings.exe with argument /SyncNow (the UI is not displayed)
 *   Log events in the Windows event log (Starting/ending sync, success/fail publishing updates)
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Distribution point groups containing apostrophe were ignored during distribution
 * Various bug fixes
 
@@ -2395,7 +2389,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
 *   You can now configure any custom pre-update script to run before checking any processes to close or skip
 
-    **Improvements**
+    <strong>Improvements</strong>
 * Improved logging
 
 ## 1.5.0.3 - 2019-08-30
@@ -2417,7 +2411,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
 *   You can now automatically enable products to be enabled based on them being detected in the SCCM database.
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Fixed an issue where applications may fail to install on Windows 10 when using Latvia language.
 * Fixed an issue where you may get an email about the license being expired when in trial-mode.
 
@@ -2490,7 +2484,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
 *   The base installation feature now creates applications in SCCM rather than legacy packages.
 
-    **Improvements**
+    <strong>Improvements</strong>
 * You can now configure an offset (in days) for the sync schedule. Based on customer idea: [Schedule Patch Tuesday +1 (Offset From Date)](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-138)
 *   When using a custom pre/post update script, it will be run before any Patch My PC defined script. Based on customer idea:
 
@@ -2498,7 +2492,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * Added an option to configure the "Install Application Task sequence setting" in the Application Rules options. Based on customer idea: [Change Install Application Task sequence setting during creation](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-184)
 *   Added an option to not include the version number in the application name. Based on customer idea: [Application creation: applications without version numbers](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-186)
 
-    **Changes**
+    <strong>Changes</strong>
 * The installed version of the publishing service and whether you have opted into the preview channel will be reported.
 
 ## 1.3.7.1 - 2019-06-06
@@ -2509,7 +2503,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
     &#x20; \\\\\Backup folder.
 
-    **Improvements**
+    <strong>Improvements</strong>
 * Added an option to prefix the computer name to the installation log file name to allow you to use a shared path and receive unique log file names for each device.
 
 ## 1.3.5.1 - 2019-05-24
@@ -2544,7 +2538,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * We will now cache the list of supported products, so in the event, the settings tool can't download the latest products, it will use the last cached copy.
 *   When the settings tool is opened, if any products are previously enabled that now have a Patch My PC defined recommended and required Pre/Post script(s) those scripts will be saved in the settings.xml automatically.
 
-    **Features**
+    <strong>Features</strong>
 * Added support for required Pre/Post-Scripts
 
 ## 1.3.2.1 - 2019-04-26
@@ -2553,7 +2547,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
 *   When there is a product enabled that requires a [manual content download](https://patchmypc.com/local-content-repository-for-licensed-applications-that-require-manual-download) the product name(s) will be included in the prompt.
 
-    **Features**
+    <strong>Features</strong>
 * Added support for recommended Pre/Post-Scripts
 
 ## 1.2.5.12 - 2019-04-09
@@ -2564,7 +2558,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * We removed the two columns displaying the distribution point group and description in the base installation options dialog.
 *   Change the error return for 404 download errors.
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Fixed an unhandled exception when you enable base packages when no catalog URL is set.
 
 ## 1.2.5.11 - 2019-04-05
@@ -2603,7 +2597,7 @@ If you need assistance or have any questions, please visit our Technical Support
   * VirtualBox
   *   WinZip
 
-      **Fixes**
+      <strong>Fixes</strong>
 * Miscellaneous fixes
 
 ## 1.2.5.6 - 2019-03-29
@@ -2621,7 +2615,7 @@ If you need assistance or have any questions, please visit our Technical Support
 * When a package is created for a 64-bit product, the requirements will be configured on the program to only install on 64-bit operating systems
 *   If a package fails to be created, the distribution attempt to SCCM distribution points will no longer be performed.
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Miscellaneous fixes
 
 ## 1.2.5.4 - 2019-03-27
@@ -2630,7 +2624,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
 *   Added an option to change the subject name for email notifications
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Fixed an issue where SCCM package creation is malformed when updates are configured to be republished.
 * Fixed an issue where products are still listed in the SCCM application scan when the Include Products Already Enable in Scan is not checked.
 * Miscellaneous fixes
@@ -2641,7 +2635,7 @@ If you need assistance or have any questions, please visit our Technical Support
 
 *   Added an option to include text in the body of the email notifications.
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Miscellaneous fixes
 
 ## 1.2.5.2 - 2019-03-26
@@ -2652,7 +2646,7 @@ If you need assistance or have any questions, please visit our Technical Support
   * To enable the Delete button, create a new DWORD registry value: Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\Patch My PC Publishing Service:EnableDeleteUpdates = 1. We only recommend using this option when working with our support team.
 *   Added an option to disable timestamping. We generally do not recommend using this unless there is a specific use case. To disable timestamping you can create a DWORD registry value:: HKEY\_LOCAL\_MACHINE\SOFTWARE\Patch My PC Publishing Service:DisableTimestamping = 1
 
-    **Fixes**
+    <strong>Fixes</strong>
 * Miscellaneous Bug fixes
 
 ## 1.2.5.1 - 2019-03-25

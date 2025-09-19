@@ -2,23 +2,21 @@
 
 _Applies to: Patch My PC Cloud_
 
-{% hint style="info" %}
-**Note**
+<blockquote class="wp-block-quote">
+<p><strong>Note</strong></p>
+<p>You can create a webhook to allow the Patch My PC (PMPC) Cloud portal to send you a notification of any newly created/updated deployments or whenever we release new versions of an app or update.</p>
+</blockquote>
 
-You can create a webhook to allow the Patch My PC (PMPC) Cloud portal to send you a notification of any newly created/updated deployments or whenever we release new versions of an app or update.
-{% endhint %}
-
-{% hint style="warning" %}
-**Important**
-
-You need to have already created the webhook to be able to configure a notification to use it. To create a webhook, follow either the [Creating a Microsoft Teams Webhook](webhooks-reference/create-a-microsoft-teams-webhook.md) process or the [Creating a Slack Webhook](webhooks-reference/create-a-slack-webhook.md) process.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Important</strong></p>
+<p>You need to have already created the webhook to be able to configure a notification to use it. To create a webhook, follow either the [Creating a Microsoft Teams Webhook](webhooks-reference/create-a-microsoft-teams-webhook.md) process or the [Creating a Slack Webhook](webhooks-reference/create-a-slack-webhook.md) process.</p>
+</blockquote>
 
 To create a webhook notification:
 
-From the **Add Webhook** dropdown, select the type of webhook you want to create:
+From the <strong>Add Webhook</strong> dropdown, select the type of webhook you want to create:
 
 * [Microsoft Teams](create-a-microsoft-teams-webhook-notification-in-cloud.md)
 * [Slack](create-a-slack-webhook-notification-in-cloud.md)
 
-<figure><img src="../../../.gitbook/assets/image (1600).png" alt="Clicking “Add Webhook”"><figcaption></figcaption></figure>
+![Clicking “Add Webhook”](/_images/image-(1600).png "Clicking “Add Webhook”")

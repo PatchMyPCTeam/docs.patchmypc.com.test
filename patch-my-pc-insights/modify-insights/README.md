@@ -6,9 +6,9 @@ description: Modify configuration.
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-{% hint style="warning" %}
-The ability to use the modify feature is supported in version 2.1.0 and later.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The ability to use the modify feature is supported in version 2.1.0 and later.</p>
+</blockquote>
 
 The following configurations can be modified for an existing Advanced Insights deployment.\
 \
@@ -18,22 +18,22 @@ Advanced Insights website frontend network port.
 
 Reset default admin password.
 
-### **Starting the modify process.** <a href="#starting-the-modify-process" id="starting-the-modify-process"></a>
+### <strong>Starting the modify process.</strong> <a href="#starting-the-modify-process" id="starting-the-modify-process"></a>
 
-If the install executable version that was originally used to deploy Advanced Insights is available, you can start the modify process by rerunning the original installer. Otherwise, locate the Advanced Insights listing in the add - remove programs list and select **'Modify'.**
+If the install executable version that was originally used to deploy Advanced Insights is available, you can start the modify process by rerunning the original installer. Otherwise, locate the Advanced Insights listing in the add - remove programs list and select <strong>'Modify'.</strong>
 
-Click **'Modify'**
+Click <strong>'Modify'</strong>
 
-<figure><img src="../../.gitbook/assets/image (716).png" alt=""><figcaption><p>Advanced Insights - Add - Remove Programs entry.</p></figcaption></figure>
+![](/_images/image-(716).png "Advanced Insights - Add - Remove Programs entry.")
 
-Click **'Yes'**
+Click <strong>'Yes'</strong>
 
-<figure><img src="../../.gitbook/assets/image (717).png" alt=""><figcaption><p>UAC Prompt</p></figcaption></figure>
+![](/_images/image-(717).png "UAC Prompt")
 
-Click **'Modify'**
+Click <strong>'Modify'</strong>
 
-<figure><img src="../../.gitbook/assets/image (718).png" alt=""><figcaption><p>Advanced Insights installer maintenance dialog</p></figcaption></figure>
+![](/_images/image-(718).png "Advanced Insights installer maintenance dialog")
 
 Select the required modification option checkbox to enable the related 'Change' button
 
-<figure><img src="../../.gitbook/assets/vmconnect_w0AaMZPkHy.png" alt=""><figcaption><p>Advanced Insights - Configuration Modification page.</p></figcaption></figure>
+![](/_images/vmconnect_w0AaMZPkHy.png)

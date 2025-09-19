@@ -4,13 +4,13 @@ _Applies to: Intune Apps for Cloud_
 
 ### SYMPTOMS
 
-I am trying to onboard to Intune Apps for Cloud (Intune Apps). I’ve signed in and clicked **Connect** to connect my Intune tenant, expecting to see the **Permissions requested** dialog box, but instead, I get the **Need admin approval** dialog box stating:
+I am trying to onboard to Intune Apps for Cloud (Intune Apps). I’ve signed in and clicked <strong>Connect</strong> to connect my Intune tenant, expecting to see the <strong>Permissions requested</strong> dialog box, but instead, I get the <strong>Need admin approval</strong> dialog box stating:
 
-**Patch My PC LLC needs permission to access resources in your organization that only an admin can grant. Please ask an admin to grant permission to this app before you can use it.**\
+<strong>Patch My PC LLC needs permission to access resources in your organization that only an admin can grant. Please ask an admin to grant permission to this app before you can use it.</strong>\
 \
 
 
-<figure><img src="../../../.gitbook/assets/image (906).png" alt="“Need admin approval” dialog box"><figcaption></figcaption></figure>
+![“Need admin approval” dialog box](/_images/image-(906).png "“Need admin approval” dialog box")
 
 ### CAUSE
 
@@ -18,5 +18,4 @@ This problem occurs because, as the message states, your Entra ID account is not
 
 ### RESOLUTION
 
-To resolve this issue, ensure you are completing this process using a **Global Administrator** account to create the enterprise app.
-
+To resolve this issue, ensure you are completing this process using a <strong>Global Administrator</strong> account to create the enterprise app.

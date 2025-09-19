@@ -13,20 +13,20 @@ Advanced Insights requires a valid SSL certificate to bind to the application we
 * Custom CNAME / Alias certificate.
 * Self-signed certificate.
 
-{% hint style="warning" %}
-Ensure the SSL certificate requirements are reviewed here: [insights-certificate-requirements.md](../advanced-and-patch-insights-requirements-and-prerequisites/insights-certificate-requirements.md "mention")
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>Ensure the SSL certificate requirements are reviewed here: [insights-certificate-requirements.md](../advanced-and-patch-insights-requirements-and-prerequisites/insights-certificate-requirements.md "mention")</p>
+</blockquote>
 
 ### Certificate configuration scenarios
 
-* **Scenario 1 - Server Host name certificate.**
-  * For Advanced Insights URL deployment using **server host name** (e.g. _https://server01.contoso.local_) follow steps described in section:[#standard-server-host-name-certificate](insights-ssl-certificate-configuration.md#standard-server-host-name-certificate "mention")
-* **Scenario 2 - Wildcard certificate.**
-  * For custom Advanced Insights URL deployment using a **wildcard certificate** (e.g. \*.contoso.local) follow steps described in section: [#wildcard-certificate](insights-ssl-certificate-configuration.md#wildcard-certificate "mention")
-* **Scenario 3 - CNAME / Alias certificate.**
-  * For custom Advanced Insights URL deployment using a **CNAME / Alias,** (e.g. _https://AdvancedInsights.contoso.local_) follow steps described in section: [#cname-alias-certificate](insights-ssl-certificate-configuration.md#cname-alias-certificate "mention")
-* **Scenario 4 - Self-signed certificate.**
-  * For Advanced Insights URL deployment using a **Self-signed** certificate follow steps described in section: [#self-signed-certificate](insights-ssl-certificate-configuration.md#self-signed-certificate "mention")
+* <strong>Scenario 1 - Server Host name certificate.</strong>
+  * For Advanced Insights URL deployment using <strong>server host name</strong> (e.g. _https://server01.contoso.local_) follow steps described in section:[#standard-server-host-name-certificate](insights-ssl-certificate-configuration.md#standard-server-host-name-certificate "mention")
+* <strong>Scenario 2 - Wildcard certificate.</strong>
+  * For custom Advanced Insights URL deployment using a <strong>wildcard certificate</strong> (e.g. \*.contoso.local) follow steps described in section: [#wildcard-certificate](insights-ssl-certificate-configuration.md#wildcard-certificate "mention")
+* <strong>Scenario 3 - CNAME / Alias certificate.</strong>
+  * For custom Advanced Insights URL deployment using a <strong>CNAME / Alias,</strong> (e.g. _https://AdvancedInsights.contoso.local_) follow steps described in section: [#cname-alias-certificate](insights-ssl-certificate-configuration.md#cname-alias-certificate "mention")
+* <strong>Scenario 4 - Self-signed certificate.</strong>
+  * For Advanced Insights URL deployment using a <strong>Self-signed</strong> certificate follow steps described in section: [#self-signed-certificate](insights-ssl-certificate-configuration.md#self-signed-certificate "mention")
 
 
 
@@ -34,7 +34,7 @@ Ensure the SSL certificate requirements are reviewed here: [insights-certificate
 
 Select the certificate which represents the server host name (FQDN).
 
-<figure><img src="../../.gitbook/assets/image (1297).png" alt=""><figcaption><p>Certificate selection</p></figcaption></figure>
+![](/_images/image-(1297).png "Certificate selection")
 
 Once selected, no further certificate configuration is required.
 
@@ -44,58 +44,57 @@ Click Next to proceed to the [insights-sqlite-database.md](insights-sqlite-datab
 
 Select the certificate which represents the wildcard certificate.
 
-<figure><img src="../../.gitbook/assets/image (1298).png" alt=""><figcaption><p>Wildcard certificate selection</p></figcaption></figure>
+![](/_images/image-(1298).png "Wildcard certificate selection")
 
-Click the **'Set CNAME / Alias'** button.
+Click the <strong>'Set CNAME / Alias'</strong> button.
 
 In the CNAME / Alias configuration page, the installer will automatically pre-populate the domain wildcard property from the selected certificate.
 
-<figure><img src="../../.gitbook/assets/image (1300).png" alt=""><figcaption><p>Wildcard CNAME / Alias URL configuration</p></figcaption></figure>
+![](/_images/image-(1300).png "Wildcard CNAME / Alias URL configuration")
 
 The CNAME / Alias property value box will need to be updated with a chosen CNAME / Alias prefix. For example:
 
-_**'AdvancedInsights.corp.contoso.local'**_
+_<strong>'AdvancedInsights.corp.contoso.local'</strong>_
 
-Then click **'Set CNAME - Alias'**.
+Then click <strong>'Set CNAME - Alias'</strong>.
 
-<figure><img src="../../.gitbook/assets/image (1302).png" alt=""><figcaption><p>Setting CNAME / Alias property value</p></figcaption></figure>
+![](/_images/image-(1302).png "Setting CNAME / Alias property value")
 
 Click Next to proceed to the [insights-sqlite-database.md](insights-sqlite-database.md "mention") page.
 
-<figure><img src="../../.gitbook/assets/image (1303).png" alt=""><figcaption><p>Set CNAME / Alias confirmation</p></figcaption></figure>
+![](/_images/image-(1303).png "Set CNAME / Alias confirmation")
 
-{% hint style="warning" %}
-When using a wildcard certificate, if no CNAME / Alias is set using the CNAME / Alias configuration page, the installer will automatically default to setting the Advanced Insights URL to the server host name FQDN.\
-\
-Example:&#x20;
-
-_https://server01.corp.contoso.local_
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>When using a wildcard certificate, if no CNAME / Alias is set using the CNAME / Alias configuration page, the installer will automatically default to setting the Advanced Insights URL to the server host name FQDN.\</p>
+<p>\</p>
+<p>Example:&#x20;</p>
+<p>_https://server01.corp.contoso.local_</p>
+</blockquote>
 
 ## CNAME / Alias certificate
 
 Select the certificate which represents the CNAME / Alias certificate.
 
-<figure><img src="../../.gitbook/assets/image (1299).png" alt=""><figcaption><p>CNAME / Alias certificate selection</p></figcaption></figure>
+![](/_images/image-(1299).png "CNAME / Alias certificate selection")
 
-Click the **'Set CNAME / Alias'** button.
+Click the <strong>'Set CNAME / Alias'</strong> button.
 
 In the CNAME / Alias configuration page, the installer will automatically pre-populate the CNAME / Alias property based on the available SAN entries from the selected certificate.
 
 In this example, the selected certificate has one SAN entry which has been automatically pre-populated:
 
-<figure><img src="../../.gitbook/assets/image (1304).png" alt=""><figcaption><p>CNAME / Alias URL configuration</p></figcaption></figure>
+![](/_images/image-(1304).png "CNAME / Alias URL configuration")
 
-Confirm the CNAME / Alias configuration by clicking the **'Set CNAME / Alias'** button.
+Confirm the CNAME / Alias configuration by clicking the <strong>'Set CNAME / Alias'</strong> button.
 
-<figure><img src="../../.gitbook/assets/image (1305).png" alt=""><figcaption><p>Setting CNAME / Alias property value</p></figcaption></figure>
+![](/_images/image-(1305).png "Setting CNAME / Alias property value")
 
 Click Next to proceed to the [insights-sqlite-database.md](insights-sqlite-database.md "mention") page.
 
 ## Self-signed certificate
 
-To deploy Advanced Insights using a self-signed certificate, on the certificate selection page, click the **'Create Self -Signed Cert'** button:
+To deploy Advanced Insights using a self-signed certificate, on the certificate selection page, click the <strong>'Create Self -Signed Cert'</strong> button:
 
-<figure><img src="../../.gitbook/assets/image (1022).png" alt=""><figcaption><p>Create self-signed certificate</p></figcaption></figure>
+![](/_images/image-(1022).png "Create self-signed certificate")
 
 The installer will then automatically proceed to the [insights-sqlite-database.md](insights-sqlite-database.md "mention") dialog page.

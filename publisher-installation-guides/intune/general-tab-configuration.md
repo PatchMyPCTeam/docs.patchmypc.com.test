@@ -10,22 +10,22 @@ _Applies to: On-premises Publisher_
 
 ### Catalog Information - License Key
 
-When the publisher first launches, you will be required to provide a license key. If you have not yet purchased and received your license key, we provide two additional **free options for testing our product**.
+When the publisher first launches, you will be required to provide a license key. If you have not yet purchased and received your license key, we provide two additional <strong>free options for testing our product</strong>.
 
-The first option is to enable the [**Limited Trial Mode**.](https://patchmypc.com/frequently-asked-questions#trial-catalog) This limited trial mode does have some restrictions including a limited number of products as covered in the link above. We encourage you to [**request a free thirty-day trial**](https://patchmypc.com/free-trial) from our website. When you receive your full-trial or customer license email, it will contain your 20 character license key.
+The first option is to enable the [<strong>Limited Trial Mode</strong>.](https://patchmypc.com/frequently-asked-questions#trial-catalog) This limited trial mode does have some restrictions including a limited number of products as covered in the link above. We encourage you to [<strong>request a free thirty-day trial</strong>](https://patchmypc.com/free-trial) from our website. When you receive your full-trial or customer license email, it will contain your 20 character license key.
 
-![Example license key email](<../../.gitbook/assets/image (1189).png>)
+![Example license key email](/_images/image-(1189).png>)
 
-![Enter your license information](<../../.gitbook/assets/image (1254).png>)
+![Enter your license information](/_images/image-(1254).png>)
 
-{% hint style="success" %}
-The [**full-access 30-day trial**](https://patchmypc.com/free-trial) contains all features and access to all products.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>The <a href="https://patchmypc.com/free-trial"><strong>full-access 30-day trial</strong></a> contains all features and access to all products.</p>
+</blockquote>
 
 If the license validation is successful, it should look like the below image.
 
-![Licensed product information validation.](<../../.gitbook/assets/image (1118).png>)
+![Licensed product information validation.](/_images/image-(1118).png>)
 
-{% hint style="warning" %}
-If you receive an error when clicking Validate URL, please review our knowledge base article [Troubleshooting License Activation Issues](https://patchmypc.com/troubleshooting-license-activation-issues). License activation errors are often related to firewall or proxy configurations.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>If you receive an error when clicking Validate URL, please review our knowledge base article <a href="https://patchmypc.com/troubleshooting-license-activation-issues">Troubleshooting License Activation Issues</a>. License activation errors are often related to firewall or proxy configurations.</p>
+</blockquote>

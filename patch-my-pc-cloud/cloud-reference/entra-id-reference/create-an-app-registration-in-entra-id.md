@@ -4,11 +4,10 @@ _Applies to: Patch My PC Cloud_
 
 There may be some scenarios (such as [Recover Your Company](../../cloud-administration/manage-your-cloud-company/recover-your-cloud-company.md) ) where you need to create an App Registration in Entra ID for use with Patch My PC (PMPC) Cloud.
 
-{% hint style="warning" %}
-**Important**
-
-Once you create an App Registration, it must be used within 72 hours; otherwise, it will be considered expired, and you will need to create a new one.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p><strong>Important</strong></p>
+<p>Once you create an App Registration, it must be used within 72 hours; otherwise, it will be considered expired, and you will need to create a new one.</p>
+</blockquote>
 
 We use this process to verify you are an Application Administrator or a higher privilege user (such as a Global Admin), in the same Entra ID tenant as the PMPC Company being managed.
 
@@ -16,134 +15,133 @@ To create an App Registration:
 
 1. Sign in to the Microsoft Azure portal using an account with the Global Admin role and navigate to the [App Registrations](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) blade.
 
-{% hint style="warning" %}
-**Important**
+<blockquote class="wp-block-quote">
+<p><strong>Important</strong></p>
+<p>You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.</p>
+</blockquote>
 
-You must use an account in the same Microsoft 365 subscription (tenant) as your PMPC Company.
-{% endhint %}
+![Navigating to the “App registrations” blade](/_images/image-(542).png "Navigating to the “App registrations” blade")
 
-<figure><img src="../../../.gitbook/assets/image (542).png" alt="Navigating to the “App registrations” blade"><figcaption></figcaption></figure>
-
-2.  Click **New registration**.\
+2.  Click <strong>New registration</strong>.\
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (543).png" alt="Clicking “New registration”"><figcaption></figcaption></figure>
+    ![Clicking “New registration”](/_images/image-(543).png "Clicking “New registration”")
 
 
 
-    3.  In the **Name** field, enter **PMPC Recovery**, then click **Register**.\
+    3.  In the <strong>Name</strong> field, enter <strong>PMPC Recovery</strong>, then click <strong>Register</strong>.\
 
 
-        <figure><img src="../../../.gitbook/assets/image (544).png" alt="Entering “PMPC Recovery” then clicking “Register”"><figcaption></figcaption></figure>
+        ![Entering “PMPC Recovery” then clicking “Register”](/_images/image-(544).png "Entering “PMPC Recovery” then clicking “Register”")
 
         \
 
     4.  Make a note of the following values:\
         \
-        &#xNAN;**• Application (client) ID**\
-        **• Object ID**\
-        **• Directory (tenant) ID**\
+        &#xNAN;<strong>• Application (client) ID</strong>\
+        <strong>• Object ID</strong>\
+        <strong>• Directory (tenant) ID</strong>\
 
 
-        <figure><img src="../../../.gitbook/assets/image (545).png" alt="Noting the required values"><figcaption></figcaption></figure>
-
-        \
-
-    5.  Navigate to **Manage | API Permissions**.\
-
-
-        <figure><img src="../../../.gitbook/assets/image (546).png" alt="Navigating to “Manage | API Permissions”"><figcaption></figcaption></figure>
+        ![Noting the required values](/_images/image-(545).png "Noting the required values")
 
         \
 
-    6.  Under the **Configured permissions** section, click **Add a permission**.\
-        \
+    5.  Navigate to <strong>Manage | API Permissions</strong>.\
 
 
-        <figure><img src="../../../.gitbook/assets/image (547).png" alt="Clicking “Add a permission”"><figcaption></figcaption></figure>
-
-        \
-
-    7.  In the **Request API permissions** blade, click **Microsoft Graph**.\
-        \
-
-
-        <figure><img src="../../../.gitbook/assets/image (548).png" alt="Clicking “Microsoft Graph”"><figcaption></figcaption></figure>
+        ![Navigating to “Manage | API Permissions”](/_images/image-(546).png "Navigating to “Manage | API Permissions”")
 
         \
 
-    8.  In the **Request API permissions** blade, click **Application permissions**.\
+    6.  Under the <strong>Configured permissions</strong> section, click <strong>Add a permission</strong>.\
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (549).png" alt="Clicking “Application permissions”"><figcaption></figcaption></figure>
+        ![Clicking “Add a permission”](/_images/image-(547).png "Clicking “Add a permission”")
 
         \
 
-    9.  In the **Select permissions** field, type **AuditLog**, then expand this section and check the **AuditLog.Read.All** permission checkbox.\
-
-
-        <figure><img src="../../../.gitbook/assets/image (550).png" alt="Checking the “AuditLog.Read.All” permission checkbox"><figcaption></figcaption></figure>
-
-        \
-
-    10. Click **Add permissions**.\
+    7.  In the <strong>Request API permissions</strong> blade, click <strong>Microsoft Graph</strong>.\
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (551).png" alt="Clicking “Add permissions”"><figcaption></figcaption></figure>
+        ![Clicking “Microsoft Graph”](/_images/image-(548).png "Clicking “Microsoft Graph”")
 
         \
 
-    11. On the **API permissions** screen, under the **Configured permissions** section, click **Grant admin consent for <**_**your\_tenant\_name**_**>**.\
-
-
-        <figure><img src="../../../.gitbook/assets/image (552).png" alt="Clicking “Grant admin consent for <your_tenant_name>”"><figcaption></figcaption></figure>
-
-        \
-
-    12. On the **Grant admin consent confirmation** popup, click **Yes**.\
+    8.  In the <strong>Request API permissions</strong> blade, click <strong>Application permissions</strong>.\
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (553).png" alt="Clicking “Yes” on the “Grant admin consent confirmation” popup"><figcaption></figcaption></figure>
-
-        The **Grant consent - Grant consent successful** notification is shown and the **Status** for the **AuditLog.Read.All** permission changes to a green tick.\
-
-
-        <figure><img src="../../../.gitbook/assets/image (554).png" alt="“Grant consent - Grant consent successful notification” shown and the “Status” for the “AuditLog.Read.All” permission changes to a green tick."><figcaption></figcaption></figure>
+        ![Clicking “Application permissions”](/_images/image-(549).png "Clicking “Application permissions”")
 
         \
 
-    13. Navigate to **Certificates and secrets**.\
-        \
+    9.  In the <strong>Select permissions</strong> field, type <strong>AuditLog</strong>, then expand this section and check the <strong>AuditLog.Read.All</strong> permission checkbox.\
 
 
-        <figure><img src="../../../.gitbook/assets/image (555).png" alt="Navigating to “Certificates and secrets”"><figcaption></figcaption></figure>
-
-        \
-
-    14. Under the **Client secrets** section, click **New client secret**.\
-        \
-
-
-        <figure><img src="../../../.gitbook/assets/image (556).png" alt="Clicking “New client secret” under the “Client secrets” section"><figcaption></figcaption></figure>
+        ![Checking the “AuditLog.Read.All” permission checkbox](/_images/image-(550).png "Checking the “AuditLog.Read.All” permission checkbox")
 
         \
 
-    15. In the **Add a client secret** panel, type **PMPC Recovery**, then click **Add**.\
+    10. Click <strong>Add permissions</strong>.\
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (557).png" alt="Typing “PMPC Recovery” in the “Description” field, then clicking “Add”"><figcaption></figcaption></figure>
+        ![Clicking “Add permissions”](/_images/image-(551).png "Clicking “Add permissions”")
 
         \
-        The new Client Secret appears along with the **Update application credentials - Successfully updated application PMPC Recovery credentials** notification.\
+
+    11. On the <strong>API permissions</strong> screen, under the <strong>Configured permissions</strong> section, click <strong>Grant admin consent for <</strong>_<strong>your\_tenant\_name</strong>_<strong>></strong>.\
+
+
+        ![](/_images/image-(552).png "")
+
+        \
+
+    12. On the <strong>Grant admin consent confirmation</strong> popup, click <strong>Yes</strong>.\
         \
 
 
-        <figure><img src="../../../.gitbook/assets/image (558).png" alt="New Client Secret and the “Update application credentials - Successfully updated application PMPC Recovery credentials” notification"><figcaption></figcaption></figure>
+        ![Clicking “Yes” on the “Grant admin consent confirmation” popup](/_images/image-(553).png "Clicking “Yes” on the “Grant admin consent confirmation” popup")
+
+        The <strong>Grant consent - Grant consent successful</strong> notification is shown and the <strong>Status</strong> for the <strong>AuditLog.Read.All</strong> permission changes to a green tick.\
 
 
-    16. Make a note of the **Value** of the **PMPC Recovery** client secret.
+        ![“Grant consent - Grant consent successful notification” shown and the “Status” for the “AuditLog.Read.All” permission changes to a green tick.](/_images/image-(554).png "“Grant consent - Grant consent successful notification” shown and the “Status” for the “AuditLog.Read.All” permission changes to a green tick.")
+
+        \
+
+    13. Navigate to <strong>Certificates and secrets</strong>.\
+        \
+
+
+        ![Navigating to “Certificates and secrets”](/_images/image-(555).png "Navigating to “Certificates and secrets”")
+
+        \
+
+    14. Under the <strong>Client secrets</strong> section, click <strong>New client secret</strong>.\
+        \
+
+
+        ![Clicking “New client secret” under the “Client secrets” section](/_images/image-(556).png "Clicking “New client secret” under the “Client secrets” section")
+
+        \
+
+    15. In the <strong>Add a client secret</strong> panel, type <strong>PMPC Recovery</strong>, then click <strong>Add</strong>.\
+        \
+
+
+        ![Typing “PMPC Recovery” in the “Description” field, then clicking “Add”](/_images/image-(557).png "Typing “PMPC Recovery” in the “Description” field, then clicking “Add”")
+
+        \
+        The new Client Secret appears along with the <strong>Update application credentials - Successfully updated application PMPC Recovery credentials</strong> notification.\
+        \
+
+
+        ![New Client Secret and the “Update application credentials - Successfully updated application PMPC Recovery credentials” notification](/_images/image-(558).png "New Client Secret and the “Update application credentials - Successfully updated application PMPC Recovery credentials” notification")
+
+
+    16. Make a note of the <strong>Value</strong> of the <strong>PMPC Recovery</strong> client secret.
