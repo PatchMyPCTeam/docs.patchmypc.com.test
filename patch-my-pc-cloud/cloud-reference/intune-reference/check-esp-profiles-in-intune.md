@@ -8,32 +8,32 @@ If a Patch My PC (PMPC) Cloud deployment has been configured to use [ESP Profile
 2.  Navigate to **Devices**\
 
 
-    <figure><img src="../../../.gitbook/assets/image (126).png" alt="Navigating to “Devices”"><figcaption></figcaption></figure>
+    ![Navigating to "Devices"](/_images/image-(126).png "Navigating to “Devices”")
 3.  Navigate to **Enrollment**\
 
 
-    <figure><img src="../../../.gitbook/assets/image (276).png" alt="Navigating to “Enrollment”"><figcaption></figcaption></figure>
+    ![Navigating to "Enrollment"](/_images/image-(276).png "Navigating to “Enrollment”")
 
 
 4.  Scroll down and select **Enrollment Status Page**\
 
 
-    <figure><img src="../../../.gitbook/assets/image (277).png" alt="Scrolling down and selecting “Enrollment Status Page”"><figcaption></figcaption></figure>
+    ![Scrolling down and selecting "Enrollment Status Page"](/_images/image-(277).png "Scrolling down and selecting “Enrollment Status Page”")
 
 
 5.  On the **Enrollment Status Page** click the relevant profile the PMPC Cloud deployment has been added to.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (278).png" alt="Clicking the relevant profile the PMPC Cloud deployment has been added to"><figcaption></figcaption></figure>
+    ![Clicking the relevant profile the PMPC Cloud deployment has been added to](/_images/image-(278).png "Clicking the relevant profile the PMPC Cloud deployment has been added to")
 
 
 6.  On the _**\<profile\_name>**_ page, navigate to **Manage | Properties**\
 
 
-    <figure><img src="../../../.gitbook/assets/image (279).png" alt="Navigating to “Manage | Properties”"><figcaption></figcaption></figure>
+    ![Navigating to "Manage | Properties"](/_images/image-(279).png "Navigating to “Manage | Properties”")
 
 
 7.  Scroll down to the **Block device use until required apps are installed if they are assigned to the user/device** field. This shows the apps that must be installed before the user can use the device and will include the PMPC Cloud deployment if it was configured correctly.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (280).png" alt="Scrolling down to the “Block device use until required apps are installed if they are assigned to the user/device field”, which shows the apps that must be installed before a user can use the device"><figcaption></figcaption></figure>
+    ![Scrolling down to the "Block device use until required apps are installed if they are assigned to the user/device field", which shows the apps that must be installed before a user can use the device](/_images/image-(280).png "Scrolling down to the “Block device use until required apps are installed if they are assigned to the user/device field”, which shows the apps that must be installed before a user can use the device")

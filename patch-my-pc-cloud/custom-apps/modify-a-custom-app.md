@@ -4,11 +4,10 @@ _Applies to: Custom Apps_
 
 You may need to make some changes to a Patch My PC (PMPC) Custom App such as changing it’s configuration or adding additional installation files.
 
-{% hint style="info" %}
-**Note**
-
-See [Updating a Custom App](update-a-custom-app.md) for details on how to update an existing Custom App to a later version.
-{% endhint %}
+<blockquote class="wp-block-quote">
+<p>**Note**</p>
+<p>See [Updating a Custom App](update-a-custom-app.md) for details on how to update an existing Custom App to a later version.</p>
+</blockquote>
 
 To modify a Custom App:
 
@@ -16,23 +15,23 @@ To modify a Custom App:
 2.  On the **App Catalog** page, search for the relevant app.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2015).png" alt="Searching for your Custom App" width="563"><figcaption></figcaption></figure>
+    ![Searching for your Custom App](/_images/image-(2015).png "Searching for your Custom App")
 3. Click the app to open it.
 4.  On the app’s properties page, click **Edit Info**.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2016).png" alt="Clicking “Edit Info”" width="563"><figcaption></figcaption></figure>
+    ![Clicking "Edit Info"](/_images/image-(2016).png "Clicking “Edit Info”")
 
 The Custom Apps **Edit Application** Wizard starts.
 
-<figure><img src="../../.gitbook/assets/image (2633).png" alt="Custom Apps “Edit Application” Wizard" width="563"><figcaption></figcaption></figure>
+![Custom Apps "Edit Application" Wizard](/_images/image-(2633).png "Custom Apps “Edit Application” Wizard")
 
 5. Make the required changes on the relevant tabs, then click **Save**.
 
-<figure><img src="../../.gitbook/assets/image (2634).png" alt="Clicking “Save”" width="563"><figcaption></figcaption></figure>
+![Clicking "Save"](/_images/image-(2634).png "Clicking “Save”")
 
 The App Catalog is displayed along with the following notification:\
 \
 **Success – Your application has been successfully edited**
 
-<figure><img src="../../.gitbook/assets/image (2019).png" alt="“Success – Your application has been successfully edited” notification" width="563"><figcaption></figcaption></figure>
+!["Success – Your application has been successfully edited" notification](/_images/image-(2019).png "“Success – Your application has been successfully edited” notification")
