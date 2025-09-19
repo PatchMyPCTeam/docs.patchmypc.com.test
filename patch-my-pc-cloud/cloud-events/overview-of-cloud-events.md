@@ -10,13 +10,15 @@ To access the Events node:
 2.  Navigate to **Events**.\
 
 
-    ![Navigating to "Events" to access the Events page](/_images/image-(1760 'Navigating to "Events" to access the Events page').png "Navigating to “Events” to access the Events page")
+    <figure><img src="../../.gitbook/assets/image (1760).png" alt="Navigating to “Events” to access the Events page"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
-<p>Only users assigned the **Full Admin** role will be able to see the **Events** node.</p>
-<p>See [User Roles](../cloud-administration/manage-cloud-users/cloud-user-roles-reference.md) for more information.</p>
-</blockquote>
+{% hint style="warning" %}
+**Important**
+
+Only users assigned the **Full Admin** role will be able to see the **Events** node.
+
+See [User Roles](../cloud-administration/manage-cloud-users/cloud-user-roles-reference.md) for more information.
+{% endhint %}
 
 The **Events** page is then displayed, allowing you to:
 
@@ -28,9 +30,10 @@ The **Events** page is then displayed, allowing you to:
 * [Change the number of Events per page](change-the-number-of-cloud-events-per-page.md)
 * [Navigate between pages of Events](navigate-between-pages-of-cloud-events.md)
 
-![The "Events" page](/_images/image-(1762 'The "Events" page').png "The “Events” page")
+<figure><img src="../../.gitbook/assets/image (1762).png" alt="The “Events” page"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
-<p>Events are only held in the portal for 30 days, after which they are automatically groomed from the database. If you wish to keep events longer than 30 days, follow the [Export Events](export-cloud-events.md) process.</p>
-</blockquote>
+{% hint style="warning" %}
+**Important**
+
+Events are only held in the portal for 30 days, after which they are automatically groomed from the database. If you wish to keep events longer than 30 days, follow the [Export Events](export-cloud-events.md) process.
+{% endhint %}

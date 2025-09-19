@@ -6,21 +6,22 @@ To edit an existing Template:
 
 1. Navigate to **Settings | Templates**
 
-![Navigating to "Settings | Templates"](/_images/image-(268 'Navigating to "Settings | Templates"').png "Navigating to “Settings | Templates”")
+<figure><img src="../../../.gitbook/assets/image (268).png" alt="Navigating to “Settings | Templates”" width="563"><figcaption></figcaption></figure>
 
 2. On the **Templates** page, click **Edit** beside the relevant template.
 
-![Clicking "Edit" beside the relevant Template](/_images/image-(53 'Clicking "Edit" beside the relevant Template').png "Clicking “Edit” beside the relevant Template")
+<figure><img src="../../../.gitbook/assets/image (53).png" alt="Clicking “Edit” beside the relevant Template" width="563"><figcaption></figcaption></figure>
 
 3. Make the required changes, then click **Save** to save them.
 
-![Clicking "Save" to save changes](/_images/image-(54 'Clicking "Save" to save changes').png "Clicking “Save” to save changes")
+<figure><img src="../../../.gitbook/assets/image (54).png" alt="Clicking “Save” to save changes" width="563"><figcaption></figcaption></figure>
 
 The **Templates** page is redisplayed along with the **Success - Template “<**_**template\_name**_**>" has been updated** notification.
 
-![Clicking "Save" to save changes](/_images/image-(55 'Clicking "Save" to save changes').png "Clicking “Save” to save changes")
+<figure><img src="../../../.gitbook/assets/image (55).png" alt="Clicking “Save” to save changes" width="563"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>Editing and saving an existing template does not affect any current or previous deployments created based on that template. Only new deployments created after the template is edited will use the new settings if configured to use them.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+Editing and saving an existing template does not affect any current or previous deployments created based on that template. Only new deployments created after the template is edited will use the new settings if configured to use them.
+{% endhint %}

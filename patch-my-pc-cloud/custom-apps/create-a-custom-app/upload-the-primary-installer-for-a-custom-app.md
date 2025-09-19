@@ -8,32 +8,34 @@ To create a Custom App you first need up upload the Primary Installer for the ap
 2.  On the **App Catalog** page, click **Add App**.\
 
 
-    ![Clicking "Add App" on the App Catalog page](/_images/image-(209 'Clicking "Add App" on the App Catalog page').png "Clicking &#x22;Add App&#x22; on the App Catalog page")
+    <figure><img src="../../../.gitbook/assets/image (209).png" alt="Clicking &#x22;Add App&#x22; on the App Catalog page" width="563"><figcaption></figcaption></figure>
 
     \
     The Custom Apps Deployment Wizard starts.\
 
 
-    ![Custom Apps Deployment Wizard](/_images/image-(210 "Custom Apps Deployment Wizard").png "Custom Apps Deployment Wizard")
+    <figure><img src="../../../.gitbook/assets/image (210).png" alt="Custom Apps Deployment Wizard" width="563"><figcaption></figcaption></figure>
 3. On the **File** page, either:
    1. Click **Add Primary Install File** and browse to the location containing the app’s installer (EXE or MSI).
    2. Drag and drop the installer file onto this page.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
-<p>We currently do not support macOS Custom Apps. If you select a .pkg/.dmg you will see a warning stating this and explaining how you can upvote this idea.</p>
-</blockquote>
+{% hint style="danger" %}
+**Important**
 
-![Clicking "Add Primary Install File" on the "Upload Application" page](/_images/image-(211 'Clicking "Add Primary Install File" on the "Upload Application" page').png "Clicking “Add Primary Install File” on the “Upload Application” page")
+We currently do not support macOS Custom Apps. If you select a .pkg/.dmg you will see a warning stating this and explaining how you can upvote this idea.
+{% endhint %}
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
-<p>If you plan to deploy an EXE-based installer, use our free script to help you extract the required information from the registry. See [Finding properties for EXE-Based Installers](../custom-apps-reference/find-properties-for-exe-based-installers.md) for more information.</p>
-</blockquote>
+<figure><img src="../../../.gitbook/assets/image (211).png" alt="Clicking “Add Primary Install File” on the “Upload Application” page " width="563"><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+**Tip**
+
+If you plan to deploy an EXE-based installer, use our free script to help you extract the required information from the registry. See [Finding properties for EXE-Based Installers](../custom-apps-reference/find-properties-for-exe-based-installers.md) for more information.
+{% endhint %}
 
 The hash for the file is calculated as the file is uploaded to your portal and will show as **completed** once the file has been uploaded.
 
-![Calculating the hash for the file as its uploaded to your portal.](/_images/image-(212 "Calculating the hash for the file as its uploaded to your portal.").png "Calculating the hash for the file as its uploaded to your portal.")
+<figure><img src="../../../.gitbook/assets/image (212).png" alt="Calculating the hash for the file as its uploaded to your portal." width="563"><figcaption></figcaption></figure>
 
 4. If the installer does not require any additional folders or files, click **Next** to go to to the [General Information](custom-apps-general-information-tab.md) tab.\
    \
