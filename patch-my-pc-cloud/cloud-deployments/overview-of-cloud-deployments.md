@@ -22,9 +22,11 @@ Some apps do not publish a publicly accessible download. These are typically app
 
 We refer to such apps as _Binary-free apps_ and you should follow the [Create a Binary Free App](../binary-free-apps/deploy-a-binary-free-app.md) process.
 
-> **Note**
->
-> See our [Products that Require Manual Download to the Local Content Repository](https://patchmypc.com/local-content-repository-for-licensed-applications-that-require-manual-download) for a list of such apps that we’ve built and maintain.
+{% hint style="info" %}
+**Note**
+
+See our [Products that Require Manual Download to the Local Content Repository](https://patchmypc.com/local-content-repository-for-licensed-applications-that-require-manual-download) for a list of such apps that we’ve built and maintain.
+{% endhint %}
 
 ### Using Custom Apps to deploy a custom EXE or MSI
 

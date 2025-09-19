@@ -4,27 +4,31 @@ _Applies to: Patch My PC Cloud_
 
 Once the parent MSP company has been onboarded to Patch My PC (PMPC) Cloud, you must configure it to use an MSP Plus license.
 
-> **Important**
->
-> Once you license a company with an MSP license, you cannot switch that company to a different PMPC Cloud license type.
+{% hint style="warning" %}
+**Important**
+
+Once you license a company with an MSP license, you cannot switch that company to a different PMPC Cloud license type.
+{% endhint %}
 
 To configure a company to use an MSP Plus license:
 
 1. Follow the [Manage your License](../cloud-administration/manage-your-environments-in-cloud/manage-your-cloud-license.md) process and enter the MSP Plus license key on the **Enter License Key** field, then click **Activate Now**.
 2. Click **Close** on the **You have successfully activated your license** dialog box.\
    \
-   ![Clicking "Close" on the "You have successfully activated your license" dialog box](/_images/image-(375 "Clicking \"Close\" on the \"You have successfully activated your license\" dialog box").png%3E)\\
+   !\[ Clicking “Close” on the “You have successfully activated your license” dialog box]\(/\_images/image (375).png>)\\
 3. As the terms and conditions for the MSP Plus license differ from the other PMPC Cloud license types, click **Terms and Conditions**.\
    \
-   ![Clicking "Terms and Conditions"](/_images/image-(376 "Clicking \"Terms and Conditions\"").png%3E)\\
+   !\[Clicking “Terms and Conditions”]\(/\_images/image (376).png>)\\
 4.  Review the Terms and Conditions and once you are happy, click the **Accept all Terms and conditions** checkbox followed by **Confirm**.\
     \
-    ![Click the "Accept all Terms and conditions" checkbox followed by "Confirm"](/_images/image-(377 "Click the \"Accept all Terms and conditions\" checkbox followed by \"Confirm\"").png%3E)\
+    !\[Click the “Accept all Terms and conditions” checkbox followed by “Confirm”]\(/\_images/image (377).png>)\
     \
     Once you have clicked **Confirm**, the portal refreshes and the **MSP Customers** node appears at the top of the portal.\\
 
-    ![Portal refreshes and the "MSP Customers" node appears at the top of the portal](/_images/image-(378 "Portal refreshes and the \"MSP Customers\" node appears at the top of the portal").png)
+    ![Portal refreshes and the “MSP Customers” node appears at the top of the portal](../../.gitbook/assets/image-\(378\).png)
 
-> **Note**
->
-> If an MSP license expires, then the MSP tenant and all customers linked to it will be switched to read-only mode.
+{% hint style="info" %}
+**Note**
+
+If an MSP license expires, then the MSP tenant and all customers linked to it will be switched to read-only mode.
+{% endhint %}

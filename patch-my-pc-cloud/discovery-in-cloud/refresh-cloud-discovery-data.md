@@ -9,23 +9,27 @@ To manually refresh the data in the **Discovery** node:
 1. Navigate to the **Discovery** node.
 2.  If the **Refresh Data** button is available, click it and go to Step 4.\\
 
-    !["Refresh Data" button available](/_images/image-(394 "\"Refresh Data\" button available").png)
+    ![“Refresh Data” button available](../../.gitbook/assets/image-\(394\).png)
 3. If the **Refresh Data** button is unavailable, note the value of the **Last Sync** time.\
    \
    If it has been less than 24 hours since discovery last ran successfully, the **Refresh Data** button will be unavailable. Once 24 hours have passed, the **Refresh Data** button will be available.
 
-> **Note**
->
-> The **Last Sync** time is the time when the last sync completed successfully, which is then converted to your local browser time and shown to you in the UI.
+{% hint style="info" %}
+**Note**
+
+The **Last Sync** time is the time when the last sync completed successfully, which is then converted to your local browser time and shown to you in the UI.
+{% endhint %}
 
 4.  The **Refresh Data** button changes to **Collecting Data** whilst discovery runs.\\
 
-    !["Refresh Data" button changed to "Collecting Data" whilst discovery runs](/_images/image-(395 "\"Refresh Data\" button changed to \"Collecting Data\" whilst discovery runs").png)
+    ![“Refresh Data” button changed to “Collecting Data” whilst discovery runs](../../.gitbook/assets/image-\(395\).png)
 5. Currently, when the discovery process completes the portal does not auto-refresh. So periodically press **F5** to refresh the portal.
 6.  Once discovery finishes running, the **Last Sync** time gets updated and the **Refresh Data** button becomes unavailable.\\
 
-    !["Last Sync" time updated and "Refresh data" unavailable](/_images/image-(396 "\"Last Sync\" time updated and \"Refresh data\" unavailable").png)
+    ![“Last Sync” time updated and “Refresh data” unavailable](../../.gitbook/assets/image-\(396\).png)
 
-> **Tip**
->
-> If you look in the **Events** node, you will see the **Intune Discovered Applications Refreshed** event which is created whenever someone clicks **Refresh Data** to refresh your discovery data.
+{% hint style="success" %}
+**Tip**
+
+If you look in the **Events** node, you will see the **Intune Discovered Applications Refreshed** event which is created whenever someone clicks **Refresh Data** to refresh your discovery data.
+{% endhint %}

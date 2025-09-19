@@ -4,25 +4,29 @@ _Applies to: Patch My PC Advanced Insights_
 
 Sometimes we need you to provide log files, including information about your Advanced Insights instance. Your Advanced Insights deployment includes the Log Collector executable that can be used to collect all required logs.
 
-> **Note**
->
-> The Advanced Insights Log Collector is located at:
->
-> \_\`%Advanced Insights Install Directory%\`\_\`\Api\LogCollector\AdvancedInsightsLogDiag.exe\`\\
->
-> For example:
->
-> \`C:\Program Files (x86)\Advanced Insights\Api\LogCollector\AdvancedInsightsLogDiag.exe\`
+{% hint style="info" %}
+**Note**
 
-> The Log Collector can be executed manually and is also used within the Advanced Insights installer. Once the log collection process is completed, a zip file is created on the desktop called:
->
-> **AdvancedInsights\\\_Diag\\\_xxxxxxxx\\\_xxxxxx.zip**
->
-> This ZIP should be shared with Patch My PC technical support.
->
-> \_Example output:\_
+The Advanced Insights Log Collector is located at:
 
-![](/_images/image-(1926).png)
+_`%Advanced Insights Install Directory%`_`\Api\LogCollector\AdvancedInsightsLogDiag.exe`\\
+
+For example:
+
+`C:\Program Files (x86)\Advanced Insights\Api\LogCollector\AdvancedInsightsLogDiag.exe`
+{% endhint %}
+
+{% hint style="info" %}
+The Log Collector can be executed manually and is also used within the Advanced Insights installer. Once the log collection process is completed, a zip file is created on the desktop called:
+
+**AdvancedInsights\_Diag\_xxxxxxxx\_xxxxxx.zip**
+
+This ZIP should be shared with Patch My PC technical support.
+
+_Example output:_
+{% endhint %}
+
+![](../.gitbook/assets/image-\(1926\).png)
 
 **This page provides details about what information the AdvancedInsightsLogDiag.exe collects.**
 
@@ -32,7 +36,7 @@ The contents of the following directory are collected, which consist of the 'Adv
 
 C:\ProgramData\AdvancedInsights\Logs
 
-![](/_images/image-(1924).png)
+![](../.gitbook/assets/image-\(1924\).png)
 
 ### Windows Application Event Log
 

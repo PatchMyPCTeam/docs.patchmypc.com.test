@@ -6,9 +6,11 @@ description: Software Registered in Add/Remove Programs
 
 _Applies to: Patch My PC Advanced Insights_
 
-> The User Installed Apps data on this page requires the deployment of the \[Advanced Insights Inventory Extensions]\(../../advanced-insights-inventory-extensions/)
+{% hint style="info" %}
+The User Installed Apps data on this page requires the deployment of the [Advanced Insights Inventory Extensions](../../advanced-insights-inventory-extensions/)
+{% endhint %}
 
-![](/_images/image-(1546).png)
+![](../../../.gitbook/assets/image-\(1546\).png)
 
 The Client Inventory dashboard provides you with high-performance access to Configuration Manager's software inventory data.
 
@@ -16,4 +18,4 @@ The statistics across the top list the counts of applications installed in the u
 
 The table lists all apps in a quickly searchable and filterable way. Each discovered application is listed by Publisher and Display name. Where multiple versions of an application are present in the environment a count of versions is shown.
 
-![](/_images/image-(1549).png)
+![](../../../.gitbook/assets/image-\(1549\).png)

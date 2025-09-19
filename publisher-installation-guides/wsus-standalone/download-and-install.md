@@ -18,19 +18,21 @@ Download Patch My PC Publisher
 
 Start the installation by double-clicking the downloaded MSI.
 
-> Depending on user account control settings, you may need to run an elevated command prompt and launch the MSI from the command prompt.
+{% hint style="info" %}
+Depending on user account control settings, you may need to run an elevated command prompt and launch the MSI from the command prompt.
+{% endhint %}
 
 ### Welcome Screen
 
 Once the installation starts you'll be greeted by the welcome screen in our installer wizard, click **Next**.
 
-![Select next to continue past the welcome screen](/_images/image-(1077 "Select next to continue past the welcome screen").png%3E)
+!\[Select next to continue past the welcome screen]\(/\_images/image (1077).png>)
 
 ### End-User License Agreement
 
 Read the End-User License Agreement. After that, select **I accept the terms in the License Agreement** and click **Next**.
 
-![End-User License Agreement](/_images/image-(1253 "End-User License Agreement").png%3E)
+!\[End-User License Agreement]\(/\_images/image (1253).png>)
 
 ### Disable Microsoft Intune Standalone Mode
 
@@ -40,7 +42,7 @@ This option is for customers who intend to publish only to Microsoft Intune.
 
 Click **Next**.
 
-![Option for Microsoft Intune standalone mode](/_images/image-(1216 "Option for Microsoft Intune standalone mode").png%3E)
+!\[Option for Microsoft Intune standalone mode]\(/\_images/image (1216).png>)
 
 ### Select Installation Folder
 
@@ -48,20 +50,22 @@ By default the Publisher is installed in **C:\Program Files\Patch My PC\Patch My
 \
 This location is where we store all of the product's configuration information.
 
-![Select the folder where the service should be installed](/_images/image-(1066 "Select the folder where the service should be installed").png%3E)
+!\[Select the folder where the service should be installed]\(/\_images/image (1066).png>)
 
 ### Ready To Install
 
 Click **Install**.
 
-![Select install to start the installation.](/_images/image-(1174 "Select install to start the installation.").png%3E)
+!\[Select install to start the installation.]\(/\_images/image (1174).png>)
 
-![](/_images/image-(1217).png%3E)
+![](../../_images/image-\(1217\).png%3E)
 
 ### Completed
 
 Once the Publisher has finished installing, click **Finish** to close the installation wizard.
 
-> By default, the "**Launch Patch My PC Publishing Service**" is enabled - this will launch the Publisher when you click **Finish**.
+{% hint style="info" %}
+By default, the "**Launch Patch My PC Publishing Service**" is enabled - this will launch the Publisher when you click **Finish**.
+{% endhint %}
 
-![](/_images/image-(1198).png%3E)
+![](../../_images/image-\(1198\).png%3E)

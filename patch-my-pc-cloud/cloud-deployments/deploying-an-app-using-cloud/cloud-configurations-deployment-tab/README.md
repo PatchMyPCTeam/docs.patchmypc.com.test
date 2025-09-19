@@ -4,13 +4,15 @@ _Applies to: Patch My PC Cloud_
 
 The **Configurations** tab of the Patch My PC (PMPC) Cloud deployment wizard allows you to configure various configuration settings (explained below) for how you want the app to be deployed.
 
-> **Note**
->
-> The most common settings are displayed by default. You can configure additional, optional settings by clicking the relevant tab under the **Tools** section and following the relevant process.
->
-> If any configuration options mentioned below are missing from your deployment, it is probably because the specific feature(s) the option relates to have not been enabled in your PMPC Cloud company.
->
-> Any settings you configure for a deployment will be used for the current deployment and automatically applied to any new versions of the deployment as it's updated.
+{% hint style="info" %}
+**Note**
+
+The most common settings are displayed by default. You can configure additional, optional settings by clicking the relevant tab under the **Tools** section and following the relevant process.
+
+If any configuration options mentioned below are missing from your deployment, it is probably because the specific feature(s) the option relates to have not been enabled in your PMPC Cloud company.
+
+Any settings you configure for a deployment will be used for the current deployment and automatically applied to any new versions of the deployment as it's updated.
+{% endhint %}
 
 This tab contains the following settings:
 
@@ -24,7 +26,7 @@ This tab contains the following settings:
 * [Notification Policy](./#notification-policy)
 * [Conflicting Process - Conflicting Process](./#conflicting-process-conflicting-process)
 
-!["Configurations" tab](/_images/image-(2601 "\"Configurations\" tab").png)
+!["Configurations" tab](../../../../.gitbook/assets/image-\(2601\).png)
 
 ### **Apply Template**
 
@@ -88,10 +90,10 @@ Clicking the **Conflicting Process** button lets you see any conflicting process
 
 You can also add additional entries or remove existing entries to suit your environment.
 
-**\***
+***
 
-**If you do not want to configure any of the optional tabs under the** Tools **section, click** Next **to move to the** [**Assignments**](../cloud-assignments-deployment-tab.md) **tab.**
+If you do not want to configure any of the optional tabs under the **Tools** section, click **Next** to move to the [Assignments](../cloud-assignments-deployment-tab.md) tab.
 
-**Otherwise, click on the relevant tab under** Tools\*\* to configure the required settings, which are explained in the relevant process.
+Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking "Next" to move to the "Assignments" tab](/_images/image-(2602 "Clicking \"Next\" to move to the \"Assignments\" tab").png)
+![Clicking "Next" to move to the "Assignments" tab](../../../../.gitbook/assets/image-\(2602\).png)

@@ -21,13 +21,14 @@ In Supported Accounts select _**"Accounts in this organizational directory only"
 
 **Redirect URI**
 
-> **Redirect URI** is used for Microsoft to return the login token to Advanced Insights.
->
-> \\
->
-> This URI must be configured with the value of the internal FQDN of the server hosting Advanced Insights, including the configured port.
->
-> \_(https://**{AdvancedInsightsInternalServerFQDN}:{port}**/account/login)\_
+{% hint style="info" %}
+**Redirect URI** is used for Microsoft to return the login token to Advanced Insights.
+
+\
+This URI must be configured with the value of the internal FQDN of the server hosting Advanced Insights, including the configured port.
+
+_(https://**{AdvancedInsightsInternalServerFQDN}:{port}**/account/login)_
+{% endhint %}
 
 Example redirect URI:
 
@@ -35,7 +36,7 @@ _https://advinsightsserver01.contoso.local:444/account/login_
 
 Select _**"Single-Page Application (SPA)"**_ from the dropdown list in the **"**_**Redirect URI"**_ section, and enter the URI.
 
-![](/_images/app-reg-(3).png)
+![](../.gitbook/assets/app-reg-\(3\).png)
 
 When you have filled in the required properties click **Register**.
 
@@ -43,7 +44,7 @@ You will be shown the App Registration overview screen. We need to copy some pro
 
 Copy **Application (client) ID** and **Directory (tenant) ID** values into a Notepad document.
 
-![](/_images/app-reg2-(1).png)
+![](../.gitbook/assets/app-reg2-\(1\).png)
 
 Now click the _"**Authentication"**_ link on the left in the _"**Manage**"_ section.
 
@@ -57,21 +58,23 @@ This grants the application permissions to issue the tokens used by Advanced Ins
 
 To save changes, click **'Save'**.
 
-![](/_images/app-reg3-(1).png)
+![](../.gitbook/assets/app-reg3-\(1\).png)
 
 Click "**Certificates and secrets"**, then within the **"Client secrets"** section, click _**"New client secret"**_.
 
 Name the secret and set an expiry duration that is suitable for your environment.
 
-> On expiry, logins to Advanced Insights using Entra ID credentials will stop working if you don’t update the client secret.
+{% hint style="info" %}
+On expiry, logins to Advanced Insights using Entra ID credentials will stop working if you don’t update the client secret.
+{% endhint %}
 
-![](/_images/app-reg5-(1).png>)
+![](<../.gitbook/assets/app-reg5 (2).png>)
 
 Click 'Add' to save the **"Client secret"** configuration.
 
 Now you can copy the **"Value"** of your client secret and add it to your Notepad document:
 
-![](/_images/app-reg6-(1).png>)
+![](<../.gitbook/assets/app-reg6 (2).png>)
 
 This completes the configuration work in the Azure Portal.
 
@@ -84,19 +87,21 @@ This completes the configuration work in the Azure Portal.
 5. Enter the value for your **Directory (tenant) ID**.
 6. Select _**'Save All'**_.
 
-![](/_images/advins1-(1).png>)
+![](<../.gitbook/assets/advins1 (2).png>)
 
 ## **New users**
 
-> By default, new users configured in Advanced Insights **(including new Entra ID logins)** will not be active (and can not login) until an administrator manually activates the account.
->
-> !\[]\(/\_images/activation.png)
+{% hint style="info" %}
+By default, new users configured in Advanced Insights **(including new Entra ID logins)** will not be active (and can not login) until an administrator manually activates the account.
+
+<img src="../.gitbook/assets/activation (2).png" alt="" data-size="original">
+{% endhint %}
 
 1. Log into Advanced Insights with an **administrator** role account and navigate to the _**'Administration' > 'Settings'**_ menu. Select the _**"User Management"**_ tab.
 2. Enable _**"New registered users are active by default."**_ checkbox.
 3. Select _**'Save All'**_.
 
-![](/_images/newusers1-(1).png>)
+![](<../.gitbook/assets/newusers1 (2).png>)
 
 This completes the configuration for adding the Entra ID App Registration details to Advanced Insights.
 
@@ -104,17 +109,19 @@ This completes the configuration for adding the Entra ID App Registration detail
 
 The Advanced Insights logon screen will now show a _**"Sign in with Microsoft"**_ button.
 
-![](/_images/advinslogin1-(1).png>)
+![](<../.gitbook/assets/advinslogin1 (2).png>)
 
 At first logon, an Azure administrator will have to consent to the application registration requested permissions.
 
-![](/_images/advinslogin2-(1).png>)
+![](<../.gitbook/assets/advinslogin2 (2).png>)
 
-> By default, new users will only be granted access to the Advanced Insights overview home page.
->
-> Advanced Insights administrator can then enable access to additional dashboard views.
+{% hint style="info" %}
+By default, new users will only be granted access to the Advanced Insights overview home page.
 
-![](/_images/home-(1).png>)
+Advanced Insights administrator can then enable access to additional dashboard views.
+{% endhint %}
+
+![](<../.gitbook/assets/home (2).png>)
 
 ### User requirements <a href="#user-requirements" id="user-requirements"></a>
 
@@ -126,8 +133,8 @@ If the Entra ID account a user logs into Advanced Insights with has a matching o
 
 For example, if a log in with this Entra ID Account is used:
 
-![](/_images/user1-(2).png>)
+![](<../.gitbook/assets/user1 (3).png>)
 
 The on-premises Active Directory object of this account has the users Entra ID UPN set as the email property:
 
-![](/_images/user2-(1).png>)
+![](<../.gitbook/assets/user2 (2).png>)

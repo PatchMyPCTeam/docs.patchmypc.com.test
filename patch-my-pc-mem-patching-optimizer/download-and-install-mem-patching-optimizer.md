@@ -10,7 +10,9 @@ _Applies to: Patch My PC MEM Patching Optimizer_
 
 ## Download the EXE Installer
 
-> [https://github.com/PatchMyPCTeam/MEM-Patching-Optimizer/releases/latest](https://github.com/PatchMyPCTeam/MEM-Patching-Optimizer/releases/latest)
+{% hint style="info" %}
+[https://github.com/PatchMyPCTeam/MEM-Patching-Optimizer/releases/latest](https://github.com/PatchMyPCTeam/MEM-Patching-Optimizer/releases/latest)
+{% endhint %}
 
 ## Run the Installation
 
@@ -18,7 +20,7 @@ _Applies to: Patch My PC MEM Patching Optimizer_
 
 Once the installation starts, you will be greeted by the welcome screen in our installer wizard, click **Next**
 
-![](/_images/Start-(1).png>)
+![](<../.gitbook/assets/Start (2).png>)
 
 ### **End-User License Agreement & Install Directory**
 
@@ -28,18 +30,18 @@ This location is where we store all of the product's configuration information.
 
 Read the End-User License Agreement. After that, select **I accept the terms in the License terms and conditions** and click **Next**.
 
-![](/_images/EULA-(1).png)
+![](../.gitbook/assets/EULA-\(1\).png)
 
-![](/_images/Install_Dir-(1).png>)
+![](<../.gitbook/assets/Install_Dir (2).png>)
 
 ### Ready to Install
 
 Click **Install**
 
-![](/_images/Install-(1).png>)
+![](<../.gitbook/assets/Install (2).png>)
 
 ### Completed
 
 Once the installation has been completed, click **Finish**
 
-![](/_images/Finish-(1).png>)
+![](<../.gitbook/assets/Finish (2).png>)

@@ -6,7 +6,9 @@ description: Prerequisites for installing the Publisher with Intune.
 
 _Applies to: On-premises Publisher_
 
-> Before you get started, make sure you take advantage of our [free trial](https://patchmypc.com/free-trial)!
+{% hint style="success" %}
+Before you get started, make sure you take advantage of our [free trial](https://patchmypc.com/free-trial)!
+{% endhint %}
 
 When installing the Publisher for an Intune-only configuration, ensure you meet the following requirements:
 
@@ -20,20 +22,23 @@ When installing the Publisher for an Intune-only configuration, ensure you meet 
   * Windows 10 or Windows 11
     * When using Windows 10/11, the [RSAT: Windows Server Updates Services](https://docs.microsoft.com/en-us/windows-server/remote/remote-server-administration-tools#BKMK_Thresh) needs to be installed.
 
-> **Note**
->
-> See the [How to fix](https://patchmypc.com/windows-server-update-services-not-installed#howtofixit) section of the [Windows Server Update Services is not installed](https://patchmypc.com/windows-server-update-services-not-installed) Knowledge Base article for details on how to install RSAT.
+{% hint style="info" %}
+**Note**
+
+See the [How to fix](https://patchmypc.com/windows-server-update-services-not-installed#howtofixit) section of the [Windows Server Update Services is not installed](https://patchmypc.com/windows-server-update-services-not-installed) Knowledge Base article for details on how to install RSAT.
+{% endhint %}
 
 * Windows Server 2012, Windows Server 2016, Windows Server 2019, Windows Server 2022, Windows Server 2025
   * When using Windows Server, only the WSUS API component needs to be installed, not full WSUS.
 
-> **Note**
->
-> The Publisher displays the following dialog if the WSUS prerequisites are not installed:\\
->
-> **Windows Server Update Services is not installed.**
->
-> See the [Windows Server Update Services is not installed](https://patchmypc.com/windows-server-update-services-not-installed) Knowledge Base article for details on how to resolve this.
+{% hint style="info" %}
+**Note**
+
+The Publisher displays the following dialog if the WSUS prerequisites are not installed:\
+**Windows Server Update Services is not installed.**
+
+See the [Windows Server Update Services is not installed](https://patchmypc.com/windows-server-update-services-not-installed) Knowledge Base article for details on how to resolve this.
+{% endhint %}
 
 ### Hardware:
 

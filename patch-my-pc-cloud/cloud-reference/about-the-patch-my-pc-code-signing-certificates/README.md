@@ -21,23 +21,27 @@ There are two distinct use cases that require separate certificates in Patch My 
 2. [Patch My PC Helper Scripts](./#use-case-2-patch-my-pc-helper-scripts)\
    Used to sign required and recommended pre/post "helper" scripts for certain applications in the PMPC catalog. These helper scripts perform essential tasks such as stopping processes, uninstalling older software versions, or configuring application behavior during deployment to ensure successful app installation.
 
-> **Important**
->
-> Patch My PC **only** signs helper scripts that we author for certain applications in the PMPC catalog. Any customer-provided scripts added using the \[Cloud "Scripts" Deployment Tool]\(../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/cloud-scripts-deployment-tool/) will not be signed with the Patch My PC code-signing certificate.
+{% hint style="warning" %}
+**Important**
+
+Patch My PC **only** signs helper scripts that we author for certain applications in the PMPC catalog. Any customer-provided scripts added using the [Cloud "Scripts" Deployment Tool](../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/cloud-scripts-deployment-tool/) will not be signed with the Patch My PC code-signing certificate.
+{% endhint %}
 
 ### Use Case 1: Intune Detection and Requirement Scripts
 
 Specifically for Intune detection and requirement scripts, **AgentExecutor.exe** (the Intune client process responsible for calling Win32 app detection or requirement scripts) runs in session 0; it is not visible by the logged on user and PowerShell is awaiting input by the user to accept the code-signing certificate.
 
-![](/_images/image-(1832).png)
+![](../../../.gitbook/assets/image-\(1832\).png)
 
 After 60 minutes, the Intune Management Extension service will timeout and terminate the **powershell.exe** process with the below log entries in the **IntuneManagementExtension.log**.
 
-> **Note**
->
-> Microsoft do not expose this timeout to be configurable in Intune.
+{% hint style="info" %}
+**Note**
 
-![](/_images/image-(1833).png)
+Microsoft do not expose this timeout to be configurable in Intune.
+{% endhint %}
+
+![](../../../.gitbook/assets/image-\(1833\).png)
 
 ### Use Case 2: Patch My PC Helper Scripts
 
@@ -50,10 +54,14 @@ You have two ways to deploy either certificate from Intune:
 * [Using a Custom Configuration Policy](using-a-custom-configuration-policy-to-deploy-the-patch-my-pc-certificate.md) (recommended)
 * [Using a script](using-a-script-to-deploy-the-patch-my-pc-certificate.md)
 
-> **Note**
->
-> If you prefer to deploy a certificate using a method not described here, you can download it from: [https://patchmypc.com/codesign](https://patchmypc.com/codesign)
+{% hint style="info" %}
+**Note**
 
-> **Important**
->
-> In addition, the computer must trust the certificate chain for the code-signing certificate, which is generally the case with certificates issued by public CAs. By importing the code-signing certificate's public key into the Trusted Publishers store, you ensure PowerShell can successfully verify and run the signed scripts.
+If you prefer to deploy a certificate using a method not described here, you can download it from: [https://patchmypc.com/codesign](https://patchmypc.com/codesign)
+{% endhint %}
+
+{% hint style="danger" %}
+**Important**
+
+In addition, the computer must trust the certificate chain for the code-signing certificate, which is generally the case with certificates issued by public CAs. By importing the code-signing certificate's public key into the Trusted Publishers store, you ensure PowerShell can successfully verify and run the signed scripts.
+{% endhint %}

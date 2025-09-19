@@ -14,130 +14,138 @@ To connect your portal to a new Intune tenant:
 
 1.  Navigate to **Settings | Environments**.\\
 
-    ![Navigating to "Settings | Environments"](/_images/image-(1732 "Navigating to \"Settings | Environments\"").png)
+    ![Navigating to “Settings | Environments”](<../../../.gitbook/assets/image-(1732) (1).png>)
 2. Under the **Intune** tab, click **Connect**
 
-![Clicking "Connect" under the "Intune" tab](/_images/image-(2701 "Clicking \"Connect\" under the \"Intune\" tab").png)
+![Clicking “Connect” under the “Intune” tab](<../../../.gitbook/assets/image-(2701) (1).png>)
 
 3. Enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.
 
-![Microsoft "Sign in" screen](/_images/image-(1472 "Microsoft \"Sign in\" screen").png)
+![Microsoft “Sign in” screen](<../../../.gitbook/assets/image-(1472) (1).png>)
 
 4.  Enter the password and click **Sign in**.
 
-    ![Microsoft "Enter password" screen](/_images/image-(1473 "Microsoft \"Enter password\" screen").png)
+    ![Microsoft “Enter password” screen](<../../../.gitbook/assets/image-(1473) (1).png>)
 5. On the **Permissions requested** screen, click **Accept**.
 
-> **Note**
->
-> You must have the **Global Administrator** role in Entra ID to approve our enterprise app.
->
-> We require these permissions to connect with your Intune tenant.
->
-> See \[Permissions required for the Intune Apps]\(../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.
+{% hint style="info" %}
+**Note**
 
-!["Permission requested" screen](/_images/image-(341 "\"Permission requested\" screen").png)
+You must have the **Global Administrator** role in Entra ID to approve our enterprise app.
 
-> **Tip**
->
-> You can click the down arrow beside each permission to get more information.
+We require these permissions to connect with your Intune tenant.
+
+See [Permissions required for the Intune Apps](../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.
+{% endhint %}
+
+![“Permission requested” screen](<../../../.gitbook/assets/image-(341) (1).png>)
+
+{% hint style="success" %}
+**Tip**
+
+You can click the down arrow beside each permission to get more information.
+{% endhint %}
 
 6. On the next screen, verify that there is a green tick above the **Intune Tenant Connected Successfully** section.
 
-![Green tick above the "Intune Tenant Connected Successfully" section](/_images/image-(2705 "Green tick above the \"Intune Tenant Connected Successfully\" section").png)
+![Green tick above the "Intune Tenant Connected Successfully" section](<../../../.gitbook/assets/image-(2705) (1).png>)
 
 7. If you have purchased a license key, go to Step 10.
 8. If you want to start a free 30-day trial, enter the number of devices you want to use during your trial in the **Enter total number of managed devices in production** checkbox, then click **Start Now**.
 
-![Entering the number of devices you want to use during your trial in the "Enter total number of managed devices in production checkbox" and clicking "Start Now".](/_images/image-(2707 "Entering the number of devices you want to use during your trial in the \"Enter total number of managed devices in production checkbox\" and clicking \"Start Now\".").png)
+![Entering the number of devices you want to use during your trial in the "Enter total number of managed devices in production checkbox" and clicking "Start Now".](<../../../.gitbook/assets/image-(2707) (1).png>)
 
 The **You have successfully activated your license** dialog box is displayed on which you can click **Close**
 
-![The "You have successfully activated your license dialog box is displayed" on which you can click "Close"](/_images/image-(2708 "The \"You have successfully activated your license dialog box is displayed\" on which you can click \"Close\"").png)
+![The "You have successfully activated your license dialog box is displayed" on which you can click "Close"](<../../../.gitbook/assets/image-(2708) (1).png>)
 
 A countdown will be shown during your trial showing the number of days left on the trial. Once your trial expires, you will see the **Your license has expired** notification.
 
-!["Your license has expired notification".](/_images/image-(2709 "\"Your license has expired notification\".").png)
+!["Your license has expired notification".](<../../../.gitbook/assets/image-(2709) (1).png>)
 
 9. To purchase a license, click **Request a Quote** in the notification, which will redirect to you to our quote form where you can request a quote for buying the number of licenses you require.
 10. If you already have a valid license key, type it in the **Enter License Key Here** field and click **Activate Now**.
 
-![Entering valid license key in the "Enter License Key Here" field and clicking "Activate Now"](/_images/image-(2710 "Entering valid license key in the \"Enter License Key Here\" field and clicking \"Activate Now\"").png)
+![Entering valid license key in the "Enter License Key Here" field and clicking "Activate Now"](<../../../.gitbook/assets/image-(2710) (1).png>)
 
 The **You have successfully activated your license** dialog box is displayed on which you can click **Close**
 
-!["You have successfully activated your license" dialog box on which you can click "Close"](/_images/image-(2711 "\"You have successfully activated your license\" dialog box on which you can click \"Close\"").png)
+!["You have successfully activated your license" dialog box on which you can click "Close"](<../../../.gitbook/assets/image-(2711) (1).png>)
 
 11. Click **App Catalog** to see all of the applications that can be deployed and managed using Intune Apps for Cloud.
 
-![](/_images/image-(1736).png)
+![](../../../.gitbook/assets/image-\(1736\).png)
 
 ### Reconnecting an Intune tenant
 
 If your portal loses its connection to your Intune tenant (for example, if a Global Admin revokes the [Permissions required for Intune Apps](../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) from within Intune), you can use the **Reconnect** button to re-establish the connection to your previously connected Intune tenant, which will re-grant the required permissions.
 
-> **Note**
->
-> The **Reconnect** button is only available once an Intune connection has been established.
->
-> You will only be able to reconnect to an Intune tenant you’ve previously connected to, based on the tenant ID we have stored in the portal’s database.
+{% hint style="info" %}
+**Note**
+
+The **Reconnect** button is only available once an Intune connection has been established.
+
+You will only be able to reconnect to an Intune tenant you’ve previously connected to, based on the tenant ID we have stored in the portal’s database.
+{% endhint %}
 
 To reconnect your portal to an Intune tenant you’ve previously connected to:
 
 1.  Navigate to **Settings | Environments**.\\
 
-    ![Navigating to "Settings | Environments"](/_images/image-(1738 "Navigating to \"Settings | Environments\"").png)
+    ![Navigating to “Settings | Environments”](<../../../.gitbook/assets/image-(1738) (1).png>)
 2. Click **Reconnect** under your **Intune** tenant.
 
-![Clicking "Reconnect" underneath your Intune tenant](/_images/image-(2570 "Clicking \"Reconnect\" underneath your Intune tenant").png)
+![Clicking "Reconnect" underneath your Intune tenant](<../../../.gitbook/assets/image-(2570) (1).png>)
 
 3. Enter the Entra ID you used to onboard to PMPC Cloud or click to select the relevant account from the list of already signed-in accounts. Then click **Next**.\\
 
-![Microsoft "Sign in" screen](/_images/image-(772 "Microsoft \"Sign in\" screen").png)
+![Microsoft “Sign in” screen](<../../../.gitbook/assets/image-(772) (1).png>)
 
 4. Enter the password and click **Sign in**.
 
-![Microsoft "Enter password" screen](/_images/image-(773 "Microsoft \"Enter password\" screen").png)
+![Microsoft “Enter password” screen](<../../../.gitbook/assets/image-(773) (1).png>)
 
 5. On the **Permission requested** screen, click Accept.\\
 
-!["Permissions requested" screen](/_images/image-(774 "\"Permissions requested\" screen").png)
+![“Permissions requested” screen](<../../../.gitbook/assets/image-(774) (1).png>)
 
 6. Click on the **Events** node to check for the **Intune Connection Added** event, confirming that the Intune connection was restored.
 
-!["Intune Connection Added" event, confirming the Intune connection was restored](/_images/image-(775 "\"Intune Connection Added\" event, confirming the Intune connection was restored").png)
+![“Intune Connection Added” event, confirming the Intune connection was restored](<../../../.gitbook/assets/image-(775) (1).png>)
 
 ### Deleting an Intune tenant connection
 
-> **Important**
->
-> If you disconnect Intune from your PMPC Cloud Company, any added Entra ID Security Groups will be removed and lose access to your PMPC Cloud Company, and the **Add Group** button will no longer appear.
+{% hint style="warning" %}
+**Important**
+
+If you disconnect Intune from your PMPC Cloud Company, any added Entra ID Security Groups will be removed and lose access to your PMPC Cloud Company, and the **Add Group** button will no longer appear.
+{% endhint %}
 
 To delete a connection to an Intune tenant from your portal:
 
 1.  Navigate to **Settings | Environments**.\\
 
-    ![Navigating to "Settings | Environments"](/_images/image-(1686 "Navigating to \"Settings | Environments\"").png)
+    ![Navigating to “Settings | Environments”](<../../../.gitbook/assets/image-(1686) (1).png>)
 2. On the **Environments** page, click **Delete** underneath **Intune**.
 
-![Clicking "Delete" underneath Intune](/_images/image-(2571 "Clicking \"Delete\" underneath Intune").png)
+![Clicking “Delete” underneath Intune](<../../../.gitbook/assets/image-(2571) (1).png>)
 
 3. On the **Are you sure you want to disconnect Intune** dialog box, read the message to understand the implications, then click **OK** to continue.
 
-> **Warning**
->
-> Disconnecting an Intune tenant will delete all:
->
-> \* Deployments which, for those with a \[Retention Policy]\(../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/retention-policy-deployments.md) defined, will include the latest and all old unassigned versions of all deployments.
->
-> \* Banners
->
-> \* Notifications
->
-> There is no undo for this action.
+{% hint style="danger" %}
+**Warning**
 
-!["Are you sure you want to disconnect Intune?" dialog box](/_images/image-(1688 "\"Are you sure you want to disconnect Intune?\" dialog box").png)
+Disconnecting an Intune tenant will delete all:
+
+* Deployments which, for those with a [Retention Policy](../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/retention-policy-deployments.md) defined, will include the latest and all old unassigned versions of all deployments.
+* Banners
+* Notifications
+
+There is no undo for this action.
+{% endhint %}
+
+![“Are you sure you want to disconnect Intune?” dialog box](<../../../.gitbook/assets/image-(1688) (1).png>)
 
 The text underneath the **Intune** section changes to **Connect** followed by the **Success - Intune disconnected** notification.
 
-!["Success - Intune disconnected" notification](/_images/image-(2572 "\"Success - Intune disconnected\" notification").png)
+![“Success - Intune disconnected” notification](<../../../.gitbook/assets/image-(2572) (1).png>)

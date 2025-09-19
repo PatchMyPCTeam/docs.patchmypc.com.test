@@ -8,10 +8,10 @@ For example, you may want to deploy software to a pilot group of users/devices t
 
 Although this approach increases the amount of time it takes to deploy software, it can reduce the impact of deploying software with unforeseen issues that impacts your business in undesirable ways.
 
-> **Notes**
->
-> \* Update Rings do not use Intune's built-in capability to create delayed assignments using Availability and Deadlines.
->
-> \* The use of Update Rings is optional and is controlled at the individual deployment level.
->
-> \* See our [Update Ring Forecaster](https://www.youtube.com/watch?v=RelJPqWIGno) YouTube video for an explanation of Update Rings, plus how to use our free [Get-UpdateRingForecast](https://github.com/PatchMyPCTeam/Community-Scripts/blob/main/Other/Reports/Get-UpdateRingForecast.ps1) script on GitHub which creates an interactive HTML visualization of app update deployment rings for staged rollouts. It calculates and displays a schedule based on specified parameters and helps you understand your version rollout cadence across different environments.
+{% hint style="info" %}
+**Notes**
+
+* Update Rings do not use Intune's built-in capability to create delayed assignments using Availability and Deadlines.
+* The use of Update Rings is optional and is controlled at the individual deployment level.
+* See our [Update Ring Forecaster](https://www.youtube.com/watch?v=RelJPqWIGno) YouTube video for an explanation of Update Rings, plus how to use our free [Get-UpdateRingForecast](https://github.com/PatchMyPCTeam/Community-Scripts/blob/main/Other/Reports/Get-UpdateRingForecast.ps1) script on GitHub which creates an interactive HTML visualization of app update deployment rings for staged rollouts. It calculates and displays a schedule based on specified parameters and helps you understand your version rollout cadence across different environments.
+{% endhint %}
