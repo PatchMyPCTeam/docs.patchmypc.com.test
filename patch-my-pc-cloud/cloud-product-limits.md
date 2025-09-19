@@ -24,5 +24,3 @@ Patch My PC (PMPC) Cloud has the following limits depending on your license type
 <p>They can also create a maximum of 25 deployments with additional files for themselves and an additional 25 deployments with additional files for each child company they manage.</p>
 </blockquote>
 
-
-
