@@ -6,254 +6,258 @@ description: Definition and technical description of each of our custom WMI Clas
 
 _Applies to: Patch My PC Advanced Insights_
 
-<blockquote class="wp-block-quote">
-<p><mark style="color:yellow;"><strong>Properties marked with \</strong>*</mark></p>
-<p><mark style="color:yellow;">These properties can vary by hardware manufacturer. Data generation methods may differ between manufacturers and not all manufacturers may be supported. Users should consult the manufacturer's documentation for accurate interpretation of these properties where applicable.</mark></p>
-</blockquote>
+{% hint style="info" %}
+<mark style="color:yellow;">**Properties marked with \***</mark>
 
-<strong>*
+<mark style="color:yellow;">These properties can vary by hardware manufacturer. Data generation methods may differ between manufacturers and not all manufacturers may be supported. Users should consult the manufacturer's documentation for accurate interpretation of these properties where applicable.</mark>
+{% endhint %}
+
+***
 
 ### PMPC\_Disks
 
-</strong>DeviceID:<strong> Identifier that uniquely names the physical disk.
+**DeviceID:** Identifier that uniquely names the physical disk.
 
-</strong>BusType:<strong> The interface the disk is connected by.
+**BusType:** The interface the disk is connected by.
 
-</strong>MediaType:<strong> Media type of the physical disk
+**MediaType:** Media type of the physical disk
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>Manufacturer:<strong> The name of the manufacturer
+<mark style="color:yellow;">**\***</mark>**Manufacturer:** The name of the manufacturer
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>HealthStatus:<strong> A high-level indication of device health.
+<mark style="color:yellow;">**\***</mark>**HealthStatus:** A high-level indication of device health.
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>OperationalStatus:<strong> Status further explaining a given health status.
+<mark style="color:yellow;">**\***</mark>**OperationalStatus:** Status further explaining a given health status.
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>Model:<strong> This field represents the model number of the hardware
+<mark style="color:yellow;">**\***</mark>**Model:** This field represents the model number of the hardware
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>PowerOnHours:<strong> Length of time, in hours, the storage device has been powered on since manufacture.
+<mark style="color:yellow;">**\***</mark>**PowerOnHours:** Length of time, in hours, the storage device has been powered on since manufacture.
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>ReadErrorsTotal:<strong> Total read errors encountered by the device.
+<mark style="color:yellow;">**\***</mark>**ReadErrorsTotal:** Total read errors encountered by the device.
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>SerialNumber:<strong> Serial Number of the battery
+<mark style="color:yellow;">**\***</mark>**SerialNumber:** Serial Number of the battery
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>Temperature:<strong> The current temperature of the storage device in Celsius
+<mark style="color:yellow;">**\***</mark>**Temperature:** The current temperature of the storage device in Celsius
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>TemperatureMax:<strong> The maximum temperature in Celsius at which the storage device is capable of normal operation.
+<mark style="color:yellow;">**\***</mark>**TemperatureMax:** The maximum temperature in Celsius at which the storage device is capable of normal operation.
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>Wear:<strong> Storage device wear indicator, in percentage. At 100 percent, the estimated wear limit will have been reached.
+<mark style="color:yellow;">**\***</mark>**Wear:** Storage device wear indicator, in percentage. At 100 percent, the estimated wear limit will have been reached.
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>WriteErrorsTotal:<strong> Total write errors encountered by the device.
+<mark style="color:yellow;">**\***</mark>**WriteErrorsTotal:** Total write errors encountered by the device.
 
 <mark style="color:yellow;">These properties are collected via SMART. Not all devices may support SMART monitoring</mark>
 
-</strong>*
+***
 
 ### PMPC\_Batteries
 
-<strong>BatteryID:</strong> String identifying the battery.
+**BatteryID:** String identifying the battery.
 
-<strong>DesignCapacity:</strong> The design capacity of the battery in milliwatt-hours.&#x20;
+**DesignCapacity:** The design capacity of the battery in milliwatt-hours.&#x20;
 
-<strong>FullChargeCapacity:</strong> The full charge capacity of the battery in milliwatt-hours.&#x20;
+**FullChargeCapacity:** The full charge capacity of the battery in milliwatt-hours.&#x20;
 
-<strong>Health:</strong> Comparison of the FullChargeCapacity to the DesignCapacity property is used to determine the health of the battery. (100 = Healthy)
+**Health:** Comparison of the FullChargeCapacity to the DesignCapacity property is used to determine the health of the battery. (100 = Healthy)
 
-<mark style="color:yellow;"><strong>\</strong>*</mark><strong>Chemistry:</strong> Describes the batteries chemistry.
+<mark style="color:yellow;">**\***</mark>**Chemistry:** Describes the batteries chemistry.
 
-<mark style="color:yellow;"><strong>\</strong>*</mark><strong>Manufacturer:</strong> The name of the manufacturer
+<mark style="color:yellow;">**\***</mark>**Manufacturer:** The name of the manufacturer
 
-<mark style="color:yellow;"><strong>\</strong>*</mark><strong>ManufacturerDate:</strong> The date the battery was manufactured
+<mark style="color:yellow;">**\***</mark>**ManufacturerDate:** The date the battery was manufactured
 
-<mark style="color:yellow;"><strong>\</strong>*</mark><strong>SerialNumber:</strong> Serial Number of the battery
+<mark style="color:yellow;">**\***</mark>**SerialNumber:** Serial Number of the battery
 
-<strong>*
+***
 
 ### PMPC\_ODBC
 
-</strong>DataSourceName:<strong> Name of the ODBC
+**DataSourceName:** Name of the ODBC
 
-</strong>Database:<strong> The Display Name of the Application
+**Database:** The Display Name of the Application
 
-</strong>Description:<strong> The reported version of the application.
+**Description:** The reported version of the application.
 
-</strong>Driver:<strong> The driver used for the ODBC
+**Driver:** The driver used for the ODBC
 
-</strong>DriverVersion:<strong> The specific file version of the driver
+**DriverVersion:** The specific file version of the driver
 
-</strong>Platform:<strong> Specifies whether the ODBC is 64/32 bit
+**Platform:** Specifies whether the ODBC is 64/32 bit
 
-</strong>User:<strong> The name of the user that owns the ODBC (if applicable).
+**User:** The name of the user that owns the ODBC (if applicable).
 
-</strong>*
+***
 
 ### PMPC\_UserApps
 
-<strong>InstallLocation:</strong> The folder location in which the application is installed
+**InstallLocation:** The folder location in which the application is installed
 
-<strong>DisplayName:</strong> The Display Name of the Application
+**DisplayName:** The Display Name of the Application
 
-<strong>DisplayVersion:</strong> The reported version of the application.
+**DisplayVersion:** The reported version of the application.
 
-<strong>InstallDate:</strong> The date the application was installed.
+**InstallDate:** The date the application was installed.
 
-<strong>Publisher:</strong> The name of the publisher of the application.
+**Publisher:** The name of the publisher of the application.
 
-<strong>QuietUninstallString:</strong> command line string to uninstall the application.
+**QuietUninstallString:** command line string to uninstall the application.
 
-<strong>UninstallString:</strong> command line string for silent uninstall of the application.
+**UninstallString:** command line string for silent uninstall of the application.
 
-<strong>User:</strong> The name of the user that installed the application.
+**User:** The name of the user that installed the application.
 
-<strong>*
+***
 
 ### PMPC\_LocalGroups
 
-</strong>GroupName:<strong> Name of the local group.
+**GroupName:** Name of the local group.
 
-</strong>Members:<strong> List of user members belonging to that local group.&#x20;
+**Members:** List of user members belonging to that local group.&#x20;
 
-</strong>GroupMembers:<strong> List of sub groups that are members of the local group
+**GroupMembers:** List of sub groups that are members of the local group
 
 <mark style="color:yellow;">If a member cannot be identified the SID will be displayed instead.</mark>
 
-</strong>*
+***
 
 ### PMPC\_Dock
 
-<blockquote class="wp-block-quote">
-<p>Please note that collection of this data requires additional software from the vendors to be installed on clients:</p>
-<p>* HP - <a href="https://www.hp.com/us-en/solutions/client-management-solutions/download.html">HP Dock Accessory Provider</a></p>
-<p>* Lenovo - <a href="https://pcsupport.lenovo.com/us/el/solutions/ht037099">Lenovo Dock Manager</a></p>
-<p>* DELL - <a href="https://www.dell.com/support/kbdoc/en-us/000177080/dell-command-monitor">Dell Command Monitor</a> (or DSIA)</p>
-</blockquote>
+{% hint style="warning" %}
+Please note that collection of this data requires additional software from the vendors to be installed on clients:
 
-<strong>DeviceName:</strong> Identified name of the dock device.
+* HP - [HP Dock Accessory Provider](https://www.hp.com/us-en/solutions/client-management-solutions/download.html)
+* Lenovo - [Lenovo Dock Manager](https://pcsupport.lenovo.com/us/el/solutions/ht037099)
+* DELL - [Dell Command Monitor](https://www.dell.com/support/kbdoc/en-us/000177080/dell-command-monitor) (or DSIA)
+{% endhint %}
 
-<mark style="color:yellow;"><strong>\</strong>*</mark><strong>Firmware:</strong> The firmware version currently installed on the dock
+**DeviceName:** Identified name of the dock device.
 
-<mark style="color:yellow;"><strong>\</strong>*</mark><strong>Manufacturer:</strong> Manufacturer of the dock
+<mark style="color:yellow;">**\***</mark>**Firmware:** The firmware version currently installed on the dock
 
-<mark style="color:yellow;"><strong>\</strong>*</mark><strong>SerialNumber:</strong> Serial Number of the dock if applicable (For dell this is the same as service tag)
+<mark style="color:yellow;">**\***</mark>**Manufacturer:** Manufacturer of the dock
 
-<strong>PnPID:</strong> Device "PnP" Id, this is only used if we werent able to identify the dock model
+<mark style="color:yellow;">**\***</mark>**SerialNumber:** Serial Number of the dock if applicable (For dell this is the same as service tag)
 
-<strong>*
+**PnPID:** Device "PnP" Id, this is only used if we werent able to identify the dock model
+
+***
 
 ### PMPC\_Monitors
 
-</strong>InstanceName:<strong> Unique Identifier for the monitor
+**InstanceName:** Unique Identifier for the monitor
 
-</strong>DeviceName:<strong> Name of the monitor
+**DeviceName:** Name of the monitor
 
-</strong>InchSize:<strong> Diagonal size of monitor
+**InchSize:** Diagonal size of monitor
 
-</strong>ConnectionType:<strong> The cable used to connect to monitor
+**ConnectionType:** The cable used to connect to monitor
 
-</strong>Primary:<strong> Whether this monitor is configured as the primary display. True or False.&#x20;
+**Primary:** Whether this monitor is configured as the primary display. True or False.&#x20;
 
-</strong>ResolutionHorizontal:<strong> Maximum horizontal pixel count
+**ResolutionHorizontal:** Maximum horizontal pixel count
 
-</strong>ResolutionVertical:<strong> Maximum vertical pixel count
+**ResolutionVertical:** Maximum vertical pixel count
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>Model:<strong> Model of the monitor
+<mark style="color:yellow;">**\***</mark>**Model:** Model of the monitor
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>SerialNumber:<strong> Serial number of monitor (service tag for DELL)
+<mark style="color:yellow;">**\***</mark>**SerialNumber:** Serial number of monitor (service tag for DELL)
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>Manufacturer:<strong> Name of manufacturer
+<mark style="color:yellow;">**\***</mark>**Manufacturer:** Name of manufacturer
 
-<mark style="color:yellow;"></strong>\<strong>*</mark></strong>ManufactureYear:<strong> Year the monitor was made
+<mark style="color:yellow;">**\***</mark>**ManufactureYear:** Year the monitor was made
 
-</strong>*
+***
 
 ### PMPC\_Updates
 
-<strong>UpdateId:</strong> unique ID that represents the update
+**UpdateId:** unique ID that represents the update
 
-<strong>Title:</strong> Title of the update.
+**Title:** Title of the update.
 
-<strong>Status:</strong> Missing or Installed.
+**Status:** Missing or Installed.
 
-<strong>Service:</strong> The Update Service used to discover this update.
+**Service:** The Update Service used to discover this update.
 
-<strong>Product:</strong> Product associated with the update
+**Product:** Product associated with the update
 
-<strong>ProductID:</strong> ProductID associated with the update
+**ProductID:** ProductID associated with the update
 
-<strong>InstalledOn:</strong> Date the update was Installed On
+**InstalledOn:** Date the update was Installed On
 
-<strong>DatePosted:</strong> Date the updated was release or revised
+**DatePosted:** Date the updated was release or revised
 
-<strong>ArticleId:</strong> KB article ID identifying the update
+**ArticleId:** KB article ID identifying the update
 
-<strong>*
+***
 
 ### PMPC\_WifiInterface
 
-</strong>GUID:<strong> unique ID that represents the Wifi Interface
+**GUID:** unique ID that represents the Wifi Interface
 
-</strong>Description:<strong> Name / description of the interface
+**Description:** Name / description of the interface
 
-</strong>Authentication:<strong> Type of authentication used (e.g., WPA2, WEP, Open)
+**Authentication:** Type of authentication used (e.g., WPA2, WEP, Open)
 
-</strong>Band:<strong> Frequency band used (e.g., 2.4GHz, 5GHz)
+**Band:** Frequency band used (e.g., 2.4GHz, 5GHz)
 
-</strong>Channel:<strong> Current operating channel
+**Channel:** Current operating channel
 
-</strong>Cipher:<strong> Encryption cipher used (e.g., AES, TKIP)
+**Cipher:** Encryption cipher used (e.g., AES, TKIP)
 
-</strong>ConnectionMode:<strong> Mode of connection&#x20;
+**ConnectionMode:** Mode of connection&#x20;
 
-</strong>Driver Version:<strong> Version of the driver software controlling the interface
+**Driver Version:** Version of the driver software controlling the interface
 
-</strong>PhysicalAddress:<strong> MAC address of the interface
+**PhysicalAddress:** MAC address of the interface
 
-</strong>RadioType:<strong> Type of wireless radio (e.g., 802.11n, 802.11ac)
+**RadioType:** Type of wireless radio (e.g., 802.11n, 802.11ac)
 
-</strong>Signal:<strong> Percentage signal strength of the connection
+**Signal:** Percentage signal strength of the connection
 
-</strong>SSID:<strong> Name of the wireless network
+**SSID:** Name of the wireless network
 
-</strong>State:<strong> Current state of the interface (e.g., connected, disconnected)
+**State:** Current state of the interface (e.g., connected, disconnected)
 
-</strong>*
+***
 
 ### PMPC\_UserProfile
 
-<strong>SID:</strong> Security Identifier associated with the user profile
+**SID:** Security Identifier associated with the user profile
 
-<strong>Path:</strong> File path where the user profile is stored
+**Path:** File path where the user profile is stored
 
-<strong>LastLoggedIn:</strong> Date and time of the user's last login
+**LastLoggedIn:** Date and time of the user's last login
 
-<strong>AccountName:</strong> Name of the user account
+**AccountName:** Name of the user account
 
-<strong>SizeGB:</strong> Size of the user profile in gigabytes
+**SizeGB:** Size of the user profile in gigabytes
 
 
 
-<strong>*
+***
 
 ### PMPC\_BrowserExtension
 
-<blockquote class="wp-block-quote">
-<p></strong>Note<strong></p>
-<p>Supported Browsers:</p>
-<p>* Chrome</p>
-<p>* Edge</p>
-<p>* Brave</p>
-<p>* Firefox</p>
-<p>* Opera</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-</strong>InstallPath:<strong> Path of the extension content and manifest
+Supported Browsers:
 
-</strong>Name:<strong> Name of the extension
+* Chrome
+* Edge
+* Brave
+* Firefox
+* Opera
+{% endhint %}
 
-</strong>Author:<strong> The reported author of the browser extension acording to the manifest
+**InstallPath:** Path of the extension content and manifest
 
-</strong>Browser:<strong> The browser that the extension is installed in.
+**Name:** Name of the extension
 
-</strong>User:<strong> The user that has the extension installed. (All browser extensions are per user)
+**Author:** The reported author of the browser extension acording to the manifest
 
-</strong>ID:<strong> ID of the Browser Extension associated with Chrome / Edge store
+**Browser:** The browser that the extension is installed in.
 
-</strong>Version:** The version of the browser extension
+**User:** The user that has the extension installed. (All browser extensions are per user)
+
+**ID:** ID of the Browser Extension associated with Chrome / Edge store
+
+**Version:** The version of the browser extension

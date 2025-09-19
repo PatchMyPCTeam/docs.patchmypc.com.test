@@ -2,21 +2,25 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p><strong>Important</strong></p>
-<p>This feature is currently only available through an invitation-only Private Preview, as both it and the documentation are under development, incomplete, and subject to change.</p>
-<p>Please do not share links to these docs with others outside of the Private Preview.</p>
-<p>Once this feature is released, it will be announced and this banner removed.</p>
-</blockquote>
+{% hint style="danger" %}
+**Important**
+
+This feature is currently only available through an invitation-only Private Preview, as both it and the documentation are under development, incomplete, and subject to change.
+
+Please do not share links to these docs with others outside of the Private Preview.
+
+Once this feature is released, it will be announced and this banner removed.
+{% endhint %}
 
 The _Migration_ feature of Patch My PC (PMPC) Cloud allows you to migrate the following items from a Microsoft Configuration Manager (ConfigMgr) hierarchy to a PMPC Cloud company:
 
 * [Applications](overview-of-migration.md#migrating-applications)
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>We are currently focusing on just application migration, but we do plan to add the ability to migrate other types of objects from ConfigMgr as the Migration feature evolves.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+We are currently focusing on just application migration, but we do plan to add the ability to migrate other types of objects from ConfigMgr as the Migration feature evolves.
+{% endhint %}
 
 ### Migrating Applications
 

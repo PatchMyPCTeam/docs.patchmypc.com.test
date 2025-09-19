@@ -4,21 +4,25 @@ _Applies to: Patch My PC On-Premises Publisher_
 
 Welcome to the official home page for Patch my PC's (PMPC's) On-Premises Publisher.
 
-<blockquote class="wp-block-quote">
-<p><strong>Important</strong></p>
-<p>We are currently reviewing and migrating all of our current Publisher-related content to this space, which should be considered as the most up-to-date.</p>
-<p>Once content has been migrated to this location, it will be deleted from the old location to avoid duplication and confusion.</p>
-<p>This is not a small undertaking and will take us some time to complete. We realize there will be some inconvenience to you with content being split across locations, which is why we always recommend using the <strong>Search</strong> function to find what you are looking for.</p>
-<p>If you encounter any documentation-related issues or have any feedback, feel free to email [docs@patchmypc.com](mailto:docs@patchmypc.com).</p>
-</blockquote>
+{% hint style="danger" %}
+**Important**
+
+We are currently reviewing and migrating all of our current Publisher-related content to this space, which should be considered as the most up-to-date.
+
+Once content has been migrated to this location, it will be deleted from the old location to avoid duplication and confusion.
+
+This is not a small undertaking and will take us some time to complete. We realize there will be some inconvenience to you with content being split across locations, which is why we always recommend using the **Search** function to find what you are looking for.
+
+If you encounter any documentation-related issues or have any feedback, feel free to email [docs@patchmypc.com](mailto:docs@patchmypc.com).
+{% endhint %}
 
 The configuration guides will help you setup the Patch My PC On-Premises Publisher (Publisher) with Microsoft Configuration Manager and Microsoft Intune.
 
 ## ⚙ Installation
 
-To help get you started, we provide a few different guides (<strong>documented</strong> or <strong>video</strong>) to help you install the Patch My PC Publisher.&#x20;
+To help get you started, we provide a few different guides (**documented** or **video**) to help you install the Patch My PC Publisher.&#x20;
 
-Don't feel like going it alone? You can[ <strong>schedule a setup call</strong> ](https://patchmypc.com/schedule-setup-call)with a Patch My PC engineer to help you install correctly first-time in your environment.
+Don't feel like going it alone? You can[ **schedule a setup call** ](https://patchmypc.com/schedule-setup-call)with a Patch My PC engineer to help you install correctly first-time in your environment.
 
 ### 💿 Download the Publisher MSI Installer
 
@@ -26,9 +30,9 @@ Don't feel like going it alone? You can[ <strong>schedule a setup call</strong> 
 Download Patch My PC Publisher
 {% endembed %}
 
-<blockquote class="wp-block-quote">
-<p>SHA256: B73090F25FB00A777659734CAEF19EE1F53DACA86832B2CA23AA3917B435EE21</p>
-</blockquote>
+{% hint style="info" %}
+SHA256: B73090F25FB00A777659734CAEF19EE1F53DACA86832B2CA23AA3917B435EE21
+{% endhint %}
 
 ### Configuration Manager Install
 
@@ -48,7 +52,7 @@ Are you installing the product for Microsoft Intune? No problem, click the link 
 
 ## 📄 Release History
 
-Curious about what fixes and new features we've added to the Publisher? You can check out our release history in the release history section for our [<strong>Production</strong> ](../release-history/production-releases/)and [<strong>Preview</strong>](../release-history/production-releases/preview-releases.md) releases:
+Curious about what fixes and new features we've added to the Publisher? You can check out our release history in the release history section for our [**Production** ](../release-history/production-releases/)and [**Preview**](../release-history/production-releases/preview-releases.md) releases:
 
 {% content-ref url="../release-history/production-releases/" %}
 [production-releases](../release-history/production-releases/)
@@ -70,13 +74,13 @@ Catalog Release RSS Feed
 
 ### 📅 Schedule a Live Demo
 
-If you're just getting started and need help learning the product no problem we can give you a <strong>live interactive demo</strong> where we will explain everything you need to know about our product from a deep dive inner workings of the product to licenses and security. 🔒
+If you're just getting started and need help learning the product no problem we can give you a **live interactive demo** where we will explain everything you need to know about our product from a deep dive inner workings of the product to licenses and security. 🔒
 
 {% embed url="https://patchmypc.com/schedule-live-demo?utm_content=docs-article&utm_medium=referral&utm_source=github" %}
 
 ### 🤝 Schedule a Guided Install
 
-So you've seen a demo, and you're ready to try the product out in your environment. To get you started off right we offer a <strong>FREE guided installation</strong> of the product in your environment. We strongly encourage all customers to bring an engineer along for the ride to ensure you get the maximum value out of our product and to ensure smooth sailing. ⛵
+So you've seen a demo, and you're ready to try the product out in your environment. To get you started off right we offer a **FREE guided installation** of the product in your environment. We strongly encourage all customers to bring an engineer along for the ride to ensure you get the maximum value out of our product and to ensure smooth sailing. ⛵
 
 {% embed url="https://patchmypc.com/schedule-setup-call?utm_content=docs-article&utm_medium=referral&utm_source=github" %}
 
@@ -130,7 +134,9 @@ Want to learn more about who we are and what we do? Head on over to our [About U
 Want to learn more about us? Click here to learn more about our team.
 {% endembed %}
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>If you have any feedback or comments on our docs, please email [docs@patchmypc.com](mailto:docs@patchmypc.com).</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+If you have any feedback or comments on our docs, please email [docs@patchmypc.com](mailto:docs@patchmypc.com).
+{% endhint %}
+

@@ -10,12 +10,13 @@ _Applies to: Patch My PC Return on Investment tool_
 
 The Patch My PC Return on Investment (ROI) tool helps identify the products supported in the current Patch My PC catalog that are in use in your environment.
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>At this time, the ROI Tool does not support Intune scanning for GCC High and DoD tenants</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-![](/_images/image-(1278).png "")
+At this time, the ROI Tool does not support Intune scanning for GCC High and DoD tenants
+{% endhint %}
+
+<figure><img src=".gitbook/assets/image (1278).png" alt=""><figcaption></figcaption></figure>
 
 ## Download
 
@@ -35,11 +36,11 @@ This section will detail the data the ROI tool uses.
 
 All of your data remains in your environment and is not shared with anyone, including Patch My PC.
 
-When you choose <strong>Scan Intune</strong>, you will be prompted to approve an Enterprise Application (see [#what-permissions-are-required](patch-my-pc-roi-tool.md#what-permissions-are-required "mention") for more information.)
+When you choose **Scan Intune**, you will be prompted to approve an Enterprise Application (see [#what-permissions-are-required](patch-my-pc-roi-tool.md#what-permissions-are-required "mention") for more information.)
 
-This uses <strong>delegated permissions</strong>; the Patch My PC ROI tool does not harvest any of your Intune data, and it is not stored anywhere other than in your tenant. It simply allows the tool to connect to your Intune tenant on your behalf.&#x20;
+This uses **delegated permissions**; the Patch My PC ROI tool does not harvest any of your Intune data, and it is not stored anywhere other than in your tenant. It simply allows the tool to connect to your Intune tenant on your behalf.&#x20;
 
-After logging in, it then uses Microsoft's Graph API to retrieve the same inventory data displayed in the <strong>Discovered Apps</strong> report within the Intune console.
+After logging in, it then uses Microsoft's Graph API to retrieve the same inventory data displayed in the **Discovered Apps** report within the Intune console.
 
 You read more about Intune's Discovered Apps software inventory here:&#x20;
 
@@ -57,7 +58,7 @@ Intune Admin Center: Monitor | Discovered apps
 
 All of your data remains in your environment and is not shared with anyone, including Patch My PC.
 
-When you choose <strong>Scan ConfigMgr</strong>, the tool queries the below local WMI classes, assumed to be the SMS Provider in the Configuration Manager environment:
+When you choose **Scan ConfigMgr**, the tool queries the below local WMI classes, assumed to be the SMS Provider in the Configuration Manager environment:
 
 * `SMS_G_System_INSTALLED_SOFTWARE`
 * `SMS_G_System_ADD_REMOVE_PROGRAMS`
@@ -67,7 +68,7 @@ When you choose <strong>Scan ConfigMgr</strong>, the tool queries the below loca
 
 Assuming the permissions required below are satisfied, running the tool will allow the user to click on the Scan Intune or Scan ConfigMgr buttons:
 
-![](/_images/ROITool.gif)
+<figure><img src=".gitbook/assets/ROITool.gif" alt=""><figcaption><p>The ROI Tool Scanning Configuration Manager</p></figcaption></figure>
 
 The interface will update dynamically as the tool runs, showing progress as it scans all inventory. In testing the tool requires around 1 minute for every 5,000 clients.
 
@@ -85,31 +86,36 @@ This section will detail what permissions are required to run the ROI tool in yo
 
 ### Intune
 
-* <strong>Application Administrator</strong>
-* <strong>DeviceManagementManagedDevices.Read.All</strong>
+* **Application Administrator**
+* **DeviceManagementManagedDevices.Read.All**
 
-To scan Intune you must accept the application's request to read your Intune data. The account approving the request must have at least the "<strong>Application Administrator"</strong> role in azure. The Tool's access to this data will only persist for as long as you keep your session open (1 hour max).
+To scan Intune you must accept the application's request to read your Intune data. The account approving the request must have at least the "**Application Administrator"** role in azure. The Tool's access to this data will only persist for as long as you keep your session open (1 hour max).
 
-![](/_images/image-(1281).png "App registration approval request")
+<figure><img src=".gitbook/assets/image (1281).png" alt=""><figcaption><p>App registration approval request</p></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>You do not need to check the optional <strong>Consent on behalf of your organization</strong> checkbox, which is only visible to Global or Application administrators.</p>
-<p>However, if you are a Global or Application administrator and want to accept the request to read the profile for all users in your tenant and prevent this message from being displayed for them, you should check it.</p>
-<p>Either way, checking or unchecking this checkbox does not affect the ROI tool functionality.</p>
-<p>Once you accept the permissions, you will not see this dialog box again on subsequent sign-ins.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-<blockquote class="wp-block-quote">
-<p>You can click the down arrow beside each permission to get more information.</p>
-</blockquote>
+You do not need to check the optional **Consent on behalf of your organization** checkbox, which is only visible to Global or Application administrators.
 
-Once the app registration is approved, subsequent executions will ask for a run-as account only. This account requires, as a minimum, Intune <strong>DeviceManagementManagedDevices.Read.All</strong> rights.
+However, if you are a Global or Application administrator and want to accept the request to read the profile for all users in your tenant and prevent this message from being displayed for them, you should check it.
 
-![](/_images/image-(1279).png "Executing the ROI tool once the app registration is complete")
+Either way, checking or unchecking this checkbox does not affect the ROI tool functionality.
+
+Once you accept the permissions, you will not see this dialog box again on subsequent sign-ins.
+{% endhint %}
+
+{% hint style="success" %}
+You can click the down arrow beside each permission to get more information.
+{% endhint %}
+
+Once the app registration is approved, subsequent executions will ask for a run-as account only. This account requires, as a minimum, Intune **DeviceManagementManagedDevices.Read.All** rights.
+
+<figure><img src=".gitbook/assets/image (1279).png" alt=""><figcaption><p>Executing the ROI tool once the app registration is complete</p></figcaption></figure>
 
 ### Configuration Manager
 
-* <strong>Read-only Analyst</strong>
+* **Read-only Analyst**
 
-To scan Configuration Manager the tool <strong>must be run on your SMS Provider Server.</strong> By default, this will be your primary site or CAS. The account running the tool must have at least the <strong>"Read-only Analyst"</strong> role in Configuration Manager.
+To scan Configuration Manager the tool **must be run on your SMS Provider Server.** By default, this will be your primary site or CAS. The account running the tool must have at least the **"Read-only Analyst"** role in Configuration Manager.
+

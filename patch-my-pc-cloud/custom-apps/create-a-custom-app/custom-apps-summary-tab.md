@@ -2,29 +2,33 @@
 
 _Applies to: Patch My PC Cloud Custom Apps_
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>Reviewing the <strong>Summary</strong> tab is optional, but recommended.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
 
-On the <strong>Summary</strong> tab, review you have configured the Custom App correctly.
+Reviewing the **Summary** tab is optional, but recommended.
+{% endhint %}
 
-* If you are happy, click <strong>Create</strong>.
-* If you need to change something, click <strong>< Prev</strong> to backtrack through the Deployment Wizard to the relevant setting. Make the change, then step back through the wizard to this tab. If everything is now correct, click <strong>Create</strong>.
+On the **Summary** tab, review you have configured the Custom App correctly.
 
-![Clicking “Create” on the “Summary” page](/_images/image-(206).png "Clicking “Create” on the “Summary” page")
+* If you are happy, click **Create**.
+* If you need to change something, click **< Prev** to backtrack through the Deployment Wizard to the relevant setting. Make the change, then step back through the wizard to this tab. If everything is now correct, click **Create**.
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>If the <strong>Create</strong> button is unavailable, check to ensure:</p>
-<p>* All required fields on all tabs have been completed.</p>
-<p>* If any extra files or folders have been added, check that they have uploaded successfully. If any show as <strong>Failed</strong>, either remove them to proceed or remove them and re-add them</p>
-</blockquote>
+<figure><img src="../../../.gitbook/assets/image (206).png" alt="Clicking “Create” on the “Summary” page "><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Note**
+
+If the **Create** button is unavailable, check to ensure:
+
+* All required fields on all tabs have been completed.
+* If any extra files or folders have been added, check that they have uploaded successfully. If any show as **Failed**, either remove them to proceed or remove them and re-add them
+{% endhint %}
 
 The App Catalog is displayed and the following notification is displayed:\
 \
-&#xNAN;<strong><</strong>_<strong>app\_name</strong>_<strong>> Added – Your application has been successfully added to App Catalog</strong>
+&#xNAN;**<**_**app\_name**_**> Added – Your application has been successfully added to App Catalog**
 
-![](/_images/image-(207).png "")
+<figure><img src="../../../.gitbook/assets/image (207).png" alt="“<app_name> Added – Your application has been successfully added to App Catalog” notification"><figcaption></figcaption></figure>
 
 You can now [deploy](../../cloud-deployments/) and manage your Custom App in the same way as other PMPC Cloud apps.
+

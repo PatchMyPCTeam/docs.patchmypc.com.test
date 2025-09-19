@@ -2,23 +2,25 @@
 
 _Applies to: Patch My PC Cloud_
 
-An event is written to the <strong>Events</strong> node whenever a user performs a task in the Patch My PC (PMPC) Cloud portal. Events are also created if the action a user performs triggers a component to perform an activity.
+An event is written to the **Events** node whenever a user performs a task in the Patch My PC (PMPC) Cloud portal. Events are also created if the action a user performs triggers a component to perform an activity.
 
 To access the Events node:
 
 1. Using your portal account, sign in at [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
-2.  Navigate to <strong>Events</strong>.\
+2.  Navigate to **Events**.\
 
 
-    ![Navigating to “Events” to access the Events page](/_images/image-(1760).png "Navigating to “Events” to access the Events page")
+    <figure><img src="../../.gitbook/assets/image (1760).png" alt="Navigating to “Events” to access the Events page"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p><strong>Important</strong></p>
-<p>Only users assigned the <strong>Full Admin</strong> role will be able to see the <strong>Events</strong> node.</p>
-<p>See [User Roles](../cloud-administration/manage-cloud-users/cloud-user-roles-reference.md) for more information.</p>
-</blockquote>
+{% hint style="warning" %}
+**Important**
 
-The <strong>Events</strong> page is then displayed, allowing you to:
+Only users assigned the **Full Admin** role will be able to see the **Events** node.
+
+See [User Roles](../cloud-administration/manage-cloud-users/cloud-user-roles-reference.md) for more information.
+{% endhint %}
+
+The **Events** page is then displayed, allowing you to:
 
 * [Search for an Event](search-for-a-cloud-event.md)
 * [Export Events](export-cloud-events.md)
@@ -28,9 +30,10 @@ The <strong>Events</strong> page is then displayed, allowing you to:
 * [Change the number of Events per page](change-the-number-of-cloud-events-per-page.md)
 * [Navigate between pages of Events](navigate-between-pages-of-cloud-events.md)
 
-![The “Events” page](/_images/image-(1762).png "The “Events” page")
+<figure><img src="../../.gitbook/assets/image (1762).png" alt="The “Events” page"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p><strong>Important</strong></p>
-<p>Events are only held in the portal for 30 days, after which they are automatically groomed from the database. If you wish to keep events longer than 30 days, follow the [Export Events](export-cloud-events.md) process.</p>
-</blockquote>
+{% hint style="warning" %}
+**Important**
+
+Events are only held in the portal for 30 days, after which they are automatically groomed from the database. If you wish to keep events longer than 30 days, follow the [Export Events](export-cloud-events.md) process.
+{% endhint %}

@@ -4,25 +4,25 @@ _Applies to: Patch My PC Cloud_
 
 ### SYMPTOMS
 
-Why, when I click on the <strong>Migration</strong> node, does the Migration page say:
+Why, when I click on the **Migration** node, does the Migration page say:
 
-<strong>Migration is Unavailable</strong>
+**Migration is Unavailable**
 
-![“Migration is Unavailable”](/_images/image-(2718).png "“Migration is Unavailable”")
+<figure><img src="../../../.gitbook/assets/image (2718).png" alt="“Migration is Unavailable”" width="563"><figcaption></figcaption></figure>
 
 ### CAUSE
 
-This message is telling you that you do not have the <strong>Enable Application Migration</strong> checkbox checked on the <strong>Cloud</strong> tab of the Publisher.
+This message is telling you that you do not have the **Enable Application Migration** checkbox checked on the **Cloud** tab of the Publisher.
 
 ### RESOLUTION
 
 To resolve this issue:
 
 1. Load Publisher.
-2. Click the <strong>Cloud</strong> tab.
+2. Click the **Cloud** tab.
 
-![Clicking the &#x22;Cloud&#x22; tab](/_images/image-(2719).png "Clicking the &#x22;Cloud&#x22; tab")
+<figure><img src="../../../.gitbook/assets/image (2719).png" alt="Clicking the &#x22;Cloud&#x22; tab" width="468"><figcaption></figcaption></figure>
 
-3. Ensure the <strong>Enable Application Migration</strong> checkbox is checked.
+3. Ensure the **Enable Application Migration** checkbox is checked.
 
-![Ensuring the “Enable Application Migration” checkbox is checked](/_images/image-(2720).png "Ensuring the “Enable Application Migration” checkbox is checked")
+<figure><img src="../../../.gitbook/assets/image (2720).png" alt="Ensuring the “Enable Application Migration” checkbox is checked" width="468"><figcaption></figcaption></figure>

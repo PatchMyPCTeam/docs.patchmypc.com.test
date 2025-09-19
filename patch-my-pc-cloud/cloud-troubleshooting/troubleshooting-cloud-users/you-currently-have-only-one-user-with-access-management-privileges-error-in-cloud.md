@@ -6,9 +6,9 @@ _Applies to: Patch My PC Cloud_
 
 Why do I see the following message at the top of my screen when signing into the Patch My PC (PMPC) Cloud portal?
 
-<strong>You currently have only one user with Access Management privileges. To prevent access issues please add a second user with Access Management privileges.</strong>
+**You currently have only one user with Access Management privileges. To prevent access issues please add a second user with Access Management privileges.**
 
-![PMPC Portal showing the “You currently have only one user with Access Management privileges” message](/_images/image-(1758).png "PMPC Portal showing the “You currently have only one user with Access Management privileges” message")
+<figure><img src="../../../.gitbook/assets/image (1758).png" alt="PMPC Portal showing the “You currently have only one user with Access Management privileges” message"><figcaption></figcaption></figure>
 
 ### CAUSE
 
@@ -18,6 +18,6 @@ If, for some reason, this person leaves or forgets their password, you will be u
 
 ### RESOLUTION
 
-To resolve this issue, click <strong>Fix Access</strong> and follow the [Add Users](../../cloud-administration/manage-cloud-users/add-a-cloud-user.md) process.
+To resolve this issue, click **Fix Access** and follow the [Add Users](../../cloud-administration/manage-cloud-users/add-a-cloud-user.md) process.
 
 This message will disappear once you have at least two users with Access Management privileges.

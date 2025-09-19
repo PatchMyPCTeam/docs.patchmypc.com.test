@@ -11,40 +11,42 @@ With the addition of macOS support to Patch My PC (PMPC) Cloud, the App Catalog 
 
 To switch to List view:
 
-On the <strong>App Catalog</strong> page, click the <strong>List View</strong> button.
+On the **App Catalog** page, click the **List View** button.
 
-![Clicking the “List View” button](/_images/image-(2279).png "Clicking the “List View” button")
+<figure><img src="../../.gitbook/assets/image (2279).png" alt="Clicking the “List View” button"><figcaption></figcaption></figure>
 
-The App Catalog updates to show the list of available apps in list view. The new <strong>OS</strong> column shows which operating systems each app can be deployed to.
+The App Catalog updates to show the list of available apps in list view. The new **OS** column shows which operating systems each app can be deployed to.
 
-![New “OS” column shows which operating systems each app can be deployed to](/_images/image-(2280).png "New “OS” column shows which operating systems each app can be deployed to")
+<figure><img src="../../.gitbook/assets/image (2280).png" alt="New “OS” column shows which operating systems each app can be deployed to"><figcaption></figcaption></figure>
 
 ### Using the OS Filter
 
-To use the <strong>Operating System (OS)</strong> filter in the App Catalog:
+To use the **Operating System (OS)** filter in the App Catalog:
 
-1.  On the <strong>App Catalog</strong> page, click the funnel button.\
-
-
-    ![Clicking the funnel button.](/_images/image-(2281).png "Clicking the funnel button.")
+1.  On the **App Catalog** page, click the funnel button.\
 
 
-2.  Click the checkbox for the OS you want to filter by (for example <strong>macOS</strong>), then click <strong>Apply All Filters</strong>.\
+    <figure><img src="../../.gitbook/assets/image (2281).png" alt="Clicking the funnel button."><figcaption></figcaption></figure>
+
+
+2.  Click the checkbox for the OS you want to filter by (for example **macOS**), then click **Apply All Filters**.\
     \
 
 
-    ![Checking the relevant checkbox for the OS you want to filter by then clicking “Apply All Filters”](/_images/image-(289).png "Checking the relevant checkbox for the OS you want to filter by then clicking “Apply All Filters”")
+    <figure><img src="../../.gitbook/assets/image (289).png" alt="Checking the relevant checkbox for the OS you want to filter by then clicking “Apply All Filters”"><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p><strong>Tip</strong></p>
-<p>You can also use the <strong>ARM</strong> and <strong>Universal (macOS)</strong> checkboxes under the <strong>Architecture</strong> dropdown to filter the App Catalog by macOS apps.</p>
-</blockquote>
+{% hint style="success" %}
+**Tip**
+
+You can also use the **ARM** and **Universal (macOS)** checkboxes under the **Architecture** dropdown to filter the App Catalog by macOS apps.
+{% endhint %}
 
 The App Catalog updates to show only the apps that match the selected filters.
 
-![App Catalog updating to show only the apps that match the selected filters.](/_images/image-(290).png "App Catalog updating to show only the apps that match the selected filters.")
+<figure><img src="../../.gitbook/assets/image (290).png" alt="App Catalog updating to show only the apps that match the selected filters."><figcaption></figcaption></figure>
 
-<blockquote class="wp-block-quote">
-<p><strong>Note</strong></p>
-<p>Click <strong>Clear All</strong> to clear any filters that have been applied, then click the filter button to close the filter dropdown.</p>
-</blockquote>
+{% hint style="info" %}
+**Note**
+
+Click **Clear All** to clear any filters that have been applied, then click the filter button to close the filter dropdown.
+{% endhint %}
