@@ -85,13 +85,15 @@ When troubleshooting **Intune application installation errors on a client**, we 
 %ProgramData%\PatchMyPCIntuneLogs\PatchMyPC-SoftwareUpdateDetectionScript.log
 ```
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
-<p>For user-based apps, the logs mentioned above will reside in the following folders:</p>
-<p>* %LocalAppData%\PatchMyPCIntuneLogs\PatchMyPC-Scriptrunner.log</p>
-<p>* %Temp%\PatchMyPC-SoftwareDetectionScript.log</p>
-<p>* %Temp%\PatchMyPC-SoftwareUpdateDetectionScript.log</p>
-</blockquote>
+> **Important**
+>
+> For user-based apps, the logs mentioned above will reside in the following folders:
+>
+> \* %LocalAppData%\PatchMyPCIntuneLogs\PatchMyPC-Scriptrunner.log
+>
+> \* %Temp%\PatchMyPC-SoftwareDetectionScript.log
+>
+> \* %Temp%\PatchMyPC-SoftwareUpdateDetectionScript.log
 
 ```
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs\AgentExecutor.log
@@ -100,10 +102,9 @@ When troubleshooting **Intune application installation errors on a client**, we 
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs\AppWorkload.log
 ```
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>Some Patch My PC log files listed above may be found in **%WinDir%\CCM** folder if that folder exists.</p>
-</blockquote>
+> **Note**
+>
+> Some Patch My PC log files listed above may be found in **%WinDir%\CCM** folder if that folder exists.
 
 ### **SCCM Applications Failing to Install on Client Devices**
 
@@ -160,7 +161,7 @@ When troubleshooting **update installation errors on a client**, we will need th
 %WinDir%\CCM\Logs\PatchMyPC-ScriptRunner.log (If exist)
 ```
 
-## Configuration Manager Specific  Logs
+## Configuration Manager Specific Logs
 
 ### **Automatic Deployment Rule Failing for Third-Party Updates**
 
@@ -173,7 +174,7 @@ When troubleshooting **automatic deployment rules failing for third-party update
   * %WinDir%\CCM\Logs (Possible location)
   * If **unable to locate** a current [**PatchDownloader.log**](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/log-files#BKMK_SU_NAPLog), check HKLM\SOFTWARE\Microsoft\CCM\Logging\\@Global:**LogDirectory** on the [**site server**](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/plan-for-site-system-servers-and-site-system-roles#configuration-manager-site-server)
 
-![how to locate the patchdownloader.log file](/_images/locate-the-patchdownloader-log-file.png "how to locate the patchdownloader.log file")
+![how to locate the patchdownloader.log file](https://patchmypc.com/wp-content/uploads/2020/09/locate-the-patchdownloader.log-file.png)
 
 ### **Updates Failing to Download to Deployment Package using SCCM Console**
 
@@ -183,10 +184,9 @@ When troubleshooting **updates failing to download into a deployment package fro
 %temp%\PatchDownloader*.log
 ```
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>If you are using an RDP session, the **patchdownloader.log** may be in a numbered sub-folder in your **Users** **%temp%** folder.</p>
-</blockquote>
+> **Note**
+>
+> If you are using an RDP session, the **patchdownloader.log** may be in a numbered sub-folder in your **Users** **%temp%** folder.
 
 ### **Patch My PC Publisher - How to Enable Debug Logging**
 
@@ -195,8 +195,7 @@ Enabling Debug logging is often helpful for troubleshooting unique issues with p
 1. Open the Publisher
 2. Click on the **General** tab
 3. In the dropdown under **Logging Options** select **Debug**\
-   ![Enable Debug Logging in Publisher](/_images/PatchMyPC-Settings_VB3O5uDPhE.png "Enable Debug Logging in Publisher")\
-
+   ![Enable Debug Logging in Publisher](https://patchmypc.com/wp-content/uploads/2020/05/PatchMyPC-Settings_VB3O5uDPhE.png)\\
 4. Close the Publisher
 5. Open Services.msc and locate the **PatchMyPCService**
 6. Right-click and Restart the **PatchMyPCService**

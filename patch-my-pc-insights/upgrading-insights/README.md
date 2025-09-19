@@ -6,19 +6,17 @@ description: Details of the upgrade process
 
 _Applies to: Patch My PC Advanced and Patch Insights_
 
-To upgrade Advanced Insights, we need to re-run the installer using the latest version downloaded from [here](../download-and-install-insights/).&#x20;
+To upgrade Advanced Insights, we need to re-run the installer using the latest version downloaded from [here](../download-and-install-insights/).
 
-<blockquote class="wp-block-quote">
-<p>To upgrade silently please run AdvancedInsights.exe /q /l\*v %temp%\AdvInsights.log</p>
-</blockquote>
+> To upgrade silently please run AdvancedInsights.exe /q /l\\\*v %temp%\AdvInsights.log
 
 When you run the installer, it will prompt for you to accept the license terms.
 
-![](/_images/image-(1057).png "Upgrade license terms")
+![](../../.gitbook/assets/image-\(1057\).png)
 
 You will be presented with the upgrade summary page. There is also the option to change the certificate, network port or IIS application pool identity if required.
 
-![](/_images/vmconnect_1iGyaX71Gh.png)
+![](<../../.gitbook/assets/vmconnect_1iGyaX71Gh (1).png>)
 
 If upgrading from 1.0.x and 2.0.x versions of Advanced Insights, the upgrade summary page will also include summary information about the Advanced Insights SQL DB migration to SQLite.
 
@@ -26,10 +24,10 @@ See section: [upgrading-to-advanced-insights-2.1-and-later-from-1.0.x-and-2.0.x-
 
 If you wish to do so, click the **'View / Change Cert'** button will show additional information about any warnings being flagged.
 
-![](/_images/image-(707).png "Existing certificate properties")
+![](../../.gitbook/assets/image-\(707\).png)
 
 Following this, click **Install** to start the upgrade process.
 
 The upgrade success page is displayed upon completion.
 
-![](/_images/vmconnect_CClh8mYcG6.png)
+![](<../../.gitbook/assets/vmconnect_CClh8mYcG6 (1).png>)

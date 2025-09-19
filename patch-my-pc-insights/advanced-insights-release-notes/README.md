@@ -8,15 +8,13 @@ Details the production release history for Patch My PC's Advanced Insights, the 
 
 **Bug fixes:**
 
-* Fixed an RBAC config which may have resulted in RBAC rules not being applied.&#x20;
+* Fixed an RBAC config which may have resulted in RBAC rules not being applied.
 * Fixed Users and User Groups dashboard tables not showing any data
 * Fixed Storage wear % colours on the device modal hardware tab.
 
 ### 2.4.8 - 2025-06-03
 
-<blockquote class="wp-block-quote">
-<p>This release was re-uploaded on 2025-06-05.&#x20;</p>
-</blockquote>
+> This release was re-uploaded on 2025-06-05.
 
 **Features / Misc**
 
@@ -35,7 +33,7 @@ Details the production release history for Patch My PC's Advanced Insights, the 
 * Fixed an issue where editing a Custom Dashboard failed because a user that the dashboard was shared with no longer existed.
 * Fixed table sorting on Hardware > Storage > Size, DiskSize and FreeSpace Columns
 * Fixed Entra fields not being shown in Settings when no details are provided
-* Fixed issue retrieving HP warranty records when a large amount of devices are in Workforce Experience.&#x20;
+* Fixed issue retrieving HP warranty records when a large amount of devices are in Workforce Experience.
 
 ### 2.4.7 - 2025-04-23
 
@@ -43,16 +41,16 @@ Details the production release history for Patch My PC's Advanced Insights, the 
 
 * In custom dashboards add ability to save spaces between items
 * Updated Icons in Custom Dashboard Grid
-* Revised Computer Status dashboard to show activity based on last status rather than when an update was released or revised &#x20;
+* Revised Computer Status dashboard to show activity based on last status rather than when an update was released or revised
 * Office 365 Support SQL Changes to account for new LTSC channel (2024)
-* Improve Table 'Loading' and 'No Data' message appearance.&#x20;
+* Improve Table 'Loading' and 'No Data' message appearance.
 
 **Bug Fixes:**
 
 * Fix table page and row count label issues when removing all rows from table (seen in Custom Dashboards)
 * Custom Dashboards cannot filter to User Collections in Dashboard Item Tile Filters
 * Custom Dashboard Builder grid Items don't represent actual width.
-* Table select all doesn't uncheck properly when performing an action with selected items&#x20;
+* Table select all doesn't uncheck properly when performing an action with selected items
 * SMTP Settings SSL domain error
 * Add to Collection errors in various dashboard screens
 * Welcome screen always shows wrong logo
@@ -80,12 +78,12 @@ This is a bugfix release
 
 This is a bugfix release
 
-* Add search box to device modal > Software > Inventory & Applications tab&#x20;
-* Collection Filters Set on Custom Dashboard Selections Don't Apply or Save&#x20;
-* Software > Client Inventory Click through doesn't load data unless Inventory Extensions installed&#x20;
-* Update Table Pager so disabled buttons are more distinguishable&#x20;
-* Obfuscate Network Proxy Password in Settings and Welcome page&#x20;
-* Custom Dashboard Role Permissions' reflect actual value&#x20;
+* Add search box to device modal > Software > Inventory & Applications tab
+* Collection Filters Set on Custom Dashboard Selections Don't Apply or Save
+* Software > Client Inventory Click through doesn't load data unless Inventory Extensions installed
+* Update Table Pager so disabled buttons are more distinguishable
+* Obfuscate Network Proxy Password in Settings and Welcome page
+* Custom Dashboard Role Permissions' reflect actual value
 * Removal of delta caching when performing a warranty cache. This should fix missing devices in warranty.
 * Fix Issue with SMTP Settings > UseDefaultCredentials not saving, which caused SMTP errors for anonymous email servers.
 
@@ -147,15 +145,15 @@ This is a major release.
 
 #### Breaking Changes
 
-* Added ability to set Permissions for missing pages that didn't have the ability previously. \
-  This means users will no longer have access to these pages as they wont have the required permissions, an admin will need to apply the necessary permissions to the users/roles that require access for the following dashboards:&#x20;
-  * Software > ODBC&#x20;
-  * Software > BrowserExtensions&#x20;
-  * Operating System > Dashboard&#x20;
-  * Operating System > Win11&#x20;
-  * Operating System > LocalAdmins&#x20;
-  * Operating System > Uptime&#x20;
-  * Operating System > UserProfiles&#x20;
+* Added ability to set Permissions for missing pages that didn't have the ability previously.\
+  This means users will no longer have access to these pages as they wont have the required permissions, an admin will need to apply the necessary permissions to the users/roles that require access for the following dashboards:
+  * Software > ODBC
+  * Software > BrowserExtensions
+  * Operating System > Dashboard
+  * Operating System > Win11
+  * Operating System > LocalAdmins
+  * Operating System > Uptime
+  * Operating System > UserProfiles
   * Hardware > Wireless
 
 #### Bug fixes
@@ -194,7 +192,7 @@ This is an optional bugfix release
 
 * Remove multiple selected devices from a collection
 * Add ability to set Custom Names on Custom Dashboard Items
-* Global Search updates -&#x20;
+* Global Search updates -
   * Sort by column on load
   * Search Inventory
   * Add export option
@@ -255,7 +253,7 @@ This is an optional bugfix release
 
 Fixed an issue for customers using older versions of SQL Server than 2016 SP1 (13.0.4001) not being able to load any dashboards (Incorrect syntax near 'HINT' ERROR).
 
-Fixed the top row of statistics on the Warranty Dashboard.&#x20;
+Fixed the top row of statistics on the Warranty Dashboard.
 
 #### Misc
 
@@ -281,7 +279,7 @@ This is a required bugfix release
 
 #### Bug fixes
 
-Fixed an RBAC based issue with view more information when clicking on an application on the Client Inventory dashboard.&#x20;
+Fixed an RBAC based issue with view more information when clicking on an application on the Client Inventory dashboard.
 
 Fixed an RBAC issue when viewing more information about users
 
@@ -295,29 +293,29 @@ This is a major release.
 
 HP Warranty support. Advanced Insights can now surface HP client device warranty data. There is some configuration required which is detailed here:[https://docs.patchmypc.com/installation-guides/advanced-insights-and-patch-insights/external-service-hp-warranty-api](https://docs.patchmypc.com/installation-guides/advanced-insights-and-patch-insights/external-service-hp-warranty-api)
 
-![](/_images/image-(1928).png "HP Warranty data in Advanced Insights")
+![](../../.gitbook/assets/image-\(1928\).png)
 
 #### Audit logs
 
-In the Administration node you will find the “Audit logs” area. This lists all activities in the Advanced Insights portal. The list is filterable by user and can be exported.&#x20;
+In the Administration node you will find the “Audit logs” area. This lists all activities in the Advanced Insights portal. The list is filterable by user and can be exported.
 
-![](/_images/image-(1933).png "Audit log view")
+![](../../.gitbook/assets/image-\(1933\).png)
 
 #### Create collections
 
 You can now create new ConfigMgr collections using Advanced Insights. The Resources - Collections page has a "Create New Collection" button.
 
-![](/_images/image-(1930).png "Create New Collection")
+![](../../.gitbook/assets/image-\(1930\).png)
 
 You can also create a collection from a device list and automatically add the selected clients to a new collection or add to an existing collection.
 
-![](/_images/image-(1932).png "")
+![](../../.gitbook/assets/image-\(1932\).png)
 
 #### Delete user profile task
 
-We have added a new function to allow you to delete profiles from client devices. This is useful in support scenarios for outdated or orphaned profiles.&#x20;
+We have added a new function to allow you to delete profiles from client devices. This is useful in support scenarios for outdated or orphaned profiles.
 
-![](/_images/image-(1934).png "User profile dashboard with delete function.")
+![](../../.gitbook/assets/image-\(1934\).png)
 
 The delete action is also available in the device view - Users - User Profiles.
 
@@ -325,23 +323,23 @@ The delete action is also available in the device view - Users - User Profiles.
 
 For customers with BitLocker MBAM integrated with Configuration Manager we will now allow you to view the BitLocker Recovery Key in Advanced Insights. Users must have the relevant permission in their Advanced Insights role. The key is accessible via the Device View - Hardware - Disks tab.
 
-![](/_images/image-(596).png "Viewing the BitLocker Recovery Key")
+![](../../.gitbook/assets/image-\(596\).png)
 
 #### Device View export improvements
 
 We now support the export of any of the tables in the device view.
 
-![](/_images/image-(1935).png "Export device view data")
+![](../../.gitbook/assets/image-\(1935\).png)
 
-#### Configuration Manger Console Extension&#x20;
+#### Configuration Manger Console Extension
 
-The new Configuration Manager console extension brings Advanced Insights right into the ConfigMgr console. Full documentation and download is here [https://docs.patchmypc.com/installation-guides/advanced-insights-and-patch-insights/configuration-manager-console-extension](https://docs.patchmypc.com/installation-guides/advanced-insights-and-patch-insights/configuration-manager-console-extension)&#x20;
+The new Configuration Manager console extension brings Advanced Insights right into the ConfigMgr console. Full documentation and download is here [https://docs.patchmypc.com/installation-guides/advanced-insights-and-patch-insights/configuration-manager-console-extension](https://docs.patchmypc.com/installation-guides/advanced-insights-and-patch-insights/configuration-manager-console-extension)
 
-![](/_images/image-(1936).png "Advanced Insights in the ConfigMgr Console")
+![](../../.gitbook/assets/image-\(1936\).png)
 
 #### Log builder for support cases
 
-&#x20;We have included a new Log Builder application, this is integrated into the Installer wrapper and will execute automatically on failure. It can also be run manually from C:\Program Files (x86)\Advanced Insights\Api\LogCollector\AdvancedInsightsLogDiag.exe. When run it creates a zip file on the desktop with environment details and logs to aid Patch My PC Support in troubleshooting.
+We have included a new Log Builder application, this is integrated into the Installer wrapper and will execute automatically on failure. It can also be run manually from C:\Program Files (x86)\Advanced Insights\Api\LogCollector\AdvancedInsightsLogDiag.exe. When run it creates a zip file on the desktop with environment details and logs to aid Patch My PC Support in troubleshooting.
 
 #### Optimisations
 
@@ -367,7 +365,7 @@ This is a minor bugfix release.
 
 #### Fixes
 
-Fix for Software Updates dashboard not loading for some customers.&#x20;
+Fix for Software Updates dashboard not loading for some customers.
 
 ### 2.2.2 - 2024-06-27
 
@@ -375,9 +373,9 @@ This is a minor release mainly focused on bugfixes.
 
 #### New features
 
-Modal sharing allows users to share select modals for other to see, allowing collaboration between users who are working on a task together.&#x20;
+Modal sharing allows users to share select modals for other to see, allowing collaboration between users who are working on a task together.
 
-![](/_images/image-(1665).png "Share icon on the top right, which will copy the link directly to your clipboard to be shared.")
+![](../../.gitbook/assets/image-\(1665\).png)
 
 #### Fixes
 
@@ -388,9 +386,9 @@ SQL changes for device resource popups to show unknown for manufacturer and mode
 
 Fixed warranty recache not working without settings permission.
 
-Fixed textarea font being wrong&#x20;
+Fixed textarea font being wrong
 
-Multiple custom dashboards fixes, mainly around filter selection for certain items.&#x20;
+Multiple custom dashboards fixes, mainly around filter selection for certain items.
 
 Global filter selection now filters modals when the dashboard has changed.
 
@@ -400,11 +398,11 @@ This is a major release.
 
 #### New features
 
-#### Custom Dashboards.&#x20;
+#### Custom Dashboards.
 
-Users can now create a dashboard of their own items from all viewable items for their role. For example, a user can create a dashboard with objects from Resources, Hardware, Software Updates Trend, OSD, all in one view.&#x20;
+Users can now create a dashboard of their own items from all viewable items for their role. For example, a user can create a dashboard with objects from Resources, Hardware, Software Updates Trend, OSD, all in one view.
 
-![](/_images/image-(1552).png "Custom Dashboard Builder")
+![](../../.gitbook/assets/image-\(1552\).png)
 
 Custom dashboards can also be shared with other users or roles (permissions permitting).
 
@@ -414,7 +412,7 @@ We have made hundreds of SQL Cardinality statements to ensure SQL performance is
 
 #### Custom logos
 
-![](/_images/image-(1553).png "The Settings Appearance Tab")
+![](../../.gitbook/assets/image-\(1553\).png)
 
 New option to specify custom logos for the identity banner in the Advanced Insights portal. The logo file is what is shown when the menu is expanded, the Icon setting is shown when the menu is minimized.
 
@@ -422,31 +420,31 @@ New option to specify custom logos for the identity banner in the Advanced Insig
 
 #### Local Administrators dashboard
 
-![](/_images/image-(1554).png "Local Administrators Dashboard")
+![](../../.gitbook/assets/image-\(1554\).png)
 
 The new Local Administrators dashboard requires the Advanced Insights inventory extensions. The dashboard shows the groups and accounts that are members of the local admins group on all devices.
 
 #### OS Uptime dashboard
 
-![](/_images/image-(1555).png "OS Uptime Dashboard")
+![](../../.gitbook/assets/image-\(1555\).png)
 
 The OS Uptime dashboard lists each device and its latest uptime.
 
 #### Wireless adapters dashboard
 
-![](/_images/image-(1556).png "Wireless Adapters Dashboard")
+![](../../.gitbook/assets/image-\(1556\).png)
 
 The Wireless Adapters Dashboard requires the Advanced Insights Inventory Extensions. This dashboard helps to identify the wireless NICs and associated drivers with the versions. Clicking through will show further details about wirless connectivity on the individual device:
 
-![](/_images/image-(1557).png "Wireless detail")
+![](../../.gitbook/assets/image-\(1557\).png)
 
 #### User profile dashboard
 
-![](/_images/image-(1559).png "User Profile Dashboard")
+![](../../.gitbook/assets/image-\(1559\).png)
 
-&#x20;The User Profile Dashboard requires the Advanced Insights Inventory Extensions.&#x20;
+The User Profile Dashboard requires the Advanced Insights Inventory Extensions.
 
-This dashboard shows the details for all profiles on client devices. Profiles which are unused for <90 days are highlighted as "Aged Profiles", "Orphaned Profiles" are profiels on devices for which there are no longer valid accounts.&#x20;
+This dashboard shows the details for all profiles on client devices. Profiles which are unused for <90 days are highlighted as "Aged Profiles", "Orphaned Profiles" are profiels on devices for which there are no longer valid accounts.
 
 #### Installer Improvements
 
@@ -464,7 +462,7 @@ Fixed bug with "Patch My PC Actions" not working for some customers.
 
 Look and feel clean-up
 
-Updated dependencies and DotNet version to DotNet 8. DotNet 7 components can now be removed from Advanced Insights servers (if not required by other applications).&#x20;
+Updated dependencies and DotNet version to DotNet 8. DotNet 7 components can now be removed from Advanced Insights servers (if not required by other applications).
 
 #### Deprecations
 
@@ -472,7 +470,7 @@ Boot Performance dashboard. Microsoft removed the dependent dataset from the Con
 
 ### 2.1.2 - 2024-04-10
 
-Minor optional release to fix an upgrade issue experienced by users who login via Azure Active Directory (Entra). This release fixes the error "Username '{emailaddress}' is already taken" when logging in.&#x20;
+Minor optional release to fix an upgrade issue experienced by users who login via Azure Active Directory (Entra). This release fixes the error "Username '{emailaddress}' is already taken" when logging in.
 
 ### 2.1.1 - 2024-03-20
 
@@ -489,21 +487,20 @@ Major release with changes to infrastructure requirements and new functionality.
 
 #### New Functionality
 
-* Major performance improvements in SQL load time for Home dashboard, Software Updates dashboard and Updates page.&#x20;
+* Major performance improvements in SQL load time for Home dashboard, Software Updates dashboard and Updates page.
 * Update Trend dashboard
 
-![](/_images/image-(964).png "Update Trend")
+![](../../.gitbook/assets/image-\(964\).png)
 
 * This new dashboard provides visibility of deployment compliance trend over time. You can plot how long it took from update release to first install, 50% compliance, 90% compliance and total installation. The chart can be expanded under the cog icon to show total deployment data. On first load the update with most deployment data over the past 30 days will be selected, you can use the filter pickers below the chart to select other updates, date ranges and filter by collection.
-* Browser Extensions Dashboard. New dashboard (requires latest inventory extension update)&#x20;
+* Browser Extensions Dashboard. New dashboard (requires latest inventory extension update)
 
-![](/_images/image-(965).png "Browser Extension Inventory")
+![](../../.gitbook/assets/image-\(965\).png)
 
 * Warranty dashboard now respects RBAC and Collection filters
-* Custom Patch My PC actions available to install update, clear the CCM cache, Repair the ConfigMgr client a "Notify" option to send a message a to a device. These functions use the BGB Channel, so will function over CMG as well as on LAN. They are also available in the Bulk Actions lists, allowing you to bulk send a notification, or clear the ConfigMgr Cache on a list of machines.\
+* Custom Patch My PC actions available to install update, clear the CCM cache, Repair the ConfigMgr client a "Notify" option to send a message a to a device. These functions use the BGB Channel, so will function over CMG as well as on LAN. They are also available in the Bulk Actions lists, allowing you to bulk send a notification, or clear the ConfigMgr Cache on a list of machines.\\
 
-
-![](/_images/image-(1342).png "Patch My PC Actions")
+![](../../.gitbook/assets/image-\(1342\).png)
 
 * Draggable modals - you can now move the popup modal views around the screen
 
@@ -522,9 +519,7 @@ Major release with changes to infrastructure requirements and new functionality.
 
 Minor release primarily for security and browser engine changes
 
-<blockquote class="wp-block-quote">
-<p>On 2024-02-23, an updated installer executable was created to address a failed upgrade issue faced by customers when upgrading from versions older than 1.0.27. If you have upgraded using the previous installer and Advanced Insights no longer loads, please perform a repair on the installation via Add/Remove programs or uninstall and reinstall using this new executable. The new installer is downloadable from <a href="https://patchmypc.com/ai-download">https://patchmypc.com/ai-download</a></p>
-</blockquote>
+> On 2024-02-23, an updated installer executable was created to address a failed upgrade issue faced by customers when upgrading from versions older than 1.0.27. If you have upgraded using the previous installer and Advanced Insights no longer loads, please perform a repair on the installation via Add/Remove programs or uninstall and reinstall using this new executable. The new installer is downloadable from [https://patchmypc.com/ai-download](https://patchmypc.com/ai-download)
 
 #### Updated dependencies
 
@@ -534,7 +529,7 @@ Minor release primarily for security and browser engine changes
 #### New features
 
 * Tables page sizes can now be modified\
-  ![](/_images/image-(1324).png>)
+  ![](../../_images/image-\(1324\).png%3E)
 * Microsoft version data is now bundled with the application as backup in case docs.microsoft.com is inaccessible
 * Added additional info to AD settings, detailing how it works
 
@@ -555,62 +550,61 @@ Minor optional update to add security scope for new graphics dashboard.
 
 Version 2.0.1 is a major release of Advanced Insights with breaking changes which require actions by the administrator to deploy the new [Inventory Extensions MSI](https://docs.patchmypc.com/installation-guides/advanced-insights/advanced-insights-inventory-extensions), replacing the legacy PowerShell solution used in version 1.0.
 
-#### Breaking changes&#x20;
+#### Breaking changes
 
-* [Deployment of Advanced Insights extensions](https://docs.patchmypc.com/installation-guides/advanced-insights/advanced-insights-inventory-extensions) now relies on the SMS Provider for Hardware Inventory class extensions, which without correct permissions to the SMS Provider cannot install or update existing classes. &#x20;
-* Advanced Insights API App pool now runs as Local System instead of Network Service as the API Website has inherited the work of the Controller Website which ran as Local System.&#x20;
-* Port 44300 is no longer required for application functionality and firewall rules can be disabled. 44301 is now the only mandatory required port. &#x20;
+* [Deployment of Advanced Insights extensions](https://docs.patchmypc.com/installation-guides/advanced-insights/advanced-insights-inventory-extensions) now relies on the SMS Provider for Hardware Inventory class extensions, which without correct permissions to the SMS Provider cannot install or update existing classes.
+* Advanced Insights API App pool now runs as Local System instead of Network Service as the API Website has inherited the work of the Controller Website which ran as Local System.
+* Port 44300 is no longer required for application functionality and firewall rules can be disabled. 44301 is now the only mandatory required port.
 
-#### Deprecated functionality&#x20;
+#### Deprecated functionality
 
-* Proxy bypass is deprecated as there is no more localhost communication between websites.&#x20;
-* Advanced Insights extension PowerShell package is now deprecated and is no longer supported or recommended. Replaced with WMI Provider.&#x20;
-* Email and SMS based 2FA have been removed, Google (TOTP) based 2FA is the only support 2FA auth solution.&#x20;
+* Proxy bypass is deprecated as there is no more localhost communication between websites.
+* Advanced Insights extension PowerShell package is now deprecated and is no longer supported or recommended. Replaced with WMI Provider.
+* Email and SMS based 2FA have been removed, Google (TOTP) based 2FA is the only support 2FA auth solution.
 
-#### Major changes&#x20;
+#### Major changes
 
-* Extensions now work using WMI Provider and not PowerShell scripts.&#x20;
-* Application now consists of just the API and Frontend websites. &#x20;
-* Large installer rewrite.&#x20;
-* CNAME support.&#x20;
-* Global collection filter, allowing full dashboard collection filter with persistence between dashboard changes. &#x20;
+* Extensions now work using WMI Provider and not PowerShell scripts.
+* Application now consists of just the API and Frontend websites.
+* Large installer rewrite.
+* CNAME support.
+* Global collection filter, allowing full dashboard collection filter with persistence between dashboard changes.
 
-![](/_images/image-(1317).png "Global Collections Filter")
+![](../../.gitbook/assets/image-\(1317\).png)
 
-* Windows 11 Readiness dashboard.&#x20;
+* Windows 11 Readiness dashboard.
 
-![](/_images/image-(1316).png "Windows 11 Readiness")
+![](../../.gitbook/assets/image-\(1316\).png)
 
-* ODBC Dashboard.&#x20;
+* ODBC Dashboard.
 
-![](/_images/image-(1315).png "ODBC Configuration Details")
+![](../../.gitbook/assets/image-\(1315\).png)
 
-* Graphics card dashboard with click through details on device view.&#x20;
+* Graphics card dashboard with click through details on device view.
 
-![](/_images/image-(1318).png "Graphics Card Inventory Detail")
+![](../../.gitbook/assets/image-\(1318\).png)
 
-* Client actions can now be performed against a list of devices in any data table.&#x20;
-* BitLocker compliance now provides "no compliance" reason.&#x20;
-* Device power state indicator in lists where a device is shown. \
+* Client actions can now be performed against a list of devices in any data table.
+* BitLocker compliance now provides "no compliance" reason.
+* Device power state indicator in lists where a device is shown. \\
 
+![](../../.gitbook/assets/image-\(1314\).png)
 
-![](/_images/image-(1314).png "Screenshot of power state icons")
+#### Minor changes
 
-#### Minor changes&#x20;
+* Targeting latest dotnet 7 version and library updates.
+* Remote control is now bundled with the application in the installation directory.
+* Additional export functionality for Warranty data.
+* Partial CVE Search in global search (MSRC Only).
+* Extensions settings page redesign.
+* Debug ability to limit amount of concurrent SQL queries being run against the DB
 
-* Targeting latest dotnet 7 version and library updates.&#x20;
-* Remote control is now bundled with the application in the installation directory.&#x20;
-* Additional export functionality for Warranty data.&#x20;
-* Partial CVE Search in global search (MSRC Only).&#x20;
-* Extensions settings page redesign.&#x20;
-* Debug ability to limit amount of concurrent SQL queries being run against the DB&#x20;
+#### Bug fixes
 
-#### Bug fixes&#x20;
-
-* Revised SQL queries for Content DP List for Application Modal.&#x20;
-* Visual fixes around colours, spacing and layout.&#x20;
-* 2FA enablement in users’ profile is now visible.&#x20;
-* Misc fixes and optimisations.&#x20;
+* Revised SQL queries for Content DP List for Application Modal.
+* Visual fixes around colours, spacing and layout.
+* 2FA enablement in users’ profile is now visible.
+* Misc fixes and optimisations.
 
 ### 1.0.27 - 2023-11-27
 
@@ -618,7 +612,7 @@ Version 2.0.1 is a major release of Advanced Insights with breaking changes whic
 
 * Patch Insights - Update-focussed reporting solution for non-Premium SKU customers. The same installer is used, the version of Insights shown to the user is dependent on the Patch My PC Licence.
 
-![](/_images/image-(1282).png "Patch Insights interface with top-level dashboard and Software Updates dashboards.")
+![](../../.gitbook/assets/image-\(1282\).png)
 
 * CVE Dashboard improvement - BaseScore and TemporalScore tooltips added to describe what these mean for threat analytics.
 
@@ -644,40 +638,40 @@ Version 2.0.1 is a major release of Advanced Insights with breaking changes whic
 
 #### Installer Improvements
 
-*   Certificates dialog – complete redesign.&#x20;
+*   Certificates dialog – complete redesign.
 
     Key certificate properties are shown within the dialog and flag any warnings
 
-![](/_images/image-(1038).png "Certificate Selection Dialog")
+![](../../.gitbook/assets/image-\(1038\).png)
 
 *   Upgrade dialog updated.
 
-    Now includes info on the current certificate and if there’s any attributes of the certificate which require attention and an  option to change the in-use certificate.
+    Now includes info on the current certificate and if there’s any attributes of the certificate which require attention and an option to change the in-use certificate.
 
-![](/_images/image-(1039).png "Upgrade summary screen")
+![](../../.gitbook/assets/image-\(1039\).png)
 
 * Current certificate properties can be viewed in this screen:
 
-![](/_images/image-(1040).png "Certificate properties")
+![](../../.gitbook/assets/image-\(1040\).png)
 
 #### Product Improvements
 
 * Support for non-English versions of Windows "Enterprise" in the Operating System support statements
 * OSD Dashboard now shows progress for Task Sequences without the standard Apply OS step
 * Threat Analytics dashboard now shows an error if SQL Functional Level is not at least 130
-* Further proxy fixes&#x20;
+* Further proxy fixes
 
 #### Known Issues
 
-* Accessing the welcome page will reset proxy bypass to false, causing the application to fail to render any dashboards for customers who require this setting to be enabled. \
-  To fix, please go to Administration -> Settings -> External Services -> Re-enable Localhost Bypass and save -> Restart the controller website via IIS Manager on the server hosting Advanced Insights.&#x20;
+* Accessing the welcome page will reset proxy bypass to false, causing the application to fail to render any dashboards for customers who require this setting to be enabled.\
+  To fix, please go to Administration -> Settings -> External Services -> Re-enable Localhost Bypass and save -> Restart the controller website via IIS Manager on the server hosting Advanced Insights.
 
 ### 1.0.25 - 2023-09-15
 
 #### Product Improvements
 
 * Proxy settings now allow both Localhost via proxy and Localhost proxy bypass. Proxies are now enabled for Localhost by default.
-* Fixed application initialisation regression (spinning circle on load). &#x20;
+* Fixed application initialisation regression (spinning circle on load).
 
 #### Installer Improvements
 
@@ -695,7 +689,7 @@ Version 2.0.1 is a major release of Advanced Insights with breaking changes whic
 
 #### Product Improvements
 
-* Fix for issue with Advanced Insights when installed on the same server as Patch My PC Publisher. Changes to registry permissions in the Publisher led to an exception in the Advanced Insights portal.&#x20;
+* Fix for issue with Advanced Insights when installed on the same server as Patch My PC Publisher. Changes to registry permissions in the Publisher led to an exception in the Advanced Insights portal.
 
 ### 1.0.23 - 2023-08-30
 
@@ -721,8 +715,8 @@ Version 2.0.1 is a major release of Advanced Insights with breaking changes whic
 
 #### Product Improvements
 
-* Proxy support has been improved. If the Welcome Experience cannot access api.patchmypc.com it will automatically prompt for proxy details at first use. \
-  The proxy types supported are http, socks4 and socks5. Please add the correct protocol to the start of your proxies network address e.g. http://x.x.x.x, socks4://x.x.x.x, socks5://x.x.x.x. \
+* Proxy support has been improved. If the Welcome Experience cannot access api.patchmypc.com it will automatically prompt for proxy details at first use.\
+  The proxy types supported are http, socks4 and socks5. Please add the correct protocol to the start of your proxies network address e.g. http://x.x.x.x, socks4://x.x.x.x, socks5://x.x.x.x.\
   Ports can be added at the end of the network address e.g. http://x.x.x.x:1234"
 * Software inventory reports failed with application version strings greater than 32 characters.
 * Console users and device affinity sometimes missing from device view.
@@ -800,17 +794,17 @@ Version 2.0.1 is a major release of Advanced Insights with breaking changes whic
 * Added SMTP configuration settings for email notification to users on account creation and password reset
 * Fixed bug with users having rights to add devices to collections via collection dashboard when this right was not granted
 * You can now include a default ConfigMgr collection for any role or user. This setting will auto-populate all dashboards with this collection as a filter where appropriate. A user can still select other collections they have access to view if desired.\
-  &#x20; ![](/_images/image-(1261).png>)
+  ![](../../_images/image-\(1261\).png%3E)
 
-### 1.0.17&#x20;
-
-Internal build, not released publicly.
-
-### &#x20;1.0.18&#x20;
+### 1.0.17
 
 Internal build, not released publicly.
 
-### 1.0.16  - 2023-05-19
+### 1.0.18
+
+Internal build, not released publicly.
+
+### 1.0.16 - 2023-05-19
 
 #### Installer Improvements
 
@@ -825,12 +819,12 @@ Fixed a bug when navigating to a CVE record from an Update record
 
 #### Improvements
 
-* Removed the facility to upload custom logos, as this caused a problem rendering dashboard pages.&#x20;
+* Removed the facility to upload custom logos, as this caused a problem rendering dashboard pages.
 * User Role functionality errors required a user to have access to Settings area, this is no longer required.
 * New roles did not function as expected and required an AD Group to be assigned, this is now fixed.
 * Validation of Active Directory Group name fails when associating a role to a group, this has been fixed.
 * CORS errors and dashboard load failure when the front end website is installed on port 443, this is now fixed.
-* HP Devices show invalid data in Warranty dashboard. As the HP Warranty API is now deprecated this functionality has been removed.&#x20;
+* HP Devices show invalid data in Warranty dashboard. As the HP Warranty API is now deprecated this functionality has been removed.
 * Export option missing from Application Compliance views.
 * Added username to Application Compliance and Update Compliance view.
 * Added collection filters to Hardware dashboards.

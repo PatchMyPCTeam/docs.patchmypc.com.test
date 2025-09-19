@@ -8,16 +8,21 @@ _Applies to: Patch My PC Cloud_
 
 Details the production release history for Patch My PC (PMPC) Cloud, the most recent release being shown first.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>We aim to release new features, updates, and fixes at 12:00 CEST every Wednesday.</p>
-<p>_Production Release_ means we have released that item to our Production environment i.e. customers can access it, although a specific feature maybe in one of the following three production states:\</p>
-<p>* Private Preview, which is invitation only.</p>
-<p>* Public Preview for which you will need to have [Preview Features enabled](cloud-administration/manage-your-cloud-company/enable-cloud-preview-features.md) in your company to access it.</p>
-<p>* General Availability which is available to everyone.&#x20;</p>
-<p>Please see the relevant docs for a feature for more information which will indicate the state of the feature.</p>
-<p>You can also access this page from within the Cloud Portal by clicking the support button (!["support" button](/_images/image-(587 "\"support\" button").png>)) in the header area and selecting **Release Notes**.</p>
-</blockquote>
+> **Note**
+>
+> We aim to release new features, updates, and fixes at 12:00 CEST every Wednesday.
+>
+> \_Production Release\_ means we have released that item to our Production environment i.e. customers can access it, although a specific feature maybe in one of the following three production states:\\
+>
+> \* Private Preview, which is invitation only.
+>
+> \* Public Preview for which you will need to have \[Preview Features enabled]\(cloud-administration/manage-your-cloud-company/enable-cloud-preview-features.md) in your company to access it.
+>
+> \* General Availability which is available to everyone.
+>
+> Please see the relevant docs for a feature for more information which will indicate the state of the feature.
+>
+> You can also access this page from within the Cloud Portal by clicking the support button (!\["support" button]\(/\_images/image-(587).png>)) in the header area and selecting **Release Notes**.
 
 ### Week of August 6<sup>th</sup>, 2025
 
@@ -41,7 +46,7 @@ Details the production release history for Patch My PC (PMPC) Cloud, the most re
 
 * Resolved an issue where if a customer uploaded a newer version of an app, an older version was deployed.
 
-### Week of July 30th,  2025
+### Week of July 30th, 2025
 
 <details>
 
@@ -84,7 +89,7 @@ Details the production release history for Patch My PC (PMPC) Cloud, the most re
 
 </details>
 
-### Week of July 23rd,  2025
+### Week of July 23rd, 2025
 
 <details>
 
@@ -106,7 +111,7 @@ Details the production release history for Patch My PC (PMPC) Cloud, the most re
 
 </details>
 
-### Week of July 16th,  2025
+### Week of July 16th, 2025
 
 <details>
 
@@ -134,7 +139,7 @@ Details the production release history for Patch My PC (PMPC) Cloud, the most re
 
 </details>
 
-### Week of July 9th,  2025
+### Week of July 9th, 2025
 
 <details>
 
@@ -174,8 +179,7 @@ Details the production release history for Patch My PC (PMPC) Cloud, the most re
 
 * Resolved an issue where if a single Intune discovered app was mapped to two different products from our App Catalog, and one of them was managed and the other was unmanaged, one of them would appear under the **Managed** tab and the other would appear in the **Unmanaged** tab.\
   \
-  Now, if one of them is managed and the other is unmanaged, the managed app is displayed in the **Managed** tab and the unmanaged app is hidden in the **Unmanaged** tab.\
-
+  Now, if one of them is managed and the other is unmanaged, the managed app is displayed in the **Managed** tab and the unmanaged app is hidden in the **Unmanaged** tab.\\
 
 **Custom Apps**
 
@@ -381,7 +385,7 @@ Portal
 
 <summary>New Features</summary>
 
-#### Custom Apps
+**Custom Apps**
 
 * **Improved error handling for macOS Custom Apps –** Previously, if you uploaded a **.pkg** or **.dmg** file as the primary installer file, we just showed an "**unsupported file**" notification. We now show the following notification:\
   "Custom Apps for macOS are not supported at this time. Vote and subscribe to [PMPC Cloud Portal - macOS Custom Apps](https://ideas.patchmypc.com/ideas/PATCHMYPC-I-6056) to receive updates on future development."
@@ -392,7 +396,7 @@ Portal
 
 <summary>Fixes</summary>
 
-#### Intune Apps
+**Intune Apps**
 
 * Resolved an issue with Detection Rules when configuring the time for a **Date Modified** rule, where if a PM time was selected, it was actually saved as the corresponding AM time.
 
@@ -404,7 +408,7 @@ Portal
 
 <summary>Fixes</summary>
 
-#### Portal
+**Portal**
 
 * Resolved an issue with notifications not being sent to the webhook when deployments with no assignments failed when being created or updated. This issue also affected Slack.
 * Resolved an issue with failed deployments not being shown in the Updates Report.
@@ -417,7 +421,7 @@ Portal
 
 <summary>New Features</summary>
 
-#### Portal
+**Portal**
 
 * **Recommend App Dependencies now shown –** When you now create an App Dependency, we automatically show a list of recommended apps (if relevant) that you should consider configuring as dependencies for the app being deployed.
 
@@ -427,9 +431,9 @@ Portal
 
 <summary>Fixes</summary>
 
-#### Managed Service Provider
+**Managed Service Provider**
 
-* Resolved an issue with Naming Conventions when adding the “`&`” character as a prefix, it actually being added as "`&amp`”.        &#x20;
+* Resolved an issue with Naming Conventions when adding the “`&`” character as a prefix, it actually being added as "`&amp`”.
 
 </details>
 
@@ -439,7 +443,7 @@ Portal
 
 <summary>New Features</summary>
 
-#### Portal
+**Portal**
 
 * **Additional filters added to help when working with Deployments –** The filter list in the portal now includes new filters to only show which deployments are using Update Rings (enabled or disabled) as well as which deployments have updates paused or not.
 
@@ -451,7 +455,7 @@ Portal
 
 <summary>New Features</summary>
 
-#### Portal
+**Portal**
 
 * **UI improvements for Deployment Properties –** We’ve improved the UI when looking at the properties of a deployment so as not to truncate entries such as script names.
 
@@ -461,11 +465,11 @@ Portal
 
 <summary>Fixes</summary>
 
-#### Portal
+**Portal**
 
-* Resolved an issue with older versions of Apps and Updates not being removed even after the portal syncs and when the older version has made it through update rings.         &#x20;
+* Resolved an issue with older versions of Apps and Updates not being removed even after the portal syncs and when the older version has made it through update rings.
 
-#### Intune Apps
+**Intune Apps**
 
 * Resolved an issue with email addresses being displayed incorrectly when a deployment has a large number of update rings.
 
@@ -477,11 +481,11 @@ Portal
 
 <summary>Fixes</summary>
 
-#### Binary Free Apps
+**Binary Free Apps**
 
 * Resolved an issue with users not being notified of a new version of an app being available if either the **Notify All Users in Company** or **Notify Specific Users** options are selected.
 
-#### Custom Apps
+**Custom Apps**
 
 * Resolved an issue when uploading extra files with the same name but in different folders, the UI didn’t process the folder structure and instead uploaded all of the files as independent files.
 
@@ -493,11 +497,11 @@ Portal
 
 <summary>New Features</summary>
 
-#### Portal
+**Portal**
 
 * **Number of available versions now shown for apps in the App Catalog –** If multiple versions are available for different variants of the same app, App Cat will show the number of available versions. If you hover over the number, you can see the list of variants grouped accordingly. If only one version is available for all variants, only that version will be displayed.
 
-#### Intune Apps
+**Intune Apps**
 
 * **Native Detection Rules –** Patch My PC (PMPC) Cloud deployments now support Native Detection Rules.
 * **Pre/Post Scripts now support Arguments –** Our Pre and Post Scripts now support additional arguments.
@@ -508,7 +512,7 @@ Portal
 
 <summary>Fixes</summary>
 
-#### Custom Apps
+**Custom Apps**
 
 * Resolved an issue with the logo defined for a Custom App not appearing in Intune.
 
@@ -520,7 +524,7 @@ Portal
 
 <summary>New Features</summary>
 
-#### Portal
+**Portal**
 
 * **Deployment names don’t have to be unique per OS –** It is now possible to create a deployment with the same name as an existing deployment, provided the operating system being deployed to is different.
 * **New “Product Docs” and “Release Notes” options added to the support menu –** Now when you click the Support Menu (**?**) you’ll see links to both the PMPC Cloud **Product Docs** and **Release Notes** to help you find the information you need to work with and keep up-to-date on what we’re doing with PMPC Cloud.
@@ -532,7 +536,7 @@ Portal
 
 <summary>Fixes</summary>
 
-#### Custom Apps
+**Custom Apps**
 
 * Resolved an issue with browser hangs or crashes when uploading a large number of extra files.
 * Resolved an issue with a **Reload site** prompt being displayed in error when saving a Custom App.
@@ -549,7 +553,7 @@ No release.
 
 <summary>New Features</summary>
 
-#### Intune Apps
+**Intune Apps**
 
 * **LOB support added for macOS –** We now support deploying macOS Line-of-Business (LOB) apps.
 
@@ -559,13 +563,13 @@ No release.
 
 <summary>Fixes</summary>
 
-#### Custom Apps
+**Custom Apps**
 
 * Resolved an issue with being unable to upload files of 0 bytes using the **Extra Files** feature.
 
-#### Intune Apps
+**Intune Apps**
 
-* Resolved an issue when uploading Extra Files using the **Add Folder** option, where if multiple files exist in any subfolder and they have the same hash, you see **Error File with the same hash already exists**.&#x20;
+* Resolved an issue when uploading Extra Files using the **Add Folder** option, where if multiple files exist in any subfolder and they have the same hash, you see **Error File with the same hash already exists**.
 
 </details>
 
@@ -575,7 +579,7 @@ No release.
 
 <summary>Fixes</summary>
 
-#### Portal
+**Portal**
 
 * Resolved an issue with a Webhook notification showing as "Failed" for an Update Ring that was created successfully.
 
@@ -587,7 +591,7 @@ No release.
 
 <summary>New Features</summary>
 
-#### Portal
+**Portal**
 
 * **Improvements to ESP Profiles workflow**
   * You can no longer add an ESP Profile containing 100 or more apps to a deployment.
@@ -600,7 +604,7 @@ No release.
 
 <summary>Fixes</summary>
 
-#### Portal
+**Portal**
 
 * Resolved an issue with the Terms and conditions not being displayed when entering an MSP Plus license key.
 * Resolved an issue with a user assigned the **Custom App Admin** role receiving a **Validation Error** when logging into an MSP Customer.
@@ -613,11 +617,11 @@ No release.
 
 <summary>New Features</summary>
 
-#### Portal
+**Portal**
 
 * **Uninstall assignment type unsupported on macOS for PKG files –** Now when you deploy a .PKG file to macOS, we do not allow you to use the **Uninstall** assignment type.
 
-#### Custom Apps
+**Custom Apps**
 
 * Prevent an app deployment from being deleted from a parent MSP company if it is deployed at any child companies.
 
@@ -627,11 +631,11 @@ No release.
 
 <summary>Fixes</summary>
 
-#### Portal
+**Portal**
 
 * Resolved an issue with multiple copies of the daily deployment notification emails being sent with different content. We now check for the status of the deployment before sending the email and don’t include any deployments with a status of “Unknown.”
 
-#### Custom Apps
+**Custom Apps**
 
 * Resolved an issue with Custom Apps being unavailable in the App Catalog with users assigned the **Custom Apps Admin** role.
 
@@ -643,7 +647,7 @@ No release.
 
 <summary>New Features</summary>
 
-#### Portal
+**Portal**
 
 * **Custom Pre and Post Scripts naming –** Now, if you upload a custom pre or post script to use in a deployment, we maintain the custom name rather than renaming it to a standard name.
 * **Context Sensitive Searching is now supported in Scope Tags –** You can now type in the **Profile Name** field and we’ll automatically return a list of matching Scope Tags.
@@ -654,7 +658,7 @@ No release.
 
 <summary>Fixes</summary>
 
-#### Portal
+**Portal**
 
 * You can no longer disconnect a child company from an MSP Parent if there is not at least one user granted the **Full Admin with Access Management** role in the child company.
 * Resolved an issue with Events not being written when pausing a deployment.
@@ -667,7 +671,7 @@ No release.
 
 <summary>Fixes</summary>
 
-#### Custom Apps
+**Custom Apps**
 
 * Resolved an issue when changing the name of a vendor with mixed case, the name wasn’t saved to the Application Catalog. If the app is subsequently edited, the old, incorrect name is shown.
 
@@ -679,7 +683,7 @@ No release.
 
 <summary>New Features</summary>
 
-#### Custom Apps
+**Custom Apps**
 
 * Ability to upload additional files and folders when creating/editing a Custom App.
 
@@ -689,12 +693,12 @@ No release.
 
 <summary>Fixes</summary>
 
-#### Portal
+**Portal**
 
-* Resolved an issue with the **Update Only** App assignment type not being present for Custom Apps.&#x20;
+* Resolved an issue with the **Update Only** App assignment type not being present for Custom Apps.
 * Resolved an issue where if the **EnforcedUninstallArgument** was saved in the App Catalog, it was not used when creating an uninstall in a deployment
 
-#### Intune Apps
+**Intune Apps**
 
 * Resolved an issue with not being able to upload extra files with no name and just an extension.
 
@@ -706,7 +710,7 @@ No release.
 
 <summary>New Features</summary>
 
-#### Portal
+**Portal**
 
 * **Extra Files –** We now support uploading files with the same name, provided they are in different folders. We also support uploading folders with the same name, provided the selected paths are unique.
 
@@ -718,7 +722,7 @@ No release.
 
 <summary>Fixes</summary>
 
-#### Intune Apps
+**Intune Apps**
 
 * Resolved an issue with Update Rings where rings with retried deployments were duplicated in the daily notification email.
 
@@ -864,7 +868,7 @@ No release.
 * **New .MSP Installer Type added to AppCat –** We now support the .msp installer type in AppCat.
 * **New “Read-Only Admin” user role –** This new role can view all pages in the portal but cannot make any changes. This role is intended for audit purposes.
 * **New “Tenant Recovery” option –** If enabled, prevents a PMPC Company from being recovered using the [Recover Your Company](cloud-administration/manage-your-cloud-company/recover-your-cloud-company.md) process.\
-  &#xNAN;_\[**NOTE:** You will need to contact support to get this feature enabled due to the potential consequences of enabling it.]_
+  \&#xNAN;_\[**NOTE:** You will need to contact support to get this feature enabled due to the potential consequences of enabling it.]_
 * **Deployment method icon shown in Discovery –** When you view the **Managed** tab of Discovery, we show the method used to deploy the app i.e. PMPC Cloud, on-premises Publisher, or both.
 * **Cooldown Timer for Company Recovery –** Recovering a company is now limited to three attempts every 12 hours.
 
@@ -915,7 +919,7 @@ No release.
 #### Intune Apps
 
 * **Update Rings \[PUBLIC PREVIEW] -** The [Update Rings](cloud-deployments/cloud-update-rings/) feature of Patch My PC (PMPC) Cloud allows you to deploy apps and updates in a phased manner across your Intune estate.
-* **Increased number of characters for Additional Arguments -**  The maximum number of characters you enter in this field has been increased to 500.
+* **Increased number of characters for Additional Arguments -** The maximum number of characters you enter in this field has been increased to 500.
 
 #### Fixes
 
@@ -935,10 +939,9 @@ No release.
 
 * **Discovery –** The [Discovery ](discovery-in-cloud/)feature is now available in Public Preview. This feature lets you see which apps in our App Catalog are installed in your environment, including any Binary Free Apps or Custom Apps you may have added.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>As this is a preview feature, you must [Enable Preview Features](cloud-administration/manage-your-cloud-company/enable-cloud-preview-features.md) for the **Discovery** node to appear in your portal.</p>
-</blockquote>
+> **Note**
+>
+> As this is a preview feature, you must \[Enable Preview Features]\(cloud-administration/manage-your-cloud-company/enable-cloud-preview-features.md) for the **Discovery** node to appear in your portal.
 
 * **Folder installation log now shown –** We now show the path to the installation log in the new **Installation Logging** section of the **Summary** tab. We currently do not support changing this.
 
@@ -950,10 +953,9 @@ No release.
 
 ### 11th September 2024
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>No public facing changes were made on the 4th September.</p>
-</blockquote>
+> **Note**
+>
+> No public facing changes were made on the 4th September.
 
 #### New Features
 
@@ -1083,7 +1085,7 @@ No release.
 
 * **Improved sorting by column –** Columns can be sorted by more headings in various nodes when working in the portal.
 * **Improved user access requests —** Users can now enter a message giving more information about why they are requesting access to a company.
-* **Improved access denied flow  –** Admins can now provide a reason for declining a user's access request.
+* **Improved access denied flow –** Admins can now provide a reason for declining a user's access request.
 * **Revoking Access Management rights warning –** Now if you try to revoke Access Management rights for your account, provided at least one other account has this right, you will still be prompted if you are sure you wish to proceed.
 * **Search –** General improvements to search.
 * **Sync Schedule –** The new [Sync Schedule](https://docs.patchmypc.com/patch-my-pc-cloud/administration/managing-the-sync-schedule) feature allows you to set a different time and frequency for the sync job to run.

@@ -18,14 +18,14 @@ To keep you informed when new updates are ready for deployment in your environme
 
 Configurations for SMTP can vary greatly between environments, use the image below as a reference for your environment.
 
-![](/_images/image-(1257).png "Basic SMTP Configuration")
+![](../../.gitbook/assets/image-\(1257\).png)
 
 1. Select a Common Provider if applicable
 2. Enable The feature to send e-mails
 3. Specify YOUR sender e-mail
-4. Specify who should receive the e-mail&#x20;
+4. Specify who should receive the e-mail
 5. Configure Email Authentication
-6. Provide login details as needed, and security port details&#x20;
+6. Provide login details as needed, and security port details
 
 If you have issues setting up SMTP emails, check out our troubleshooting guide below.
 
@@ -37,18 +37,18 @@ SMTP email troubleshooting
 
 The Microsoft Teams webhook is a simple way to get a notification for each application as it is prepared for your environment. Simply create a new connector in teams, and paste the Web URL into the field.
 
-![](/_images/image-(1248).png "")
+![](../../.gitbook/assets/image-\(1248\).png)
 
-Need help creating the webhook in teams? No problem, check out our complete guide to creating a Teams webhook.&#x20;
+Need help creating the webhook in teams? No problem, check out our complete guide to creating a Teams webhook.
 
 {% embed url="https://patchmypc.com/how-publishing-alerts-work#topic3" %}
 
 ## Slack Webhook
 
-The Slack webhook is another simple way to get a notification for each application as it is prepared for your environment. Simply create a new webhook in Slack, and paste the Web URL into the field.&#x20;
+The Slack webhook is another simple way to get a notification for each application as it is prepared for your environment. Simply create a new webhook in Slack, and paste the Web URL into the field.
 
-![](/_images/image-(1238).png "")
+![](../../.gitbook/assets/image-\(1238\).png)
 
-Need help creating the webhook for Slack? No problem, check out our complete guide to creating a Slack webhook.&#x20;
+Need help creating the webhook for Slack? No problem, check out our complete guide to creating a Slack webhook.
 
 {% embed url="https://patchmypc.com/how-publishing-alerts-work#topic4" %}

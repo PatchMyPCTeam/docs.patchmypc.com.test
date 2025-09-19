@@ -12,10 +12,9 @@ There are two ways to grant access:
 All user account-related tasks are performed from the **Users** node of the PMPC portal, which is accessed by:
 
 1. Sign in to the PMPC portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/)
-2.  Navigate to  **Settings | Users**.\
+2.  Navigate to **Settings | Users**.\\
 
-
-    ![Navigating to "Settings | Users"](/_images/image-(286 "Navigating to \"Settings | Users\"").png "Navigating to “Settings | Users”")
+    ![Navigating to “Settings | Users”](../../../.gitbook/assets/image-\(286\).png)
 
 The **Users** page is then displayed, allowing you to complete the following tasks:
 
@@ -23,13 +22,16 @@ The **Users** page is then displayed, allowing you to complete the following tas
 * [Modify a User](modify-a-cloud-user.md)
 * [Delete a User](delete-a-cloud-user.md)
 
-!["Users" page](/_images/image-(287 "\"Users\" page").png "“Users” page")
+![“Users” page](../../../.gitbook/assets/image-\(287\).png)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
-<p>When you first set up a PMPC Cloud company, the user creating the company is automatically assigned the **Full Admin with Access Management** role. To avoid access issues (such as this user leaving your company and not passing on their credentials/setting up another user with this role), we recommend either:</p>
-<p>* [Adding a second user](add-a-cloud-user.md) and assigning them this role.</p>
-<p>* [Adding an Entra ID group](using-entra-id-security-groups-in-cloud/add-an-entra-id-group-to-cloud.md) and assigning it the **Full Admin with Access Management** role.</p>
-<p>Once you’ve done this, we recommend you use Entra ID security groups to manage any additional users who need to have access to your PMPC Cloud company.</p>
-<p>You will see the banner at the top of the portal warning you only have one user with Access Management privileges until you create at least another user or grant an Entra ID Security Group this privilege.</p>
-</blockquote>
+> **Note**
+>
+> When you first set up a PMPC Cloud company, the user creating the company is automatically assigned the **Full Admin with Access Management** role. To avoid access issues (such as this user leaving your company and not passing on their credentials/setting up another user with this role), we recommend either:
+>
+> \* \[Adding a second user]\(add-a-cloud-user.md) and assigning them this role.
+>
+> \* \[Adding an Entra ID group]\(using-entra-id-security-groups-in-cloud/add-an-entra-id-group-to-cloud.md) and assigning it the **Full Admin with Access Management** role.
+>
+> Once you’ve done this, we recommend you use Entra ID security groups to manage any additional users who need to have access to your PMPC Cloud company.
+>
+> You will see the banner at the top of the portal warning you only have one user with Access Management privileges until you create at least another user or grant an Entra ID Security Group this privilege.
