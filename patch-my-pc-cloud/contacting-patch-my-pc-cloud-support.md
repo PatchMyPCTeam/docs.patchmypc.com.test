@@ -9,7 +9,7 @@ If you encounter any issues with Patch My PC (PMPC) Cloud and need to contact us
 
 
 
-The <strong>Contact Support</strong> dialog box appears.
+The <strong>Contact Support</strong> dialog box appears 2.
 
 ![&#x22;Contact Support&#x22; dialog box](/_images/image-(104).png "&#x22;Contact Support&#x22; dialog box")
 
