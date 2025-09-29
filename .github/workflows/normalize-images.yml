@@ -255,10 +255,9 @@ jobs:
                   return f'<blockquote class="wp-block-quote">\n{content}\n</blockquote>'
               return HINT_BLOCK.sub(_repl, s)
 
-          # ---------- NEW: enhance existing blockquotes with marker -> class ----------
-          # Detect first <p> as a marker (**Note**, **Tip**, **Important**, with optional colon)
-          # and convert <blockquote class="wp-block-quote"> -> add 'is-note' / 'is-tip' / 'is-important'
-          # Also removes the marker paragraph from inside the blockquote.
+          # ---------- enhance existing blockquotes with marker -> class (KEEP marker <p>) ----------
+          # Detect first <p> as a marker (**Note**, **Tip**, **Important**, etc., colon optional)
+          # and add a modifier class on the <blockquote>. Do NOT remove that first paragraph.
           MARKERS = {
               'note': 'is-note',
               'tip': 'is-tip',
@@ -268,57 +267,40 @@ jobs:
               'info': 'is-info',
           }
 
-          # Matches a blockquote, capturing entire inner HTML
           BQ = re.compile(
               r'<blockquote\s+class="([^"]*\bwp-block-quote\b[^"]*)">\s*(.*?)\s*</blockquote>',
               re.I | re.S
           )
-          # First paragraph in the block
-          FIRST_P = re.compile(r'^\s*<p>(.*?)</p>\s*(.*)$', re.I | re.S)
+          FIRST_P = re.compile(r'^\s*<p>(.*?)</p>', re.I | re.S)
 
           def strip_md_bold(s: str) -> str:
-              # remove **strong** or __strong__
-              s = re.sub(r'^\s*[\*_\s]*', '', s)
-              s = re.sub(r'[\*_\s]*\s*$', '', s)
               s = re.sub(r'^\s*(\*\*|__)\s*', '', s)
               s = re.sub(r'\s*(\*\*|__)\s*$', '', s)
               return s.strip()
 
-          def detect_marker(text: str) -> str:
-              # Normalize: remove **, trailing colon, casefold
-              t = strip_md_bold(text)
+          def detect_marker(text_html: str) -> str:
+              t = re.sub(r'<[^>]+>', '', text_html)
+              t = strip_md_bold(t)
               t = re.sub(r':\s*$', '', t).strip().lower()
               return t
 
-          def enhance_blockquotes(s: str) -> str:
+          def enhance_blockquotes_keep_marker(s: str) -> str:
               def _repl(m):
                   classes = m.group(1)
                   inner   = m.group(2)
-
-                  fm = FIRST_P.match(inner)
+                  fm = FIRST_P.search(inner)
                   if not fm:
                       return m.group(0)
-
                   first_p_html = fm.group(1)
-                  rest_html    = fm.group(2)
-
-                  # Pull plain-ish text out of the first <p> (not perfect, but good enough)
-                  first_text = re.sub(r'<[^>]+>', '', first_p_html).strip()
-                  key = detect_marker(first_text)
-
-                  if key in MARKERS:
-                      mod = MARKERS[key]
-                      # avoid duplicates
-                      class_list = classes.split()
-                      if mod not in class_list:
-                          classes = classes + " " + mod
-                      # drop the first <p> marker
-                      new_inner = rest_html.strip()
-                      if not new_inner:
-                          new_inner = ""  # allow empty
-                      return f'<blockquote class="{classes}">\n{new_inner}\n</blockquote>'
-                  else:
+                  key = detect_marker(first_p_html)
+                  mod = MARKERS.get(key)
+                  if not mod:
                       return m.group(0)
+                  cls = classes.split()
+                  if mod not in cls:
+                      classes = classes + " " + mod
+                  # return blockquote with SAME inner (keep marker paragraph)
+                  return f'<blockquote class="{classes}">\n{inner}\n</blockquote>'
               return BQ.sub(_repl, s)
 
           # ---------- image normalizations (your existing logic) ----------
@@ -426,8 +408,8 @@ jobs:
               # 7) Remove lingering ../ or ./ before _images
               s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
 
-              # 8) NEW: enhance blockquotes (add classes + remove marker <p>)
-              s = enhance_blockquotes(s)
+              # 8) Enhance blockquotes (add modifier class; KEEP marker <p>)
+              s = enhance_blockquotes_keep_marker(s)
 
               if s != o:
                   with open(path, "w", encoding="utf-8", newline="") as f:
@@ -438,6 +420,7 @@ jobs:
           if not any_changed:
               print("No image links or blockquotes needed normalization.")
           PY
+
       
 
       # FINAL PATCH: strip quoted fragments inside filename parentheses before .ext
