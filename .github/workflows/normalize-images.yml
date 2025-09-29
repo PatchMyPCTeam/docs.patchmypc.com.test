@@ -271,13 +271,13 @@ jobs:
         
               # ---------- enhance blockquotes with marker -> class (keep marker <p>) ----------
               MARKERS = {
-              'note': 'is-note',
-              'tip': 'is-tip',
-              'important': 'is-important',
-              'warning': 'is-warning',
-              'caution': 'is-caution',
-              'info': 'is-info',
-          }
+                  'note': 'is-note',
+                  'tip': 'is-tip',
+                  'important': 'is-important',
+                  'warning': 'is-warning',
+                  'caution': 'is-caution',
+                  'info': 'is-info',
+              }
             
             # Match blockquote with a class containing wp-block-quote; capture classes and inner HTML
             BQ = re.compile(
@@ -455,7 +455,8 @@ jobs:
             PY
     
 
-    # FINAL PATCH: strip quoted fragments inside filename parentheses before .ext
+
+      # FINAL PATCH: strip quoted fragments inside filename parentheses before .ext
       - name: Final fix — collapse ("…") inside filenames
         shell: bash
         run: |
@@ -492,6 +493,7 @@ jobs:
           PY
         
         
+
 
         # 5) Validate: all image links are /_images/<no-spaces> and no subfolders
       - name: Validate image links style (/_images/*, no spaces)
