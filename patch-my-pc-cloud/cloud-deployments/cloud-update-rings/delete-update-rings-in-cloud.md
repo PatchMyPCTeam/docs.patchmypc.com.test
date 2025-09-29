@@ -7,8 +7,7 @@ For a Patch My PC (PMPC) Cloud deployment with Update Rings enabled, you can eit
 * [Delete all Update Rings](delete-update-rings-in-cloud.md#delete-all-update-rings)
 * [Delete a Single Update Ring](delete-update-rings-in-cloud.md#delete-a-single-update-ring)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>All deletion tasks for Update Rings are performed from the **Assignments** tab of the respective deployment.</p>
 </blockquote>
 
@@ -31,8 +30,7 @@ To delete all Update Rings for a deployment:
 
     ![Clicking "Move" to remove the Update Rings but keep all the existing assignments](/_images/image-(2062).png "Clicking “Move” to remove the Update Rings but keep all the existing assignments")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Clicking **Delete** will delete any existing assignments but not the deployment itself.</p>
 <p>![Clicking "Delete" will delete any existing assignments, not the deployment itself.](/_images/image-(2064 "Clicking \"Delete\" will delete any existing assignments, not the deployment itself.").png>)\</p>
 </blockquote>
@@ -47,16 +45,14 @@ The Update Rings are removed and any existing assignments are kept.
 
     ![Clicking "Save" to save changes](/_images/image-(2066).png "Clicking “Save” to save changes")
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>As removing all Update Rings disables Update Ring functionality for this deployment (which could result in unintended results), the **"**_**\<deployment\_name>**_**" Deployment Summary** is shown detailing the impact of your proposed change.\</p>
 <p>\</p>
 <p>For example, this version of the app will be deployed immediately to all of the following assignments without any of the delays enforced by using Update Rings.</p>
 <p>!["Deployment Summary" showing the impact of deleting all Update Rings ](/_images/image-(2067 "\"Deployment Summary\" showing the impact of deleting all Update Rings ").png>)</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If the existing deployment had different versions applied to different assignments, we use the version that was applied to the lowest delay ring before the deployment was edited.</p>
 </blockquote>
 
@@ -68,8 +64,7 @@ The Update Rings are removed and any existing assignments are kept.
 
     !["Deployment Summary" showing the impact of delete all Update Rings](/_images/image-(2068).png "“Deployment Summary” showing the impact of delete all Update Rings")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If you edit the deployment and click **More Info**, you will see the tabs representing the Update Rings are no longer present.</p>
 </blockquote>
 
@@ -80,8 +75,7 @@ To delete a Single Update Ring:
 1. Navigate to the **Assignments** page of the deployment.
 2. Click the red **X** beside the Update Ring you want to delete.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Deleting an Update Ring also deletes any assignments controlled by that ring. If you want to keep the assignment, drag and drop it to another ring before you delete the ring.</p>
 </blockquote>
 
@@ -112,7 +106,6 @@ The ring and any assignments it contains are deleted.
 
     !["Deployment Summary" showing the impact of delete all Update Rings](/_images/image-(2073).png "“Deployment Summary” showing the impact of delete all Update Rings")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If you edit the deployment and click **More Info**, you will see the tab representing the deleted Update Ring is no longer present.</p>
 </blockquote>

@@ -6,8 +6,7 @@ On the **Configuration** tab:
 
 1. In the **Silent Install Parameters** field, enter the command-line arguments (up to a maximum of 2,048 characters) used to install the app silently (i.e. the user is not aware of the installation occurring).
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Providing `msiexec.exe /i` for MSI installations is not required. Using `/qn` will be adequate for most MSI installations.</p>
 <p>Also, see [Supported Variables in Publisher and PMPC Cloud](../../../patch-my-pc-product-reference/supported-variables-in-patch-my-pc-on-premises-publisher-and-cloud.md) for a list of the variables we support in this field.</p>
 </blockquote>
@@ -16,8 +15,7 @@ On the **Configuration** tab:
 
 2. In the **Version** field, enter the version number for this app.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The number entered in this field is the version of the app as shown in **Add or remove programs**.</p>
 <p>Detection uses this field to determine if the app is installed by looking for a matching **DisplayVersion** entry in the following registry key:</p>
 <p>`HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall`</p>
@@ -31,16 +29,14 @@ On the **Configuration** tab:
 
 4. In the **Apps & Feature Name** field, type the name of the app as it appears in **Add or remove programs**.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Detection uses this field to determine if the app is installed by looking for a matching **DisplayName** entry in the following registry key:</p>
 <p>`HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall`</p>
 <p>As this field allows a "**%**" wildcard (which matches on any string of characters), consider replacing the version number with this wildcard if the version number is in the **Apps & Features Name**.</p>
 <p>This will allow App Detection and Update Requirement rules to detect older versions of the app on your endpoints.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>As the **Apps & Features Name** is used to determine applicability and detection, using an overly generic name may cause Intune Updates to be detected as required on devices without the software installed.</p>
 </blockquote>
 
@@ -52,8 +48,7 @@ On the **Configuration** tab:
 
 6. If you do not want to modify the **Return Codes** for this app, go to Step 15.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See the [Return Codes (optional)](../../cloud-deployments/deploying-an-app-using-cloud/cloud-configurations-deployment-tab/return-codes-deployments.md) section of [Deploy an App](../../cloud-deployments/deploying-an-app-using-cloud/) for details on managing the Return Codes for a Deployment.</p>
 <p>Also, if a Return Code defined in a Custom App has the same value but a different **Code type** to that defined in the deployment, the settings in the deployment take precedence.</p>
 </blockquote>
@@ -61,8 +56,7 @@ On the **Configuration** tab:
 7. If you do not want to add a new Return Code, proceed to Step 9.
 8. To add a new Return Code for this Custom App, enter the numerical value in the **Return Code** field, select its meaning from the **Code type** dropdown, then click **Add**.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>A Return code must be a unique integer up to 10 digits long. You can add as many Return codes as your app supports. In the current release, you cannot edit or specify your own Code type as these are managed in Intune.</p>
 </blockquote>
 

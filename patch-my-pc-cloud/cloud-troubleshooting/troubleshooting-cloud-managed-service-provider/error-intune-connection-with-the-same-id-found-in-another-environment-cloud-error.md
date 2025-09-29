@@ -24,7 +24,6 @@ We do not support sharing an Intune tenant between multiple PMPC Cloud companies
 
 Sign in to the child company and navigate to  **Settings | Environments** and if Intune is already connected, delete the connection.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See [Deleting an Intune tenant connection](../../cloud-administration/manage-your-environments-in-cloud/manage-cloud-intune-tenants.md#deleting-an-intune-tenant-connection) for more information.</p>
 </blockquote>

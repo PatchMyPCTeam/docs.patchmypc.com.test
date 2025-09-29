@@ -20,8 +20,7 @@ To switch between companies:
 
     ![Selecting the company you want to manage](/_images/image-(2092).png "Selecting the company you want to manage")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The company currently being managed has a tick beside it.</p>
 </blockquote>
 

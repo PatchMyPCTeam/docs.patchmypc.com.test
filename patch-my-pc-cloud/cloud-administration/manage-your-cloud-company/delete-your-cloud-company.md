@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 If you've completed your trial of Patch My PC (PMPC) Cloud and decided it's not for you or you just want to remove PMPC Cloud from your environment, you need to delete your company.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Before you can delete your company, you must use the:</p>
 <p>* [Delete a Connection](../manage-cloud-connections/delete-a-cloud-connection.md) process to disconnect any Publisher connections.</p>
 <p>* [Deleting an Intune tenant connection](../manage-your-environments-in-cloud/manage-cloud-intune-tenants.md#deleting-an-intune-tenant-connection) process to disconnect Intune.</p>

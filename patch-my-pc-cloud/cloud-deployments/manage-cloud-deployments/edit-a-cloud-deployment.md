@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 In Patch My PC (PMPC) Cloud, a successful deployment can be edited (changed) should you wish to change any of its settings (e.g., assignments, command line parameters, etc.).
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Some notes about Deployments:</p>
 <p>* Only successful deployments can be edited.</p>
 <p>* If you edit a deployment with [App Dependencies](../deploying-an-app-using-cloud/cloud-configurations-deployment-tab/dependencies-deployments.md) configured and edit just the dependency, the app won’t be republished in Intune from scratch. However, making any other changes could result in the app being republished.</p>
@@ -43,13 +42,11 @@ To edit an existing deployment from the **Deployments** node:
     ![Deployment Wizard starting.](/_images/image-(1889).png "Deployment Wizard starting.")
 4. Follow the [Deploy an App](../deploying-an-app-using-cloud/) process.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Be mindful of any changes you make, as you are editing the existing deployment, not creating a new one.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can also edit a deployment from the **Deployments** node by clicking the ellipsis (**⋮**) beside the relevant deployment you want to edit, then click **Edit**.</p>
 <p>![Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.](/_images/image-(1891 "Clicking the ellipsis beside the relevant deployment you want to edit, then clicking Edit.").png>)</p>
 </blockquote>
@@ -63,8 +60,7 @@ To edit a deployment from the App Catalog:
 
     ![Navigating to the App Catalog and locating the app whose deployment you wish to edit.](/_images/image-(1884).png "Navigating to the App Catalog and locating the app whose deployment you wish to edit.")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>Any apps already deployed by Intune Apps have the green cloud icon with a tick (![](/_images/image-(1883).png>)) next to the version number.</p>
 </blockquote>
 
@@ -78,8 +74,7 @@ The behavior of the **Edit Deployment** button depends on whether there is at le
 * If there is only deployment for an app, clicking the **Edit Deployment** button starts the Deployment Wizard.
 * If there is more than one deployment for the same app, clicking the **Edit Deployment** button provides a dropdown list of all deployments for this app, from which you can select the relevant deployment to edit. Clicking a deployment starts the Deployment Wizard.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If there is more than one deployment for the same app but any of them are in **Processing**, **Retrying** or **Failed** state, the **Edit Deployment** button still provides a dropdown list of all deployments for this app, but you can only select those that have successfully completed to edit.</p>
 </blockquote>
 
@@ -89,7 +84,6 @@ The Deployment Wizard starts.
 
 3. Follow the [Deploy an App](../deploying-an-app-using-cloud/) process.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Be mindful of any changes you make, as you are editing the existing deployment, not creating a new one.</p>
 </blockquote>

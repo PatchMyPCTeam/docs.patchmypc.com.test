@@ -30,8 +30,7 @@ The **Add Pre-Install Script** page is populated with the imported script.
 
 ![Typing your script in the Script Editor](/_images/image-(2464).png "Typing your script in the Script Editor")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>We currently have a limit of 50,000 characters per script. Use the **Number of characters used** counter to keep track of the number of characters you’ve entered in the script editor.</p>
 </blockquote>
 
@@ -40,13 +39,11 @@ The **Add Pre-Install Script** page is populated with the imported script.
 
     ![Entering any arguments you want to provide to the script by specifying them in the "Arguments" field](/_images/image-(2465).png "Entering any arguments you want to provide to the script by specifying them in the “Arguments” field")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can use variable names as arguments, provided they are enclosed by percentage signs (`%`). We provide common variables under this field, which you can add by clicking the plus (+) symbol or relevant variable name.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Using script Arguments is currently unsupported when deploying an app to macOS.</p>
 </blockquote>
 
@@ -75,8 +72,7 @@ The **Add Pre-Install Script** page is populated with the imported script.
 
 !["Configurations" tab re-displayed with the name of the configured script beside it](/_images/image-(93).png "“Configurations” tab re-displayed with the name of the configured script beside it")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can click **Edit** to edit a script or its settings. You can also click the red “`x`” beside a script to delete it.</p>
 </blockquote>
 

@@ -12,8 +12,7 @@ To access the Events node:
 
     ![Navigating to "Events" to access the Events page](/_images/image-(1760).png "Navigating to “Events” to access the Events page")
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Only users assigned the **Full Admin** role will be able to see the **Events** node.</p>
 <p>See [User Roles](../cloud-administration/manage-cloud-users/cloud-user-roles-reference.md) for more information.</p>
 </blockquote>
@@ -30,7 +29,6 @@ The **Events** page is then displayed, allowing you to:
 
 ![The "Events" page](/_images/image-(1762).png "The “Events” page")
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Events are only held in the portal for 30 days, after which they are automatically groomed from the database. If you wish to keep events longer than 30 days, follow the [Export Events](export-cloud-events.md) process.</p>
 </blockquote>

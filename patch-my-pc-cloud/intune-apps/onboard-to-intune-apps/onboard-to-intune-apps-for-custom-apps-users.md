@@ -16,8 +16,7 @@ If you are already a Custom Apps user, to onboard to Intune Apps for Cloud (Intu
 
     ![Clicking "Connect" under the "Intune" tab](/_images/image-(1749).png "Clicking “Connect” under the “Intune” tab")
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>As Intune Apps currently does not have feature parity with our on-premises Publisher, you will see the **Feature Parity Notice** popup. Please read this before clicking **Submit** to proceed.\</p>
 <p>\</p>
 <p>!["Feature Parity Notice" popup](/_images/image-(1750 "\"Feature Parity Notice\" popup").png>)</p>
@@ -38,16 +37,14 @@ If you are already a Custom Apps user, to onboard to Intune Apps for Cloud (Intu
 
 6. On the **Permission requested** screen, click **Accept**.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>We require these permissions to connect with your Intune tenant.</p>
 <p>See [Permissions required for the Intune Apps](../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.</p>
 </blockquote>
 
 !["Permission requested" screen](/_images/image-(1474).png "“Permission requested” screen")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can click the down arrow beside each permission to get more information.</p>
 </blockquote>
 

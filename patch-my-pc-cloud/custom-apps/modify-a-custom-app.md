@@ -4,8 +4,7 @@ _Applies to: Custom Apps_
 
 You may need to make some changes to a Patch My PC (PMPC) Custom App such as changing it’s configuration or adding additional installation files.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See [Updating a Custom App](update-a-custom-app.md) for details on how to update an existing Custom App to a later version.</p>
 </blockquote>
 

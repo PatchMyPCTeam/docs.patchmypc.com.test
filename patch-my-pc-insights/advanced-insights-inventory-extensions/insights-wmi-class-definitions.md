@@ -234,8 +234,7 @@ _Applies to: Patch My PC Advanced Insights_
 
 ### PMPC\_BrowserExtension
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Supported Browsers:</p>
 <p>* Chrome</p>
 <p>* Edge</p>

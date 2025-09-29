@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 Once you have created naming conventions in Patch My PC (PMPC) Cloud, you can modify them as required.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Once you’ve saved any changes to your existing Naming Conventions, these changes will apply to all deployments created from this point forward.</p>
 <p>Any existing deployments are not automatically updated until the next sync happens, which by default is daily at 2 AM local time, based on the country you selected when you onboarded to Patch My PC (PMPC) Cloud.</p>
 <p>If you want to apply the changes to any existing deployments before the next sync runs, you can either [Edit a Deployment](../../cloud-deployments/manage-cloud-deployments/edit-a-cloud-deployment.md) or [Recreate a Deployment](../../cloud-deployments/manage-cloud-deployments/recreate-a-cloud-deployment.md). Either of these actions will apply the new naming conventions to the deployment.</p>

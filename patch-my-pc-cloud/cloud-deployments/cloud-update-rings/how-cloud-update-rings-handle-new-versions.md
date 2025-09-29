@@ -79,8 +79,7 @@ In this scenario, you can:
 * Wait until the overnight sync runs to pick up the new version.
 * Run the [Sync Now](../manage-updates-in-cloud/sync-now-cloud-feature.md) process to update just this deployment immediately.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>This is one of the many reasons why we recommend configuring your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to **Daily** if you are using Update Rings.</p>
 <p>We also use the release date of the new version to validate if it is the right time to update the assignments to upgrade rings to later versions.</p>
 </blockquote>
@@ -161,8 +160,7 @@ In this scenario, you can:
 * Wait until the overnight sync runs to pick up the new version.
 * Run the [Sync Now](../manage-updates-in-cloud/sync-now-cloud-feature.md) process to update just this deployment immediately.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>This is one of the many reasons why we recommend configuring your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to **Daily** if you are using Update Rings.</p>
 <p>We also use the release date of the new version to validate if it is the right time to update the assignments to upgrade rings to later versions.</p>
 </blockquote>

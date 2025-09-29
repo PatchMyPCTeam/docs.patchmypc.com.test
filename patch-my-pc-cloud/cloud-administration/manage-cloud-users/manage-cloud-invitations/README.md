@@ -6,8 +6,7 @@ Access to the Patch My PC (PMPC) Cloud portal is controlled through either an in
 
 This section details how to manage Invitations.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See [Managing Access Requests](../manage-cloud-access-requests/) for more information on access requests.</p>
 </blockquote>
 
@@ -31,7 +30,6 @@ You can now:
 * [Resend an invitation](resend-a-cloud-invitation.md)
 * [Delete an invitation](delete-a-cloud-invitation.md)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>As users decide whether to accept an invitation, this process is covered in the [Accepting an Invitation](accept-a-cloud-invitation.md) process.</p>
 </blockquote>

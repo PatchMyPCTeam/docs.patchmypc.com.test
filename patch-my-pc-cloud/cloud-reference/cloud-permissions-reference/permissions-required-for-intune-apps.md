@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 In addition to the [Permissions required for Patch My PC Cloud](permissions-required-for-patch-my-pc-cloud.md), to onboard to Intune Apps for Cloud (Intune Apps), we require the following permissions:
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Your account must have the **Global Administrator** role in Entra ID to approve our enterprise application. Using an account with the **Application Administrator** role will not work as our app requires Microsoft Graph permissions.</p>
 <p>See the <a href="https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#application-administrator">Application Administrator</a> section of <a href="https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference">Microsoft Entra built-in roles</a> for more information.</p>
 </blockquote>

@@ -77,15 +77,13 @@ You can deploy the **Inventory Extensions** product via <mark style="color:green
 
 ![](/_images/image-(1329).png "Inventory Extensions app created successfully")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>We also recommend that you enable the Advanced Insights Inventory Extensions (MSI-x64) WSUS/Intune **UPDATE** to ensure your clients receive newer versions of the Inventory Extensions as they are released.</p>
 </blockquote>
 
 ***
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The Advanced Insights Inventory Extensions will add approximately 0.5 MB per-client to the Configuration Manager database. We recommend increasing the acceptable inventory file size from the default of 5MB to a minimum of 10MB.&#x20;</p>
 <p>To do so, edit the below registry value on the ConfigMgr site server:</p>
 <p>* **Registry key:** HKLM\Software\Microsoft\SMS\Components\SMS\_INVENTORY\_DATA\_LOADER</p>

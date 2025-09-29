@@ -20,8 +20,7 @@ To update an individual Update Ring to a later version:
 
 
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Some important points to note:</p>
 <p>* The **Update Now** option is only available if the deployment has been deployed successfully. It will not be shown if the deployment is in any other state or if **Pause Updates** has been enabled for this deployment.</p>
 <p>* An individual update ring can only be updated to a later version than the one it is currently running.</p>

@@ -19,15 +19,13 @@ To create a Custom App you first need up upload the Primary Installer for the ap
    1. Click **Add Primary Install File** and browse to the location containing the app’s installer (EXE or MSI).
    2. Drag and drop the installer file onto this page.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>We currently do not support macOS Custom Apps. If you select a .pkg/.dmg you will see a warning stating this and explaining how you can upvote this idea.</p>
 </blockquote>
 
 ![Clicking "Add Primary Install File" on the "Upload Application" page](/_images/image-(211).png "Clicking “Add Primary Install File” on the “Upload Application” page")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If you plan to deploy an EXE-based installer, use our free script to help you extract the required information from the registry. See [Finding properties for EXE-Based Installers](../custom-apps-reference/find-properties-for-exe-based-installers.md) for more information.</p>
 </blockquote>
 

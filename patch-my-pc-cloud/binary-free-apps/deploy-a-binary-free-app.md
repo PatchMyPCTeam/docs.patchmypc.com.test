@@ -24,8 +24,7 @@ To upload the app installer for the Binary Free App:
 
     ![Clicking the app to open its properties](/_images/image-(444).png "Clicking the app to open its properties")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Notice that both the **Deploy** and **Edit Deployment** options are unavailable as this is a Binary Free App that requires you to upload the installer.</p>
 </blockquote>
 
@@ -51,15 +50,13 @@ To upload the app installer for the Binary Free App:
 
     b. Drag and drop the installer file onto this page.
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>We suggest you use the download link at the bottom of the page to ensure you download the latest version of the app from the vendor’s official website.</p>
 </blockquote>
 
 ![Clicking "Select Application File"](/_images/image-(448).png "Clicking “Select Application File”")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you select either the wrong file or the wrong version of the file, the [Unable to verify the file you are trying to upload. Please ensure you have uploaded the correct file](../cloud-troubleshooting/troubleshooting-binary-free-apps/unable-to-verify-the-file-you-are-trying-to-upload-error-in-binary-free-apps.md) error will be displayed.</p>
 <p>This is because we validate the hash of the installer to ensure you are uploading the correct file compared to the version information we have stored in our App Catalog.</p>
 <p>If you really need to deploy an older version of the app, deploy it as a Custom App by using the [Create a Custom App](../custom-apps/create-a-custom-app/)  process.</p>
@@ -77,8 +74,7 @@ The portal also shows **File Up to Date** and the **Success – File Successfull
 
     !["Success – File Successfully Uploaded" notification](/_images/image-(2050).png "“Success – File Successfully Uploaded” notification")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>By default, whenever a new version of a Binary Free App is released, we update the version in our App Catalog, which will trigger an update notification to be sent to all users configured in your portal.</p>
 <p>See the [Manage New Version Notifications for a Binary Free App](manage-new-version-notifications-for-a-binary-free-app.md) process to change this.</p>
 </blockquote>

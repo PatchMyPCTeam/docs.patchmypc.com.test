@@ -28,8 +28,7 @@ The **Branding** screen is then displayed, allowing you to:
 
 !["Branding" screen](/_images/image-(1478).png "“Branding” screen")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you do not add branding, our default branding shown on the **Branding** page will be used for all Intune App-related notifications on your computers.</p>
 <p>![Default Intune Apps for Cloud branding](/_images/image-(1479 "Default Intune Apps for Cloud branding").png>)</p>
 </blockquote>

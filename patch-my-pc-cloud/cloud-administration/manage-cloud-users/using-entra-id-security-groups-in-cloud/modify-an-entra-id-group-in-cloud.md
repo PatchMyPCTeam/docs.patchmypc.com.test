@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 Once an Entra ID Security Group has been added to Patch My PC (PMPC) Cloud, you can change the role assigned to that group.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>You cannot change the membership of an Entra ID Security Group from within the PMPC Cloud portal.</p>
 </blockquote>
 
@@ -25,8 +24,7 @@ To change the role assigned to an Entra ID Security Group:
 
 3. Click the dropdown arrow in the **Group Role** column beside the group whose role you want to modify and select the new role.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>You will be unable to change the group’s role from **Full Admin with Access Management** to another role if this is the only group assigned that role and no users under the **Active Users** tab have been assigned the **Full Admin with Access Management** role.</p>
 </blockquote>
 

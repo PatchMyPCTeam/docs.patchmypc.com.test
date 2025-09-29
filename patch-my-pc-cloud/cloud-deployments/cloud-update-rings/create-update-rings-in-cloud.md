@@ -33,8 +33,7 @@ A new ring is added.
 
 ![New ring added](/_images/image-(2585).png "New ring added")
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Whenever you add a new Update Ring, it is created with a default delay of **0** days, i.e. the deployment will be installed immediately on any targeted users/devices.</p>
 <p>If you already have another ring with a default delay of 0 days, you will see the **Two rings cannot have the same delay value** message besides the second ring with the duplicate delay.</p>
 <p>You should adjust the delays on your Update Rings to avoid duplicates.</p>
@@ -43,8 +42,7 @@ A new ring is added.
 
 6. Repeat step 4 to add any additional Update Rings.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>You can add up to a maximum of 10 Update Rings per deployment.</p>
 </blockquote>
 
@@ -71,13 +69,11 @@ The updated name appears.
 
 11. Click **Add Assignment** and add the relevant assignments for each ring, configuring the settings for each assignment as required.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See the [Assignments](../deploying-an-app-using-cloud/cloud-assignments-deployment-tab.md) section of the [Deploy an App](../deploying-an-app-using-cloud/) process for more information.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can drag assignments between Update Rings by clicking the double ellipsis (![](/_images/image-(2044).png)) beside the relevant assignment and dragging and dropping it to the relevant Update Ring.</p>
 </blockquote>
 
@@ -91,8 +87,7 @@ The **“<**_**deployment\_name**_**>” Deployment Summary** dialog box appears
 
 !["Deployment Summary"](/_images/image-(2135).png "“Deployment Summary”")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) is set to anything other than **Daily**, the UI will warn you that some rings may not be evaluated as expected.&#x20;</p>
 <p>![](/_images/image-(2138).png>)</p>
 <p>This is why we recommend you set your [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) to **Daily** if you plan to use Update Rings.</p>

@@ -4,13 +4,11 @@ _Applies to: Patch My PC Cloud_
 
 To create incoming webhooks with Workflows for Microsoft Teams, follow the **Set up an incoming webhook workflow from a template** section of [Create incoming webhooks with Workflows for Microsoft Teams](https://support.microsoft.com/en-gb/office/create-incoming-webhooks-with-workflows-for-microsoft-teams-8ae491c7-0394-4861-ba59-055e33f75498).
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>We recommend using **Patch My PC** as the Incoming Webhook's name to allow you to easily distinguish it from other webhooks.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can download a copy of our logo to use with your webhook at <a href="https://patchmypc.com/patch-my-pc-logos-wallpapers-and-brand-resources">Patch My PC Logos, Wallpapers, and Brand Resources</a>.</p>
 </blockquote>
 

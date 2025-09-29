@@ -18,8 +18,7 @@ This message appears if, for some reason, the region hosting your PMPC Cloud com
 
 There is no action on your part. Once we resolve the issue, this notification will automatically disappear and you will be able to sign in to the PMPC Cloud portal.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you are currently signed into a company in one region and you have a company in a different region that is currently inaccessible (as that region is currently down), you will see the following banner notification in the portal:</p>
 <p>**The service is currently unavailable in the <**_**region\_code**_**> region. We are actively working to resolve this issue.**</p>
 <p>!["The service is currently unavailable in the \<region\_code> region. We are actively working to resolve this issue" banner notification](/_images/image-(2294 "\"The service is currently unavailable in the \<region\_code> region. We are actively working to resolve this issue\" banner notification").png>)</p>

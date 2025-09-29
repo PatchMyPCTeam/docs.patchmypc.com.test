@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If an app has more than one version of an update available, using **Sync Now** ensures it is updated to the latest version as soon as possible, which could impact your users. So, think carefully before using this.</p>
 </blockquote>
 
@@ -19,8 +18,7 @@ If you have [resumed updates](resume-cloud-updates.md) for an app in Patch My PC
 
     ![Clicking "Sync Now"](/_images/image-(2005).png "Clicking “Sync Now”")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If the **Sync Now** button is greyed out, no updates are available for this app.</p>
 </blockquote>
 
@@ -41,8 +39,7 @@ If you have [resumed updates](resume-cloud-updates.md) for an app in Patch My PC
 
     !["Status" changing to Success.](/_images/image-(1830).png "“Status” changing to Success.")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If you look in the **Events node**, you will see the following event:</p>
 <p>**Deployment <**_**app\_name**_**> Updated.**</p>
 </blockquote>

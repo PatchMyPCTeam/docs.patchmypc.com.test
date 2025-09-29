@@ -16,8 +16,7 @@ The **Environments** node is shown, displaying the updated name and the **Succes
 
 !["Success - Environment updated" notification](/_images/image-(2577).png "&#x22;Success - Environment updated&#x22; notification")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If you look in the **Events** node, you will see an event related to the rename:</p>
 <p>![](/_images/image-(1574).png)</p>
 </blockquote>

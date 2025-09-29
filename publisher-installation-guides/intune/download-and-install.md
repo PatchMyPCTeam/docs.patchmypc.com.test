@@ -64,8 +64,7 @@ You are now ready to install the product! Click Install, and grab a drink of wat
 
 Once the publisher has finished installing, just hit the finish button to close the install wizard.&#x20;
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>By default, the **Launch Patch My PC Publishing Service** checkbox is checked, meaning when you click **Finish**, Publisher will open automatically.</p>
 </blockquote>
 

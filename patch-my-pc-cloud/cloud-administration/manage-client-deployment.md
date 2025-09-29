@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>This feature is currently only available through an invitation-only Private Preview, as both it and the documentation are under development, incomplete, and subject to change.</p>
 <p>Please do not share links to these docs with others outside of the Private Preview.</p>
 <p>Once this feature is released, it will be announced and this banner removed.</p>
@@ -27,8 +26,7 @@ Before installing the Client, ensure:
 3. You are using PMPC Cloud to deploy and manage your third-party apps, updates and Custom Apps.
 4. You have installed the correct version of the [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) on any devices on which you want to install the agent.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>The PMPC Client requires .NET version 8 specifically. It cannot use later versions.</p>
 </blockquote>
 
@@ -49,8 +47,7 @@ The **Client Deployment** screen is shown, which is split into two sections:
 
 2. To deploy the Client (**Preview** or **Production**), click the **Groups** dropdown and select the relevant Entra ID group(s) you want to deploy the Client to.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>We recommend deploying the PMPC Client to a pilot group of devices first to ensure no issues arise.</p>
 <p>See <a href="https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/groups-add">Add groups to organize users and devices</a> for more details on creating and working with groups in Intune.</p>
 </blockquote>
@@ -71,13 +68,11 @@ Once the Win32 app for the Client has been created in Intune, the status updates
 
 As the Client is installed on the targeted devices, the number of **Devices Managed** shown in the **Dashboard** will increase.
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can also check for the existence of the **C:\ProgramData\Patch My PC\Agent** folder on any target devices and review the **C:\Windows\Temp\PatchMyPC.Client.log** to monitor the installation of the Client.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>To deploy the Client to other Entra ID groups, select the relevant groups from the **Groups** dropdown and click **Save**. The **Success – Updated** notification will be displayed and the Client will be deployed to the additional groups.</p>
 </blockquote>
 
@@ -109,8 +104,7 @@ In this scenario, you can also uninstall the Client by:
 
 ![Clicking the relevant "Uninstall Client" button](/_images/image-(1).png "Clicking the relevant “Uninstall Client” button")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If a group is greyed out, it means the current Client deployment is targeted to that group, and you should use the [Modify the Groups the Client is deployed to](manage-client-deployment.md#modify-the-groups-the-client-is-deployed-to) process instead.</p>
 </blockquote>
 
@@ -141,8 +135,7 @@ The **Client Deployment** screen is redisplayed along with the **Success – Del
 
 !["Client Deployment" screen is redisplayed along with the "Success – Deleted" notification](/_images/image-(6).png "“Client Deployment” screen is redisplayed along with the “Success – Deleted” notification")
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Using this option will only delete the deployment from Intune. It will not uninstall the Client from any of the devices targeted by the current deployment.</p>
 <p>Also, as the **Client Deployment** screen does not currently refresh, you will need to refresh it to see any updates.</p>
 </blockquote>

@@ -24,8 +24,7 @@ _Applies to: Patch My PC Cloud_
     **Sender:** Patch My PC\<noreply@patchmypc.com>\
     **Subject:** Test notification from Patch My PC Cloud
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If the user does not receive the email, check the email is not in their junk email folder.</p>
 </blockquote>
 
@@ -54,7 +53,6 @@ _Applies to: Patch My PC Cloud_
 
     ![Test email showing email notifications are working](/_images/image-(1893).png "Test email showing email notifications are working")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If the user does not receive the email, check the email is not in their junk email folder.</p>
 </blockquote>

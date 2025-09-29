@@ -36,7 +36,6 @@ In this example a custom IIS application pool identity has been set:
 
 Confirm the required Dashboard Port and if required, IIS application pool identity and click **Next**.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you have any feedback or comments on our docs, please email [docs@patchmypc.com](mailto:docs@patchmypc.com).</p>
 </blockquote>

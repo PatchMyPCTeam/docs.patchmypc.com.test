@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 The **Configurations** tab of the Patch My PC (PMPC) Cloud deployment wizard allows you to configure various configuration settings (explained below) for how you want the app to be deployed.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The most common settings are displayed by default. You can configure additional, optional settings by clicking the relevant tab under the **Tools** section and following the relevant process.</p>
 <p>If any configuration options mentioned below are missing from your deployment, it is probably because the specific feature(s) the option relates to have not been enabled in your PMPC Cloud company.</p>
 <p>Any settings you configure for a deployment will be used for the current deployment and automatically applied to any new versions of the deployment as it's updated.</p>

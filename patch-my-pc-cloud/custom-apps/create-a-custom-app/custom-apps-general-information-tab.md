@@ -19,8 +19,7 @@ The **General Information** tab is where you configure the basic information for
 
     ![Entering a unique name in the "App Name" field](/_images/image-(216).png "Entering a unique name in the “App Name” field")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>Avoid specifying the version number in this field, as this field does not get updated whenever you add a new version</p>
 </blockquote>
 
@@ -29,8 +28,7 @@ The **General Information** tab is where you configure the basic information for
 
     ![Entering a vendor name](/_images/image-(217).png "Entering a vendor name")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If the vendor is new to your portal, you will see the **Success – The vendor <**_**vendor\_name**_**> has been created** notification. The next time you add an app, this vendor will appear in the **Vendor** dropdown.</p>
 </blockquote>
 

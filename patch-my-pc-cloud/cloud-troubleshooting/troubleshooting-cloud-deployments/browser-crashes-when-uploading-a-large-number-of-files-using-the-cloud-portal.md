@@ -32,8 +32,7 @@ Then, when you deploy the app, you can configure a Pre-Installation script using
 
 Consider the scenario mentioned above, where you have a folder named "**MyFolder**" containing 3,000 files totaling 3GB. This folder should be available in the cache folder alongside the installer during installation.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If your scenario differs from the above, you should adjust the example scripts, ensuring you thoroughly test them. We provide no support for them or accept any liability for their use, which you do at your own risk.</p>
 <p>Please test these scripts thoroughly outside of the PMPC portal to ensure they work as expected before using them in your instance of the portal.</p>
 </blockquote>
@@ -61,8 +60,7 @@ Create your Custom App or upload the ZIP archive as an **Extra File** in a deplo
 
 During the app deployment step, specify a script to extract the ZIP archive in the same folder. The script below uses the **$PSScriptRoot** automatic variable to determine the correct extraction path.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>**$PSScriptRoot** is an automatic variable in PowerShell that represents the folder where the script is located. This ensures the ZIP file is extracted in the same location as the installation files.</p>
 </blockquote>
 

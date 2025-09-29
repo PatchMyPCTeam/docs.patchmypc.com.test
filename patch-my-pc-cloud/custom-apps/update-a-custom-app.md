@@ -4,8 +4,7 @@ _Applies to: Custom Apps_
 
 Once you have created and deployed a Custom App, you will probably need to update it at some point to a later version.
 
-<blockquote class="wp-block-quote">
-<p>Note</p>
+<blockquote class="wp-block-quote is-note">
 <p>See [Modifying a Custom App](modify-a-custom-app.md) for details on how to make other changes to an existing Custom App.</p>
 </blockquote>
 
@@ -42,8 +41,7 @@ The hash for the file is calculated as the file is uploaded to your portal.
 
 ![Adding additional files or folders](/_images/image-(2639).png "Adding additional files or folders")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you choose to upload additional folders, you will be prompted to confirm you trust this site:</p>
 <p>![Trust prompt](/_images/image-(2640 "Trust prompt").png>)</p>
 </blockquote>
@@ -56,8 +54,7 @@ The hash for the file is calculated as the file is uploaded to your portal.
 
 9. On the **Configuration** page, enter the version number and update any other fields as required.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If a Return Code defined in a Custom App has the same value but a different **Code type** to that defined in the deployment, the settings in the deployment take precedence.</p>
 </blockquote>
 

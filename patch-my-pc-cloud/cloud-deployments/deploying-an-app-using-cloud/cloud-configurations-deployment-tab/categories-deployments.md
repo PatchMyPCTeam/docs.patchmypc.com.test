@@ -2,15 +2,13 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Using the **Categories** tool is optional.</p>
 </blockquote>
 
 The **Categories** tool of the Patch My PC (PMPC) Cloud deployment wizard allows you to leverage Intune App Categories (Categories) in your deployments to help users find apps in the Company Portal.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See the <a href="https://learn.microsoft.com/en-us/mem/intune/apps/apps-add#create-and-edit-categories-for-apps">Create and edit categories for apps</a> section of <a href="https://learn.microsoft.com/en-us/mem/intune/apps/apps-add">Add apps to Microsoft Intune</a> for more information on App Categories.</p>
 </blockquote>
 
@@ -30,8 +28,7 @@ To add a Category to a deployment:
 
 ![Selecting the checkbox beside the relevant categories](/_images/image-(74).png "Selecting the checkbox beside the relevant categories")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can click the **X** beside a Category in the **Add Category** field to delete it from the list.</p>
 </blockquote>
 
@@ -39,8 +36,7 @@ To add a Category to a deployment:
 5. Go to to step 8. if you do not want to add a new Category.
 6. To add a new Category, type its name in the **Add Category** field.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>You can create up to 200 categories per Intune tenant. Each category name must:</p>
 <p>* Be unique</p>
 <p>* Be less than 255 characters</p>
@@ -54,8 +50,7 @@ To add a Category to a deployment:
 
 ![](/_images/image-(76).png)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See [Check App Categories](../../../cloud-reference/intune-reference/check-app-categories-in-intune.md) for details on how to check within Intune that the Categories defined in the deployment have been assigned correctly.</p>
 <p>Also:</p>
 <p>* If different Categories are configured in the portal and Intune admin center they are combined to be the same.</p>

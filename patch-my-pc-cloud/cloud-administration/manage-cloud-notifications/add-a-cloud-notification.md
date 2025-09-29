@@ -25,7 +25,6 @@ To add a notification in Patch My PC (PMPC) Cloud:
 * [Create a Webhook notification](create-a-webhook-notification-in-cloud.md)
 * [Create an Email notification](create-a-cloud-email-notification.md)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Given <a href="https://devblogs.microsoft.com/microsoft365dev/retirement-of-office-365-connectors-within-microsoft-teams/">Microsoft's announcement</a> to retire Office 365 connectors (which includes Webhooks), we are already working on a Workflow solution that will be available well in advance of Microsoft's retirement plans. Stay tuned for updates.</p>
 </blockquote>

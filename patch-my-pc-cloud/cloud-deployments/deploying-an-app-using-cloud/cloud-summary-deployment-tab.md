@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Reviewing the **Summary** tab is optional, but recommended.</p>
 </blockquote>
 
@@ -19,8 +18,7 @@ If you need to change something, click **< Prev** to backtrack through the Deplo
 
 ![Clicking "Deploy"](/_images/image-(2392).png "Clicking &#x22;Deploy&#x22;")
 
-<blockquote class="wp-block-quote">
-<p>Note</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you have configured this deployment to use [Update Rings](../cloud-update-rings/), you will see the **Deployment Summary** screen, containing details on how you have configured the rings.</p>
 <p>!["Deployment Summary" shown if this deloyment is using Update Rings](/_images/image-(2291 "\"Deployment Summary\" shown if this deloyment is using Update Rings").png>)</p>
 <p>See [Update Rings](../cloud-update-rings/) for more information.</p>
@@ -30,13 +28,11 @@ The App Catalog is redisplayed along with the **Success - Created&#x20;**_**\<de
 
 ![](/_images/image-(2393).png)
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>When a new version of software is released, it is automatically deployed using the settings of the existing deployment. The old version will be removed from the target user/device and replaced with the newer version.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>By default, the installation logs for an app will be created in the following folder regardless of the installer file type:</p>
 <p>`%ProgramData%\PatchMyPCInstallLogs`</p>
 <p>The only exception is for EXE files, where the specified value for the **loggingSwitch** variable will be used if it is not null or empty.</p>

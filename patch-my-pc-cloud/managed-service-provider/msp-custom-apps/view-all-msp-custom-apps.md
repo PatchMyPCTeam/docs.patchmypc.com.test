@@ -22,7 +22,6 @@ To locate any Custom Apps for Managed Service Providers (MSPs) you’ve created 
 
     ![Filtered App Catalog list](/_images/image-(2265).png "Filtered App Catalog list")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>Don’t forget to click **Clear All** when you’ve finished working with the filters.</p>
 </blockquote>

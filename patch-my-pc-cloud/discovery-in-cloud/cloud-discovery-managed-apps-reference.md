@@ -6,8 +6,7 @@ As detailed in [Managing Managed Apps](manage-cloud-managed-apps.md), an app wil
 
 This article includes examples of each of the supported scenarios.
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>Hovering over either the value in the **Assigned To All** column or **Edit** button for a deployment will show a tooltip providing more information.</p>
 </blockquote>
 
@@ -53,8 +52,7 @@ This can be confirmed by searching for the app in the App Catalog.
 
 ### PMPC Cloud and Publisher Deployment
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>We do not recommend deploying the same app through the Publisher and PMPC Cloud to avoid settings conflicts and unwanted app behavior.</p>
 </blockquote>
 

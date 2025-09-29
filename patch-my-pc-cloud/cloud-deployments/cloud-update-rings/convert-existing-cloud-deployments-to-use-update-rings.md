@@ -25,8 +25,7 @@ To convert an existing deployment to use Update Rings:
 
     ![Clicking "Move" to move any existing assignments to the first Update Ring.](/_images/image-(452).png "Clicking “Move” to move any existing assignments to the first Update Ring.")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Clicking **Delete** will delete any existing assignments, not the deployment itself. It will also create the default two Update Rings with default settings.</p>
 </blockquote>
 

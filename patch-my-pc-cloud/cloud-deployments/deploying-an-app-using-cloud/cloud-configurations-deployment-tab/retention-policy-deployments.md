@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Using the **Retention Policy** tool is optional and is not supported by the MSP App Sets feature.</p>
 </blockquote>
 
@@ -25,15 +24,13 @@ To configure a PMPC Cloud deployment to use a Retention Policy:
 
 3. In the **Versions to Retain** box, either type the required number or use the controls to configure the number of versions of this app you wish to retain in your environment.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The default value of **0** means only the most recent version of the app is retained. You can retain up to ten versions of an app.</p>
 </blockquote>
 
 ![Configuring the number of versions of this app to retain using the "Versions to Retain" box](/_images/image-(61).png "Configuring the number of versions of this app to retain using the “Versions to Retain” box")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>See [Check App Version Retention](../../../cloud-reference/intune-reference/check-app-version-retention-in-intune.md) for details on how to check within Intune that the correct number of versions of an app are being retained as defined in your Retention Policy.</p>
 </blockquote>
 
@@ -41,8 +38,7 @@ To configure a PMPC Cloud deployment to use a Retention Policy:
 
 ![Clicking "Next" to move to the "Assignments" tab](/_images/image-(102).png "Clicking “Next” to move to the “Assignments” tab")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Other important points about App Version Retention:</p>
 <p>* Modifying the **Versions to Retain** setting is supported. The next time the [Sync Schedule](../../../cloud-administration/manage-the-sync-schedule-in-cloud.md) runs (or you manually [update an app](../../manage-updates-in-cloud/)), the changes will be applied to the deployment.</p>
 <p>* Deleting a deployment or disconnecting [Intune ](../../../cloud-administration/manage-your-environments-in-cloud/manage-cloud-intune-tenants.md#deleting-an-intune-tenant-connection)will delete the latest and all old unassigned versions of all of your deployments.</p>

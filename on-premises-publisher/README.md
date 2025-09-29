@@ -4,8 +4,7 @@ _Applies to: Patch My PC On-Premises Publisher_
 
 Welcome to the official home page for Patch my PC's (PMPC's) On-Premises Publisher.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>We are currently reviewing and migrating all of our current Publisher-related content to this space, which should be considered as the most up-to-date.</p>
 <p>Once content has been migrated to this location, it will be deleted from the old location to avoid duplication and confusion.</p>
 <p>This is not a small undertaking and will take us some time to complete. We realize there will be some inconvenience to you with content being split across locations, which is why we always recommend using the **Search** function to find what you are looking for.</p>
@@ -130,7 +129,6 @@ Want to learn more about who we are and what we do? Head on over to our [About U
 Want to learn more about us? Click here to learn more about our team.
 {% endembed %}
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you have any feedback or comments on our docs, please email [docs@patchmypc.com](mailto:docs@patchmypc.com).</p>
 </blockquote>

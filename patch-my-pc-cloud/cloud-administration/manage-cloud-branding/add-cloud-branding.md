@@ -37,8 +37,7 @@ The selected image is shown on the **Branding** screen and the **Notification Pr
 
 ![Click the language you want to use in the "Localizations" section](/_images/image-(2428).png "Click the language you want to use in the &#x22;Localizations&#x22; section")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Please note the following:</p>
 <p>* Changing the localization does not update the **Notification Preview** to that language.</p>
 <p>* If a device targeted for this branding app is running a language that is configured under the **Localizations** section, the Manage Conflicting Processes notification will be displayed in the configured language.\</p>
@@ -68,8 +67,7 @@ To assign a branding app:
 
 3. On the **Add Required Assignment** screen, choose the relevant users/Entra ID security groups to target for this branding app, then click **Save**.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Avoid overlapping assignments between Branding Apps. Deploying multiple Branding Apps to the same groups will produce unwanted behavior.</p>
 <p>You should also check that if an Uninstall Branding App exists (it will appear at the top of the list of Branding Apps), that the assignments for it don't overlap with those for the new Branding App you are deploying.</p>
 </blockquote>
@@ -80,8 +78,7 @@ The **Assignments** tab is redisplayed, showing all of the assignments for this 
 
 !["Assignments" tab showing all of the assignments for this branding app](/_images/image-(2420).png "&#x22;Assignments&#x22; tab showing all of the assignments for this branding app")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>When a branding app is deployed, it overwrites any existing branding app with the same name.</p>
 <p>If you deploy multiple branding apps with overlapping assignments, when ScriptRunner executes, it will choose the branding app with the most recent creation/modification date.</p>
 <p>For example, branding app A was deployed two months ago, and branding app B was deployed two weeks ago. In this case, branding app B will display the banner.</p>
@@ -101,8 +98,7 @@ Once the branding app has been successfully deployed, the **Status** field will 
 
 !["Status" field automatically updated to "Success" and the "Last update field"  showing the last time this branding app was updated.](/_images/image-(33).png "&#x22;Status&#x22; field automatically updated to &#x22;Success&#x22; and the &#x22;Last update field&#x22;  showing the last time this branding app was updated.")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If you look in the **Events** section, you see a message stating either:</p>
 <p>* **Default Branding <**_**your\_branding\_app\_name**_**> Created -** If you used the default out-the-box logo</p>
 <p>* **Custom Branding <**_**your\_branding\_app\_name**_**> Created -** If you upload a custom logo.</p>

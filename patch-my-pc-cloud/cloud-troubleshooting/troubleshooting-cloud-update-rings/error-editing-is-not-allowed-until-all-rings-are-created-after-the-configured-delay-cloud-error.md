@@ -18,7 +18,6 @@ This is because when the Update Rings were created for this deployment, the **De
 
 As the **Delayed** option was selected for the Update Rings when this deployment was created, you cannot edit it until all of the configured Update Rings have finished being created.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Use the [Check if an Update Ring has been created](../../cloud-deployments/cloud-update-rings/check-if-an-update-ring-has-been-created-in-cloud.md) process to check if one or more Update Rings have yet to be created. If a ring shows as **Scheduled**, then you know this deployment was created with the **Delayed** option for the Update Rings.</p>
 </blockquote>

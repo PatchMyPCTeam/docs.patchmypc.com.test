@@ -4,8 +4,7 @@ _Applies to: Patch My PC Advanced Insights_
 
 Sometimes we need you to provide log files, including information about your Advanced Insights instance. Your Advanced Insights deployment includes the Log Collector executable that can be used to collect all required logs.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The Advanced Insights Log Collector is located at:</p>
 <p>_`%Advanced Insights Install Directory%`_`\Api\LogCollector\AdvancedInsightsLogDiag.exe`\</p>
 <p>For example:</p>

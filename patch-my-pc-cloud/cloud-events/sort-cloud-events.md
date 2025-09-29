@@ -14,7 +14,6 @@ The column heading will be highlighted and an arrow will show you whether the re
 
 To sort by a different column, just click the column name.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>In the current release, you can only sort by certain columns.</p>
 </blockquote>

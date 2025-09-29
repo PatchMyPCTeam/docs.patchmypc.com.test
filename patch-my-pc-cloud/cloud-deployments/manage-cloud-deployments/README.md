@@ -25,7 +25,6 @@ Clicking the ellipsis (**⋮**) beside a deployment opens the management menu, a
 * [Sort deployments](sort-cloud-deployments.md)
 * [Delete a deployment](delete-a-cloud-deployment.md)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See [View a Deployment’s Properties](view-a-cloud-deployments-properties.md) for more details on how to view the properties of a deployment.</p>
 </blockquote>

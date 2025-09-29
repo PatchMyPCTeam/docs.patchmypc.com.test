@@ -6,8 +6,7 @@ _Applies to: Patch My PC Cloud_
 
 Type what you are looking for in the **Search** box on the **Events** page.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If the portal finds any matching entries as you type, they are displayed. However, if no results are shown when you’ve finished typing your search phrase, either press Enter or click the magnifying glass.</p>
 </blockquote>
 

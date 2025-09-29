@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud Custom Apps_
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Reviewing the **Summary** tab is optional, but recommended.</p>
 </blockquote>
 
@@ -14,8 +13,7 @@ On the **Summary** tab, review you have configured the Custom App correctly.
 
 ![Clicking "Create" on the "Summary" page](/_images/image-(206).png "Clicking “Create” on the “Summary” page")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If the **Create** button is unavailable, check to ensure:</p>
 <p>* All required fields on all tabs have been completed.</p>
 <p>* If any extra files or folders have been added, check that they have uploaded successfully. If any show as **Failed**, either remove them to proceed or remove them and re-add them</p>

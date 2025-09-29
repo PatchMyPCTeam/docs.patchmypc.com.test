@@ -6,13 +6,11 @@ If a parent Patch My PC (PMPC) Cloud Managed Service Provider (MSP) company no l
 
 Likewise, if a child company no longer wishes to be managed by an MSP, they can unlink themselves from the MSP using the [Unlink a Child Company](remove-a-company-from-being-managed-cloud-msp.md#unlink-a-child-company) process below.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>To perform this process, you must be signed in as a user who is either a **Full Admin** or **Full Admin with Access Management**.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Please note the following:</p>
 <p>* You cannot delete a child company:</p>
 <p>* If at least one user/group in that company is not assigned the **Full Admin with Access Management** user role.</p>
@@ -29,8 +27,7 @@ Likewise, if a child company no longer wishes to be managed by an MSP, they can 
 
 ### Remove the Intune connection for a Child Company
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>If you remove the Intune connection for a Child Company that has App Sets deployed to it from the Parent Company, any deployments for apps that belong to those  App Sets will be automatically deleted as part of the connection removal.</p>
 <p>If an App Set is deployed to multiple companies, when the last Intune connection is deleted from the last company an App Set is deployed to, the App Set itself will be automatically deleted.</p>
 </blockquote>
@@ -115,8 +112,7 @@ Once the Intune connection for a Child Company has been removed, to delete a chi
 
 If a child company no longer wishes to be managed by a parent MSP company, it can be unlinked from the parent MSP company.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>To perform this process requires you sign in as a user that is either a **Full Admin** or **Full Admin with Access Management**.</p>
 </blockquote>
 
@@ -159,8 +155,7 @@ To unlink a child company from a parent MSP company:
 
     ![Entering the license key and clicking "Activate Now"](/_images/image-(103).png "Entering the license key and clicking “Activate Now”")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>You cannot use a trial license for a company that an MSP has previously managed.</p>
 </blockquote>
 

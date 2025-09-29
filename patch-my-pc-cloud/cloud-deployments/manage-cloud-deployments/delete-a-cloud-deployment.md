@@ -17,16 +17,14 @@ To delete a deployment in Patch My PC (PMPC) Cloud:
 
 
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If the deployment you are deleting is for an app that another app is dependent on, the **Are you sure** dialog box will state which app has a dependency on this deployment and warn you that proceeding will delete this dependency, which could break the app dependent on this one.</p>
 <p>!["Are you sure" prompt if other deployments have dependencies on this one](/_images/image-(2276 "\"Are you sure\" prompt if other deployments have dependencies on this one").png>)</p>
 </blockquote>
 
 The deployment is deleted and the **Success - Deployment&#x20;**_**\<deployment\_name>**_**&#x20;deleted** notification is displayed.
 
-<blockquote class="wp-block-quote">
-<p>**Warning**</p>
+<blockquote class="wp-block-quote is-warning">
 <p>Deleting a deployment will also delete the:</p>
 <p>* latest and all old unassigned versions of this deployment if a [Retention Policy](../deploying-an-app-using-cloud/cloud-configurations-deployment-tab/retention-policy-deployments.md) has been configured.</p>
 <p>* packaged win32 app from Intune.</p>
@@ -34,7 +32,6 @@ The deployment is deleted and the **Success - Deployment&#x20;**_**\<deployment\
 
 ![](/_images/image-(1685).png)
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can also click **Delete** on the property page of a deployment to delete it.</p>
 </blockquote>

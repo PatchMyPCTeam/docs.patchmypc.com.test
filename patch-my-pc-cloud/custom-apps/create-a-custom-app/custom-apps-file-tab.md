@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud Custom Apps_
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Configuring Extra Folders and Files is optional.</p>
 </blockquote>
 
