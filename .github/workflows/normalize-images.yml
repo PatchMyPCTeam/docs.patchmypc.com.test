@@ -173,290 +173,265 @@ jobs:
           import re, glob, os
           from urllib.parse import unquote
           from html import unescape
-
-              # -------- front matter helpers --------
-              def split_front_matter(text:
-                str):
-                  if text.startswith('\ufeff'):
-                    text = text.lstrip('\ufeff')
-                  if text.startswith('\n---'):
-                    text = text[1:]
-                  m = re.match(r'^(---\s*\n.*?\n---\s*\n)', text, flags=re.S)
-                  if m:
-                    fm = m.group(1)
-                    body = text[m.end():]
-                    return fm, body
-                  return "", text
-        
-              def join_front_matter(fm:
-                str, body:
-                  str) -> str:
-                    return (fm or "") + body
-        
-              IMG_EXT = r"(?:png|jpe?g|gif|webp|svg|gifv)"
-        
-              def clean_filename_from_url(url:
-                str) -> str:
-                  if not url:
-                    return "unknown.png"
-                  url = url.strip().rstrip('>')
-                  url = re.sub(r'\s*""', '', url)
-                  m = re.findall(rf'([^/?#]+?\.{IMG_EXT})', url, flags=re.I)
-                  bn = m[-1] if m else os.path.basename(url)
-                  bn = unquote(bn)
-                  if "." in bn:
-                    base, ext = bn.rsplit(".", 1)
-                  else:
-                    base, ext = bn, ""
-                  # collapse stray quoted fragment inside trailing (...) and keep the parens
-                  base = re.sub(r'\(\s*([^()"]*?)\s+"(?:[^"\\]|\\.)*"\s*\)$', r'(\1)', base)
-                  pm = re.search(r'\(([^()]*)\)$', base)
-                  if pm:
-                    inner = re.sub(r'\s+', ' ', pm.group(1)).strip()
-                    base = base[:pm.start()] + f'({inner})'
-                  base = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', base)  # strip space+"title"
-                  base = re.sub(r'["“”].*$', '', base)                # cut after any stray quote
-                  base = re.sub(r"\s+", "-", base)
-                  base = re.sub(r"[^A-Za-z0-9_\-()]", "-", base)
-                  base = re.sub(r"-{2,}", "-", base).strip("-")
-                  return f"{base}.{ext.lower()}" if ext else base
-        
-              def to_root_image_url(url:
-                str) -> str:
-                  return "/_images/" + clean_filename_from_url(url)
-        
-              def norm_text(s:
-                str) -> str:
-                  t = unescape(s or "")
-                  t = t.replace("“", '"').replace("”", '"').replace("’", "'")
-                  return t
-        
-              def build_md(alt:
-                str, url:
-                  str) -> str:
-                    alt = norm_text(alt or "")
-                    alt_md = alt.replace("]", r"\]")
-                    if alt.strip():
-                      title = alt.replace('"', r'\"')
-                      return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
-                    else:
-                      return f'![{alt_md}]({to_root_image_url(url)})'
-        
-              md_files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
-              for p in glob.glob(g, recursive=True)]
-        
-              # ---------- GitBook hint blocks -> Gutenberg blockquote ----------
-              HINT_BLOCK = re.compile(r'{%\s*hint\b[^%]*%}(.*?){%\s*endhint\s*%}', re.I | re.S)
-              MD_LINK    = re.compile(r'\[([^\]]+)\]\((https?://[^)]+)\)')
-              BARE_URL   = re.compile(r'^(https?://\S+)$')
-        
-              def convert_hint_blocks(s:
-                str) -> str:
-                  def _repl(m):
-                    inner = m.group(1).strip()
-                    paras = []
-                    for line in inner.splitlines():
-                      line = line.strip()
-                      if not line:
-                        continue
-                      line = MD_LINK.sub(r'<a href="\2">\1</a>', line)
-                      bu = BARE_URL.match(line)
-                      if bu:
-                        u = bu.group(1)
-                        line = f'<a href="{u}">{u}</a>'
-                      paras.append(f"<p>{line}</p>")
-                    content = "\n".join(paras) if paras else "<p></p>"
-                    return f'<blockquote class="wp-block-quote">\n{content}\n</blockquote>'
-                  return HINT_BLOCK.sub(_repl, s)
-        
-              # ---------- enhance blockquotes with marker -> class (keep marker <p>) ----------
-              MARKERS = {
-                  'note': 'is-note',
-                  'tip': 'is-tip',
-                  'important': 'is-important',
-                  'warning': 'is-warning',
-                  'caution': 'is-caution',
-                  'info': 'is-info',
-              }
+      
+            # -------- front matter helpers --------
+            def split_front_matter(text):
+              if text.startswith('\ufeff'):
+                text = text.lstrip('\ufeff')
+              if text.startswith('\n---'):
+                text = text[1:]
+              m = re.match(r'^(---\s*\n.*?\n---\s*\n)', text, flags=re.S)
+              if m:
+                fm = m.group(1)
+                body = text[m.end():]
+                return fm, body
+              return "", text
+      
+            def join_front_matter(fm, body):
+              return (fm or "") + body
+      
+            IMG_EXT = r"(?:png|jpe?g|gif|webp|svg|gifv)"
+      
+            def clean_filename_from_url(url):
+              if not url:
+                return "unknown.png"
+              url = url.strip().rstrip('>')
+              url = re.sub(r'\s*""', '', url)
+              m = re.findall(r'([^/?#]+?\.(?:' + IMG_EXT + '))', url, flags=re.I)
+              bn = m[-1] if m else os.path.basename(url)
+              bn = unquote(bn)
+              if "." in bn:
+                base, ext = bn.rsplit(".", 1)
+              else:
+                base, ext = bn, ""
+              base = re.sub(r'\(\s*([^()"]*?)\s+"(?:[^"\\]|\\.)*"\s*\)$', r'(\1)', base)
+              pm = re.search(r'\(([^()]*)\)$', base)
+              if pm:
+                inner = re.sub(r'\s+', ' ', pm.group(1)).strip()
+                base = base[:pm.start()] + f'({inner})'
+              base = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', base)
+              base = re.sub(r'["“”].*$', '', base)
+              base = re.sub(r"\s+", "-", base)
+              base = re.sub(r"[^A-Za-z0-9_\-()]", "-", base)
+              base = re.sub(r"-{2,}", "-", base).strip("-")
+              return f"{base}.{ext.lower()}" if ext else base
+      
+            def to_root_image_url(url):
+              return "/_images/" + clean_filename_from_url(url)
+      
+            def norm_text(s):
+              t = unescape(s or "")
+              t = t.replace("“", '"').replace("”", '"').replace("’", "'")
+              return t
+      
+            def build_md(alt, url):
+              alt = norm_text(alt or "")
+              alt_md = alt.replace("]", r"\]")
+              if alt.strip():
+                title = alt.replace('"', r'\"')
+                return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
+              else:
+                return f'![{alt_md}]({to_root_image_url(url)})'
+      
+            md_files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
+            for p in glob.glob(g, recursive=True)]
+      
+            # ---------- GitBook hint blocks -> Gutenberg blockquote ----------
+            HINT_BLOCK = re.compile(r'{%\s*hint\b[^%]*%}(.*?){%\s*endhint\s*%}', re.I | re.S)
+            MD_LINK    = re.compile(r'\[([^\]]+)\]\((https?://[^)]+)\)')
+            BARE_URL   = re.compile(r'^(https?://\S+)$')
+      
+            def convert_hint_blocks(s):
+              def _repl(m):
+                inner = m.group(1).strip()
+                paras = []
+                for line in inner.splitlines():
+                  line = line.strip()
+                  if not line:
+                    continue
+                  line = MD_LINK.sub(r'<a href="\2">\1</a>', line)
+                  bu = BARE_URL.match(line)
+                  if bu:
+                    u = bu.group(1)
+                    line = f'<a href="{u}">{u}</a>'
+                  paras.append(f"<p>{line}</p>")
+                content = "\n".join(paras) if paras else "<p></p>"
+                return f'<blockquote class="wp-block-quote">\n{content}\n</blockquote>'
+              return HINT_BLOCK.sub(_repl, s)
+      
+            # ---------- enhance blockquotes with marker -> class (keep marker <p>) ----------
+            MARKERS = {
+                'note': 'is-note',
+                'tip': 'is-tip',
+                'important': 'is-important',
+                'warning': 'is-warning',
+                'caution': 'is-caution',
+                'info': 'is-info',
+            }
+          
+          BQ = re.compile(
+          r'<blockquote\s+class="([^"]*\bwp-block-quote\b[^"]*)">\s*(.*?)\s*</blockquote>',
+          re.I | re.S
+          )
+          FIRST_P = re.compile(r'^\s*<p>(.*?)</p>', re.I | re.S)
+          
+          def _strip_md_bold(s):
+            s = re.sub(r'^\s*(\*\*|__)\s*', '', s)
+            s = re.sub(r'\s*(\*\*|__)\s*$', '', s)
+            return s.strip()
+          
+          def _detect_marker(text_html):
+            t = re.sub(r'<[^>]+>', '', text_html)
+            t = _strip_md_bold(t)
+            t = re.sub(r':\s*$', '', t).strip().lower()
+            return t
+          
+          def enhance_blockquotes_keep_marker(html):
+            def _repl(m):
+              classes = m.group(1)
+              inner   = m.group(2)
+              fm = FIRST_P.search(inner)
+              if not fm:
+                return m.group(0)
+              first_p_html = fm.group(1)
+              key = _detect_marker(first_p_html)
+              mod = MARKERS.get(key)
+              if not mod:
+                return m.group(0)
+              class_list = classes.split()
+              if mod not in class_list:
+                classes = classes + " " + mod
+              return f'<blockquote class="{classes}">\n{inner}\n</blockquote>'
+            return BQ.sub(_repl, html)
+          
+          # ---------- image/link normalizations ----------
+          html_img = re.compile(
+          r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
+          re.I
+          )
+          md_img_inline = re.compile(
+          r'!\[([^\]]*)\]'
+          r'\('
+          r'\s*<?'
+          r'("?)([^)\r\n]+?)\1'
+          r'>?'
+          r'(?:\s+"[^"]*")?'
+          r'\s*\)',
+          re.I
+          )
+          md_img_any = re.compile(
+          r'!\[([^\]]*)\]'
+          r'\('
+          r'\s*<?'
+          r'([^)\r\n]+?)'
+          r'>?'
+          r'(?:\s+"[^"]*")?'
+          r'\s*\)',
+          re.I
+          )
+          md_img_ref_use = re.compile(r'!\[([^\]]*)\]\s*\[([^\]]+)\]', re.I)
+          ref_def_loose = re.compile(
+          r'(\[([^\]]+)\]\s*:\s*)' r'<?("?)([^>\r\n]+?)\3>?' r'(\s+"[^"]*")?\s*$',
+          re.I
+          )
+          
+          any_changed = False
+          for path in md_files:
+            with open(path, encoding="utf-8") as f:
+              raw = f.read()
+            fm, s = split_front_matter(raw)
+            o = s
             
-            # Match blockquote with a class containing wp-block-quote; capture classes and inner HTML
-            BQ = re.compile(
-            r'<blockquote\s+class="([^"]*\bwp-block-quote\b[^"]*)">\s*(.*?)\s*</blockquote>',
-            re.I | re.S
-            )
+            # 1) HTML <img> → strict MD
+            s = html_img.sub(lambda m: build_md(m.group(2) or "", m.group(1)), s)
             
-            # First paragraph inside the blockquote (no removal, just read it)
-            FIRST_P = re.compile(r'^\s*<p>(.*?)</p>', re.I | re.S)
-            
-            def _strip_md_bold(s:
-              str) -> str:
-                # remove **…** or __…__ only at edges
-                s = re.sub(r'^\s*(\*\*|__)\s*', '', s)
-                s = re.sub(r'\s*(\*\*|__)\s*$', '', s)
-                return s.strip()
-            
-            def _detect_marker(text_html:
-              str) -> str:
-                # Get plain-ish text from <p>…</p>
-                t = re.sub(r'<[^>]+>', '', text_html)
-                t = _strip_md_bold(t)
-                t = re.sub(r':\s*$', '', t).strip().lower()
-                return t
-            
-            def enhance_blockquotes_keep_marker(html:
-              str) -> str:
-                def _repl(m):
-                  classes = m.group(1)
-                  inner   = m.group(2)
-                  
-                  fm = FIRST_P.search(inner)
-                  if not fm:
-                    return m.group(0)
-                  
-                  first_p_html = fm.group(1)
-                  key = _detect_marker(first_p_html)
-                  mod = MARKERS.get(key)
-                  if not mod:
-                    return m.group(0)
-                  
-                  # add class if missing
-                  class_list = classes.split()
-                  if mod not in class_list:
-                    classes = classes + " " + mod
-                  
-                  return f'<blockquote class="{classes}">\n{inner}\n</blockquote>'
-                
-                return BQ.sub(_repl, html)
-            
-            # ---------- image/link normalizations ----------
-            html_img = re.compile(
-            r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
-            re.I
-            )
-            md_img_inline = re.compile(
-            r'!\[([^\]]*)\]'
-            r'\('
+            # 1.5) GitBook inline MD images → strict MD to /_images
+            s = re.compile(
+            r'!\[([^\]]*)\]\('
             r'\s*<?'
-            r'("?)([^)\r\n]+?)\1'
+            r'([^)\r\n]*?\.gitbook/assets[^)\r\n]+?)'
             r'>?'
             r'(?:\s+"[^"]*")?'
-            r'\s*\)',
-            re.I
-            )
-            md_img_any = re.compile(
-            r'!\[([^\]]*)\]'
-            r'\('
-            r'\s*<?'
-            r'([^)\r\n]+?)'
-            r'>?'
-            r'(?:\s+"[^"]*")?'
-            r'\s*\)',
-            re.I
-            )
-            md_img_ref_use = re.compile(r'!\[([^\]]*)\]\s*\[([^\]]+)\]', re.I)
-            ref_def_loose = re.compile(
-            r'(\[([^\]]+)\]\s*:\s*)' r'<?("?)([^>\r\n]+?)\3>?' r'(\s+"[^"]*")?\s*$',
-            re.I
-            )
+            r'\s*\)', re.I).sub(lambda m: build_md(m.group(1), m.group(2)), s)
             
-            any_changed = False
-            for path in md_files:
-              with open(path, encoding="utf-8") as f:
-                raw = f.read()
-              fm, s = split_front_matter(raw)
-              o = s
-              
-              # 1) HTML <img> → strict MD
-              s = html_img.sub(lambda m: build_md(m.group(2) or "", m.group(1)), s)
-              
-              # 1.5) GitBook inline MD images → strict MD to /_images
-              s = re.compile(
-              r'!\[([^\]]*)\]\('
-              r'\s*<?'
-              r'([^)\r\n]*?\.gitbook/assets[^)\r\n]+?)'
-              r'>?'
-              r'(?:\s+"[^"]*")?'
-              r'\s*\)', re.I).sub(lambda m: build_md(m.group(1), m.group(2)), s)
-              
-              # 2) Inline MD (general) → strict MD (title = alt)
-              s = md_img_inline.sub(lambda m: build_md(m.group(1), m.group(3)), s)
-              
-              # 2.5) GitBook hint blocks → Gutenberg blockquote
-              s = convert_hint_blocks(s)
-              
-              # 2.6) Sanitize ANY Markdown image URL (fix spaces, stray '>', etc.)
-              def _sanitize_md_img(m):
-                alt = m.group(1)
-                inner = (m.group(2) or "").strip()
-                if not inner:
-                  return m.group(0)
-                extm = re.search(rf'\.{IMG_EXT}\b', inner, re.I)
-                if extm:
-                  inner = inner[:extm.end()]
-                inner = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', inner)
-                return build_md(alt, inner)
-              s = md_img_any.sub(_sanitize_md_img, s)
-              
-              # 3) Gather reference defs
-              defs = {}
-              lines = s.splitlines()
-              for ln in lines:
-                m = ref_def_loose.search(ln)
-                if m:
-                  rid = m.group(2).strip()
-                  url = m.group(4).strip()
-                  defs[rid] = url
-              
-              # 4) Reference usages → strict MD
-              def repl_ref_use(m):
-                alt, rid = m.group(1), m.group(2).strip()
-                url = defs.get(rid)
-                return build_md(alt, url) if url else m.group(0)
-              s = md_img_ref_use.sub(repl_ref_use, s)
-              
-              # 5) Reference defs to /_images/<slug>
-              def rewrite_def_line(ln:
-                str) -> str:
-                  m = ref_def_loose.search(ln)
-                  if not m:
-                    return ln
-                  head, url, title = m.group(1), m.group(4).strip(), m.group(5) or ""
-                  new_url = to_root_image_url(url)
-                  return f"{head}{new_url}{title}"
-              s = "\n".join(rewrite_def_line(ln) for ln in s.splitlines())
-              
-              # 6) Fix bare .gitbook/assets occurrences outside code fences
-              out_lines, fenced = [], False
-              fence_re = re.compile(r'^\s*```')
-              asset_re = re.compile(r'(\.gitbook/assets/[^"\'<>]+)', re.I)
-              for ln in s.splitlines():
-                if fence_re.match(ln):
-                  fenced = not fenced
-                  out_lines.append(ln); continue
-                if not fenced and '.gitbook/assets/' in ln:
-                  ln = asset_re.sub(lambda m: to_root_image_url(m.group(1)), ln)
+            # 2) Inline MD (general) → strict MD (title = alt)
+            s = md_img_inline.sub(lambda m: build_md(m.group(1), m.group(3)), s)
+            
+            # 2.5) GitBook hint blocks → Gutenberg blockquote
+            s = convert_hint_blocks(s)
+            
+            # 2.6) Sanitize ANY Markdown image URL (fix spaces, stray '>', etc.)
+            def _sanitize_md_img(m):
+              alt = m.group(1)
+              inner = (m.group(2) or "").strip()
+              if not inner:
+                return m.group(0)
+              extm = re.search(r'\.' + IMG_EXT + r'\b', inner, re.I)
+              if extm:
+                inner = inner[:extm.end()]
+              inner = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', inner)
+              return build_md(alt, inner)
+            s = md_img_any.sub(_sanitize_md_img, s)
+            
+            # 3) Gather reference defs
+            defs = {}
+            lines = s.splitlines()
+            for ln in lines:
+              m = ref_def_loose.search(ln)
+              if m:
+                rid = m.group(2).strip()
+                url = m.group(4).strip()
+                defs[rid] = url
+            
+            # 4) Reference usages → strict MD
+            def repl_ref_use(m):
+              alt, rid = m.group(1), m.group(2).strip()
+              url = defs.get(rid)
+              return build_md(alt, url) if url else m.group(0)
+            s = md_img_ref_use.sub(repl_ref_use, s)
+            
+            # 5) Reference defs to /_images/<slug>
+            def rewrite_def_line(ln):
+              m = ref_def_loose.search(ln)
+              if not m:
+                return ln
+              head, url, title = m.group(1), m.group(4).strip(), m.group(5) or ""
+              new_url = to_root_image_url(url)
+              return f"{head}{new_url}{title}"
+            s = "\n".join(rewrite_def_line(ln) for ln in s.splitlines())
+            
+            # 6) Fix bare .gitbook/assets occurrences outside code fences
+            out_lines, fenced = [], False
+            fence_re = re.compile(r'^\s*```')
+            asset_re = re.compile(r'(\.gitbook/assets/[^"\'<>]+)', re.I)
+            for ln in s.splitlines():
+              if fence_re.match(ln):
+                fenced = not fenced
                 out_lines.append(ln)
-              s = "\n".join(out_lines)
-              
-              # 7) Remove lingering ../ or ./ before _images
-              s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
-              
-              # 8) Enhance blockquotes (add modifier class; keep marker <p>)
-              s = enhance_blockquotes_keep_marker(s)
-              
-              if s != o:
-                with open(path, "w", encoding="utf-8", newline="") as f:
-                  f.write(join_front_matter(fm, s))
-                print(f"Fixed: { path }")
-                      any_changed = True
-        
-              if not any_changed:
-                  print("No image links or blockquotes needed normalization.")
-            PY
+                continue
+              if not fenced and '.gitbook/assets/' in ln:
+                ln = asset_re.sub(lambda m: to_root_image_url(m.group(1)), ln)
+              out_lines.append(ln)
+            s = "\n".join(out_lines)
+            
+            # 7) Remove lingering ../ or ./ before _images
+            s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
+            
+            # 8) Enhance blockquotes (add modifier class; keep marker <p>)
+            s = enhance_blockquotes_keep_marker(s)
+            
+            if s != o:
+              with open(path, "w", encoding="utf-8", newline="") as f:
+                f.write(join_front_matter(fm, s))
+              print(f"Fixed: { path }")
+                    any_changed = True
+      
+            if not any_changed:
+                print("No image links or blockquotes needed normalization.")
+          PY
     
 
-
-      # FINAL PATCH: strip quoted fragments inside filename parentheses before .ext
+    # FINAL PATCH: strip quoted fragments inside filename parentheses before .ext
       - name: Final fix — collapse ("…") inside filenames
         shell: bash
         run: |
