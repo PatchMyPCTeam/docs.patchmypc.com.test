@@ -13,9 +13,9 @@ To deploy our code signing certificate using a script, first download our script
 
 [https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing](https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing)
 
-<blockquote class="wp-block-quote is-note">
-<p>You can find out more details about these scripts and what they do by reviewing the <a href="https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing#readme">ReadMe.md</a> file included with the scripts.</p>
-</blockquote>
+> \*\*Note\*\*
+>
+> You can find out more details about these scripts and what they do by reviewing the [ReadMe.md](https://github.com/PatchMyPCTeam/Community-Scripts/tree/main/Other/Code%20Signing#readme) file included with the scripts.
 
 ### Certificates to Deploy
 
@@ -90,7 +90,7 @@ You can see the script being processed by the Intune Management Extension by loo
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs
 ```
 
-!["IntuneManagementExtension.log" showing the script being processed by the Intune Management Extension](/_images/image-(648).png "“IntuneManagementExtension.log” showing the script being processed by the Intune Management Extension")
+!["IntuneManagementExtension.log" showing the script being processed by the Intune Management Extension](../../../_images/image-\(648\).png)
 
 ### Using a proactive remediation
 
@@ -106,7 +106,7 @@ To deploy our certificate using a proactive remediation deployment, follow the [
 
 <table><thead><tr><th width="291">Field</th><th>Value</th></tr></thead><tbody><tr><td>Detection script file</td><td>Browse to and select <strong>PMPCCloudTrustedPublisherCertificate_HealthScript_Detection.ps1</strong></td></tr><tr><td>Remediation script file</td><td>Browse to and select Import-<strong>PMPCCloudTrustedPublisherCertificate.ps1</strong></td></tr><tr><td>Run this script using the logged on credentials</td><td>No</td></tr><tr><td>Enforce script signature check</td><td>No</td></tr><tr><td>Run script in 64 bit PowerShell Host</td><td>No</td></tr></tbody></table>
 
-#### &#x20;“Scope tags” tab
+#### “Scope tags” tab
 
 Configure as required.
 
@@ -128,7 +128,7 @@ Double-check everything before clicking **Create**.
 
 <table><thead><tr><th width="290">Field</th><th>Value</th></tr></thead><tbody><tr><td>Detection script file</td><td>Browse to and select <strong>PMPCAppsTrustedPublisherCertificate_HealthScript_Detection.ps1</strong></td></tr><tr><td>Remediation script file</td><td>Browse to and select Import-<strong>PMPCAppsTrustedPublisherCertificate.ps1</strong></td></tr><tr><td>Run this script using the logged on credentials</td><td>No</td></tr><tr><td>Enforce script signature check</td><td>No</td></tr><tr><td>Run script in 64 bit PowerShell Host</td><td>No</td></tr></tbody></table>
 
-#### &#x20;“Scope tags” tab
+#### “Scope tags” tab
 
 Configure as required.
 
@@ -150,16 +150,16 @@ You can see the script being processed by the Intune Management Extension by loo
 
 Observe the **Proactive Remediation Device Status** blade.
 
-![Observing the "Proactive Remediation Device Status" blade.](/_images/image-(649).png "Observing the “Proactive Remediation Device Status” blade.")
+![Observing the "Proactive Remediation Device Status" blade.](../../../_images/image-\(649\).png)
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script found the certificate already installed in the local computer’s Trusted Publishers store.
 
-!["HealthScripts.log" snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine's Trusted Publishers store.](/_images/image-(650).png "“HealthScripts.log” snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine’s Trusted Publishers store.")
+!["HealthScripts.log" snippet showing if the pre-remediation (detection) script has found the certificate already installed in the local machine's Trusted Publishers store.](../../../_images/image-\(650\).png)
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is **1**).
 
-!["HealthScripts.log" snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine's Trusted Publishers store (the Exit code of the script is 1).](/_images/image-(651).png "“HealthScripts.log” snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store (the Exit code of the script is 1).")
+!["HealthScripts.log" snippet showing if the pre-remediation (detection) script did not find the certificate already installed in the local machine's Trusted Publishers store (the Exit code of the script is 1).](../../../_images/image-\(651\).png)
 
 The following log snippet shows the **HealthScripts.log** entry if the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is **0**).
 
-!["HealthScripts.log" snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine's Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0).](/_images/image-(652).png "“HealthScripts.log” snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine’s Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0).")
+!["HealthScripts.log" snippet showing the pre-remediation (detection) script did not find the certificate already installed in the local machine's Trusted Publishers store and the remediation script was run successfully (Exit code of the script is 0).](../../../_images/image-\(652\).png)

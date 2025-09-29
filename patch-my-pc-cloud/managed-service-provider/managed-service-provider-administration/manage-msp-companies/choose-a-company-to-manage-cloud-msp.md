@@ -6,24 +6,20 @@ Once a Managed Service Provider (MSP) has created a child company in Patch My PC
 
 To switch between companies:
 
-1.  Click your user name in the top right-hand corner.\
+1.  Click your user name in the top right-hand corner.\\
 
-
-    ![](/_images/image-(2091).png)
-
-
+    ![](../../../../_images/image-\(2091\).png)
 2.  Select which company you want to manage:\
     \
-    •  To manage your own company, select it under the **My Tenant** section.\
-    •  To manage a child customer, select it under the **MSP Customers** section.\
+    • To manage your own company, select it under the **My Tenant** section.\
+    • To manage a child customer, select it under the **MSP Customers** section.\\
 
+    ![Selecting the company you want to manage](../../../../_images/image-\(2092\).png)
 
-    ![Selecting the company you want to manage](/_images/image-(2092).png "Selecting the company you want to manage")
-
-<blockquote class="wp-block-quote is-note">
-<p>The company currently being managed has a tick beside it.</p>
-</blockquote>
+> \*\*Note\*\*
+>
+> The company currently being managed has a tick beside it.
 
 If you switch to managing a child customer, the **Managed By <**_**company\_name**_**>** indicator is shown in the portal's header.
 
-![](/_images/image-(2093).png)
+![](../../../../_images/image-\(2093\).png)

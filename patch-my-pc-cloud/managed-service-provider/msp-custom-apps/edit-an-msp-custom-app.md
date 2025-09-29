@@ -4,9 +4,9 @@ _Applies to: Patch My PC Cloud_
 
 To edit a Custom App for a Managed Service Provider (MSP) you’ve created in Patch My PC (PMPC) Cloud, follow the [Modify a Custom App](../../custom-apps/modify-a-custom-app.md) process for the relevant app.
 
-<blockquote class="wp-block-quote is-note">
-<p>When you view the properties of a Custom App for an MSP, the **Source** field shows the name of the company that created the app.</p>
-</blockquote>
+> \*\*Note\*\*
+>
+> When you view the properties of a Custom App for an MSP, the \*\*Source\*\* field shows the name of the company that created the app.
 
 You can also change:
 
@@ -21,11 +21,12 @@ For example:
 | No Customers            | Specific Customers | Custom App will only appear in the App Catalog of the selected child companies. |
 | All /Specific Customers | No Customers       | Custom App will be removed from the App Catalog of all child companies.         |
 
-<blockquote class="wp-block-quote is-important">
-<p>If an app has been shared with and deployed from that company, changing either of the above settings may generate the "**Are you sure?**" popup warning you of the impact and asking you to confirm the deletion of the deployment of this app at the child company.</p>
-<p>!["Are you sure" popup](/_images/image-(344 "\"Are you sure\" popup").png>)</p>
-</blockquote>
+> \*\*Important\*\*
+>
+> If an app has been shared with and deployed from that company, changing either of the above settings may generate the "\*\*Are you sure?\*\*" popup warning you of the impact and asking you to confirm the deletion of the deployment of this app at the child company.
+>
+> !\["Are you sure" popup]\(/\_images/image-(344 "\\"Are you sure\\" popup").png>)
 
-<blockquote class="wp-block-quote is-note">
-<p>If a child company has been selected in the **Customers** field, you cannot remove it if the app has been deployed from there. You must delete the deployment first, after which you can remove that child company from the list.</p>
-</blockquote>
+> \*\*Note\*\*
+>
+> If a child company has been selected in the \*\*Customers\*\* field, you cannot remove it if the app has been deployed from there. You must delete the deployment first, after which you can remove that child company from the list.

@@ -8,6 +8,6 @@ To use Patch My PC's (PMPC) Custom Apps, requires you:
 * Have an Enterprise Plus, Enterprise Premium or MSP subscription.
 * Have already onboarded to the PMPC Cloud and setup the company you want to use to manage your custom applications.
 
-<blockquote class="wp-block-quote is-note">
-<p>We currently do not support macOS for Custom Apps.</p>
-</blockquote>
+> Note
+>
+> We currently do not support macOS for Custom Apps.
