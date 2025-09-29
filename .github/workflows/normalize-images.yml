@@ -424,6 +424,19 @@ jobs:
               
               # 7) Remove lingering ../ or ./ before _images
               s = re.sub(r'\]\(\s*<?(?:\.\./|\.?/)+_images/', '](/_images/', s)
+          
+            # 7b) Harden: collapse ANY relative prefixes before _images/ outside code fences
+            out_lines2, fenced = [], False
+            fence_re = re.compile(r'^\s*```')
+            for ln in s.splitlines():
+              if fence_re.match(ln):
+                fenced = not fenced
+                out_lines2.append(ln)
+                continue
+              if not fenced and '_images/' in ln and '../' in ln:
+                ln = re.sub(r'(?:\.\./|\.?/)+_images/', '/_images/', ln)
+              out_lines2.append(ln)
+            s = "\n".join(out_lines2)
               
               # 8) Enhance blockquotes (add modifier class; keep marker <p>)
               s = enhance_blockquotes_keep_marker(s)
