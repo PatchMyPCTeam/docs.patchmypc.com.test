@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Using the **Install Parameters** tool is optional.</p>
 </blockquote>
 

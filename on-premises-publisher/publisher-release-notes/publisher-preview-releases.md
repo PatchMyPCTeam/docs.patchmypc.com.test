@@ -4,8 +4,7 @@ _Applies to: Patch My PC On-Premises Publisher_
 
 Details the production release history for preview versions of Patch My PC's (PMPC's) On-premises Publisher, the most recent release being shown first.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>You can find the Preview release notes below, and you can also learn more about the Preview channel here: <a href="https://patchmypc.com/preview-channel">Publisher Preview Channel</a>.</p>
 </blockquote>
 

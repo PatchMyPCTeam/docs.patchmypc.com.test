@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Using the **Return Codes** tool is optional.</p>
 </blockquote>
 
@@ -14,8 +13,7 @@ You can manage Return Codes from within the properties of a:
 * Deployment
 * Custom App
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See the [Configuration ](../../../custom-apps/create-a-custom-app/custom-apps-configuration-tab.md)section of [Create a Custom App](../../../custom-apps/create-a-custom-app/) for details on how to configure Return Codes within the properties of a Custom App.</p>
 <p>Also, macOS apps also do not support Return Codes.</p>
 </blockquote>
@@ -28,8 +26,7 @@ To manage Return Codes for a Deployment:
 
 2. Scroll down to the **Manage Return Codes** section, which shows the default Return Codes plus any defined for the app if this is a Custom App.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If a vendor supplies a list of Return Codes for their app, we include it. If they don’t, we automatically populate the list of Return Codes with industry-standard codes.</p>
 </blockquote>
 
@@ -61,14 +58,12 @@ The **Code type** field is updated.
 9. If you do not want to delete a Return Code, go to Step 11.
 10. To delete a Return Code, click the red trash can beside the relevant code.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>You cannot delete either the default Return Codes for a deployment or any that have been added as part of the Custom App’s configuration. However, you can edit them.</p>
 <p>If you add a Return Code to a deployment, you will be able to edit or delete it from the deployment if required.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>If the Return Codes you define in a deployment differ/conflict with those defined for a Custom App, the Return Codes defined on the deployment take precedence.</p>
 </blockquote>
 
@@ -84,7 +79,6 @@ The code is deleted from the list.
 
 ![Clicking "Next" to move to the "Assignments" tab](/_images/image-(71).png "Clicking &#x22;Next&#x22; to move to the &#x22;Assignments&#x22; tab")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>You can use the [Check Return Codes](../../../cloud-reference/intune-reference/check-return-codes-in-intune.md) process to verify your Return Codes have been successfully created in Intune by PMPC Cloud.</p>
 </blockquote>

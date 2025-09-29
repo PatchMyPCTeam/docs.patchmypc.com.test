@@ -85,8 +85,7 @@ When troubleshooting **Intune application installation errors on a client**, we 
 %ProgramData%\PatchMyPCIntuneLogs\PatchMyPC-SoftwareUpdateDetectionScript.log
 ```
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>For user-based apps, the logs mentioned above will reside in the following folders:</p>
 <p>* %LocalAppData%\PatchMyPCIntuneLogs\PatchMyPC-Scriptrunner.log</p>
 <p>* %Temp%\PatchMyPC-SoftwareDetectionScript.log</p>
@@ -100,8 +99,7 @@ When troubleshooting **Intune application installation errors on a client**, we 
 %ProgramData%\Microsoft\IntuneManagementExtension\Logs\AppWorkload.log
 ```
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Some Patch My PC log files listed above may be found in **%WinDir%\CCM** folder if that folder exists.</p>
 </blockquote>
 
@@ -183,8 +181,7 @@ When troubleshooting **updates failing to download into a deployment package fro
 %temp%\PatchDownloader*.log
 ```
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you are using an RDP session, the **patchdownloader.log** may be in a numbered sub-folder in your **Users** **%temp%** folder.</p>
 </blockquote>
 

@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 This article details how users receiving an invitation should action it to access their company’s Patch My PC (PMPC) Cloud portal.
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>Send the link to these instructions to any users invited to your PMPC Cloud portal to help them onboard.</p>
 </blockquote>
 
@@ -13,8 +12,7 @@ To accept your invitation to join your company on PMPC Cloud:
 
 1. Locate your invitation email titled **You have been invited** and click **Join Now**.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See [Example Invitation email](../../../cloud-reference/cloud-email-reference/example-cloud-invitation-email.md) to see an example of the email.</p>
 </blockquote>
 
@@ -41,8 +39,7 @@ To accept your invitation to join your company on PMPC Cloud:
 
     ![Click to check the "Accept Terms and Conditions" checkbox](/_images/image-(1386).png "Click to check the “Accept Terms and Conditions” checkbox")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>You cannot proceed with the onboarding without checking this checkbox.</p>
 </blockquote>
 

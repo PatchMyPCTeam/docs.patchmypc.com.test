@@ -9,8 +9,7 @@ _Applies to: Custom Apps_
 
 If you plan to use our on-premises Publisher to publish your Custom Apps, you need to integrate it as detailed below before you can create a Custom App.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you only plan to use Intune Apps for Cloud to deploy your Custom Apps, you do not need to complete this process and can now [Create a Custom App](create-a-custom-app/).</p>
 </blockquote>
 
@@ -19,8 +18,7 @@ To connect Publisher to PMPC Cloud:
 1. Load the **Patch My PC Publishing Service** (Publisher) and verify you are running at least version 2.1.20.0. If you are not, upgrade to the latest version.
 2. Click the **Cloud** tab.
 
-<blockquote class="wp-block-quote">
-<p>Tip</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If the **Cloud** tab is not present, check you have entered your license key and clicked **Validate**.</p>
 </blockquote>
 
@@ -28,8 +26,7 @@ To connect Publisher to PMPC Cloud:
 
 3. In the **Connection Name** field, enter a unique name for the connection. For example **Patch My PC Custom Apps**, then click **Connect**.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The name you enter here determines how this connection shows on the **Connections** page of the **portal**.</p>
 </blockquote>
 
@@ -67,7 +64,6 @@ To connect Publisher to PMPC Cloud:
 
     ![Publisher showing it's "Connected"](/_images/image-(1728).png "Publisher showing it’s “Connected”")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>You can also use the [Verifying the Publisher connection from the Portal](../cloud-administration/manage-cloud-connections/verify-a-publisher-connection-from-cloud.md) process to verify that your Publisher is connected to the Portal.</p>
 </blockquote>

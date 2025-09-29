@@ -25,7 +25,6 @@ Proxy configuration can also be added in the Administration - Settings - Externa
 
 
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you are changing proxy settings, you will need to restart the Advanced Insights Controller and Warranty websites on the server you have Advanced Insights installed to reload the proxy settings.</p>
 </blockquote>

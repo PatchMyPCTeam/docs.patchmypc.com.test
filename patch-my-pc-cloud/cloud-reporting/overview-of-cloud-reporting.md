@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>This feature is currently only available through an invitation-only Private Preview, as both it and the documentation are under development, incomplete, and subject to change.</p>
 <p>Please do not share links to these docs with others outside of the Private Preview.</p>
 <p>Once this feature is released, it will be announced and this banner removed.</p>
@@ -18,15 +17,13 @@ The **Reporting** node consists of the following sub-nodes, each of which contai
 * **Hardware -** Contains a summary of the most common hardware-related information.
 * **Intune  -** Contains a summary of the most common information from your Intune tenant.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The sub-nodes you see are determined by the license your PMPC Cloud company is running:</p>
 <p>* **Enterprise Plus -** You will only see the **Intune** sub-node.</p>
 <p>* **Enterprise Premium –** You will see all sub-nodes.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>The data in the **Intune** sub-node is populated using Microsoft Graph calls to your Intune tenant.</p>
 <p>For data to appear and update in the other Reporting sub-nodes, you need to install our client on any devices you wish to collect data from. See [Patch My PC Client](../cloud-administration/manage-client-deployment.md) for more information.</p>
 </blockquote>

@@ -13,15 +13,13 @@ All user company-related tasks are performed from the **Company** node of the po
 
 The **Company** screen is then displayed.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.</p>
 </blockquote>
 
 !["Company" screen](/_images/image-(2688).png "“Company” screen")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See [Company Reference](cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.</p>
 </blockquote>
 

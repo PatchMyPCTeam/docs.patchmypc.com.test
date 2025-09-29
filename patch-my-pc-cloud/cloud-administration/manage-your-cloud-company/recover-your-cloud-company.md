@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 To prevent access issues to your Patch My PC (PMPC) Cloud company, we highly recommend granting at least two users the [Full Admin with Access Management](../manage-cloud-users/cloud-user-roles-reference.md) user role
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you only have one user assigned the Full Admin with Access Management role, the [You currently have only one user with Access Management privileges](../../cloud-troubleshooting/troubleshooting-cloud-users/you-currently-have-only-one-user-with-access-management-privileges-error-in-cloud.md) banner is displayed.</p>
 </blockquote>
 
@@ -13,13 +12,11 @@ However, if you have not done this and the only user with this role leaves your 
 
 Your only option is to attempt to recover your company, which involves providing us with specific details from the same Entra ID tenant as your PMPC Company to confirm your identity and validate your request. If successful, the user account performing the recovery will be granted the Full Admin with Access Management role.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See the [Creating an App Registration in Entra ID](../../cloud-reference/entra-id-reference/create-an-app-registration-in-entra-id.md) process for details on how to create and obtain these values.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>We provide the functionality to disable a PMPC company from being recovered. However, we do not display and enable this by default because if it's enabled and you lose access to your company for whatever reason, neither of us can regain access to that company. This means you'll lose everything and need to create a new company and reconfigure it to match the old one. If you really want to enable this feature, please \</p>
 <p><a href="https://patchmypc.com/technical-support">open a support case</a>.</p>
 </blockquote>
@@ -89,8 +86,7 @@ To recover a PMPC Company:
     • PMPC Recovery client secret.
 9. Copy the following values from the [Creating an App Registration in Entra ID](../../cloud-reference/entra-id-reference/create-an-app-registration-in-entra-id.md) process to their respective fields of the **Claim Ownership** wizard:
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>You cannot use an App Registration older than 72 hours to perform the recovery of a company.</p>
 </blockquote>
 
@@ -156,12 +152,10 @@ To recover a PMPC Company:
     \
     The previous owner will also receive an email with the subject **Access Recovered to “PMPC\_<**_**company\_name**_**>”**, containing details of who performed the recovery and when.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See [Example Account Recovery Email](../../cloud-reference/cloud-email-reference/example-cloud-account-recovery-email.md) for more details and an example of the email.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Once you have successfully completed the recovery process, to avoid potential security issues and prevent unwanted re-use of these objects, you should follow the [Deleting an App Registration in Entra ID](../../cloud-reference/entra-id-reference/delete-an-app-registration-in-entra-id.md) process to delete the recovery objects created in your Entra ID.</p>
 </blockquote>

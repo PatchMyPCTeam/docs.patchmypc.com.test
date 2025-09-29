@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 Once Patch My PC (PMPC) Cloud has successfully deployed an app, you need to decide how to manage any updates to that app.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>By default, every morning at 02:00 AM in the country you selected during onboarding, our [Sync Schedule](../../cloud-administration/manage-the-sync-schedule-in-cloud.md) runs to check for any updates to apps you have successfully deployed. If a newer version is found, we:</p>
 <p>* Create a new version of the app in your Intune tenant.</p>
 <p>* Move the assignments for the current version over to the new version.</p>

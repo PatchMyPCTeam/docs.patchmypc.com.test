@@ -12,8 +12,7 @@ Using the App Sets feature you can:
 * [Edit an App Set](edit-an-msp-app-set.md)
 * [Delete an App Set](delete-an-msp-app-set.md)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>To use the App Sets feature, you need to be assigned one of the following PMPC Cloud portal roles:</p>
 <p>* Full Admins (with and without access)</p>
 <p>* Intune Admins.</p>

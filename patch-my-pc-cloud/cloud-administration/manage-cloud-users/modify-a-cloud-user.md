@@ -26,8 +26,7 @@ To modify the role assigned to a user:
 
     !["Success - Role changed" notification](/_images/image-(1648).png "“Success - Role changed” notification")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See [User Roles](cloud-user-roles-reference.md) for more information on the user roles available.</p>
 </blockquote>
 
@@ -47,15 +46,13 @@ To manage whether a user is granted the **Access Management** privilege:
 
     ![The "Success - Role changed" notification](/_images/image-(1650).png "The “Success - Role changed&#x22; notification")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>To revoke this privilege, slide the **Access Management** slider to the left. If you are the last user in your company with this privilege, you will be unable to revoke it.</p>
 <p>If you try revoking it for yourself and there is at least one other user account with this privilege, you will see the following dialog box warning you that if you revoke access management you will be unable to manage user accounts in the portal.</p>
 <p>!["Are you sure you want to revoke access management from your account" pop up](/_images/image-(1759 "\"Are you sure you want to revoke access management from your account\" pop up").png>)&#x20;</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>As we recommend you have at least two users with Access Management privileges in your environment, if the portal detects you only have one, you will see the following warning message at the top of the portal:</p>
 <p>**You currently have only one user with Access Management privileges. To prevent access issues in the future, please add a second user with Access Management privileges.**</p>
 <p>Granting at least two users this privilege will remove this message. Likewise, if revoking Access Management privileges for a user results in only one user in your environment having this privilege, you will see the warning notification again.</p>

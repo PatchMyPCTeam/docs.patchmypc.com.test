@@ -8,8 +8,7 @@ Once onboarded to Patch My PC (PMPC) Cloud, you can use the **Notifications** no
 * Slack
 * Email addresses
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If configured and regardless of whether or not the deployment uses Update Rings, we send Slack/webhook notifications whenever:</p>
 <p>* A new deployment is created.</p>
 <p>* The version of an existing deployment is updated.</p>

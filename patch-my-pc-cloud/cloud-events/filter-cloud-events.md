@@ -30,15 +30,13 @@ Use a Filter to help you find only the relevant Events you require.
 
     ![Only events matching the filtered criteria are shown](/_images/image-(1769).png "Only events matching the filtered criteria are shown")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>You can click the filter button to close the filter sidebar to see more details about the results without affecting the filter.\</p>
 <p>\</p>
 <p>![Closing the filter sidebar](/_images/image-(1770 "Closing the filter sidebar").png>)</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>When a filter is applied, a green dot appears beside the **Filter** button.</p>
 <p>![](/_images/image-(1498).png>)</p>
 </blockquote>

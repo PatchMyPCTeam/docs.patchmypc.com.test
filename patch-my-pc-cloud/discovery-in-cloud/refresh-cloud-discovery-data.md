@@ -17,8 +17,7 @@ To manually refresh the data in the **Discovery** node:
    \
    If it has been less than 24 hours since discovery last ran successfully, the **Refresh Data** button will be unavailable. Once 24 hours have passed, the **Refresh Data** button will be available.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The **Last Sync** time is the time when the last sync completed successfully, which is then converted to your local browser time and shown to you in the UI.</p>
 </blockquote>
 
@@ -32,7 +31,6 @@ To manually refresh the data in the **Discovery** node:
 
     !["Last Sync" time updated and "Refresh data" unavailable](/_images/image-(396).png "“Last Sync” time updated and “Refresh data” unavailable")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If you look in the **Events** node, you will see the **Intune Discovered Applications Refreshed** event which is created whenever someone clicks **Refresh Data** to refresh your discovery data.</p>
 </blockquote>

@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud and Publisher_
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Only follow this process if you plan to connect our on-premises Publisher to your Patch My PC (PMPC) Cloud portal.</p>
 </blockquote>
 

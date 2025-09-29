@@ -12,8 +12,7 @@ I have signed into the Patch My PC (PMPC) Cloud portal, but I don’t see the **
 
 This is because your portal is not connected to an Intune tenant.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Not having an Intune tenant connected will also prevent the **Branding** node from appearing.</p>
 </blockquote>
 

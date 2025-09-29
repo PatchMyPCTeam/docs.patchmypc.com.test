@@ -14,8 +14,7 @@ But when I click on the app and open its properties, the **Delete** option is gr
 
 This is because the app has one or more active deployments. You cannot delete an app that has active deployments.
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If you put your mouse over the **Delete** button, the mouseover text actually tells you:</p>
 <p>**This app has deployments. Please delete those first.**</p>
 </blockquote>

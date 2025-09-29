@@ -33,8 +33,7 @@ In the steps below, we'll walk through creating a self-signed certificate using 
 
 ![](/_images/image-(1086).png>)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>After the signing certificate is created, you will need to take two actions on the clients for the updates to install successfully:</p>
 <p>1. The generated code-signing certificate needs to be distributed to the **Trusted Root** and **Trusted Publisher** local machine certificate stores. You can distribute it using a GPO by following <a href="https://patchmypc.com/how-to-deploy-the-wsus-signing-certificate-for-third-party-software-updates#topic2">this guide</a>.\</p>
 <p>If the code-signing certificate was issued from an internal Certification Authority, the certificate needs to be installed in the **Trusted Publishers** store only.</p>

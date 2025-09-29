@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>You cannot delete a Branding App unless it has been deployed successfully or failed to deploy.</p>
 <p>Also:</p>
 <p>* Each Branding App must contain at least one localization. You cannot delete all localizations for a branding app.</p>
@@ -32,7 +31,6 @@ The **Branding** screen is redisplayed showing the Branding App has been  delete
 
 !["Branding" screen is redisplayed showing the branding app has been  deleted.](/_images/image-(2678).png "&#x22;Branding&#x22; screen is redisplayed showing the branding app has been  deleted.")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If you look in the **Events** node, you will see a message stating the Branding App has been deleted.</p>
 </blockquote>

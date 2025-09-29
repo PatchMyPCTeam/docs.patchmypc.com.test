@@ -12,8 +12,7 @@ _Applies to: On-premises Publisher_
 
 Standalone WSUS mode is **only required when you are not using Configuration Manager** for software updates and are **only using WSUS**. When enabled, published third-party updates will appear directly in the WSUS console.&#x20;
 
-<blockquote class="wp-block-quote">
-<p>**Note:**</p>
+<blockquote class="wp-block-quote is-note">
 <p>To publish updates with the customization options available in the Publisher, you will need the <a href="https://patchmypc.com/frequently-asked-questions#subscription-comparisons">Enterprise Patch subscription level</a>.  &#x20;</p>
 </blockquote>
 

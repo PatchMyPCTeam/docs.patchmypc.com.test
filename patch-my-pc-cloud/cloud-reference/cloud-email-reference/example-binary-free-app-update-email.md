@@ -8,7 +8,6 @@ The email is sent from the [noreply@patchmypc.com](mailto:noreply@patchmypc.com)
 
 ![Example of the Email Notification when a Binary Free App needs an update](/_images/image-(400).png "Example of the Email Notification when a Binary Free App needs an update")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Follow the [Update a Binary Free App](../../binary-free-apps/update-a-binary-free-app.md) process to update your app to the new version.</p>
 </blockquote>

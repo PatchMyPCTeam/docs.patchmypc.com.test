@@ -6,8 +6,7 @@ Patch My PC (PMPC) Cloud supports the use of Entra ID Security Groups to control
 
 Once the Entra ID Security Groups feature has been enabled for your PMPC Cloud Company and provided you have successfully connected it to your Intune tenant, you will see the **Entra ID Groups** tab under the **Users** node.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>If the Entra ID domain used to sign in on our portal differs from that used in the Intune tenant connected to our portal, we do not allow sign-in using Entra ID group role assignments as we cannot match the domains.</p>
 </blockquote>
 
@@ -20,8 +19,7 @@ Using Entra ID Security Groups feature of PMPC Cloud allows you to:
 * [Modify an Entra ID Security Group](modify-an-entra-id-group-in-cloud.md)
 * [Remove an Entra ID Security Group](remove-an-entra-id-group-from-cloud.md)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The following actions cannot be performed with PMPC Cloud and need to be performed from within Entra ID:</p>
 <p>* Modifying the membership of a group (add or remove).</p>
 <p>* Moving users between groups.</p>

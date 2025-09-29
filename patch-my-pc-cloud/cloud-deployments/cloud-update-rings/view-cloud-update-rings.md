@@ -13,8 +13,7 @@ To view the Update Rings configured for a Patch My PC (PMPC) Cloud deployment:
     \
     Any configured Update Rings are shown as tabs, which you can switch between to review your settings.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If any rings have a status of **Scheduled**, it means that specific ring has yet to be created. See [Check if an Update Ring has been created](check-if-an-update-ring-has-been-created-in-cloud.md) for more information.</p>
 </blockquote>
 

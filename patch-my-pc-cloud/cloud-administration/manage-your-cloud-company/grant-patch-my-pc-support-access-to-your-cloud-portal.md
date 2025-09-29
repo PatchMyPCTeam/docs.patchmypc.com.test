@@ -23,8 +23,7 @@ To change the access level granted to PMPC to your portal:&#x20;
    1. **Cloud Admin Read Only –** PMPC Support can only see your portal but cannot make any changes.
    2. **Full Admin –** PMPC Support can impersonate you and have full access to your portal.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>**Full Admin** does not include access management, i.e., PMPC cannot invite another user to your company on your behalf. Also, any actions PMPC perform are logged in the **Events** area, where you can review them as required.</p>
 </blockquote>
 

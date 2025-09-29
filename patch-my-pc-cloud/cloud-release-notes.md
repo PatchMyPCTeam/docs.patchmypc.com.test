@@ -8,8 +8,7 @@ _Applies to: Patch My PC Cloud_
 
 Details the production release history for Patch My PC (PMPC) Cloud, the most recent release being shown first.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>We aim to release new features, updates, and fixes at 12:00 CEST every Wednesday.</p>
 <p>_Production Release_ means we have released that item to our Production environment i.e. customers can access it, although a specific feature maybe in one of the following three production states:\</p>
 <p>* Private Preview, which is invitation only.</p>
@@ -935,8 +934,7 @@ No release.
 
 * **Discovery –** The [Discovery ](discovery-in-cloud/)feature is now available in Public Preview. This feature lets you see which apps in our App Catalog are installed in your environment, including any Binary Free Apps or Custom Apps you may have added.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>As this is a preview feature, you must [Enable Preview Features](cloud-administration/manage-your-cloud-company/enable-cloud-preview-features.md) for the **Discovery** node to appear in your portal.</p>
 </blockquote>
 
@@ -950,8 +948,7 @@ No release.
 
 ### 11th September 2024
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>No public facing changes were made on the 4th September.</p>
 </blockquote>
 

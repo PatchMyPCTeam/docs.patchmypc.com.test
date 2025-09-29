@@ -25,8 +25,7 @@ The **Users** page is then displayed, allowing you to complete the following tas
 
 !["Users" page](/_images/image-(287).png "“Users” page")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>When you first set up a PMPC Cloud company, the user creating the company is automatically assigned the **Full Admin with Access Management** role. To avoid access issues (such as this user leaving your company and not passing on their credentials/setting up another user with this role), we recommend either:</p>
 <p>* [Adding a second user](add-a-cloud-user.md) and assigning them this role.</p>
 <p>* [Adding an Entra ID group](using-entra-id-security-groups-in-cloud/add-an-entra-id-group-to-cloud.md) and assigning it the **Full Admin with Access Management** role.</p>

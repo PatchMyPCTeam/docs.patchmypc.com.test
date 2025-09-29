@@ -8,8 +8,7 @@ Simply [deleting a Branding App](delete-cloud-branding.md) only removes that Bra
 
 Creating an **Uninstall Branding App** creates a Win32 app in Intune with a **Required** assignment with an uninstall intent, that will remove any PMPC Cloud custom branding files from the assigned devices.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Each device can only have one Branding App installed. Even if you have multiple branding apps assigned to the same device, only the one that was installed last will be installed on the device.</p>
 <p>The script that the Uninstall Branding App runs removes the branding currently installed on the device. It does not check which specific branding was originally deployed.</p>
 <p>For example, if you assign the uninstall for Branding A, but the device now has Branding B, Branding B will be removed.</p>
@@ -51,8 +50,7 @@ To uninstall a Branding app:
 
 The list of assignments is updated to show that the **Uninstall** assignment has been added for the selected resources.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Assigning the Uninstall Branding App to a resource will remove all PMPC Cloud-related brandings and associated files and localizations.&#x20;</p>
 </blockquote>
 
@@ -60,8 +58,7 @@ The list of assignments is updated to show that the **Uninstall** assignment has
 
 8. If the list of assignments is correct, proceed to step 9; otherwise, repeat steps 6 and 7 to add any additional assignments.
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can delete an assignment by clicking the trash can beside it.</p>
 </blockquote>
 
@@ -71,15 +68,13 @@ The list of assignments is updated to show that the **Uninstall** assignment has
 
 The **Branding** page is redisplayed, showing the new **Uninstall App** at the top, along with the **Success – Uninstall Branding app created** notification.
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can tell which Branding App is the uninstall as it has **UNINSTALL BRANDING** for it's company logo.</p>
 </blockquote>
 
 !["Branding" page redisplayed showing the new uninstall app along with the "Success – Branding created" notification.](/_images/image-(18).png "“Branding” page redisplayed showing the new uninstall app along with the “Success – Branding created” notification.")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>You can only create one Branding Uninstall App, which, like other apps, can be edited, recreated, and deleted. If you need to uninstall branding from different resources, you will need to:</p>
 <p>1. Edit the existing Branding Uninstall App by clicking on the ellipsis (**⋮**) beside it and selecting **Edit**.</p>
 <p>2. Changing the name of the Uninstall Branding app as required.</p>

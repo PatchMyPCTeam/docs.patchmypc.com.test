@@ -26,8 +26,7 @@ To resolve this issue:
 4. Re-add the assignment by browsing to the recreated Entra group.
 5. Complete the deployment.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Even though the group has been recreated in Entra with the same name, it will have a different Object Id so the original assignment has to be deleted and recreated to pick up the new group with the new Object Id.</p>
 <p>See the [Edit a Deployment](../../cloud-deployments/manage-cloud-deployments/edit-a-cloud-deployment.md) process for more details.</p>
 </blockquote>

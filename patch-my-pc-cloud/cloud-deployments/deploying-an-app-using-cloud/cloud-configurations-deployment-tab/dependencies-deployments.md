@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Using the **Depencies** tool is optional.</p>
 </blockquote>
 
@@ -11,24 +10,21 @@ The **Dependencies** tool of the Patch My PC (PMPC) Cloud deployment wizard allo
 
 If the required app(s) (known as the _parent_) has not already been installed on the device, they will automatically be installed before the app that is being deployed (known as the _child app_) is installed.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Before you can create an App Dependency in a PMPC Cloud deployment, the deployment for the parent app(s) must:</p>
 <p>* exist already</p>
 <p>* have been deployed successfully</p>
 <p>Also, apps that have not been successfully deployed (such as those with a status of **Failed**, **Retrying**, **Processing**, etc.) cannot be used to create an app dependency, nor can apps with **Uninstall** or **Update Only** assignments.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Like Intune, we do not support circular dependencies (i.e. App A has a dependency on App B, and App B has a dependency on App A).</p>
 <p>As per Intune, you can create a maximum of 100 dependencies, which includes the dependencies of any included dependencies, as well as the app itself. See <a href="https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-5-dependencies">Step 5: Dependencies</a> of <a href="https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add">Add, assign, and monitor a Win32 app in Microsoft Intune</a> for more information.</p>
 </blockquote>
 
 !["Dependencies" tool](/_images/image-(88).png "“Dependencies” tool")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The parent app must have been deployed successfully before you can create a dependency between apps.</p>
 </blockquote>
 
@@ -48,22 +44,19 @@ The selected app appears under the **Parent Deployment** section.
 
 ![Selected app appearing under the "Parent Deployment" section](/_images/image-(91).png "Selected app appearing under the “Parent Deployment” section")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Click the trashcan beside the relevant app under the **Parent Deployment** section to delete a dependency.</p>
 </blockquote>
 
 3. Repeat Step 2. to add any additional dependencies.
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>Once a dependency has been configured, you can view it as part of the app’s properties in the Microsoft Intune admin center.</p>
 <p>![Viewing dependencies for an app in the Microsoft Intune admin center](/_images/image-(339 "Viewing dependencies for an app in the Microsoft Intune admin center").png>)</p>
 <p>For more information, see <a href="https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-5-dependencies">Step 5: Dependencies</a> of <a href="https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add">Add, assign, and monitor a Win32 app in Microsoft Intune</a>.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If a dependency is set up in the Intune admin center between an app managed by PMPC Cloud and an app managed directly in Intune, we will always copy-forward any dependencies from the PMPC Cloud app whenever we update the PMPC Cloud app.</p>
 </blockquote>
 

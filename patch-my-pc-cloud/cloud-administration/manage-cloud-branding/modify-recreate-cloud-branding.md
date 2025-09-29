@@ -12,8 +12,7 @@ Once you have created a branding app in Patch My PC (PMPC) Cloud, you can modify
    1. [Edit](modify-recreate-cloud-branding.md#edit-branding)
    2. [Recreate](modify-recreate-cloud-branding.md#recreate-branding)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See [Delete Branding](delete-cloud-branding.md) for details on how to delete a branding app.</p>
 <p>You won’t be able to manage a branding app until it has been deployed successfully.</p>
 <p>Also, see [Managing Localizations](manage-localizations-in-cloud.md) for details on how to modify the localization used by a branding app.</p>
@@ -50,8 +49,7 @@ Once your branding app has been updated with the default PMPC logo, the **Status
 
 !["Status" and "Last Update" fields updated to show when this branding app was last updated](/_images/image-(2681).png "&#x22;Status&#x22; and &#x22;Last Update&#x22; fields updated to show when this branding app was last updated")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If you look in the **Events** section, you see a message stating the branding app was updated.</p>
 </blockquote>
 
@@ -61,8 +59,7 @@ Once your branding app has been updated with the default PMPC logo, the **Status
 
 The **Recreate** function allows you to delete and recreate a branding app in Intune if you detect an issue with it.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>You can only recreate branding apps that have either been deployed successfully or have failed.</p>
 </blockquote>
 
@@ -84,7 +81,6 @@ Once the branding app has been recreated, the **Status** and **Last update** fie
 
 !["Status" and "Last update" fields updated to show when this branding app was last modified](/_images/image-(2684).png "&#x22;Status&#x22; and &#x22;Last update&#x22; fields updated to show when this branding app was last modified")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If you look in the **Events** node, you see a message stating the branding app was recreated</p>
 </blockquote>

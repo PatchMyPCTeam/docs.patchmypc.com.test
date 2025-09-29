@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 Once the parent MSP company has been onboarded to Patch My PC (PMPC) Cloud, you must configure it to use an MSP Plus license.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>Once you license a company with an MSP license, you cannot switch that company to a different PMPC Cloud license type.</p>
 </blockquote>
 
@@ -29,7 +28,6 @@ To configure a company to use an MSP Plus license:
 
     ![Portal refreshes and the "MSP Customers" node appears at the top of the portal](/_images/image-(378).png "Portal refreshes and the “MSP Customers” node appears at the top of the portal")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If an MSP license expires, then the MSP tenant and all customers linked to it will be switched to read-only mode.</p>
 </blockquote>

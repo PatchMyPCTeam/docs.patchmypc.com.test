@@ -18,7 +18,6 @@ This problem occurs if you only have one user with Access Management privileges 
 
 To resolve this issue, follow the [Recover Your Company](../../cloud-administration/manage-your-cloud-company/recover-your-cloud-company.md) process to regain access.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Once you regain access, ensure you set up at least two users with the **Full Admin with Access Management** user role as detailed in <a href="https://docs.patchmypc.com/patch-my-pc-cloud/administration/managing-users/modify-a-user#managing-access-management-privileges-for-a-user">Managing Access Management privileges for a User</a>. This will help you avoid this problem in the future.</p>
 </blockquote>

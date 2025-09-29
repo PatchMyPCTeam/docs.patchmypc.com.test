@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 You can deploy the same app with different configurations using Patch My PC (PMPC) Cloud.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>For this to work, you must use a different **Display Name** for the deployment. If you don't, you will receive the [deployment with the same name already exists](../cloud-troubleshooting/troubleshooting-cloud-deployments/a-deployment-with-the-same-name-less-than-deployment_name-greater-than-already-exists-error-when-dep.md) error.</p>
 </blockquote>
 
@@ -14,22 +13,19 @@ To deploy the same app with a different configuration:
 1. Sign in to the portal at [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
 2. Locate the required app on the **App Catalog** page.
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>Use the **Search** field to help you locate the app.</p>
 </blockquote>
 
 !["App Catalog" page](/_images/image-(741).png "“App Catalog” page")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The green cloud icon beside the version number tells you this software has already been deployed using PMPC Cloud.</p>
 </blockquote>
 
 3. Click the app to open its properties, then click **Deploy** to start the Deployment Wizard.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>See the [Deploy an App](deploying-an-app-using-cloud/) for more details. You can also apply a deployment template to this deployment by clicking **Apply Template** and following the [Use a Template in Deployments](use-a-template-in-cloud-deployments.md) process.</p>
 </blockquote>
 
@@ -51,8 +47,7 @@ To deploy the same app with a different configuration:
 
 ![](/_images/image-(2618).png)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you add an available assignment, as shown below, we recommend selecting the same options in the **Add update only app for** section. Doing this will automatically make the current version of the app and any updates (current or future) available.\</p>
 </blockquote>
 
@@ -64,13 +59,11 @@ The **Assignments** page updates to show the newly created deployment.
 
 ![Configure any required settings](/_images/image-(2620).png "Configure any required settings")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>We automatically configure these settings based on our experience and best practices, but you can modify certain settings if necessary.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can click **Deploy** on this page if you don’t want to add additional assignments or see the **Overview** page, which allows you to double-check the settings you’ve configured for this deployment.</p>
 </blockquote>
 
@@ -90,8 +83,7 @@ The **Deployments** page is displayed along with the **Success - Created&#x20;**
 
 ![](/_images/image-(2624).png)
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>By default, the installation logs for an app will be created in the following folder regardless of the installer file type:</p>
 <p>`%ProgramData%\PatchMyPCInstallLogs`</p>
 <p>The only exception is for EXE files, where the specified value for the **loggingSwitch** variable will be used if it is not null or empty.</p>

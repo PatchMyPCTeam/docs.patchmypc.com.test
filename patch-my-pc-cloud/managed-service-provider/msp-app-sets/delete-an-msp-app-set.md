@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 To delete an MSP App Set:
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>This process covers deleting an entire App Set. If you want to delete just a specific application or assignment from an App Set, you should follow the [Edit an App Set](edit-an-msp-app-set.md) process.</p>
 <p>You cannot delete an App Set with a **Status** of **In progress** and once the deletion of the App Set has begun, you will be unable to perform any other actions on it.</p>
 </blockquote>
@@ -30,8 +29,7 @@ To delete an MSP App Set:
 
     ![Notification the App Set is being deleted](/_images/image-(2562).png "Notification the App Set is being deleted")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Deleting an App Set automatically deletes all of the deployments for all of the apps from all of the companies to which it was deployed. You don’t need to delete the individual deployments from the targeted companies before deleting the App Set.</p>
 </blockquote>
 

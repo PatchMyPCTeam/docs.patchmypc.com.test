@@ -13,8 +13,7 @@ To use the Custom Apps for Managed Service Providers (MSPs) feature of Patch My 
   \
   • **No Customers (default) –** This Custom App will not be visible on any child companies of the parent, just the parent itself.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Using the **Specific Customers** option does not automatically make the Custom App visible on any new child companies. If required, these will need to be manually added.</p>
 </blockquote>
 

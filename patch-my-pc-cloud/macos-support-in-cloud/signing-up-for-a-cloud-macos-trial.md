@@ -6,16 +6,14 @@ hidden: true
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>This documentation is for a pre-release feature still under development and, therefore, incomplete. As a result, both functionality and documentation are subject to change.</p>
 <p>Once this feature is released, it will be announced and this banner removed.</p>
 </blockquote>
 
 As Patch My PC (PMPC) Cloud supports Apple macOS devices, you can sign up for a free 30-day trial to see if it meets your needs before committing to purchasing licenses.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Signing up for a macOS trial does not apply to customers using a Managed Service Provider (MSP) license of Patch My PC Cloud, as this license type includes macOS by default.</p>
 </blockquote>
 
@@ -45,8 +43,7 @@ The **Your30-day trial expires on <**_**expiry date**_**>** confirmation is show
 
 ![The trial expiry confirmation](/_images/image-(27).png "The trial expiry confirmation")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you sign up for a macOS trial from an existing PMPC Cloud Company that is also partway through a trial, the expiry date of the macOS trial will match that of the existing Windows trial.</p>
 <p>Likewise, if you are an existing PMPC Cloud customer and your license expires within the next 30 days, your macOS trial will also expire on the same date as your existing license.</p>
 <p>If you switch your company between different PMPC Cloud license keys during a macOS trial, the expiry date of the macOS trial does not change. However, if you are running a full (non-trial) macOS license, the expiration date of this license will be the same as the main company license.</p>
@@ -72,12 +69,10 @@ At the end of your macOS trial, if you chose not to obtain paid licenses:
 * If a new version of a macOS app is released that you deployed during your trial, the updated version will not be deployed.
 * If you used the Discovery feature to [Manage Cloud Managed Apps](../discovery-in-cloud/manage-cloud-managed-apps.md) for macOS devices during your trial, once your trial expires, any macOS-related apps will remain in the **Managed** tab of Discovery but will be greyed out, and you won’t be able to perform any actions on them. Once you enter a valid license key, you will be able to create new macOS deployments and manage any existing ones created by your expired trial.
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>If you have created deployments during your trial and do not plan to purchase a macOS license, we recommend deleting any macOS deployments before your trial expires. We do not delete such deployments automatically in case you decide to purchase a macOS license after your trial expires, as if you enter a valid license key, you will be able to create new macOS deployments and manage any existing ones created by your expired trial.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you have any pricing/licensing-related questions, please reach out through our <a href="https://patchmypc.com/pricing/">Pricing</a> page.</p>
 </blockquote>

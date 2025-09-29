@@ -2,8 +2,7 @@
 
 _Applies to: Intune Apps for Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>You should have already onboarded your company to Patch My PC (PMPC) Cloud as detailed in [Onboarding to Cloud](../../onboard-to-cloud.md) before continuing.</p>
 <p>If you are an existing Custom Apps user, please follow the [Onboarding to Intune Apps for Custom Apps users](onboard-to-intune-apps-for-custom-apps-users.md) process.</p>
 </blockquote>
@@ -33,14 +32,12 @@ To onboard to the Intune Apps for Cloud (Intune Apps):
 
     !["Permissions requested" screen](/_images/image-(929).png "“Permissions requested” screen")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>We require these permissions to connect with your Intune tenant.</p>
 <p>See [Permissions required for Intune Apps](../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.</p>
 </blockquote>
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can click the down arrow beside each permission to get more information.</p>
 </blockquote>
 
@@ -64,8 +61,7 @@ To onboard to the Intune Apps for Cloud (Intune Apps):
 
     !["Intune connected successfully" screen](/_images/image-(931).png "“Intune connected successfully” screen")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If you have already connected our Publisher to our cloud platform, you won’t see this screen as you will have already entered your license key.</p>
 </blockquote>
 

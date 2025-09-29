@@ -50,8 +50,7 @@ The disadvantages of the immediate option are:
 * If the software in one ring causes an issue, if the admin forgets to pause the deployment or remove any additional rings, the issue could be spread to the next ring, even if a delay between rings is configured.
 * All assignments from all Update Rings are applied to the same version of the application the deployment was created with. However, this is only true for the initial creation of the Update Rings. All of the other functionality of Update Rings will work as normal for any new versions of the app.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>You need to consider the following when working with Update Rings:</p>
 <p>* You cannot mix standard deployments (that don’t use Update Rings) and Update Rings in a single deployment.</p>
 <p>* [How the Sync Schedule Affects Update Rings](how-the-sync-schedule-in-cloud-affects-update-rings.md) for more information on how your configuration of the Sync Schedule will affect how Update Rings behave.</p>

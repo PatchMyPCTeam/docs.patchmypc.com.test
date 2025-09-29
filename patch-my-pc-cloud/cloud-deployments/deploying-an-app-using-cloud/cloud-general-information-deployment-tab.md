@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 The **General Information** tab of the Patch My PC (PMPC) Cloud deployment wizard allows you to configure various general settings (explained below) for how you want the app to be deployed.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If an app has multiple variants with different version numbers, besides the version you will see a yellow triangle with an exclamation mark in it  warning you of this.</p>
 </blockquote>
 

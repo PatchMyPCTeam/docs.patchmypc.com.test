@@ -10,8 +10,7 @@ Any users created in the MSP parent company will automatically be assigned the s
 
 For example, if a user is created in the parent company and assigned the **Full Admin with Access Management** role, they will have the same role permissions in any child companies.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Any accounts created in the parent company will not appear in any child companies.</p>
 <p>Also, if the MSP creates a new child company, no users are automatically created in the child company.</p>
 </blockquote>
@@ -20,8 +19,7 @@ Once an MSP has created a child company, users can request access to it by attem
 
 The parent company admin will need to navigate to the **Users** node on the relevant child company to approve or reject any access requests.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>If the child company does not have any existing admin users, the access request email will be sent to the admin of the parent company. See [Managing MSP Notifications](manage-msp-notifications.md) for more details on how notifications, including emails are handled in MSP companies.</p>
 </blockquote>
 

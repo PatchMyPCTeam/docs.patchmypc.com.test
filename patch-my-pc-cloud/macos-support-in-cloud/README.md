@@ -2,8 +2,7 @@
 
 _Applies to: Patch My PC Cloud_
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>This macOS feature is currently only available through an opt-in Public Preview, as both it and the documentation are under development, incomplete, and subject to change. Customers may opt-in using this feature from our Cloud Portal.</p>
 <p>Once this feature is released, it will be announced and this banner removed.</p>
 </blockquote>

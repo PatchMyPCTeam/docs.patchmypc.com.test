@@ -4,8 +4,7 @@ _Applies to: Patch My PC Cloud_
 
 Once the parent MSP company has been configured in Patch My PC (PMPC) Cloud with an MSP Plus license, you can add the relevant child companies to be managed.
 
-<blockquote class="wp-block-quote">
-<p>**Important**</p>
+<blockquote class="wp-block-quote is-important">
 <p>We currently do not support a parent MSP company from taking over the management of an existing child PMPC Cloud company.</p>
 </blockquote>
 
@@ -40,8 +39,7 @@ To add a new PMPC Cloud company to be managed using the MSP Feature:
 
 7. On the **Permissions requested** screen, click **Accept**.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>The account you are using to connect to the child company’s Intune tenant needs to have the **Global Administrator** role in the child company’s Entra ID to approve the PMPC Cloud enterprise app.</p>
 <p>We require these permissions to connect to the child company’s Intune tenant.</p>
 <p>See [Permissions required for the Intune Apps](../../../cloud-reference/cloud-permissions-reference/permissions-required-for-intune-apps.md) for more details.</p>
@@ -49,8 +47,7 @@ To add a new PMPC Cloud company to be managed using the MSP Feature:
 
 ![Clicking "Accept" on the "Permissions requested" page](/_images/image-(2080).png "Clicking “Accept” on the “Permissions requested” page")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can click the down arrow beside each permission to get more information.</p>
 </blockquote>
 
@@ -62,8 +59,7 @@ To add a new PMPC Cloud company to be managed using the MSP Feature:
 
 9. On the **Create New Customer** page, enter the name of the customer to be managed in the **Customer Name** field.
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>We support the characters **À-ÿ** (which includes characters from the Latin-1 Supplement Unicode block) for customer names.</p>
 </blockquote>
 

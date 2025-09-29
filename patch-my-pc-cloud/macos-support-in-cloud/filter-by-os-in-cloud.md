@@ -35,8 +35,7 @@ To use the **Operating System (OS)** filter in the App Catalog:
 
     ![Checking the relevant checkbox for the OS you want to filter by then clicking "Apply All Filters"](/_images/image-(289).png "Checking the relevant checkbox for the OS you want to filter by then clicking “Apply All Filters”")
 
-<blockquote class="wp-block-quote">
-<p>**Tip**</p>
+<blockquote class="wp-block-quote is-tip">
 <p>You can also use the **ARM** and **Universal (macOS)** checkboxes under the **Architecture** dropdown to filter the App Catalog by macOS apps.</p>
 </blockquote>
 
@@ -44,7 +43,6 @@ The App Catalog updates to show only the apps that match the selected filters.
 
 ![App Catalog updating to show only the apps that match the selected filters.](/_images/image-(290).png "App Catalog updating to show only the apps that match the selected filters.")
 
-<blockquote class="wp-block-quote">
-<p>**Note**</p>
+<blockquote class="wp-block-quote is-note">
 <p>Click **Clear All** to clear any filters that have been applied, then click the filter button to close the filter dropdown.</p>
 </blockquote>
