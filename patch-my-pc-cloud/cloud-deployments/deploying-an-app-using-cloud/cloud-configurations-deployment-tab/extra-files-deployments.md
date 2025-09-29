@@ -12,11 +12,11 @@ To add extra folders and/or files:
 
 1. Click the **Extra Files** tool to expose the configurable settings.
 
-![Clicking the "Extra Files" tool](../../../../_images/image-\(82\).png)
+![Clicking the "Extra Files" tool](/_images/image-(82).png)
 
 2. Scroll down to the end of the **Extra Files** section so that the buttons and their subtext are visible.
 
-![Scrolling down to the end of the "Extra Files" section so that the buttons and their subtext are visible](../../../../_images/image-\(83\).png)
+![Scrolling down to the end of the "Extra Files" section so that the buttons and their subtext are visible](/_images/image-(83).png)
 
 3. Either:
    1. Drag and drop the relevant folders or files to the relevant area.
@@ -33,12 +33,12 @@ To add extra folders and/or files:
 4.  Click **Upload** when your browser prompts you to upload the content.\
     \\
 
-    ![Clicking "Upload" when prompted to upload the content](../../../../_images/image-\(146\).png)
+    ![Clicking "Upload" when prompted to upload the content](/_images/image-(146).png)
 
     \
     The hash will be calculated for any folders/files you upload, which will appear at the bottom of the **Extra Files** section.
 
-![Additional folders/files to be uploaded appearing at the bottom of the "Extra Files" section](../../../../_images/image-\(84\).png)
+![Additional folders/files to be uploaded appearing at the bottom of the "Extra Files" section](/_images/image-(84).png)
 
 > \*\*Note\*\*
 >
@@ -66,7 +66,7 @@ To add extra folders and/or files:
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking "Next" to move to the "Assignments" page](../../../../_images/image-\(85\).png)
+![Clicking "Next" to move to the "Assignments" page](/_images/image-(85).png)
 
 > \*\*Note\*\*
 >

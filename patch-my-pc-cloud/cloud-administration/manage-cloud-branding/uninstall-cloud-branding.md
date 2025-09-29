@@ -22,32 +22,32 @@ To uninstall a Branding app:
 
 1. Navigate to **Settings | Branding**
 
-![Navigating to "Settings | Branding"](../../../_images/image-\(2650\).png)
+![Navigating to "Settings | Branding"](/_images/image-(2650).png)
 
 2.  On the **Branding** screen, make a note of the assignments for the branding app you want to uninstall.\\
 
     For example, if you plan to uninstall the **Branding – Corel Users** branding app, make a note of which resources it is assigned to by hovering over **Assignments** and noting the assignments (**Corel All Users** in this example).
 
-![Making a note of the assignments for the Branding App to be uninstalled.](../../../_images/image-\(2651\).png)
+![Making a note of the assignments for the Branding App to be uninstalled.](/_images/image-(2651).png)
 
 3.  Follow [Delete Cloud Branding V2](delete-cloud-branding.md) to delete the Branding App that is to be uninstalled.\\
 
     This not only deletes the Branding App from Intune, but also avoids a potential loop of the branding being installed by the Branding App and then uninstalled by the Branding Uninstall App.
 4. On the **Branding** screen, click **Uninstall Brandings**
 
-![Clicking "Uninstall Brandings"](../../../_images/image-\(2652\).png)
+![Clicking "Uninstall Brandings"](/_images/image-(2652).png)
 
 5. In the **Uninstall Branding App Name** field, type a unique name for the Intune Win32 app that will be used to uninstall the Branding App.
 
-![Entering a unique name in the "Uninstall Branding App Name" field](../../../_images/image-\(2653\).png)
+![Entering a unique name in the "Uninstall Branding App Name" field](/_images/image-(2653).png)
 
 6. Click **Add Assignment**
 
-![Clicking "Add Assignment](../../../_images/image-\(2654\).png)
+![Clicking "Add Assignment](/_images/image-(2654).png)
 
 7. On the **Add Uninstall Assignment** page, select the relevant resources noted in step 2 that this uninstall should be targeted to and click **Save**.
 
-![Select the relevant resources this uninstall should be targeted at and clicking "Save"](../../../_images/image-\(2655\).png)
+![Select the relevant resources this uninstall should be targeted at and clicking "Save"](/_images/image-(2655).png)
 
 The list of assignments is updated to show that the **Uninstall** assignment has been added for the selected resources.
 
@@ -55,7 +55,7 @@ The list of assignments is updated to show that the **Uninstall** assignment has
 >
 > Assigning the Uninstall Branding App to a resource will remove all PMPC Cloud-related brandings and associated files and localizations.
 
-![List of assignments updated to show the "Uninstall" assignment has been added for the selected resources.](../../../_images/image-\(17\).png)
+![List of assignments updated to show the "Uninstall" assignment has been added for the selected resources.](/_images/image-(17).png)
 
 8. If the list of assignments is correct, proceed to step 9; otherwise, repeat steps 6 and 7 to add any additional assignments.
 
@@ -65,7 +65,7 @@ The list of assignments is updated to show that the **Uninstall** assignment has
 
 9. Click **Save** to continue.
 
-![Clicking "Save" to continue](../../../_images/image-\(2657\).png)
+![Clicking "Save" to continue](/_images/image-(2657).png)
 
 The **Branding** page is redisplayed, showing the new **Uninstall App** at the top, along with the **Success – Uninstall Branding app created** notification.
 
@@ -73,7 +73,7 @@ The **Branding** page is redisplayed, showing the new **Uninstall App** at the t
 >
 > You can tell which Branding App is the uninstall as it has \*\*UNINSTALL BRANDING\*\* for it's company logo.
 
-!["Branding" page redisplayed showing the new uninstall app along with the "Success – Branding created" notification.](../../../_images/image-\(18\).png)
+!["Branding" page redisplayed showing the new uninstall app along with the "Success – Branding created" notification.](/_images/image-(18).png)
 
 > \*\*Note\*\*
 >

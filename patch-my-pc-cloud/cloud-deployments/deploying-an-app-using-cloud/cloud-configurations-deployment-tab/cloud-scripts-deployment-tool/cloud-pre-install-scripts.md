@@ -8,27 +8,27 @@ To add a Pre-Install script:
 
 1. Click **Add** beside the **Pre-Install** option.
 
-![Clicking "Add" beside the "Pre-Install" option](../../../../../_images/image-\(2605\).png)
+![Clicking "Add" beside the "Pre-Install" option](/_images/image-(2605).png)
 
 2. To import an existing script, click **Import** then browse to the location containing the script and select it.
 
-![Clicking "Import" to import an existing script](../../../../../_images/image-\(2460\).png)
+![Clicking "Import" to import an existing script](/_images/image-(2460).png)
 
 The **Add Pre-Install Script** page is populated with the imported script.
 
-![The "Add Pre-Install Script" page is populated with the imported script.](../../../../../_images/image-\(2461\).png)
+![The "Add Pre-Install Script" page is populated with the imported script.](/_images/image-(2461).png)
 
 3. To manually add a script, enter a unique name for the script in the **Script Name** field.
 
-![Entering a unique name for the script in the "Script Name" field](../../../../../_images/image-\(2462\).png)
+![Entering a unique name for the script in the "Script Name" field](/_images/image-(2462).png)
 
 4. Select the type of script from the **Script Format** dropdown.
 
-![Selecting the type of script from the "Script Format" dropdown.](../../../../../_images/image-\(2463\).png)
+![Selecting the type of script from the "Script Format" dropdown.](/_images/image-(2463).png)
 
 5. In the script editor, type your script.
 
-![Typing your script in the Script Editor](../../../../../_images/image-\(2464\).png)
+![Typing your script in the Script Editor](/_images/image-(2464).png)
 
 > \*\*Note\*\*
 >
@@ -36,7 +36,7 @@ The **Add Pre-Install Script** page is populated with the imported script.
 
 6.  In the **Arguments** field, enter any arguments you want to provide to the script.\\
 
-    ![Entering any arguments you want to provide to the script by specifying them in the "Arguments" field](../../../../../_images/image-\(2465\).png)
+    ![Entering any arguments you want to provide to the script by specifying them in the "Arguments" field](/_images/image-(2465).png)
 
 > \*\*Tip\*\*
 >
@@ -50,20 +50,20 @@ The **Add Pre-Install Script** page is populated with the imported script.
 
     If you do not check this checkbox, we will attempt to install the app regardless of the exit code returned by the pre-install script.\\
 
-    ![Checking the "Don't attempt software update if the pre script returns an exit code other than 0 or 3010" checkbox](../../../../../_images/image-\(2466\).png)
+    ![Checking the "Don't attempt software update if the pre script returns an exit code other than 0 or 3010" checkbox](/_images/image-(2466).png)
 8.  Check the **Run the pre-update script before performing any auto-close or skip process checks** checkbox if you want to run the pre-install script before the conflicting process notification is displayed (if relevant).\
     \
     If you do not check this checkbox, we will run the pre-install script after the conflicting process notification.\\
 
-    ![Checking the "Run the pre-update script before performing any auto-close or skip process checks" checkbox](../../../../../_images/image-\(2467\).png)
+    ![Checking the "Run the pre-update script before performing any auto-close or skip process checks" checkbox](/_images/image-(2467).png)
 9.  Click **Save** to save your script.\\
 
-    ![](../../../../../_images/image-\(2468\).png)
+    ![](/_images/image-(2468).png)
 
     \
     The **Configurations** tab is re-displayed with the name of the configured script beside it.
 
-!["Configurations" tab re-displayed with the name of the configured script beside it](../../../../../_images/image-\(93\).png)
+!["Configurations" tab re-displayed with the name of the configured script beside it](/_images/image-(93).png)
 
 > \*\*Tip\*\*
 >

@@ -4,18 +4,18 @@ To view the membership of an Entra ID Security Group that has been added to Patc
 
 1.  In the PMPC Cloud portal, navigate to **Settings | Users**.\\
 
-    ![Navigating to "Settings | Users"](../../../../_images/image-\(350\).png)
+    ![Navigating to "Settings | Users"](/_images/image-(350).png)
 2.  Click **Entra ID Groups**.\\
 
-    ![Clicking "Entra ID Groups"](../../../../_images/image-\(351\).png)
+    ![Clicking "Entra ID Groups"](/_images/image-(351).png)
 3.  Click the person icon beside the group whose membership you want to view.\\
 
-    ![Clicking the person icon beside the group whose membership you want to view](../../../../_images/image-\(352\).png)
+    ![Clicking the person icon beside the group whose membership you want to view](/_images/image-(352).png)
 
     \
     The **Group Members** screen appears, showing the members of the selected group.
 
-!["Group Members" screen](../../../../_images/image-\(349\).png)
+!["Group Members" screen](/_images/image-(349).png)
 
 > \*\*Note\*\*
 >

@@ -32,14 +32,14 @@ To edit an existing deployment from the **Deployments** node:
 1. Navigate to the **Deployments** node.
 2.  Click the relevant deployment you want to edit.\\
 
-    ![Clicking the relevant deployment you want to edit.](../../../_images/image-\(1887\).png)
+    ![Clicking the relevant deployment you want to edit.](/_images/image-(1887).png)
 3.  On the deployment's property page click **Edit**.
 
-    ![Clicking "Edit" on the deployment's property page.](../../../_images/image-\(2010\).png)
+    ![Clicking "Edit" on the deployment's property page.](/_images/image-(2010).png)
 
     The Deployment Wizard starts.\\
 
-    ![Deployment Wizard starting.](../../../_images/image-\(1889\).png)
+    ![Deployment Wizard starting.](/_images/image-(1889).png)
 4. Follow the [Deploy an App](../deploying-an-app-using-cloud/) process.
 
 > \*\*Note\*\*
@@ -58,7 +58,7 @@ To edit a deployment from the App Catalog:
 
 1.  Navigate to the **App Catalog** and click on the app whose deployment you wish to edit.\\
 
-    ![Navigating to the App Catalog and locating the app whose deployment you wish to edit.](../../../_images/image-\(1884\).png)
+    ![Navigating to the App Catalog and locating the app whose deployment you wish to edit.](/_images/image-(1884).png)
 
 > \*\*Tip\*\*
 >
@@ -66,7 +66,7 @@ To edit a deployment from the App Catalog:
 
 2.  Click **Edit Deployment** on the deployment's property page.\\
 
-    ![Clicking "Edit Deployment" on the deployment's property page.](../../../_images/image-\(2011\).png)
+    ![Clicking "Edit Deployment" on the deployment's property page.](/_images/image-(2011).png)
 
 The behavior of the **Edit Deployment** button depends on whether there is at least one existing, successful deployment:
 
@@ -79,7 +79,7 @@ The behavior of the **Edit Deployment** button depends on whether there is at le
 
 The Deployment Wizard starts.
 
-![Deployment Wizard starting.](../../../_images/image-\(1889\).png)
+![Deployment Wizard starting.](/_images/image-(1889).png)
 
 3. Follow the [Deploy an App](../deploying-an-app-using-cloud/) process.
 

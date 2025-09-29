@@ -8,7 +8,7 @@ _Applies to: Patch My PC Cloud_
 
 The **Install Parameters** tool of the Patch My PC (PMPC) Cloud deployment wizard allows you to configure various installation parameters and arguments.
 
-!["Install Parameters" tool](../../../../_images/image-\(86\).png)
+!["Install Parameters" tool](/_images/image-(86).png)
 
 To add installation parameters:
 
@@ -26,4 +26,4 @@ If you do not want to configure any of the optional tabs under the **Tools** sec
 
 Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Click "Next" to move to the "Assignments" page](../../../../_images/image-\(87\).png)
+![Click "Next" to move to the "Assignments" page](/_images/image-(87).png)
