@@ -255,72 +255,53 @@ jobs:
                   return f'<blockquote class="wp-block-quote">\n{content}\n</blockquote>'
               return HINT_BLOCK.sub(_repl, s)
           
-          # ---------- NEW: enhance existing blockquotes with marker -> class ----------
-          # Detect first <p> as a marker (**Note**, **Tip**, **Important**, with optional colon)
-          # and convert <blockquote class="wp-block-quote"> -> add 'is-note' / 'is-tip' / 'is-important'
-          # Also removes the marker paragraph from inside the blockquote.
+          # ---------- NEW: enhance existing blockquotes with marker -> class (keep marker <p>) ----------
           MARKERS = {
-              'note': 'is-note',
-              'tip': 'is-tip',
-              'important': 'is-important',
-              'warning': 'is-warning',
-              'caution': 'is-caution',
-              'info': 'is-info',
+            'note': 'is-note',
+            'tip': 'is-tip',
+            'important': 'is-important',
+            'warning': 'is-warning',
+            'caution': 'is-caution',
+            'info': 'is-info',
           }
-          
-          # Matches a blockquote, capturing entire inner HTML
-          BQ = re.compile(
-              r'<blockquote\s+class="([^"]*\bwp-block-quote\b[^"]*)">\s*(.*?)\s*</blockquote>',
-              re.I | re.S
-          )
-          # First paragraph in the block
-          FIRST_P = re.compile(r'^\s*<p>(.*?)</p>\s*(.*)$', re.I | re.S)
+            
+            BQ = re.compile(
+            r'<blockquote\s+class="([^"]*\bwp-block-quote\b[^"]*)">\s*(.*?)\s*</blockquote>',
+            re.I | re.S
+            )
+            FIRST_P = re.compile(r'^\s*<p>(.*?)</p>', re.I | re.S)
           
           def strip_md_bold(s: str) -> str:
-              # remove **strong** or __strong__
-              s = re.sub(r'^\s*[\*_\s]*', '', s)
-              s = re.sub(r'[\*_\s]*\s*$', '', s)
-              s = re.sub(r'^\s*(\*\*|__)\s*', '', s)
-              s = re.sub(r'\s*(\*\*|__)\s*$', '', s)
-              return s.strip()
+                                 s = re.sub(r'^\s*(\*\*|__)\s*', '', s)
+                                 s = re.sub(r'\s*(\*\*|__)\s*$', '', s)
+                                 return s.strip()
           
           def detect_marker(text: str) -> str:
-              # Normalize: remove **, trailing colon, casefold
-              t = strip_md_bold(text)
-              t = re.sub(r':\s*$', '', t).strip().lower()
-              return t
+                                    t = strip_md_bold(re.sub(r'<[^>]+>', '', text))
+                                    t = re.sub(r':\s*$', '', t).strip().lower()
+                                    return t
           
           def enhance_blockquotes(s: str) -> str:
-              def _repl(m):
-                  classes = m.group(1)
-                  inner   = m.group(2)
-          
-                  fm = FIRST_P.match(inner)
-                  if not fm:
-                      return m.group(0)
-          
-                  first_p_html = fm.group(1)
-                  rest_html    = fm.group(2)
-          
-                  # Pull plain-ish text out of the first <p> (not perfect, but good enough)
-                  first_text = re.sub(r'<[^>]+>', '', first_p_html).strip()
-                  key = detect_marker(first_text)
-          
-                  if key in MARKERS:
-                      mod = MARKERS[key]
-                      # avoid duplicates
-                      class_list = classes.split()
-                      if mod not in class_list:
-                          classes = classes + " " + mod
-                      # drop the first <p> marker
-                      new_inner = rest_html.strip()
-                      if not new_inner:
-                          new_inner = ""  # allow empty
-                      return f'<blockquote class="{classes}">\n{new_inner}\n</blockquote>'
-                  else:
-                      return m.group(0)
-              return BQ.sub(_repl, s)
-          
+                                       def _repl(m):
+                                         classes = m.group(1)
+                                         inner   = m.group(2)
+                                         
+                                         # check first paragraph only; DO NOT remove it
+                                         fm = FIRST_P.search(inner)
+                                         if not fm:
+                                           return m.group(0)
+                                         
+                                         first_p_html = fm.group(1)
+                                         key = detect_marker(first_p_html)
+                                         if key in MARKERS:
+                                           mod = MARKERS[key]
+                                           class_list = classes.split()
+                                           if mod not in class_list:
+                                             classes = classes + " " + mod
+                                           return f'<blockquote class="{classes}">\n{inner}\n</blockquote>'
+                                         return m.group(0)
+                                       return BQ.sub(_repl, s)
+              
           # ---------- image normalizations (your existing logic) ----------
           html_img = re.compile(
               r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
