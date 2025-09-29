@@ -7,15 +7,15 @@ To create a Slack webhook notification in Patch My PC (PMPC) Cloud:
 1. Create the webhook if you haven’t already, as detailed in the [Creating a Slack Webhook](webhooks-reference/create-a-slack-webhook.md) process.
 2.  On the **Add Slack** screen, enter a unique name for the webhook in the **Webhook Name** field. For example, **Patch My PC**.\\
 
-    ![Entering a unique name for the webhook in the "Webhook Name" field](../../../_images/image-\(753\).png)
+    ![Entering a unique name for the webhook in the "Webhook Name" field](/_images/image-(753).png)
 3.  In the **Webhook URL** field, enter the unique URL of your Slack webhook and click **Save**.\\
 
-    ![Entering the unique URL for your Slack webhook](../../../_images/image-\(754\).png)
+    ![Entering the unique URL for your Slack webhook](/_images/image-(754).png)
 
     \
     The new webhook notification is shown under the **Webhook Notifications** section.\\
 
-    ![New webhook notification is shown under the "Webhook Notifications" section](../../../_images/image-\(1899\).png)
+    ![New webhook notification is shown under the "Webhook Notifications" section](/_images/image-(1899).png)
 
 > \*\*Tip\*\*
 >
@@ -23,14 +23,14 @@ To create a Slack webhook notification in Patch My PC (PMPC) Cloud:
 
 4.  Click **Save** to save the newly added notification.\\
 
-    ![Clicking "Save" to save the webhook](../../../_images/image-\(1905\).png)
+    ![Clicking "Save" to save the webhook](/_images/image-(1905).png)
 
     \
     The **Success – Notification created** notification is shown.\\
 
-    !["Success – Notification created" notification](../../../_images/image-\(1906\).png)
+    !["Success – Notification created" notification](/_images/image-(1906).png)
 
     \
     The portal auto-refreshes to show the new notification.\\
 
-    ![Portal auto-refreshes to show the new notification](../../../_images/image-\(1907\).png)
+    ![Portal auto-refreshes to show the new notification](/_images/image-(1907).png)

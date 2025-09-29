@@ -38,7 +38,7 @@ The next step will be to accept the EULA. Make sure you select the "I accept the
 
 When installing the product we provide an option called Intune Standalone mode. If you do **NOT** intend to use the product with Configuration Manager, ensure the option is checked and select next.
 
-![](../../_images/image-\(1089\).png%3E)
+![](/_images/image-(1089).png%3E)
 
 ### Select Installation Folder
 
@@ -66,4 +66,4 @@ Once the publisher has finished installing, just hit the finish button to close 
 >
 > By default, the \*\*Launch Patch My PC Publishing Service\*\* checkbox is checked, meaning when you click \*\*Finish\*\*, Publisher will open automatically.
 
-![](../../_images/image-\(1198\).png%3E)
+![](/_images/image-(1198).png%3E)

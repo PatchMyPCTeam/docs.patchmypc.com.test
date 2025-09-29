@@ -14,19 +14,19 @@ Once our on-premises Publisher has been connected and a Custom App has been crea
 2. Navigate to the ConfigMgr Apps or Intune Apps tab
 3.  Notice the "All Custom Products" treeview. Open the dropdown to reveal the newly created custom app.
 
-    ![](../../_images/12treeview.png)
+    ![](/_images/12treeview.png)
 4.  Enable the Custom App by checking the box next to the app, like any other product in the Patch My PC Catalog\\
 
-    ![](../../_images/13EnableProduct.png)
+    ![](/_images/13EnableProduct.png)
 5.  Certain right-click options are available too!\\
 
-    ![](../../_images/14rightclickoptions.png)
+    ![](/_images/14rightclickoptions.png)
 6.  Refresh the list of custom apps using the refresh button in the bottom-right corner\\
 
-    ![](../../_images/15Refresh.png)
+    ![](/_images/15Refresh.png)
 7.  Run a Publishing Service sync to publish your custom app.\\
 
-    ![](../../_images/16ConfigMgrAppCreated.png)
+    ![](/_images/16ConfigMgrAppCreated.png)
 
 ## Publish a Custom App to Intune
 
@@ -34,16 +34,16 @@ Once our on-premises Publisher has been connected and a Custom App has been crea
 2. Navigate to the Intune Apps tab
 3.  Notice the "All Custom Products" treeview. Open the dropdown to reveal the newly created custom app.\\
 
-    ![](../../_images/17IntuneApps.png)
+    ![](/_images/17IntuneApps.png)
 4.  Enable the Custom App by checking the box next to the app, like any other product in the Patch My PC Catalog\\
 
-    ![](../../_images/18SelectApps.png)
+    ![](/_images/18SelectApps.png)
 5.  Certain right-click options are available too!\\
 
-    ![](../../_images/09RightCLickOptions.png)
+    ![](/_images/09RightCLickOptions.png)
 6.  Refresh the list of custom apps using the refresh button in the bottom-right corner\\
 
-    ![](../../_images/20Refreshbutton.png)
+    ![](/_images/20Refreshbutton.png)
 7.  Run a Publishing Service sync to publish your custom app.\\
 
-    ![](../../_images/21Success.png)
+    ![](/_images/21Success.png)

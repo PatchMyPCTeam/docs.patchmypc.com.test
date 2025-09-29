@@ -51,7 +51,7 @@ f. **Update Only App -** Allows the Intune admin to add an **Update Only** assig
 >
 > See \[Create a Deployment Without Assignments]\(../create-a-cloud-deployment-without-assignments.md) for more details on deploying apps without assignments.
 
-![Choosing the desired assignment type](../../../_images/image-\(2386\).png)
+![Choosing the desired assignment type](/_images/image-(2386).png)
 
 > \*\*Note\*\*
 >
@@ -64,7 +64,7 @@ f. **Update Only App -** Allows the Intune admin to add an **Update Only** assig
 | Include | If checked, all of the items in this group will receive the assigned app.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Exclude | <p>If checked, all of the items in this group will not receive the assigned app.<br><br>Can be used in conjunction with <strong>Include</strong> to exclude a subset of devices when you have an <strong>Include</strong> of a superset of devices.<br><br>For example, you want to target all of your computers except for your test devices. To achieve this, you'd configure your Entra ID groups as follows:<br><br>o Check <strong>Include</strong> for your <strong>All Company Devices</strong> Entra ID group.<br>o Check <strong>Exclude</strong> for your <strong>Test Devices</strong> Entra ID group.</p> |
 
-![Choosing the relevant Entra ID security groups to target for this assignment](../../../_images/image-\(2387\).png)
+![Choosing the relevant Entra ID security groups to target for this assignment](/_images/image-(2387).png)
 
 > \*\*Note\*\*
 >
@@ -72,7 +72,7 @@ f. **Update Only App -** Allows the Intune admin to add an **Update Only** assig
 
 The **Assignments** page updates to show the newly added assignments, including their configuration.
 
-!["Assignments" page updates to show the newly added assignments](../../../_images/image-\(2388\).png)
+!["Assignments" page updates to show the newly added assignments](/_images/image-(2388).png)
 
 3. Make any of the following optional modifications to the assignment(s).
 
@@ -93,4 +93,4 @@ The **Assignments** page updates to show the newly added assignments, including 
 4. Add any additional assignments for this deployment by clicking **Add Assignment** and repeating the steps in this section.
 5.  If you are happy you have entered all of the details for the deployment correctly, click **Deploy** to deploy the app. However, we recommend you click **Next** to move to the [**Summary** ](cloud-summary-deployment-tab.md)tab, where you can verify the settings for this deployment before you deploy this app.\\
 
-    ![Clicking "Deploy" to deploy the app](../../../_images/image-\(2390\).png)
+    ![Clicking "Deploy" to deploy the app](/_images/image-(2390).png)

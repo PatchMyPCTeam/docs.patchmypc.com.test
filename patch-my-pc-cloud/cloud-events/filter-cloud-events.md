@@ -8,21 +8,21 @@ Use a Filter to help you find only the relevant Events you require.
 
 1.  Click the funnel button in the header of the **Events** page.\\
 
-    ![Clicking the funnel button](../../_images/image-\(1766\).png)
+    ![Clicking the funnel button](/_images/image-(1766).png)
 
     \
     The filter sidebar opens.\\
 
-    ![Filter sidebar opens](../../_images/image-\(1767\).png)
+    ![Filter sidebar opens](/_images/image-(1767).png)
 2.  Configure your required filters, then click **Apply All Filters**.\\
 
-    ![Clicking "Apply All Filters"](../../_images/image-\(1768\).png)
+    ![Clicking "Apply All Filters"](/_images/image-(1768).png)
 
     \
     \
     Only the Events matching the filter criteria are displayed.\\
 
-    ![Only events matching the filtered criteria are shown](../../_images/image-\(1769\).png)
+    ![Only events matching the filtered criteria are shown](/_images/image-(1769).png)
 
 > \*\*Note\*\*
 >
@@ -43,7 +43,7 @@ Use a Filter to help you find only the relevant Events you require.
 1.  Click **Clear All** at the bottom of the filter box or navigate to a different page of the portal.\
     \\
 
-    ![Using "Clear All" to remove a filter](../../_images/image-\(1771\).png)
+    ![Using "Clear All" to remove a filter](/_images/image-(1771).png)
 2.  Verify the green dot beside the **Filter** button has gone.\\
 
-    ![Verifying the green dot has gone](../../_images/image-\(1500\).png)
+    ![Verifying the green dot has gone](/_images/image-(1500).png)

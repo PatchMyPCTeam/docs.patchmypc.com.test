@@ -38,14 +38,14 @@ To install the Patch My PC (PMPC) Client:
 
 1. Navigate to **Settings | Client Deployment**
 
-![Navigating to "Settings | Client Deployment"](../../_images/image-\(2724\).png)
+![Navigating to "Settings | Client Deployment"](/_images/image-(2724).png)
 
 The **Client Deployment** screen is shown, which is split into two sections:
 
 * **Preview Version Deployment –** Shows details of the preview version of our Client and which Entra ID groups it is targeted to (if relevant).
 * **Production Version Deployment -** Shows details of the production version of our Client and which Entra ID groups it is targeted to (if relevant).
 
-!["Client Deployment" screen](../../_images/image-\(2725\).png)
+!["Client Deployment" screen](/_images/image-(2725).png)
 
 2. To deploy the Client (**Preview** or **Production**), click the **Groups** dropdown and select the relevant Entra ID group(s) you want to deploy the Client to.
 
@@ -55,19 +55,19 @@ The **Client Deployment** screen is shown, which is split into two sections:
 >
 > See [Add groups to organize users and devices](https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/groups-add) for more details on creating and working with groups in Intune.
 
-![Selecting the Entra ID Group(s) you want to deploy the client to](../../_images/image-\(2726\).png)
+![Selecting the Entra ID Group(s) you want to deploy the client to](/_images/image-(2726).png)
 
 3. Click **Save**
 
-![Clicking "Save"](../../_images/image-\(2727\).png)
+![Clicking "Save"](/_images/image-(2727).png)
 
 The **Success** notification is shown.
 
-!["Success – Created" notification](../../_images/image-\(2728\).png)
+!["Success – Created" notification](/_images/image-(2728).png)
 
 Once the Win32 app for the Client has been created in Intune, the status updates to **Success** and the Client will be deployed to the targeted devices.
 
-![Client deployed successfully](../../_images/image-\(2729\).png)
+![Client deployed successfully](/_images/image-(2729).png)
 
 As the Client is installed on the targeted devices, the number of **Devices Managed** shown in the **Dashboard** will increase.
 
@@ -101,11 +101,11 @@ In this scenario, you can also uninstall the Client by:
 
 1. Clicking the relevant **Uninstall Client** button.
 
-![Clicking the relevant "Uninstall Client" button](../../_images/image.png)
+![Clicking the relevant "Uninstall Client" button](/_images/image.png "Clicking the relevant \"Uninstall Client\" button")
 
 2. Select the relevant group.
 
-![Clicking the relevant "Uninstall Client" button](../../_images/image-\(1\).png)
+![Clicking the relevant "Uninstall Client" button](/_images/image-(1).png)
 
 > \*\*Note\*\*
 >
@@ -114,11 +114,11 @@ In this scenario, you can also uninstall the Client by:
 3. Add any additional Groups as required.
 4. Click **Save**.
 
-![Clicking "Save"](../../_images/image-\(2\).png)
+![Clicking "Save"](/_images/image-(2).png)
 
 The **Client Deployment** page is displayed along with the **Success – Updated** notification.
 
-!["Success | Updated" notification](../../_images/image-\(3\).png)
+!["Success | Updated" notification](/_images/image-(3).png)
 
 The Client will then be uninstalled from all the devices within the selected Entra ID Group(s).
 
@@ -128,15 +128,15 @@ If you want to delete the entire deployment used to deploy the Client:
 
 1. Click the red trash can beside the relevant Client version whose deployment you wish to delete.
 
-![Clicking the red trash can beside the relevant Client version whose deployment you wish to delete](../../_images/image-\(4\).png)
+![Clicking the red trash can beside the relevant Client version whose deployment you wish to delete](/_images/image-(4).png)
 
 2. On the **Are you sure?** dialog box, click **Submit**
 
-![Clicking "Submit" on the "Are you sure?" dialog](../../_images/image-\(5\).png)
+![Clicking "Submit" on the "Are you sure?" dialog](/_images/image-(5).png)
 
 The **Client Deployment** screen is redisplayed along with the **Success – Deleted** notification.
 
-!["Client Deployment" screen is redisplayed along with the "Success – Deleted" notification](../../_images/image-\(6\).png)
+!["Client Deployment" screen is redisplayed along with the "Success – Deleted" notification](/_images/image-(6).png)
 
 > \*\*Important\*\*
 >

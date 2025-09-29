@@ -6,19 +6,19 @@ To edit an existing Template:
 
 1. Navigate to **Settings | Templates**
 
-![Navigating to "Settings | Templates"](../../../_images/image-\(268\).png)
+![Navigating to "Settings | Templates"](/_images/image-(268).png)
 
 2. On the **Templates** page, click **Edit** beside the relevant template.
 
-![Clicking "Edit" beside the relevant Template](../../../_images/image-\(53\).png)
+![Clicking "Edit" beside the relevant Template](/_images/image-(53).png)
 
 3. Make the required changes, then click **Save** to save them.
 
-![Clicking "Save" to save changes](../../../_images/image-\(54\).png)
+![Clicking "Save" to save changes](/_images/image-(54).png)
 
 The **Templates** page is redisplayed along with the **Success - Template “<**_**template\_name**_**>" has been updated** notification.
 
-![Clicking "Save" to save changes](../../../_images/image-\(55\).png)
+![Clicking "Save" to save changes](/_images/image-(55).png)
 
 > \*\*Note\*\*
 >

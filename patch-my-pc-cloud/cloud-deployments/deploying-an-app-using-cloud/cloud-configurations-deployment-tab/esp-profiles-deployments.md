@@ -22,11 +22,11 @@ To configure a PMPC Cloud deployment to use an ESP Profile:
 
 2. Click the **ESP Profiles** tool.
 
-![Clicking the "ESP Profiles" tool](../../../../_images/image-\(56\).png)
+![Clicking the "ESP Profiles" tool](/_images/image-(56).png)
 
 3. Scroll down to the **ESP Profiles** section.
 
-![Scrolling down to the "ESP Profiles" section](../../../../_images/image-\(57\).png)
+![Scrolling down to the "ESP Profiles" section](/_images/image-(57).png)
 
 4. In the **Add Profile** field, either:
    1. Start typing the name of the relevant ESP Profile, then click the checkbox beside it to select it.
@@ -38,11 +38,11 @@ To configure a PMPC Cloud deployment to use an ESP Profile:
 >
 > !\["Total limit reached" tooltip]\(/\_images/image-(235 "\\"Total limit reached\\" tooltip").png>)
 
-![Selecting the ESP Profile to add this deployment to](../../../../_images/image-\(58\).png)
+![Selecting the ESP Profile to add this deployment to](/_images/image-(58).png)
 
 The selected ESP Profile(s) are added to the **Add Profile** field.
 
-![Selected ESP Profiles added to the "Add Profile" field](../../../../_images/image-\(59\).png)
+![Selected ESP Profiles added to the "Add Profile" field](/_images/image-(59).png)
 
 > \*\*Tip\*\*
 >
@@ -78,4 +78,4 @@ The selected ESP Profile(s) are added to the **Add Profile** field.
    \
    Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking "Next" to move to the "Assignments" page](../../../../_images/image-\(60\).png)
+![Clicking "Next" to move to the "Assignments" page](/_images/image-(60).png)

@@ -17,7 +17,7 @@ To enable Preview Features:
 1. Navigate to the **Company** node.
 2. Scroll down to the **Preview Features** section.
 
-![Scrolling down to the "Preview Features" section](../../../_images/image-\(2249\).png)
+![Scrolling down to the "Preview Features" section](/_images/image-(2249).png)
 
 > \*\*Note\*\*
 >
@@ -27,12 +27,12 @@ To enable Preview Features:
 
 3.  Click to check the **Enable Preview features** checkbox.\\
 
-    ![Checking the "Enable Preview features" checkbox.](../../../_images/image-\(2251\).png)
+    ![Checking the "Enable Preview features" checkbox.](/_images/image-(2251).png)
 4.  Click **Save** to save your changes.\\
 
-    ![Clicking "Save" to save your changes](../../../_images/image-\(2252\).png)
+    ![Clicking "Save" to save your changes](/_images/image-(2252).png)
 
     \
     The **Success - Company information updated** notification is shown.
 
-!["Success - Company information updated" notification](../../../_images/image-\(2253\).png)
+!["Success - Company information updated" notification](/_images/image-(2253).png)

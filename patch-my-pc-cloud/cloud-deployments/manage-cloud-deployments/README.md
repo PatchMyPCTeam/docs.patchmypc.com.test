@@ -9,12 +9,12 @@ To manage deployments:
 1. Sign in to the Portal at [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
 2.  Navigate to the **Deployments** node.\\
 
-    ![Navigating to the "Deployments" page](../../../_images/image-\(1457\).png)
+    ![Navigating to the "Deployments" page](/_images/image-(1457).png)
 
     \
     The **Deployments** page is displayed.\\
 
-    ![The "Deployments" page](../../../_images/image-\(1458\).png)
+    ![The "Deployments" page](/_images/image-(1458).png)
 
 Clicking the ellipsis (**⋮**) beside a deployment opens the management menu, allowing you to:
 

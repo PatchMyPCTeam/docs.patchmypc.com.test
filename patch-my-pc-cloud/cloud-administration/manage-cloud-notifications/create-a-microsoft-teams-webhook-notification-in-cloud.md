@@ -14,7 +14,7 @@ To create a Microsoft Teams (Teams) webhook notification in Patch My PC (PMPC) C
     \
     The new webhook notification is shown under the **Webhook Notifications** section.\\
 
-    ![New webhook under the "Webhook Notifications section."](../../../_images/image-\(1908\).png)
+    ![New webhook under the "Webhook Notifications section."](/_images/image-(1908).png)
 
 > \*\*Tip\*\*
 >
@@ -22,14 +22,14 @@ To create a Microsoft Teams (Teams) webhook notification in Patch My PC (PMPC) C
 
 4.  Click **Save** to save the newly added notification.\\
 
-    ![Clicking "Save" to save the new webhook notification](../../../_images/image-\(1910\).png)
+    ![Clicking "Save" to save the new webhook notification](/_images/image-(1910).png)
 
     \
     The **Success – Notification created** notification is shown.\\
 
-    !["Success – Notification created" notification](../../../_images/image-\(1911\).png)
+    !["Success – Notification created" notification](/_images/image-(1911).png)
 
     \
     The portal auto-refreshes to show the new notification.\\
 
-    ![The portal auto-refreshes to show the new notification.](../../../_images/image-\(1912\).png)
+    ![The portal auto-refreshes to show the new notification.](/_images/image-(1912).png)

@@ -26,7 +26,7 @@ If the required app(s) (known as the _parent_) has not already been installed on
 >
 > As per Intune, you can create a maximum of 100 dependencies, which includes the dependencies of any included dependencies, as well as the app itself. See [Step 5: Dependencies](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-5-dependencies) of [Add, assign, and monitor a Win32 app in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add) for more information.
 
-!["Dependencies" tool](../../../../_images/image-\(88\).png)
+!["Dependencies" tool](/_images/image-(88).png)
 
 > \*\*Note\*\*
 >
@@ -36,17 +36,17 @@ To add a dependency:
 
 1. Click the **Dependencies** tool.
 
-![Clicking the "Dependencies" tool](../../../../_images/image-\(89\).png)
+![Clicking the "Dependencies" tool](/_images/image-(89).png)
 
 2. From the **Add Dependencies** field, either:
    1. Start typing the name of the relevant app that this app depends on already being successfully installed on the target device.
    2. Click the dropdown and select the relevant app that this app depends on already being successfully installed on the target device.
 
-![Selecting the relevant app that this app depends on already being successfully installed on the target device](../../../../_images/image-\(90\).png)
+![Selecting the relevant app that this app depends on already being successfully installed on the target device](/_images/image-(90).png)
 
 The selected app appears under the **Parent Deployment** section.
 
-![Selected app appearing under the "Parent Deployment" section](../../../../_images/image-\(91\).png)
+![Selected app appearing under the "Parent Deployment" section](/_images/image-(91).png)
 
 > \*\*Note\*\*
 >
@@ -86,4 +86,4 @@ The selected app appears under the **Parent Deployment** section.
 
     Otherwise, click on the relevant tab under **Tools** to configure the required settings, which are explained in the relevant process.
 
-![Clicking "Next" to move to the "Assignments" page](../../../../_images/image-\(92\).png)
+![Clicking "Next" to move to the "Assignments" page](/_images/image-(92).png)

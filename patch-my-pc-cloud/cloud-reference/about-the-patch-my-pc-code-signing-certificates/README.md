@@ -29,7 +29,7 @@ There are two distinct use cases that require separate certificates in Patch My 
 
 Specifically for Intune detection and requirement scripts, **AgentExecutor.exe** (the Intune client process responsible for calling Win32 app detection or requirement scripts) runs in session 0; it is not visible by the logged on user and PowerShell is awaiting input by the user to accept the code-signing certificate.
 
-![](../../../_images/image-\(1832\).png)
+![](/_images/image-(1832).png)
 
 After 60 minutes, the Intune Management Extension service will timeout and terminate the **powershell.exe** process with the below log entries in the **IntuneManagementExtension.log**.
 
@@ -37,7 +37,7 @@ After 60 minutes, the Intune Management Extension service will timeout and termi
 >
 > Microsoft do not expose this timeout to be configurable in Intune.
 
-![](../../../_images/image-\(1833\).png)
+![](/_images/image-(1833).png)
 
 ### Use Case 2: Patch My PC Helper Scripts
 

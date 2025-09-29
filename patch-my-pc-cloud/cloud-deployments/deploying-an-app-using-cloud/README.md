@@ -35,7 +35,7 @@ To deploy an app using PMPC Cloud:
 >
 > Use the \*\*Search\*\* field to help you locate the app.
 
-!["App Catalog" page](../../../_images/image-\(193\).png)
+!["App Catalog" page](/_images/image-(193).png)
 
 > \*\*Note\*\*
 >
@@ -45,7 +45,7 @@ To deploy an app using PMPC Cloud:
 
 3.  Click the app to open its properties.\\
 
-    ![Application's "Properties" page](../../../_images/image-\(194\).png)
+    ![Application's "Properties" page](/_images/image-(194).png)
 4. Click **Deploy** to start the Deployment Wizard.
 
 > \*\*Note\*\*
@@ -54,6 +54,6 @@ To deploy an app using PMPC Cloud:
 >
 > Also, if the app you are deploying is already published by our on-premises Publisher, you will see the \*\*This app is already deployed\*\* warning dialog stating that deploying the same app through both Publisher and PMPC Cloud can cause potential issues if there are differences between the deployment configurations. We therefore strongly recommend you only deploy an app through either Publisher PMPC Cloud to avoid such issues.
 
-![Click "Deploy" to start the Deployment Wizard](../../../_images/image-\(195\).png)
+![Click "Deploy" to start the Deployment Wizard](/_images/image-(195).png)
 
 The [General Information](cloud-general-information-deployment-tab.md) tab is displayed, which needs to be completed.

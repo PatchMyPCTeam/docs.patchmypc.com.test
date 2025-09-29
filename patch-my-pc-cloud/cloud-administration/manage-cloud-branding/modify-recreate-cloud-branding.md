@@ -6,7 +6,7 @@ Once you have created a branding app in Patch My PC (PMPC) Cloud, you can modify
 
 1. Navigate to **Settings | Branding**
 
-![Navigating  to TSettings | Branding"](../../../_images/image-\(2411\).png)
+![Navigating  to TSettings | Branding"](/_images/image-(2411).png)
 
 2. Click the ellipsis (`⋮`) button beside the relevant branding app and select the action you want to perform:
    1. [Edit](modify-recreate-cloud-branding.md#edit-branding)
@@ -28,28 +28,28 @@ If you want to reset the logo used by a branding app:
 
 1. Click **Edit** on the ellipsis (`⋮`) menu.
 
-![Clicking the ellipsis (⋮) button beside the relevant branding app and selecting the action you want to perform:](../../../_images/image-\(2659\).png)
+![Clicking the ellipsis (⋮) button beside the relevant branding app and selecting the action you want to perform:](/_images/image-(2659).png)
 
 2. In the **Company Logo** area, click **Use Default**.
 
-![Clicking "Use Default" in the "Company Logo" area](../../../_images/image-\(2413\).png)
+![Clicking "Use Default" in the "Company Logo" area](/_images/image-(2413).png)
 
 The **Branding** page resets just the logo to the default for this branding app.
 
-![Branding logo reset](../../../_images/image-\(2414\).png)
+![Branding logo reset](/_images/image-(2414).png)
 
 3. Make any other required changes.
 4. Click **Save** to save your changes to Intune, which will deploy the modified version to all of the resources this branding app is assigned to.
 
-![Clicking "Save" to save your changes](../../../_images/image-\(2415\).png)
+![Clicking "Save" to save your changes](/_images/image-(2415).png)
 
 The **Success - Branding updated** notification is shown.
 
-!["Success - Branding updated" notification](../../../_images/image-\(2680\).png)
+!["Success - Branding updated" notification](/_images/image-(2680).png)
 
 Once your branding app has been updated with the default PMPC logo, the **Status** and **Last Update** fields will be updated to show when this branding app was last updated.
 
-!["Status" and "Last Update" fields updated to show when this branding app was last updated](../../../_images/image-\(2681\).png)
+!["Status" and "Last Update" fields updated to show when this branding app was last updated](/_images/image-(2681).png)
 
 > \*\*Tip\*\*
 >
@@ -69,19 +69,19 @@ To recreate branding:
 
 1. Click **Recreate** on the ellipsis (`⋮`) menu.
 
-![Clicking "Recreate" on the ellipsis (⋮) menu](../../../_images/image-\(2682\).png)
+![Clicking "Recreate" on the ellipsis (⋮) menu](/_images/image-(2682).png)
 
 2. On the **Are you sure you want to recreate <**_**branding\_app\_name**_**>** dialog box click **Yes**.
 
-![Clicking "Yes"](../../../_images/image-\(2503\).png)
+![Clicking "Yes"](/_images/image-(2503).png)
 
 The **Success - Recreating the branding <**_**branding\_app\_name**_**>** notification is shown.
 
-![](../../../_images/image-\(2683\).png)
+![](/_images/image-(2683).png)
 
 Once the branding app has been recreated, the **Status** and **Last update** fields update to show when this branding app was last modified.
 
-!["Status" and "Last update" fields updated to show when this branding app was last modified](../../../_images/image-\(2684\).png)
+!["Status" and "Last update" fields updated to show when this branding app was last modified](/_images/image-(2684).png)
 
 > \*\*Tip\*\*
 >
