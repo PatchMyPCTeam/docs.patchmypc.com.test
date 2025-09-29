@@ -169,13 +169,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python3 - <<'PY'
-          import textwrap
-          code = r"""
+          
+          # Write the Python to a temp file to avoid heredoc indentation issues
+          cat > normalize_step4.py <<'PY'
           import re, glob, os
           from urllib.parse import unquote
           from html import unescape
-          
+    
           # -------- front matter helpers --------
           def split_front_matter(text):
             if text.startswith('\ufeff'):
@@ -188,12 +188,12 @@ jobs:
               body = text[m.end():]
               return fm, body
             return "", text
-          
+    
           def join_front_matter(fm, body):
             return (fm or "") + body
-          
+    
           IMG_EXT = r"(?:png|jpe?g|gif|webp|svg|gifv)"
-          
+    
           def clean_filename_from_url(url):
             if not url:
               return "unknown.png"
@@ -206,26 +206,27 @@ jobs:
               base, ext = bn.rsplit(".", 1)
             else:
               base, ext = bn, ""
+            # Collapse stray quoted fragment inside trailing (...) and keep the parens
             base = re.sub(r'\(\s*([^()"]*?)\s+"(?:[^"\\]|\\.)*"\s*\)$', r'(\1)', base)
             pm = re.search(r'\(([^()]*)\)$', base)
             if pm:
               inner = re.sub(r'\s+', ' ', pm.group(1)).strip()
               base = base[:pm.start()] + f'({inner})'
-            base = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', base)
-            base = re.sub(r'["“”].*$', '', base)
+            base = re.sub(r'\s+"(?:[^"\\]|\\.)*"\s*', '', base)  # strip space+"title"
+            base = re.sub(r'["“”].*$', '', base)                # cut after any stray quote
             base = re.sub(r"\s+", "-", base)
             base = re.sub(r"[^A-Za-z0-9_\-()]", "-", base)
             base = re.sub(r"-{2,}", "-", base).strip("-")
             return f"{base}.{ext.lower()}" if ext else base
-          
+    
           def to_root_image_url(url):
             return "/_images/" + clean_filename_from_url(url)
-          
+    
           def norm_text(s):
             t = unescape(s or "")
             t = t.replace("“", '"').replace("”", '"').replace("’", "'")
             return t
-          
+    
           def build_md(alt, url):
             alt = norm_text(alt or "")
             alt_md = alt.replace("]", r"\]")
@@ -234,15 +235,15 @@ jobs:
               return f'![{alt_md}]({to_root_image_url(url)} "{title}")'
             else:
               return f'![{alt_md}]({to_root_image_url(url)})'
-          
+    
           md_files = [p for g in ("**/*.md","**/*.MD","**/*.mdx","**/*.MDX","**/*.markdown","**/*.MARKDOWN")
           for p in glob.glob(g, recursive=True)]
-          
+    
           # ---------- GitBook hint blocks -> Gutenberg blockquote ----------
           HINT_BLOCK = re.compile(r'{%\s*hint\b[^%]*%}(.*?){%\s*endhint\s*%}', re.I | re.S)
           MD_LINK    = re.compile(r'\[([^\]]+)\]\((https?://[^)]+)\)')
           BARE_URL   = re.compile(r'^(https?://\S+)$')
-          
+    
           def convert_hint_blocks(s):
             def _repl(m):
               inner = m.group(1).strip()
@@ -260,9 +261,9 @@ jobs:
               content = "\n".join(paras) if paras else "<p></p>"
               return f'<blockquote class="wp-block-quote">\n{content}\n</blockquote>'
             return HINT_BLOCK.sub(_repl, s)
-          
+    
           # ---------- enhance blockquotes with marker -> class (keep marker <p>) ----------
-              MARKERS = {
+          MARKERS = {
               'note': 'is-note',
               'tip': 'is-tip',
               'important': 'is-important',
@@ -270,24 +271,29 @@ jobs:
               'caution': 'is-caution',
               'info': 'is-info',
           }
-    
+            
+            # Match blockquote with a class containing wp-block-quote; capture classes and inner HTML
             BQ = re.compile(
             r'<blockquote\s+class="([^"]*\bwp-block-quote\b[^"]*)">\s*(.*?)\s*</blockquote>',
             re.I | re.S
             )
+            
+            # First paragraph inside the blockquote (no removal, just read it)
             FIRST_P = re.compile(r'^\s*<p>(.*?)</p>', re.I | re.S)
-    
+            
             def _strip_md_bold(s):
+              # remove **…** or __…__ only at edges
               s = re.sub(r'^\s*(\*\*|__)\s*', '', s)
               s = re.sub(r'\s*(\*\*|__)\s*$', '', s)
               return s.strip()
-    
+            
             def _detect_marker(text_html):
+              # Get plain-ish text from the first <p>
               t = re.sub(r'<[^>]+>', '', text_html)
               t = _strip_md_bold(t)
               t = re.sub(r':\s*$', '', t).strip().lower()
               return t
-    
+            
             def enhance_blockquotes_keep_marker(html):
               def _repl(m):
                 classes = m.group(1)
@@ -300,12 +306,13 @@ jobs:
                 mod = MARKERS.get(key)
                 if not mod:
                   return m.group(0)
+                # add class if missing
                 class_list = classes.split()
                 if mod not in class_list:
                   classes = classes + " " + mod
                 return f'<blockquote class="{classes}">\n{inner}\n</blockquote>'
               return BQ.sub(_repl, html)
-    
+            
             # ---------- image/link normalizations ----------
             html_img = re.compile(
             r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
@@ -343,10 +350,10 @@ jobs:
                 raw = f.read()
               fm, s = split_front_matter(raw)
               o = s
-    
+              
               # 1) HTML <img> → strict MD
               s = html_img.sub(lambda m: build_md(m.group(2) or "", m.group(1)), s)
-    
+              
               # 1.5) GitBook inline MD images → strict MD to /_images
               s = re.compile(
               r'!\[([^\]]*)\]\('
@@ -355,13 +362,13 @@ jobs:
               r'>?'
               r'(?:\s+"[^"]*")?'
               r'\s*\)', re.I).sub(lambda m: build_md(m.group(1), m.group(2)), s)
-    
+              
               # 2) Inline MD (general) → strict MD (title = alt)
               s = md_img_inline.sub(lambda m: build_md(m.group(1), m.group(3)), s)
-    
+              
               # 2.5) GitBook hint blocks → Gutenberg blockquote
               s = convert_hint_blocks(s)
-    
+              
               # 2.6) Sanitize ANY Markdown image URL (fix spaces, stray '>', etc.)
               def _sanitize_md_img(m):
                 alt = m.group(1)
@@ -384,14 +391,14 @@ jobs:
                   rid = m.group(2).strip()
                   url = m.group(4).strip()
                   defs[rid] = url
-    
+              
               # 4) Reference usages → strict MD
               def repl_ref_use(m):
                 alt, rid = m.group(1), m.group(2).strip()
                 url = defs.get(rid)
                 return build_md(alt, url) if url else m.group(0)
               s = md_img_ref_use.sub(repl_ref_use, s)
-    
+              
               # 5) Reference defs to /_images/<slug>
               def rewrite_def_line(ln):
                 m = ref_def_loose.search(ln)
@@ -420,22 +427,21 @@ jobs:
               
               # 8) Enhance blockquotes (add modifier class; keep marker <p>)
               s = enhance_blockquotes_keep_marker(s)
-    
+              
               if s != o:
                 with open(path, "w", encoding="utf-8", newline="") as f:
                   f.write(join_front_matter(fm, s))
-                print(f"Fixed: { path }")
-                     any_changed = True
-          
-             if not any_changed:
-                 print("No image links or blockquotes needed normalization.")
-            """
-            exec(textwrap.dedent(code), {})
+                print(f"Fixed: %s" % path)
+                any_changed = True
+            
+            if not any_changed:
+              print("No image links or blockquotes needed normalization.")
             PY
-  
-  
-  
-  # FINAL PATCH: strip quoted fragments inside filename parentheses before .ext
+            
+            python3 normalize_step4.py
+    
+
+    # FINAL PATCH: strip quoted fragments inside filename parentheses before .ext
       - name: Final fix — collapse ("…") inside filenames
         shell: bash
         run: |
