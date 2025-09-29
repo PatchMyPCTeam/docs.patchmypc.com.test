@@ -9,24 +9,24 @@ All user company-related tasks are performed from the **Company** node of the po
 1. Sign in in to the PMPC portal [https://portal.patchmypc.com/](https://portal.patchmypc.com/).
 2. Navigate to **Settings | Company**
 
-![Navigating to "Settings | Company"](/_images/image-(678).png "Navigating to “Settings | Company”")
+![Navigating to "Settings | Company"](../../../_images/image-\(678\).png)
 
 The **Company** screen is then displayed.
 
-<blockquote class="wp-block-quote is-note">
-<p>The **Usage** tab shown in the screenshots in this article is a new feature that will be released soon.</p>
-</blockquote>
+> \*\*Note\*\*
+>
+> The \*\*Usage\*\* tab shown in the screenshots in this article is a new feature that will be released soon.
 
-!["Company" screen](/_images/image-(2688).png "“Company” screen")
+!["Company" screen](../../../_images/image-\(2688\).png)
 
-<blockquote class="wp-block-quote is-note">
-<p>See [Company Reference](cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.</p>
-</blockquote>
+> \*\*Note\*\*
+>
+> See \[Company Reference]\(cloud-company-reference.md) for more details on each of the available settings on this screen and their purpose.
 
 3. Make any required changes, then click **Save**.
 
-![Clicking "Save" to save changes](/_images/image-(2687).png "Clicking &#x22;Save&#x22; to save changes")
+![Clicking "Save" to save changes](../../../_images/image-\(2687\).png)
 
 The **Success - Company information updated** notification is shown.
 
-!["Success - Company information updated" notification](/_images/image-(2689).png "&#x22;Success - Company information updated&#x22; notification")
+!["Success - Company information updated" notification](../../../_images/image-\(2689\).png)
