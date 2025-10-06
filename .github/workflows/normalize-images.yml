@@ -241,22 +241,34 @@ jobs:
 
           def convert_hint_blocks(s: str) -> str:
               def _repl(m):
-                  inner = m.group(1).strip()
-                  paras = []
-                  for line in inner.splitlines():
-                      line = line.strip()
-                      if not line:
-                          continue
-                      line = MD_LINK.sub(r'<a href="\2">\1</a>', line)
-                      bu = BARE_URL.match(line)
-                      if bu:
-                          u = bu.group(1)
-                          line = f'<a href="{u}">{u}</a>'
-                      paras.append(f"<p>{line}</p>")
-                  content = "\n".join(paras) if paras else "<p></p>"
-                  return f'<blockquote class="wp-block-quote">\n{content}\n</blockquote>'
+                inner = m.group(1).strip()
+                
+                # Collect non-empty lines as-is
+                raw_lines = [ln.strip() for ln in inner.splitlines() if ln.strip()]
+                
+                # Detect **Tip** / **Note** / **Important** (case-insensitive, optional colon)
+                cls_suffix = ""
+                if raw_lines:
+                  mlabel = re.match(r'^\*\*(Tip|Note|Important)\*\*:?\s*$', raw_lines[0], re.I)
+                  if mlabel:
+                    cls_suffix = " " + mlabel.group(1).lower()  # -> " tip" | " note" | " important"
+                
+                # Preserve existing behavior for links/URLs and paragraphization
+                paras = []
+                for line in raw_lines:
+                  line = MD_LINK.sub(r'<a href="\2">\1</a>', line)
+                  bu = BARE_URL.match(line)
+                  if bu:
+                    u = bu.group(1)
+                    line = f'<a href="{u}">{u}</a>'
+                  paras.append(f"<p>{line}</p>")
+                
+                content = "\n".join(paras) if paras else "<p></p>"
+                return f'<blockquote class="wp-block-quote{cls_suffix}">\n{content}\n</blockquote>'
+          
               return HINT_BLOCK.sub(_repl, s)
-
+    
+    
           html_img = re.compile(
               r'<img\b[^>]*\bsrc=["\']([^"\']+)["\'][^>]*?(?:\balt=["\']([^"\']*)["\'])?[^>]*>',
               re.I
