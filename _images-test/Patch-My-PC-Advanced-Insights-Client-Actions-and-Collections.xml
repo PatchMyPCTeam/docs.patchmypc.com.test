@@ -1,0 +1,9 @@
+<SMS_Roles>
+  <SMS_Role CopiedFromID="SMS0001R" RoleName="Patch My PC Advanced Insights Client Actions and Collections" RoleDescription="Grants rights to the Patch My PC Advanced Insights website to invoke client actions, remote control, modify collections, create and run scripts, and extend hardware inventory.">
+    <Operations>
+      <Operation GrantedOperations="822087779" ObjectTypeID="1" />
+      <Operation GrantedOperations="805307399" ObjectTypeID="44" />
+      <Operation GrantedOperations="263171" ObjectTypeID="213" />
+    </Operations>
+  </SMS_Role>
+</SMS_Roles>
