@@ -426,4 +426,6 @@ class PMPC_BrowserExtension : SMS_Class_Template
     String     User;
     [ SMS_Report (TRUE) ]
     String     Version;
+    [ SMS_Report (TRUE) ]
+    String     ID;
 };
