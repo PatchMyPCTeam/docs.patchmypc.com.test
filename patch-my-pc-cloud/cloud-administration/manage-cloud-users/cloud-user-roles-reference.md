@@ -9,12 +9,14 @@ Use the following tables to help you decide which role you should assign a user 
 <table data-header-hidden><thead><tr><th width="137"></th><th width="100"></th><th width="146"></th></tr></thead><tbody><tr><td><a href="cloud-user-roles-reference.md#app-catalog">App Catalog</a></td><td><a href="cloud-user-roles-reference.md#discovery">Discovery</a></td><td><a href="cloud-user-roles-reference.md#deployments">Deployments</a></td></tr><tr><td><a href="cloud-user-roles-reference.md#events">Events</a></td><td><a href="cloud-user-roles-reference.md#migration">Migration</a></td><td><a href="cloud-user-roles-reference.md#settings">Settings</a></td></tr></tbody></table>
 
 ### App Catalog
+<div class="table-responsive">
 
 | Functionality    | Read-Only | Custom App Admin | Intune App Admin | Full Admin     | Full Admin with Access Management |
 | ---------------- | --------- | ---------------- | ---------------- | -------------- | --------------------------------- |
 | Patch My PC Apps | Read      | Read             | Read             | Read           | Read                              |
 | Custom Apps      | Read      | Read and Write   | Read             | Read and Write | Read and Write                    |
 | Binary Free Apps | Read      | Read             | Read and Write   | Read and Write | Read and Write                    |
+</div>
 
 ### Deployments
 
